@@ -8,7 +8,7 @@ Email: [info@freifunk.muenchen.net](info@freifunk.muenchen.net)
 
 Twitter: [https://twitter.com/FreifunkMUC](https://twitter.com/FreifunkMUC)
 
-IRC: [irc://ray.blafasel.de/#freifunk](irc://ray.blafasel.de/#freifunk)
+IRC: [irc://space.blafasel.de/#freifunk](irc://space.blafasel.de/#freifunk)
 
 Impressum:
 
