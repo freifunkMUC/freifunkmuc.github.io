@@ -1,0 +1,12 @@
+# Site settings
+title: Freifunk München
+email: 
+description: "Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München"
+baseurl: ""
+url: ""
+twitter_username: FreifunkMUC
+github_username:  FreifunkMUC
+
+# Build settings
+markdown: kramdown
+permalink: pretty
