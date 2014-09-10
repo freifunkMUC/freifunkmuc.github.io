@@ -4,7 +4,7 @@ title: Kontakt
 permalink: /kontakt/
 ---
 
-Email: [info@freifunk.muenchen.net](info@freifunk.muenchen.net)
+Email: [muenchen@freifunk.net](muenchen@freifunk.net)
 
 Twitter: [https://twitter.com/FreifunkMUC](https://twitter.com/FreifunkMUC)
 
