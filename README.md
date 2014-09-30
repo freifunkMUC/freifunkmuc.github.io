@@ -1,1 +1,1 @@
-Zu erreichen unter: http://freifunkmuc.github.io/
+Zu erreichen unter: http://freifunk-muenchen.de
