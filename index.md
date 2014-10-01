@@ -13,6 +13,3 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 Freifunk München trifft sich immer am letzten Mittwoch des Monats im [muCCC](http://muc.ccc.de) ([Schleißheimer Str. 41](http://osm.org/go/0JAf0IVLh?node=2012031859)).
 
 Das nächste Treffen findet am 29.10.14 um 20:00 Uhr statt.
-
-
-
