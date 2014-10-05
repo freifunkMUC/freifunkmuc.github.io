@@ -14,3 +14,11 @@ und \\
 
 [allgListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
 [devListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
+
+### Wiki & Bugtracker
+
+[Freifunk München Wiki][wiki] \\
+[Bugtracker][bugtracker]
+
+[wiki]: https://github.com/freifunkMUC/freifunkmuc.github.io/wiki
+[bugtracker]: https://github.com/freifunkMUC/freifunkmuc.github.io/issues
