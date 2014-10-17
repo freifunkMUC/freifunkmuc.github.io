@@ -15,6 +15,6 @@ pages_list:
     Home: '/'
     Neuigkeiten: '/neuigkeiten'    
     Mitmachen: '/mitmachen'        
-    Knotenkarte: 'http://37.120.168.150/ffmap-d3/graph.html'
+    Knotenkarte: 'http://37.120.168.150/ffmap-d3/geomap.html'
     Wiki: 'https://github.com/freifunkMUC/freifunkmuc.github.io/wiki'
     Kontakt: '/kontakt'
