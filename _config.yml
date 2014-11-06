@@ -3,7 +3,7 @@ title: Freifunk München
 email: 
 description: "Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München"
 baseurl: ""
-url: "http://freifunkmuc.github.io"
+url: "http://freifunk-muenchen.de"
 twitter_username: FreifunkMUC
 github_username:  FreifunkMUC
 
@@ -13,8 +13,9 @@ permalink: pretty
 
 pages_list:
     Home: '/'
-    Neuigkeiten: '/neuigkeiten'    
+    Was ist Freifunk?: '/wasistfreifunk'
     Mitmachen: '/mitmachen'        
     Knotenkarte: '/knotenkarte'
-    Wiki: 'https://github.com/freifunkMUC/freifunkmuc.github.io/wiki'
+    FAQ: '/faq'
+    Nutzungsbedingungen: '/nutzungsbedingungen'
     Kontakt: '/kontakt'
