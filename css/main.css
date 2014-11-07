@@ -25,6 +25,12 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
+/* Fix to show dropdown menu in navi also when hovering */
+ul.nav li.dropdown:hover ul.dropdown-menu{
+  display: block;
+  margin-top:0px
+}
+
 /* Utility */
 
 .wrap:before,
@@ -34,8 +40,11 @@ a:visited { color: #205caa; }
   max-width: 960px;
   padding: 0 30px;
   margin: 0 auto;
-  zoom: 1;
-  /*box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4); */
+  zoom: 1;  
+}
+
+.page-content .wrap {
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -190,6 +199,13 @@ a:visited { color: #205caa; }
 
 .post-content > * { margin: 20px 0; }
 
+.post-content img {
+  max-width: 60%;
+}
+
+.post-content strong {
+  font-weight: bold;
+}
 
 .post-content h1,
 .post-content h2,

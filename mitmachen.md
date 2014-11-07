@@ -44,7 +44,7 @@ Komm zum [Freifunk-Treffen][kontakt] oder frag auf der [Mailingliste][kontakt].
 Wohnung, Geschäft, Café, Restaurant,
 Bar
 
-![Starter-Kit](/assets/participate_small.png)
+![Starter-Kit](/assets/mitmachen/participate_small.png)
 
 #### Du möchtest
 
@@ -63,7 +63,7 @@ Bar
 
 Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
-![Level 2](/assets/participate_medium.png)
+![Level 2](/assets/mitmachen/participate_medium.png)
 
 #### Du möchtest
 
@@ -83,7 +83,7 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
-![Level 2](/assets/participate_big.png)
+![Level 2](/assets/mitmachen/participate_big.png)
 
 #### Du möchtest
 
@@ -119,9 +119,8 @@ Nachdem Du das Formular abgeschickt hast, musst Du Dich noch kurz gedulden, bis 
 Schau mal auf der Knotenkarte nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
 
 Die Anleitung basiert auf [http://berlin.freifunk.net/participate/overview/][berlin] \\
-Quelle: [Freifunk Magdeburg][ffmd]
+Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
 
-[ffmd]: http://md.freifunk.net
 [berlin]: http://berlin.freifunk.net/participate/overview/
 [kontakt]: /kontakt/
 [firmware]: /firmware/
