@@ -26,7 +26,7 @@ Du als Unterstützer der Community stellst also einen Knoten bei Dir zu Hause au
 
 ## VPN Umleitung ins Ausland
 
-Du kannst über Deinen WLAN-Router auch einen Teil deiner Internetverbindung dem Freifunknetz zur Verfügung stellen. Damit Du keine Probleme mit der Störerhaftung bekommst, betreiben wir einen zentralen Zugangspunkt für Magdeburg (Gateway), der den Internetverkehr ins Ausland leitet. So bleibt auch Dein Heimnetzwerk sicher und unberührt! Und wie kommst Du zu diesem Gateway? Das ist alles in der Software bereits für Dich eingestellt, Du brauchst Dich um nichts mehr zu kümmern!
+Du kannst über Deinen WLAN-Router auch einen Teil deiner Internetverbindung dem Freifunknetz zur Verfügung stellen. Damit Du keine Probleme mit der Störerhaftung bekommst, betreiben wir mehrere zentrale Zugangspunkte für München (Gateway), die den Internetverkehr ins Ausland leiten. So bleibt auch Dein Heimnetzwerk sicher und unberührt! Und wie kommst Du zu diesem Gateway? Das ist alles in der Software bereits für Dich eingestellt, Du brauchst Dich um nichts mehr zu kümmern!
 
 ## Freifunk Prinzipien
 

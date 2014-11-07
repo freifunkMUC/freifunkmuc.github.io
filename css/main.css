@@ -281,6 +281,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu{
 
 .post pre.terminal code { background-color: #333; }
 
+/* Bootstrap Column Style fixes */
+.list-group {
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4);
+}
+.list-group img {
+  max-width: 100%;
+  text-align: middle;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 

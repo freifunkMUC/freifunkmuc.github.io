@@ -39,12 +39,16 @@ Komm zum [Freifunk-Treffen][kontakt] oder frag auf der [Mailingliste][kontakt].
 
 ## Du möchtest einen Freifunk-Router aufstellen?
 
+<div class="row">        
+    <div class="col-sm-4">
+        <div class="list-group">
+
+<div  markdown="1">
 ### Starter-Kit
 
-Wohnung, Geschäft, Café, Restaurant,
-Bar
-
 ![Starter-Kit](/assets/mitmachen/participate_small.png)
+
+Wohnung, Geschäft, Café, Restaurant, Bar
 
 #### Du möchtest
 
@@ -58,18 +62,25 @@ Bar
 * Empfehlung: TP-Link TL-WR841N (ca. 16€), TL-WDR4300 (ca. 45 €), für Restaurants Ubiquiti Enterprise AP UAP (ca. 60€)
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
+</div>
 
+        </div>            
+    </div><!-- /.col-sm-4 -->
+    <div class="col-sm-4">
+    <div class="list-group">
+
+<div markdown="1">
 ### Level 2
-
-Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 ![Level 2](/assets/mitmachen/participate_medium.png)
 
+Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
+
 #### Du möchtest
 
-* das Freifunk-Netz auf ein größeres Gebiet erweitern. Dazu eignen sich insbesondere höher gelegene Standorte (z.B. Balkone oder Dächer).
-* eine Verbindung zu einem weiter entfernten (bis ~5km) Freifunk-Router herstellen.
-* Für stabile Verbindungen wird eine freie Sicht zum entfernten Router benötigt.
+* dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
+* deinen Internet-Anschluss freigeben.
+* den ersten Freifunk-Router in deiner Umgebung aufstellen.
 
 #### So kannst du mitmachen
 
@@ -78,12 +89,19 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 * NanoStation M5 oder M5 loco (5 GHz)
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf.
+</div>
 
+        </div>
+    </div><!-- /.col-sm-4 -->
+    <div class="col-sm-4">
+    <div class="list-group">
+
+<div markdown="1">
 ### Backbone
 
-Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
-
 ![Level 2](/assets/mitmachen/participate_big.png)
+
+Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 #### Du möchtest
 
@@ -96,6 +114,11 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 * NanoBridge M5 (bis ~10 km)
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
+</div>
+
+    </div>
+    </div><!-- /.col-sm-4 -->
+</div>
 
 ## Weitere Informationen und Hinweise
 

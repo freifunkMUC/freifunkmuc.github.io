@@ -23,11 +23,6 @@ und \\
 
 ### Wiki, Bugtracker, ...
 
-[Freifunk München Wiki][wiki] \\
-[Bugtracker][bugtracker] \\
-[Keyformular][keyformular]
-
-[wiki]: https://github.com/freifunkMUC/freifunkmuc.github.io/wiki
-[bugtracker]: https://github.com/freifunkMUC/freifunkmuc.github.io/issues
-[keyformular]: http://37.120.168.150/fastd-key-formular/
-
+[Freifunk München Wiki](https://github.com/freifunkMUC/freifunkmuc.github.io/wiki) \\
+[Bugtracker](https://github.com/freifunkMUC/freifunkmuc.github.io/issues) \\
+[Keyformular](http://37.120.168.150/fastd-key-formular/)

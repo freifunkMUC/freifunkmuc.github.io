@@ -10,12 +10,3 @@ github_username:  FreifunkMUC
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-pages_list:
-    Home: '/'
-    Was ist Freifunk?: '/wasistfreifunk'
-    Mitmachen: '/mitmachen'        
-    Knotenkarte: '/knotenkarte'
-    FAQ: '/faq'
-    Nutzungsbedingungen: '/nutzungsbedingungen'
-    Kontakt: '/kontakt'

@@ -34,6 +34,8 @@ Ubiquiti Nanostation M2 / Ubiquiti Nanostation M5  |  1.x  |  1.x
 Ubiquiti Unifi AP / Ubiquiti Unifi AP LR           |  1.x  |  1.x
 Ubiquiti Unifiap Outdoor                           |  1.x  |  1.x
 
+![Modell und Version](/assets/router-flashen/guide-14.jpg)
+
 Wir unterstützten aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
 
 Aktuell bevorzugen wir wegen dem sehr günstigen Preis-Leistungsverhältnis den TP-Link TL-WR841ND (ca. 22 Euro).
