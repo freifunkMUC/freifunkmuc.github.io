@@ -42,18 +42,9 @@ Aktuell bevorzugen wir wegen dem sehr günstigen Preis-Leistungsverhältnis den 
 
 Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
-### Was ist neu in der Firmware?
-Unter [Changelog](#Changelog) findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
-
-## Zweige
-
-TODO CONTENT UEBERPRUEFEN
-
-Wer im Config-Mode des Geräts die Optionen zum Autoupdate angeschaut hat, wird drei Entwicklungszweige namens stable, beta und experimental entdeckt haben. Normale Nutzer werden hier stable auswählen, da dies gut getestete und für den stabilen Dauerbetrieb vorgesehene Versionen sind – die mit den Releasenummern, die auch im Changelog stehen. Bei beta bekommt man Versionen, die bald das nächste Release werden. Diese sollten im normalen Betrieb keine Probleme machen, sind aber eben noch als Testversionen gedacht. Bei experimental landen, wie der Name schon sagt, Zwischenstände, wo wir für nichts garantieren. Das bitte nur anklicken, wenn man weiß, was man tut oder auch mal einige Zeit ohne den Freifunk-Router leben kann, sollte etwas kaputt gehen.
-
-Automatische Updates passieren immer nur im entsprechenden Zweig, nicht übergreifend. Es kann dazu kommen, dass in stable eine neuere Version liegt, als in beta oder experimental, aber das heißt nicht, dass diese in einen anderen Zweig installiert wird. Wer beta auswählt, bekommt nur beta. Darüber hinaus ist es aber so, dass die letzte Beta vor einem Release, dann zum Release wird. D.h. wenn es bspw. für Version 0.29 zwei Beta-Versionen gab, dann ist die Version 0.29_beta2 technisch identisch zur 0.29 stable, es klebt nur ein anderer Name drauf, faktisch hat man aber dann erstmal die stabile Version, bis die erste Beta für die Folgeversion kommt. Wer Fragen dazu hat, kann sich gern nochmal konkret an uns wenden.
-
 ## Changelog
+
+Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
 ### 0.6~stable20141018
 
