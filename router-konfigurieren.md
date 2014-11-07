@@ -127,7 +127,7 @@ Jetzt hast du’s geschafft. Klopf dir auf die Schultern, freu dich und verbreit
 
 ## Fragen?
 
-Solltest du Fragen oder Probleme haben oder Einträge deines Knoten ändern wollen, schreibe gerne an: kontakt@md.freifunk.net
+Solltest du Fragen oder Probleme haben oder Einträge deines Knoten ändern wollen, [schreibe uns gerne an](/kontakt/).
 
 ## Noch ein wichtiger Hinweis zum Schluss
 

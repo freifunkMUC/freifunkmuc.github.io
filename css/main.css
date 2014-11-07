@@ -37,7 +37,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 960px;
+  max-width: 1140px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;  
