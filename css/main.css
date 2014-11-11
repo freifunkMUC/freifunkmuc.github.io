@@ -144,6 +144,28 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
+.page-content img {
+  max-width: 60%;
+  text-align: center;
+}
+
+.embed-container { 
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
 
 /* Home styles */
 /* ----------------------------------------------------------*/
