@@ -7,9 +7,9 @@ permalink: /knotenkarte/
 
 <p>
     Alle Knoten in München und Umgebung in einer 
-    <a target="_blank" href="http://map.freifunk-muenchen.de/geomap.html" title="Freifunk Karte Paderborn">Karte</a>, einem 
-    <a target="_blank" href="http://map.freifunk-muenchen.de/graph.html" title="Freifunk Graph Paderborn">Graph</a> und einer 
-    <a target="_blank" href="http://map.freifunk-muenchen.de/list.html" title="Freifunk Liste Paderborn">Liste</a>.
+    <a target="_blank" href="http://map.freifunk-muenchen.de/geomap.html" title="Freifunk Karte Muenchen">Karte</a>, einem 
+    <a target="_blank" href="http://map.freifunk-muenchen.de/graph.html" title="Freifunk Graph Muenchen">Graph</a> und einer 
+    <a target="_blank" href="http://map.freifunk-muenchen.de/list.html" title="Freifunk Liste Muenchen">Liste</a>.
 </p>
 
 <div>
