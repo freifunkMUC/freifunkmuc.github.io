@@ -17,8 +17,7 @@ function toggleNode(node)
      }
 </script>
 
-
-
+{% include testbetrieb.md %}
 
 ## Mitmachen
 

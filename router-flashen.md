@@ -4,6 +4,8 @@ title: Router flashen
 permalink: /router-flashen/
 ---
 
+{% include testbetrieb.md %}
+
 ## Router auspacken
 
 ![Ueberblick](/assets/router-flashen/guide-17.jpg) 

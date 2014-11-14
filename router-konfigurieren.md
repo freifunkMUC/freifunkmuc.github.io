@@ -4,6 +4,8 @@ title: Router konfigurieren
 permalink: /router-konfigurieren/
 ---
 
+{% include testbetrieb.md %}
+
 ## Einleitung
 
 Für die Einrichtung des Routers werden keine technischen Kenntnisse benötigt. Wenn du dieser Anleitung Schritt für Schritt folgst, kann eigentlich nichts schiefgehen. Wenn du fertig bist, läuft das Freifunk WLAN und ist für alle in der Nähe als offenes WLAN mit dem Namen “muenchen.freifunk.net” zu sehen.
