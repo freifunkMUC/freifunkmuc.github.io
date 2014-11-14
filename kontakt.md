@@ -25,4 +25,4 @@ und \\
 
 [Freifunk München Wiki](https://github.com/freifunkMUC/freifunkmuc.github.io/wiki) \\
 [Bugtracker](https://github.com/freifunkMUC/freifunkmuc.github.io/issues) \\
-[Keyformular](http://37.120.168.150/fastd-key-formular/)
+[Keyformular](http://key.freifunk-muenchen.de/)
