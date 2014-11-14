@@ -83,15 +83,13 @@ Wichtig: Schliesse diese Seite bitte noch nicht, denn über den angezeigten Link
 
 ### 3. Router im Netz registrieren
 
-Klicke jetzt den angezeigten Link. Dann wird automatisch das Knotenformular geöffnet und ausgefüllt.
+Klicke jetzt den angezeigten Link. Dann wird automatisch das [Knotenformular](http://key.freifunk-muenchen.de) geöffnet und ausgefüllt.
+
+![Config fertig](/assets/router-konfigurieren/register01.png)
 
 #### Knotenname
 
 Der Name, den du vorhin in Schritt 2 vergeben hast. Unter diesem Namen wird dein Router bei Freifunk zu sehen sein.
-
-TODO SCREENSHOT MACHEN
-
-![Config fertig](/assets/router-konfigurieren/register02.png)
 
 #### VPN-Schlüssel
 
@@ -105,17 +103,11 @@ Die MAC-Adresse deines Routers findest du auf der Unterseite.
 
 Bitte hinterlege hier einen Namen und eine gültige E-Mail-Adresse, unter der Freifunk dich bezüglich deines Routers kontaktieren kann. Keine Angst, dies geschieht nur wenn es gute Gründe dafür gibt. Wir machen keine Werbung und geben keine Daten weiter.
 
-TODO SCREENSHOT MACHEN
-
-![Config fertig](/assets/router-konfigurieren/register04.png)
-
 #### Formular abschicken
 
 Wenn das Formular fertig ausgefüllt ist, schicke es mit einem Klick auf “Knoten anmelden” ab. Wenn alles geklappt hat, müsste dein Browserfenster aussehen wie auf dem folgenden Bild
 
-TODO SCREENSHOT MACHEN
-
-![Config fertig](/assets/router-konfigurieren/register05.png)
+![Config fertig](/assets/router-konfigurieren/register02.png)
 
 Damit ist die Registrierung abgeschlossen und du kannst deinen Freifunk-Router nun in Betrieb nehmen.
 
