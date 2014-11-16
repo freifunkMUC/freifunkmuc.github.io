@@ -18,9 +18,24 @@
         </svg>
       </a>
       <div class="trigger">
-        {% for page in site.pages_list %}
-          <a class="page-link" href="{{ page[1] }}">{{ page[0] }}</a>
-        {% endfor %}
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/wasistfreifunk">Was ist Freifunk?</a></li>
+            <li class="dropdown">
+              <a href="/mitmachen">Mitmachen<b class="caret"></b></a>
+              <ul class="dropdown-menu">                
+                <li><a class="page-link" href="/firmware">1. Firmware downloaden</a></li>
+                <li><a class="page-link" href="/router-flashen">2. Router flashen</a></li>
+                <li><a class="page-link" href="/router-konfigurieren">3. Router konfigurieren</a></li>
+              </ul>
+            </li>
+            <li><a href="/knotenkarte">Knotenkarte</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
+            <li><a href="/kontakt">Kontakt</a></li>            
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </nav>
 

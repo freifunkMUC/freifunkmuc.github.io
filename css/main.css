@@ -25,16 +25,26 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
+/* Fix to show dropdown menu in navi also when hovering */
+ul.nav li.dropdown:hover ul.dropdown-menu{
+  display: block;
+  margin-top:0px
+}
+
 /* Utility */
 
 .wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 1140px;
   padding: 0 30px;
   margin: 0 auto;
-  zoom: 1;
+  zoom: 1;  
+}
+
+.page-content .wrap {
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -166,7 +176,6 @@ a:visited { color: #205caa; }
   height: 100%;
 }
 
-
 /* Home styles */
 /* ----------------------------------------------------------*/
 
@@ -211,6 +220,29 @@ a:visited { color: #205caa; }
 
 .post-content > * { margin: 20px 0; }
 
+.post-content img {
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content tr:nth-child(even) {background: #CCC}
+.post-content tr:nth-child(odd) {background: #FFF}
+
+.post-content td {
+  vertical-align: top;
+  padding-right: 50px;
+}
+
+.post-content strong {
+  font-weight: bold;
+}
 
 .post-content h1,
 .post-content h2,
@@ -285,6 +317,15 @@ a:visited { color: #205caa; }
 }
 
 .post pre.terminal code { background-color: #333; }
+
+/* Bootstrap Column Style fixes */
+.list-group {
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4);
+}
+.list-group img {
+  max-width: 100%;
+  text-align: middle;
+}
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
