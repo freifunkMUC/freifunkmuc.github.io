@@ -34,18 +34,17 @@ Dazu rufst du in deinem Browser folgende Adresse auf: [http://192.168.1.1](http:
 
 Dein Browserfenster müsste nun wie folgt aussehen. Hier kannst du die wichtigsten Einstellungen für deinen Router vornehmen.
 
-![Gluon Luci](/assets/router-konfigurieren/gluon01.png)
+![Gluon Luci](/assets/router-konfigurieren/luci01.png)
 
 #### Name dieses Knotens
-Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Im Beispiel verwenden wir “Lisas-Freifunk”. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
-
-#### Firmware automatisch aktualisieren:
-Dieser Haken sollte auf jeden Fall gesetzt werden, damit dein Knoten immer automatisch auf dem aktuellsten Stand ist.
+Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
 
 #### Mesh-VPN aktivieren (empfohlen)
 Wenn du bei “Mesh-VPN aktivieren” ein Häkchen setzt, wird über deinen Internet-Anschluss eine verschlüsselte Verbindung zu den Freifunk-Servern hergestellt. Diese verbinden deinen Router dann mit weit entfernten Freifunk-Routern und dem Internet, ohne Störerhaftung.
 
 Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifunk-Routern in der Nachbarschaft verbinden. Internet-Zugang ist dann nur möglich, wenn einer der anderen Router ihn anbietet.
+
+![Gluon Luci](/assets/router-konfigurieren/luci02.png)
 
 Wir empfehlen dieses Häkchen zu setzen.
 
@@ -54,18 +53,12 @@ Wenn du einen normalen Internet-Anschluss hast, wird dein Freifunk-Router im all
 
 Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “Mesh-VPN Bandbreite begrenzen”. Daraufhin erscheinen zwei neue Felder. Trage in die beiden Felder die gewünschten Grenzen in Kbit/s ein. Wir empfehlen mindestens “8000″ für Downstream und “500″ für Upstream.
 
-![VPN Limit setzen](/assets/router-konfigurieren/configmode-vpnlimit.png)
-
 #### Geo-Koordinaten
+Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der [Knotenkarte][geomap] zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
 
-TODO SCREENSHOT MACHEN UND TEXT UEBERPRUEFEN
+Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte][geomap] und benutze den Button "Koordinaten beim nächsten Klick anzeigen" um die Koordinaten zu erfahren.
 
-register03
-
-Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der Knotenkarte zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
-
-Die Koordinaten zu ermitteln, ist ganz einfach: vergrößere mit dem Pluszeichen zu dem Ort, an dem du den Router aufstellen möchtest. Klicke dann auf der Karte den Standort des Routers an. Die Koordinaten werden daraufhin in das Formular eingetragen.
-
+![Gluon Luci](/assets/router-konfigurieren/luci03.png)
 
 Wenn du alle Daten eingegeben und noch mal geprüft hast, bist du fertig und klickst beherzt auf “Fertig”.
 
@@ -73,15 +66,16 @@ Wenn du alle Daten eingegeben und noch mal geprüft hast, bist du fertig und kli
 
 Dein Freifunk-Router ist nun fertig eingerichtet – aber du bist noch nicht ganz fertig!
 
-Dein Browser müsste nun so aussehen:
+Dein Browser müsste nun ca. so aussehen:
 
-TODO SCREENSHOT MACHEN
+![Gluon Luci](/assets/router-konfigurieren/luci10.png)
 
-![Config fertig](/assets/router-konfigurieren/register-finish.png)
-
-Unter dem Namen deines Freifunk-Routers wird eine längere Zeichenkette angezeigt. (Im Beispiel ist es “d0dd…”.) Das ist der sogenannte VPN-Schlüssel deines Routers.
+Unter dem Namen deines Freifunk-Routers wird eine längere Zeichenkette angezeigt. (Im Beispiel ist es “e07e…”.) Das ist der sogenannte VPN-Schlüssel deines Routers.
 
 Wichtig: Schliesse diese Seite bitte noch nicht, denn über den angezeigten Link musst du deinen Freifunk-Router noch im Netz registrieren.
+
+### Hinweis zu Updates
+Standardmässig ist die Auto-Update Funktion aktiviert. Das heisst sobald eine neue Version unserer Freifunk Firmware verfügbar ist wird sie automatisch auf dem Router heruntergeladen und installiert - Du musst nichts zusätzliches tun!
 
 ### 3. Router im Netz registrieren
 
@@ -116,12 +110,13 @@ Damit ist die Registrierung abgeschlossen und du kannst deinen Freifunk-Router n
 ### 4. Router anschließen
 
 Wenn du vorhin das Mesh-VPN aktiviert hast, kannst du den Router nun ans Internet anschließen. Dazu musst du das LAN-Kabel auf der Rückseite in die blaue Buchse umstecken. Das andere Ende des Kabels gehört in deinen Internet-Router.
+Clients koennen sich nun über die gelben Buchsen oder ueber das WLAN mit der SSID "muenchen.freifunk.net" in das Freifunk Netz einbuchen.
 
 Jetzt hast du’s geschafft. Klopf dir auf die Schultern, freu dich und verbreite die Botschaft von Freifunk weiter!
 
 ## Fragen?
 
-Solltest du Fragen oder Probleme haben oder Einträge deines Knoten ändern wollen, [schreibe uns gerne an](/kontakt/).
+Solltest du Fragen oder Probleme haben oder Einträge deines Knoten ändern wollen, lies die [FAQ](/faq/) oder [schreibe uns gerne an](/kontakt/).
 
 ## Noch ein wichtiger Hinweis zum Schluss
 
@@ -130,3 +125,5 @@ Das Freifunk-Netz wird in die Niederlande oder nach Schweden getunnelt. Das kann
 weitere Informationen dazu findest du in der [FAQ](/faq/).
 
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
+
+[geomap]: http://37.120.168.150/ffmap-d3/geomap.html
