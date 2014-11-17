@@ -123,7 +123,7 @@ Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verb
 Mehrere Freifunk-Router können über ein Switch mit Netzwerk-Kabeln verbunden werden. Der im Starter-Kit empfohlene Router hat z.B. ein integriertes Switch.
 
 ### Wie Flashe ich den Router
-Eine Anleitung zum Flashen findest du [hier][router-flashen]. Wie man dann den Knoten konfiguriert ist [hier][router-konfigurieren] erklärt.
+Die Firmware findest du [hier][firmware], eine Anleitung zum Flashen findest du [hier][router-flashen]. Wie man dann den Knoten konfiguriert ist [hier][router-konfigurieren] erklärt.
 
 Sobald Du den Freifunk Knoten bei Dir zu Hause in Betrieb genommen hast, musst Du diesen noch kurz mit Hilfe des Kontaktformulars eintragen.
 
