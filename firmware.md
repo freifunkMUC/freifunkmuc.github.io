@@ -59,101 +59,101 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 [router-flashen]: /router-flashen/
 
 [factory-buffalo-wzr-hp-g450h]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-buffalo-wzr-hp-g450h.bin
-[sysupgrade-buffalo-wzr-hp-g450h]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-buffalo-wzr-hp-g450h.bin
+[sysupgrade-buffalo-wzr-hp-g450h]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-buffalo-wzr-hp-g450h-sysupgrade.bin
 
 [factory-d-link-dir-825-rev-b1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-d-link-dir-825-rev-b1.bin
-[sysupgrade-d-link-dir-825-rev-b1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-d-link-dir-825-rev-b1.bin
+[sysupgrade-d-link-dir-825-rev-b1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-d-link-dir-825-rev-b1-sysupgrade.bin
 
 [factory-linksys-wrt160nl]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-linksys-wrt160nl.bin
-[sysupgrade-linksys-wrt160nl]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-linksys-wrt160nl.bin
+[sysupgrade-linksys-wrt160nl]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-linksys-wrt160nl-sysupgrade.bin
 
 [factory-tp-link-tl-mr3020-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3020-v1.bin
-[sysupgrade-tp-link-tl-mr3020-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3020-v1.bin
+[sysupgrade-tp-link-tl-mr3020-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3020-v1-sysupgrade.bin
 
 [factory-tp-link-tl-mr3040-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3040-v1.bin
-[sysupgrade-tp-link-tl-mr3040-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3040-v1.bin
+[sysupgrade-tp-link-tl-mr3040-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3040-v1-sysupgrade.bin
 [factory-tp-link-tl-mr3040-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3040-v2.bin
-[sysupgrade-tp-link-tl-mr3040-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3040-v2.bin
+[sysupgrade-tp-link-tl-mr3040-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3040-v2-sysupgrade.bin
 
 [factory-tp-link-tl-mr3220-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3220-v1.bin
-[sysupgrade-tp-link-tl-mr3220-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3220-v1.bin
+[sysupgrade-tp-link-tl-mr3220-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3220-v1-sysupgrade.bin
 
 [factory-tp-link-tl-mr3420-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3420-v1.bin
-[sysupgrade-tp-link-tl-mr3420-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3420-v1.bin
+[sysupgrade-tp-link-tl-mr3420-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3420-v1-sysupgrade.bin
 [factory-tp-link-tl-mr3420-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3420-v2.bin
-[sysupgrade-tp-link-tl-mr3420-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3420-v2.bin
+[sysupgrade-tp-link-tl-mr3420-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-mr3420-v2-sysupgrade.bin
 
 [factory-tp-link-tl-wa801n-nd-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wa801n-nd-v2.bin
-[sysupgrade-tp-link-tl-wa801n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wa801n-nd-v2.bin
+[sysupgrade-tp-link-tl-wa801n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wa801n-nd-v2-sysupgrade.bin
 
 [factory-tp-link-tl-wa901n-nd-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wa901n-nd-v2.bin
-[sysupgrade-tp-link-tl-wa901n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wa901n-nd-v2.bin
+[sysupgrade-tp-link-tl-wa901n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wa901n-nd-v2-sysupgrade.bin
 
 [factory-tp-link-tl-wdr3500-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr3500-v1.bin
-[sysupgrade-tp-link-tl-wdr3500-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr3500-v1.bin
+[sysupgrade-tp-link-tl-wdr3500-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr3500-v1-sysupgrade.bin
 
 [factory-tp-link-tl-wdr3600-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr3600-v1.bin
-[sysupgrade-tp-link-tl-wdr3600-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr3600-v1.bin
+[sysupgrade-tp-link-tl-wdr3600-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr3600-v1-sysupgrade.bin
 
 [factory-tp-link-tl-wdr4300-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr4300-v1.bin
-[sysupgrade-tp-link-tl-wdr4300-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr4300-v1.bin
+[sysupgrade-tp-link-tl-wdr4300-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wdr4300-v1-sysupgrade.bin
 
 [factory-tp-link-tl-wr703n-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr703n-v1.bin
-[sysupgrade-tp-link-tl-wr703n-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr703n-v1.bin
+[sysupgrade-tp-link-tl-wr703n-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr703n-v1-sysupgrade.bin
 
 [factory-tp-link-tl-wr710n-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr710n-v1.bin
-[sysupgrade-tp-link-tl-wr710n-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr710n-v1.bin
+[sysupgrade-tp-link-tl-wr710n-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr710n-v1-sysupgrade.bin
 
 [factory-tp-link-tl-wr740n-nd-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr740n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v1.bin
+[sysupgrade-tp-link-tl-wr740n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v1-sysupgrade.bin
 [factory-tp-link-tl-wr740n-nd-v3]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v3.bin
-[sysupgrade-tp-link-tl-wr740n-nd-v3]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v3.bin
+[sysupgrade-tp-link-tl-wr740n-nd-v3]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v3-sysupgrade.bin
 [factory-tp-link-tl-wr740n-nd-v4]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v4.bin
-[sysupgrade-tp-link-tl-wr740n-nd-v4]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v4.bin
+[sysupgrade-tp-link-tl-wr740n-nd-v4]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr740n-nd-v4-sysupgrade.bin
 
 [factory-tp-link-tl-wr741n-nd-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr741n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v1.bin
+[sysupgrade-tp-link-tl-wr741n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v1-sysupgrade.bin
 [factory-tp-link-tl-wr741n-nd-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr741n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v2.bin
+[sysupgrade-tp-link-tl-wr741n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v2-sysupgrade.bin
 [factory-tp-link-tl-wr741n-nd-v4]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v4.bin
-[sysupgrade-tp-link-tl-wr741n-nd-v4]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v4.bin
+[sysupgrade-tp-link-tl-wr741n-nd-v4]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr741n-nd-v4-sysupgrade.bin
 
 [factory-tp-link-tl-wr841n-nd-v3]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v3.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v3]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v3.bin
+[sysupgrade-tp-link-tl-wr841n-nd-v3]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v3-sysupgrade.bin
 [factory-tp-link-tl-wr841n-nd-v5]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v5.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v5]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v5.bin
+[sysupgrade-tp-link-tl-wr841n-nd-v5]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v5-sysupgrade.bin
 [factory-tp-link-tl-wr841n-nd-v7]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v7.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v7]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v7.bin
+[sysupgrade-tp-link-tl-wr841n-nd-v7]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v7-sysupgrade.bin
 [factory-tp-link-tl-wr841n-nd-v8]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v8.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v8]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v8.bin
+[sysupgrade-tp-link-tl-wr841n-nd-v8]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v8-sysupgrade.bin
 [factory-tp-link-tl-wr841n-nd-v9]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v9.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v9]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v9.bin
+[sysupgrade-tp-link-tl-wr841n-nd-v9]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr841n-nd-v9-sysupgrade.bin
 
 [factory-tp-link-tl-wr842n-nd-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr842n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr842n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr842n-nd-v1.bin
+[sysupgrade-tp-link-tl-wr842n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr842n-nd-v1-sysupgrade.bin
 [factory-tp-link-tl-wr842n-nd-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr842n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr842n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr842n-nd-v2.bin
+[sysupgrade-tp-link-tl-wr842n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr842n-nd-v2-sysupgrade.bin
 
 [factory-tp-link-tl-wr941n-nd-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v2.bin
+[sysupgrade-tp-link-tl-wr941n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v2-sysupgrade.bin
 [factory-tp-link-tl-wr941n-nd-v3]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v3.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v3]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v3.bin
+[sysupgrade-tp-link-tl-wr941n-nd-v3]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v3-sysupgrade.bin
 [factory-tp-link-tl-wr941n-nd-v4]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v4.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v4]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v4.bin
+[sysupgrade-tp-link-tl-wr941n-nd-v4]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr941n-nd-v4-sysupgrade.bin
 
 [factory-tp-link-tl-wr1043n-nd-v1]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr1043n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr1043n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr1043n-nd-v1.bin
+[sysupgrade-tp-link-tl-wr1043n-nd-v1]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr1043n-nd-v1-sysupgrade.bin
 [factory-tp-link-tl-wr1043n-nd-v2]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-tp-link-tl-wr1043n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr1043n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr1043n-nd-v2.bin
+[sysupgrade-tp-link-tl-wr1043n-nd-v2]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-tp-link-tl-wr1043n-nd-v2-sysupgrade.bin
 
 [factory-ubiquiti-bullet-m]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-ubiquiti-bullet-m.bin
-[sysupgrade-ubiquiti-bullet-m]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-bullet-m.bin
+[sysupgrade-ubiquiti-bullet-m]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-bullet-m-sysupgrade.bin
 
 [factory-ubiquiti-nanostation-m]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-ubiquiti-nanostation-m.bin
-[sysupgrade-ubiquiti-nanostation-m]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-nanostation-m.bin
+[sysupgrade-ubiquiti-nanostation-m]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-nanostation-m-sysupgrade.bin
 
 [factory-ubiquiti-unifi]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-ubiquiti-unifi.bin
-[sysupgrade-ubiquiti-unifi]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-unifi.bin
+[sysupgrade-ubiquiti-unifi]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-unifi-sysupgrade.bin
 
 [factory-ubiquiti-unifiap-outdoor]: http://37.120.168.150/firmware/stable/factory/gluon-ffm-0.6~stable20141018-ubiquiti-unifiap-outdoor.bin
-[sysupgrade-ubiquiti-unifiap-outdoor]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-unifiap-outdoor.bin
+[sysupgrade-ubiquiti-unifiap-outdoor]: http://37.120.168.150/firmware/stable/sysupgrade/gluon-ffm-0.6~stable20141018-ubiquiti-unifiap-outdoor-sysupgrade.bin
