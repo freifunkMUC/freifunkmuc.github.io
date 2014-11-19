@@ -62,6 +62,7 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 * changed site_code back to ffmuc (instead of ffm) (18.11.2014)
 * changed hostname_prefix to NULL (18.11.2014)
 * added public key from fpletz
+* neues unterstütztes Routermodell: Buffalo WZR HP AG300H, WZR 600DHP
 
 [hardware]: http://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/
