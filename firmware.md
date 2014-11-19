@@ -8,7 +8,7 @@ permalink: /firmware/
 
 ## Firmware-Images (Gluon)
 
-In der folgenden Tabelle sind die unterstützten Router aufgeführt. Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: 0.6~stable20141018) herunterladen.
+In der folgenden Tabelle sind die unterstützten Router aufgeführt. Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: snapshot~20141119) herunterladen.
 
 Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
 
