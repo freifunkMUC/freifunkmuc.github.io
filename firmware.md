@@ -52,9 +52,16 @@ Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
-### 0.6~stable20141018
+### snapshot~20141119
 
-* TODO CONTENT
+* fixed ipv4-prefix to /16 netmask (04.11.2014)
+* changed gateways ips to domain-names
+* changed msg_pub_key to automate entering the node-data to our key-form (01.11.2014)
+* changed mesh-SSID from 02:0E:8E:1E:61:17 to mesh.ffmuc
+* added ntp_servers '2.ntp.services.ffm','3.ntp.services.ffm','4.ntp.services.ffm' (18.11.2014)
+* changed site_code back to ffmuc (instead of ffm) (18.11.2014)
+* changed hostname_prefix to NULL (18.11.2014)
+* added public key from fpletz
 
 [hardware]: http://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/
