@@ -36,6 +36,21 @@ Dein Browserfenster müsste nun wie folgt aussehen. Hier kannst du die wichtigst
 
 ![Gluon Luci](/assets/router-konfigurieren/luci01.png)
 
+Zuerst klickst Du auf "Expert Mode" um folgende Einstellungen vorzunehmen:
+
+### Autoupdate
+Es wird empfohlen, den Auto-Update Mechanismus zu aktivieren.
+Stelle sicher, dass der Haken bei "Auto-Update" gesetzt ist.
+Das heisst sobald eine neue Version unserer Freifunk Firmware verfügbar ist, wird sie automatisch auf den Router heruntergeladen und installiert - Du musst nichts Zusätzliches tun!
+
+### Zugangsdaten
+Falls Du die Einstellungen deines Routers ueber Netzwerk aendern willst, 
+musst Du hier ein Passwort oder einen SSH Key hinterlegen.
+Wenn Du das nicht machst, musst Du physischen Zugang zu dem Router haben um 
+ihn manuell in den Konfigurationsmodus zurueck zu versetzen.s
+
+Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
+
 #### Name dieses Knotens
 Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
 
@@ -74,8 +89,6 @@ Unter dem Namen deines Freifunk-Routers wird eine längere Zeichenkette angezeig
 
 Wichtig: Schliesse diese Seite bitte noch nicht, denn über den angezeigten Link musst du deinen Freifunk-Router noch im Netz registrieren.
 
-### Hinweis zu Updates
-Standardmässig ist die Auto-Update Funktion aktiviert. Das heisst sobald eine neue Version unserer Freifunk Firmware verfügbar ist wird sie automatisch auf dem Router heruntergeladen und installiert - Du musst nichts zusätzliches tun!
 
 ### 3. Router im Netz registrieren
 
