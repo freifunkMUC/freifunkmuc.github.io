@@ -12,8 +12,10 @@ München ins Leben gerufen.\\
 Der Verein bietet den Freifunkern eine wichtige Struktur, die für einige 
 Aufgaben wie etwa der Kommunikation mit offiziellen Organen unabdingbar ist.
 Zudem wird auch der benötigten Infrastruktur im Hintergrund von Freifunk 
-München die nötige Rechtssicherheit zugesichert, sowie durch die angestrebte 
-Gemeinnützigkeit die Möglichkeit eröffnet, sich auch durch Spenden zu finanzieren.\\
+München auch rechtlich auf mehrere Schultern verteilt und Abhängigkeiten 
+von Einzelpersonen reduziert.
+Durch die angestrebte Gemeinnützigkeit soll die Möglichkeit eröffnet werden, 
+sich auch durch Spenden zu finanzieren.\\
 Wie dem Namen des Vereins zu entnehmen ist, stützt sich sein Zweck nicht 
 ausschliesslich auf die Unterstützung von Freifunk, sondern vielmehr 
 generell an die Ermöglichung und Erhaltung von freien Kommunikationsstrukturen.
