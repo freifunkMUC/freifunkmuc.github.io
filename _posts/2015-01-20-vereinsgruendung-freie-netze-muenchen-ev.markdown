@@ -20,9 +20,9 @@ generell an die Ermöglichung und Erhaltung von freien Kommunikationsstrukturen.
 
 Aktuell laufen die notwendingen organisatorischen Schritte für eine 
 ordnungsgemässe Eintragung ins Vereinsregister und Anerkennung der 
-Gemeinnuetzigkeit.
+Gemeinnützigkeit.
 
 Wichtig zu erwähnen ist, dass es natürlich nicht nötig ist, 
 Mitglied in diesem Verein zu werden, um an Freifunk München teilzunehmen und 
 konstruktiv mitzuwirken. Der Verein hat in diesem Sinne eine reine Förderwirkung 
-fuer Freifunk Muenchen.\\
+für Freifunk München.
