@@ -303,7 +303,7 @@ Freifunk nutzt den Kanal 1. Diesen Kanal kann man auch nicht ändern, da alle Fr
     <div style="display: none;">
 
 <div markdown="1">
-Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff hat. Aber im Expertenmodus, den man über der Configmode erreichen kann, kannst Du ein Passwort oder besser einen SSH-Schlüssel hinterlegen. Dann kommst Du über die IPv6 Adresse aus dem Freifunk-Netz jederzeit auf Deinen Knoten.
+Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff hat. Aber im Expertenmodus, den man über der Configmode erreichen kann, kannst Du ein Passwort oder besser einen SSH-Schlüssel hinterlegen. Danach kommst du per SSH als User root auf deinen Freifunk-Knoten entweder in dessen lokalen Netz über die IPv6-Adresse fdef:ffc0:4fff::1 oder über seine globale IPv6-Adresse, die du aus der Detailansicht deines Knotens in der Knotenkarte entnehmen kannst.
 </div>
 
     </div>
