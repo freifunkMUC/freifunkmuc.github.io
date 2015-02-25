@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fernsehbeitrag Bayrische Rundfunk - Abendschau vom 11.02.2015"
-date:   2014-09-06 17:23:42
+date:   2015-02-25 23:46:00
 categories: pr video rundfunk br freifunkmuc
 ---
 
