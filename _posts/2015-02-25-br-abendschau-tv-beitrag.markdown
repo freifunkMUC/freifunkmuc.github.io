@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Fernsehbeitrag Bayrische Rundfunk - Abendschau vom 11.02.2015"
+date:   2014-09-06 17:23:42
+categories: pr video rundfunk br freifunkmuc
+---
+
 **Fernsehbeitrag Bayrische Rundfunk - Abendschau vom 11.02.2015**
 
 Der Freie Netze München e.V. stellt in den Räumen des Chaos Computer Clubs München die Funktionsweise des Freifunk-Netzes in München vor.
