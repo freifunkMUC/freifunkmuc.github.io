@@ -145,17 +145,9 @@ Du musst jetzt die [Freifunk-Firmware][firmware] auf Deinem Router installieren 
         Wie viele Personen nutzen das Netz?
     </a></span>
     <div style="display: none;">
-        Das wissen wir nicht. Du kannst über die Karte sehen wie viele Geräte aktuell verbunden sind. Das ist eine schöne Statistik, aber genau Aussagen können und wollen wir nicht treffen. Schließlich ist Freifunk anonym und frei.
-    </div>
-</div>
-
-<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
-        Wie viele Personen nutzen das Netz?
-    </a></span>
-    <div style="display: none;">
 
 <div markdown="1">
-Das wissen wir nicht. Du kannst über die [Karte][karte] sehen wie viele Geräte aktuell verbunden sind. Das ist eine schöne Statistik, aber genau Aussagen können und wollen wir nicht treffen. Schließlich ist Freifunk anonym und frei
+Das wissen wir nicht. Du kannst über die [Karte][geomap] sehen wie viele Geräte aktuell verbunden sind. Das ist eine schöne Statistik, aber genaue Aussagen können und wollen wir nicht treffen. Schließlich ist Freifunk anonym und frei.
 </div>
 
     </div>
@@ -330,3 +322,5 @@ Quelle: [Freifunk Magdeburg][ffmd]
 [treffen]: /mitmachen/
 [nutzungsbedingungen]: /nutzungsbedingungen/
 [configmode]: http://192.168.1.1/
+[geomap]: http://map.freifunk-muenchen.de/geomap.html
+
