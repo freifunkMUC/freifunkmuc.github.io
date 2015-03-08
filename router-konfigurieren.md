@@ -139,4 +139,5 @@ weitere Informationen dazu findest du in der [FAQ](/faq/).
 
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
 
-[geomap]: http://37.120.168.150/ffmap-d3/geomap.html
+[geomap]: http://map.freifunk-muenchen.de/geomap.html
+
