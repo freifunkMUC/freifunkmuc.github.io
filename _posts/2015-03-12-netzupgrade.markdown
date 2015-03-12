@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Start des Profuktivbetriebs am 16. März 2015"
+title:  "Start des Produktivbetriebs am 16. März 2015"
 date:   2015-03-12 12:55:00
 categories: testbetrieb freifunkmuc
 ---
@@ -19,6 +19,7 @@ Für Rückfragen und weitere Informationen einfach unseren [IRC Channel][irc] jo
 oder zu unserem [nächsten Treffen][treffen] kommen!
 
 Für Knotenbeteiber und technisch weitergehend Interessierte kann auch unser [Development IRC Channel][irc-dev] interessant sein. 
+
 [irc]: https://webirc.darkfasel.net/#freifunk
 [irc-dev]: https://webirc.darkfasel.net/#freifunk-dev
 [treffen]: http://freifunkmuc.github.io/mitmachen/
