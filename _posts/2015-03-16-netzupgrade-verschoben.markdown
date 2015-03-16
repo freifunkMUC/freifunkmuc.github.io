@@ -6,10 +6,11 @@ categories: testbetrieb freifunkmuc
 ---
 
 **Größeres Upgrade des Freifunk-München Netzes verschoben!**
+
 Aufgrund von Zeitmangel am letzten Wochenende verschieben wir das angekündigte Update des Netzes um eine
 Woche. 
 
-Dies kommt auch all den Interessenten entgegen die aufgrund des heute erschienenen [Artikels in der Süddeutschen][sz-artike]
+Dies kommt auch all den Interessenten entgegen die Aufgrund des heute erschienenen [Artikels in der Süddeutschen][sz-artikel]
 entgegen, die Freifunk jetzt direkt ausprobieren wollen ;-)
 
 Für Rückfragen und weitere Informationen einfach unseren [IRC Channel][irc] joinen
