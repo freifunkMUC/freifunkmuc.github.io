@@ -10,10 +10,9 @@ Email: [muenchen@freifunk.net](mailto://muenchen@freifunk.net)
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
-IRC:
- * #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](http://www.darkfasel.net))
- * [Web-Chat](https://webirc.darkfasel.net/#freifunk)
- * [Web-Chat für Entwickler](https://webirc.darkfasel.net/#freifunk-dev)
+IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](http://www.darkfasel.net))
+
+Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Entwickler Chat](https://webirc.darkfasel.net/#freifunk-dev)
 
 Altes IRC: [irc://space.blafasel.de/#freifunk](irc://space.blafasel.de/#freifunk)
 
