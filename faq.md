@@ -119,7 +119,7 @@ Die einfachste Möglichkeit ist einen Koten bei uns abzuholen. Wir helfen dann a
     <div style="display: none;">
         
 <div markdown="1">
-Du musst jetzt die [Freifunk-Firmware][firmware] auf Deinem Router installieren und anschließend konfigurieren. Wie das genau geht haben wir in einer Anleitung zusammengetragen. Alternativ kannst Du uns auch gerne persönlich treffen und wir helfen Dir dann bei der Konfiguration. Wo und wann Du uns treffen kannst findest Du [hier][treffen].
+Du musst jetzt die [Münchner Freifunk-Firmware][firmware] auf Deinem Router [installieren][flashen] und anschließend [konfigurieren][config]. Wenn Du Hilfe benötigst kannst Du uns auch gerne persönlich treffen und wir helfen Dir dann bei der Konfiguration. Wo und wann Du uns treffen kannst findest Du [hier][treffen].
 </div>
 
     </div>
@@ -295,7 +295,7 @@ Freifunk nutzt den Kanal 1. Diesen Kanal kann man auch nicht ändern, da alle Fr
     <div style="display: none;">
 
 <div markdown="1">
-Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff hat. Aber im Expertenmodus, den man über der Configmode erreichen kann, kannst Du ein Passwort oder besser einen SSH-Schlüssel hinterlegen. Danach kommst du per SSH als User root auf deinen Freifunk-Knoten entweder in dessen lokalen Netz über die IPv6-Adresse fdef:ffc0:4fff::1 oder über seine globale IPv6-Adresse, die du aus der Detailansicht deines Knotens in der [Knotenliste][nodelist] entnehmen kannst.
+Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff hat. Aber im Expertenmodus, den man über der Configmode erreichen kann, kannst Du ein Passwort oder besser einen SSH-Schlüssel hinterlegen. Danach kommst Du per SSH als User root auf deinen Freifunk-Knoten entweder in dessen lokalen Netz über die IPv6-Adresse fdef:ffc0:4fff::1 oder über seine globale IPv6-Adresse, die Du aus der Detailansicht deines Knotens in der [Knotenliste][nodelist] entnehmen kannst.
 </div>
 
     </div>
@@ -319,6 +319,8 @@ Quelle: [Freifunk Magdeburg][ffmd]
 [ccc]: http://muc.ccc.de
 [kontakt]: /kontakt/
 [firmware]: /firmware/
+[flashen]: /router-flashen/
+[config]: /router-konfigurieren/
 [treffen]: /mitmachen/
 [nutzungsbedingungen]: /nutzungsbedingungen/
 [configmode]: http://192.168.1.1/
