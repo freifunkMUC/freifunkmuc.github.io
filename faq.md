@@ -166,18 +166,6 @@ Prinzipiell werden (fast) alle Geräte auf denen OpenWRT als Firmware installier
     </div>
 </div>
 
-<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
-        Ich habe doch gerade den VPN-Schlüssel auf eurer Seite eingetragen. Warum funktioniert mein Router noch nicht?
-    </a></span>
-    <div style="display: none;">
-        
-<div markdown="1">
-VPN-Schlüssel, die auf unserer Webseite eingetragen werden, müssen freigegeben werden. Dies kann einige Minuten dauern. Lass deinen Router einfach mit dem Internet verbunden – sobald der Schlüssel freigegeben wurde, verbindet sich dein Router mit dem Netzwerk. In der Zwischenzeit kannst Du uns auf Twitter folgen, oder unsere Mailingliste abonieren.
-</div>
-
-    </div>
-</div>
-
 ## Rechtliches
 
 <div><span onclick="toggleNode(this.parentNode); return  false;"><a>
