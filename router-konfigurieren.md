@@ -81,45 +81,6 @@ Wenn du alle Daten eingegeben und noch mal geprüft hast, bist du fertig und kli
 
 Dein Freifunk-Router ist nun fertig eingerichtet – aber du bist noch nicht ganz fertig!
 
-Dein Browser müsste nun ca. so aussehen:
-
-![Gluon Luci](/assets/router-konfigurieren/luci10.png)
-
-Unter dem Namen deines Freifunk-Routers wird eine längere Zeichenkette angezeigt. (Im Beispiel ist es “e07e…”.) Das ist der sogenannte VPN-Schlüssel deines Routers.
-
-Wichtig: Schliesse diese Seite bitte noch nicht, denn über den angezeigten Link musst du deinen Freifunk-Router noch im Netz registrieren.
-
-
-### 3. Router im Netz registrieren
-
-Klicke jetzt den angezeigten Link. Dann wird automatisch das [Knotenformular](http://key.freifunk-muenchen.de) geöffnet und ausgefüllt.
-
-![Config fertig](/assets/router-konfigurieren/register01.png)
-
-#### Knotenname
-
-Der Name, den du vorhin in Schritt 2 vergeben hast. Unter diesem Namen wird dein Router bei Freifunk zu sehen sein.
-
-#### VPN-Schlüssel
-
-Die längere Zeichenkette, die vorhin auf der Konfigurationsseite zu sehen war.
-
-#### MAC-Adresse
-
-Die MAC-Adresse deines Routers findest du auf der Unterseite.
-
-#### Kontaktdaten
-
-Bitte hinterlege hier einen Namen und eine gültige E-Mail-Adresse, unter der Freifunk dich bezüglich deines Routers kontaktieren kann. Keine Angst, dies geschieht nur wenn es gute Gründe dafür gibt. Wir machen keine Werbung und geben keine Daten weiter.
-
-#### Formular abschicken
-
-Wenn das Formular fertig ausgefüllt ist, schicke es mit einem Klick auf “Knoten anmelden” ab. Wenn alles geklappt hat, müsste dein Browserfenster aussehen wie auf dem folgenden Bild
-
-![Config fertig](/assets/router-konfigurieren/register02.png)
-
-Damit ist die Registrierung abgeschlossen und du kannst deinen Freifunk-Router nun in Betrieb nehmen.
-
 ### 4. Router anschließen
 
 Wenn du vorhin das Mesh-VPN aktiviert hast, kannst du den Router nun ans Internet anschließen. Dazu musst du das LAN-Kabel auf der Rückseite in die blaue Buchse umstecken. Das andere Ende des Kabels gehört in deinen Internet-Router.
