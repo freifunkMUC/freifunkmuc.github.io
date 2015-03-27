@@ -14,8 +14,6 @@ IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS ben
 
 Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Entwickler Chat](https://webirc.darkfasel.net/#freifunk-dev)
 
-Altes IRC: [irc://space.blafasel.de/#freifunk](irc://space.blafasel.de/#freifunk)
-
 ### Mailingliste
 
 [Allgemeine Mailingliste Freifunk München][allgListe] \\
