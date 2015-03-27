@@ -28,5 +28,4 @@ und \\
 ### Wiki, Bugtracker, ...
 
 [Freifunk München Wiki](https://github.com/freifunkMUC/freifunkmuc.github.io/wiki) \\
-[Bugtracker](https://github.com/freifunkMUC/freifunkmuc.github.io/issues) \\
-[Keyformular](http://key.freifunk-muenchen.de/)
+[Bugtracker](https://github.com/freifunkMUC/freifunkmuc.github.io/issues)
