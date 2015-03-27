@@ -4,8 +4,6 @@ title: Mitmachen
 permalink: /mitmachen/
 ---
 
-{% include testbetrieb.md %}
-
 {% include treffen.md %}
 
 

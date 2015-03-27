@@ -4,8 +4,6 @@ title: Firmware
 permalink: /firmware/
 ---
 
-{% include testbetrieb.md %}
-
 ## Firmware-Images (Gluon)
 
 In der folgenden Tabelle sind die unterstützten Router aufgeführt. Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.2) herunterladen.

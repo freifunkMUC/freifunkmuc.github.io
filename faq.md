@@ -17,8 +17,6 @@ function toggleNode(node)
      }
 </script>
 
-{% include testbetrieb.md %}
-
 ## Mitmachen
 
 <div><span onclick="toggleNode(this.parentNode); return  false;"><a>
