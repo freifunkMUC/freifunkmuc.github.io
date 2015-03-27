@@ -7,7 +7,7 @@ permalink: /unterstuetzung/
 Vielen Dank an folgende Institutionen für das Unterstützen von Freifunk München!
 
 ### ipredator.se
-Der schwedische VPN Anbieter IPredator versorgt uns mit einem Exit-VPN.
+Der schwedische VPN Anbieter [ipredator][ipredator] versorgt uns mit einem Exit-VPN.
 ![ipredator](/assets/unterstuetzung/Ipredator-logo-2013.png)
 
 
