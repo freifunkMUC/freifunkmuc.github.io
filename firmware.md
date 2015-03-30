@@ -12,10 +12,15 @@ Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifu
 
 Modell         |  Erstinstallation  |  Aktualisierung
 -------------- | ------------------ | ---------------
+Allnet ALL0315N               |  [factory][factory-allnet-all0315n]  |  [sysupgrade][sysupgrade-allnet-all0315n]
 Buffalo WZR HP AG300H<br>Buffalo WZR 600DHP | [factory][factory-buffalo-wzr-hp-ag300h-wzr-600dhp]  |  [sysupgrade][sysupgrade-buffalo-wzr-hp-ag300h-wzr-600dhp]
-Buffalo WZR HP G450H          | [factory][factory-buffalo-wzr-hp-g450h]  |  [sysupgrade][sysupgrade-buffalo-wzr-hp-g450h]  
-D-Link DIR-825                | [rev E1][factory-d-link-dir-825-rev-b1]                    | [rev E1][sysupgrade-d-link-dir-825-rev-b1]
+Buffalo WZR HP G450H          |  [factory][factory-buffalo-wzr-hp-g450h]  |  [sysupgrade][sysupgrade-buffalo-wzr-hp-g450h]
+D-Link DIR-615                |  [rev C1][factory-d-link-dir-615-rev-c1]                    | [rev C1][sysupgrade-d-link-dir-615-rev-c1]
+D-Link DIR-825                |  [rev B1][factory-d-link-dir-825-rev-b1]                    | [rev B1][sysupgrade-d-link-dir-825-rev-b1]
 Linksys WRT160NL              |  [factory][factory-linksys-wrt160nl]                  |   [sysupgrade][sysupgrade-linksys-wrt160nl]
+Netgear WNDR3700              |  [factory][factory-netgear-wndr3700]                  |   [sysupgrade][sysupgrade-netgear-wndr3700]
+Netgear WNDR3700v2            |  [factory][factory-netgear-wndr3700v2]                |   [sysupgrade][sysupgrade-netgear-wndr3700v2]
+Netgear WNDR3800              |  [factory][factory-netgear-wndr3800]                  |   [sysupgrade][sysupgrade-netgear-wndr3800]
 TP-Link CPE210                |  [1.0][factory-tp-link-cpe210-v1] | [sysupgrade][sysupgrade-tp-link-cpe210-v1]
 TP-Link CPE220                |  [1.0][factory-tp-link-cpe220-v1] | [sysupgrade][sysupgrade-tp-link-cpe220-v1]
 TP-Link CPE510                |  [1.0][factory-tp-link-cpe510-v1] | [sysupgrade][sysupgrade-tp-link-cpe510-v1]
@@ -27,7 +32,7 @@ TP-Link TL-MR3420             |  [1.x][factory-tp-link-tl-mr3420-v1]<br>[2.x][fa
 TP-Link TL-WA750RE            |  [1.x][factory-tp-link-tl-wa750re-v1]   | [2.x][sysupgrade-tp-link-tl-wa750re-v1]
 TP-Link TL-WA801ND            |  [2.x][factory-tp-link-tl-wa801n-nd-v2]   | [2.x][sysupgrade-tp-link-tl-wa801n-nd-v2]
 TP-Link TL-WA850RE            |  [1.x][factory-tp-link-tl-wa850re-v1]   | [2.x][sysupgrade-tp-link-tl-wa850re-v1]
-TP-Link TL-WA901ND            |  [2.x][factory-tp-link-tl-wa901n-nd-v2]                      |  [2.x][sysupgrade-tp-link-tl-wa901n-nd-v2]
+TP-Link TL-WA901ND            |  [2.x][factory-tp-link-tl-wa901n-nd-v2]<br>[3.x][factory-tp-link-tl-wa901n-nd-v3]  |  [2.x][sysupgrade-tp-link-tl-wa901n-nd-v2]<br>[3.x][sysupgrade-tp-link-tl-wa901n-nd-v3]
 TP-Link TL-WDR3500            |  [1.x][factory-tp-link-tl-wdr3500-v1]                      |  [1.x][sysupgrade-tp-link-tl-wdr3500-v1]
 TP-Link TL-WDR3600            |  [1.x][factory-tp-link-tl-wdr3600-v1]                      |  [1.x][sysupgrade-tp-link-tl-wdr3600-v1]
 TP-Link TL-WDR4300            |  [1.x][factory-tp-link-tl-wdr4300-v1]                      |  [1.x][sysupgrade-tp-link-tl-wdr4300-v1]
@@ -35,10 +40,12 @@ TP-Link TL-WR703N          |  [1.x][factory-tp-link-tl-wr703n-v1]    | [1.x][sys
 TP-Link TL-WR710N          |  [1.x][factory-tp-link-tl-wr710n-v1]    | [1.x][sysupgrade-tp-link-tl-wr710n-v1]
 TP-Link TL-WR740N/ND          |  [1.x][factory-tp-link-tl-wr740n-nd-v1]<br>[3.x][factory-tp-link-tl-wr740n-nd-v3]<br>[4.x][factory-tp-link-tl-wr740n-nd-v4]            |  [1.x][sysupgrade-tp-link-tl-wr740n-nd-v1]<br>[3.x][sysupgrade-tp-link-tl-wr740n-nd-v3]<br>[4.x][sysupgrade-tp-link-tl-wr740n-nd-v4]
 TP-Link TL-WR741N/ND          |  [1.x][factory-tp-link-tl-wr741n-nd-v1]<br>[2.x][factory-tp-link-tl-wr741n-nd-v2]<br>[4.x][factory-tp-link-tl-wr741n-nd-v4]            |  [1.x][sysupgrade-tp-link-tl-wr741n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr741n-nd-v2]<br>[4.x][sysupgrade-tp-link-tl-wr741n-nd-v4]
+TP-Link TL-WR743N/ND          |  [1.x][factory-tp-link-tl-wr743n-nd-v1]<br> [2.x][factory-tp-link-tl-wr743n-nd-v2]    | [1.x][sysupgrade-tp-link-tl-wr743n-nd-v1]<br>[1.x][sysupgrade-tp-link-tl-wr743n-nd-v2]
 TP-Link TL-WR841N/ND          |  [3.x][factory-tp-link-tl-wr841n-nd-v3]<br>[5.x][factory-tp-link-tl-wr841n-nd-v5]<br>[7.x][factory-tp-link-tl-wr841n-nd-v7]<br>[8.x][factory-tp-link-tl-wr841n-nd-v8]<br>[9.x][factory-tp-link-tl-wr841n-nd-v9]  |  [3.x][sysupgrade-tp-link-tl-wr841n-nd-v3]<br>[5.x][sysupgrade-tp-link-tl-wr841n-nd-v5]<br>[7.x][sysupgrade-tp-link-tl-wr841n-nd-v7]<br>[8.x][sysupgrade-tp-link-tl-wr841n-nd-v8]<br>[9.x][sysupgrade-tp-link-tl-wr841n-nd-v9]
 TP-Link TL-WR842N/ND          |  [1.x][factory-tp-link-tl-wr842n-nd-v1]<br>[2.x][factory-tp-link-tl-wr842n-nd-v2]                 |  [1.x][sysupgrade-tp-link-tl-wr842n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr842n-nd-v2]
-TP-Link TL-WR941N/ND          |  [2.x][factory-tp-link-tl-wr941n-nd-v2]<br>[3.x][factory-tp-link-tl-wr941n-nd-v3]<br>[4.x][factory-tp-link-tl-wr941n-nd-v4]            |  [2.x][sysupgrade-tp-link-tl-wr941n-nd-v2]<br>[3.x][sysupgrade-tp-link-tl-wr941n-nd-v3]<br>[4.x][sysupgrade-tp-link-tl-wr941n-nd-v4]
+TP-Link TL-WR941N/ND          |  [2.x][factory-tp-link-tl-wr941n-nd-v2]<br>[3.x][factory-tp-link-tl-wr941n-nd-v3]<br>[4.x][factory-tp-link-tl-wr941n-nd-v4]<br>[5.x][factory-tp-link-tl-wr941n-nd-v5]             |  [2.x][sysupgrade-tp-link-tl-wr941n-nd-v2]<br>[3.x][sysupgrade-tp-link-tl-wr941n-nd-v3]<br>[4.x][sysupgrade-tp-link-tl-wr941n-nd-v4]<br>[5.x][sysupgrade-tp-link-tl-wr941n-nd-v5]
 TP-Link TL-WR1043N/ND         |  [1.x][factory-tp-link-tl-wr1043n-nd-v1]<br>[2.x][factory-tp-link-tl-wr1043n-nd-v2]  |  [1.x][sysupgrade-tp-link-tl-wr1043n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr1043n-nd-v2]
+TP-Link TL-WR2543N/ND         |  [1.x][factory-tp-link-tl-wr2543n-nd-v1]                      |  [1.x][sysupgrade-tp-link-tl-wr2543n-nd-v1]
 Ubiquiti Bullet M |  [factory][factory-ubiquiti-bullet-m]  |  [sysupgrade][sysupgrade-ubiquiti-bullet-m]
 Ubiquiti Nanostation/Loco M   |  [factory][factory-ubiquiti-nanostation-m]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m]
 Ubiquiti Nanostation M XW     |  [factory][factory-ubiquiti-nanostation-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m-xw]
@@ -82,17 +89,32 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 [hardware]: http://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/
 
+[factory-allnet-all0315n]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-allnet-all0315n.bin
+[sysupgrade-allnet-all0315n]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-allnet-all0315n-sysupgrade.bin
+
 [factory-buffalo-wzr-hp-ag300h-wzr-600dhp]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-buffalo-wzr-hp-ag300h-wzr-600dhp.bin
 [sysupgrade-buffalo-wzr-hp-ag300h-wzr-600dhp]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-buffalo-wzr-hp-ag300h-wzr-600dhp-sysupgrade.bin
 
 [factory-buffalo-wzr-hp-g450h]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-buffalo-wzr-hp-g450h.bin
 [sysupgrade-buffalo-wzr-hp-g450h]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-buffalo-wzr-hp-g450h-sysupgrade.bin
 
+[factory-d-link-dir-615-rev-c1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-d-link-dir-615-rev-c1.bin
+[sysupgrade-d-link-dir-615-rev-c1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-d-link-dir-615-rev-c1-sysupgrade.bin
+
 [factory-d-link-dir-825-rev-b1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-d-link-dir-825-rev-b1.bin
 [sysupgrade-d-link-dir-825-rev-b1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-d-link-dir-825-rev-b1-sysupgrade.bin
 
 [factory-linksys-wrt160nl]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-linksys-wrt160nl.bin
 [sysupgrade-linksys-wrt160nl]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-linksys-wrt160nl-sysupgrade.bin
+
+[factory-netgear-wndr3700]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-netgear-wndr3700.bin
+[sysupgrade-netgear-wndr3700]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-netgear-wndr3700-sysupgrade.bin
+
+[factory-netgear-wndr3700v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-netgear-wndr3700v2.bin
+[sysupgrade-netgear-wndr3700v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-netgear-wndr3700v2-sysupgrade.bin
+
+[factory-netgear-wndr3800]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-netgear-wndr3800.bin
+[sysupgrade-netgear-wndr3800]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-netgear-wndr3800-sysupgrade.bin
 
 [factory-tp-link-cpe210-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-cpe210-v1.0.bin
 [sysupgrade-tp-link-cpe210-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-cpe210-v1.0-sysupgrade.bin
@@ -133,6 +155,8 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 
 [factory-tp-link-tl-wa901n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wa901n-nd-v2.bin
 [sysupgrade-tp-link-tl-wa901n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wa901n-nd-v2-sysupgrade.bin
+[factory-tp-link-tl-wa901n-nd-v3]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wa901n-nd-v3.bin
+[sysupgrade-tp-link-tl-wa901n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wa901n-nd-v3-sysupgrade.bin
 
 [factory-tp-link-tl-wdr3500-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wdr3500-v1.bin
 [sysupgrade-tp-link-tl-wdr3500-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wdr3500-v1-sysupgrade.bin
@@ -163,6 +187,11 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 [factory-tp-link-tl-wr741n-nd-v4]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr741n-nd-v4.bin
 [sysupgrade-tp-link-tl-wr741n-nd-v4]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr741n-nd-v4-sysupgrade.bin
 
+[factory-tp-link-tl-wr743n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr743n-nd-v1.bin
+[sysupgrade-tp-link-tl-wr743n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr743n-nd-v1-sysupgrade.bin
+[factory-tp-link-tl-wr743n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr743n-nd-v2.bin
+[sysupgrade-tp-link-tl-wr743n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr743n-nd-v2-sysupgrade.bin
+
 [factory-tp-link-tl-wr841n-nd-v3]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr841n-nd-v3.bin
 [sysupgrade-tp-link-tl-wr841n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr841n-nd-v3-sysupgrade.bin
 [factory-tp-link-tl-wr841n-nd-v5]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr841n-nd-v5.bin
@@ -185,11 +214,16 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 [sysupgrade-tp-link-tl-wr941n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr941n-nd-v3-sysupgrade.bin
 [factory-tp-link-tl-wr941n-nd-v4]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr941n-nd-v4.bin
 [sysupgrade-tp-link-tl-wr941n-nd-v4]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr941n-nd-v4-sysupgrade.bin
+[factory-tp-link-tl-wr941n-nd-v5]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr941n-nd-v5.bin
+[sysupgrade-tp-link-tl-wr941n-nd-v5]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr941n-nd-v5-sysupgrade.bin
 
 [factory-tp-link-tl-wr1043n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr1043n-nd-v1.bin
 [sysupgrade-tp-link-tl-wr1043n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr1043n-nd-v1-sysupgrade.bin
 [factory-tp-link-tl-wr1043n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr1043n-nd-v2.bin
 [sysupgrade-tp-link-tl-wr1043n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr1043n-nd-v2-sysupgrade.bin
+
+[factory-tp-link-tl-wr2543n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-tp-link-tl-wr2543n-nd-v1.bin
+[sysupgrade-tp-link-tl-wr2543n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-tp-link-tl-wr2543n-nd-v1-sysupgrade.bin
 
 [factory-ubiquiti-bullet-m]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-ubiquiti-bullet-m.bin
 [sysupgrade-ubiquiti-bullet-m]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-ubiquiti-bullet-m-sysupgrade.bin
