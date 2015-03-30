@@ -40,9 +40,11 @@ TP-Link TL-WR842N/ND          |  [1.x][factory-tp-link-tl-wr842n-nd-v1]<br>[2.x]
 TP-Link TL-WR941N/ND          |  [2.x][factory-tp-link-tl-wr941n-nd-v2]<br>[3.x][factory-tp-link-tl-wr941n-nd-v3]<br>[4.x][factory-tp-link-tl-wr941n-nd-v4]            |  [2.x][sysupgrade-tp-link-tl-wr941n-nd-v2]<br>[3.x][sysupgrade-tp-link-tl-wr941n-nd-v3]<br>[4.x][sysupgrade-tp-link-tl-wr941n-nd-v4]
 TP-Link TL-WR1043N/ND         |  [1.x][factory-tp-link-tl-wr1043n-nd-v1]<br>[2.x][factory-tp-link-tl-wr1043n-nd-v2]  |  [1.x][sysupgrade-tp-link-tl-wr1043n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr1043n-nd-v2]
 Ubiquiti Bullet M |  [factory][factory-ubiquiti-bullet-m]  |  [sysupgrade][sysupgrade-ubiquiti-bullet-m]
-Ubiquiti Nanostation M  |  [factory][factory-ubiquiti-nanostation-m]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m]
-Ubiquiti Unifi  |  [factory][factory-ubiquiti-unifi]  |  [sysupgrade][sysupgrade-ubiquiti-unifi]
-Ubiquiti Unifi Outdoor                           |  [factory][factory-ubiquiti-unifiap-outdoor]  |  [sysupgrade][sysupgrade-ubiquiti-unifiap-outdoor]
+Ubiquiti Nanostation/Loco M   |  [factory][factory-ubiquiti-nanostation-m]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m]
+Ubiquiti Nanostation M XW     |  [factory][factory-ubiquiti-nanostation-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m-xw]
+Ubiquiti Nanostation Loco M XW |  [factory][factory-ubiquiti-loco-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-loco-m-xw]
+Ubiquiti Unifi                |  [factory][factory-ubiquiti-unifi]  |  [sysupgrade][sysupgrade-ubiquiti-unifi]
+Ubiquiti Unifi Outdoor        |  [factory][factory-ubiquiti-unifiap-outdoor]  |  [sysupgrade][sysupgrade-ubiquiti-unifiap-outdoor]
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
@@ -192,8 +194,14 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 [factory-ubiquiti-bullet-m]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-ubiquiti-bullet-m.bin
 [sysupgrade-ubiquiti-bullet-m]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-ubiquiti-bullet-m-sysupgrade.bin
 
+[factory-ubiquiti-loco-m-xw]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-ubiquiti-loco-m-xw.bin
+[sysupgrade-ubiquiti-loco-m-xw]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-ubiquiti-loco-m-xw-sysupgrade.bin
+
 [factory-ubiquiti-nanostation-m]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-ubiquiti-nanostation-m.bin
 [sysupgrade-ubiquiti-nanostation-m]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-ubiquiti-nanostation-m-sysupgrade.bin
+
+[factory-ubiquiti-nanostation-m-xw]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-ubiquiti-nanostation-m-xw.bin
+[sysupgrade-ubiquiti-nanostation-m-xw]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-ubiquiti-nanostation-m-xw-sysupgrade.bin
 
 [factory-ubiquiti-unifi]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.2-ubiquiti-unifi.bin
 [sysupgrade-ubiquiti-unifi]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.2-ubiquiti-unifi-sysupgrade.bin
