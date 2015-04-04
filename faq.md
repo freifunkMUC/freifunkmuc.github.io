@@ -269,7 +269,7 @@ Dort sollte dann unter gesperrte Netzwerkanwendungen die Option “alles außer 
     <div style="display: none;">
 
 <div markdown="1">
-Freifunk nutzt den Kanal 1. Diesen Kanal kann man auch nicht ändern, da alle Freifunk-Knoten auf dem gleichen Kanal senden müssen. Ansonsten würden sich die Freifunk-Knoten nicht mehr untereinander “sehen”. In der Regel weichen normale Router in der Nachbarschaft automatisch auf einen anderen Kanal aus, falls es zu Stau auf dem aktuellen Kanal kommt. Bei manchen Geräten passiert diese Überprüfung häufig leider nur beim Neustart. Evtl. also etwas abwarten und dann freie Fahrt für Freifunk auf Kanal 1.
+Freifunk München nutzt den Kanal 6. Diesen Kanal kann man auch nicht ändern, da alle Freifunk-Knoten auf dem gleichen Kanal senden müssen. Ansonsten würden sich die Freifunk-Knoten nicht mehr untereinander “sehen”. In der Regel weichen normale Router in der Nachbarschaft automatisch auf einen anderen Kanal aus, falls es zu Stau auf dem aktuellen Kanal kommt. Bei manchen Geräten passiert diese Überprüfung häufig leider nur beim Neustart. Evtl. also etwas abwarten und dann freie Fahrt für Freifunk auf Kanal 6.
 </div>
 
     </div>
