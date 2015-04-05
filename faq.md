@@ -242,7 +242,7 @@ Schalte den Knoten ein und warte bis er gestartet ist, dies dauert je nach Model
 Wir raten generell von so einem Setup ab da es mehrere Nachteile hat:
 
 Die Hardware muss im normalen Setup bereits zwei WLANs bereitstellen (das normale, sichtbare Netz sowie das Mesh-Adhoc-WLAN). Für das beschriebene Setup müsste der Chip nun zusätzlich noch in einem dritten WLAN als Client agieren – alleine dadurch steigt das Fehlerrisiko an und auch die mögliche Datenrate sinkt.
-Zudem muss, damit das Ganze funktioniert, das “andere” WLAN auf dem gleichen Kanal arbeiten – ein WLAN-Chip kann nur auf einer Frequenz gleichzeitig arbeiten. Dadurch halbiert man die mögliche Datenrate gleich noch einmal. Sollte das andere WLAN nun nicht auf Kanal 1 müsste man den Freifunk-Router auf den passenden Kanal umziehen was dann aber direkt die Mesh-Funktionalität kaputt macht da dieses ja nun auf einem anderen Kanal wäre.
+Zudem muss, damit das Ganze funktioniert, das “andere” WLAN auf dem gleichen Kanal arbeiten – ein WLAN-Chip kann nur auf einer Frequenz gleichzeitig arbeiten. Dadurch halbiert man die mögliche Datenrate gleich noch einmal. Sollte das andere WLAN nun nicht auf Kanal 6 liegen, müsste man den Freifunk-Router auf den passenden Kanal umziehen - was dann aber direkt die Mesh-Funktionalität kaputt macht da dieses ja nun auf einem anderen Kanal wäre.
 Zuguterletzt muss man dafür selber an dem Router Hand anlegen und diese Konfig kann(!) durch das Autoupdate der Knoten kaputt gehen da wir es offiziell nicht unterstützen.
 So oder so: das bringt deutlich mehr Probleme mit als es Vorteile hat.
 </div>
