@@ -65,6 +65,12 @@ Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
+### v2015.3
+
+- Add 4 new gateways as placeholders (not all are and will be active immediately)
+- Integrated no_rebroadcast fix on mesh-vpn from Gluon Upstream
+- Added another key for stable version signing
+
 ### v2015.2 (nicht kompatibel zu v2015.1 und älter)
 
  - Updated to new upstream gluon: 52698e62bac2ec0f8764b12cf437040528e…
