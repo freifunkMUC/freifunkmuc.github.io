@@ -164,6 +164,18 @@ Prinzipiell werden (fast) alle Geräte auf denen OpenWRT als Firmware installier
     </div>
 </div>
 
+<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
+        Was bedeuten die blauen, grünen und roten Punkte im Meshviewer?
+    </a></span>
+    <div style="display: none;">
+        
+<div markdown="1">
+Grün sind neue Knoten, die in den letzten 14 tagen dazu gekommen sind. Blaue sind schon länger im Netz. Ist ein Knoten offline so wird er rot angezeigt und nach zwei Tagen aus der Datenbank gelöscht.
+</div>
+
+    </div>
+</div>
+
 ## Rechtliches
 
 <div><span onclick="toggleNode(this.parentNode); return  false;"><a>
