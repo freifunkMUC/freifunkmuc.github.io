@@ -30,6 +30,6 @@ Du kannst über Deinen WLAN-Router auch einen Teil deiner Internetverbindung dem
 
 ## Freifunk Prinzipien
 
-Freifunk ist komplett von seinen Benutzer geschaffen worden, es gibt keine mächtige Instanz, die über das Netz herscht. Jeder Anwender ist zum gleichen Teil an dem Projekt beteiligt. Die Beteiligten betreiben das Netzwerk auf eigene Kosten und dies ist nur möglich, wenn sich alle an ein paar Regeln halten. Lies Dir bitte die Nutzungsbedingungen durch und halte Dich daran. Wir speichern zwar keinerlei Verbindungsdaten und können Dich somit nicht identifizieren, aber ein soziales Projekt kann nur funktionieren, wenn sich alle an ein paar Regeln halten.
+Freifunk ist komplett von seinen Benutzer geschaffen worden, es gibt keine mächtige Instanz, die über das Netz herscht. Jeder Anwender ist zum gleichen Teil an dem Projekt beteiligt. Die Beteiligten betreiben das Netzwerk auf eigene Kosten und dies ist nur möglich, wenn sich alle an ein paar Regeln halten. Lies Dir bitte die [Nutzungsbedingungen](http://freifunk-muenchen.de/nutzungsbedingungen) durch und halte Dich daran. Wir speichern zwar keinerlei Verbindungsdaten und können Dich somit nicht identifizieren, aber ein soziales Projekt kann nur funktionieren, wenn sich alle an ein paar Regeln halten.
 
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
