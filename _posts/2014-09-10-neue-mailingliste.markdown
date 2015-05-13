@@ -18,5 +18,12 @@ Hier die Links: \\
 und \\
 [Mailingliste für Entwickler und Technikinteressierte][devListe]
 
+Update Mai 2015:
+
+Zu den zwei bereits bestehenden Mailinglisten haben wir nun eine dritte Mailingliste für die Koordination der Bemühungen, die Flüchtingsunterkünfte und Asylbewerberheime in München zu vernetzen.
+
+[Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
+
 [allgListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
 [devListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
+[fluechtListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
