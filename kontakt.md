@@ -17,11 +17,12 @@ Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Entwickler Chat
 ### Mailingliste
 
 [Allgemeine Mailingliste Freifunk München][allgListe] \\
-und \\
-[Mailingliste für Entwickler und Technikinteressierte][devListe]
+[Mailingliste für Entwickler und Technikinteressierte][devListe] \\
+[Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
 
 [allgListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
 [devListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
+[fluechtListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
 
 ### Wiki, Bugtracker, ...
 
