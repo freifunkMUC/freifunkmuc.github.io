@@ -16,11 +16,11 @@ Wenn du noch nicht im Konfigurationsmodus bist, drücke die Reset-Taste am Route
 
 ### 1. Freifunk-Router mit dem Computer verbinden
 
-Deinem Router liegen mindestens eine Antenne (2), ein Steckernetzteil (3) und ein LAN-Kabel (4) bei.
+Deinem Router liegen ein Steckernetzteil (1) und ein LAN-Kabel (2) bei.
 
 ![Ueberblick](/assets/router-flashen/guide-17.jpg) 
 
-Bitte schraube zuerst die Antenne(n) auf die Gewindestecker des Routers (1). Schließe danach den Router mit dem Steckernetzteil (3) an eine Steckdose an. Verbinde dann den Router mit dem beiliegenden LAN-Kabel (4) mit Deinem Computer. Stecke es dabei am Router in eine gelbe Buchse.
+Schließe zuerst den Router mit dem Steckernetzteil (1) an eine Steckdose an. Verbinde dann den Router mit dem beiliegenden LAN-Kabel (2) mit Deinem Computer. Stecke es dabei am Router in eine gelbe Buchse.
 
 ![LAN-Buchsen](/assets/router-flashen/guide-15.jpg)
 
