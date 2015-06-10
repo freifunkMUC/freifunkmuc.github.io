@@ -120,7 +120,7 @@ Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verb
 ### Können mehrere Freifunk-Router an einem Ort miteinander verbunden werden?
 Mehrere Freifunk-Router können über ein Switch mit Netzwerk-Kabeln verbunden werden. Der im Starter-Kit empfohlene Router hat z.B. ein integriertes Switch.
 
-### Wie Flashe ich den Router
+### Wie flashe ich den Router
 Die Firmware findest du [hier][firmware], eine Anleitung zum Flashen findest du [hier][router-flashen]. Wie man dann den Knoten konfiguriert ist [hier][router-konfigurieren] erklärt.
 
 Sobald Du den Freifunk Knoten bei Dir zu Hause in Betrieb genommen hast, musst Du diesen noch kurz mit Hilfe des Kontaktformulars eintragen.
@@ -128,7 +128,7 @@ Sobald Du den Freifunk Knoten bei Dir zu Hause in Betrieb genommen hast, musst D
 Nachdem Du das Formular abgeschickt hast, musst Du Dich noch kurz gedulden, bis wir die Daten eingepflegt haben. Genug Zeit also uns auf [Twitter][twitter] zu folgen, damit man regelmäßig mit Informationen versorgt wird.
 
 ### Wo stehen schon Freifunk-Router?
-Schau mal auf der Knotenkarte nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+Schau mal auf der [Knotenkarte][knotenkarte] nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
 
 Die Anleitung basiert auf [http://berlin.freifunk.net/participate/overview/][berlin] \\
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
