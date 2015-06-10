@@ -7,7 +7,7 @@ permalink: /mitmachen/
 {% include treffen.md %}
 
 
-## Werde Freifunker
+## Werde Freifunker_in
 
 Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Wir befinden uns derzeit noch in der Beta-Phase. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
 
