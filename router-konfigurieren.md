@@ -10,7 +10,7 @@ Für die Einrichtung des Routers werden keine technischen Kenntnisse benötigt. 
 
 Dein Router sollte das Freifunk-Betriebssystem (die “Firmware”) bereits installiert haben. Falls dein Router noch keine Freifunk-Firmware installiert hat, findest du [hier](/router-flashen/) eine Schritt-für-Schritt-Anleitung. Alternativ helfen wir Dir natürlich auch gerne auf einem [Freifunk-Treffen](/kontakt/).
 
-Wenn du noch nicht im Konfigurationsmodus bist musst du die Resettaste solange drücken, bis alle Lampen am Router kurz aufleuchten. Der Konfigurationsmodus wird somit aktiviert.
+Wenn du noch nicht im Konfigurationsmodus bist, drücke die Reset-Taste am Router solange bis alle Lampen am Router kurz aufleuchten. Der Konfigurationsmodus wird somit aktiviert.
 
 ## Router einrichten
 
