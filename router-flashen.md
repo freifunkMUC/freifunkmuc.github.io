@@ -8,7 +8,7 @@ permalink: /router-flashen/
 
 ![Ueberblick](/assets/router-flashen/guide-17.jpg) 
 
-Schraube die Antennen (2) auf die Gewindestecker des Routers (1). Schließe danach den Router mit dem Netzteil (3) an eine Steckdose an. Anschließend verbindest Du den Router mit dem LAN-Kabel (4) mit Deinem Computer über eine der gelben Buchsen.
+Schließe zuerst den Router mit dem Netzteil (1) an eine Steckdose an. Anschließend verbindest Du den Router mit dem LAN-Kabel (2) mit Deinem Computer über eine der gelben Buchsen.
 
 ![LAN-Buchsen](/assets/router-flashen/guide-15.jpg)
 
