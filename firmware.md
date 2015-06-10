@@ -8,7 +8,7 @@ Wir unterstützten aktuell verschiedene Routermodelle. Zunächst musst Du prüfe
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
-Aktuell bevorzugen wir wegen dem sehr günstigen Preis-Leistungsverhältnis den TP-Link TL-WR841N (ab ca. 16 Euro).
+Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link TL-WR841N (ab ca. 16 Euro).
 
 Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
