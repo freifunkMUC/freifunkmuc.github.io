@@ -4,7 +4,15 @@ title: Firmware
 permalink: /firmware/
 ---
 
-## Firmware-Images (Gluon)
+Wir unterstützten aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
+
+![Modell und Version](/assets/router-flashen/guide-14.jpg)
+
+Aktuell bevorzugen wir wegen dem sehr günstigen Preis-Leistungsverhältnis den TP-Link TL-WR841N (ab ca. 16 Euro).
+
+Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
+
+## Images (Gluon)
 
 In der folgenden Tabelle sind die unterstützten Router aufgeführt. Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.3) herunterladen.
 
@@ -52,14 +60,6 @@ Ubiquiti Nanostation M XW     |  [factory][factory-ubiquiti-nanostation-m-xw]  |
 Ubiquiti Nanostation Loco M XW |  [factory][factory-ubiquiti-loco-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-loco-m-xw]
 Ubiquiti Unifi                |  [factory][factory-ubiquiti-unifi]  |  [sysupgrade][sysupgrade-ubiquiti-unifi]
 Ubiquiti Unifi Outdoor        |  [factory][factory-ubiquiti-unifiap-outdoor]  |  [sysupgrade][sysupgrade-ubiquiti-unifiap-outdoor]
-
-![Modell und Version](/assets/router-flashen/guide-14.jpg)
-
-Wir unterstützten aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
-
-Aktuell bevorzugen wir wegen dem sehr günstigen Preis-Leistungsverhältnis den TP-Link TL-WR841N (ab ca. 16 Euro).
-
-Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 ## Changelog
 
