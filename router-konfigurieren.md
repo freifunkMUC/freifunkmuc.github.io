@@ -81,7 +81,11 @@ Dein Freifunk-Router ist nun fertig eingerichtet – aber du bist noch nicht gan
 
 ### 4. Router anschließen
 
-Wenn du vorhin das Mesh-VPN aktiviert hast, kannst du den Router nun ans Internet anschließen. Dazu musst du das LAN-Kabel auf der Rückseite in die blaue Buchse umstecken. Das andere Ende des Kabels gehört in deinen Internet-Router.
+Wenn du vorhin das Mesh-VPN aktiviert hast, kannst du den Router nun ans Internet anschließen. Dazu musst du das LAN-Kabel auf der Rückseite in die blaue Buchse umstecken.
+
+![WAN-Buchse](/assets/router-flashen/guide-16.jpg)
+
+Das andere Ende des Kabels gehört in deinen Internet-Router.
 Clients koennen sich nun über die gelben Buchsen oder ueber das WLAN mit der SSID "muenchen.freifunk.net" in das Freifunk Netz einbuchen.
 
 Jetzt hast du’s geschafft. Klopf dir auf die Schultern, freu dich und verbreite die Botschaft von Freifunk weiter!
