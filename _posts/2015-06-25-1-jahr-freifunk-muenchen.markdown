@@ -9,7 +9,7 @@ categories: freifunkmuc
 
 Vor einem Jahr, am 25.06.2014, fand das erste offizielle Treffen des "neuen" Freifunk München statt - und heute zeigt ein Blick auf unsere Knotenkarte dass durchgehend mehr als 550 Knoten und über 600 Clients in unserem Netz unterwegs sind!
 
-Zwischenzeitlich wurde der Verein "Freie Netze München e.V." in Leben gerufen, der uns unterstützend zur Seite steht, die eine oder andere größere Veranstaltung mit freiem WLAN versorgt, erste Linkstrecken auf Dächern getestet und installiert, viel diskutiert, entwickelt und geforscht.
+Zwischenzeitlich wurde die eine oder andere größere Veranstaltung mit freiem WLAN versorgt, erste Linkstrecken auf Dächern getestet und installiert, viel diskutiert, entwickelt und geforscht und im Januar 2015 der Verein "Freie Netze München e.V." ins Leben gerufen, der uns unterstützend zur Seite steht.
 
 Mittlerweile hat sich eine Gemeinschaft entwickelt, die für unsere Münchner Interpretation von Freifunk einsteht und tatkräftig vertritt.
 
