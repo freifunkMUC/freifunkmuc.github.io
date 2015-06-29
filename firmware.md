@@ -66,9 +66,9 @@ Ubiquiti Bullet M |  [factory][factory-ubiquiti-bullet-m]  |  [sysupgrade][sysup
 Ubiquiti Nanostation/Loco M   |  [factory][factory-ubiquiti-nanostation-m]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m]
 Ubiquiti Nanostation M XW     |  [factory][factory-ubiquiti-nanostation-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m-xw]
 Ubiquiti Nanostation Loco M XW |  [factory][factory-ubiquiti-loco-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-loco-m-xw]
-Ubiquiti Unifi                |  [factory][factory-ubiquiti-unifi]  |  [sysupgrade][sysupgrade-ubiquiti-unifi]
-Ubiquiti Unifi AP Pro         |  [factory][factory-ubiquiti-unifi-ap-pro]  |  [sysupgrade][sysupgrade-ubiquiti-unifi-ap-pro]
-Ubiquiti Unifi Outdoor        |  [factory][factory-ubiquiti-unifiap-outdoor]  |  [sysupgrade][sysupgrade-ubiquiti-unifiap-outdoor]
+Ubiquiti UniFi AP / Unifi AP-LR |  [factory][factory-ubiquiti-unifi]  |  [sysupgrade][sysupgrade-ubiquiti-unifi]
+Ubiquiti UniFi AP-Pro         |  [factory][factory-ubiquiti-unifi-ap-pro]  |  [sysupgrade][sysupgrade-ubiquiti-unifi-ap-pro]
+Ubiquiti UniFi Outdoor        |  [factory][factory-ubiquiti-unifiap-outdoor]  |  [sysupgrade][sysupgrade-ubiquiti-unifiap-outdoor]
 x86 Virtual Machine Images    |  [kvm][factory-x86-kvm]<br>[Generic][factory-x86-generic]<br>[Virtualbox VDI][factory-x86-virtualbox]<br>[VMware vmdk][factory-x86-vmware]  |  [kvm][sysupgrade-x86-kvm]<br>[Generic][sysupgrade-x86-generic]
 
 ## Changelog
