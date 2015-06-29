@@ -98,7 +98,7 @@ Solltest du Fragen oder Probleme haben oder Einträge deines Knoten ändern woll
 
 Das Freifunk-Netz wird in die Niederlande oder nach Schweden getunnelt. Das kann bedeuten, dass dich Facebook, Googlemail, etc. warnen, du seist im Ausland. Erschrick nicht, obwohl in machen Warnungen von „Hackerangriffen“ etc. die Rede ist. Das ist ganz normal und es soll auch so sein. Diese Maßnahme dient dem Schutz vor der Störerhaftung.
 
-weitere Informationen dazu findest du in der [FAQ](/faq/).
+Weitere Informationen dazu findest du in der [FAQ](/faq/).
 
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
 
