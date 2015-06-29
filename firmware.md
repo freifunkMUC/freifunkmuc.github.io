@@ -26,7 +26,7 @@ Buffalo WZR HP G450H          |  [factory][factory-buffalo-wzr-hp-g450h]  |  [sy
 D-Link DIR-615                |  [rev C1][factory-d-link-dir-615-rev-c1]                    | [rev C1][sysupgrade-d-link-dir-615-rev-c1]
 D-Link DIR-825                |  [rev B1][factory-d-link-dir-825-rev-b1]                    | [rev B1][sysupgrade-d-link-dir-825-rev-b1]
 GL.iNet 6408A                 |  [v1][factory-gl-inet-6408a-v1] | [v1][sysupgrade-gl-inet-6408a-v1]
-GL.iNet 6408A                 |  [v1][factory-gl-inet-6416a-v1] | [v1][sysupgrade-gl-inet-6416a-v1]
+GL.iNet 6416A                 |  [v1][factory-gl-inet-6416a-v1] | [v1][sysupgrade-gl-inet-6416a-v1]
 Linksys WRT160NL              |  [factory][factory-linksys-wrt160nl]                  |   [sysupgrade][sysupgrade-linksys-wrt160nl]
 Netgear WNDR3700              |  [factory][factory-netgear-wndr3700]                  |   [sysupgrade][sysupgrade-netgear-wndr3700]
 Netgear WNDR3700v2            |  [factory][factory-netgear-wndr3700v2]                |   [sysupgrade][sysupgrade-netgear-wndr3700v2]
