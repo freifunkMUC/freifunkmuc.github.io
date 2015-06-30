@@ -12,12 +12,12 @@ Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
 IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](http://www.darkfasel.net))
 
-Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Entwickler Chat](https://webirc.darkfasel.net/#freifunk-dev)
+Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Developer Chat](https://webirc.darkfasel.net/#freifunk-dev)
 
 ### Mailingliste
 
 [Allgemeine Mailingliste Freifunk München][allgListe] \\
-[Mailingliste für Entwickler und Technikinteressierte][devListe] \\
+[Mailingliste für EntwicklerInnen und Technikinteressierte][devListe] \\
 [Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
 
 [allgListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net

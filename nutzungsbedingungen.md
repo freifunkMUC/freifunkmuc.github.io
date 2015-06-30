@@ -4,7 +4,7 @@ title: Nutzungsbedingungen
 permalink: /nutzungsbedingungen/
 ---
 
-Freifunk ist komplett von seinen Benutzer geschaffen worden, es gibt keine mächtige Instanz, die über das Netz herrscht. Jeder Anwender ist zum gleichen Teil an dem Projekt beteiligt. Die Beteiligten betreiben das Netzwerk auf eigene Kosten und dies ist nur möglich, wenn sich alle an ein paar Regeln halten:
+Freifunk ist komplett von seinen BenutzerInnen geschaffen worden, es gibt keine mächtige Instanz, die über das Netz herrscht. Alle AnwenderInnen sind zum gleichen Teil an dem Projekt beteiligt. Die Beteiligten betreiben das Netzwerk auf eigene Kosten und dies ist nur möglich, wenn sich alle an ein paar Regeln halten:
 
 ## Und das Rechtliche?
 
@@ -29,13 +29,13 @@ Das PPA wird auf [http://picopeer.net](http://picopeer.net) von einer Gruppe Fre
 ### Vereinbarung
 
 1. Freier Transit \\
-Der Eigentümer bestätigt, freien Transit über seine freie Netzwerkinfrastruktur anzubieten.
-Der Eigentümer bestätigt, die Daten, die seine freie Netzwerkinfrastruktur passieren, weder störend zu beeinträchtigen noch zu verändern.
+EigentümerInnen bestätigen, freien Transit über ihre freie Netzwerkinfrastruktur anzubieten.
+EigentümerInnen bestätigen, die Daten, die seine freie Netzwerkinfrastruktur passieren, weder störend zu beeinträchtigen noch zu verändern.
 
 2. Offene Kommunikation \\
-Der Eigentümer erklärt, alle Informationen zu veröffentlichen, die für die Verbindung mit seiner Netzwerkinfrastruktur notwendig sind.
+EigentümerInnen erklären, alle Informationen zu veröffentlichen, die für die Verbindung mit ihrer Netzwerkinfrastruktur notwendig sind.
 Diese Information soll (muss?) unter einer freien Lizenz (free licence) veröffentlicht werden.
-Der Eigentümer erklärt, erreichbar zu sein und wird dazu wenigstens eine E-Mail-Adresse bekanntgeben.
+EigentümerInnen erklären, erreichbar zu sein und wird dazu wenigstens eine E-Mail-Adresse bekanntgeben.
 
 3. Keine Garantie (Haftungsausschluss) \\
 Es wird keinerlei garantierter Dienst (Betrieb, Service) vereinbart. (Es gibt keine Garantie für die Verfügbarkeit / Qualität des Dienstes.)
@@ -43,26 +43,26 @@ Der Dienst (Betrieb, Service) wird ohne Gewähr bereitgestellt, ohne Garantie od
 Der Dienst (Betrieb, Service) kann jeder Zeit ohne weitere Erklärung beschränkt oder eingestellt werden.
 
 4. Nutzungsbestimmungen \\
-Der Eigentümer ist berechtigt, eine akzeptierbare Benutzungsrichtlinie (use policy) zu formulieren.
+EigentümerInnen sind berechtigt, eine akzeptierbare Benutzungsrichtlinie (use policy) zu formulieren.
 Diese kann Informationen über zusätzlich (neben den grundsätzlich) angebotene Dienste enthalten.
-Dem Eigentümer steht es frei, die Richtlinie selber zu formulieren, so lange diese nicht den Punkten 1 bis 3 dieser Vereinbarung widersprechen (siehe Punkt 5).
+EigentümerInnen steht es frei, die Richtlinie selber zu formulieren, so lange diese nicht den Punkten 1 bis 3 dieser Vereinbarung widersprechen (siehe Punkt 5).
 
 5. Lokale (individuelle) Zusätze \\
-Hier können vom Eigentümer selbst Ergänzungen zur Vertragsvereinbarung vorgenommen werden.
+Hier können von EigentümerInnen selbst Ergänzungen zur Vertragsvereinbarung vorgenommen werden.
 
 ### Begriffserklärungen
 
-* **Eigentümer**\\
-Der Eigentümer verfügt über das Recht, seine Netzwerkinfrastruktur zu betreiben und einen Teil ihrer Funktionalität für das freie Netzwerk (FreeNetwork) bereitzustellen (zu stiften, zu spenden).
+* **EigentümerIn**\\
+EigentümerInnen verfügen über das Recht, ihre Netzwerkinfrastruktur zu betreiben und einen Teil ihrer Funktionalität für das freie Netzwerk (FreeNetwork) bereitzustellen (zu stiften, zu spenden).
 
 * **Transit**\\
 Transit ist der Austausch von Daten in ein Netzwerk hinein, heraus oder durch ein Netzwerk hindurch.
 
 * **Freier Transit**\\
-Freier Transit bedeutet, dass der Eigentümer weder Gebühren für den Transit von Daten erhebt, noch die Daten verändert.
+Freier Transit bedeutet, dass EigentümerInnen weder Gebühren für den Transit von Daten erhebt, noch die Daten verändert.
 
 * **Freies Netzwerk**\\
-Das Freie Netzwerk ist die Summe der miteinander verbundenen Hard- und Software, dessen Anteil für den freien Transit vom Eigentümer dieser Ressourcen zu Verfügung gestellt wird.
+Das Freie Netzwerk ist die Summe der miteinander verbundenen Hard- und Software, dessen Anteil für den freien Transit von EigentümerInnen dieser Ressourcen zu Verfügung gestellt wird.
 
 * **Der Dienst**\\
 Der Dienst (Betrieb, Service) besteht aus freiem Transit und zusätzlichen Diensten.
