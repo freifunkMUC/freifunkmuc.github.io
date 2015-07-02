@@ -44,7 +44,7 @@ function toggleNode(node)
 </div>
 
 <div><span onclick="toggleNode(this.parentNode); return  false;"><a>
-        Ist die Nutzung von Freifunk sicher als Benutzer?
+        Ist die Nutzung von Freifunk sicher für BenutzerInnen?
     </a></span>
     <div style="display: none;">
         Wenn Du Freifunk nutzt, dann benutzt Du ein unverschlüsseltes und offenes WLAN-Netz. Dies bringt Gefahren mit sich, denen Du dir bewusst sein solltest. Du solltest daher nur sichere Verbindungen nutzen (z.B. https im Browser verwenden). Allerdings hast Du diese Gefahr bei jedem offenen WLAN. Wenn Du genau wissen möchtest wie Du Dich und Deine Daten schützen kannst, dann schau doch bei einer Cryptoparty vorbei. Hier werden Dir die Gefahren im Netz gezeigt und Maßnahmen, wie Du Dich davor schützen kannst.
@@ -55,7 +55,7 @@ function toggleNode(node)
         Ich habe keinen besonders geeigneten Standort für Freifunk. Lohnt sich überhaupt ein Knoten bei mir?
     </a></span>
     <div style="display: none;">
-        Natürlich, so etwas lohnt sicher immer! Und schließlich muss immer jemand der Erste sein. Wenn Du erst einmal einen solchen Knoten hast, wird er vielleicht von anderen gefunden, benutzt und im Idealfall beschäftigen sich auch diese Personen mit Freifunk. Nur so kann die Idee wachsen! Und denke an den nächsten Besuch, der nach dem WLAN-Passwort fragt. Wäre es nicht praktisch, dann einfach auf Freifunk hinzuweisen!
+        Natürlich, so etwas lohnt sicher immer! Und schließlich muss immer jemand den ersten Knoten aufstellen. Wenn Du erst einmal einen solchen Knoten hast, wird er vielleicht von anderen gefunden, benutzt und im Idealfall beschäftigen sich auch diese Personen mit Freifunk. Nur so kann die Idee wachsen! Und denke an den nächsten Besuch, der nach dem WLAN-Passwort fragt. Wäre es nicht praktisch, dann einfach auf Freifunk hinzuweisen!
     </div>
 </div>
 
@@ -192,7 +192,7 @@ Grün sind neue Knoten, die in den letzten 14 tagen dazu gekommen sind. Blaue si
     <div style="display: none;">
 
 <div markdown="1">
-Wir betreiben zentrale Zugangspunkte in Deutschland, die den Internetverkehr ins Ausland umleiten. Dadurch sind die Betreiber eines Knotens die ihren Internetzugang teilen nicht identifizierbar. Damit Freifunk funktionieren kann, müssen sich aber alle Benutzer an die [Nutzungsbedingungen][nutzungsbedingungen] halten.
+Wir betreiben zentrale Zugangspunkte in Deutschland, die den Internetverkehr ins Ausland umleiten. Dadurch sind die BetreiberInnen eines Knotens die ihren Internetzugang teilen nicht identifizierbar. Damit Freifunk funktionieren kann, müssen sich aber alle BenutzerInnen an die [Nutzungsbedingungen][nutzungsbedingungen] halten.
 </div>
 
     </div>
@@ -204,8 +204,8 @@ Wir betreiben zentrale Zugangspunkte in Deutschland, die den Internetverkehr ins
     <div style="display: none;">
 
 <div markdown="1">
-Grundsätzlich hat sich erst einmal jeder Nutzer an gewisse Regeln zu halten, die unter dem [Pico Peering Agreement][nutzungsbedingungen] aufgeführt sind.
-Natürlich sind solche Regeln keine Garantie für ein vorbildliches Verhalten aller Anwender, aber es gibt ein paar Punkte, die gegen eine illegale Nutzung sprechen:
+Grundsätzlich haben sich erst einmal alle BenutzerInnen an gewisse Regeln zu halten, die unter dem [Pico Peering Agreement][nutzungsbedingungen] aufgeführt sind.
+Natürlich sind solche Regeln keine Garantie für ein vorbildliches Verhalten aller AnwenderInnen, aber es gibt ein paar Punkte, die gegen eine illegale Nutzung sprechen:
 
 Das Freifunknetz ermöglicht unter anderem Zugang zum Internet. Dieser Zugang ist nicht dafür gedacht, um große Datenmengen (z.B. Downloads von Filmen) zu ermöglichen, sondern dient hauptsächlich der Informationsbeschaffung. Dementsprechend ist der Anschluss nicht so schnell wie ein heimischer DSL-Anschluss.
 Unser Dienstleister für die Anonymisierung kostet knapp 10 € pro Monat und ist wesentlich schneller.
@@ -213,7 +213,7 @@ Grundsätzlich sollten wir damit aufhören eine Technologie an dem größt mögl
 Durch den anonymen Zugang zum Internet wird die Verfolgung von Straftaten erschwert!
 
 Filesharing wird klassisch nicht in offenen WLANs betrieben. An dem heimischen Internetanschluss werden sehr viel höhere Bandbreiten erzielt, wodurch ein offenes WLAN-Netz, aufgrund der Performance, uninteressant wird.
-Weiterhin sind Rechtsverletzungen in offenen WLAN-Netzen bisher nicht in nennenswertem Umfang bekannt geworden. Zusätzlich geht der Gesetzgeber auch davon aus, dass der Zugang zum Internet grundsätzlich anonym verwendet werden kann.
+Weiterhin sind Rechtsverletzungen in offenen WLAN-Netzen bisher nicht in nennenswertem Umfang bekannt geworden. Zusätzlich gehen die Gesetzgeber auch davon aus, dass der Zugang zum Internet grundsätzlich anonym verwendet werden kann.
 </div>
 
     </div>
