@@ -55,7 +55,7 @@ function toggleNode(node)
         Ich habe keinen besonders geeigneten Standort für Freifunk. Lohnt sich überhaupt ein Knoten bei mir?
     </a></span>
     <div style="display: none;">
-        Natürlich, so etwas lohnt sicher immer! Und schließlich muss immer jemand die erste FreifunkerIn sein. Wenn Du erst einmal einen solchen Knoten hast, wird er vielleicht von anderen gefunden, benutzt und im Idealfall beschäftigen sich auch diese Personen mit Freifunk. Nur so kann die Idee wachsen! Und denke an den nächsten Besuch, der nach dem WLAN-Passwort fragt. Wäre es nicht praktisch, dann einfach auf Freifunk hinzuweisen!
+        Natürlich, so etwas lohnt sicher immer! Und schließlich muss immer jemand den ersten Knoten aufstellen. Wenn Du erst einmal einen solchen Knoten hast, wird er vielleicht von anderen gefunden, benutzt und im Idealfall beschäftigen sich auch diese Personen mit Freifunk. Nur so kann die Idee wachsen! Und denke an den nächsten Besuch, der nach dem WLAN-Passwort fragt. Wäre es nicht praktisch, dann einfach auf Freifunk hinzuweisen!
     </div>
 </div>
 
@@ -213,7 +213,7 @@ Grundsätzlich sollten wir damit aufhören eine Technologie an dem größt mögl
 Durch den anonymen Zugang zum Internet wird die Verfolgung von Straftaten erschwert!
 
 Filesharing wird klassisch nicht in offenen WLANs betrieben. An dem heimischen Internetanschluss werden sehr viel höhere Bandbreiten erzielt, wodurch ein offenes WLAN-Netz, aufgrund der Performance, uninteressant wird.
-Weiterhin sind Rechtsverletzungen in offenen WLAN-Netzen bisher nicht in nennenswertem Umfang bekannt geworden. Zusätzlich gehen die GesetzgeberInnen auch davon aus, dass der Zugang zum Internet grundsätzlich anonym verwendet werden kann.
+Weiterhin sind Rechtsverletzungen in offenen WLAN-Netzen bisher nicht in nennenswertem Umfang bekannt geworden. Zusätzlich gehen die Gesetzgeber auch davon aus, dass der Zugang zum Internet grundsätzlich anonym verwendet werden kann.
 </div>
 
     </div>
