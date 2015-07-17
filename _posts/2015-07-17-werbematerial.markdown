@@ -7,7 +7,7 @@ categories: freifunkmuc
 
 **Werbematerial**
 
-Unter [Werbematerial][werbematerial] haben wir für Euch einige Vorlagen und Logos abgelegt. 
+Unter [Werbematerial][werbematerial] haben wir für Euch einige Vorlagen und Logos zusammengestellt. 
 
 Eine vollständige Sammlung der Vorlagen ist auf [Github] zu finden.
 
