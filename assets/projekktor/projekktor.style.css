@@ -22,6 +22,7 @@ general
     position: relative;
     overflow: hidden;
     width: 400px;
+    margin: 0 auto;
 }
 
 .pptestcard {
