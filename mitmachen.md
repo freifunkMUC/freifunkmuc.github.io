@@ -74,8 +74,8 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen Outdoor-Router. Empfehlungen:
-* NanoStation M2 oder M2 loco (2.4 GHz)
-* NanoStation M5 oder M5 loco (5 GHz)
+  * TP-Link CPE210
+  * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf.
 </div>
@@ -98,10 +98,10 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 #### So kannst du mitmachen
 
-* Besorge mehrere Freifunk-fähige Outdoor-Router für 5 GHz. Empfehlungen:
-* NanoStation M5 (bis ~5 km)
-* NanoBridge M5 (bis ~10 km)
-* [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
+* Besorge mehrere Outdoor-Router für 5 GHz. Empfehlungen:
+  * Ubiquiti NanoStation M5 (bis ~5 km)
+  * Ubiquiti NanoBridge M5 (bis ~10 km)
+* Schalte die Originalfirmware der 5 GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh on LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
 * Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
 </div>
 
@@ -114,8 +114,8 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 ### Wo kann ich meine Fragen stellen?
 Wir treffen uns regelmäßig zum [Freifunktreffen][kontakt] jeden letzten Mittwoch im Monat im [Chaos Computer Club München][ccc].
 
-### Benötige ich einen Router für 2.4 GHz oder 5 GHz?
-Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2.4 GHz oder 5 GHz) arbeiten. Bitte vorher prüfen!
+### Benötige ich einen Router für 2,4 GHz oder 5 GHz?
+Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2,4 GHz oder 5 GHz) arbeiten. Standardmäßig wird 2,4 GHz verwendet, dies liegt auch daran, dass die Freifunk-Firmware für 5 GHz Geräte zur Zeit nicht im Freien eingesetzt werden darf (fehlendes DFS).
 
 ### Können mehrere Freifunk-Router an einem Ort miteinander verbunden werden?
 Mehrere Freifunk-Router können über ein Switch mit Netzwerk-Kabeln verbunden werden. Der im Starter-Kit empfohlene Router hat z.B. ein integriertes Switch.
