@@ -25,4 +25,4 @@ die verwendete Technik und wie alles zusammenhängt.
    });
 </script>
    
-[podcast]: http://freifunk-muenchen.de/werbematerial/
+[podcast]: http://freifunk-muenchen.de/podcast/
