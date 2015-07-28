@@ -28,3 +28,15 @@ Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Developer Chat]
 
 [Freifunk München Wiki](https://github.com/freifunkMUC/freifunkmuc.github.io/wiki) \\
 [Bugtracker](https://github.com/freifunkMUC/freifunkmuc.github.io/issues)
+
+### Daten
+
+Von allen Besuchern werden gespeichert und auf unbestimmte Zeit aufbewahrt:
+
+  * Datum/Uhrzeit,
+  * die abgerufene Seite,
+  * Statuscode des Webservers,
+  * Browser/Betriebssystem,
+  * der Referer.
+
+Wir geben die geloggten Daten nicht an Dritte weiter. Wir versuchen, im Rahmen der üblichen Vorsichtsmaßnahmen zur Sicherung unseres Servers zu verhindern, daß Dritte von diesen Daten Kenntnis erlangen.
