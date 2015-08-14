@@ -47,9 +47,11 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 
 #### So kannst du mitmachen
 
-* Besorge einen Freifunk-fähigen Router. [Diese Modelle unterstützen wir][firmware].
-* Empfehlung: TP-Link TL-WR841N (ca. 16€), TL-WDR4300 (ca. 45 €), für Restaurants Ubiquiti Enterprise AP UAP (ca. 60€)
-* [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
+* Besorge einen Freifunk-fähigen [2,4&nbsp;GHz](#bentige-ich-einen-router-fr-24-ghz-oder-5-ghz) Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  * TP-Link TL-WR841N (ca. 16&nbsp;€)
+  * TL-WDR4300 (ca. 45&nbsp;€)
+  * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
+* [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
 
@@ -73,11 +75,11 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### So kannst du mitmachen
 
-* Besorge einen Freifunk-fähigen Outdoor-Router. Empfehlungen:
+* Besorge dir einen Freifunk-fähigen [2,4&nbsp;GHz](#bentige-ich-einen-router-fr-24-ghz-oder-5-ghz) Outdor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * TP-Link CPE210
   * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
-* Stelle den Router an einem geeigneten Ort auf.
+* Montiere den Router an einem geeigneten Ort.
 </div>
 
         </div>
@@ -94,14 +96,16 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 #### Du möchtest
 
-* das “Rückgrat” des Freifunk-Netzes stärken, indem du stabile Richtfunk-Verbindungen zu weit entfernten Freifunk-Routern aufbaust (bis ~10km). Für stabile Verbindungen wird eine freie Sicht zum entfernten Router benötigt.
+* das “Rückgrat” des Freifunk-Netzes stärken, indem du stabile Richtfunk-Verbindungen zu weit entfernten Freifunk-Routern aufbaust. Für stabile Verbindungen wird eine freie Sicht zum entfernten Router benötigt.
 
 #### So kannst du mitmachen
 
-* Besorge mehrere Outdoor-Router für 5 GHz. Empfehlungen:
-  * Ubiquiti NanoStation M5 (bis ~5 km)
-  * Ubiquiti NanoBridge M5 (bis ~10 km)
-* Schalte die Originalfirmware der 5 GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh on LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
+* Besorge dir einen Freifunk-fähigen [5&nbsp;GHz](#bentige-ich-einen-router-fr-24-ghz-oder-5-ghz) Outdor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  * Ubiquiti NanoStation M5 \\
+    (bis ca. 5&nbsp;km)
+  * Ubiquiti NanoBridge M5 \\
+    (bis ca. 10&nbsp;km)
+* Schalte die Originalfirmware der 5 GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
 * Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
 </div>
 
@@ -112,7 +116,7 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 ## Weitere Informationen und Hinweise
 
 ### Wo kann ich meine Fragen stellen?
-Wir treffen uns regelmäßig zum [Freifunktreffen][kontakt] jeden letzten Mittwoch im Monat im [Chaos Computer Club München][ccc].
+Wir treffen uns regelmäßig zum [Freifunktreffen][kontakt] jeden letzten Mittwoch im Monat im [Chaos Computer Club München][ccc]. Wenn du dich einfach nur mal Informieren lassen willst, eine Beratung wünscht oder Probleme mit deiner Hardware hast, komm einfach zum Treffen.
 
 ### Benötige ich einen Router für 2,4 GHz oder 5 GHz?
 Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2,4 GHz oder 5 GHz) arbeiten. Standardmäßig wird 2,4 GHz verwendet, dies liegt auch daran, dass die Freifunk-Firmware für 5 GHz Geräte zur Zeit nicht im Freien eingesetzt werden darf (fehlendes DFS).
@@ -120,15 +124,17 @@ Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verb
 ### Können mehrere Freifunk-Router an einem Ort miteinander verbunden werden?
 Mehrere Freifunk-Router können über ein Switch mit Netzwerk-Kabeln verbunden werden. Der im Starter-Kit empfohlene Router hat z.B. ein integriertes Switch.
 
-### Wie flashe ich den Router
-Die Firmware findest du [hier][firmware], eine Anleitung zum Flashen findest du [hier][router-flashen]. Wie man dann den Knoten konfiguriert ist [hier][router-konfigurieren] erklärt.
+### Wie nehme ich meinen Router in Betrieb (flashen)
+Mit den folgenden drei Schritten kannst du deinen neu gekauften Router in das Freifunk-Netz einbringen.
+Diese Prozedur wird manchmal auch "flashen" genannt.
 
-Sobald Du den Freifunk Knoten bei Dir zu Hause in Betrieb genommen hast, musst Du diesen noch kurz mit Hilfe des Kontaktformulars eintragen.
+Zuerst lädst du dir die [passende Firmware][firmware] zu deinem Router runter.
+Diese kannst du dann nach unserer [Anleitung][router-flashen] auf deinem Router installieren (das eigentliche "flashen").
+Zu guter Letzt musst du noch deinen Router konfigurieren. Aber keine Panik, es gibt nur eine Hand voll Einstellungen, die wir ebenfalls in einer [Anleitung][router-konfigurieren] beschrieben haben.
 
-Nachdem Du das Formular abgeschickt hast, musst Du Dich noch kurz gedulden, bis wir die Daten eingepflegt haben. Genug Zeit also uns auf [Twitter][twitter] zu folgen, damit man regelmäßig mit Informationen versorgt wird.
 
 ### Wo stehen schon Freifunk-Router?
-Schau mal auf der [Knotenkarte](http://freifunk-muenchen.de/knotenkarte) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+Schau mal auf der [Knotenkarte](http://map.freifunk-muenchen.de/meshviewer/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
 
 Die Anleitung basiert auf [http://berlin.freifunk.net/participate/overview/][berlin] \\
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
