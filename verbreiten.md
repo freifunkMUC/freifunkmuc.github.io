@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Werbematerial
-permalink: /werbematerial/
+title: Infomaterial
+permalink: /verbreiten/
 ---
 
 Um die Idee von Freifunk weiterzutragen und interessierten Personen etwas in die Hand drücken zu können gibt es hier unser Logo, ein paar Druckvorlagen für Flyer, Sticker, Nachbarschaftsbriefe etc.
