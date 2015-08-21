@@ -4,9 +4,6 @@ title: Mitmachen
 permalink: /mitmachen/
 ---
 
-{% include treffen.md %}
-
-
 ## Werde FreifunkerIn
 
 Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Wir befinden uns derzeit noch in der Beta-Phase. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
@@ -23,8 +20,6 @@ Sprich mit deinem Freundeskreis, GeschäftspartnerInnen und allen Menschen die d
 * der Entwicklung von Infomaterial, Bannern, Transparenten, T-Shirts, … was immer dir Kreatives einfällt!
 * der Verbreitung der Idee auf Veranstaltungen, Barcamps und Kongressen.
 * dem Betreiben von Diensten für die Community und der Entwicklung von Webanwendungen.
-    
-Komm zum [Freifunk-Treffen][kontakt] oder frag auf der [Mailingliste][kontakt].
 
 ## Du möchtest einen Freifunk-Router aufstellen?
 
@@ -47,7 +42,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 
 #### So kannst du mitmachen
 
-* Besorge einen Freifunk-fähigen [2,4&nbsp;GHz](#bentige-ich-einen-router-fr-24-ghz-oder-5-ghz) Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+* Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * TP-Link TL-WR841N (ca. 16&nbsp;€)
   * TL-WDR4300 (ca. 45&nbsp;€)
   * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
@@ -75,7 +70,7 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen [2,4&nbsp;GHz](#bentige-ich-einen-router-fr-24-ghz-oder-5-ghz) Outdor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz Outdoor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * TP-Link CPE210
   * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
@@ -100,12 +95,12 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen [5&nbsp;GHz](#bentige-ich-einen-router-fr-24-ghz-oder-5-ghz) Outdor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+* Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * Ubiquiti NanoStation M5 \\
     (bis ca. 5&nbsp;km)
   * Ubiquiti NanoBridge M5 \\
     (bis ca. 10&nbsp;km)
-* Schalte die Originalfirmware der 5 GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
+* Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
 * Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
 </div>
 
@@ -113,36 +108,17 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
     </div><!-- /.col-sm-4 -->
 </div>
 
-## Weitere Informationen und Hinweise
+## Wo kann ich meine Fragen stellen?
 
-### Wo kann ich meine Fragen stellen?
-Wir treffen uns regelmäßig zum [Freifunktreffen][kontakt] jeden letzten Mittwoch im Monat im [Chaos Computer Club München][ccc]. Wenn du dich einfach nur mal Informieren lassen willst, eine Beratung wünscht oder Probleme mit deiner Hardware hast, komm einfach zum Treffen.
-
-### Benötige ich einen Router für 2,4 GHz oder 5 GHz?
-Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2,4 GHz oder 5 GHz) arbeiten. Standardmäßig wird 2,4 GHz verwendet, dies liegt auch daran, dass die Freifunk-Firmware für 5 GHz Geräte zur Zeit nicht im Freien eingesetzt werden darf (fehlendes DFS).
-
-### Können mehrere Freifunk-Router an einem Ort miteinander verbunden werden?
-Mehrere Freifunk-Router können über ein Switch mit Netzwerk-Kabeln verbunden werden. Der im Starter-Kit empfohlene Router hat z.B. ein integriertes Switch.
-
-### Wie nehme ich meinen Router in Betrieb (flashen)
-Mit den folgenden drei Schritten kannst du deinen neu gekauften Router in das Freifunk-Netz einbringen.
-Diese Prozedur wird manchmal auch "flashen" genannt.
-
-Zuerst lädst du dir die [passende Firmware][firmware] zu deinem Router runter.
-Diese kannst du dann nach unserer [Anleitung][router-flashen] auf deinem Router installieren (das eigentliche "flashen").
-Zu guter Letzt musst du noch deinen Router konfigurieren. Aber keine Panik, es gibt nur eine Hand voll Einstellungen, die wir ebenfalls in einer [Anleitung][router-konfigurieren] beschrieben haben.
-
-
-### Wo stehen schon Freifunk-Router?
-Schau mal auf der [Knotenkarte](http://map.freifunk-muenchen.de/meshviewer/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten scheue dich nicht uns zu [kontaktieren][kontakt].
 
 Die Anleitung basiert auf [http://berlin.freifunk.net/participate/overview/][berlin] \\
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
 
 [berlin]: http://berlin.freifunk.net/participate/overview/
-[kontakt]: /kontakt/
+[faq]: /faq/
 [firmware]: /firmware/
+[kontakt]: /kontakt/
 [router-flashen]: /router-flashen/
 [router-konfigurieren]: /router-konfigurieren/
-[ccc]: http://muc.ccc.de
 [twitter]: https://twitter.com/freifunkmuc
