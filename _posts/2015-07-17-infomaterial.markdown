@@ -11,5 +11,5 @@ Wir haben für Euch einige Vorlagen und Logos [hier][verbreiten] zusammengestell
 
 Eine vollständige Sammlung der Vorlagen ist auf [github] zu finden.
 
-[hier]: http://freifunk-muenchen.de/verbreiten/
+[verbreiten]: http://freifunk-muenchen.de/verbreiten/
 [github]: https://github.com/freifunkMUC/logo_merchandise_ci
