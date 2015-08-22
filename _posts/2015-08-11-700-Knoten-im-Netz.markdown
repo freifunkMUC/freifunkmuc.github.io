@@ -10,7 +10,7 @@ categories: freifunkmuc
 Vor genau 2 Monaten haben wir die Grenze von 500 Knoten erreicht. Heute sind es schon 700 aktive Knoten, alleine 88 davon in Gauting.
 
 <blockquote class="twitter-tweet" lang="de"><p lang="de" dir="ltr">Aktuell 88 aktive <a href="https://twitter.com/hashtag/Freifunk?src=hash">#Freifunk</a> Nodes in der Gemeinde <a href="https://twitter.com/hashtag/Gauting?src=hash">#Gauting</a>. <a href="https://twitter.com/hashtag/Infotweet?src=hash">#Infotweet</a> <a href="https://twitter.com/hashtag/fb?src=hash">#fb</a></p>&mdash; Tobias McFadden (@Der_Kalle) <a href="https://twitter.com/Der_Kalle/status/631125728004808704">11. August 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="/js/twitter_widget.js" charset="utf-8"></script>
 
 Herzlichen Glückwunsch an alle Knotenbetreiber und weiter so!
 
