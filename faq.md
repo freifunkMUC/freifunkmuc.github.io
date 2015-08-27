@@ -190,7 +190,7 @@ Grün sind neue Knoten, die in den letzten 14 tagen dazu gekommen sind. Blaue si
     <div style="display: none;">
         
 <div markdown="1">
-Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2,4 GHz oder 5 GHz) arbeiten. Standardmäßig wird 2,4 GHz verwendet, dies liegt auch daran, dass die Freifunk-Firmware für 5 GHz Geräte zur Zeit nicht im Freien eingesetzt werden darf (fehlendes DFS).
+Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2,4 GHz oder 5 GHz) arbeiten. Standardmäßig wird 2,4 GHz verwendet, dies liegt auch daran, dass die Freifunk-Firmware für 5 GHz Geräte zur Zeit nicht im Freien eingesetzt werden darf (fehlendes [DFS][dfs]).
 </div>
 
     </div>
