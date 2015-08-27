@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frequently Asked Questions (FAQ)
+title: Frequently Asked Questions
 permalink: /faq/
 ---
 
@@ -23,7 +23,7 @@ function toggleNode(node)
         Wer kann bei Freifunk mitmachen?
     </a></span>
     <div style="display: none;">
-        Jeder :)
+        Alle :)
     </div>
 </div>
 
@@ -40,6 +40,14 @@ function toggleNode(node)
     </a></span>
     <div style="display: none;">
         Die Nutzung von Freifunk ist völlig kostenlos und unkompliziert. Siehst Du ein WLAN-Netz mit dem Namen “muenchen.freifunk.net” kannst Du es ohne Angst vor versteckten Kosten nutzen und musst dich nicht vorher kompliziert mit Deinen persönlichen Daten anmelden.
+    </div>
+</div>
+
+<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
+        Wo stehen schon Freifunk-Router?
+    </a></span>
+    <div style="display: none;">
+        Schau mal auf der [Knotenkarte][knotenkarte] nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
     </div>
 </div>
 
@@ -171,6 +179,30 @@ Prinzipiell werden (fast) alle Geräte auf denen OpenWRT als Firmware installier
         
 <div markdown="1">
 Grün sind neue Knoten, die in den letzten 14 tagen dazu gekommen sind. Blaue sind schon länger im Netz. Ist ein Knoten offline so wird er rot angezeigt und nach zwei Tagen aus der Datenbank gelöscht.
+</div>
+
+    </div>
+</div>
+
+<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
+        Benötige ich einen Router für 2,4 GHz oder 5 GHz?
+    </a></span>
+    <div style="display: none;">
+        
+<div markdown="1">
+Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über WLAN verbinden kann, müssen beide Router im gleichen Frequenzband (2,4 GHz oder 5 GHz) arbeiten. Standardmäßig wird 2,4 GHz verwendet, dies liegt auch daran, dass die Freifunk-Firmware für 5 GHz Geräte zur Zeit nicht im Freien eingesetzt werden darf (fehlendes DFS).
+</div>
+
+    </div>
+</div>
+
+<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
+        Können mehrere Freifunk-Router an einem Ort miteinander verbunden werden?
+    </a></span>
+    <div style="display: none;">
+        
+<div markdown="1">
+Mehrere Freifunk-Router können über ein Switch mit Netzwerk-Kabeln verbunden werden. Der im Starter-Kit empfohlene Router hat z.B. ein integriertes Switch.
 </div>
 
     </div>
@@ -313,14 +345,16 @@ Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff ha
 
 Quelle: [Freifunk Magdeburg][ffmd]
 
-[ffmd]: http://md.freifunk.net
 [ccc]: http://muc.ccc.de
-[kontakt]: /kontakt/
+[config]: /router-konfigurieren/
+[configmode]: http://192.168.1.1/
+[dfs]: https://de.wikipedia.org/wiki/Dynamic_Frequency_Selection
+[ffmd]: http://md.freifunk.net
 [firmware]: /firmware/
 [flashen]: /router-flashen/
-[config]: /router-konfigurieren/
-[treffen]: /mitmachen/
-[nutzungsbedingungen]: /nutzungsbedingungen/
-[configmode]: http://192.168.1.1/
 [geomap]: http://map.freifunk-muenchen.de/geomap.html
+[knotenkarte]: http://map.freifunk-muenchen.de/meshviewer/
+[kontakt]: /kontakt/
 [nodelist]: http://map.freifunk-muenchen.de/list.html
+[nutzungsbedingungen]: /nutzungsbedingungen/
+[treffen]: /mitmachen/
