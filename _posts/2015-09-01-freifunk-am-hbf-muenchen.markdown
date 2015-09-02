@@ -11,7 +11,8 @@ In einer koordinierten Aktion haben Freifunker vor Ort und mit Hilfe von Telefon
 
 Ein großer Dank gilt einer Anwohnerin in der Arnulfstraße, [Radius Tours](http://www.radiustours.com) und dem [Kindermuseum München](http://www.kindermuseum-muenchen.de/) für das unkomplizierte Bereitstellen von Platz und Uplink für unsere Router!
 
-Update (02.09.2015):
+**Update (02.09.2015):**
+
 Durch ein paar kleinere Anpassungen können wir aktuell die Bahnhofshalle gut ausleuchten. Die Flüchtlinge sowie Helfer haben so die Möglichkeit mit ihren Geräten kostenfrei und ohne Registrierung die ersten Nachrichten aus Deutschland zu verschicken. Das Angebot wird durchgehend von vielen Flüchtlingen sehr dankend angenommen.
 
 ![Hbf Setup](/assets/posts/2015-09-01-ffmuc-setup-hbf-02.png)
