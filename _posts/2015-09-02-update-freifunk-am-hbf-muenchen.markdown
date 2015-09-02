@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Update: Freifunk für Flüchtlinge am Hauptbahnhof München"
-date:   2015-09-02 12:45:00
+date:   2015-09-02 12:50:00
 categories: freifunkmuc
 ---
 
