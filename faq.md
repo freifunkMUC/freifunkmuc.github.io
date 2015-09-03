@@ -343,6 +343,21 @@ Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff ha
     </div>
 </div>
 
+<div><span onclick="toggleNode(this.parentNode); return  false;"><a>
+       Erhöht zusätzliches WLAN nicht die Strahlenbelastung?
+    </a></span>
+    <div style="display: none;">
+
+<div markdown="1">
+Zwar bedeute jedes WLAN Gerät mehr auch mehr Strahlenbelastung, aber [WLAN-Funkmodule dürfen maximal mit einer Sendeleistung von 100 mW (Milliwatt) senden. Zum Vergleich: ein GSM-Sender strahlt über 600 mal so stark](http://www.rz.uni-konstanz.de/activekb/questions/192/Informationen+zur+Strahlungsbelastung+durch+WLAN).
+
+Ein zuätzliches WLAN erhöht die Strahlenbelastung also nur gering. Ein Freifunkrouter kann aber unter Umständen dazu beitragen das, z.B. in einer Nachbarschaft, insgesamt weniger geschlossene WLAN Access Points aufgestellt werden und mehr Menschen den einen Freifunk Router nutzen.
+</div>
+
+    </div>
+</div>
+
+
 Quelle: [Freifunk Magdeburg][ffmd]
 
 [ccc]: http://muc.ccc.de
