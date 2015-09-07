@@ -6,13 +6,17 @@ permalink: /kontakt/
 
 {% include treffen.md %}
 
-E-Mail: [muenchen@freifunk.net](mailto://muenchen@freifunk.net)
+E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net)
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
 IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](https://www.darkfasel.net))
 
 Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Developer Chat](https://webirc.darkfasel.net/#freifunk-dev)
+
+### Presse
+
+E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
 
 ### Mailingliste
 
