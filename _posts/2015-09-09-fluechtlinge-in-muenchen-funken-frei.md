@@ -31,3 +31,6 @@ Kommunalreferat, das Sozialreferat, sowie viele Unterstützende der SPD.
 In einem weiteren Schritt wird “Freifunk München” auf die Regierung von
 Oberbayern (ROB) zugehen und anbieten, auch in Einrichtungen der ROB beim
 Aufbau von Freifunk-Netzwerken zu helfen.
+
+
+Presseanfragen bitte an: presse@ffmuc.net
