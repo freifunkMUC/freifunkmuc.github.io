@@ -153,7 +153,7 @@ Du musst jetzt die [Münchner Freifunk-Firmware][firmware] auf Deinem Router [in
     <div style="display: none;">
 
 <div markdown="1">
-Das wissen wir nicht. Du kannst über die [Karte][geomap] sehen wie viele Geräte aktuell verbunden sind. Das ist eine schöne Statistik, aber genaue Aussagen können und wollen wir nicht treffen. Schließlich ist Freifunk anonym und frei.
+Das wissen wir nicht. Du kannst über die [Karte][knotenkarte] sehen wie viele Geräte aktuell verbunden sind. Das ist eine schöne Statistik, aber genaue Aussagen können und wollen wir nicht treffen. Schließlich ist Freifunk anonym und frei.
 </div>
 
     </div>
@@ -352,8 +352,7 @@ Quelle: [Freifunk Magdeburg][ffmd]
 [ffmd]: http://md.freifunk.net
 [firmware]: /firmware/
 [flashen]: /router-flashen/
-[geomap]: http://map.freifunk-muenchen.de/geomap.html
-[knotenkarte]: http://map.freifunk-muenchen.de/meshviewer/
+[knotenkarte]: /map/
 [kontakt]: /kontakt/
 [nodelist]: http://map.freifunk-muenchen.de/list.html
 [nutzungsbedingungen]: /nutzungsbedingungen/
