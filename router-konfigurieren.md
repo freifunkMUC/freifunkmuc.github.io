@@ -67,9 +67,9 @@ Wenn du einen normalen Internet-Anschluss hast, wird dein Freifunk-Router im all
 Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “Mesh-VPN Bandbreite begrenzen”. Daraufhin erscheinen zwei neue Felder. Trage in die beiden Felder die gewünschten Grenzen in Kbit/s ein. Wir empfehlen mindestens “8000″ für Downstream und “500″ für Upstream.
 
 #### Geo-Koordinaten
-Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der [Knotenkarte][geomap] zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
+Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der [Knotenkarte](/map/) zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
 
-Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte][geomap] und benutze den Button "Koordinaten beim nächsten Klick anzeigen" um die Koordinaten zu erfahren.
+Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte](/map/) und benutze den Button "Koordinaten beim nächsten Klick anzeigen" um die Koordinaten zu erfahren.
 
 ![Gluon Luci](/assets/router-konfigurieren/luci03.png)
 
@@ -101,6 +101,3 @@ Das Freifunk-Netz wird in die Niederlande oder nach Schweden getunnelt. Das kann
 Weitere Informationen dazu findest du in der [FAQ](/faq/).
 
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
-
-[geomap]: http://map.freifunk-muenchen.de/geomap.html
-
