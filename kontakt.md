@@ -30,7 +30,7 @@ E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
 
 ### Wiki, Bugtracker, ...
 
-[Freifunk München Wiki](https://github.com/freifunkMUC/freifunkmuc.github.io/wiki) \\
+[Freifunk München Wiki](https://ffmuc.net/wiki) \\
 [Bugtracker](https://github.com/freifunkMUC/freifunkmuc.github.io/issues)
 
 ### Daten
