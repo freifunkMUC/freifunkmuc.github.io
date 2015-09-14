@@ -69,7 +69,7 @@ Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “M
 #### Geo-Koordinaten
 Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der [Knotenkarte](/map/) zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
 
-Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte](/map/) und benutze den Button "Koordinaten beim nächsten Klick anzeigen" um die Koordinaten zu erfahren.
+Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte](/map/) und klicke mit der rechten Maustaste auf die entsprechende Stelle in der Karte, um die Koordinaten zu erfahren.
 
 ![Gluon Luci](/assets/router-konfigurieren/luci03.png)
 
