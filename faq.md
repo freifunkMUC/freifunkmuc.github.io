@@ -325,7 +325,7 @@ Freifunk München nutzt den Kanal 6. Diesen Kanal kann man auch nicht ändern, d
     <div style="display: none;">
 
 <div markdown="1">
-Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff hat. Aber im Expertenmodus, den man über der Configmode erreichen kann, kannst Du ein Passwort oder besser einen SSH-Schlüssel hinterlegen. Danach kommst Du per SSH als User root auf deinen Freifunk-Knoten entweder in dessen lokalen Netz über die IPv6-Adresse fdef:ffc0:4fff::1 oder über seine globale IPv6-Adresse, die Du aus der Detailansicht deines Knotens in der [Knotenliste][nodelist] entnehmen kannst.
+Ja. Standardmäßig ist ein Knoten so konfiguriert, dass dort niemand Zugriff hat. Aber im Expertenmodus, den man über der Configmode erreichen kann, kannst Du ein Passwort oder besser einen SSH-Schlüssel hinterlegen. Danach kommst Du per SSH als User root auf deinen Freifunk-Knoten entweder in dessen lokalen Netz über die IPv6-Adresse fdef:ffc0:4fff::1 oder über seine globale IPv6-Adresse, die Du aus der Detailansicht deines Knotens in der [Knotenkarte][knotenkarte] entnehmen kannst.
 </div>
 
     </div>
@@ -354,6 +354,5 @@ Quelle: [Freifunk Magdeburg][ffmd]
 [flashen]: /router-flashen/
 [knotenkarte]: /map/
 [kontakt]: /kontakt/
-[nodelist]: http://map.freifunk-muenchen.de/list.html
 [nutzungsbedingungen]: /nutzungsbedingungen/
 [treffen]: /mitmachen/
