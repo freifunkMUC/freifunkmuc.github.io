@@ -18,8 +18,8 @@ Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.5) h
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
 
-<label for="manu">Hersteller</label>
-<select id="manu" onchange="giveSelection(this.value)">
+<label for="brand">Hersteller</label>
+<select id="brand" onchange="giveSelection(1,this.value)">
   <option value="allnet">Allnet</option>
   <option value="buffalo">Buffalo</option>
   <option value="d-link">D-Link</option>
@@ -31,7 +31,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option value="x86">x86</option>
 </select>
 <label for="model">Modell</label>
-<select id="model" onchange="giveSelection2(this.value)">
+<select id="model" onchange="giveSelection(2,this.value)">
   <option data-option="allnet" value="all0315n">ALL0315N</option>
   <option data-option="buffalo" value="wzr-hp-ag300h-wzr-600dhp">WZR HP AG300H</option>
   <option data-option="buffalo" value="wzr-hp-ag300h-wzr-600dhp">WZR 600DHP</option>
