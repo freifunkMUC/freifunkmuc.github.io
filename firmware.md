@@ -160,19 +160,41 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 
 Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird.
 
+<div class="row">        
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading" markdown="1">
 ### Kernbereich
 
 Innerhalb A99 Autobahnring
 
+![Kernbereich](/assets/firmware/kernbereich.jpg)
+{: align="left"}
+
 <button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.5');">Erstinstallation</button>
 <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.5');">Aktualisierung</button>
+</div>
+        </div>            
+    </div><!-- /.col-sm-6 -->
+    <div class="col-sm-6">
+    <div class="list-group">
 
+<div class="panel-heading" markdown="1">
 ### Umland
 
 Außerhalb A99 Autobahnring
 
+![Umland](/assets/firmware/umland.jpg)
+{: align="left"}
+
 <button type="button" class="btn btn-default" onclick="getImage('ffmuc-umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6-umland');">Erstinstallation</button>
 <button type="button" class="btn btn-primary" onclick="getImage('ffmuc-umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6-umland');">Aktualisierung</button>
+</div>
+
+    </div>
+    </div><!-- /.col-sm-6 -->
+</div>
 
 ## Changelog
 
