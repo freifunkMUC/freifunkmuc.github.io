@@ -12,76 +12,201 @@ Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link 
 
 Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
-## Images (Gluon)
+## Images
 
-In der folgenden Tabelle sind die unterstützten Router aufgeführt. Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.5) herunterladen.
+Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.5) herunterladen.
 
-Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
+Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
 
-Modell         |  Erstinstallation  |  Aktualisierung
--------------- | ------------------ | ---------------
-Allnet ALL0315N               |  [factory][factory-allnet-all0315n]  |  [sysupgrade][sysupgrade-allnet-all0315n]
-Buffalo WZR HP AG300H<br>Buffalo WZR 600DHP | [factory][factory-buffalo-wzr-hp-ag300h-wzr-600dhp]  |  [sysupgrade][sysupgrade-buffalo-wzr-hp-ag300h-wzr-600dhp]
-Buffalo WZR HP G450H          |  [factory][factory-buffalo-wzr-hp-g450h]  |  [sysupgrade][sysupgrade-buffalo-wzr-hp-g450h]
-D-Link DIR-615                |  [rev C1][factory-d-link-dir-615-rev-c1]                    | [rev C1][sysupgrade-d-link-dir-615-rev-c1]
-D-Link DIR-825                |  [rev B1][factory-d-link-dir-825-rev-b1]                    | [rev B1][sysupgrade-d-link-dir-825-rev-b1]
-GL.iNet 6408A                 |  [v1][factory-gl-inet-6408a-v1] | [v1][sysupgrade-gl-inet-6408a-v1]
-GL.iNet 6416A                 |  [v1][factory-gl-inet-6416a-v1] | [v1][sysupgrade-gl-inet-6416a-v1]
-Linksys WRT160NL              |  [factory][factory-linksys-wrt160nl]                  |   [sysupgrade][sysupgrade-linksys-wrt160nl]
-Netgear WNDR3700              |  [factory][factory-netgear-wndr3700]                  |   [sysupgrade][sysupgrade-netgear-wndr3700]
-Netgear WNDR3700v2            |  [factory][factory-netgear-wndr3700v2]                |   [sysupgrade][sysupgrade-netgear-wndr3700v2]
-Netgear WNDR3700v4            |  [factory][factory-netgear-wndr3700v4]                |   [sysupgrade][sysupgrade-netgear-wndr3700v4]
-Netgear WNDR3800              |  [factory][factory-netgear-wndr3800]                  |   [sysupgrade][sysupgrade-netgear-wndr3800]
-Netgear WNDR4300              |  [factory][factory-netgear-wndr4300]                  |   [sysupgrade][sysupgrade-netgear-wndr4300]
-Netgear WNDRMACv2             |  [factory][factory-netgear-wndrmacv2]                 |   [sysupgrade][sysupgrade-netgear-wndrmacv2]
-TP-Link CPE210                |  [1.0][factory-tp-link-cpe210-v1] | [sysupgrade][sysupgrade-tp-link-cpe210-v1]
-TP-Link CPE220                |  [1.0][factory-tp-link-cpe220-v1] | [sysupgrade][sysupgrade-tp-link-cpe220-v1]
-TP-Link CPE510                |  [1.0][factory-tp-link-cpe510-v1] | [sysupgrade][sysupgrade-tp-link-cpe510-v1]
-TP-Link CPE520                |  [1.0][factory-tp-link-cpe520-v1] | [sysupgrade][sysupgrade-tp-link-cpe520-v1]
-TP-Link TL-MR3020             |  [1.x][factory-tp-link-tl-mr3020-v1]                      |  [1.x][sysupgrade-tp-link-tl-mr3020-v1]
-TP-Link TL-MR3040             |  [1.x][factory-tp-link-tl-mr3040-v1]<br>[2.x][factory-tp-link-tl-mr3040-v2]                  |  [1.x][sysupgrade-tp-link-tl-mr3040-v1]<br>[2.x][sysupgrade-tp-link-tl-mr3040-v2]
-TP-Link TL-MR3220             |  [1.x][factory-tp-link-tl-mr3220-v1]                      |  [1.x][sysupgrade-tp-link-tl-mr3220-v1]
-TP-Link TL-MR3420             |  [1.x][factory-tp-link-tl-mr3420-v1]<br>[2.x][factory-tp-link-tl-mr3420-v2]                 |  [1.x][sysupgrade-tp-link-tl-mr3420-v1]<br>[2.x][sysupgrade-tp-link-tl-mr3420-v2]
-TP-Link TL-WA701N/ND          |  [1.x][factory-tp-link-tl-wa701n-nd-v1]   | [1.x][sysupgrade-tp-link-tl-wa701n-nd-v1]
-TP-Link TL-WA750RE            |  [1.x][factory-tp-link-tl-wa750re-v1]   | [2.x][sysupgrade-tp-link-tl-wa750re-v1]
-TP-Link TL-WA801N/ND          |  [2.x][factory-tp-link-tl-wa801n-nd-v2]   | [2.x][sysupgrade-tp-link-tl-wa801n-nd-v2]
-TP-Link TL-WA830RE            |  [1.x][factory-tp-link-tl-wa830re-v1]   | [1.x][sysupgrade-tp-link-tl-wa830re-v1]
-TP-Link TL-WA850RE            |  [1.x][factory-tp-link-tl-wa850re-v1]   | [1.x][sysupgrade-tp-link-tl-wa850re-v1]
-TP-Link TL-WA860RE            |  [1.x][factory-tp-link-tl-wa860re-v1]   | [1.x][sysupgrade-tp-link-tl-wa860re-v1]
-TP-Link TL-WA901ND            |  [2.x][factory-tp-link-tl-wa901n-nd-v2]<br>[3.x][factory-tp-link-tl-wa901n-nd-v3]  |  [2.x][sysupgrade-tp-link-tl-wa901n-nd-v2]<br>[3.x][sysupgrade-tp-link-tl-wa901n-nd-v3]
-TP-Link TL-WDR3500            |  [1.x][factory-tp-link-tl-wdr3500-v1]                      |  [1.x][sysupgrade-tp-link-tl-wdr3500-v1]
-TP-Link TL-WDR3600            |  [1.x][factory-tp-link-tl-wdr3600-v1]                      |  [1.x][sysupgrade-tp-link-tl-wdr3600-v1]
-TP-Link TL-WDR4300            |  [1.x][factory-tp-link-tl-wdr4300-v1]                      |  [1.x][sysupgrade-tp-link-tl-wdr4300-v1]
-TP-Link TL-WR703N          |  [1.x][factory-tp-link-tl-wr703n-v1]    | [1.x][sysupgrade-tp-link-tl-wr703n-v1]
-TP-Link TL-WR710N          |  [1.x][factory-tp-link-tl-wr710n-v1]    | [1.x][sysupgrade-tp-link-tl-wr710n-v1]
-TP-Link TL-WR740N/ND          |  [1.x][factory-tp-link-tl-wr740n-nd-v1]<br>[3.x][factory-tp-link-tl-wr740n-nd-v3]<br>[4.x][factory-tp-link-tl-wr740n-nd-v4]            |  [1.x][sysupgrade-tp-link-tl-wr740n-nd-v1]<br>[3.x][sysupgrade-tp-link-tl-wr740n-nd-v3]<br>[4.x][sysupgrade-tp-link-tl-wr740n-nd-v4]
-TP-Link TL-WR741N/ND          |  [1.x][factory-tp-link-tl-wr741n-nd-v1]<br>[2.x][factory-tp-link-tl-wr741n-nd-v2]<br>[4.x][factory-tp-link-tl-wr741n-nd-v4]            |  [1.x][sysupgrade-tp-link-tl-wr741n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr741n-nd-v2]<br>[4.x][sysupgrade-tp-link-tl-wr741n-nd-v4]
-TP-Link TL-WR743N/ND          |  [1.x][factory-tp-link-tl-wr743n-nd-v1]<br> [2.x][factory-tp-link-tl-wr743n-nd-v2]    | [1.x][sysupgrade-tp-link-tl-wr743n-nd-v1]<br>[1.x][sysupgrade-tp-link-tl-wr743n-nd-v2]
-TP-Link TL-WR841N/ND          |  [3.x][factory-tp-link-tl-wr841n-nd-v3]<br>[5.x][factory-tp-link-tl-wr841n-nd-v5]<br>[7.x][factory-tp-link-tl-wr841n-nd-v7]<br>[8.x][factory-tp-link-tl-wr841n-nd-v8]<br>[9.x][factory-tp-link-tl-wr841n-nd-v9]  |  [3.x][sysupgrade-tp-link-tl-wr841n-nd-v3]<br>[5.x][sysupgrade-tp-link-tl-wr841n-nd-v5]<br>[7.x][sysupgrade-tp-link-tl-wr841n-nd-v7]<br>[8.x][sysupgrade-tp-link-tl-wr841n-nd-v8]<br>[9.x][sysupgrade-tp-link-tl-wr841n-nd-v9]
-TP-Link TL-WR842N/ND          |  [1.x][factory-tp-link-tl-wr842n-nd-v1]<br>[2.x][factory-tp-link-tl-wr842n-nd-v2]                 |  [1.x][sysupgrade-tp-link-tl-wr842n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr842n-nd-v2]
-TP-Link TL-WR941N/ND          |  [2.x][factory-tp-link-tl-wr941n-nd-v2]<br>[3.x][factory-tp-link-tl-wr941n-nd-v3]<br>[4.x][factory-tp-link-tl-wr941n-nd-v4]<br>[5.x][factory-tp-link-tl-wr941n-nd-v5]             |  [2.x][sysupgrade-tp-link-tl-wr941n-nd-v2]<br>[3.x][sysupgrade-tp-link-tl-wr941n-nd-v3]<br>[4.x][sysupgrade-tp-link-tl-wr941n-nd-v4]<br>[5.x][sysupgrade-tp-link-tl-wr941n-nd-v5]
-TP-Link TL-WR1043N/ND         |  [1.x][factory-tp-link-tl-wr1043n-nd-v1]<br>[2.x][factory-tp-link-tl-wr1043n-nd-v2]  |  [1.x][sysupgrade-tp-link-tl-wr1043n-nd-v1]<br>[2.x][sysupgrade-tp-link-tl-wr1043n-nd-v2]
-TP-Link TL-WR2543N/ND         |  [1.x][factory-tp-link-tl-wr2543n-nd-v1]                      |  [1.x][sysupgrade-tp-link-tl-wr2543n-nd-v1]
-Ubiquiti Bullet M |  [factory][factory-ubiquiti-bullet-m]  |  [sysupgrade][sysupgrade-ubiquiti-bullet-m]
-Ubiquiti Nanostation/Loco M   |  [factory][factory-ubiquiti-nanostation-m]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m]
-Ubiquiti Nanostation M XW     |  [factory][factory-ubiquiti-nanostation-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-nanostation-m-xw]
-Ubiquiti Nanostation Loco M XW |  [factory][factory-ubiquiti-loco-m-xw]  |  [sysupgrade][sysupgrade-ubiquiti-loco-m-xw]
-Ubiquiti UniFi AP / Unifi AP-LR |  [factory][factory-ubiquiti-unifi]  |  [sysupgrade][sysupgrade-ubiquiti-unifi]
-Ubiquiti UniFi AP-Pro         |  [factory][factory-ubiquiti-unifi-ap-pro]  |  [sysupgrade][sysupgrade-ubiquiti-unifi-ap-pro]
-Ubiquiti UniFi Outdoor        |  [factory][factory-ubiquiti-unifiap-outdoor]  |  [sysupgrade][sysupgrade-ubiquiti-unifiap-outdoor]
-x86 Virtual Machine Images    |  [kvm][factory-x86-kvm]<br>[Generic][factory-x86-generic]<br>[Virtualbox VDI][factory-x86-virtualbox]<br>[VMware vmdk][factory-x86-vmware]  |  [kvm][sysupgrade-x86-kvm]<br>[Generic][sysupgrade-x86-generic]
+<label for="brand">Hersteller</label>
+<select id="brand" onchange="giveSelection(1,this.value)">
+  <option value="allnet">Allnet</option>
+  <option value="buffalo">Buffalo</option>
+  <option value="d-link">D-Link</option>
+  <option value="gl-inet">GL.iNet</option>
+  <option value="linksys">Linksys</option>
+  <option value="netgear">Netgear</option>
+  <option value="tp-link">TP-Link</option>
+  <option value="ubiquiti">Ubiquiti</option>
+  <option value="x86">x86</option>
+</select>
+<label for="model">Modell</label>
+<select id="model" onchange="giveSelection(2,this.value)">
+  <option data-option="allnet" value="all0315n">ALL0315N</option>
+  <option data-option="buffalo" value="wzr-hp-ag300h-wzr-600dhp">WZR HP AG300H</option>
+  <option data-option="buffalo" value="wzr-hp-ag300h-wzr-600dhp">WZR 600DHP</option>
+  <option data-option="buffalo" value="wzr-hp-g450h">WZR HP G450H</option>
+  <option data-option="d-link" value="dir-615">DIR-615</option>
+  <option data-option="d-link" value="dir-825">DIR-825</option>
+  <option data-option="gl-inet" value="6408a">6408A</option>
+  <option data-option="gl-inet" value="6416a">6416A</option>
+  <option data-option="linksys" value="wrt160nl">WRT160NL</option>
+  <option data-option="netgear" value="wndr3700">WNDR3700</option>
+  <option data-option="netgear" value="wndr3700v2">WNDR3700v2</option>
+  <option data-option="netgear" value="wndr3700v4">WNDR3700v4</option>
+  <option data-option="netgear" value="wndr3800">WNDR3800</option>
+  <option data-option="netgear" value="wndr4300">WNDR4300</option>
+  <option data-option="netgear" value="wndrmacv2">WNDRMACv2</option>
+  <option data-option="tp-link" value="cpe210">CPE210</option>
+  <option data-option="tp-link" value="cpe220">CPE220</option>
+  <option data-option="tp-link" value="cpe510">CPE510</option>
+  <option data-option="tp-link" value="cpe520">CPE520</option>
+  <option data-option="tp-link" value="tl-mr3020">TL-MR3020</option>
+  <option data-option="tp-link" value="tl-mr3040">TL-MR3040</option>
+  <option data-option="tp-link" value="tl-mr3220">TL-MR3220</option>
+  <option data-option="tp-link" value="tl-mr3420">TL-MR3420</option>
+  <option data-option="tp-link" value="tl-wa701n-nd">TL-WA701N/ND</option>
+  <option data-option="tp-link" value="tl-wa750re">TL-WA750RE</option>
+  <option data-option="tp-link" value="tl-wa801n-nd">TL-WA801N/ND</option>
+  <option data-option="tp-link" value="tl-wa830re">TL-WA830RE</option>
+  <option data-option="tp-link" value="tl-wa850re">TL-WA850RE</option>
+  <option data-option="tp-link" value="tl-wa860re">TL-WA860RE</option>
+  <option data-option="tp-link" value="tl-wa901nd">TL-WA901ND</option>
+  <option data-option="tp-link" value="tl-wdr3500">TL-WDR3500</option>
+  <option data-option="tp-link" value="tl-wdr3600">TL-WDR3600</option>
+  <option data-option="tp-link" value="tl-wdr4300">TL-WDR4300</option>
+  <option data-option="tp-link" value="tl-wr703n">TL-WR703N</option>
+  <option data-option="tp-link" value="tl-wr710n">TL-WR710N</option>
+  <option data-option="tp-link" value="tl-wr740n-nd">TL-WR740N/ND</option>
+  <option data-option="tp-link" value="tl-wr741n-nd">TL-WR741N/ND</option>
+  <option data-option="tp-link" value="tl-wr743n-nd">TL-WR743N/ND</option>
+  <option data-option="tp-link" value="tl-wr841n-nd">TL-WR841N/ND</option>
+  <option data-option="tp-link" value="tl-wr842n-nd">TL-WR842N/ND</option>
+  <option data-option="tp-link" value="tl-wr941n-nd">TL-WR941N/ND</option>
+  <option data-option="tp-link" value="tl-wr1043n-nd">TL-WR1043N/ND</option>
+  <option data-option="tp-link" value="tl-wr2543n-nd">TL-WR2543N/ND</option>
+  <option data-option="ubiquiti" value="bullet-m">Bullet M</option>
+  <option data-option="ubiquiti" value="nanostation-m">Nanostation/Loco M</option>
+  <option data-option="ubiquiti" value="nanostation-m-xw">Nanostation M XW</option>
+  <option data-option="ubiquiti" value="loco-m-xw">Nanostation Loco M XW</option>
+  <option data-option="ubiquiti" value="unifi">UniFi AP / Unifi AP-LR</option>
+  <option data-option="ubiquiti" value="unifi-ap-pro">UniFi AP-Pro</option>
+  <option data-option="ubiquiti" value="unifiap-outdoor">UniFi Outdoor</option>
+  <option data-option="x86" value="vmi">Virtual Machine Images</option>
+</select>
+<label for="version">Version</label>
+<select id="version">
+  <option data-option="all0315n" value="">factory</option>
+  <option data-option="wzr-hp-ag300h-wzr-600dhp" value="">factory</option>
+  <option data-option="wzr-hp-g450h" value="">factory</option>
+  <option data-option="dir-615" value="rev-c1">rev C1</option>
+  <option data-option="dir-825" value="rev-b1">rev B1</option>
+  <option data-option="6408a" value="v1">v1</option>
+  <option data-option="6416a" value="v1">v1</option>
+  <option data-option="wrt160nl" value="">factory</option>
+  <option data-option="wndr3700" value="">factory</option>
+  <option data-option="wndr3700v2" value="">factory</option>
+  <option data-option="wndr3700v4" value="">factory</option>
+  <option data-option="wndr3800" value="">factory</option>
+  <option data-option="wndr4300" value="">factory</option>
+  <option data-option="wndrmacv2" value="">factory</option>
+  <option data-option="cpe210" value="v1.0">1.0</option>
+  <option data-option="cpe220" value="v1.0">1.0</option>
+  <option data-option="cpe510" value="v1.0">1.0</option>
+  <option data-option="cpe520" value="v1.0">1.0</option>
+  <option data-option="tl-mr3020" value="v1">1.x</option>
+  <option data-option="tl-mr3040" value="v1">1.x</option>
+  <option data-option="tl-mr3040" value="v2">2.x</option>
+  <option data-option="tl-mr3220" value="v1">1.x</option>
+  <option data-option="tl-mr3420" value="v1">1.x</option>
+  <option data-option="tl-mr3420" value="v2">2.x</option>
+  <option data-option="tl-wa701n-nd" value="v1">1.x</option>
+  <option data-option="tl-wa750re" value="v1">1.x</option>
+  <option data-option="tl-wa801n-nd" value="v2">2.x</option>
+  <option data-option="tl-wa830re" value="v1">1.x</option>
+  <option data-option="tl-wa850re" value="v1">1.x</option>
+  <option data-option="tl-wa860re" value="v1">1.x</option>
+  <option data-option="tl-wa901nd" value="v2">2.x</option>
+  <option data-option="tl-wa901nd" value="v3">3.x</option>
+  <option data-option="tl-wdr3500" value="v1">1.x</option>
+  <option data-option="tl-wdr3600" value="v1">1.x</option>
+  <option data-option="tl-wdr4300" value="v1">1.x</option>
+  <option data-option="tl-wr703n" value="v1">1.x</option>
+  <option data-option="tl-wr710n" value="v1">1.x</option>
+  <option data-option="tl-wr740n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr740n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr740n-nd" value="v4">4.x</option>
+  <option data-option="tl-wr741n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr741n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr741n-nd" value="v4">4.x</option>
+  <option data-option="tl-wr743n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr743n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr841n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr841n-nd" value="v5">5.x</option>
+  <option data-option="tl-wr841n-nd" value="v7">7.x</option>
+  <option data-option="tl-wr841n-nd" value="v8">8.x</option>
+  <option data-option="tl-wr841n-nd" value="v9">9.x</option>
+  <option data-option="tl-wr842n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr842n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr941n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr941n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr941n-nd" value="v4">4.x</option>
+  <option data-option="tl-wr941n-nd" value="v5">5.x</option>
+  <option data-option="tl-wr1043n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr1043n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr2543n-nd" value="v1">1.x</option>
+  <option data-option="bullet-m" value="">factory</option>
+  <option data-option="nanostation-m" value="">factory</option>
+  <option data-option="nanostation-m-xw" value="">factory</option>
+  <option data-option="loco-m-xw" value="">factory</option>
+  <option data-option="unifi" value="">factory</option>
+  <option data-option="unifi-ap-pro" value="">factory</option>
+  <option data-option="unifiap-outdoor" value="">factory</option>
+  <option data-option="vmi" value="kvm">kvm</option>
+  <option data-option="vmi" value="generic">Generic</option>
+  <option data-option="vmi" value="virtualbox">Virtualbox VDI</option>
+  <option data-option="vmi" value="vmware">VMware vmdk</option>
+</select>
+
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird.
+
+<div class="row">        
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading" markdown="1">
+### Kernbereich
+
+Innerhalb A99 Autobahnring
+
+![Kernbereich](/assets/firmware/kernbereich.jpg)
+{: align="left"}
+
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.5');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.5');">Aktualisierung</button>
+</div>
+        </div>            
+    </div><!-- /.col-sm-6 -->
+    <div class="col-sm-6">
+    <div class="list-group">
+
+<div class="panel-heading" markdown="1">
+### Umland
+
+Außerhalb A99 Autobahnring
+
+![Umland](/assets/firmware/umland.jpg)
+{: align="left"}
+
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc-umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6-umland');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc-umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6-umland');">Aktualisierung</button>
+</div>
+
+    </div>
+    </div><!-- /.col-sm-6 -->
+</div>
 
 ## Changelog
 
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
-## v2015.5
+### v2015.5
  - Updated to Gluon 2015.1.1
    - Fixes some problems with mesh on LAN setups
  - x86 images now support two network interfaces, eth0 for LAN and eth1 for WAN
  - Mesh on WAN is disabled by default
 
-## v2015.4
+### v2015.4
  - Updated to Gluon 2015.1
    - More supported architectures and router models are available, including x86
  - Setup Mode
@@ -120,193 +245,3 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
 
 [hardware]: http://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/
-
-[factory-allnet-all0315n]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-allnet-all0315n.bin
-[sysupgrade-allnet-all0315n]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-allnet-all0315n-sysupgrade.bin
-
-[factory-buffalo-wzr-hp-ag300h-wzr-600dhp]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-buffalo-wzr-hp-ag300h-wzr-600dhp.bin
-[sysupgrade-buffalo-wzr-hp-ag300h-wzr-600dhp]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-buffalo-wzr-hp-ag300h-wzr-600dhp-sysupgrade.bin
-
-[factory-buffalo-wzr-hp-g450h]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-buffalo-wzr-hp-g450h.bin
-[sysupgrade-buffalo-wzr-hp-g450h]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-buffalo-wzr-hp-g450h-sysupgrade.bin
-
-[factory-d-link-dir-615-rev-c1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-d-link-dir-615-rev-c1.bin
-[sysupgrade-d-link-dir-615-rev-c1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-d-link-dir-615-rev-c1-sysupgrade.bin
-
-[factory-d-link-dir-825-rev-b1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-d-link-dir-825-rev-b1.bin
-[sysupgrade-d-link-dir-825-rev-b1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-d-link-dir-825-rev-b1-sysupgrade.bin
-
-[factory-gl-inet-6408a-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-gl-inet-6408a-v1.bin
-[sysupgrade-gl-inet-6408a-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-gl-inet-6408a-v1-sysupgrade.bin
-
-[factory-gl-inet-6416a-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-gl-inet-6416a-v1.bin
-[sysupgrade-gl-inet-6416a-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-gl-inet-6416a-v1-sysupgrade.bin
-
-[factory-linksys-wrt160nl]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-linksys-wrt160nl.bin
-[sysupgrade-linksys-wrt160nl]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-linksys-wrt160nl-sysupgrade.bin
-
-[factory-netgear-wndr3700]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-netgear-wndr3700.img
-[sysupgrade-netgear-wndr3700]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-netgear-wndr3700-sysupgrade.bin
-
-[factory-netgear-wndr3700v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-netgear-wndr3700v2.img
-[sysupgrade-netgear-wndr3700v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-netgear-wndr3700v2-sysupgrade.bin
-
-[factory-netgear-wndr3700v4]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-netgear-wndr3700v4.img
-[sysupgrade-netgear-wndr3700v4]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-netgear-wndr3700v4-sysupgrade.tar
-
-[factory-netgear-wndr3800]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-netgear-wndr3800.img
-[sysupgrade-netgear-wndr3800]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-netgear-wndr3800-sysupgrade.bin
-
-[factory-netgear-wndr4300]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-netgear-wndr4300.img
-[sysupgrade-netgear-wndr4300]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-netgear-wndr4300-sysupgrade.bin
-
-[factory-netgear-wndrmacv2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-netgear-wndrmacv2.img
-[sysupgrade-netgear-wndrmacv2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-netgear-wndrmacv2-sysupgrade.bin
-
-[factory-tp-link-cpe210-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-cpe210-v1.0.bin
-[sysupgrade-tp-link-cpe210-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-cpe210-v1.0-sysupgrade.bin
-
-[factory-tp-link-cpe220-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-cpe220-v1.0.bin
-[sysupgrade-tp-link-cpe220-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-cpe220-v1.0-sysupgrade.bin
-
-[factory-tp-link-cpe510-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-cpe510-v1.0.bin
-[sysupgrade-tp-link-cpe510-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-cpe510-v1.0-sysupgrade.bin
-
-[factory-tp-link-cpe520-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-cpe520-v1.0.bin
-[sysupgrade-tp-link-cpe520-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-cpe520-v1.0-sysupgrade.bin
-
-[factory-tp-link-tl-mr3020-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-mr3020-v1.bin
-[sysupgrade-tp-link-tl-mr3020-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-mr3020-v1-sysupgrade.bin
-
-[factory-tp-link-tl-mr3040-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-mr3040-v1.bin
-[sysupgrade-tp-link-tl-mr3040-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-mr3040-v1-sysupgrade.bin
-[factory-tp-link-tl-mr3040-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-mr3040-v2.bin
-[sysupgrade-tp-link-tl-mr3040-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-mr3040-v2-sysupgrade.bin
-
-[factory-tp-link-tl-mr3220-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-mr3220-v1.bin
-[sysupgrade-tp-link-tl-mr3220-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-mr3220-v1-sysupgrade.bin
-
-[factory-tp-link-tl-mr3420-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-mr3420-v1.bin
-[sysupgrade-tp-link-tl-mr3420-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-mr3420-v1-sysupgrade.bin
-[factory-tp-link-tl-mr3420-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-mr3420-v2.bin
-[sysupgrade-tp-link-tl-mr3420-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-mr3420-v2-sysupgrade.bin
-
-[factory-tp-link-tl-wa701n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa701n-nd-v1.bin
-[sysupgrade-tp-link-tl-wa701n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa701n-nd-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wa750re-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa750re-v1.bin
-[sysupgrade-tp-link-tl-wa750re-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa750re-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wa801n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa801n-nd-v2.bin
-[sysupgrade-tp-link-tl-wa801n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa801n-nd-v2-sysupgrade.bin
-
-[factory-tp-link-tl-wa830re-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa830re-v1.bin
-[sysupgrade-tp-link-tl-wa830re-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa830re-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wa850re-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa850re-v1.bin
-[sysupgrade-tp-link-tl-wa850re-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa850re-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wa860re-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa860re-v1.bin
-[sysupgrade-tp-link-tl-wa860re-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa860re-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wa901n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa901n-nd-v2.bin
-[sysupgrade-tp-link-tl-wa901n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa901n-nd-v2-sysupgrade.bin
-[factory-tp-link-tl-wa901n-nd-v3]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wa901n-nd-v3.bin
-[sysupgrade-tp-link-tl-wa901n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wa901n-nd-v3-sysupgrade.bin
-
-[factory-tp-link-tl-wdr3500-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wdr3500-v1.bin
-[sysupgrade-tp-link-tl-wdr3500-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wdr3500-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wdr3600-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wdr3600-v1.bin
-[sysupgrade-tp-link-tl-wdr3600-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wdr3600-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wdr4300-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wdr4300-v1.bin
-[sysupgrade-tp-link-tl-wdr4300-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wdr4300-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wr703n-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr703n-v1.bin
-[sysupgrade-tp-link-tl-wr703n-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr703n-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wr710n-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr710n-v1.bin
-[sysupgrade-tp-link-tl-wr710n-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr710n-v1-sysupgrade.bin
-
-[factory-tp-link-tl-wr740n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr740n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr740n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr740n-nd-v1-sysupgrade.bin
-[factory-tp-link-tl-wr740n-nd-v3]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr740n-nd-v3.bin
-[sysupgrade-tp-link-tl-wr740n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr740n-nd-v3-sysupgrade.bin
-[factory-tp-link-tl-wr740n-nd-v4]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr740n-nd-v4.bin
-[sysupgrade-tp-link-tl-wr740n-nd-v4]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr740n-nd-v4-sysupgrade.bin
-
-[factory-tp-link-tl-wr741n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr741n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr741n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr741n-nd-v1-sysupgrade.bin
-[factory-tp-link-tl-wr741n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr741n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr741n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr741n-nd-v2-sysupgrade.bin
-[factory-tp-link-tl-wr741n-nd-v4]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr741n-nd-v4.bin
-[sysupgrade-tp-link-tl-wr741n-nd-v4]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr741n-nd-v4-sysupgrade.bin
-
-[factory-tp-link-tl-wr743n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr743n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr743n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr743n-nd-v1-sysupgrade.bin
-[factory-tp-link-tl-wr743n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr743n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr743n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr743n-nd-v2-sysupgrade.bin
-
-[factory-tp-link-tl-wr841n-nd-v3]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v3.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v3-sysupgrade.bin
-[factory-tp-link-tl-wr841n-nd-v5]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v5.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v5]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v5-sysupgrade.bin
-[factory-tp-link-tl-wr841n-nd-v7]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v7.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v7]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v7-sysupgrade.bin
-[factory-tp-link-tl-wr841n-nd-v8]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v8.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v8]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v8-sysupgrade.bin
-[factory-tp-link-tl-wr841n-nd-v9]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v9.bin
-[sysupgrade-tp-link-tl-wr841n-nd-v9]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr841n-nd-v9-sysupgrade.bin
-
-[factory-tp-link-tl-wr842n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr842n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr842n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr842n-nd-v1-sysupgrade.bin
-[factory-tp-link-tl-wr842n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr842n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr842n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr842n-nd-v2-sysupgrade.bin
-
-[factory-tp-link-tl-wr941n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v2-sysupgrade.bin
-[factory-tp-link-tl-wr941n-nd-v3]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v3.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v3]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v3-sysupgrade.bin
-[factory-tp-link-tl-wr941n-nd-v4]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v4.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v4]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v4-sysupgrade.bin
-[factory-tp-link-tl-wr941n-nd-v5]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v5.bin
-[sysupgrade-tp-link-tl-wr941n-nd-v5]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr941n-nd-v5-sysupgrade.bin
-
-[factory-tp-link-tl-wr1043n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr1043n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr1043n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr1043n-nd-v1-sysupgrade.bin
-[factory-tp-link-tl-wr1043n-nd-v2]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr1043n-nd-v2.bin
-[sysupgrade-tp-link-tl-wr1043n-nd-v2]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr1043n-nd-v2-sysupgrade.bin
-
-[factory-tp-link-tl-wr2543n-nd-v1]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-tp-link-tl-wr2543n-nd-v1.bin
-[sysupgrade-tp-link-tl-wr2543n-nd-v1]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-tp-link-tl-wr2543n-nd-v1-sysupgrade.bin
-
-[factory-ubiquiti-bullet-m]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-bullet-m.bin
-[sysupgrade-ubiquiti-bullet-m]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-bullet-m-sysupgrade.bin
-
-[factory-ubiquiti-loco-m-xw]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-loco-m-xw.bin
-[sysupgrade-ubiquiti-loco-m-xw]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-loco-m-xw-sysupgrade.bin
-
-[factory-ubiquiti-nanostation-m]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-nanostation-m.bin
-[sysupgrade-ubiquiti-nanostation-m]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-nanostation-m-sysupgrade.bin
-
-[factory-ubiquiti-nanostation-m-xw]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-nanostation-m-xw.bin
-[sysupgrade-ubiquiti-nanostation-m-xw]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-nanostation-m-xw-sysupgrade.bin
-
-[factory-ubiquiti-unifi]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-unifi.bin
-[sysupgrade-ubiquiti-unifi]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-unifi-sysupgrade.bin
-
-[factory-ubiquiti-unifi-ap-pro]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-unifi-ap-pro.bin
-[sysupgrade-ubiquiti-unifi-ap-pro]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-unifi-ap-pro-sysupgrade.bin
-
-[factory-ubiquiti-unifiap-outdoor]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-ubiquiti-unifiap-outdoor.bin
-[sysupgrade-ubiquiti-unifiap-outdoor]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-ubiquiti-unifiap-outdoor-sysupgrade.bin
-
-[factory-x86-kvm]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-x86-kvm.img.gz
-[sysupgrade-x86-kvm]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-x86-kvm-sysupgrade.img.gz
-
-[factory-x86-generic]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-x86-generic.img.gz
-[factory-x86-virtualbox]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-x86-virtualbox.vdi
-[factory-x86-vmware]: http://firmware.ffmuc.net/stable/factory/gluon-ffmuc-v2015.5-x86-vmware.vmdk
-[sysupgrade-x86-generic]: http://firmware.ffmuc.net/stable/sysupgrade/gluon-ffmuc-v2015.5-x86-generic-sysupgrade.img.gz
-
