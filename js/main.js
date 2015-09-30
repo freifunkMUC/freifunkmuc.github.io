@@ -33,5 +33,21 @@ function getImage(code,type,url,gluon) {
   var brand = el1.options[el1.selectedIndex].value;
   var model = el2.options[el2.selectedIndex].value;
   var version = el3.options[el3.selectedIndex].value;
-  window.location = url + type + '/gluon-' + code + '-' + gluon + '-' + manu + '-' + model + version;
+  var imgURL = url + type + '/gluon-' + code + '-' + gluon + '-' + brand + '-' + model;
+  if(version.length != 0) {
+    imgURL += '-' + version;
+  }
+  if(type === 'sysupgrade') {
+    imgURL += '-' + type;
+  }
+  if(version === 'kvm' || version === 'generic') {
+    imgURL += '.img.gz';
+  } else if(version === 'virtualbox') {
+    imgURL += '.vdi';
+  } else if(version === 'vmware') {
+    imgURL += '.vmdk';
+  } else {
+    imgURL += '.bin';
+  }
+  window.location = imgURL;
 }

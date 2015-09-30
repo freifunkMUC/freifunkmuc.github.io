@@ -86,76 +86,76 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 </select>
 <label for="version">Version</label>
 <select id="version">
-  <option data-option="all0315n" value=".bin">factory</option>
-  <option data-option="wzr-hp-ag300h-wzr-600dhp" value=".bin">factory</option>
-  <option data-option="wzr-hp-g450h" value=".bin">factory</option>
-  <option data-option="dir-615" value="-rev-c1.bin">rev C1</option>
-  <option data-option="dir-825" value="-rev-b1.bin">rev B1</option>
-  <option data-option="6408a" value="-v1.bin">v1</option>
-  <option data-option="6416a" value="-v1.bin">v1</option>
-  <option data-option="wrt160nl" value=".bin">factory</option>
-  <option data-option="wndr3700" value=".bin">factory</option>
-  <option data-option="wndr3700v2" value=".bin">factory</option>
-  <option data-option="wndr3700v4" value=".bin">factory</option>
-  <option data-option="wndr3800" value=".bin">factory</option>
-  <option data-option="wndr4300" value=".bin">factory</option>
-  <option data-option="wndrmacv2" value=".bin">factory</option>
-  <option data-option="cpe210" value="-v1.0.bin">1.0</option>
-  <option data-option="cpe220" value="-v1.0.bin">1.0</option>
-  <option data-option="cpe510" value="-v1.0.bin">1.0</option>
-  <option data-option="cpe520" value="-v1.0.bin">1.0</option>
-  <option data-option="tl-mr3020" value="-v1.bin">1.x</option>
-  <option data-option="tl-mr3040" value="-v1.bin">1.x</option>
-  <option data-option="tl-mr3040" value="-v2.bin">2.x</option>
-  <option data-option="tl-mr3220" value="-v1.bin">1.x</option>
-  <option data-option="tl-mr3420" value="-v1.bin">1.x</option>
-  <option data-option="tl-mr3420" value="-v2.bin">2.x</option>
-  <option data-option="tl-wa701n-nd" value="-v1.bin">1.x</option>
-  <option data-option="tl-wa750re" value="-v1.bin">1.x</option>
-  <option data-option="tl-wa801n-nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wa830re" value="-v1.bin">1.x</option>
-  <option data-option="tl-wa850re" value="-v1.bin">1.x</option>
-  <option data-option="tl-wa860re" value="-v1.bin">1.x</option>
-  <option data-option="tl-wa901nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wa901nd" value="-v3.bin">3.x</option>
-  <option data-option="tl-wdr3500" value="-v1.bin">1.x</option>
-  <option data-option="tl-wdr3600" value="-v1.bin">1.x</option>
-  <option data-option="tl-wdr4300" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr703n" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr710n" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr740n-nd" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr740n-nd" value="-v3.bin">3.x</option>
-  <option data-option="tl-wr740n-nd" value="-v4.bin">4.x</option>
-  <option data-option="tl-wr741n-nd" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr741n-nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wr741n-nd" value="-v4.bin">4.x</option>
-  <option data-option="tl-wr743n-nd" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr743n-nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wr841n-nd" value="-v3.bin">3.x</option>
-  <option data-option="tl-wr841n-nd" value="-v5.bin">5.x</option>
-  <option data-option="tl-wr841n-nd" value="-v7.bin">7.x</option>
-  <option data-option="tl-wr841n-nd" value="-v8.bin">8.x</option>
-  <option data-option="tl-wr841n-nd" value="-v9.bin">9.x</option>
-  <option data-option="tl-wr842n-nd" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr842n-nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wr941n-nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wr941n-nd" value="-v3.bin">3.x</option>
-  <option data-option="tl-wr941n-nd" value="-v4.bin">4.x</option>
-  <option data-option="tl-wr941n-nd" value="-v5.bin">5.x</option>
-  <option data-option="tl-wr1043n-nd" value="-v1.bin">1.x</option>
-  <option data-option="tl-wr1043n-nd" value="-v2.bin">2.x</option>
-  <option data-option="tl-wr2543n-nd" value="-v1.bin">1.x</option>
-  <option data-option="bullet-m" value=".bin">factory</option>
-  <option data-option="nanostation-m" value=".bin">factory</option>
-  <option data-option="nanostation-m-xw" value=".bin">factory</option>
-  <option data-option="loco-m-xw" value=".bin">factory</option>
-  <option data-option="unifi" value=".bin">factory</option>
-  <option data-option="unifi-ap-pro" value=".bin">factory</option>
-  <option data-option="unifiap-outdoor" value=".bin">factory</option>
-  <option data-option="vmi" value="kvm.img.gz">kvm</option>
-  <option data-option="vmi" value="generic.img.gz">Generic</option>
-  <option data-option="vmi" value="virtualbox.vdi">Virtualbox VDI</option>
-  <option data-option="vmi" value="vmware.vmdk">VMware vmdk</option>
+  <option data-option="all0315n" value="">factory</option>
+  <option data-option="wzr-hp-ag300h-wzr-600dhp" value="">factory</option>
+  <option data-option="wzr-hp-g450h" value="">factory</option>
+  <option data-option="dir-615" value="rev-c1">rev C1</option>
+  <option data-option="dir-825" value="rev-b1">rev B1</option>
+  <option data-option="6408a" value="v1">v1</option>
+  <option data-option="6416a" value="v1">v1</option>
+  <option data-option="wrt160nl" value="">factory</option>
+  <option data-option="wndr3700" value="">factory</option>
+  <option data-option="wndr3700v2" value="">factory</option>
+  <option data-option="wndr3700v4" value="">factory</option>
+  <option data-option="wndr3800" value="">factory</option>
+  <option data-option="wndr4300" value="">factory</option>
+  <option data-option="wndrmacv2" value="">factory</option>
+  <option data-option="cpe210" value="v1.0">1.0</option>
+  <option data-option="cpe220" value="v1.0">1.0</option>
+  <option data-option="cpe510" value="v1.0">1.0</option>
+  <option data-option="cpe520" value="v1.0">1.0</option>
+  <option data-option="tl-mr3020" value="v1">1.x</option>
+  <option data-option="tl-mr3040" value="v1">1.x</option>
+  <option data-option="tl-mr3040" value="v2">2.x</option>
+  <option data-option="tl-mr3220" value="v1">1.x</option>
+  <option data-option="tl-mr3420" value="v1">1.x</option>
+  <option data-option="tl-mr3420" value="v2">2.x</option>
+  <option data-option="tl-wa701n-nd" value="v1">1.x</option>
+  <option data-option="tl-wa750re" value="v1">1.x</option>
+  <option data-option="tl-wa801n-nd" value="v2">2.x</option>
+  <option data-option="tl-wa830re" value="v1">1.x</option>
+  <option data-option="tl-wa850re" value="v1">1.x</option>
+  <option data-option="tl-wa860re" value="v1">1.x</option>
+  <option data-option="tl-wa901nd" value="v2">2.x</option>
+  <option data-option="tl-wa901nd" value="v3">3.x</option>
+  <option data-option="tl-wdr3500" value="v1">1.x</option>
+  <option data-option="tl-wdr3600" value="v1">1.x</option>
+  <option data-option="tl-wdr4300" value="v1">1.x</option>
+  <option data-option="tl-wr703n" value="v1">1.x</option>
+  <option data-option="tl-wr710n" value="v1">1.x</option>
+  <option data-option="tl-wr740n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr740n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr740n-nd" value="v4">4.x</option>
+  <option data-option="tl-wr741n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr741n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr741n-nd" value="v4">4.x</option>
+  <option data-option="tl-wr743n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr743n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr841n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr841n-nd" value="v5">5.x</option>
+  <option data-option="tl-wr841n-nd" value="v7">7.x</option>
+  <option data-option="tl-wr841n-nd" value="v8">8.x</option>
+  <option data-option="tl-wr841n-nd" value="v9">9.x</option>
+  <option data-option="tl-wr842n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr842n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr941n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr941n-nd" value="v3">3.x</option>
+  <option data-option="tl-wr941n-nd" value="v4">4.x</option>
+  <option data-option="tl-wr941n-nd" value="v5">5.x</option>
+  <option data-option="tl-wr1043n-nd" value="v1">1.x</option>
+  <option data-option="tl-wr1043n-nd" value="v2">2.x</option>
+  <option data-option="tl-wr2543n-nd" value="v1">1.x</option>
+  <option data-option="bullet-m" value="">factory</option>
+  <option data-option="nanostation-m" value="">factory</option>
+  <option data-option="nanostation-m-xw" value="">factory</option>
+  <option data-option="loco-m-xw" value="">factory</option>
+  <option data-option="unifi" value="">factory</option>
+  <option data-option="unifi-ap-pro" value="">factory</option>
+  <option data-option="unifiap-outdoor" value="">factory</option>
+  <option data-option="vmi" value="kvm">kvm</option>
+  <option data-option="vmi" value="generic">Generic</option>
+  <option data-option="vmi" value="virtualbox">Virtualbox VDI</option>
+  <option data-option="vmi" value="vmware">VMware vmdk</option>
 </select>
 
 Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird.
