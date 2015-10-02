@@ -14,7 +14,7 @@ Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 ## Images
 
-Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.5) herunterladen.
+Hier kannst du die entsprechende [Freifunk Firmware](http://firmware.ffmuc.net/) (aktuelle Version: v2015.5) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
 
