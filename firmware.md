@@ -61,7 +61,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tp-link" value="tl-wa830re">TL-WA830RE</option>
   <option data-option="tp-link" value="tl-wa850re">TL-WA850RE</option>
   <option data-option="tp-link" value="tl-wa860re">TL-WA860RE</option>
-  <option data-option="tp-link" value="tl-wa901nd">TL-WA901ND</option>
+  <option data-option="tp-link" value="tl-wa901n-nd">TL-WA901N/ND</option>
   <option data-option="tp-link" value="tl-wdr3500">TL-WDR3500</option>
   <option data-option="tp-link" value="tl-wdr3600">TL-WDR3600</option>
   <option data-option="tp-link" value="tl-wdr4300">TL-WDR4300</option>
@@ -116,8 +116,8 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tl-wa830re" value="v1">1.x</option>
   <option data-option="tl-wa850re" value="v1">1.x</option>
   <option data-option="tl-wa860re" value="v1">1.x</option>
-  <option data-option="tl-wa901nd" value="v2">2.x</option>
-  <option data-option="tl-wa901nd" value="v3">3.x</option>
+  <option data-option="tl-wa901n-nd" value="v2">2.x</option>
+  <option data-option="tl-wa901n-nd" value="v3">3.x</option>
   <option data-option="tl-wdr3500" value="v1">1.x</option>
   <option data-option="tl-wdr3600" value="v1">1.x</option>
   <option data-option="tl-wdr4300" value="v1">1.x</option>
