@@ -159,7 +159,8 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 </select>
 
 Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
-Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird.
+Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird. <br>
+Erstinstallation wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. Ist bereits eine Freifunk München Firmware installiert worden und du möchtest manuell upgraden, lade dir das Image mit Aktualisierung.
 
 <div class="row">        
     <div class="col-sm-6">
