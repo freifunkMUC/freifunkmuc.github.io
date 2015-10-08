@@ -33,7 +33,10 @@ function getImage(code,type,url,gluon) {
   var brand = el1.options[el1.selectedIndex].value;
   var model = el2.options[el2.selectedIndex].value;
   var version = el3.options[el3.selectedIndex].value;
-  var imgURL = url + type + '/gluon-' + code + '-' + gluon + '-' + brand + '-' + model;
+  var imgURL = url + type + '/gluon-' + code + '-' + gluon + '-' + brand;
+  if(model !== 'vmi') {
+    imgURL += '-' + model;
+  }
   if(version.length != 0) {
     imgURL += '-' + version;
   }

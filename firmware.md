@@ -14,7 +14,7 @@ Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 ## Images
 
-Hier kannst du die entsprechende Freifunk Firmware (aktuelle Version: v2015.5) herunterladen.
+Hier kannst du die entsprechende [Freifunk Firmware](http://firmware.ffmuc.net/) (aktuelle Version: v2015.5) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
 
@@ -61,7 +61,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tp-link" value="tl-wa830re">TL-WA830RE</option>
   <option data-option="tp-link" value="tl-wa850re">TL-WA850RE</option>
   <option data-option="tp-link" value="tl-wa860re">TL-WA860RE</option>
-  <option data-option="tp-link" value="tl-wa901nd">TL-WA901ND</option>
+  <option data-option="tp-link" value="tl-wa901n-nd">TL-WA901N/ND</option>
   <option data-option="tp-link" value="tl-wdr3500">TL-WDR3500</option>
   <option data-option="tp-link" value="tl-wdr3600">TL-WDR3600</option>
   <option data-option="tp-link" value="tl-wdr4300">TL-WDR4300</option>
@@ -116,8 +116,8 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tl-wa830re" value="v1">1.x</option>
   <option data-option="tl-wa850re" value="v1">1.x</option>
   <option data-option="tl-wa860re" value="v1">1.x</option>
-  <option data-option="tl-wa901nd" value="v2">2.x</option>
-  <option data-option="tl-wa901nd" value="v3">3.x</option>
+  <option data-option="tl-wa901n-nd" value="v2">2.x</option>
+  <option data-option="tl-wa901n-nd" value="v3">3.x</option>
   <option data-option="tl-wdr3500" value="v1">1.x</option>
   <option data-option="tl-wdr3600" value="v1">1.x</option>
   <option data-option="tl-wdr4300" value="v1">1.x</option>
@@ -160,6 +160,8 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 
 Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
 Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird.
+
+Erstinstallation wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. Ist bereits eine Freifunk München Firmware installiert worden und du möchtest manuell upgraden, lade dir das Image mit Aktualisierung.
 
 <div class="row">        
     <div class="col-sm-6">
