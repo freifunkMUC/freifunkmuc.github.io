@@ -203,6 +203,7 @@ Außerhalb A99 Autobahnring
 
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
+=======
 ### v2015.6
  - Introduced *ffmuc-umland* site-code for segmentation (own GWs).
  - ffmuc core segment still sticks at v2015.5
