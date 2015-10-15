@@ -190,8 +190,8 @@ Außerhalb A99 Autobahnring
 
 ![Umland](/assets/firmware/umland.jpg)
 <div>
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc-umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc-umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Aktualisierung</button>
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc_umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc_umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Aktualisierung</button>
 </div>
 </div>
 
