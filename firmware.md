@@ -190,8 +190,8 @@ Außerhalb A99 Autobahnring
 
 ![Umland](/assets/firmware/umland.jpg)
 <div>
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc-umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6-umland');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc-umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6-umland');">Aktualisierung</button>
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc-umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc-umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Aktualisierung</button>
 </div>
 </div>
 
@@ -202,6 +202,10 @@ Außerhalb A99 Autobahnring
 ## Changelog
 
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
+
+## v2015.6.1
+ * Added support of site selection in config mode
+ * Switch autoupdater URL back to main firmware repo path
 
 ### v2015.6
  - Introduced *ffmuc-umland* site-code for segmentation (own GWs).
