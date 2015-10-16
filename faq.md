@@ -301,7 +301,7 @@ So oder so: das bringt deutlich mehr Probleme mit als es Vorteile hat.
 
 <div markdown="1">
 AVM hat mit dem Update auf FritzOS 6.x einen Filter auf den Gastzugang gelegt. Dieser verursacht immer wieder Probleme. Navigiere bitte zu Internet > Filter > Zugangsprofile und bearbeite das Profil “Gast”.
-Dort sollte dann unter gesperrte Netzwerkanwendungen die Option “alles außer Surfen und Mailen” existieren. Dies bitte entfernen, da die VPN-Verbindung (Port 10000) leider davon blockiert wird. Alles andere zu Testzwecken auch. Nun sollte sich der Knoten mit den Gateways wieder verbinden können und ist trotzdem zusätzlich über den Gastzugang virtuell von deinem Heimnetz getrennt.
+Dort sollte dann unter gesperrte Netzwerkanwendungen die Option “alles außer Surfen und Mailen” existieren. Dies bitte entfernen, da die VPN-Verbindung (Ports 10000-10100) leider davon blockiert wird. Alles andere zu Testzwecken auch. Nun sollte sich der Knoten mit den Gateways wieder verbinden können und ist trotzdem zusätzlich über den Gastzugang virtuell von deinem Heimnetz getrennt.
 </div>
 
     </div>
