@@ -47,7 +47,9 @@ function toggleNode(node)
         Wo stehen schon Freifunk-Router?
     </a></span>
     <div style="display: none;">
-        Schau mal auf der [Knotenkarte][knotenkarte] nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+<div markdown="1">
+Schau mal auf der [Knotenkarte][knotenkarte] nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
+</div>
     </div>
 </div>
 
