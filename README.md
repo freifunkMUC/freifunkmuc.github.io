@@ -1,6 +1,6 @@
 Zu erreichen unter: https://ffmuc.net
 
-Diese Webseite wird mit dem (jekyll)[http://jekyllrb.com/] compiler erstellt.
+Diese Webseite wird mit dem [jekyll](http://jekyllrb.com) compiler erstellt.
 
 Zum lokalen testen sollte folgendes genügen:
 ```
