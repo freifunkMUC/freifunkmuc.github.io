@@ -174,8 +174,8 @@ Innerhalb A99 Autobahnring
 
 ![Kernbereich](/assets/firmware/kernbereich.jpg)
 <div>
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.5');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.5');">Aktualisierung</button>
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.7');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.7');">Aktualisierung</button>
 </div>
 </div>
         </div>            
@@ -190,8 +190,8 @@ Außerhalb A99 Autobahnring
 
 ![Umland](/assets/firmware/umland.jpg)
 <div>
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc_umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc_umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.6.1-umland');">Aktualisierung</button>
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc_umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.7');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc_umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.7');">Aktualisierung</button>
 </div>
 </div>
 
