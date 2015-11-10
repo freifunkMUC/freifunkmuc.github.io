@@ -14,7 +14,7 @@ Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 ## Images
 
-Hier kannst du die entsprechende [Freifunk Firmware](http://firmware.ffmuc.net/) (aktuelle Version: v2015.5 bzw v2015.6.1 für Umland) herunterladen.
+Hier kannst du die entsprechende [Freifunk Firmware](http://firmware.ffmuc.net/) (**aktuelle Version: v2015.7**) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
 
@@ -203,7 +203,14 @@ Außerhalb A99 Autobahnring
 
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
-## v2015.6.1
+### v2015.7
+ * New stable unified firmware for all segments with site-select feature
+ * Raised required signatures for stable release to 3
+
+### v2015.6.2
+ * Bugfix build for welcome version
+
+### v2015.6.1
  * Added support of site selection in config mode
  * Switch autoupdater URL back to main firmware repo path
 
