@@ -159,9 +159,18 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 </select>
 
 Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
-Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. Wähle bitte den Bereich in dem sich dein Knoten befinden wird.
+Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
+
+**Wähle bitte den Bereich in dem sich dein Knoten befinden wird während der Konfiguration deines Routers aus.**
+
+TODO: Insert LuCi Config Screenshot
 
 Erstinstallation wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. Ist bereits eine Freifunk München Firmware installiert worden und du möchtest manuell upgraden, lade dir das Image mit Aktualisierung.
+
+<button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.7');">Erstinstallation</button>
+<button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.7');">Aktualisierung</button>
+
+[Direktlinks](http://firmware.ffmuc.net/)
 
 <div class="row">        
     <div class="col-sm-6">
@@ -173,10 +182,6 @@ Erstinstallation wählst du für Router, die noch die Originalfirmware des Herst
 Innerhalb A99 Autobahnring
 
 ![Kernbereich](/assets/firmware/kernbereich.jpg)
-<div>
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.7');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.7');">Aktualisierung</button>
-</div>
 </div>
         </div>            
     </div><!-- /.col-sm-6 -->
@@ -189,10 +194,6 @@ Innerhalb A99 Autobahnring
 Außerhalb A99 Autobahnring
 
 ![Umland](/assets/firmware/umland.jpg)
-<div>
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc_umland','factory','http://firmware.ffmuc.net/umland/stable/','v2015.7');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc_umland','sysupgrade','http://firmware.ffmuc.net/umland/stable/','v2015.7');">Aktualisierung</button>
-</div>
 </div>
 
     </div>
