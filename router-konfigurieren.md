@@ -36,12 +36,14 @@ Dein Browserfenster müsste nun wie folgt aussehen. Hier kannst du die wichtigst
 
 Zuerst klickst Du auf "Expert Mode" um folgende Einstellungen vorzunehmen:
 
-### Autoupdate
+#### Expert Mode
+
+##### Autoupdate
 Es wird empfohlen, den Auto-Update Mechanismus zu aktivieren.
 Stelle sicher, dass der Haken bei "Auto-Update" gesetzt ist.
 Das heisst sobald eine neue Version unserer Freifunk Firmware verfügbar ist, wird sie automatisch auf den Router heruntergeladen und installiert - Du musst nichts Zusätzliches tun!
 
-### Zugangsdaten
+##### Zugangsdaten
 Falls Du die Einstellungen deines Routers ueber Netzwerk aendern willst, 
 musst Du hier ein Passwort oder einen SSH Key hinterlegen.
 Wenn Du das nicht machst, musst Du physischen Zugang zu dem Router haben, um 
@@ -49,10 +51,44 @@ ihn manuell in den Konfigurationsmodus zurueck zu versetzen.
 
 Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
 
-#### Name dieses Knotens
+#### Wizard
+
+##### Name dieses Knotens
 Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
 
-#### Mesh-VPN aktivieren (empfohlen)
+##### Segment
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
+Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
+
+<div class="row">        
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading" markdown="1" style="text-align:center">
+### Kernbereich
+
+Innerhalb A99 Autobahnring
+
+![Kernbereich](/assets/router-konfigurieren/kernbereich.jpg)
+</div>
+        </div>            
+    </div><!-- /.col-sm-6 -->
+    <div class="col-sm-6">
+    <div class="list-group">
+
+<div class="panel-heading" markdown="1" style="text-align:center">
+### Umland
+
+Außerhalb A99 Autobahnring
+
+![Umland](/assets/router-konfigurieren/umland.jpg)
+</div>
+
+    </div>
+    </div><!-- /.col-sm-6 -->
+</div>
+
+##### Mesh-VPN aktivieren (empfohlen)
 Wenn du bei “Mesh-VPN aktivieren” ein Häkchen setzt, wird über deinen Internet-Anschluss eine verschlüsselte Verbindung zu den Freifunk-Servern hergestellt. Diese verbinden deinen Router dann mit weit entfernten Freifunk-Routern und dem Internet, ohne Störerhaftung.
 
 Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifunk-Routern in der Nachbarschaft verbinden. Internet-Zugang ist dann nur möglich, wenn einer der anderen Router ihn anbietet.
@@ -61,12 +97,12 @@ Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifu
 
 Wir empfehlen dieses Häkchen zu setzen.
 
-#### Mesh-VPN Bandbreite begrenzen (optional)
+##### Mesh-VPN Bandbreite begrenzen (optional)
 Wenn du einen normalen Internet-Anschluss hast, wird dein Freifunk-Router im alltäglichen Betrieb nicht allzuviel von deiner Bandbreite in Anspruch nehmen. Unsere Empfehlung ist deshalb, die Begrenzung nicht zu aktivieren.
 
 Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “Mesh-VPN Bandbreite begrenzen”. Daraufhin erscheinen zwei neue Felder. Trage in die beiden Felder die gewünschten Grenzen in Kbit/s ein. Wir empfehlen mindestens “8000″ für Downstream und “500″ für Upstream.
 
-#### Geo-Koordinaten
+##### Geo-Koordinaten
 Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der [Knotenkarte](/map/) zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
 
 Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte](/map/) und klicke mit der rechten Maustaste auf die entsprechende Stelle in der Karte, um die Koordinaten zu erfahren.
@@ -75,7 +111,7 @@ Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knot
 
 Wenn du alle Daten eingegeben und noch mal geprüft hast, bist du fertig und klickst beherzt auf “Fertig”.
 
-#### (Fast) Geschafft!
+### (Fast) Geschafft!
 
 Dein Freifunk-Router ist nun fertig eingerichtet – aber du bist noch nicht ganz fertig!
 
