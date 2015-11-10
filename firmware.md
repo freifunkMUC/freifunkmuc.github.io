@@ -14,9 +14,12 @@ Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
 
 ## Images
 
-Hier kannst du die entsprechende [Freifunk Firmware](http://firmware.ffmuc.net/) (**aktuelle Version: v2015.7**) herunterladen.
+Hier kannst du die entsprechende [Freifunk München Firmware](http://firmware.ffmuc.net/) (**aktuelle Version: v2015.7**) herunterladen.
 
-Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net][hardware].
+Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net]
+[hardware].
+
+<div markdown="0" style="text-align:center">
 
 <label for="brand">Hersteller</label>
 <select id="brand" onchange="giveSelection(1,this.value)">
@@ -158,47 +161,27 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="vmi" value="vmware">VMware vmdk</option>
 </select>
 
-Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen, haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
+<br><br>
+  <button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.7');">Erstinstallation</button>
+  <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.7');">Aktualisierung</button>
+
+<br>
+<a href="http://firmware.ffmuc.net/">Direktlinks</a>
+
+</div>
+
+**Erstinstallation** wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. \\
+Ist bereits eine Freifunk München Firmware installiert worden und du möchtest manuell upgraden, lade dir das Image mit **Aktualisierung**.
+
+
+## Segmente
+
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
 Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
 
 **Wähle bitte den Bereich in dem sich dein Knoten befinden wird während der Konfiguration deines Routers aus.**
 
-TODO: Insert LuCi Config Screenshot
-
-Erstinstallation wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. Ist bereits eine Freifunk München Firmware installiert worden und du möchtest manuell upgraden, lade dir das Image mit Aktualisierung.
-
-<button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.7');">Erstinstallation</button>
-<button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.7');">Aktualisierung</button>
-
-[Direktlinks](http://firmware.ffmuc.net/)
-
-<div class="row">        
-    <div class="col-sm-6">
-        <div class="list-group">
-
-<div class="panel-heading" markdown="1" style="text-align:center">
-### Kernbereich
-
-Innerhalb A99 Autobahnring
-
-![Kernbereich](/assets/firmware/kernbereich.jpg)
-</div>
-        </div>            
-    </div><!-- /.col-sm-6 -->
-    <div class="col-sm-6">
-    <div class="list-group">
-
-<div class="panel-heading" markdown="1" style="text-align:center">
-### Umland
-
-Außerhalb A99 Autobahnring
-
-![Umland](/assets/firmware/umland.jpg)
-</div>
-
-    </div>
-    </div><!-- /.col-sm-6 -->
-</div>
+![Site Select](/assets/firmware/site-select.png)
 
 ## Changelog
 
