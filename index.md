@@ -6,7 +6,7 @@ title: Willkommen bei Freifunk München
 Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
 Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
 
-<div class="row">        
+<div class="row">
     <div class="col-sm-6">
         <div class="list-group">
 
@@ -35,6 +35,17 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 
 <div class="panel-heading" markdown="1">
 {% include treffen.md %}
+</div>
+
+        </div>
+    </div>
+
+<div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading">
+<a class="twitter-timeline"  href="https://twitter.com/FreifunkMUC" data-widget-id="684307247363665920">Tweets von @FreifunkMUC </a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
         </div>
