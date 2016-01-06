@@ -7,6 +7,6 @@ categories: freifunkmuc
 
 Der Regionalteil der SZ berichtete in einem [Artikel][artikel] über die wachsende Freifunk München Community in Dachau.
 
-Ein Knotenbetreiber ist Rudolf Gleixner, der in der Sudetenlandstraße seinen Internetanschluss für alle teilt. Neben dem Freifunk Netz wird das WLAN Angebot von den Stadtwerken rund um das Rathaus und im Familienbad dargestellt. Die kommerzielle Variante ist laut Gleixner umständlich.
+Ein Knotenbetreiber ist Rudolf Gleixner, der in der Schleißheimerstraße seinen Internetanschluss für alle teilt. Neben Freifunk werden die WLAN Angebote der Kommunen dargestellt. Gleixner findet die Angebote der Kommunen viel zu umständlich.
 
 [artikel]: http://www.sueddeutsche.de/muenchen/dachau/oeffentliches-wlan-alle-in-einem-netz-1.2805385
