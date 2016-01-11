@@ -24,9 +24,9 @@ E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
 [Mailingliste für EntwicklerInnen und Technikinteressierte][devListe] \\
 [Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
 
-[allgListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
-[devListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
-[fluechtListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
+[allgListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
+[devListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
+[fluechtListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
 
 ### Wiki, Bugtracker, ...
 
