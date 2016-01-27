@@ -174,6 +174,10 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <strong>Hinweis!</strong> Um die aktuelle Routerversion v10 des beliebten Modells TP-Link TL-WR841N(D) nutzen zu können, bitten wir vorerst die experimentelle Version unserer nächsten Firmware zu benutzen: <a href="http://firmware.ffmuc.net/experimental/factory/gluon-ffmuc-v2015.7-39-g0f02267-tp-link-tl-wr841n-nd-v10.bin">v2015.7-39-g0f02267</a>.
 </div>
 
+<div class="alert alert-warning" role="alert">
+  <strong>Hinweis!</strong> Aktuelle Ubiquiti Geräte welche mit Firmwareversion 5.6.x geliefert werden müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine Detailierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.
+</div>
+
 
 
 **Erstinstallation** wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. \\
