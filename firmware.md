@@ -175,7 +175,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 </div>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Hinweis!</strong> Aktuelle Ubiquiti Geräte welche mit Firmwareversion 5.6.x geliefert werden müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine Detailierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.
+  <strong>Hinweis!</strong> Aktuelle Ubiquiti Geräte, welche mit Firmwareversion 5.6.x geliefert werden, müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan, kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine detailierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.
 </div>
 
 
