@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+{% if page.customcss %}
+  {% for file in page.customcss %}
+  <link rel="stylesheet" href="{{ file }}" type="text/css">
+  {% endfor %}
+{% endif %}
+
+{% if page.customjs %}
+  {% for file in page.customjs %}
+  <script src="{{ file }}" type="text/javascript"></script>
+  {% endfor %}
+{% endif %}
+
 <div class="post">
 
   <header class="post-header">
