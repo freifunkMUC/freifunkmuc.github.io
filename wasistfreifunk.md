@@ -26,7 +26,7 @@ $(document).ready(function() {
         0: {src: "/assets/media/freifunk.mp4", type: "video/mp4"},
         1: {src: "/assets/media/freifunk.webm", type: "video/webm"}
         }
-    ]    
+    ]
     }, function(player) {} // on ready 
     );
 });
