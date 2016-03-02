@@ -4,12 +4,16 @@ title: Unterstützung
 permalink: /unterstuetzung/
 ---
 
-Vielen Dank an folgende Institutionen für das Unterstützen von Freifunk München!
+Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung
+von Freifunk München!
 
-### ipredator.se
-Der schwedische VPN Anbieter [ipredator][ipredator] versorgt uns mit einem Exit-VPN.
-![ipredator](/assets/unterstuetzung/Ipredator-logo-2013.png)
+### SpaceNet AG
 
+![spacenet](/assets/unterstuetzung/logo_spacenet.png)
 
-[ipredator]: https://www.ipredator.se
+Die Münchner [spacenet][SpaceNet AG] stellt uns an mehreren Standorten
+Colocation, Internet-Uplink und Dachzugang für unseren Funk-Backbone
+zur Verfügung.
+
+[spacenet]: https://www.space.net/
 [kontakt]: /kontakt/
