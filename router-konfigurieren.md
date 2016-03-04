@@ -48,6 +48,7 @@ Falls Du die Einstellungen deines Routers ueber Netzwerk aendern willst,
 musst Du hier ein Passwort oder einen SSH Key hinterlegen.
 Wenn Du das nicht machst, musst Du physischen Zugang zu dem Router haben, um 
 ihn manuell in den Konfigurationsmodus zurueck zu versetzen.
+[Hilfe dazu.](https://forum.freifunk.net/t/ssh-key-einrichten/2165)
 
 Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
 
