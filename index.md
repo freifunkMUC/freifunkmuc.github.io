@@ -23,7 +23,7 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 </ul>
 
 <script type="text/javascript">
-  longlist(document.getElementById('posts'), {'perPage': 6});
+  longlist(document.getElementById('posts'), {'perPage': 5});
 </script>
 <style type="text/css">
   .paging-controls {text-align: center;}
