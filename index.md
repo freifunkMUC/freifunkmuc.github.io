@@ -10,7 +10,7 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
     <div class="col-sm-6">
         <div class="list-group">
 
-<div id="news" class="panel-heading" markdown="1">
+<div class="panel-heading" markdown="1">
 ### Neuigkeiten
 
 <ul id="posts" class="posts">
@@ -23,7 +23,7 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 </ul>
 
 <script type="text/javascript">
-  longlist(document.getElementById('news'), document.getElementById('posts'), {'perPage': 6});
+  longlist(document.getElementById('posts'), {'perPage': 6});
 </script>
 <style type="text/css">
   .paging-controls {text-align: center;}
