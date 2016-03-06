@@ -27,8 +27,8 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 </script>
 <style type="text/css">
   .paging-controls {text-align: center;}
-  .paging-controls a {color: green;}
-  .paging-controls a:visited {color: #0069D6;}
+  .paging-controls a {color: #2a7ae2;}
+  .paging-controls a:visited {color: #205caa;}
   .paging-controls .prev {float: left;}
   .paging-controls .prev:before {content: "< neuere";}
   .paging-controls .next {float: right;}
