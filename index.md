@@ -47,6 +47,15 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 <div class="panel-heading" markdown="1">
 {% include treffen.md %}
 </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading" markdown="1">
+{% include network-status.md %}
+</div>
 
         </div>
     </div>
