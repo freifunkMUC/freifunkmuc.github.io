@@ -18,7 +18,7 @@ Mehr dazu in einem detaillierten Beitrag in der nächsten Woche.
 
 Auch sonst gibt es viele Neuigkeiten:
 
-* Der Stadtrat der Landeshauptstadt München hat [am 09.12.2015 entschieden](http://www.ris-muenchen.de/RII/RII/ris_vorlagen_dokumente.jsp?risid=3849882):  Freifunk soll in alle Flüchtlingseinrichtungen kommen, die nicht mit M-WLAN ausgestattet werden.#
+* Der Stadtrat der Landeshauptstadt München hat [am 09.12.2015 entschieden](http://www.ris-muenchen.de/RII/RII/ris_vorlagen_dokumente.jsp?risid=3849882):  Freifunk soll in alle Flüchtlingseinrichtungen kommen, die nicht mit M-WLAN ausgestattet werden.
 
 * Die Stadt München und Freifunk München arbeiten deshalb gerade an einer Vereinbarung, um den Aufbau dieser Versorgung zu regeln.
 
