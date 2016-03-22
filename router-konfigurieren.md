@@ -10,7 +10,7 @@ Für die Einrichtung des Routers werden keine technischen Kenntnisse benötigt. 
 
 Dein Router sollte das Freifunk-Betriebssystem (die “Firmware”) bereits installiert haben. Falls dein Router noch keine Freifunk-Firmware installiert hat, findest du [hier](/router-flashen/) eine Schritt-für-Schritt-Anleitung. Alternativ helfen wir Dir natürlich auch gerne auf einem [Freifunk-Treffen](/kontakt/).
 
-Wenn du noch nicht im Konfigurationsmodus bist, drücke die Reset-Taste am Router solange bis alle Lampen am Router kurz aufleuchten. Der Konfigurationsmodus wird somit aktiviert.
+Wenn du noch nicht im [Konfigurationsmodus](https://ffmuc.net/wiki/p/Routerkonfiguration_via_UI) bist, drücke die Reset-Taste am Router solange bis alle Lampen am Router kurz aufleuchten. Der Router startet dann neu in den Konfigurationsmodus.
 
 ## Router einrichten
 
@@ -20,7 +20,7 @@ Deinem Router liegen ein Steckernetzteil (1) und ein LAN-Kabel (2) bei.
 
 ![Ueberblick](/assets/router-flashen/guide-17.jpg) 
 
-Schließe zuerst den Router mit dem Steckernetzteil (1) an eine Steckdose an. Verbinde dann den Router mit dem beiliegenden LAN-Kabel (2) mit Deinem Computer. Stecke es dabei am Router in eine gelbe Buchse.
+Schließe zuerst den Router mit dem Steckernetzteil (1) an eine Steckdose an. [Verbinde](https://ffmuc.net/wiki/p/Routerkonfiguration_via_UI#Verkabeln) dann den Router mit dem beiliegenden LAN-Kabel (2) mit Deinem Computer. Stecke es dabei am Router in eine gelbe Buchse.
 
 ![LAN-Buchsen](/assets/router-flashen/guide-15.jpg)
 
@@ -57,7 +57,7 @@ Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
 Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
 
 ##### Segment
-Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 3 [Segmente](https://ffmuc.net/wiki/p/Segmente) "Kernbereich", "Umland" und "Welcome" aufzuteilen. <br>
 Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
 
 <div class="row">        
@@ -91,7 +91,7 @@ Außerhalb A99 Autobahnring
 ##### Mesh-VPN aktivieren (empfohlen)
 Wenn du bei “Mesh-VPN aktivieren” ein Häkchen setzt, wird über deinen Internet-Anschluss eine verschlüsselte Verbindung zu den Freifunk-Servern hergestellt. Diese verbinden deinen Router dann mit weit entfernten Freifunk-Routern und dem Internet, ohne Störerhaftung.
 
-Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifunk-Routern in der Nachbarschaft verbinden. Internet-Zugang ist dann nur möglich, wenn einer der anderen Router ihn anbietet.
+Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifunk-Routern in der Nachbarschaft verbinden. Internet-Zugang ist dann nur möglich, wenn einer der anderen Router ihn anbietet. Auch in dem Fall bietet es sich an die Option zu setzen und einfach in der Praxis den blauen Port ungenutzt zu lassen.
 
 ![Gluon Luci](/assets/router-konfigurieren/luci02.png)
 
@@ -132,7 +132,7 @@ Solltest du Fragen oder Probleme haben oder Einträge deines Knoten ändern woll
 
 ## Noch ein wichtiger Hinweis zum Schluss
 
-Das Freifunk-Netz wird in die Niederlande oder nach Schweden getunnelt. Das kann bedeuten, dass dich Facebook, Googlemail, etc. warnen, du seist im Ausland. Erschrick nicht, obwohl in machen Warnungen von „Hackerangriffen“ etc. die Rede ist. Das ist ganz normal und es soll auch so sein. Diese Maßnahme dient dem Schutz vor der Störerhaftung.
+Das Freifunk-Netz wird getunnelt. Wo Deine Pakete wieder ins Internet entlassen werden können wir nicht beeinflussen und wird von unseren VPN-Providern bestimmt. Möglicherweise liegt der VPN-Endpunkt im Ausland (z.B. Niederlande oder Schweden). Das kann bedeuten, dass dich Facebook, Googlemail, etc. warnen, du seist im Ausland. Erschrick nicht, obwohl in manchen Warnungen von „Hackerangriffen“ etc. die Rede ist. Das ist ganz normal und es soll auch so sein. Diese Maßnahme schützt Freifunk vor ungerechtfertigten Abmahnungen wegen der [Störerhaftung](https://ffmuc.net/wiki/p/Argumentationshilfe_Freifunk#St.C3.B6rerhaftung). Es gibt auch VPN-Endpunkte in Deutschland. Auch da nicht erschrecken, da die Gerichtsbarkeit des VPN-Betreibers zählt, nicht der Ort wo er seine Router aufstellt.
 
 Weitere Informationen dazu findest du in der [FAQ](/faq/).
 
