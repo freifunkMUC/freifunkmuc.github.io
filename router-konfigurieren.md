@@ -45,7 +45,7 @@ Das heisst sobald eine neue Version unserer Freifunk Firmware verfügbar ist, wi
 
 ##### Zugangsdaten
 Falls Du die Einstellungen deines Routers ueber Netzwerk aendern willst, 
-musst Du hier ein Passwort oder einen SSH Key hinterlegen.
+musst Du hier ein Passwort oder einen [SSH Key hinterlegen](https://forum.freifunk.net/t/ssh-key-einrichten/2165).
 Wenn Du das nicht machst, musst Du physischen Zugang zu dem Router haben, um 
 ihn manuell in den Konfigurationsmodus zurueck zu versetzen.
 
