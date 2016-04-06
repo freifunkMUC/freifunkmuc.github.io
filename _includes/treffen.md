@@ -2,9 +2,7 @@
 
 Wir treffen uns immer am letzten Mittwoch des Monats im [muCCC](http://muc.ccc.de) ([Schleißheimer Str. 41](http://osm.org/go/0JAf0IVLh?node=2012031859)).
 
-Das nächste Treffen findet am
-<div id="date"></div>
-um 20 Uhr statt.
+Das nächste Treffen findet am <strong><span id="date"></span> um 20 Uhr</strong> statt.
 
 Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mitgenommen werden.
 
@@ -19,7 +17,9 @@ Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mi
     var time = ICAL.Time.fromJSDate(new Date());
     var expand = ev.iterator(time);
     var next = expand.next();
-    document.getElementById('date').innerHTML = next.toJSDate().toDateString();
+    var options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+    var date = next.toJSDate().toLocaleString("de-DE", options);
+    document.getElementById('date').innerHTML = date;
   }
 </script>
 <noscript>Bitte Javascript aktivieren um das Datum des nächsten Treffens zu sehen</noscript>
