@@ -171,6 +171,10 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 </div>
 
 <div class="alert alert-warning" role="alert">
+  <strong>Hinweis!</strong> Es ist eine Version V11 des beliebten Modells TP-Link TL-WR841N(D) aufgetaucht. Bisher unterstützen wir diese Version v11 NICHT. Bitte keine Firmware für andere Versionen installieren, da der Router ansonsten unbenutzbar wird und nur unter größeren Anstrengungen wieder zum Leben erweckt werden kann.
+</div>
+
+<div class="alert alert-warning" role="alert">
   <strong>Hinweis!</strong> Um die aktuelle Routerversion v10 des beliebten Modells TP-Link TL-WR841N(D) nutzen zu können, bitten wir vorerst die experimentelle Version unserer nächsten Firmware zu benutzen: <a href="http://firmware.ffmuc.net/experimental/factory/gluon-ffmuc-v2015.7-55-gb6ec692-tp-link-tl-wr841n-nd-v10.bin">v2015.7-55-gb6ec692</a>.
 </div>
 
