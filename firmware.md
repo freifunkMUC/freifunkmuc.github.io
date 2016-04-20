@@ -81,6 +81,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="ubiquiti" value="bullet-m">Bullet M</option>
   <option data-option="ubiquiti" value="nanostation-m">Nanostation/Loco M</option>
   <option data-option="ubiquiti" value="nanostation-m-xw">Nanostation M XW</option>
+  <option data-option="ubiquiti" value="picostation-m">Picostation M</option>
   <option data-option="ubiquiti" value="loco-m-xw">Nanostation Loco M XW</option>
   <option data-option="ubiquiti" value="unifi">UniFi AP / Unifi AP-LR</option>
   <option data-option="ubiquiti" value="unifi-ap-pro">UniFi AP-Pro</option>
@@ -151,6 +152,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="bullet-m" value="">factory</option>
   <option data-option="nanostation-m" value="">factory</option>
   <option data-option="nanostation-m-xw" value="">factory</option>
+  <option data-option="picostation-m" value="">factory</option>
   <option data-option="loco-m-xw" value="">factory</option>
   <option data-option="unifi" value="">factory</option>
   <option data-option="unifi-ap-pro" value="">factory</option>
