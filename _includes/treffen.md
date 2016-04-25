@@ -16,10 +16,8 @@ Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mi
     var ev = new ICAL.Event(vevents[0]);
     var time = ICAL.Time.fromJSDate(new Date());
     var expand = ev.iterator(time);
-    var next = expand.next();
-    var options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
-    var date = next.toJSDate().toLocaleString("de-DE", options);
-    document.getElementById('date').innerHTML = date;
+    var date = moment(expand.next().toJSDate());
+    document.getElementById('date').innerHTML = date.locale('de').format('LL');
   }
 </script>
 
