@@ -21,7 +21,7 @@ Als Anbieter ausgereifter Cloud-Lösungen wie Mailarchiv, Mail-Dienste oder Host
 
 Derzeit profitieren zirka 1.200 Geschäftskunden wie Antenne Bayern oder der Münchner Verkehrs- und Tarifverbund (MVV) von den Dienstleistungen der SpaceNet AG. Das Münchner Unternehmen beschäftigt rund 100 Mitarbeiter und ist zertifiziert nach dem Sicherheitsstandard ISO 27001.
 
-Weitere Infos unter: https://www.space.net
+Weitere Infos unter: [https://www.space.net](https://www.space.net)
 
 **Über die Freifunk-Initiative**
 
@@ -29,7 +29,7 @@ Die Freifunk-Initiative hat zum Ziel, freie, unabhängige und nichtkommerzielle 
 
 Freifunk-Netze sind „Selbstmach”-Netze. Für den Aufbau nutzen Teilnehmer auf ihren WLAN-Routern eine spezielle Linux-Distribution, die Freifunk-Firmware. Die lokalen Freifunk-Communities stellen die auf eigene Bedürfnisse angepasste Software dann auf ihren Websites der Öffentlichkeit frei zur Verfügung. Mittlerweile sind ungefähr 1.500 Freifunk-Hotspots in München und dem Umland aktiv. 
 
-Weitere Infos über die Community und Technik unter: https://ffmuc.net und https://www.freifunk.net
+Weitere Infos über die Community und Technik unter: [https://ffmuc.net](https://ffmuc.net) und deutschlandweit [https://www.freifunk.net](https://www.freifunk.net)
 
 
 **Quelle: [Pressemitteilung der SpaceNet AG vom 29. April 2016](https://www.space.net/it-expertenwissen/aktuelles/unternehmen/detail-unternehmensnews/titel/spacenet-unterstuetzt-eine-der-groessten-deutschen-freifunk-communities/News/detail/index.html?actbackPid=1247&cHash=1dcaab9cec56b4b76ee0d95002793cb3)**
