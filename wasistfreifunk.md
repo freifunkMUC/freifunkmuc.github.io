@@ -2,8 +2,6 @@
 layout: page
 title: Was ist Freifunk?
 permalink: /wasistfreifunk/
-customcss:
- - /assets/projekktor/projekktor.style.css
 customjs:
  - /js/jquery.min.js
  - /js/projekktor-1.3.09.min.js
