@@ -9,4 +9,4 @@ Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mi
 ### Corso Leopold
 
 Wir sind dieses Mal wieder auf dem **Corso Leopold** zu finden - und zwar am **11. und 12. Juni 2016** auf der Leopoldstraße Höhe Hausnummer 68. Samstag voraussichtlich von 16 - 22 Uhr und Sonntag von 12 - 20 Uhr. Einfach vorbeikommen und Fragen stellen.
-Mehr Infos im [Wiki](https://ffmuc.net/wiki/p/Teilnahme_Corso_Leopold).
+Mehr Infos zur Orga im [Wiki](https://ffmuc.net/wiki/p/Teilnahme_Corso_Leopold).
