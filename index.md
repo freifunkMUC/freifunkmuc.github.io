@@ -25,17 +25,6 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 {% endfor %}
 </ul>
 
-<style type="text/css">
-  .paging-controls {text-align: center;}
-  .paging-controls a {color: #2a7ae2;}
-  .paging-controls a:visited {color: #205caa;}
-  .paging-controls .prev {float: left;}
-  .paging-controls .prev:before {content: "< neuere";}
-  .paging-controls .next {float: right;}
-  .paging-controls .next:after {content: "ältere >";}
-  .paging-controls .elipsis:before {content: " ... ";}
-</style>
-
 <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS abonnieren</a> | <a href="{{ "/archiv" | prepend: site.baseurl }}">Archiv</a></p>
 </div>
 

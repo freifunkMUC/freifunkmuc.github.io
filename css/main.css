@@ -474,3 +474,18 @@ ul.nav li.dropdown:hover ul.dropdown-menu{
     margin: 0 0 15px; }
 
 }
+
+
+/* longlist */
+/* ----------------------------------------------------------*/
+
+
+.paging-controls {text-align: center;}
+.paging-controls a {color: #2a7ae2;}
+.paging-controls a:visited {color: #205caa;}
+.paging-controls .prev {float: left;}
+.paging-controls .prev:before {content: "< neuere";}
+.paging-controls .next {float: right;}
+.paging-controls .next:after {content: "ältere >";}
+.paging-controls .elipsis:before {content: " ... ";}
+
