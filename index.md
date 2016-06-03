@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Willkommen bei Freifunk München
+customjs:
+ - longlist.min
+ - main
 ---
 
 Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
@@ -22,9 +25,6 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
 {% endfor %}
 </ul>
 
-<script type="text/javascript">
-  longlist(document.getElementById('posts'), {'perPage': 5});
-</script>
 <style type="text/css">
   .paging-controls {text-align: center;}
   .paging-controls a {color: #2a7ae2;}
@@ -61,3 +61,4 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
     </div>
 
 </div>
+
