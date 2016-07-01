@@ -13,9 +13,9 @@ Ohne vorherige Anmeldung können nun alle im Ankunftszentrum über das passwortf
 
 Die Freifunker können finanzielle Unterstützung und Sachspenden gut gebrauchen, um ihre Arbeit fortsetzen zu können.
 
-![Beim Aufbau der Linkstrecke zwischen space.net und dem Bettenhaus des Ankunftszentrum](/assets/posts/2016-07-01-ffmuc-ankunftszentrum-aufbau-linkstrecke.jpg =250x)
-![Planung der Versorgung der Ankunfts- und der Wartehallen](/assets/posts/2016-07-01-ffmuc-ankunftszentrum-planung.jpg =335x)
-![Sonnenuntergang nach getaner Arbeit](/assets/posts/2016-07-01-ffmuc-ankunftszentrum-sonnenuntergang.jpg =335x)
+![Beim Aufbau der Linkstrecke zwischen space.net und dem Bettenhaus des Ankunftszentrum](/assets/posts/2016-07-01-ffmuc-ankunftszentrum-aufbau-linkstrecke.jpg | width=250)
+![Planung der Versorgung der Ankunfts- und der Wartehallen](/assets/posts/2016-07-01-ffmuc-ankunftszentrum-planung.jpg | width=335)
+![Sonnenuntergang nach getaner Arbeit](/assets/posts/2016-07-01-ffmuc-ankunftszentrum-sonnenuntergang.jpg | width=335)
 
 **Hintergrund zum Projekt: "Freifunk für Flüchtlinge"**
 
