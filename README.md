@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/freifunkMUC/freifunkmuc.github.io.svg?branch=master)](https://travis-ci.org/freifunkMUC/freifunkmuc.github.io)
+
 Zu erreichen unter: https://ffmuc.net
 
 Diese Webseite wird mit dem [jekyll](http://jekyllrb.com) compiler erstellt.
