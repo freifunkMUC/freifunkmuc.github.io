@@ -24,5 +24,6 @@ hinarbeitet, deren Grundsätze auf Chauvinismus und Nationalismus beruht, arbeit
 Die Gemeinschaft der Münchner Freifunker erklärt das Vertreten von Rassismus und von der Verharmlosung der historischen und aktuellen faschistischen Gewalt für unvereinbar mit einer Mitgliedschaft. Dazu gehören insbesondere die Mitgliedschaft in oder Unterstützung einer rechtsextremen oder rechtsradikalen Organisation. Darunter verstehen wir neben zahlreichen "Freien Kameradschaften" auch beispielsweise Gruppen wie die "Deutsche Liga für Volk und Heimat", DVU, FPÖ, die
 "Hilfsgemeinschaft Nationaler Gefangener", NPD, ProKöln, PEGIDA, Bagida, Pro München und Pro Bayern.
 
-[LQFB-Entscheidung zur Unvereinbarkeitserklärung]: hhttps://lqfb.freifunk-muenchen.de/lf/initiative/show/142.html
+Es gab eine [LiquidFeedback-Entscheidung][lqfb] innerhalb der Community über diese Unvereinbarkeitserklärung.
 
+[lqfb]: https://lqfb.freifunk-muenchen.de/lf/initiative/show/142.html

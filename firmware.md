@@ -82,6 +82,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="ubiquiti" value="nanostation-m">Nanostation/Loco M</option>
   <option data-option="ubiquiti" value="nanostation-m-xw">Nanostation M XW</option>
   <option data-option="ubiquiti" value="loco-m-xw">Nanostation Loco M XW</option>
+  <option data-option="ubiquiti" value="picostation-m">Picostation M</option>
   <option data-option="ubiquiti" value="unifi">UniFi AP / Unifi AP-LR</option>
   <option data-option="ubiquiti" value="unifi-ap-pro">UniFi AP-Pro</option>
   <option data-option="ubiquiti" value="unifiap-outdoor">UniFi Outdoor</option>
@@ -152,6 +153,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="nanostation-m" value="">factory</option>
   <option data-option="nanostation-m-xw" value="">factory</option>
   <option data-option="loco-m-xw" value="">factory</option>
+  <option data-option="picostation-m" value="">factory</option>
   <option data-option="unifi" value="">factory</option>
   <option data-option="unifi-ap-pro" value="">factory</option>
   <option data-option="unifiap-outdoor" value="">factory</option>
@@ -161,6 +163,65 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="vmi" value="vmware">VMware vmdk</option>
 </select>
 
+<script type="text/javascript">
+var sel1 = document.querySelector('#brand');
+var sel2 = document.querySelector('#model');
+var sel3 = document.querySelector('#version');
+var options2 = sel2.querySelectorAll('option');
+var options3 = sel3.querySelectorAll('option');
+
+function giveSelection(box,selValue) {
+  var sel;
+  var options;
+  if(box === 1) {
+    sel = sel2;
+    options = options2;
+  } else {
+    sel = sel3;
+    options = options3;
+  }
+  sel.innerHTML = '';
+  for(var i = 0; i < options.length; i++) {
+    if(options[i].dataset.option === selValue) {
+      sel.appendChild(options[i]);
+    }
+  }
+  if(box === 1) {
+    giveSelection(2,sel.value);
+  }
+}
+giveSelection(1,sel1.value);
+
+function getImage(code,type,url,gluon) {
+  var el1 = document.getElementById('brand');
+  var el2 = document.getElementById('model');
+  var el3 = document.getElementById('version');
+  var brand = el1.options[el1.selectedIndex].value;
+  var model = el2.options[el2.selectedIndex].value;
+  var version = el3.options[el3.selectedIndex].value;
+  var imgURL = url + type + '/gluon-' + code + '-' + gluon + '-' + brand;
+  if(model !== 'vmi') {
+    imgURL += '-' + model;
+  }
+  if(version.length != 0) {
+    imgURL += '-' + version;
+  }
+  if(type === 'sysupgrade') {
+    imgURL += '-' + type;
+  }
+  if(version === 'kvm' || version === 'generic') {
+    imgURL += '.img.gz';
+  } else if(version === 'virtualbox') {
+    imgURL += '.vdi';
+  } else if(version === 'vmware') {
+    imgURL += '.vmdk';
+  } else {
+    imgURL += '.bin';
+  }
+  window.location = imgURL;
+}
+</script>
+
 <br><br>
   <button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','http://firmware.ffmuc.net/stable/','v2015.7');">Erstinstallation</button>
   <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','http://firmware.ffmuc.net/stable/','v2015.7');">Aktualisierung</button>
@@ -169,6 +230,20 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
 <a href="http://firmware.ffmuc.net/">Direktlinks</a>
 
 </div>
+
+<div class="alert alert-warning" role="alert">
+  <strong>Hinweis!</strong> Es ist eine Version V11 des beliebten Modells TP-Link TL-WR841N(D) aufgetaucht. Bisher unterstützen wir diese Version v11 NICHT. Bitte keine Firmware für andere Versionen installieren, da der Router ansonsten unbenutzbar wird und nur unter größeren Anstrengungen wieder zum Leben erweckt werden kann.
+</div>
+
+<div class="alert alert-warning" role="alert">
+  <strong>Hinweis!</strong> Um die aktuelle Routerversion v10 des beliebten Modells TP-Link TL-WR841N(D) nutzen zu können, bitten wir vorerst die experimentelle Version unserer nächsten Firmware zu benutzen: <a href="http://firmware.ffmuc.net/experimental/factory/gluon-ffmuc-v2015.7-55-gb6ec692-tp-link-tl-wr841n-nd-v10.bin">v2015.7-55-gb6ec692</a>.
+</div>
+
+<div class="alert alert-warning" role="alert">
+  <strong>Hinweis!</strong> Aktuelle Ubiquiti Geräte, welche mit Firmwareversion 5.6.x geliefert werden, müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan, kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine detaillierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.
+</div>
+
+
 
 **Erstinstallation** wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben. \\
 Ist bereits eine Freifunk München Firmware installiert worden und du möchtest manuell upgraden, lade dir das Image mit **Aktualisierung**.

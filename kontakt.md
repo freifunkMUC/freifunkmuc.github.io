@@ -6,13 +6,13 @@ permalink: /kontakt/
 
 {% include treffen.md %}
 
-E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net)
+E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net) (öffentlich!)
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
-IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](https://www.darkfasel.net))
+IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](https://www.darkfasel.net)) - IRC-Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Developer Chat](https://webirc.darkfasel.net/#freifunk-dev)
 
-Web-Chat: [User Chat](https://webirc.darkfasel.net/#freifunk) & [Developer Chat](https://webirc.darkfasel.net/#freifunk-dev)
+[Chat für Projekte](https://chat.ffmuc.net/)
 
 ### Presse
 
@@ -24,9 +24,9 @@ E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
 [Mailingliste für EntwicklerInnen und Technikinteressierte][devListe] \\
 [Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
 
-[allgListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
-[devListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
-[fluechtListe]: http://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
+[allgListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
+[devListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
+[fluechtListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
 
 ### Wiki, Bugtracker, ...
 
