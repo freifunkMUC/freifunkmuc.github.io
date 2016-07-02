@@ -10,7 +10,7 @@ Wir unterstützen aktuell verschiedene Routermodelle. Zunächst musst Du prüfen
 
 Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link TL-WR841N (ab ca. 16 Euro).
 
-Die Anleitung zum flashen des Routers findest du [hier][router-flashen].
+Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
 ## Images
 
