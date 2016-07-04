@@ -1,53 +1,49 @@
 <header class="site-header">
 
-  <div class="wrap">
-
-    
-    <a class="site-title" href="{{ site.baseurl }}/"><img width=100px height=100px src="{{ site.baseurl }}/assets/Ffmuc-logo-250.png"> {{ site.title }}</a>
-
-<!-- Fixed navbar -->
-    <div class="navbar navbar-fixed" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>          
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="/wasistfreifunk">Was ist Freifunk?</a></li>
-            <li class="dropdown">
-              <a href="/mitmachen">Mitmachen<b class="caret"></b></a>
-              <ul class="dropdown-menu">                
-                <li><a class="page-link" href="/firmware">1. Firmware herunterladen</a></li>
-                <li><a class="page-link" href="/router-flashen">2. Router flashen</a></li>
-                <li><a class="page-link" href="/router-konfigurieren">3. Router konfigurieren</a></li>
-                <li><a class="page-link" href="/verbreiten">Infomaterial</a></li>
-                <li><a class="page-link" href="/unterstuetzung">Unterstützung</a></li>
-              </ul>
-            </li>
-            <li><a href="/map">Knotenkarte</a></li>
-            <li><a href="/faq">FAQ</a></li>
-            <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
-            <li><a href="/wiki">Wiki</a></li>
-            <li><a href="/podcast">Podcast</a></li>
-            <li class="dropdown">
-              <a href="/dienste">Dienste<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a class="page-link" href="https://chat.ffmuc.net">Chat</a></li>
-                <li><a class="page-link" href="https://lqfb.freifunk-muenchen.de/">Liquid-Feedback</a></li>
-                <li><a class="page-link" href="https://ffmuc.net/pad/">Etherpad</a></li>
-              </ul>
-            </li>
-            <li><a href="/kontakt">Kontakt</a></li> 
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
-  </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/wasistfreifunk">Was ist Freifunk?</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mitmachen <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-link" href="/firmware">1. Firmware herunterladen</a></li>
+            <li><a class="page-link" href="/router-flashen">2. Router flashen</a></li>
+            <li><a class="page-link" href="/router-konfigurieren">3. Router konfigurieren</a></li>
+            <li><a class="page-link" href="/verbreiten">Infomaterial</a></li>
+            <li><a class="page-link" href="/unterstuetzung">Unterstützung</a></li>
+          </ul>
+        </li>
+        <li><a href="/map">Knotenkarte</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
+        <li><a href="/wiki">Wiki</a></li>
+        <li><a href="/podcast">Podcast</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dienste <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-link" href="https://chat.ffmuc.net">Chat</a></li>
+            <li><a class="page-link" href="https://lqfb.freifunk-muenchen.de/">Liquid-Feedback</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/pad/">Etherpad</a></li>
+          </ul>
+        </li>
+        <li><a href="/kontakt">Kontakt</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
 
 </header>
