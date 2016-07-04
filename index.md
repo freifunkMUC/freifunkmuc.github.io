@@ -6,7 +6,10 @@ customjs:
  - main
 ---
 
+![Logo Freifunk München](/assets/mobilewikilogo.png){:.pull-left width="60px" height="60px" style="margin-right: 10px"}
+
 Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
+
 Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
 
 <div class="row">
@@ -14,7 +17,7 @@ Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in
         <div class="list-group">
 
 <div class="panel-heading" markdown="1">
-### Neuigkeiten
+## Neuigkeiten
 
 <ul id="posts" class="posts">
 {% for post in site.posts %}
