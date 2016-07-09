@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mitmachen
+title: Einstieg
 permalink: /mitmachen/
 ---
 
@@ -23,7 +23,7 @@ Sprich mit deinem Freundeskreis, GeschäftspartnerInnen und allen Menschen die d
 
 ## Du möchtest einen Freifunk-Router aufstellen?
 
-<div class="row">        
+<div class="row">
     <div class="col-sm-4">
         <div class="list-group">
 
