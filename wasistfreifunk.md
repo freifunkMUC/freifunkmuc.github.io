@@ -17,7 +17,7 @@ Konkret hat sich Freifunk zum Ziel gesetzt, offene Funknetzwerke einzurichten un
 
 Freifunk funktioniert nur durch den Einsatz von Dir! Die Initiative setzt auf eine Gemeinschaft von Menschen, die dazu beitragen, dass die Idee von Freifunk wächst. Um mitzumachen brauchst Du gar nicht viel zu tun. Mach einfach mit!
 
-##Technische Aspekte
+## Technische Aspekte
 
 Von der technischen Seite her bilden alle Freifunkgeräte ein Mesh-Netzwerk. Das bedeutet, dass alle Geräte innerhalb des Freifunk Netzwerks direkt miteinander kommunizieren können und somit das eigene Netzwerk erstellen.
 
