@@ -234,11 +234,12 @@ function getImage(code,type,url,gluon) {
 <div class="alert alert-warning" role="alert">
   <strong>Hinweis!</strong> Um die aktuelle Routerversion v10 und v11 des beliebten Modells TP-Link TL-WR841N(D) nutzen zu können, bitten wir vorerst die experimentelle Version unserer nächsten Firmware zu benutzen: <br>
   v10: <a href="https://firmware.ffmuc.net/experimental/factory/gluon-ffmuc-v2015.7-78-gf36fbda-tp-link-tl-wr841n-nd-v10.bin">v2015.7-78-gf36fbda-tp-link-tl-wr841n-nd-v10</a><br>
-  v11: <a href="https://firmware.ffmuc.net/experimental/factory/gluon-ffmuc-v2015.7-78-gf36fbda-tp-link-tl-wr841n-nd-v11.bin">v2015.7-55-gb6ec692-tp-link-tl-wr841n-nd-v11</a>.
+  v11: <a href="https://firmware.ffmuc.net/experimental/factory/gluon-ffmuc-v2015.7-78-gf36fbda-tp-link-tl-wr841n-nd-v11.bin">v2015.7-78-gf36fbda-tp-link-tl-wr841n-nd-v11</a>
 </div>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Hinweis!</strong> Aktuelle Ubiquiti Geräte, welche mit Firmwareversion 5.6.x geliefert werden, müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan, kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine detaillierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.
+  <strong>Hinweis!</strong> Für die Stable Version der Firmware gilt: Aktuelle Ubiquiti Geräte, welche mit Firmwareversion 5.6.x geliefert werden, müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan, kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine detaillierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.<br>
+  Bei Verwendung der aktuellen Experimental Firmware v2015.7-78-gf36fbda kommt Gluon 2016.1.5 zum Einsatz kommt. Laut <a href="https://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html">Changelog zu Gluon 2016.1.5</a> ist damit ein Downgrade auf AirOS 5.5.x nicht mehr notwendig.
 </div>
 
 
