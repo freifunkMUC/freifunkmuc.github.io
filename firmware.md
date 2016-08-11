@@ -322,12 +322,6 @@ function getImage(code,type,url,gluon) {
 
 </div>
 
-<div class="alert alert-warning" role="alert">
-  <strong>Hinweis!</strong> Für die Stable Version der Firmware gilt: Aktuelle Ubiquiti Geräte, welche mit Firmwareversion 5.6.x geliefert werden, müssen erst auf 5.5.x downgraded werden. Wird dies nicht getan, kann die FFMuc Firmware das Gerät dauerhaft unbrauchbar machen. Eine detaillierte Anleitung zum Vorgehen findet sich im <a href="https://wiki.md.freifunk.net/Anleitungen/router-flashen-ubnt">Freifunk Magdeburg Wiki</a>.<br>
-  Bei Verwendung der aktuellen Experimental Firmware v2015.7-78-gf36fbda kommt Gluon 2016.1.5 zum Einsatz kommt. Laut <a href="https://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html">Changelog zu Gluon 2016.1.5</a> ist damit ein Downgrade auf AirOS 5.5.x nicht mehr notwendig.
-</div>
-
-
 **Erstinstallation** wählst du für Router, die noch die Originalfirmware des Herstellers installiert haben und diese nicht auf OpenWRT basiert. \\
 Ist bereits eine Freifunk München Firmware oder OpenWRT bzw. LEDE installiert worden und du möchtest manuell upgraden, lade dir das Image mit **Aktualisierung**.
 
