@@ -1,6 +1,7 @@
 ## Netzwerk Status
 <u><b>Aktuell:</b></u>
-<br>13.08.2016 21:21 - "Techniker ist informiert"
+<br>
+<b>13.08.2016 21:21 - "Techniker ist informiert"</b>
 <br>Ausfall des Gateways für alle Netzsegmente, d. h. Netzausfall des gesamten Freifunk München Netzes.
 <br>
 <br><u><b>History:</b></u>
