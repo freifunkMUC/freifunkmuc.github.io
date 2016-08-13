@@ -1,6 +1,7 @@
 ## Netzwerk Status
 <u><b>Aktuell:</b></u>
-<br>Keine Arbeiten oder Störungen am System
+<br>13.08.2016 21:21 - Noch nicht gefixed
+<br>Ausfall des Gateways für alle Netzsegmente, d. h. Netzausfall des gesamten Freifunk München Netzes.
 <br>
 <br><u><b>History:</b></u>
 <br>
