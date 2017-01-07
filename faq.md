@@ -354,7 +354,7 @@ Quelle: [Freifunk Magdeburg][ffmd]
 [ffmd]: http://md.freifunk.net
 [firmware]: /firmware/
 [flashen]: /router-flashen/
-[knotenkarte]: /map/
+[knotenkarte]: https://map.ffmuc.net/
 [kontakt]: /kontakt/
 [nutzungsbedingungen]: /nutzungsbedingungen/
 [treffen]: /mitmachen/

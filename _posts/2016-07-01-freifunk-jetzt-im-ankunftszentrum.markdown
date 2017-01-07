@@ -40,7 +40,7 @@ Im Mai wurden ca. 80.000 Gigabyte Datenvolumen in den Flüchtlingsunterkünften 
 Freifunk München ist eine nicht-kommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke im Münchner Raum. Jeder kann mitmachen: bereits für etwa 15 Euro kann man einen WLAN-Router im Handel kaufen, ihn mit Freifunk-Software bespielen und Teil der Freifunker Community werden und so beitragen, in ganz München freies WLAN anzubieten.
 
 Unser Ziel: Das Wissen über die Funktion von Netzwerken verbreiten - und das geht am Besten mit dem Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
-Freifunk München ist in dieser Form seit Anfang 2015 aktiv. Mittlerweile gibt es ca. 1.700 Freifunk-WLAN-Hotspots in und um München, die alle auf Eigeninitiative der jeweiligen Freifunkerin oder des Freifunkers entstanden sind. Täglich buchen sich derzeit etwa 45.000 Geräte bei Freifunk München ein. Eine Karte mit vielen Hotspots findet sich auf http://ffmuc.net/map
+Freifunk München ist in dieser Form seit Anfang 2015 aktiv. Mittlerweile gibt es ca. 1.700 Freifunk-WLAN-Hotspots in und um München, die alle auf Eigeninitiative der jeweiligen Freifunkerin oder des Freifunkers entstanden sind. Täglich buchen sich derzeit etwa 45.000 Geräte bei Freifunk München ein. Eine Karte mit vielen Hotspots findet sich auf https://map.ffmuc.net/
 
 Lars Mentrup (lm)
 0179 2432770
