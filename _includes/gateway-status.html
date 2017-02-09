@@ -1,0 +1,82 @@
+<style>
+    #isartor_status {
+        font-weight: bold;
+    }
+
+    .ok {
+        color: green;
+    }
+
+    .warning {
+        color: orange;
+    }
+
+    .critical {
+        color: red;
+    }
+</style>
+
+<script>
+
+    var base_url = 'https://sendlingertor.ffmuc.net/prometheus/api/v1/query?query=';
+
+    var meshnodes_online_total = 'meshnodes_online_total{instance="isartor.ffmuc.net:80",job="hopglass"}';
+    var meshnodes_total = 'meshnodes_total{instance="isartor.ffmuc.net:80",job="hopglass"}';
+
+    function defer(method) {
+        if (window.jQuery)
+            method();
+        else
+            setTimeout(function () {
+                defer(method)
+            }, 50);
+    }
+    function extract_value(data) {
+        return data.data.result[0].value[1]
+    }
+
+    function get_prometheus_value(query, callback) {
+        //console.log("url: " + encodeURI( base_url + query));
+
+        $.ajax({
+            type: 'GET',
+            url: encodeURI(base_url + query),
+            success: function (data) {
+                callback(extract_value(data));
+            }
+        })
+
+    }
+    defer(function () {
+
+
+        function update_status() {
+            get_prometheus_value(meshnodes_online_total, function (online) {
+
+                get_prometheus_value(meshnodes_total, function (total) {
+                    $('.status').text(online + " / " + total);
+
+                    var ratio = online / total;
+
+                    $('#isartor_status').removeClass();
+
+                    if (ratio > 0.75) {
+                        $('#isartor_status').addClass("ok");
+                    }
+                    else if (ratio > 0.5) {
+                        $('#isartor_status').addClass("warning");
+                    } else {
+                        $('#isartor_status').addClass("critical");
+                    }
+                });
+            });
+        }
+
+        update_status();
+        setTimeout(update_status, 10000);
+    });
+</script>
+
+<div id="isartor_status">
+    Gateway Isartor <span class="status"></span> Nodes online
+</div>

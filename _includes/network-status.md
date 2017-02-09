@@ -1,4 +1,6 @@
 ## Netzwerk Status
+{% include gateway-status.html %}
+
 <u><b>Aktuell:</b></u>
 <br>Keine Arbeiten oder Störungen am System
 <br>
