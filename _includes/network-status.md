@@ -1,5 +1,5 @@
 ## Netzwerk Status
-{% include gateway-status.html %}
+<a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
 
 <u><b>Aktuell:</b></u>
 <br>Keine Arbeiten oder Störungen am System
