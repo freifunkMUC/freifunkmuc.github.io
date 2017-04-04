@@ -356,11 +356,11 @@ function getImage(code,type,url,gluon) {
 </script>
 
 <br><br>
-  <button type="button" class="btn btn-default" onclick="getImage('tecff','factory','http://fw1.tecff.de/stable/','v2016.2.4.1');">Erstinstallation</button>
-  <button type="button" class="btn btn-primary" onclick="getImage('tecff','sysupgrade','http://fw1.tecff.de/stable/','v2016.2.4.1');">Aktualisierung</button>
+  <button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','https://firmware.ffmuc.net/stable/','v2016.0');">Erstinstallation</button>
+  <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','https://firmware.ffmuc.net/stable/','v2016.0');">Aktualisierung</button>
 
 <br>
-<a href="http://fw.freifunk-altdorf.de/stable/">Direktlinks</a>
+<a href="http://firmware.ffmuc.net/stable/">Direktlinks</a>
 
 </div>
 
