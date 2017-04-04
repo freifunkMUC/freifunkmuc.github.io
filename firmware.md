@@ -30,7 +30,6 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option value="d-link">D-Link</option>
   <option value="gl-inet">GL.iNet</option>
   <option value="linksys">Linksys</option>
-  <option value="meraki">Meraki</option>
   <option value="netgear">Netgear</option>
   <option value="onion">Onion</option>
   <option value="openmesh">OpenMesh</option>
@@ -46,6 +45,8 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="alfa" value="ap121">AP121</option>
   <option data-option="alfa" value="ap121u">AP121U</option>
   <option data-option="alfa" value="hornet-ub">Hornet UB</option>
+  <option data-option="alfa" value="n2-n5">N2-N5</option>
+  <option data-option="alfa" value="tube2h">Tube2H</option>
   <option data-option="allnet" value="all0315n">ALL0315N</option>
   <option data-option="buffalo" value="wzr-600dhp">WZR 600DHP</option>
   <option data-option="buffalo" value="wzr-hp-ag300h">WZR HP AG300H</option>
@@ -55,18 +56,14 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="d-link" value="dir-615">DIR-615</option>
   <option data-option="d-link" value="dir-825">DIR-825</option>
   <option data-option="gl-inet" value="6408a">6408A</option>
-  <option data-option="gl-inet" value="6416a">6416A</option>
+  <option data-option="gl-inet" value="6416a">6416A</option>  
   <option data-option="linksys" value="wrt160nl">WRT160NL</option>
-  <option data-option="meraki" value="mr12">MR12</option>
-  <option data-option="meraki" value="mr16">MR16</option>
-  <option data-option="meraki" value="mr62">MR62</option>
-  <option data-option="meraki" value="mr66">MR66</option>
   <option data-option="netgear" value="wndr3700">WNDR3700</option>
   <option data-option="netgear" value="wndr3700v2">WNDR3700v2</option>
   <option data-option="netgear" value="wndr3700v4">WNDR3700v4</option>
   <option data-option="netgear" value="wndr3800">WNDR3800</option>
   <option data-option="netgear" value="wndr4300">WNDR4300</option>
-  <option data-option="netgear" value="wndrmacv2">WNDRMACv2</option>
+  <option data-option="netgear" value="wndrmacv2">WNDRMACv2</option>  
   <option data-option="onion" value="omega">OMEGA</option>
   <option data-option="openmesh" value="mr1750">MR1750</option>
   <option data-option="openmesh" value="mr1750v2">MR1750v2</option>
@@ -109,7 +106,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tp-link" value="tl-wdr4300">TL-WDR4300</option>
   <option data-option="tp-link" value="tl-wdr4900">TL-WDR4900</option>
   <option data-option="tp-link" value="tl-wr1043n-nd">TL-WR1043N/ND</option>
-  <option data-option="tp-link" value="tl-wr2543n-nd">TL-WR2543N/ND</option>
+  <option data-option="tp-link" value="tl-wr2543n-nd">TL-WR2543N/ND</option>  
   <option data-option="tp-link" value="tl-wr703n">TL-WR703N</option>
   <option data-option="tp-link" value="tl-wr710n">TL-WR710N</option>
   <option data-option="tp-link" value="tl-wr740n-nd">TL-WR740N/ND</option>
@@ -119,7 +116,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tp-link" value="tl-wr842n-nd">TL-WR842N/ND</option>
   <option data-option="tp-link" value="tl-wr843n-nd">TL-WR843N/ND</option>
   <option data-option="tp-link" value="tl-wr940n-nd">TL-WR940N/ND</option>
-  <option data-option="tp-link" value="tl-wr941n-nd">TL-WR941N/ND</option>
+  <option data-option="tp-link" value="tl-wr941n-nd">TL-WR941N/ND</option>  
   <option data-option="ubiquiti" value="airgateway">AirGateway</option>
   <option data-option="ubiquiti" value="airrouter">AirRouter</option>
   <option data-option="ubiquiti" value="bullet-m">Bullet M</option>
@@ -141,7 +138,7 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="ubiquiti" value="unifiap-outdoor+">UniFi Outdoor+</option>
   <option data-option="ubiquiti" value="unifiap-outdoor">UniFi Outdoor</option>
   <option data-option="wd" value="my-net-n600">My Net N600</option>
-  <option data-option="wd" value="my-net-n750">My Net N750</option>
+  <option data-option="wd" value="my-net-n750">My Net N750</option>  
   <option data-option="x86" value="vmi32">Virtual Machine Images (x86)</option>
   <option data-option="x86" value="vmi64">Virtual Machine Images (x86-64)</option>
 </select>
@@ -151,6 +148,8 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="ap121" value="">factory</option>
   <option data-option="ap121u" value="">factory</option>
   <option data-option="hornet-ub" value="">factory</option>
+  <option data-option="n2-n5" value="">sysupgrade</option>
+  <option data-option="tube2h" value="">sysupgrade</option>
   <option data-option="all0315n" value="">sysupgrade</option>
   <option data-option="wzr-600dhp" value="">factory</option>
   <option data-option="wzr-hp-ag300h" value="">factory</option>
@@ -160,20 +159,16 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="dir-505" value="rev-a1">rev A1</option>
   <option data-option="dir-505" value="rev-a2">rev A2</option>
   <option data-option="dir-615" value="rev-c1">rev C1</option>
-  <option data-option="dir-825" value="rev-b1">rev B1</option>
+  <option data-option="dir-825" value="rev-b1">rev B1</option>  
   <option data-option="6408a" value="v1">v1</option>
-  <option data-option="6416a" value="v1">v1</option>
+  <option data-option="6416a" value="v1">v1</option>  
   <option data-option="wrt160nl" value="">factory</option>
-  <option data-option="mr12" value="">sysupgrade</option>
-  <option data-option="mr16" value="">sysupgrade</option>
-  <option data-option="mr62" value="">sysupgrade</option>
-  <option data-option="mr66" value="">sysupgrade</option>
   <option data-option="wndr3700" value="">factory</option>
   <option data-option="wndr3700v2" value="">factory</option>
   <option data-option="wndr3700v4" value="">factory</option>
   <option data-option="wndr3800" value="">factory</option>
   <option data-option="wndr4300" value="">factory</option>
-  <option data-option="wndrmacv2" value="">factory</option>
+  <option data-option="wndrmacv2" value="">factory</option>  
   <option data-option="omega" value="">factory</option>
   <option data-option="mr1750" value="">factory</option>
   <option data-option="mr1750v2" value="">factory</option>
@@ -185,13 +180,16 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="om2pv2" value="">factory</option>
   <option data-option="om2p-hs" value="">factory</option>
   <option data-option="om2p-hsv2" value="">factory</option>
+  <option data-option="om2p-hsv3" value="">factory</option>
   <option data-option="om2p-lc" value="">factory</option>
   <option data-option="om5p" value="">factory</option>
-  <option data-option="om5pv2" value="">factory</option>
+  <option data-option="om5p-ac" value="">factory</option>   
+  <option data-option="om5p-acv2" value="">factory</option>   
+  <option data-option="om5p-an" value="">factory</option>   
   <option data-option="pi" value="">1.x</option>
   <option data-option="pi" value="2">2.x</option>
-  <option data-option="archer-c5" value="v1.0">1.x</option>
-  <option data-option="archer-c7" value="v2.0">2.x</option>
+  <option data-option="archer-c5" value="v1">1.x</option>
+  <option data-option="archer-c7" value="v2">2.x</option>
   <option data-option="cpe210" value="v1.0">1.0</option>
   <option data-option="cpe210" value="v1.1">1.1</option>
   <option data-option="cpe220" value="v1.0">1.0</option>
@@ -270,14 +268,14 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="bullet-m" value="">factory</option>
   <option data-option="bullet-m2" value="">factory</option>
   <option data-option="bullet-m5" value="">factory</option>
-  <option data-option="loco-m" value="">factory</option>
+  <option data-option="loco-m" value="">factory only</option>
   <option data-option="loco-m-xw" value="">factory</option>
   <option data-option="nanostation-m" value="">factory</option>
   <option data-option="nanostation-m2" value="">factory</option>
   <option data-option="nanostation-m5" value="">factory</option>
   <option data-option="nanostation-m-xw" value="">factory</option>
   <option data-option="picostation-m2" value="">factory</option>
-  <option data-option="rocket-m" value="">factory</option>
+  <option data-option="rocket-m" value="">factory only</option>
   <option data-option="rocket-m2" value="">factory</option>
   <option data-option="rocket-m5" value="">factory</option>
   <option data-option="rocket-m-xw" value="">factory</option>
