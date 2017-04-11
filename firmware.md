@@ -347,7 +347,7 @@ function getImage(code,type,url,gluon) {
   if(type === 'sysupgrade') {
     imgURL += '-' + type;
   }
-  if(version === 'kvm' || version == '64' || version === 'generic') {
+  if( model == 'pi' || version === 'kvm' || version == '64' || version === 'generic') {
     imgURL += '.img.gz';
   } else if(version == '64-virtualbox' || version === 'virtualbox') {
     imgURL += '.vdi';
