@@ -2,7 +2,9 @@
 <a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
 
 <u><b>Aktuell:</b></u>
-<br>Keine Arbeiten oder Störungen am System
+<br>
+<b>13.08.2016 21:21 - "Techniker ist informiert"</b>
+<br>Ausfall des Gateways für alle Netzsegmente, d. h. Netzausfall des gesamten Freifunk München Netzes.
 <br>
 <br><u><b>History:</b></u>
 <br>
