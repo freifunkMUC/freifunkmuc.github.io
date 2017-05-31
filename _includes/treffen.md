@@ -2,6 +2,6 @@
 
 Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](http://muc.ccc.de) ([Schleißheimer Str. 41](http://osm.org/go/0JAf0IVLh?node=2012031859)).
 
-Das nächste Treffen findet am **26. April 2017 um 20:00 Uhr** statt.
+Das nächste Treffen findet am **31. Mai 2017 um 20:00 Uhr** statt.
 
 Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mitgenommen werden.
