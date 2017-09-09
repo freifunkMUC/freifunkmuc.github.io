@@ -1,8 +1,9 @@
 ## Netzwerk Status
 <a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
-
 <u><b>Aktuell:</b></u>
-<br>27.08-07.08.2017: Großstörung der Gateays und aller Segmente. Aktuell ggf. noch Probleme mit Geschwindigkeit und Statistiken
+<br><b>ggf. noch Probleme mit Geschwindigkeit und Statistiken</b>
+<br>
+<br><b>27.08-07.08.2017:</b> Großstörung der Gateays und aller Segmente. 
 <br>
 <br><u><b>History:</b></u>
 <br>
