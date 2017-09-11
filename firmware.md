@@ -226,7 +226,6 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="tl-wa901n-nd" value="v1">1.x</option>
   <option data-option="tl-wa901n-nd" value="v2">2.x</option>
   <option data-option="tl-wa901n-nd" value="v3">3.x</option>
-  <option data-option="tl-wa901n-nd" value="v4">4.x</option>
   <option data-option="tl-wdr3500" value="v1">1.x</option>
   <option data-option="tl-wdr3600" value="v1">1.x</option>
   <option data-option="tl-wdr4300" value="v1">1.x</option>
