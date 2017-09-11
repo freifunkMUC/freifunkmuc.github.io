@@ -293,8 +293,6 @@ Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Det
   <option data-option="vmi32" value="vmware">VMware vmdk</option>
 </select>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <script type="text/javascript">
 var sel1 = document.querySelector('#brand');
 var sel2 = document.querySelector('#model');
