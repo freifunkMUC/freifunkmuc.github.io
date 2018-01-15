@@ -24,4 +24,4 @@ Thema: Vier Münchner Freifunker geben einen Rückblick über Entstehung und Ent
 		});
 	</script>
    
-[podcast]: http://freifunk-muenchen.de/podcast/
+[podcast]: https://ffmuc.net/podcast/
