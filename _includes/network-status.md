@@ -3,6 +3,7 @@
 <br>
 <br><u><b>Aktuell:</b></u>
 <br><b>Probleme mit den Miniaturbildern der Statistiken auf der Knotenkarte</b>
+<br>
 <br><b>15.01.2018 17:32-35</b> Problem mit der Stromversorgung im Rack, kurze Netzwerkst\xc3\xbrung.
 <br>
 <br><u><b>History:</b></u>
