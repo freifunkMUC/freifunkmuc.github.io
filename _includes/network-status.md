@@ -2,8 +2,9 @@
 <a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
 <br>
 <br><u><b>Aktuell:</b></u>
-<br><b>Probleme mit den Miniaturbildern der Statistiken auf der Knotenkarte</b>
-<br><b>17.01.208 13:00</b> Alle Segemente sind auf Grund einer Stoerung auf den Gateways Offline
+<br>Probleme mit den Miniaturbildern der Statistiken auf der Knotenkarte
+<br>
+<br><b>17.01.208 seit 13:00</b> Alle Segmente sind auf Grund einer Stoerung auf den Gateways Offline
 <br>
 <br><u><b>History:</b></u>
 <br><b>15.01.2018 17:32-35</b> Problem mit der Stromversorgung im Rack, kurze Netzwerkstörung.
