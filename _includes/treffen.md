@@ -1,8 +1,13 @@
 ## Treffen
 
-Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 41](https://osm.org/go/0JAf0IVLh?node=2012031859)).
+Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 41](https://osm.org/go/0JAf0IVLh?node=2012031859)). 
 
-Das nächste Treffen findet am **28. März 2018 um 20:00 Uhr** statt.
+**Und Neu:** 2 Wochen + 1 Tag später am Donnerstag im ["404 Page not found"](http://viernullvier.net/) Cafe in der ([Corneliusstr. 2](https://www.openstreetmap.org/#map=19/48.13272/11.57425))
+
+
+Das nächste Treffen im **"404 page not found"** findet am **12. April 2018 um 19:00 Uhr** statt. Erkennungsmerkmal ist der Freifunkrouter auf dem Tisch.
+
+Das nächste Treffen im **muCCC** findet am **25. April 2018 um 20:00 Uhr** statt.
 
 Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mitgenommen werden.
 
