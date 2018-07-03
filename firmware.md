@@ -14,7 +14,7 @@ Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
 ## Images
 
-Hier kannst du die entsprechende [Freifunk München Firmware](http://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
+Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net]
 [hardware].
@@ -358,7 +358,7 @@ function getImage(code,type,url,gluon) {
   <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','https://firmware.ffmuc.net/stable/','v2016.0');">Aktualisierung</button>
 
 <br>
-<a href="http://firmware.ffmuc.net/stable/">Direktlinks</a>
+<a href="https://firmware.ffmuc.net/stable/">Direktlinks</a>
 
 </div>
 
@@ -454,5 +454,5 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
  - Use internal NTP server 0.ntp.ffmuc.net
  - Connections from nodes to gateways only over IPv4 for now (MTU issues)
 
-[hardware]: http://wiki.freifunk.net/Kategorie:Hardware
+[hardware]: https://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/
