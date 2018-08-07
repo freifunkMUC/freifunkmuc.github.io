@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Firmware
+title: Firmware herunterladen
 permalink: /firmware/
 ---
 
