@@ -4,7 +4,13 @@ title: Firmware herunterladen
 permalink: /firmware/
 ---
 
-Wir unterstützen aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
+## Vor dem Kauf
+
+Wir unterstützen aktuell verschiedene Routermodelle. Am Besten siehst Du vor dem Kauf nach welchen Router-Typ und Hardware-Version wir unterstüzten. Oft bringen Hersteller neue Hardware-Versionen eines Routers auf den Markt, für diese können wir erst oft nach einiger Zeit oder garnicht passende Firmware anbieten. Es kann daher sinnvoll sein gebrauchte Router (die wahrscheinlich eine ältere Hardware-Version sind) oder Router bei einem Treffen zu kaufen.
+
+## Router-Daten herausfinden
+
+Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
@@ -12,7 +18,7 @@ Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link 
 
 Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
-## Images
+## Passende Firmware herunterladen
 
 Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
 
