@@ -2,6 +2,8 @@
 <a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
 <br>
 <br><u><b>Aktuell:</b></u>
+<br>seit 10. September Probleme mit den Gatgeways, seit 25. September kein IPv4
+<br>
 <br>Probleme mit den Miniaturbildern der Statistiken auf der Knotenkarte
 <br>
 <br><u><b>History:</b></u>
