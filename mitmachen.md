@@ -112,10 +112,10 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten scheue dich nicht uns zu [kontaktieren][kontakt].
 
-Die Anleitung basiert auf [http://berlin.freifunk.net/participate/overview/][berlin] \\
-Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
+Die Anleitung basiert auf [https://berlin.freifunk.net/participate/overview/][berlin] \\
+Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
 
-[berlin]: http://berlin.freifunk.net/participate/overview/
+[berlin]: https://berlin.freifunk.net/participate/overview/
 [faq]: /faq/
 [firmware]: /firmware/
 [kontakt]: /kontakt/
