@@ -43,7 +43,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * TP-Link TL-WR841N (ca. 16&nbsp;€)
+  * TP-Link TL-WR841N, bis Version 11.0. Ihr könnt bei uns nachfragen, wie ihr an alte Geräte kommt. (ca. 16&nbsp;€)
   * TL-WDR4300 (ca. 45&nbsp;€)
   * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
