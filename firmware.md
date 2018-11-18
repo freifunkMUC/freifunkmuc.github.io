@@ -1,10 +1,16 @@
 ---
 layout: page
-title: Firmware
+title: Firmware herunterladen
 permalink: /firmware/
 ---
 
-Wir unterstützen aktuell verschiedene Routermodelle. Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
+## Vor dem Kauf
+
+Wir unterstützen aktuell verschiedene Routermodelle. Am Besten siehst Du vor dem Kauf nach welchen Router-Typ und Hardware-Version wir unterstüzten. Oft bringen Hersteller neue Hardware-Versionen eines Routers auf den Markt, für diese können wir erst oft nach einiger Zeit oder garnicht passende Firmware anbieten. Es kann daher sinnvoll sein gebrauchte Router (die wahrscheinlich eine ältere Hardware-Version sind) oder Router bei einem Treffen zu kaufen.
+
+## Router-Daten herausfinden
+
+Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Router-Typ (1) und die Hardware-Version (2). Beide Informationen findest Du auf der Rückseite Deines Geräts.
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
@@ -12,9 +18,9 @@ Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link 
 
 Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
-## Images
+## Passende Firmware herunterladen
 
-Hier kannst du die entsprechende [Freifunk München Firmware](http://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
+Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net]
 [hardware].
@@ -365,7 +371,7 @@ function getImage(code,type,url,gluon) {
   <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','https://firmware.ffmuc.net/stable/','v2016.0');">Aktualisierung</button>
 
 <br>
-<a href="http://firmware.ffmuc.net/stable/">Direktlinks</a>
+<a href="https://firmware.ffmuc.net/stable/">Direktlinks</a>
 
 </div>
 
@@ -374,7 +380,7 @@ Ist bereits eine Freifunk München Firmware oder OpenWRT bzw. LEDE installiert w
 
 ## Segmente
 
-Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 2 Segmente "Kernbereich" und "Umland" aufzuteilen. <br>
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 3 Segmente "Kernbereich", "Umland" und "Welcome" aufzuteilen. Mehr Informationen findest du in der [Wiki](https://ffmuc.net/wiki/p/Segmente#Die_aktuellen_Segmente). <br>
 Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
 
 **Wähle bitte den Bereich in dem sich dein Knoten befinden wird während der Konfiguration deines Routers aus.**
@@ -461,5 +467,5 @@ Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versi
  - Use internal NTP server 0.ntp.ffmuc.net
  - Connections from nodes to gateways only over IPv4 for now (MTU issues)
 
-[hardware]: http://wiki.freifunk.net/Kategorie:Hardware
+[hardware]: https://wiki.freifunk.net/Kategorie:Hardware
 [router-flashen]: /router-flashen/

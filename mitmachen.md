@@ -43,7 +43,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * TP-Link TL-WR841N (ca. 16&nbsp;€)
+  * TP-Link TL-WR841N, bis Version 11.0. Ihr könnt bei uns nachfragen, wie ihr an alte Geräte kommt. (ca. 16&nbsp;€)
   * TL-WDR4300 (ca. 45&nbsp;€)
   * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
@@ -112,10 +112,10 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten scheue dich nicht uns zu [kontaktieren][kontakt].
 
-Die Anleitung basiert auf [http://berlin.freifunk.net/participate/overview/][berlin] \\
-Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](http://md.freifunk.net)
+Die Anleitung basiert auf [https://berlin.freifunk.net/participate/overview/][berlin] \\
+Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
 
-[berlin]: http://berlin.freifunk.net/participate/overview/
+[berlin]: https://berlin.freifunk.net/participate/overview/
 [faq]: /faq/
 [firmware]: /firmware/
 [kontakt]: /kontakt/
