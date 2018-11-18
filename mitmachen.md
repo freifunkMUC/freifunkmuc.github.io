@@ -42,7 +42,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 
 #### So kannst du mitmachen
 
-* Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+* Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * TP-Link TL-WR841N, bis Version 11.0. Ihr könnt bei uns nachfragen, wie ihr an alte Geräte kommt. (ca. 16&nbsp;€)
   * TL-WDR4300 (ca. 45&nbsp;€)
   * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
@@ -70,7 +70,7 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz Outdoor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * TP-Link CPE210
   * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
@@ -95,7 +95,7 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+* Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * Ubiquiti NanoStation M5 \\
     (bis ca. 5&nbsp;km)
   * Ubiquiti NanoBridge M5 \\
