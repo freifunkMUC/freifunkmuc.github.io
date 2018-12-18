@@ -14,5 +14,4 @@ permalink: pretty
 # Custom headers
 webrick:
   headers:
-    Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src wss://ffmuc.net 'self' firmware.ffmuc.net; img-src 'self' data: blob: filesystem:  ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self' data: blob: filesystem; frame-src 'self'; 
-    My-Other-Header: My-Other-Value
+      Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self'  ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
