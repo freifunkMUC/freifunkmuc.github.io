@@ -10,3 +10,8 @@ github_username:  FreifunkMUC
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Custom headers
+webrick:
+  headers:
+      Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self'  ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
