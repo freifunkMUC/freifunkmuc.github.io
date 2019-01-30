@@ -1,6 +1,6 @@
 ## Treffen
 
-Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 41](https://osm.org/go/0JAf0IVLh?node=2012031859)). 
+Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 39](https://osm.org/go/0JAf0IVLh?node=2012031859)). 
 
 Aktuelle Infos zum Treffen im [ffmuc-chat](https://chat.ffmuc.net/freifunk/channels/00-freifunk-treffen)
 
