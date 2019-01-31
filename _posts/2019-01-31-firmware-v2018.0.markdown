@@ -15,10 +15,10 @@ Mehr Infos im [Changelog](https://github.com/freifunkMUC/site-ffm/blob/ce4f23cb2
 
 **Die nächsten Schritte**
 
-* Fortgeschrittene Nutzer können sich den Release-Candidate jetzt schon manuell von http://firmware.ffmuc.net/beta-v2018.0/ herunterladen und zum testen auf ihren Router spielen.
+* Fortgeschrittene Nutzer können sich den Release-Candidate jetzt schon manuell von http://firmware.ffmuc.net/beta-v2018.0/ herunterladen und zum Testen auf ihren Router spielen.
 * Wurde diese Beta-Version erfolgreich getestet, wird sie für die rund 200 Geräte freigegeben, bei denen der Autoupdater auf "experimental" eingestellt ist.
-   * Falls du verhindern möchtest, dass dein Geräte updatet, stellte es auf "stable".
-* Falls es dann keine Probleme gibt, wird die Version schließlich an alle Gerärte ausgerollt, die den Autoupdater aktiviert haben.
+   * Falls du verhindern möchtest, dass dein Geräte updatet, stelle es auf "stable".
+* Falls es dann keine Probleme gibt, wird die Version schließlich auf alle Geräte ausgerollt, die den Autoupdater aktiviert haben.
 
 
 Wurde dieser Prozess erfolgreich durchgeführt, steht [dem nächsten FFMuc Firmware Relase v2018.1](https://github.com/freifunkMUC/site-ffm/pull/44), auf Basis von Gluon v2018.2 nichts mehr im Weg.
