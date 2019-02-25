@@ -361,7 +361,7 @@ function getImage(code,type,url,gluon) {
           console.log("working");
           window.location.href = imgURL;
        }).fail(function () {
-          alert("Entschuldige, die Firmware gibt es leider nicht!");
+          alert("Entschuldige, die Firmware gibt es leider nicht! Bitte schau doch mal kurz unter https://firmware.ffmuc.net nach, dort wirst du bestimmt etwas finden.");
        });
 }
 </script>
