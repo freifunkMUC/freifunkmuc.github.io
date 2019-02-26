@@ -361,7 +361,7 @@ function getImage(code,type,url,gluon) {
           console.log("working");
           window.location.href = imgURL;
        }).fail(function () {
-          alert("Entschuldige, die Firmware gibt es als Stable gerade nicht, bitte schau doch mal kurz unter <a href=\"https://firmware.ffmuc.net\">https://firmware.ffmuc.net</a> nach, dort wirst du bestimmt eine passende finden.");
+          alert("Entschuldige, die Firmware gibt es als Stable gerade nicht, bitte schau doch mal kurz unter https://firmware.ffmuc.net nach, dort wirst du bestimmt eine passende finden.");
        });
 }
 </script>
