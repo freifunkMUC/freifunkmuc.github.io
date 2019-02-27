@@ -15,4 +15,4 @@ Aktuell arbeitet das Infrastruktur Team hart im Hintergrund um bald weitere Neue
 
 Lob/Feedback/Probleme bitte im Chat melden.
 
-![Logo Spacenet](https://www.space.net/fileadmin/templates/images/logo_spacenet.png)
+![Logo Spacenet](/assets/logo_spacenet.png)
