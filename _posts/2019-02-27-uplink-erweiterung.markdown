@@ -6,12 +6,12 @@ categories: freifunkmuc
 ---
 Auf Grund der fleissigen Arbeiten des neuen Infrastruktur Teams wurde festgestellt, dass unsere Bandbreite zwar zwischen 600-800 Mbit/s in den Peaks liegt. Jedoch zwischenzeitlich in kurzen Bursts das Limit von 1 Gbit/s erreichten, was zu massivem Packetloss geführt hat.
 
-Dank der herovrragenden Unterstuetzung durch unseren langjaehrigen Sponsor SpaceNet konnten wir kurzer Hand unsere Kapazitaet auf 2 Gbit/s aufstocken um das Problem zu beheben. 
-Dies sind natuerlich beste Vorraussetzungen für den Betrieb des Freifunk Netzes München auf der Make Munich Messe dieses Wochenende. SpaceNet stellt für die Messe die notwendigen Richtfunkstrecken, die Infrastruktur vor Ort um alles inklusive Freifunk entsprechend mit Bandbreite zu versorgen.
+Dank der herovrragenden Unterstuetzung durch unseren langjährigen Sponsor SpaceNet konnten wir kurzer Hand unsere Kapazität auf 2 Gbit/s aufstocken um das Problem zu beheben. 
+Dies sind natürlich beste Vorraussetzungen für den Betrieb des Freifunk Netzes München auf der Make Munich Messe dieses Wochenende. SpaceNet stellt für die Messe die notwendigen Richtfunkstrecken, die Infrastruktur vor Ort um alles inklusive Freifunk entsprechend mit Bandbreite zu versorgen.
 
-Dies ist zwar nur ein Tropfen auf den aktuellen heißen Stein, aber wir hoffen damit ein Teil der Engpaesse beseitigt zu haben und dies für euch auch spuerbar ist.
+Dies ist zwar nur ein Tropfen auf den aktuellen heißen Stein, aber wir hoffen damit ein Teil der Engpässe beseitigt zu haben und dies für euch auch spuerbar ist.
 
-Aktuell arbeitet das Infrastruktur Team hart im Hintergrund um bald weitere Neuerungen ankuendigen zu koennen.
+Aktuell arbeitet das Infrastruktur Team hart im Hintergrund um bald weitere Neuerungen ankündigen zu können.
 
 Lob/Feedback/Probleme bitte im [Chat](https://chat.ffmuc.net/freifunk/channels/noc) melden.
 
