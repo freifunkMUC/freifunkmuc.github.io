@@ -18,6 +18,10 @@ IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS ben
 
 E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
 
+### Abuse Kontakt / Anlaufstelle für Auskunftsersuchen
+
+E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
+
 ### Mailingliste
 
 [Allgemeine Mailingliste Freifunk München][allgListe] \\
