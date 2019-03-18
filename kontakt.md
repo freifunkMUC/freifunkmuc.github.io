@@ -25,6 +25,7 @@ E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
 ### Ticketsystem
 
 E-Mail: [hilfe@ffmuc.net](mailto:hilfe@ffmuc.net)
+Telegram: [@ffmuc_help_bot](https://t.me/ffmuc_help_bot)
 Web: [tickets.ffmuc.net](https://tickets.ffmuc.net)
 
 ### Mailingliste
