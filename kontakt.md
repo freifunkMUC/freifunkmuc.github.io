@@ -6,7 +6,7 @@ permalink: /kontakt/
 
 {% include treffen.md %}
 
-E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net) (öffentlich!)
+E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net) (Öffentliche Mailingliste!)
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
