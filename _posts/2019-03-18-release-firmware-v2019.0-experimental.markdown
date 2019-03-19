@@ -23,6 +23,6 @@ Sollte das nicht der Fall sein, zögert bitte nicht euren autoupdater auf "stabl
 Wir werden nur wenige Tage warten, bevor experimental wieder "experimental" wird!
 
 Sollte es zu Problem oder sonstigen Fragen kommen, sind wir im [Chat](https://chat.ffmuc.net/freifunk/channels/firmware) erreichbar.
-Ansonsten schaut gerne unter [Kontakt](/kontakt/) nach um einen Weg zu finden mit uns in Kontakt zu treten.
+Für andere [Kontakt](/kontakt/) Möglichkeiten einfach dem Link folgen.
 
 Euer Team vom Freifunk München
