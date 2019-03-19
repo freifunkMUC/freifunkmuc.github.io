@@ -9,7 +9,7 @@ Zum lokalen testen sollte folgendes genügen:
 git clone https://github.com/freifunkMUC/freifunkmuc.github.io.git
 cd freifunkmuc.github.io
 gem install jekyll
-jekyll serve
+bundle exec jekyll serve
 ```
 
 Danach findest du auf http://localhost:4000 die Seiten, welche bei Änderungen an den Sourcen automatisch neu compiliert werden und nach einem Reload im Browser zu begutachten sind.
