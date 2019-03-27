@@ -20,7 +20,7 @@ Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
 ## Passende Firmware herunterladen
 
-Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2016.0**) herunterladen.
+Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2018.1**) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net]
 [hardware].
@@ -367,8 +367,8 @@ function getImage(code,type,url,gluon) {
 </script>
 
 <br><br>
-  <button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','https://firmware.ffmuc.net/stable/','v2016.0');">Erstinstallation</button>
-  <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','https://firmware.ffmuc.net/stable/','v2016.0');">Aktualisierung</button>
+  <button type="button" class="btn btn-default" onclick="getImage('ffmuc','factory','https://firmware.ffmuc.net/stable/','v2018.1');">Erstinstallation</button>
+  <button type="button" class="btn btn-primary" onclick="getImage('ffmuc','sysupgrade','https://firmware.ffmuc.net/stable/','v2018.1');">Aktualisierung</button>
 
 <br>
 <a href="https://firmware.ffmuc.net/stable/">Direktlinks</a>
