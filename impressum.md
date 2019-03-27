@@ -5,23 +5,20 @@ permalink: /impressum/
 ---
 
 ### Angaben gemäß § 5 TMG:
-
-Freie Netze München e. V.
-Herzogstr. 25
-80803 München
+<br>Freie Netze München e. V.
+<br>Herzogstr. 25
+<br>80803 München
 
 ### Vertreten durch:
-
-Marcel Senf, Vorsitzender
+<br>Marcel Senf, Vorsitzender
 
 ### Registereintrag:
-Eintragung im Vereinsregister
-Registergericht: Amtsgericht München
-Registernummer: VR 206402
+<br>Eintragung im Vereinsregister
+<br>Registergericht: Amtsgericht München
+<br>Registernummer: VR 206402
 
 ### Abuse Kontakt / Anlaufstelle für Auskunftsersuchen
-
-E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
+<br>E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
 
 ### Streitschlichtung
 
