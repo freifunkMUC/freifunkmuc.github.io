@@ -23,7 +23,5 @@ Wir hoffen daß die Server den Umzug ohne Hardwaretot überstehen.
 
 Habt ihr noch eine alte Firmware am laufen mit niedriger Version als 2018? Dann updated doch am besten während dieser Downtime eure Node. Da die Server ja Offline sind, haben wir einen [Firmware-Mirror](http://firmware.awlnx.space/) dafür konfiguriert.
 
-[Eine aktuelle Beta](https://firmware.ffmuc.net/v2019.0-beta1/) 
-
 
 Euer Freifunk München Team
