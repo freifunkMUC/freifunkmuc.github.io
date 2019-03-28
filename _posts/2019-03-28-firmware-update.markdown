@@ -19,6 +19,3 @@ Downloads:
 - ***NEUE*** Router: https://firmware.ffmuc.net/v2018.1/factory/
 
 ***Hinweis an alle mit eigenen Firmwareversionen und/oder deaktiviertem Autoupdater, wir können nicht garantieren dass ihr auf die neue Hardware verbinden könnt. Bitte schaltet den Autoupdater ein oder aktualisiert manuell!***
-
-Viele Grüße euer,
-Freifunk München Team
