@@ -15,7 +15,8 @@ Deswegen ist eure ***_aktive_*** Mithilfe gefragt!
 Hier werden eine Fehler behoben, die dazu führen könnten dass wir es sehr schwer haben auf die neue Infrastruktur umzuschalten. Je mehr Knoten also im Vorfeld auf dem aktuellen Stand sind, umso mehr helft ihr uns damit.
 
 Downloads:
-- Vorhandene Router:  https://firmware.ffmuc.net/v2018.1/sysupgrade/
-- ***NEUE*** Router: https://firmware.ffmuc.net/v2018.1/factory/
+
+* Vorhandene Router:  https://firmware.ffmuc.net/v2018.1/sysupgrade/
+* ***NEUE*** Router: https://firmware.ffmuc.net/v2018.1/factory/
 
 ***Hinweis an alle mit eigenen Firmwareversionen und/oder deaktiviertem Autoupdater, wir können nicht garantieren dass ihr auf die neue Hardware verbinden könnt. Bitte schaltet den Autoupdater ein oder aktualisiert manuell!***
