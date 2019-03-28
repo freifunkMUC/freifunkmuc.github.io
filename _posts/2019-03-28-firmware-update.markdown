@@ -16,7 +16,7 @@ Hier werden eine Fehler behoben, die dazu führen könnten dass wir es sehr schw
 
 Downloads:
 
-* Vorhandene Router:  (https://firmware.ffmuc.net/v2018.1/sysupgrade/)
-* ***NEUE*** Router: (https://firmware.ffmuc.net/v2018.1/factory/)
+* [Vorhandene Router](https://firmware.ffmuc.net/v2018.1/sysupgrade/)
+* [***NEUE*** Router](https://firmware.ffmuc.net/v2018.1/factory/)
 
 ***Hinweis an alle mit eigenen Firmwareversionen und/oder deaktiviertem Autoupdater, wir können nicht garantieren dass ihr auf die neue Hardware verbinden könnt. Bitte schaltet den Autoupdater auf experimental oder aktualisiert manuell!***
