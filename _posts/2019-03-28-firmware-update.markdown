@@ -12,7 +12,7 @@ Um alles etwas zu beschleunigen könnt ihr uns bereits helfen, in dem ihr die ak
 
 Deswegen ist eure ***_aktive_*** Mithilfe gefragt!
 
-Hier werden eine Fehler behoben, die dazu führen könnten dass wir es sehr schwer haben auf die neue Infrastruktur umzuschalten. Je mehr Knoten also im Vorfeld auf dem aktuellen Stand sind, umso mehr helft ihr uns damit.
+Hier werden einige Fehler behoben, die dazu führen könnten dass wir es sehr schwer haben auf die neue Infrastruktur umzuschalten. Je mehr Knoten also im Vorfeld auf dem aktuellen Stand sind, umso mehr helft ihr uns damit.
 
 Downloads:
 
