@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bitte Firmware Rollout auf v2018.1 erfolgreich. Bitte manuell aktualisieren"
+title:  "Firmware Rollout auf v2018.1 erfolgreich. Bitte manuell aktualisieren"
 date:   2019-03-29 15:00:00
 categories: freifunkmuc
 ---
