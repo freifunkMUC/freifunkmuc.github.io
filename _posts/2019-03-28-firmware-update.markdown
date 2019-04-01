@@ -22,4 +22,4 @@ Downloads:
 ***Hinweis an alle mit eigenen Firmwareversionen und/oder deaktiviertem Autoupdater, wir können nicht garantieren dass ihr auf die neue Hardware verbinden könnt. Bitte schaltet den Autoupdater auf experimental oder aktualisiert manuell!***
 
 //***UPDATE***:
-Der Key ist gestern für uns überraschend aufgetaucht. Näheres [hier](/freifunkmuc/2019/03/29/release-firmware-v2019.1-stable/).
+Der Key ist gestern für uns überraschend aufgetaucht. Näheres [hier](/freifunkmuc/2019/03/29/release-firmware-v2018.1-stable/).
