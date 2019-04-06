@@ -15,15 +15,15 @@ Das hat folgendene Gründe:
 - Wir möchten demnächst damit anfangen Änderungen zu testen die unter Umständen alles kaputt machen aber wir möchten keine 270 Knoten notfalls von Hand anfassen (oder darauf vertrauen, das ihr das schon irgendwie macht).
 
 Deswegen nun die 3-teilung. Die Branches werden wie folgt lauten:
-- `experimental`
+1. `experimental`
   - Für alle "Entwickler" oder Personen, die bereit sind ihren Knoten unter Umständen selbst zu reparieren.
   - Wir werden davon ausgehen (müssen), dass alle die diesen Branch benutzen über unseren [Chat](https://chat.ffmuc.net/freifunk/channels/firmware) erreichbar sind.
   - Wir *hoffen*. dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
-- `testing`
+2. `testing`
   - Hier werden wir in Zukunft das Rollout einer stabilen Version testen.
   - Neueste Features wird es zuerst hier geben.
   - Wir *glauben*, dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
-- `stable`
+3. `stable`
   - Alle hier veröffentlichten Builds wurden über `experimental` und `testing` getestet. In dem Zug sind uns keine Fehler aufgefallen, die wir beheben müssten.
   - Wir *sind davon überzeugt*, dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
 
