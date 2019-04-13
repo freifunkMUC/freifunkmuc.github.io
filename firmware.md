@@ -20,7 +20,7 @@ Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
 ## Passende Firmware herunterladen
 
-Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.1**) herunterladen.
+Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.2**) herunterladen.
 
 Mit Auswahlboxen suchst du deinen unterstützten Router aus. Die technischen Details zu den jeweiligen Modellen findest du unter [wiki.freifunk.net]
 [hardware].
