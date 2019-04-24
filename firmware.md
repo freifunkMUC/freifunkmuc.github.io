@@ -3,6 +3,11 @@ layout: page
 title: Firmware herunterladen
 permalink: /firmware/
 ---
+## ---Seite wird momentan (April/Mai 2019) wg. neuer Firmware überarbeitet--   
+Kurzfassung: Freifunk Darmstadt hat eine sehr gute Übersicht der unterstützen Hardware, die dort unterstützten Router gelten größtenteils auch für Freifunk München. 
+
+Die aktuelle Firmware gibts hier: [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.2**) 
+
 
 ## Vor dem Kauf
 
@@ -14,7 +19,7 @@ Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Route
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
-Aktuell bevorzugen wir wegen des guten Preis-Leistungsverhältnises den TP-Link TL-WR841N (ab ca. 16 Euro).
+
 
 Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
