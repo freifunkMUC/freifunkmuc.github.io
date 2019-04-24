@@ -9,9 +9,11 @@ Kurzfassung: Freifunk Darmstadt hat eine sehr gute Übersicht der unterstützen 
 Die aktuelle Firmware für München und Umland gibts hier: [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.2**) 
 
 
+
 ## Vor dem Kauf
 
 Wir unterstützen aktuell verschiedene Routermodelle. Am Besten siehst Du vor dem Kauf nach welchen Router-Typ und Hardware-Version wir unterstüzten. Oft bringen Hersteller neue Hardware-Versionen eines Routers auf den Markt, für diese können wir erst oft nach einiger Zeit oder garnicht passende Firmware anbieten. Es kann daher sinnvoll sein gebrauchte Router (die wahrscheinlich eine ältere Hardware-Version sind) oder Router bei einem Treffen zu kaufen.
+
 
 ## Router-Daten herausfinden
 
