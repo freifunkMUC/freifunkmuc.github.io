@@ -27,6 +27,9 @@ Ein bekanntes Problem ist im Moment, dass Mesh-Links in den neuen Segmenten nich
 
 Für bestehende Knoten ändert die neue Firmware nichts. Ein Knoten muss absichtlich auf ein neues Segment konfiguriert werden um die neuen Features zu testen.
 
+Und so sieht die neue Hardware hinter Freifunk aus:
+
+![New Servers](/assets/new_servers.png)
 
 Viele Grüße und viel Spaß beim Testen,
 euer Freifunk München Team
