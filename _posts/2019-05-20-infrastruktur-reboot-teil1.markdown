@@ -19,6 +19,8 @@ Ihr koennt die neuen Segmente bequem im Setup des Knotens auswaehlen:
 
 ![Segmente Auswahl](/assets/new_segments.png)
 
+Eine Anleitung wie man das Segment per SSH wechselt findet ihr im [Wiki](https://ffmuc.net/wiki/p/Routerkonfiguration_via_SSH#site.conf.2FSegment_.C3.A4ndern)
+
 Die Segmentierung wurde vor Allem wegen dem viel zu hohen Management Traffic angegangen. Welche signifikante Änderung im Management Traffic diese Segmentierung hat, seht ihr im folgenden Screenshot.
 
 ![Node Graph](/assets/nodetraffic.png)
