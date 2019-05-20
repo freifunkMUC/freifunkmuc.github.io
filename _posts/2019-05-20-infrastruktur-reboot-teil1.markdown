@@ -11,7 +11,7 @@ Dazu wurde eine neue [Firmware](https://firmware.ffmuc.net) gebaut, welche aktue
 Folgende Aenderungen erwarten euch:
 
 - [Mehr Segmente](http://umap.openstreetmap.fr/en/map/ffmuc-sites_319166#9/47.9421/10.6128) zur besseren Verteilung der Knoten (muc_cty, muc_nord, muc_ost, muc_sued, muc_west, uml_nord, uml_ost, uml_sued, uml_west und welt).
-- Die neuen Segmente besitzen jeweils eine eigene SSID (muenchen.freifunk.net/Segmentname), um schnelleres Einwählen bei einem Segmentwechsel zu ermöglichen. Das bedeutet aber auch, ihr müsst euch neu mit eurem Knoten verbinden.
+- Die neuen Segmente besitzen jeweils eine eigene SSID (muenchen.freifunk.net/segment), um schnelleres Einwählen bei einem Segmentwechsel zu ermöglichen. Das bedeutet aber auch, ihr müsst euch neu mit eurem Knoten verbinden.
 - Außerdem setzen wir nun VXLAN zum Meshing ein, was dazu führt, dass versehntliches Bridgen und Loops bauen zwischen den Segmenten nicht mehr passiert.
 - Neue virtualisierte Gateways, die neuen Gateways lauten gw01.ext.ffmuc.net und gw02.ext.ffmuc.net.
 
@@ -19,7 +19,7 @@ Ihr koennt die neuen Segmente bequem im Setup des Knotens auswaehlen:
 
 ![Segmente Auswahl](/assets/new_segments.png)
 
-Eine Anleitung wie man das Segment per SSH wechselt findet ihr im [Wiki](https://ffmuc.net/wiki/p/Routerkonfiguration_via_SSH#site.conf.2FSegment_.C3.A4ndern)
+Eine Anleitung wie man das Segment per SSH wechselt findet ihr im [Wiki](https://ffmuc.net/wiki/p/Routerkonfiguration_via_SSH#site.conf.2FSegment_.C3.A4ndern).
 
 Die Segmentierung wurde vor Allem wegen dem viel zu hohen Management Traffic angegangen. Welche signifikante Änderung im Management Traffic diese Segmentierung hat, seht ihr im folgenden Screenshot.
 
