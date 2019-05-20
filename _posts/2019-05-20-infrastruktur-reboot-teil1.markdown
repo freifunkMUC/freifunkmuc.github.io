@@ -15,6 +15,10 @@ Folgende Aenderungen erwarten euch:
 - Außerdem setzen wir nun VXLAN zum Meshing ein, was dazu führt, dass versehntliches Bridgen und Loops bauen zwischen den Segmenten nicht mehr passiert.
 - Neue virtualisierte Gateways, die neuen Gateways lauten gw01.ext.ffmuc.net und gw02.ext.ffmuc.net.
 
+Ihr koennt die neuen Segmente bequem im Setup des Knotens auswaehlen:
+
+![Segmente Auswahl](/assets/new_segments.png)
+
 Die Segmentierung wurde vor Allem wegen dem viel zu hohen Management Traffic angegangen. Welche signifikante Änderung im Management Traffic diese Segmentierung hat, seht ihr im folgenden Screenshot.
 
 ![Node Graph](/assets/nodetraffic.png)
