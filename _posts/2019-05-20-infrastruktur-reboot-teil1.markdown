@@ -21,15 +21,19 @@ Die Segmentierung wurde vor Allem wegen dem viel zu hohen Management Traffic ang
 
 Alles in Allem wäre es sehr schön, wenn ihr uns helft, die neuen Gateways zu testen und möglichst viel Feedback im [Chat](https://chat.ffmuc.net) oder den anderen [Kontaktmoeglichkeiten](https://ffmuc.net/kontakt) gebt.
 
-Bitte beachtet, sobald euer Knoten in eines der neuen Segmente wechselt wird er einmal als offline (alte Infrastruktur) und einmal als online (neue Infrastruktur) auf der Karte angezeigt.
+**_Bitte beachtet_**, sobald euer Knoten in eines der neuen Segmente wechselt wird er einmal als offline (alte Infrastruktur) und einmal als online (neue Infrastruktur) auf der Karte angezeigt.
 
-Ein bekanntes Problem ist im Moment, dass Mesh-Links in den neuen Segmenten nicht richtig dargestellt werden. Die Funktion des Meshes ist aber nicht eingeschränkt.
+Bekannte Probleme:
 
-Für bestehende Knoten ändert die neue Firmware nichts. Ein Knoten muss absichtlich auf ein neues Segment konfiguriert werden um die neuen Features zu testen.
+- Mesh-Links werden nicht auf der Karte angezeigt
+- Mesh-Links per LAN werden nicht auf der Knotenseite angezeigt
+
+**Für bestehende Knoten ändert die neue Firmware nichts. Ein Knoten muss absichtlich auf ein neues Segment konfiguriert werden um die neuen Features zu testen.**
 
 Und so sieht die neue Hardware hinter Freifunk aus:
 
 ![New Servers](/assets/new_servers.png)
 
 Viele Grüße und viel Spaß beim Testen,
-euer Freifunk München Team
+
+Euer Freifunk München Team
