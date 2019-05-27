@@ -18,7 +18,7 @@ Einen Härtetest hat die Firmware auch gleich hinter sich gebracht und den [Cors
 Nachdem sich die Firmware bewehrt hat, werden wir diese nun in `testing` überführen um noch mehr Nutzer auf diese Version zu bekommen. 
 
 Allerdings gibt es einen kleinen Haken: 
-Durch die Anpassungen in der Firmware welche dafür sorgt, dass der neue Meshing-Algorithmus korrekt auf der Karte dargestellt wird, kommt es nun dazu, dass "alte" Mesh-Verbindungen auf der Karte nicht mehr richtig dargestellt werden. 
+Durch die Anpassungen in der Firmware welche dafür sorgt, dass der neue Meshing-Algorithmus korrekt auf der Karte dargestellt wird, kommt es nun dazu, dass "alte" kabelgebundene Mesh-Verbindungen auf der Karte nicht mehr richtig dargestellt werden. 
 
 Dies betrifft aber _NUR_ die Darstellung auf der Karte und _nicht_ die Funktionalität. Dies betrifft _ALLE_ Nutzer in den _ALTEN_ Segmenten die die neue Firmware bekommen. 
 
