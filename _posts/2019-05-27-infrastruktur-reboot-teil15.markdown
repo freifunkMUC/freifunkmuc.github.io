@@ -28,12 +28,12 @@ Wir wissen, dass das für einige Knotenbetreiber unangenehm sein wird, nachdem d
 
 Wir hoffen, dass es nicht mehr lange dauert bis wir die neuen Segmente auf alle Knoten ausrollen können. Die Auswirkungen werden also hoffentlich nur zeitlich begrenzt bemerkbar sein.
 
-# Updaten per SSH
+## Updaten per SSH
 ```
 autoupdater -b testing
 ```
 
-# Umstellen per SSH
+## Umstellen per SSH
 Segmente:
 
 - ffmuc_muc_cty
