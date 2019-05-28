@@ -28,6 +28,32 @@ Wir wissen, dass das für einige Knotenbetreiber unangenehm sein wird, nachdem d
 
 Wir hoffen, dass es nicht mehr lange dauert bis wir die neuen Segmente auf alle Knoten ausrollen können. Die Auswirkungen werden also hoffentlich nur zeitlich begrenzt bemerkbar sein.
 
+# Updaten per SSH
+```
+autoupdater -b testing
+```
+
+# Umstellen per SSH
+Segmente:
+
+- ffmuc_muc_cty
+- ffmuc_muc_nord
+- ffmuc_muc_ost
+- ffmuc_muc_sued
+- ffmuc_muc_west
+- ffmuc_uml_nord
+- ffmuc_uml_ost
+- ffmuc_uml_sued
+- ffmuc_uml_west
+- ffmuc_welt
+
+```
+uci set gluon.core.domain='[Segmentname]'
+uci commit gluon
+gluon-reconfigure
+reboot
+```
+
 Viele Grüße,
 
 Euer Freifunk München Team
