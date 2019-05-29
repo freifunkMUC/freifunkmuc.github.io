@@ -54,6 +54,8 @@ gluon-reconfigure
 reboot
 ```
 
+**Bitte beachtet, nachdem reboot ändert sich die die IP Addresse (findet ihr dann auf der Karte) und die SSID des Knotens entsprechend dem Segment!**
+
 Viele Grüße,
 
 Euer Freifunk München Team
