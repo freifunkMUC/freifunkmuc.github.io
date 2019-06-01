@@ -6,8 +6,6 @@ categories: freifunkmuc
 ---
 # Infrastruktur Reboot Teil 1.75
 
-Infrastruktur Reboot Teil 1.75
-
 In unserer [letzten Mitteilung](https://ffmuc.net/freifunkmuc/2019/05/27/infrastruktur-reboot-teil15/) haben wir euch gebeten auf euren Knoten testweise schon die neuen Segmente einzurichten.
 Bis heute sind auch schon ca. 200 Knoten (von ca. 1500) in ein solches Segment umgezogen.
 
