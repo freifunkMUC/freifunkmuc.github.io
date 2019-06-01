@@ -21,9 +21,9 @@ Diese Segmente werden durch den Domain-Director automatisch den Knoten mitgeteil
 Wir überwachen bereits mit [Grafana](https://stats.ffmuc.net/d/vhI10KgZk/debugging-dashboard?orgId=1&refresh=1m&fullscreen&panelId=13), in welche Segmente die Knoten wechseln wollen. 
 Falls es hier zu einem Ungleichgewicht kommt und ein Segment wesentlich zu viele Knoten abbekommen würde, können wir also rechtzeitig eingreifen und den Domain-Director anpassen.
 
-*Um die Funktionalität der neuen Firmware zu testen, werden wir heute um 13:00 Uhr die ersten Knoten automatisiert in die neuen Segmente umziehen.*
+**Um die Funktionalität der neuen Firmware zu testen, werden wir heute um 13:00 Uhr die ersten Knoten automatisiert in die neuen Segmente umziehen.**
 
-Dies betrifft *NUR* Knoten welche als `autoupdater` `experimental` oder `testing` ausgewählt haben.
+Dies betrifft **NUR** Knoten welche als `autoupdater` `experimental` oder `testing` ausgewählt haben.
 
 In den Knoteneinstellungen hat sich damit auch die Segmentauswahl geändert, diese sieht nun so aus:
 
