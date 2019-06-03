@@ -7,6 +7,8 @@ url: "https://ffmuc.net/"
 twitter_username: FreifunkMUC
 github_username:  FreifunkMUC
 
+gems:
+  - jekyll-feed
 # Build settings
 markdown: kramdown
 permalink: pretty
