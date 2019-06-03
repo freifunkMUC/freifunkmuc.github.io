@@ -8,6 +8,8 @@ categories: freifunkmuc
 
 Nach den ganzen [Neuigkeiten](https://ffmuc.net/freifunkmuc/2019/05/20/infrastruktur-reboot-teil1/) der [letzten](https://ffmuc.net/freifunkmuc/2019/05/27/infrastruktur-reboot-teil15/) [Wochen](https://ffmuc.net/freifunkmuc/2019/06/01/infrastruktur-reboot-teil175/), ist es nun so weit, wir stellen das komplette Netz auf die neue Hardware und damit auf die neuen Segmente um. 
 
+Dafür wurden schon die entsprechende Firmware [v2019.0.3](https://firmware.ffmuc.net/stable) auf alle Knoten verteilt.
+
 Die ersten 400 Knoten sind bereits migriert! Danke an all die fleißigen Helfer und erste Tests in der `experimental` und `testing` Firmware.
 
 Und zwar wird das, wenn nichts dazwischen kommt am **Freitag den 07.06.2019 um 12:00Uhr** passieren.
