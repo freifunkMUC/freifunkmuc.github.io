@@ -20,7 +20,7 @@ Nun fragt ihr euch sicher, warum das so plötzlich passiert. Nun der Grund ist e
 
 **Der genaue Zeitplan sieht wie folgt aus:**
 
-* Montag 03.06.2019 circa 20:00 - Umstellung eines ersten Segmentes um den Switchvorgang noch einmal zu verifizieren
+* Montag 03.06.2019 circa 20:00 - Umstellung eines ersten Segmentes (muc_cty) um den Switchvorgang noch einmal zu verifizieren
 * Freitag 07.06.2019 12:00 - Alle Knoten wechseln in die neuen Segmente und damit auf die neue Hardware
 
 **Und hier noch einmal eine Zusammenfassung aller Änderungen die euch erwarten:**
