@@ -62,4 +62,6 @@ Und wenn ihr euch noch mehr für die Hintergründe der ganzen Umbauten interessi
 
 Und damit wünschen wir euch viel Spaß auf unserer neuen Infrastruktur!
 
+Bei Fragen, Kritik und/oder Anmerkungen bitte im [Chat](https://chat.ffmuc.net) oder einer anderen [Kontaktmöglichkeit](https://ffmuc.net/kontakt) melden.
+
 Euer Freifunk München Team
