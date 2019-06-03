@@ -10,7 +10,9 @@ Nach den ganzen [Neuigkeiten](https://ffmuc.net/freifunkmuc/2019/05/20/infrastru
 
 Dafür wurden schon die entsprechende Firmware [v2019.0.3](https://firmware.ffmuc.net/stable) auf alle Knoten verteilt.
 
-Die ersten 400 Knoten sind bereits migriert! Danke an all die fleißigen Helfer und erste Tests in der `experimental` und `testing` Firmware.
+Die ersten 400 Knoten sind bereits migriert! Danke an all die fleißigen Helfer! 
+
+Außerdem machten wir erste Tests, der automatischen Migration in der `experimental` und `testing` Firmware.
 
 Und zwar wird das, wenn nichts dazwischen kommt am **Freitag den 07.06.2019 um 12:00Uhr** passieren.
 
