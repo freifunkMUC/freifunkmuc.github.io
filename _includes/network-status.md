@@ -2,7 +2,7 @@
 <a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
 <br>
 <br><u><b>Aktuell:</b></u>
-<br>normaler Betrieb
+<br>Mailserver offline. u.A. Tickethandling, Registrierungen im Chat sind nicht möglich
 <br>
 <br><u><b>History:</b></u>
 <br><b>27.03.2019 17:00-20:00</b> Das gesamte Netz ist aufgrund eines geplanten Serverumzugs offline

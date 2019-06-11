@@ -6,7 +6,7 @@ permalink: /firmware/
 ## ---Seite wird momentan (April/Mai 2019) wg. neuer Firmware überarbeitet--   
 Kurzfassung: Freifunk Darmstadt hat eine sehr gute Übersicht der unterstützen Hardware, die dort unterstützten Router gelten größtenteils auch für Freifunk München. 
 
-Die aktuelle Firmware für München und Umland gibts hier: [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.2**) 
+Die aktuelle Firmware für München und Umland gibts hier: [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.4**)
 
 
 ## Vor dem Kauf
@@ -394,7 +394,7 @@ Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sin
 
 ## Changelog
 
-Das aktuelle Changelog ist zu jeder Version in [unserem Github-Repository](https://github.com/freifunkMUC/site-ffm/blob/v2018.1/CHANGELOG.md) einsehbar.
+Das aktuelle Changelog ist zu jeder Version in [unserem Github-Repository](https://github.com/freifunkMUC/site-ffm/blob/stable/CHANGELOG.md) einsehbar.
 Hier findet ihr eine Erklärung zu den jeweiligen Änderungen der Firmware Versionen.
 
 [hardware]: https://wiki.freifunk.net/Kategorie:Hardware
