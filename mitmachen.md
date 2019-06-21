@@ -43,8 +43,9 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * NETGEAR AC1200 (R6120) (ca. 37&nbsp;€)
-  * NETGEAR AC1200 (EX6150v2) (ca. 55&nbsp;€)
+  * GL.INET GL-AR150 (ca. 2037&nbsp;€)
+  * NETGEAR R6120 - AC1200 (ca. 37&nbsp;€)
+  * NETGEAR EX6150v2 - AC1200 (ca. 55&nbsp;€)
   * Ubiquiti UAP-AC-LITE, geeignet für Restaurants (ca. 80&nbsp;€)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
@@ -96,9 +97,9 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 #### So kannst du mitmachen
 
 * Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * Ubiquiti NanoStation M5 \\
+  * Ubiquiti Litebeam AC Gen2 \\
     (bis ca. 5&nbsp;km)
-  * Ubiquiti NanoBridge M5 \\
+  * Ubiquiti Powerbeam \\
     (bis ca. 10&nbsp;km)
 * Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
 * Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
