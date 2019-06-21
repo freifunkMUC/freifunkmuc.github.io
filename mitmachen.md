@@ -43,9 +43,9 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * TP-Link TL-WR841N, bis Version 11.0. Ihr könnt bei uns nachfragen, wie ihr an alte Geräte kommt. (ca. 16&nbsp;€)
-  * TL-WDR4300 (ca. 45&nbsp;€)
-  * Ubiquiti Enterprise AP UAP, geeignet für Restaurants (ca. 60&nbsp;€)
+  * NETGEAR AC1200 (R6120) (ca. 37&nbsp;€)
+  * NETGEAR AC1200 (EX6150v2) (ca. 55&nbsp;€)
+  * Ubiquiti UAP-AC-LITE, geeignet für Restaurants (ca. 80&nbsp;€)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
@@ -70,8 +70,8 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * TP-Link CPE210
+* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  * Ubiquiti UAP-AC-Mesh
   * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Montiere den Router an einem geeigneten Ort.
@@ -110,7 +110,7 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 ## Wo kann ich meine Fragen stellen?
 
-Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten scheue dich nicht uns zu [kontaktieren][kontakt].
+Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten schaue gerne im [Chat](https://chat.ffmuc.net) vorbei und scheue dich nicht uns zu [kontaktieren][kontakt].
 
 Die Anleitung basiert auf [https://berlin.freifunk.net/participate/overview/][berlin] \\
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
