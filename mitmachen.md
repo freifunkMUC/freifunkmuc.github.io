@@ -43,7 +43,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * GL.INET GL-AR150 (ca. 2037&nbsp;€)
+  * GL.INET GL-AR150 (ca. 20&nbsp;€)
   * NETGEAR R6120 - AC1200 (ca. 37&nbsp;€)
   * NETGEAR EX6150v2 - AC1200 (ca. 55&nbsp;€)
   * Ubiquiti UAP-AC-LITE, geeignet für Restaurants (ca. 80&nbsp;€)
