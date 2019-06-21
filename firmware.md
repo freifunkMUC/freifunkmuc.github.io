@@ -3,11 +3,6 @@ layout: page
 title: Firmware herunterladen
 permalink: /firmware/
 ---
-## ---Seite wird momentan (April/Mai 2019) wg. neuer Firmware überarbeitet--   
-Kurzfassung: Freifunk Darmstadt hat eine sehr gute Übersicht der unterstützen Hardware, die dort unterstützten Router gelten größtenteils auch für Freifunk München. 
-
-Die aktuelle Firmware für München und Umland gibts hier: [Freifunk München Firmware](https://firmware.ffmuc.net/) (**aktuelle Version: v2019.0.4**)
-
 
 ## Vor dem Kauf
 
@@ -33,6 +28,9 @@ Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.f
 ## Segmente
 
 Für eine höhere Geschwindigkeit und bessere Nutzbarkeit des Netzes ist es in mehrere Segmente unterteilt. Beim Einrichten wählst du deinen Standort aus und wirst somit automatisch in ein Segment eingeteilt. Eine manuelle Auswahl des Segmentes ist allerdings auch möglich
+
+Aktuell gibt es folgende Segmente
+![Segmente](/assets/ipv6.png)
 
 ## Changelog
 
