@@ -5,7 +5,7 @@ date:   2019-06-07 22:00:00
 categories: freifunkmuc
 ---
 
-Nach den ganzen [Neuigkeiten](https://ffmuc.net/freifunkmuc/2019/05/20/infrastruktur-reboot-teil1/) [der](https://ffmuc.net/freifunkmuc/2019/05/27/infrastruktur-reboot-teil15/) [letzten](https://ffmuc.net/freifunkmuc/2019/06/01/infrastruktur-reboot-teil175/) [Wochen](https://ffmuc.net/freifunkmuc/2019/06/01/infrastruktur-reboot-teil2/), haben wir es endlich hinter uns:
+Nach den ganzen [Neuigkeiten](https://ffmuc.net/freifunkmuc/2019/05/20/infrastruktur-reboot-teil1/) [der](https://ffmuc.net/freifunkmuc/2019/05/27/infrastruktur-reboot-teil15/) [letzten](https://ffmuc.net/freifunkmuc/2019/06/01/infrastruktur-reboot-teil175/) [Wochen](https://ffmuc.net/freifunkmuc/2019/06/03/infrastruktur-reboot-teil2/), haben wir es endlich hinter uns:
 
 **Alle Router** (bis auf ein paar widerspenstige) **sind ohne Probleme auf die neuen Segmente umgezogen.**
 
