@@ -24,9 +24,9 @@ Von der technischen Seite her bilden alle Freifunkgeräte ein Mesh-Netzwerk. Das
 Du als UnterstützerIn der Community stellst also einen Knoten bei Dir zu Hause auf und bildest ein Teil dieses Netzwerks. Diese WLAN-Router verwenden eine spezielle Software (Firmware), die für das Freifunk Projekt entwickelt wurde und frei und offen im Internet zur Verfügung steht.
 
 
-## VPN Umleitung ins Ausland
+## Störerhaftung
 
-Du kannst über Deinen WLAN-Router auch einen Teil deiner Internetverbindung dem Freifunknetz zur Verfügung stellen. Damit Du keine Probleme mit der Störerhaftung bekommst, betreiben wir mehrere zentrale Zugangspunkte für München (Gateway), die den Internetverkehr ins Ausland leiten. So bleibt auch Dein Heimnetzwerk sicher und unberührt! Und wie kommst Du zu diesem Gateway? Das ist alles in der Software bereits für Dich eingestellt, Du brauchst Dich um nichts mehr zu kümmern!
+Du kannst über Deinen WLAN-Router auch einen Teil deiner Internetverbindung dem Freifunknetz zur Verfügung stellen. Damit Du keine Probleme mit der Störerhaftung bekommst, betreiben wir mehrere zentrale Zugangspunkte für München (Gateway), die den Internetverkehr ausleiten. So bleibt auch Dein Heimnetzwerk sicher und unberührt! Und wie kommst Du zu diesem Gateway? Das ist alles in der Software bereits für Dich eingestellt, Du brauchst Dich um nichts mehr zu kümmern!
 
 ## Freifunk Prinzipien
 
