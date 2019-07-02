@@ -11,7 +11,9 @@ Natürlich würden wir um es möglichst einfach für die Benutzer zu halten gern
 Denn die Endgeräte gehen bei einer einheitlichen SSID davon aus, dass es sich um ein und dasselbe Netz handelt. Dies ist aber nicht der Fall, da alleine das Freifunk München Netz in mehrere sogenannte [Segmente](http://umap.openstreetmap.fr/en/map/ffmuc-sites_319166#8/46.995/12.849) unterteilt ist. Auch diese Einteilung, die Einteilung in Segmente ist eine Entscheidung und derzeit die technisch sinnvollste Lösung für einen möglichst performanten Betrieb gegeben die Größe unseres Gesamtnetzes
 
 Jedes dieser Segmente stellt ein eigenes Netz mit eigenen IP-Adressen dar. Die Netze können zwar zwischen einander kommunizieren, sind aber für sich genommen eine abgeschlossene Einheit mit
-eigenem DHCP Server, eigenem Gateway etc.. Wenn die Geräte also zwischen den Segmenten hin- und herwechseln würde mit einheitlicher SSID zum Beispiel folgendes passieren:
+eigenem DHCP Server, eigenem Gateway etc.. 
+
+Wenn die Geräte also zwischen den Segmenten hin- und herwechseln würde mit einheitlicher SSID zum Beispiel folgendes passieren:
 
 * Das Gerät verbindet sich mit Knoten A im Segment "Umland Nord" und bekommt eine IP-Adresse aus diesem Segment.
 * Wegen schlechtem Empfang zu Knoten A, wechselt das Gerät nun zu Knoten B im Segment "München Nord".
