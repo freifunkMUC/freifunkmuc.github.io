@@ -50,6 +50,8 @@ Weitere Fragen die ihr euch eventuell stellt:
 
 Wir hoffen das beantwortet eure Fragen :). 
 
+Also beim nächsten Mal wenn sich euer Endgerät nicht automatisch mit dem Wifi verbindet, einfach mal nach Wlans suchen, einloggen und los surfen!
+
 Falls ihr noch mehr wissen wollt schaut gerne im [Chat](https://chat.ffmuc.net) vorbei und fragt uns.
 
 Euer Freifunk München Team
