@@ -23,7 +23,7 @@ Diese ganze Abfolge wäre bei einer anderen SSID nicht passiert, da das Endgerä
 
 Deswegen haben wir uns entschieden entsprechend dem Segment auch die SSID zu benennen.
 
-Die Liste der SSIDs sieht so aus:
+Unsere aktuellen SSIDs lauten:
 
 * muenchen.freifunk.net/muc_cty
 * muenchen.freifunk.net/muc_nord
@@ -37,6 +37,10 @@ Die Liste der SSIDs sieht so aus:
 * muenchen.freifunk.net/gauting
 * muenchen.freifunk.net/freising
 * muenchen.freifunk.net/welt
+
+Nun fragt ihr euch vielleicht, warum eigentlich die unterschiedlichen Segmente? Näheres dazu haben wir bereits in einem anderen [Post](https://ffmuc.net/freifunkmuc/2019/05/20/infrastruktur-reboot-teil1/) verfasst.
+
+Eine weitere Frage die ihr euch eventuell stellt, ist vielleicht "Warum wird die Leasetime dann nicht drastisch reduziert?". Die Antwort darauf ist leider auch wieder, dass Endgeräte gerne Dinge "annehmen" und manche Endgeräte bzw. Betriebssysteme ignorieren Leasetimes unter 10 Minuten und setzen sie auf 60 Minuten.
 
 Wir hoffen das beantwortet eure Fragen :). Falls ihr noch mehr wissen wollt schaut gerne im [Chat](https://chat.ffmuc.net) vorbei und fragt uns.
 
