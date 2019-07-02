@@ -45,6 +45,8 @@ Weitere Fragen die ihr euch eventuell stellt:
     * Näheres dazu haben wir bereits in einem anderen [Post](https://ffmuc.net/freifunkmuc/2019/05/20/infrastruktur-reboot-teil1/) verfasst.
 * Warum wird die Leasetime dann nicht drastisch reduziert? 
     * Die Antwort darauf ist leider auch wieder, dass Endgeräte gerne Dinge "annehmen" und manche Endgeräte bzw. Betriebssysteme ignorieren Leasetimes unter 10 Minuten und setzen sie auf 60 Minuten.
+* Aber die Telekom/Vodafone etc bekommen es doch auch hin!
+    * Der Infrastruktur Aufwand dahinter ist aber auch ein deutlich Anderer, außerdem handelt es sich dort um ein Unternehmen und nicht um mehrere unabhängige Communities.
 
 Wir hoffen das beantwortet eure Fragen :). Falls ihr noch mehr wissen wollt schaut gerne im [Chat](https://chat.ffmuc.net) vorbei und fragt uns.
 
