@@ -6,7 +6,7 @@ categories: freifunkmuc
 ---
 Nachdem uns nun öfter im [Chat](https://chat.ffmuc.net) oder per [Twitter](https://twitter.com/FreifunkMUC) die Frage gestellt wurde, warum wir keine einheitliche SSID wie "Freifunk" benutzen, hier die Erklärung :).
 
-Natürlich würden wir um es möglichst einfach für die Benutzer zu halten gerne die einheitliche SSID "Freifunk" benutzen. Mit dem aktuell gewaehlten und verfolgten Netzbetriebskonzept ist das aber nicht sinnvoll vereinbar
+Natürlich würden wir um es möglichst einfach für die Benutzer zu halten gerne die einheitliche SSID "Freifunk" benutzen. Mit dem aktuell gewählten und verfolgten Netzbetriebskonzept ist das aber nicht sinnvoll vereinbar.
 
 Denn die Endgeräte gehen bei einer einheitlichen SSID davon aus, dass es sich um ein und dasselbe Netz handelt. Dies ist aber nicht der Fall, da alleine das Freifunk München Netz in mehrere sogenannte [Segmente](http://umap.openstreetmap.fr/en/map/ffmuc-sites_319166#8/46.995/12.849) unterteilt ist. Jedes dieser Segmente stellt ein eigenes Netz mit eigenen IP-Adressen dar. Die Netze können zwar zwischen einander kommunizieren, sind aber für sich genommen eine abgeschlossene Einheit mit
 eigenem DHCP Server, eigenem Gateway etc.. Wenn die Geräte also zwischen den Segmenten hin- und herwechseln würde mit einheitlicher SSID zum Beispiel folgendes passieren:
