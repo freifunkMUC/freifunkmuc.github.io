@@ -49,7 +49,7 @@ EigentümerInnen steht es frei, die Richtlinie selber zu formulieren, so lange d
 
 5. Lokale Zusätze für Freifunk München \\
 Das Betreiben von Routern in Verbindung mit der Freifunk-München Netzwerkinfrastruktur ist nur gestattet, solange die folgenden zwei Bedingungen erfüllt sind:
- * die SSID des Client-Netzes auf "muenchen.freifunk.net" lautet
+ * die SSID des Client-Netzes auf "muenchen.freifunk.net/(Segmentname)" lautet
  * die Mesh-BSSID/SSID denen, der in den offiziellen Firmware-Images veröffentlichten, entspricht
 
 ### Begriffserklärungen
