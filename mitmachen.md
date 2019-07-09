@@ -46,7 +46,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
   * GL.INET GL-AR150 (ca. 20&nbsp;€)
   * NETGEAR R6120 - AC1200 (ca. 37&nbsp;€)
   * NETGEAR EX6150v2 - AC1200 (ca. 55&nbsp;€)
-  * Ubiquiti UAP-AC-LITE, geeignet für Restaurants (ca. 80&nbsp;€)
+  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
