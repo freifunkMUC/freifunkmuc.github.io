@@ -25,7 +25,7 @@ Mittleres Preissegment:
 * Netgear EX6150V2
 * AVM FRITZ!Box 4020
 
-Oberes Preissgement:
+Oberes Preissegment:
 
 * Gl.iNet GL-B1300
 * AVM FRITZ!Box 4040
