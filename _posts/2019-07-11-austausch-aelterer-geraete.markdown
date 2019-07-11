@@ -17,22 +17,22 @@ Deswegen wollen wir euch bitten, so bald wie möglich auf neuere Geräte umzuste
 
 Kostengünstige Geräte:
 
-* Netgear R6120
-* Gl.iNet AR150
-* Gl.iNet MT300
-* Gl.iNet AR300
+* Gl.iNet MT300 (ca. 25€)
+* Gl.iNet AR150 (ca. 25€)
+* Gl.iNet AR300 (ca. 30€)
+* Netgear R6120 (ca. 40€)
 
 Mittleres Preissegment:
 
-* Netgear EX6150V2
-* AVM FRITZ!Box 4020
+* AVM FRITZ!Box 4020 (ca. 40€)
+* Netgear EX6150V2 (ca. 50€)
 
 Oberes Preissegment:
 
-* Gl.iNet GL-B1300
-* AVM FRITZ!Box 4040
-* Ubiquiti Unifi AC Lite
-* Ubiquiti Unifi AC Mesh
+* AVM FRITZ!Box 4040 (ca. 70€)
+* Ubiquiti Unifi AC Lite (ca. 75€)
+* Gl.iNet GL-B1300 (ca. 80€)
+* Ubiquiti Unifi AC Mesh (ca. 85€)
 
 Auch schauen wir, dass wir in unserem [Marktplatz](https://ffmuc.net/pad/p/Marktplatz) einige Geräte zur Aufrüstung zur Verfügung stellen können, hierfür achten wir immer wieder auf gute Angebote und stellen diese dann kostenneutral und fertig mit FFMUC Firmware bestückt zur Verfügung.
 
