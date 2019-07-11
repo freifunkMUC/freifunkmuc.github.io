@@ -11,6 +11,8 @@ Gerade zu wenig Arbeisspecher stellt ein großes Problem für die Stabilität da
 
 Aus diesem Grund wird es leider in naher Zukunft **keine** Sicherheitsupdates mehr für diese Geräte geben,  da schlicht die Firmware nicht mehr auf diese Geräte passt.
 
+Wir werden versuchen so lange wie **möglich** und **sinnvoll** noch Updates für die Geräte bereitzustellen, können jedoch nicht sagen wie lange dies der Fall sein wird.
+
 Deswegen wollen wir euch bitten, so bald wie möglich auf neuere Geräte umzustellen.
 
 Kostengünstige Geräte:
