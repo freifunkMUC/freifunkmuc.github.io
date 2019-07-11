@@ -13,12 +13,24 @@ Aus diesem Grund wird es leider in naher Zukunft **keine** Sicherheitsupdates me
 
 Deswegen wollen wir euch bitten, so bald wie möglich auf neuere Geräte umzustellen.
 
-Kostengünstige Geräte sind:
+Kostengünstige Geräte:
 
 * Netgear R6120
-* GL.Inet AR150
-* GL.Inet MT300
-* GL.Inet AR300
+* Gl.iNet AR150
+* Gl.iNet MT300
+* Gl.iNet AR300
+
+Mittleres Preissegment:
+
+* Netgear EX6150V2
+* AVM FRITZ!Box 4020
+
+Oberes Preissgement:
+
+* Gl.iNet GL-B1300
+* AVM FRITZ!Box 4040
+* Ubiquiti Unifi AC Lite
+* Ubiquiti Unifi AC Mesh
 
 Auch schauen wir, dass wir in unserem [Marktplatz](https://ffmuc.net/pad/p/Marktplatz) einige Geräte zur Aufrüstung zur Verfügung stellen können, hierfür achten wir immer wieder auf gute Angebote und stellen diese dann kostenneutral und fertig mit FFMUC Firmware bestückt zur Verfügung.
 
