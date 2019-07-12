@@ -9,7 +9,7 @@ Wie ihr vielleicht schon im [Chat](https://chat.ffmuc.net) mitbekommen habt, nä
 
 Gerade zu wenig Arbeisspecher stellt ein großes Problem für die Stabilität dar. Aber auch der Speicherplatz ist ein Problem, da OpenWRT (die Basis unserer Firmware) immer weiter wächst und diese Geräte nicht mehr genug Speicher für die Firmware besitzen.
 
-Aus diesem Grund wird es leider in naher Zukunft **keine** Sicherheitsupdates mehr für diese Geräte geben,  da schlicht die Firmware nicht mehr auf diese Geräte passt.
+Aus diesem Grund wird es leider in naher Zukunft **keine** Updates - auch keine Sicherheitsupdates mehr für diese Geräte geben,  da schlicht die Firmware nicht mehr auf diese Geräte passt.
 
 Wir werden versuchen so lange wie **möglich** und **sinnvoll** noch Updates für die Geräte bereitzustellen, können jedoch nicht sagen wie lange dies der Fall sein wird.
 
