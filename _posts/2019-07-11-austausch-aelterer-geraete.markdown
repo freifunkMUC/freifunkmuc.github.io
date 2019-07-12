@@ -7,9 +7,9 @@ categories: freifunkmuc
 
 Wie ihr vielleicht schon im [Chat](https://chat.ffmuc.net) mitbekommen habt, nähern sich manche Geräte ihrem Lebensende. Diese Geräte fallen unter anderem  immer wieder damit auf, dass sie gelegentlich neustarten, eine generelle schlechte Performance zeigen und zu wenig Speicherplatz und Arbeitsspeicher besitzen.
 
-Gerade zu wenig Arbeisspecher stellt ein großes Problem für die Stabilität dar. Aber auch der Speicherplatz ist ein Problem, da OpenWRT (die Basis unserer Firmware) immer weiter wächst und diese Geräte nicht mehr genug Speicher für die Firmware besitzen.
+Gerade zu wenig Arbeitsspeicher stellt ein großes Problem für die Stabilität dar. Aber auch der Speicherplatz ist ein Problem, da OpenWRT (die Basis unserer Firmware) immer weiter wächst und diese Geräte nicht mehr genug Speicher für die Firmware besitzen.
 
-Aus diesem Grund wird es leider in naher Zukunft **keine** Updates - auch keine Sicherheitsupdates mehr für diese Geräte geben,  da schlicht die Firmware nicht mehr auf diese Geräte passt.
+Aus diesem Grund wird es leider in naher Zukunft **keine** Updates - auch keine Sicherheitsupdates - mehr für diese Geräte geben.
 
 Wir werden versuchen so lange wie **möglich** und **sinnvoll** noch Updates für die Geräte bereitzustellen, können jedoch nicht sagen wie lange dies der Fall sein wird.
 
