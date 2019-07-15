@@ -48,7 +48,8 @@ Für Fragen und Feedback könnt ihr euch gerne mit uns in [Verbindung](https://f
   * N2
   * N5
 * D-Link
-  * Linksys
+  * DIR-615
+* Linksys
   * WRT160NL
 * TP-Link
   * TL-MR13U
