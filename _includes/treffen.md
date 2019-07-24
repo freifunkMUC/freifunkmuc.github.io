@@ -2,7 +2,7 @@
 
 Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 39](https://osm.org/go/0JAf0IVLh?node=2012031859)). 
 
-Aktuelle Infos zum Treffen im [ffmuc-chat](https://chat.ffmuc.net/freifunk/channels/00-freifunk-treffen)
+Aktuelle Infos zum Treffen im [ffmuc-chat](https://chat.ffmuc.net/freifunk/channels/00-freifunk-treffen) sowie im [Wiki](https://ffmuc.net/wiki/doku.php?id=treffen:start)
 
 <!-- Das nächste Treffen im **"404 page not found"** findet am **12. Juli 2018 um 19:00 Uhr** statt. Erkennungsmerkmal ist der Freifunkrouter auf dem Tisch.
 Das nächste Treffen im **muCCC** findet am **25. Juli 2018 um 20:00 Uhr** statt.
