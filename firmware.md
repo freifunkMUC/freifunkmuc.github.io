@@ -3,6 +3,7 @@ layout: page
 title: Firmware herunterladen
 permalink: /firmware/
 ---
+[Freifunk München Firmware](https://firmware.ffmuc.net/)
 
 ## Vor dem Kauf
 
