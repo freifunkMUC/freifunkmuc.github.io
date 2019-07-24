@@ -120,6 +120,4 @@ Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
 [faq]: /faq/
 [firmware]: /firmware/
 [kontakt]: /kontakt/
-[router-flashen]: /router-flashen/
-[router-konfigurieren]: /router-konfigurieren/
 [twitter]: https://twitter.com/freifunkmuc
