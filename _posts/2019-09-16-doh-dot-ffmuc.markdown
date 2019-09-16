@@ -38,6 +38,27 @@ Wenn alles geklappt hat, könnt ihr einen [DNSLeak-Test](http://dns-leak.com) ma
 Unter iOS installiert ihr die App DNSCloak und wählt die FFMUC-Server per Suche aus:
 ![DNSCloak](/assets/2019-09-16-doh-dnscloak.jpeg)
 
+## Android 9
+
+In Android (ab Android 9) geht ihr in eure "Einstellungen" zu "Wi-Fi & Internet".
+Unten ist ein Feld "Privates DNS". Wenn ihr darauf klickt taucht folgender Dialog auf:
+![PrivatesDNS-Details](/assets/2019-09-16-dot-android-details.jpeg)
+
+Nachdem ihr auf "Speichern" geklickt habt, taucht "dot.ffmuc.net" in der Übersicht auf:
+![PrivatesDNS-Overview](/assets/2019-09-16-dot-android-overview.jpeg)
+
+## Android < 9
+Falls ihr ein Android-System habt, welches älter als Android 9 ist, müsst ihr auf andere Apps zurückgreifen.<br />
+Unsere aktuelle Empfehlung ist "Infra" ([PlayStore-Link](https://play.google.com/store/apps/details?id=app.intra)).
+
+Ihr richtet den Einstellungen kann man den "DNS-over-HTTPS-Server auswählen".<br />
+Dort tragt ihr als "Benutzerdefinierte Server-URL" `https://doh.ffmuc.net/dns-query` ein:
+![DoH-Infra-Einstellungen](/assets/2019-09-16-doh-infra-settings.jpeg)
+
+Wenn ihr es dann aktiviert, kann es dann so aussehen:
+![DoH-Infra-Overview](/assets/2019-09-16-doh-infra-overview.jpeg)
+![DoH-Infra-Details](/assets/2019-09-16-doh-infra-details.jpeg)
+
 ## Unbound
 Falls ihr bei euch unbound als Resolver benutzt, ist das Hinzufügen eines DoT-Servers sehr einfach.
 Ihr fügt zu eurer "normalen" Konfiguration folgendes hinzu:
