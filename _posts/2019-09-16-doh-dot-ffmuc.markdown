@@ -22,11 +22,7 @@ dot.ffmuc.net - 195.30.94.28 / 2001:608:a01::3
 ```
 ## Einrichtung
 
-<<<<<<< HEAD
-Um die Einrichtung habzu erleichtern, könnt ihr [in unserem Wiki](https://ffmuc.net/wiki/doku.php?id=knb:dohdot) Anleitungen für verschiedene Geräte (mit Screenshots) ansehen.
-=======
 Um die Einrichtung zu erleichtern, könnt ihr [in unserem Wiki](https://ffmuc.net/wiki/doku.php?id=knb:dohdot) Anleitungen für verschiedene Geräte (mit Screenshots) ansehen.
->>>>>>> replace DoH-Setup by link to wiki
 
 ## Statistiken
 Natürlich gibt es auch eine ausführliche [Statusseite](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m) auf der ihr alle möglichen Statistiken zu dem Dienst ansehen könnt.
