@@ -121,3 +121,6 @@ Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
 [firmware]: /firmware/
 [kontakt]: /kontakt/
 [twitter]: https://twitter.com/freifunkmuc
+[router-flashen]: https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware
+[router-konfigurieren]: https://ffmuc.net/wiki/doku.php?id=knb:gui
+
