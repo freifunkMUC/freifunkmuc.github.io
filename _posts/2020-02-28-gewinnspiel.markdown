@@ -15,6 +15,6 @@ Wollt ihr eure alten Router ersetzen oder ein völlig neues Projekt starten? Dan
 
 Wir freuen uns auf eure Einsendungen!
 
-Hier ein Bild der beiden Geräten:
+Hier ein Bild der beiden Geräte:
 
 ![UAP-AC-M / GL.Inet B1300](/assets/gewinnspiel-2020.jpg)
