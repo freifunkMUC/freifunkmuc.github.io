@@ -11,7 +11,7 @@ Es gibt einen Unifi AC-Mesh sowie einen GL.iNET B1300 zu gewinnen.
 
 Verlosen werden wir die zwei Router unter den besten Ideen für Freifunkprojekte in und um München, der erste Platz bekommt den Unifi AC-Mesh und der zweite Platz den GL.iNET B1300.
 
-Wollt ihr eure alten Router ersetzen oder ein völlig neues Projekt starten? Dann schickt uns eure Ideen an [gewinnspiel@ffmuc.bayern](mailto:gewinnspiel@ffmuc.bayern). Wir stellen eine Liste eurere Ideen zusammen und starten danach eine öffentliche Abstimmung.
+Wollt ihr eure alten Router ersetzen oder ein völlig neues Projekt starten? Dann schickt uns eure Ideen bis zum 06.03.2020 an [gewinnspiel@ffmuc.bayern](mailto:gewinnspiel@ffmuc.bayern). Wir stellen eine Liste eurere Ideen zusammen und starten danach eine öffentliche Abstimmung.
 
 Wir freuen uns auf eure Einsendungen!
 
