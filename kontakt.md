@@ -6,7 +6,6 @@ permalink: /kontakt/
 
 {% include treffen.md %}
 
-E-Mail: [muenchen@freifunk.net](mailto:muenchen@freifunk.net) (Öffentliche Mailingliste!)
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
@@ -30,6 +29,7 @@ E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
 
 ### Mailingliste
 
+[muenchen@freifunk.net](mailto:muenchen@freifunk.net) (Öffentliche Mailingliste!)
 [Allgemeine Mailingliste Freifunk München][allgListe] \\
 [Mailingliste für EntwicklerInnen und Technikinteressierte][devListe] \\
 [Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
