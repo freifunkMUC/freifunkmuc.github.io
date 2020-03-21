@@ -9,7 +9,7 @@ Die aktuelle Lage mit dem Corona Virus macht für uns alle das Leben etwas schwe
 
 Damit ihr trotzdem mit euren Freunden, Verwandten, Kollegen und Bekannten in Kontakt bleiben könnte haben wir einen kostenlosen Videokonferenz Server bereitgestellt.
 
-**Auch alle Hilfsorganisationen, Forschungsstätten sowie Lehrstätten sind aufgerufen diesen Server kostenlos zu nutzen!**
+**Auch alle Hilfsorganisationen, Krisendienste, Forschungsstätten sowie Lehrstätten sind aufgerufen, diesen Server kostenlos zu nutzen!**
 
 Hier geht es zur [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet) für die einfache Benutzung. Und für alle Nerds unter uns haben wir auch eine technische [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet-server) wie das alles funktioniert.
 
