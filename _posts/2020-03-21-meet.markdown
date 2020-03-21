@@ -13,6 +13,8 @@ Damit ihr trotzdem mit euren Freunden, Verwandten, Kollegen und Bekannten in Kon
 
 Hier geht es zur [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet) für die einfache Benutzung. Und für alle Nerds unter uns haben wir auch eine technische [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet-server) wie das alles funktioniert.
 
+***Und ein Hinweis noch, benutzt am Besten Chrome oder die mobilen Apps!*** Firefox hat leider nur eine rudimentäre Unterstützung.
+
 [Viel Spaß beim Benutzen!](https://meet.ffmuc.net)
 
 [![Konferenz System](/assets/meet-2020.png)](https://meet.ffmuc.net)
