@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Konferenzserver - meet.ffmuc.net"
+date:   2020-03-21 10:00:00
+categories: freifunkmuc
+---
+
+Die aktuelle Lage mit dem Corona Virus macht für uns alle das Leben etwas schwerer und führt zu weniger Sozialkontakten.
+
+Damit ihr trotzdem mit euren Freunden, Verwandten, Kollegen und Bekannten in Kontakt bleiben könnte haben wir einen kostenlosen Videokonferenz Server bereitgestellt.
+
+Hier geht es zur [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet) für die einfache Benutzung. Und für alle Nerds unter uns haben wir auch eine technische [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet-server) wie das alles funktioniert.
+
+[Viel Spaß beim Benutzen!](https://meet.ffmuc.net)
+
+[![Konferenz System](/assets/meet-2020.png)](https://meet.ffmuc.net)
+
+Wir haben schon einige kreative Ideen gesehen, für was so ein Konferenzserver alles genutzt werden kann.
+
+**Gemeinsames #Sharknado schauen**
+[![Sharknado Filmabend](/assets/sharknado-meet-2020.png)](https://twitter.com/SktnBlfld/status/1241096899521851393?s=20)
+Quelle: [Twitter](https://twitter.com/SktnBlfld/status/1241096899521851393?s=20)
+
+**Gemeinsame Biergartenrunde**
+[![Biergarten](/assets/biergarten-meet-2020.jpg)](https://m.facebook.com/story.php?story_fbid=10221036247674388&id=1188532331)
+Quelle: [Facebook](https://m.facebook.com/story.php?story_fbid=10221036247674388&id=1188532331)
