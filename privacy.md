@@ -1,3 +1,9 @@
+---
+layout: page
+title: Datenschutzerklärung / Privacy Policy
+permalink: /privacy/
+---
+
 <p><strong><big>Datenschutzerklärung</big></strong></p>
 <p><strong>Allgemeiner Hinweis und Pflichtinformationen</strong></p>
 <p><strong>Benennung der verantwortlichen Stelle</strong></p>
