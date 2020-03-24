@@ -115,7 +115,6 @@ permalink: /privacy/
 <p>Herzogstr. 25</p>
 <p>80803 Munich</p>
 <p>Germany</p>
-<p>Phone: 34343434</p>
 <p>Email: hilfe@ffmuc.bayern</p>
 <p>Website: www.ffmuc.net</p>
 
