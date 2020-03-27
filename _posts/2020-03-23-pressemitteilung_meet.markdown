@@ -27,9 +27,14 @@ MEET setzt auf grenzüberschreitende Verständigung. Anleitungen sind in Deutsch
 Spanisch, Portugiesisch, Türkisch, Griechisch und weitere Sprachen sind in Arbeit.
 IT-Chefin des Freifunk Netzwerks und des neu entwickelten Service ist Annika Wickert.
 „Wir sind technisch sehr gut aufgestellt“, erklärt sie.
-Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie [Cloudflare](https://www.cloudflare.com), [Esplendor Group](https://esplendor.industries) und [PlusServer GmbH](https://www.plusserver.com).
+Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie
+[Cloudflare](https://www.cloudflare.com),
+[Esplendor Group](https://esplendor.industries),
+[PlusServer GmbH](https://www.plusserver.com) und die
+[Open Telekom Cloud der Deutschen Telekom AG](https://open-telekom-cloud.com).
+Auch andere Freifunk-Vereine wie [Freifunk Karlsruhe](https://karlsruhe.freifunk.net) unterstützen uns mit Ressourcen.
 „Wir suchen aber weiterhin Partner und Sponsoren.
-Freifunk MEET ist höchst modular und daher einfach ausbaubar“
+Freifunk MEET ist höchst modular und daher einfach ausbaubar“.
 
 Der designierte SPD-Stadtrat Lars Mentrup lobt:
 „Die Freifunker helfen, dass sich Menschen und Gruppen digital treffen, die sich aktuell nicht zusammen finden können. Das ist digitales Ehrenamt in seiner besten Form!“
@@ -47,8 +52,18 @@ Freifunk München hat 2015 diverse Flüchtlingszentren mit Wlan versorgt, u. a. 
 Freifunk geht zurück auf die Bürgernetze der 90er Jahre und das Umfeld des Chaos Computer Clubs.
 Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/wasistfreifunk/), sowie der Webseite [aller deutschen Freifunkgruppen](https://freifunk.net/).
 
-Supporter:
+### Supporter:
 
-[![Cloudflare Inc.](/assets/unterstuetzung/logo-cloudflare-dark.svg){:.pull-left width="180px" style="margin-right: 10px"}](https://www.cloudflare.com)
+[![Cloudflare Inc.](/assets/unterstuetzung/logo-cloudflare-dark.svg){:.pull-left width="180px" height="50px" style="margin-right: 10px"}](https://www.cloudflare.com)
 [![Esplendor Group](/assets/unterstuetzung/logo-esplendor.png){:.pull-left width="180px" style="margin-right: 10px; margin-bottom: 10px; "}](https://esplendor.industries)
-[![PlusServer GmbH](/assets/unterstuetzung/logo-plusserver-blue.svg){:.pull-left width="180px" style="margin-right: 10px"}](https://www.plusserver.com)
+[![PlusServer GmbH](/assets/unterstuetzung/logo-plusserver-blue.svg){:.pull-left width="180px" height="50px" style="margin-right: 10px"}](https://www.plusserver.com)
+
+<div style="clear: both;" ></div>
+
+[![Freifunk Karlsruhe e.V.](/assets/unterstuetzung/freifunk_karlsruhe_logo_webseite.svg){:.pull-left width="300px" style="margin-right: 10px"}](https://karlsruhe.freifunk.net)
+[![Open Telekom Cloud](/assets/unterstuetzung/bi-170330-opentelekomcloud.jpg){:.pull-left width="180px" style="margin-right: 10px"}](https://open-telekom-cloud.com)
+
+<div style="clear: both;" ></div>
+
+// Update: 27.03.2020
+Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
