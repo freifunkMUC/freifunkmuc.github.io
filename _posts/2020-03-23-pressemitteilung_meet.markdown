@@ -32,7 +32,9 @@ Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie
 [Esplendor Group](https://esplendor.industries),
 [PlusServer GmbH](https://www.plusserver.com) und die
 [Open Telekom Cloud der Deutschen Telekom AG](https://open-telekom-cloud.com).
-Auch andere Freifunk-Vereine wie [Freifunk Karlsruhe](https://karlsruhe.freifunk.net) unterstützen uns mit Ressourcen.
+Auch [Alibaba Cloud](https://www.alibabacloud.com) und
+[level66.network UG](https://level66.network/) gehören zu den Unterstützern.
+Neben Unternehmen unterstützen uns aber auch andere Freifunk-Vereine wie [Freifunk Franken](https://freifunk-franken.de) und [Freifunk Karlsruhe](https://karlsruhe.freifunk.net) mit Ressourcen.
 „Wir suchen aber weiterhin Partner und Sponsoren.
 Freifunk MEET ist höchst modular und daher einfach ausbaubar“.
 
@@ -53,17 +55,20 @@ Freifunk geht zurück auf die Bürgernetze der 90er Jahre und das Umfeld des Cha
 Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/wasistfreifunk/), sowie der Webseite [aller deutschen Freifunkgruppen](https://freifunk.net/).
 
 ### Supporter:
-
-[![Cloudflare Inc.](/assets/unterstuetzung/logo-cloudflare-dark.svg){:.pull-left width="180px" height="50px" style="margin-right: 10px"}](https://www.cloudflare.com)
+[![Alibaba Cloud](/assets/unterstuetzung/logo_alibaba_cloud.png){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}](https://www.alibabacloud.com)
+[![Cloudflare Inc.](/assets/unterstuetzung/logo-cloudflare-dark.svg){:.pull-left height="50px" style="margin-right: 10px"}](https://www.cloudflare.com)
 [![Esplendor Group](/assets/unterstuetzung/logo-esplendor.png){:.pull-left width="180px" style="margin-right: 10px; margin-bottom: 10px; "}](https://esplendor.industries)
-[![PlusServer GmbH](/assets/unterstuetzung/logo-plusserver-blue.svg){:.pull-left width="180px" height="50px" style="margin-right: 10px"}](https://www.plusserver.com)
+[![level66.network UG](/assets/unterstuetzung/logo_level66.network.jpeg){:.pull-left height="50px" style="margin-right: 10px"}](https://open-telekom-cloud.com)
+[![PlusServer GmbH](/assets/unterstuetzung/logo-plusserver-blue.svg){:.pull-left width="180px" style="margin-right: 10px; margin-top: 10px; "}](https://www.plusserver.com)
 
 <div style="clear: both;" ></div>
 
+[![Freifunk Franken](/assets/unterstuetzung/logo_freifunk_franken.png){:.pull-left width="300px" style="margin-right: 10px"}](https://freifunk-franken.de)
 [![Freifunk Karlsruhe e.V.](/assets/unterstuetzung/freifunk_karlsruhe_logo_webseite.svg){:.pull-left width="300px" style="margin-right: 10px"}](https://karlsruhe.freifunk.net)
 [![Open Telekom Cloud](/assets/unterstuetzung/bi-170330-opentelekomcloud.jpg){:.pull-left width="180px" style="margin-right: 10px"}](https://open-telekom-cloud.com)
 
 <div style="clear: both;" ></div>
 
-// Update: 27.03.2020
-Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
+### Updates:
+- 27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
+- 28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.
