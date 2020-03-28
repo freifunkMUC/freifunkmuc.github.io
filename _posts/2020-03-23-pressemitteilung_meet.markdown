@@ -58,7 +58,7 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 [![Alibaba Cloud](/assets/unterstuetzung/logo_alibaba_cloud.png){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}](https://www.alibabacloud.com)
 [![Cloudflare Inc.](/assets/unterstuetzung/logo-cloudflare-dark.svg){:.pull-left height="50px" style="margin-right: 10px"}](https://www.cloudflare.com)
 [![Esplendor Group](/assets/unterstuetzung/logo-esplendor.png){:.pull-left width="180px" style="margin-right: 10px; margin-bottom: 10px; "}](https://esplendor.industries)
-[![level66.network UG](/assets/unterstuetzung/logo_level66.network.jpeg){:.pull-left height="50px" style="margin-right: 10px"}](https://open-telekom-cloud.com)
+[![level66.network UG](/assets/unterstuetzung/logo_level66.network.jpeg){:.pull-left height="50px" style="margin-right: 10px"}](https://level66.network/)
 [![PlusServer GmbH](/assets/unterstuetzung/logo-plusserver-blue.svg){:.pull-left width="180px" style="margin-right: 10px; margin-top: 10px; "}](https://www.plusserver.com)
 
 <div style="clear: both;" ></div>
