@@ -95,7 +95,7 @@ Im Folgenden erklären wir, was Cookies sind und warum Sie genutzt werden, damit
 <p>in Dateien (Webserver-Logfiles).</p>
 <p>In der Regel werden Webserver-Logfiles zwei Wochen gespeichert und danach automatisch gelöscht. Wir geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten eingesehen werden.</p>
 
-<strong> Dieser Passus betrifft nur stats.ffmuc.net/ffmuc.net/map.ffmuc.net und das Frontend von meet.ffmuc.net. Videos werden nicht per Cloudflare übertragen.</strong>
+<strong> Der folgende Passus betrifft nur stats.ffmuc.net/ffmuc.net/map.ffmuc.net und das Frontend von meet.ffmuc.net. Videos werden nicht per Cloudflare übertragen.</strong>
 <h2 class="adsimple-311166442">Cloudflare Datenschutzerklärung</h2>
 <p>Wir verwenden auf dieser Webseite Cloudflare der Firma Cloudflare, Inc. (101 Townsend St., San Francisco, CA 94107, USA), um unsere Webseite schneller und sicherer zu machen. Dabei verwendet Cloudflare Cookies und verarbeitet User-Daten. Cloudflare, Inc. ist eine amerikanische Firma, die ein Content Delivery Network und diverse Sicherheitsdienste bereitstellt. Diese Dienste befinden sich zwischen dem User und unserem Hosting-Anbieter und fungieren als <a class="adsimple-311166442" href="https://de.wikipedia.org/wiki/Reverse_Proxy" target="_blank" rel="noopener">Reverse Proxy</a> für Webseiten. Was das alles genau bedeutet, versuchen wir im Folgenden genauer zu erläutern.</p>
 <h3 class="adsimple-311166442">Was ist Cloudflare?</h3>
