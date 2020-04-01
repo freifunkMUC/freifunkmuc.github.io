@@ -4,57 +4,126 @@ title: Datenschutzerklärung / Privacy Policy
 permalink: /privacy/
 ---
 
-<p><strong><big>Datenschutzerklärung</big></strong></p>
-<p><strong>Allgemeiner Hinweis und Pflichtinformationen</strong></p>
-<p><strong>Benennung der verantwortlichen Stelle</strong></p>
-<p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
-<p><span id="s3-t-firma">Freie Netze München e.V.</span><br><span id="s3-t-ansprechpartner">Marcel Senf, Vorsitzender</span><br><span id="s3-t-strasse">Herzogstr. 25</span><br><span id="s3-t-plz">80803</span> <span id="s3-t-ort">München</span></p><p></p>
-<p>Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).</p>
-
-<p><strong>Widerruf Ihrer Einwilligung zur Datenverarbeitung</strong></p>
-<p>Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der Datenverarbeitung möglich. Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
-
-<p><strong>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</strong></p>
-<p>Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde bezüglich datenschutzrechtlicher Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem sich der Sitz unseres Unternehmens befindet. Der folgende Link stellt eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten bereit: <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank" data-bcup-haslogintext="no">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a>.</p>
-
-<p><strong>Recht auf Datenübertragbarkeit</strong></p>
-<p>Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an Dritte aushändigen zu lassen. Die Bereitstellung erfolgt in einem maschinenlesbaren Format. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
-
-<p><strong>Recht auf Auskunft, Berichtigung, Sperrung, Löschung</strong></p>
-<p>Sie haben jederzeit im Rahmen der geltenden gesetzlichen Bestimmungen das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, Herkunft der Daten, deren Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Diesbezüglich und auch zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit über die im Impressum aufgeführten Kontaktmöglichkeiten an uns wenden.</p>
-
-<p><strong>SSL- bzw. TLS-Verschlüsselung</strong></p>
-<p>Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nicht mitlesbar. Sie erkennen eine verschlüsselte Verbindung an der „https://“ Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.</p>
-
-<p><strong>Server-Log-Dateien</strong></p>
-<p>In Server-Log-Dateien erhebt und speichert der Provider der Website automatisch Informationen, die Ihr Browser automatisch an uns übermittelt. Dies sind:</p>
-<ul>
-    <li>Besuchte Seite auf unserer Domain</li>
-    <li>Datum und Uhrzeit der Serveranfrage</li>
-    <li>Browsertyp und Browserversion</li>
-    <li>Verwendetes Betriebssystem</li>
-    <li>Referrer URL</li>
-    <li>Hostname des zugreifenden Rechners</li>
-    <li>IP-Adresse</li>
+<h1 class="adsimple-311166442">Datenschutzerklärung</h1>
+<h2 class="adsimple-311166442">Datenschutz</h2>
+<p>Wir haben diese Datenschutzerklärung (Fassung 01.04.2020-311166442) verfasst, um Ihnen gemäß der Vorgaben der <a class="adsimple-311166442" href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=311166442" target="_blank" rel="noopener">Datenschutz-Grundverordnung (EU) 2016/679</a> zu erklären, welche Informationen wir sammeln, wie wir Daten verwenden und welche Entscheidungsmöglichkeiten Sie als Besucher dieser Webseite haben.</p>
+<p>Leider liegt es in der Natur der Sache, dass diese Erklärungen sehr technisch klingen, wir haben uns bei der Erstellung jedoch bemüht die wichtigsten Dinge so einfach und klar wie möglich zu beschreiben.</p>
+<h2 class="adsimple-311166442">Cookies</h2>
+<p>Unsere Website verwendet HTTP-Cookies um nutzerspezifische Daten zu speichern.<br />
+Im Folgenden erklären wir, was Cookies sind und warum Sie genutzt werden, damit Sie die folgende Datenschutzerklärung besser verstehen.</p>
+<h3 class="adsimple-311166442">Was genau sind Cookies?</h3>
+<p>Immer wenn Sie durch das Internet surfen, verwenden Sie einen Browser. Bekannte Browser sind beispielsweise Chrome, Safari, Firefox, Internet Explorer und Microsoft Edge. Die meisten Webseiten speichern kleine Text-Dateien in Ihrem Browser. Diese Dateien nennt man Cookies.</p>
+<p>Eines ist nicht von der Hand zu weisen: Cookies sind echt nützliche Helferlein. Fast alle Webseiten verwenden Cookies. Genauer gesprochen sind es HTTP-Cookies, da es auch noch andere Cookies für andere Anwendungsbereiche gibt. HTTP-Cookies sind kleine Dateien, die von unserer Website auf Ihrem Computer gespeichert werden. Diese Cookie-Dateien werden automatisch im Cookie-Ordner, quasi dem &#8220;Hirn&#8221; Ihres Browsers, untergebracht. Ein Cookie besteht aus einem Namen und einem Wert. Bei der Definition eines Cookies müssen zusätzlich ein oder mehrere Attribute angegeben werden.</p>
+<p>Cookies speichern gewisse Nutzerdaten von Ihnen, wie beispielsweise Sprache oder persönliche Seiteneinstellungen. Wenn Sie unsere Seite wieder aufrufen, übermittelt Ihr Browser die „userbezogenen“ Informationen an unsere Seite zurück. Dank der Cookies weiß unsere Website, wer Sie sind und bietet Ihnen Ihre gewohnte Standardeinstellung. In einigen Browsern hat jedes Cookie eine eigene Datei, in anderen wie beispielsweise Firefox sind alle Cookies in einer einzigen Datei gespeichert.</p>
+<p>Es gibt sowohl Erstanbieter Cookies als auch Drittanbieter-Cookies. Erstanbieter-Cookies werden direkt von unserer Seite erstellt, Drittanbieter-Cookies werden von Partner-Webseiten (z.B. Google Analytics) erstellt. Jedes Cookie ist individuell zu bewerten, da jedes Cookie andere Daten speichert. Auch die Ablaufzeit eines Cookies variiert von ein paar Minuten bis hin zu ein paar Jahren. Cookies sind keine Software-Programme und enthalten keine Viren, Trojaner oder andere „Schädlinge“. Cookies können auch nicht auf Informationen Ihres PCs zugreifen.</p>
+<p>So können zum Beispiel Cookie-Daten aussehen:</p>
+<ul class="adsimple-311166442">
+<li class="adsimple-311166442">Name: _ga</li>
+<li class="adsimple-311166442">Ablaufzeit: 2 Jahre</li>
+<li class="adsimple-311166442">Verwendung: Unterscheidung der Webseitenbesucher</li>
+<li class="adsimple-311166442">Beispielhafter Wert: GA1.2.1326744211.152311166442</li>
 </ul>
-<p>Es findet keine Zusammenführung dieser Daten mit anderen Datenquellen statt. Grundlage der Datenverarbeitung bildet Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.</p>
-            
-<p><strong>Kontaktformular</strong></p>
-<p>Per Kontaktformular übermittelte Daten werden einschließlich Ihrer Kontaktdaten gespeichert, um Ihre Anfrage bearbeiten zu können oder um für Anschlussfragen bereitzustehen. Eine Weitergabe dieser Daten findet ohne Ihre Einwilligung nicht statt.</p>
-<p>Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.</p>
-<p>Über das Kontaktformular übermittelte Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder keine Notwendigkeit der Datenspeicherung mehr besteht. Zwingende gesetzliche Bestimmungen - insbesondere Aufbewahrungsfristen - bleiben unberührt.</p>
-            
-<p><strong>Cookies</strong></p>
-<p>Unsere Website verwendet Cookies. Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert. Cookies helfen uns dabei, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. </p>
-<p>Einige Cookies sind “Session-Cookies.” Solche Cookies werden nach Ende Ihrer Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis Sie diese selbst löschen. Solche Cookies helfen uns, Sie bei Rückkehr auf
-	unserer Website wiederzuerkennen.</p>
-<p>Mit einem modernen Webbrowser können Sie das Setzen von Cookies überwachen, einschränken oder unterbinden. Viele Webbrowser lassen sich so konfigurieren, dass Cookies mit dem Schließen des Programms von selbst gelöscht werden. Die Deaktivierung von Cookies
-	kann eine eingeschränkte Funktionalität unserer Website zur Folge haben.</p>
-<p>Das Setzen von Cookies, die zur Ausübung elektronischer Kommunikationsvorgänge oder der Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z.B. Warenkorb) notwendig sind, erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Als Betreiber dieser
-	Website haben wir ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und reibungslosen Bereitstellung unserer Dienste. Sofern die Setzung anderer Cookies (z.B. für Analyse-Funktionen) erfolgt, werden diese in dieser
-	Datenschutzerklärung separat behandelt.</p>
-
-<p><small>Quelle: Datenschutz-Konfigurator von <a href="http://www.mein-datenschutzbeauftragter.de" target="_blank" data-bcup-haslogintext="no">mein-datenschutzbeauftragter.de</a></small></p>
+<p>Ein Browser sollte folgende Mindestgrößen unterstützen:</p>
+<ul class="adsimple-311166442">
+<li class="adsimple-311166442">Ein Cookie soll mindestens 4096 Bytes enthalten können</li>
+<li class="adsimple-311166442">Pro Domain sollen mindestens 50 Cookies gespeichert werden können</li>
+<li class="adsimple-311166442">Insgesamt sollen mindestens 3000 Cookies gespeichert werden können</li>
+</ul>
+<h3 class="adsimple-311166442">Welche Arten von Cookies gibt es?</h3>
+<p>Die Frage welche Cookies wir im Speziellen verwenden, hängt von den verwendeten Diensten ab und wird in der folgenden Abschnitten der Datenschutzerklärung geklärt. An dieser Stelle möchten wir kurz auf die verschiedenen Arten von HTTP-Cookies eingehen.</p>
+<p>Man kann 4 Arten von Cookies unterscheiden:</p>
+<p>
+<strong class="adsimple-311166442">Unbedingt notwendige Cookies<br />
+</strong>Diese Cookies sind nötig, um grundlegende Funktionen der Website sicherzustellen. Zum Beispiel braucht es diese Cookies, wenn ein User ein Produkt in den Warenkorb legt, dann auf anderen Seiten weitersurft und später erst zur Kasse geht. Durch diese Cookies wird der Warenkorb nicht gelöscht, selbst wenn der User sein Browserfenster schließt.</p>
+<p>
+<strong class="adsimple-311166442">Funktionelle Cookies<br />
+</strong>Diese Cookies sammeln Infos über das Userverhalten und ob der User etwaige Fehlermeldungen bekommt. Zudem werden mithilfe dieser Cookies auch die Ladezeit und das Verhalten der Website bei verschiedenen Browsern gemessen.</p>
+<p>
+<strong class="adsimple-311166442">Zielorientierte Cookies<br />
+</strong>Diese Cookies sorgen für eine bessere Nutzerfreundlichkeit. Beispielsweise werden eingegebene Standorte, Schriftgrößen oder Formulardaten gespeichert.</p>
+<p>
+<strong class="adsimple-311166442">Werbe-Cookies<br />
+</strong>Diese Cookies werden auch Targeting-Cookies genannt. Sie dienen dazu dem User individuell angepasste Werbung zu liefern. Das kann sehr praktisch, aber auch sehr nervig sein.</p>
+<p>Üblicherweise werden Sie beim erstmaligen Besuch einer Webseite gefragt, welche dieser Cookiearten Sie zulassen möchten. Und natürlich wird diese Entscheidung auch in einem Cookie gespeichert.</p>
+<h3 class="adsimple-311166442">Wie kann ich Cookies löschen?</h3>
+<p>Wie und ob Sie Cookies verwenden wollen, entscheiden Sie selbst. Unabhängig von welchem Service oder welcher Website die Cookies stammen, haben Sie immer die Möglichkeit Cookies zu löschen, nur teilweise zuzulassen oder zu deaktivieren. Zum Beispiel können Sie Cookies von Drittanbietern blockieren, aber alle anderen Cookies zulassen.</p>
+<p>Wenn Sie feststellen möchten, welche Cookies in Ihrem Browser gespeichert wurden, wenn Sie Cookie-Einstellungen ändern oder löschen wollen, können Sie dies in Ihren Browser-Einstellungen finden:</p>
+<p>
+<a class="adsimple-311166442" href="https://support.google.com/chrome/answer/95647?tid=311166442" target="_blank" rel="noopener">Chrome: Cookies in Chrome löschen, aktivieren und verwalten</a>
+</p>
+<p>
+<a class="adsimple-311166442" href="https://support.apple.com/de-at/guide/safari/sfri11471/mac?tid=311166442" target="_blank" rel="noopener">Safari: Verwalten von Cookies und Websitedaten mit Safari</a>
+</p>
+<p>
+<a class="adsimple-311166442" href="https://support.mozilla.org/de/kb/cookies-und-website-daten-in-firefox-loschen?tid=311166442" target="_blank" rel="noopener">Firefox: Cookies löschen, um Daten zu entfernen, die Websites auf Ihrem Computer abgelegt haben</a>
+</p>
+<p>
+<a class="adsimple-311166442" href="https://support.microsoft.com/de-at/help/17442/windows-internet-explorer-delete-manage-cookies?tid=311166442" target="_blank" rel="noopener">Internet Explorer: Löschen und Verwalten von Cookies</a>
+</p>
+<p>
+<a class="adsimple-311166442" href="https://support.microsoft.com/de-at/help/4027947/windows-delete-cookies?tid=311166442" target="_blank" rel="noopener">Microsoft Edge: Löschen und Verwalten von Cookies</a>
+</p>
+<p>Falls Sie grundsätzlich keine Cookies haben wollen, können Sie Ihren Browser so einrichten, dass er Sie immer informiert, wenn ein Cookie gesetzt werden soll. So können Sie bei jedem einzelnen Cookie entscheiden, ob Sie das Cookie erlauben oder nicht. Die Vorgangsweise ist je nach Browser verschieden. Am besten ist es Sie suchen die Anleitung in Google mit dem Suchbegriff “Cookies löschen Chrome” oder &#8220;Cookies deaktivieren Chrome&#8221; im Falle eines Chrome Browsers oder tauschen das Wort &#8220;Chrome&#8221; gegen den Namen Ihres Browsers, z.B. Edge, Firefox, Safari aus.</p>
+<h3 class="adsimple-311166442">Wie sieht es mit meinem Datenschutz aus?</h3>
+<p>Seit 2009 gibt es die sogenannten „Cookie-Richtlinien“. Darin ist festgehalten, dass das Speichern von Cookies eine Einwilligung des Website-Besuchers (also von Ihnen) verlangt. Innerhalb der EU-Länder gibt es allerdings noch sehr unterschiedliche Reaktionen auf diese Richtlinien. In Deutschland wurden die Cookie-Richtlinien nicht als nationales Recht umgesetzt. Stattdessen erfolgte die Umsetzung dieser Richtlinie weitgehend in § 15 Abs.3 des Telemediengesetzes (TMG).</p>
+<p>Wenn Sie mehr über Cookies wissen möchten und vor technischen Dokumentationen nicht zurückscheuen, empfehlen wir <a class="adsimple-311166442" href="https://tools.ietf.org/html/rfc6265" target="_blank" rel="nofollow noopener">https://tools.ietf.org/html/rfc6265</a>, dem Request for Comments der Internet Engineering Task Force (IETF) namens &#8220;HTTP State Management Mechanism&#8221;.</p>
+<h2 class="adsimple-311166442">Rechte laut Datenschutzgrundverordnung</h2>
+<p>Ihnen stehen laut den Bestimmungen der DSGVO grundsätzlich die folgende Rechte zu:</p>
+<ul class="adsimple-311166442">
+<li class="adsimple-311166442">Recht auf Berichtigung (Artikel 16 DSGVO)</li>
+<li class="adsimple-311166442">Recht auf Löschung („Recht auf Vergessenwerden“) (Artikel 17 DSGVO)</li>
+<li class="adsimple-311166442">Recht auf Einschränkung der Verarbeitung (Artikel 18 DSGVO)</li>
+<li class="adsimple-311166442">Recht auf Benachrichtigung &#8211; Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung (Artikel 19 DSGVO)</li>
+<li class="adsimple-311166442">Recht auf Datenübertragbarkeit (Artikel 20 DSGVO)</li>
+<li class="adsimple-311166442">Widerspruchsrecht (Artikel 21 DSGVO)</li>
+<li class="adsimple-311166442">Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung — einschließlich Profiling — beruhenden Entscheidung unterworfen zu werden (Artikel 22 DSGVO)</li>
+</ul>
+<p>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich an die <a class="adsimple-311166442" class="311166442" href="https://www.bfdi.bund.de" target="_blank" rel="noopener">Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden.</p>
+<h2 class="adsimple-311166442">TLS-Verschlüsselung mit https</h2>
+<p>Wir verwenden https um Daten abhörsicher im Internet zu übertragen (Datenschutz durch Technikgestaltung <a class="adsimple-311166442" href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&#038;tid=311166442" target="_blank" rel="noopener">Artikel 25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet können wir den Schutz vertraulicher Daten sicherstellen. Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schloßsymbol links oben im Browser und der Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.</p>
+<h2 class="adsimple-311166442">Automatische Datenspeicherung</h2>
+<p>Wenn Sie heutzutage Webseiten besuchen, werden gewisse Informationen automatisch erstellt und gespeichert, so auch auf dieser Webseite.</p>
+<p>Wenn Sie unsere Webseite so wie jetzt gerade besuchen, speichert unser Webserver (Computer auf dem diese Webseite gespeichert ist) automatisch Daten wie</p>
+<ul class="adsimple-311166442">
+<li class="adsimple-311166442">die Adresse (URL) der aufgerufenen Webseite</li>
+<li class="adsimple-311166442">Browser und Browserversion</li>
+<li class="adsimple-311166442">das verwendete Betriebssystem</li>
+<li class="adsimple-311166442">die Adresse (URL) der zuvor besuchten Seite (Referrer URL)</li>
+<li class="adsimple-311166442">den Hostname und die IP-Adresse des Geräts von welchem aus zugegriffen wird</li>
+<li class="adsimple-311166442">Datum und Uhrzeit</li>
+</ul>
+<p>in Dateien (Webserver-Logfiles).</p>
+<p>In der Regel werden Webserver-Logfiles zwei Wochen gespeichert und danach automatisch gelöscht. Wir geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten eingesehen werden.</p>
+<h2 class="adsimple-311166442">Cloudflare Datenschutzerklärung</h2>
+<p>Wir verwenden auf dieser Webseite Cloudflare der Firma Cloudflare, Inc. (101 Townsend St., San Francisco, CA 94107, USA), um unsere Webseite schneller und sicherer zu machen. Dabei verwendet Cloudflare Cookies und verarbeitet User-Daten. Cloudflare, Inc. ist eine amerikanische Firma, die ein Content Delivery Network und diverse Sicherheitsdienste bereitstellt. Diese Dienste befinden sich zwischen dem User und unserem Hosting-Anbieter und fungieren als <a class="adsimple-311166442" href="https://de.wikipedia.org/wiki/Reverse_Proxy" target="_blank" rel="noopener">Reverse Proxy</a> für Webseiten. Was das alles genau bedeutet, versuchen wir im Folgenden genauer zu erläutern.</p>
+<h3 class="adsimple-311166442">Was ist Cloudflare?</h3>
+<p>Ein Content Delivery Network (CDN), wie es die Firma Cloudflare bereitstellt, ist nichts anderes als ein Netzwerk aus über das Internet verbundenen Servern. Cloudflare hat auf der ganzen Welt solche Server verteilt, um Webseiten schneller auf Ihren Bildschirm zu bringen. Ganz einfach gesagt, legt Cloudflare Kopien unserer Website an und platziert sie auf ihren eigenen Servern. Wenn Sie jetzt unsere Webseite besuchen, stellt ein System der Lastenverteilung sicher, dass die größten Teile unsere Webseite von jenem Server ausgeliefert werden, der Ihnen unsere Webseite am schnellsten anzeigen kann. Die Strecke der Datenübertragung zu Ihrem Browser wird durch ein CDN deutlich verkürzt. Somit wird Ihnen der Content unserer Webseite durch Cloudflare nicht nur von unserem Hosting-Server geliefert, sondern von Servern aus der ganzen Welt. Besonders hilfreich wird der Einsatz von Cloudflare für User aus dem Ausland, da hier die Seite von einem Server in der Nähe ausgeliefert werden kann. Neben dem schnellen Ausliefern von Webseiten bietet Cloudflare auch diverse Sicherheitsdienste, wie den DDoS-Schutz oder die Web Application Firewall an.</p>
+<h3 class="adsimple-311166442">Warum wir Cloudflare auf unserer Website verwenden?</h3>
+<p>Natürlich wollen wir Ihnen mit unserer Webseite das bestmögliche Service bieten. Cloudflare hilft uns dabei, unsere Webseite schneller und sicherer zu machen. Cloudflare bietet uns sowohl Web-Optimierungen als auch Sicherheitsdienste, wie DDoS-Schutz und Web-Firewall, an. Dazu gehören auch ein <a class="adsimple-311166442" href="https://de.wikipedia.org/wiki/Reverse_Proxy" target="_blank" rel="noopener">Reverse-Proxy</a> und das Content-Verteilungsnetzwerk (CDN). Cloudflare blockiert Bedrohungen und begrenzt missbräuchliche Bots und Crawler, die unsere Bandbreite und Serverressourcen verschwenden. Durch das Speichern unserer Webseite auf lokalen Datenzentren und das Blockieren von Spam-Software ermöglicht Cloudflare, unsere Bandbreitnutzung etwa um 60% zu reduzieren. Das Bereitstellen von Inhalten über ein Datenzentrum in Ihrer Nähe und einiger dort durchgeführten Web-Optimierungen reduziert die durchschnittliche Ladezeit einer Website etwa um die Hälfte. Durch die Einstellung „I´m Under Attack Mode“ („Ich werde angegriffen“-Modus) können laut Cloudflare weitere Angriffe abgeschwächt werden, indem eine JavaScript-Rechenaufgabe angezeigt wird, die man lösen muss, bevor ein User auf eine Webseite zugreifen kann. Insgesamt wird dadurch unsere Website deutlich leistungsstärker und weniger anfällig auf Spam oder andere Angriffe.</p>
+<h3 class="adsimple-311166442">Welche Daten werden von Cloudflare gespeichert?</h3>
+<p>Cloudflare leitet im Allgemeinen nur jene Daten weiter, die von Websitebetreibern gesteuert werden. Die Inhalte werden also nicht von Cloudflare bestimmt, sondern immer vom Websitebetreiber selbst. Zudem erfasst Cloudflare unter Umständen bestimmte Informationen zur Nutzung unserer Webseite und verarbeitet Daten, die von uns versendet werden oder für die Cloudflare entsprechende Anweisungen erhalten hat. In den meisten Fällen erhält Cloudflare Daten wie Kontaktinformationen, IP-Adressen, Sicherheitsfingerabdrücke, DNS-Protokolldaten und Leistungsdaten für Webseiten, die aus der Browseraktivitäten abgeleitet werden. Protokolldaten helfen Cloudflare beispielsweise dabei, neue Bedrohungen zu erkennen. So kann Cloudflare einen hohen Sicherheitsschutz für unsere Webseite gewährleisten. Cloudflare verarbeitet diese Daten im Rahmen der Services unter Einhaltung der geltenden Gesetze. Dazu zählt natürlich auch die Datenschutzgrundverordnung (DSGVO).</p>
+<p>Aus Sicherheitsgründen verwendet Cloudflare auch ein Cookie. Das Cookie (__cfduid) wird verwendet, um einzelne User hinter einer gemeinsam genutzten IP-Adresse zu identifizieren und Sicherheitseinstellungen für jeden einzelnen User anzuwenden. Sehr nützlich wird dieses Cookie beispielweise, wenn Sie unsere Webseite aus einem Lokal benutzen, in dem sich eine Reihe infizierter Computer befinden. Wenn aber Ihr Computer vertrauenswürdig ist, können wir dies anhand des Cookies erkennen. So können Sie, trotz infizierter PCs im Umfeld, ungehindert durch unsere Webseite surfen. Wichtig zu wissen ist auch noch, dass dieses Cookie keine personenbezogenen Daten speichert. Dieses Cookie ist für die Cloudflare-Sicherheitsfunktionen unbedingt erforderlich und kann nicht deaktiviert werden.</p>
+<h3 class="adsimple-311166442">Cookies von Cloudflare</h3>
+<ul class="adsimple-311166442">
+<li class="adsimple-311166442">__cfduid
+<ul class="adsimple-311166442">
+<li class="adsimple-311166442">Ablaufzeit: 1 Jahr</li>
+<li class="adsimple-311166442">Verwendung: Sicherheitseinstellungen für jeden einzelnen Besucher</li>
+<li class="adsimple-311166442">Beispielhafter Wert: d798bf7df9c1ad5b7583eda5cc5e78311166442</li>
+</ul>
+</li>
+</ul>
+<p>Cloudflare arbeitet auch mit Drittanbietern zusammen. Diese dürfen personenbezogene Daten nur unter Anweisung der Firma Cloudflare und in Übereinstimmung mit den Datenschutzrichtlinien und anderer Vertraulichkeits- und Sicherheitsmaßnahmen verarbeiten. Ohne explizite Einwilligung von uns gibt Cloudflare keine personenbezogenen Daten weiter.</p>
+<h3 class="adsimple-311166442">Wie lange und wo werden die Daten gespeichert?</h3>
+<p>Cloudflare speichert Ihre Informationen hauptsächlich in den USA und im Europäischen Wirtschaftsraum. Cloudflare kann die oben beschriebenen Informationen aus der ganzen Welt übertragen und darauf zugreifen. Im Allgemeinen speichert Cloudflare Daten auf User-Ebene für Domains in den Versionen Free, Pro und Business für weniger als 24 Stunden. Für Enterprise Domains, die Cloudflare Logs (früher Enterprise LogShare oder ELS) aktiviert haben, können die Daten bis zu 7 Tage gespeichert werden. Wenn allerdings IP-Adressen bei Cloudflare Sicherheitswarnungen auslösen, kann es zu Ausnahmen der oben angeführten Speicherungsdauer kommen.</p>
+<h3 class="adsimple-311166442">Wie kann ich meine Daten löschen bzw. die Datenspeicherung verhindern?</h3>
+<p>Cloudflare bewahrt Daten-Protokolle nur solange wie nötig auf und diese Daten werden auch in den meisten Fällen innerhalb von 24 Stunden wieder gelöscht. Cloudflare speichert auch keine personenbezogenen Daten, wie beispielsweise Ihre IP-Adresse. Es gibt allerdings Informationen, die Cloudflare als Teil seiner permanenten Protokolle auf unbestimmte Zeit speichert, um so die Gesamtleistung von Cloudflare Resolver zu verbessern und etwaige Sicherheitsrisiken zu erkennen. Welche permanenten Protokolle genau speichert werden, können Sie auf <a class="adsimple-311166442" href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/" target="_blank" rel="noopener">https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/</a> nachlesen. Alle Daten, die Cloudflare sammelt (temporär oder permanent), werden von allen personenbezogenen Daten bereinigt. Alle permanenten Protokolle werden zudem von Cloudflare anonymisiert.</p>
+<p>Cloudflare geht in Ihrer Datenschutzerklärung darauf ein, dass sie für die Inhalte, die sie erhalten nicht verantwortlich sind. Wenn Sie beispielsweise bei Cloudflare anfragen, ob sie Ihre Inhalte aktualisieren oder löschen können, verweist Cloudflare grundsätzlich auf uns als Websitebetreiber. Sie können auch die gesamte Erfassung und Verarbeitung Ihrer Daten durch Cloudflare komplett unterbinden, indem Sie die Ausführung von Script-Code in Ihrem Browser deaktivieren oder einen Script-Blocker in Ihren Browser einbinden.</p>
+<p>Cloudflare ist aktiver Teilnehmer beim EU-U.S. Privacy Shield Framework wodurch der korrekte und sichere Datentransfer persönlicher Daten geregelt wird. Mehr Informationen dazu finden Sie auf <a class="adsimple-311166442" href="https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0&amp;tid=311166442" target="_blank" rel="noopener">https://www.privacyshield.gov/participant?id=a2zt0000000GnZKAA0</a>.<br />
+Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf <a class="adsimple-311166442" href="https://www.cloudflare.com/de-de/privacypolicy/?tid=311166442" target="_blank" rel="noopener">https://www.cloudflare.com/de-de/privacypolicy/</a>
+</p>
+<p style="margin-top:15px;">Quelle: Erstellt mit dem <a title="Datenschutz Generator Deutschland" href="https://www.adsimple.de/datenschutz-generator/" target="_blank" rel="follow" style="text-decoration:none;">Datenschutz Generator</a> von AdSimple in Kooperation mit <a href="https://www.bauenwir.de" target="_blank" rel="follow" title="">bauenwir.de</a>
+</p>
 
 
 <h4>Privacy Policy</h4>
