@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pressemitteilung zu meet.ffmuc.net"
+title:  "Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice"
 date:   2020-03-23 21:30:00
 categories: freifunkmuc
 ---
@@ -16,15 +16,15 @@ Den Lieblingskollegen in Frankreich oder Italien anrufen und sich per Videokonfe
 Das geht! Und zwar einfach und kostenlos mit dem neu eingerichteten Video-Konferenzservice Freifunk MEET der Initiative „Freifunk München“.
 
 Die ehrenamtlich Engagierten haben das erste Daheim-Wochenende genutzt, um ab sofort einen Service anzubieten,
-mit dem sich aktuell bis zu 3000 Personen gleichzeitig per Videokonferenz unterhalten können – beispielsweise in 100 Gruppen zu 30 Menschen.
+mit dem sich aktuell bis zu 10.000 Personen gleichzeitig per Videokonferenz unterhalten können – beispielsweise in 330 Gruppen zu 30 Menschen.
 Einfach [meet.ffmuc.net](https://meet.ffmuc.net) in den Browser (am besten Chrome) eingeben, eine Gruppe gründen oder einer beitreten –
 und schon kann man mit Bild, Ton und Bildschirmfreigabe miteinander kommunizieren.
 Das kann ein Ersatz für einen Stammtisch sein, Helfern, Pflegern und Handwerkern die Abstimmung erleichtern
 oder Forschung und Lehre vernetzen. „Wir wollen, dass sich die Menschen weiter treffen können –
 sei es auch nur auf dem Bildschirm“, erläutert Freifunk-Koordinator Peter Buschkamp.
 
-MEET setzt auf grenzüberschreitende Verständigung. Anleitungen sind in Deutsch, Englisch, Französisch und Italienisch verfügbar.
-Spanisch, Portugiesisch, Türkisch, Griechisch und weitere Sprachen sind in Arbeit.
+MEET setzt auf grenzüberschreitende Verständigung. Anleitungen sind in [Deutsch](https://ffmuc.net/wiki/doku.php?id=knb:meet), [Englisch](https://ffmuc.net/wiki/doku.php?id=knb:meet-en), [Französisch](https://ffmuc.net/wiki/doku.php?id=knb:meet-fr), [Italienisch](https://ffmuc.net/wiki/doku.php?id=knb:meet-it), [Spanisch](https://ffmuc.net/wiki/doku.php?id=knb:meet-es) und [Griechisch](https://ffmuc.net/wiki/doku.php?id=knb:meet-gr) verfügbar. Portugiesisch, Türkisch und weitere Sprachen sind in Arbeit.
+
 IT-Chefin des Freifunk Netzwerks und des neu entwickelten Service ist Annika Wickert.
 „Wir sind technisch sehr gut aufgestellt“, erklärt sie.
 Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie
@@ -72,3 +72,4 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 ### Updates:
 - 27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
 - 28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.
+- 03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.
