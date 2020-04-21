@@ -23,8 +23,9 @@ Wir dachten wir hatten durch den Fix in Jicofo alle Probleme behoben und den Ser
 
 Erst kam der Verdacht auf, dass noch mehr Fehler im Code von Jicofo zu diesem Problem führt. Wie sich aber herraustellte war das Problem nicht Jicofo an dieser Stelle.
 
-Sondern, bei dem Crash von Prosody heute morgen um 10:00Uhr wurden die internen Datenbanken die die Auslastung der Videobridges bereithalten zerstört. Dies war jedoch nicht im Ansatz offensichtlich. Erst als das Problem mit `strace` näher Untersucht wurde zeigte sich die kleine aber feine Meldung `openat(AT_FDCWD, "/var/lib/prosody/meet%2effmuc%2enet/pubsub_sharedStatsNode.list", O_RDONLY) = 
--1 ENOENT (No such file or directory)`. 
+Sondern, bei dem Crash von Prosody heute morgen um 10:00Uhr wurden die internen Datenbanken die die Auslastung der Videobridges bereithalten zerstört. Dies war jedoch nicht im Ansatz offensichtlich. Erst als das Problem mit `strace` näher Untersucht wurde zeigte sich die kleine aber feine Meldung
+``openat(AT_FDCWD, "/var/lib/prosody/meet%2effmuc%2enet/pubsub_sharedStatsNode.list", O_RDONLY) = 
+-1 ENOENT (No such file or directory)``. 
 
 Daraufhin begann das Team dieses Problem näher zu untersuchen und stellte auch auf den nicht verwendeten Videobridges fest, dass diese bei einem Neustart ebenfalls die sharedStatsNode Liste nicht erreichen beschreiben können.
 
