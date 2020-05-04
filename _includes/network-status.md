@@ -4,6 +4,7 @@
 <br><u><b>Aktuell:</b></u>
 <br>
 <br><u><b>History:</b></u>
+<br><b>04.05.20 17:20-17:50</b> IPv4 DHCP gestört für ca. 30 Minuten
 <br><b>03.06 - 06.06.2019</b> Mailserver offline. u.A. Tickethandling, Registrierungen im Chat sind nicht möglich
 <br><b>27.03.2019 17:00-20:00</b> Das gesamte Netz ist aufgrund eines geplanten Serverumzugs offline
 <br><b>02.10.2018</b> Probleme mit den Miniaturbildern der Statistiken auf der Knotenkarte wurde behoben
