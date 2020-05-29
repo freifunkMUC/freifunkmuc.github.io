@@ -34,7 +34,7 @@ Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie
 [Open Telekom Cloud der Deutschen Telekom AG](https://open-telekom-cloud.com).
 Auch [Alibaba Cloud](https://www.alibabacloud.com) und
 [level66.network UG](https://level66.network/) gehören zu den Unterstützern.
-Neben Unternehmen unterstützen uns aber auch andere Freifunk-Gruppen wie [Freifunk Franken](https://freifunk-franken.de) und [Freifunk Karlsruhe](https://karlsruhe.freifunk.net) mit Ressourcen.
+Neben Unternehmen unterstützen uns aber auch andere Freifunk-Gruppen wie [Freifunk Franken](https://freifunk-franken.de), [Freifunk Karlsruhe](https://karlsruhe.freifunk.net) und [Neanderfunk](https://www.neanderfunk.de) mit Ressourcen.
 „Wir suchen aber weiterhin Partner und Sponsoren.
 Freifunk MEET ist höchst modular und daher einfach ausbaubar“.
 
@@ -73,3 +73,4 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 - 27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
 - 28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.
 - 03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.
+- 29.05.2020: Neanderfunk als Supporter ergänzt.
