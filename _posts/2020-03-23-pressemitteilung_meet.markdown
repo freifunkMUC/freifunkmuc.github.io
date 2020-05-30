@@ -65,6 +65,7 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 
 [![Freifunk Franken](/assets/unterstuetzung/logo_freifunk_franken.png){:.pull-left width="300px" style="margin-right: 10px"}](https://freifunk-franken.de)
 [![Freifunk Karlsruhe e.V.](/assets/unterstuetzung/freifunk_karlsruhe_logo_webseite.svg){:.pull-left width="300px" style="margin-right: 10px"}](https://karlsruhe.freifunk.net)
+[![Neanderfunk.](/assets/unterstuetzung/logo_neanderfunk.png){:.pull-left width="300px" style="margin-right: 10px"}](https://neanderfunk.de)
 [![Open Telekom Cloud](/assets/unterstuetzung/bi-170330-opentelekomcloud.jpg){:.pull-left width="180px" style="margin-right: 10px"}](https://open-telekom-cloud.com)
 
 <div style="clear: both;" ></div>
