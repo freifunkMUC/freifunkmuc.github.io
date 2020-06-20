@@ -9,7 +9,7 @@ von Freifunk München!
 
 ### SpaceNet AG
 
-![spaceet](/assets/unterstuetzung/logo_spacenet.png)
+![spacenet](/assets/unterstuetzung/logo_spacenet.png)
 
 Die Münchner [SpaceNet AG][spacenet] stellt uns an mehreren Standorten
 Colocation, Internet-Uplink und Dachzugang für unseren Funk-Backbone
