@@ -14,7 +14,7 @@ Dafür haben sich folgende Projekte qualifiziert:
   - Versorgung des Volksfest in Rudelzhausen
 
 Abstimmen könnt ihr in bis einschließlich Samstag, den 18. Juli, indem ihr im dafür eingerichteten [Poll](https://strawpoll.de/fyz8c7w) die Projekte benennt, welche in euren Augen die Geräte am ehesten verdient haben:
-* https://strawpoll.de/fyz8c7w
+* [https://strawpoll.de/fyz8c7w](https://strawpoll.de/fyz8c7w)
 
 Zur Erinnerung noch einmal die beiden Geräte um die es im Gewinnspiel geht:
 ![UAP-AC-M / GL.Inet B1300](/assets/gewinnspiel-2020.jpg)
