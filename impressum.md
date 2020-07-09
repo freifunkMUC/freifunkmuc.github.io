@@ -42,14 +42,5 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-### Daten
 
-Von allen Besuchern werden gespeichert und auf unbestimmte Zeit aufbewahrt:
-
-  * Datum/Uhrzeit,
-  * die abgerufene Seite,
-  * Statuscode des Webservers,
-  * Browser/Betriebssystem,
-  * der Referer.
-
-Wir geben die geloggten Daten nicht an Dritte weiter. Wir versuchen, im Rahmen der üblichen Vorsichtsmaßnahmen zur Sicherung unseres Servers zu verhindern, daß Dritte von diesen Daten Kenntnis erlangen.
+### <a href="/privacy">Datenschutzerklärung / Privacy Policy</a>
