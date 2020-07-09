@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bitte abstimmen fürs Gewinnspiel 2020"
-date:   2020-07-09 15:00:00
+date:   2020-07-09 10:00:00
 categories: freifunkmuc
 ---
 
