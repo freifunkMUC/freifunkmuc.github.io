@@ -24,7 +24,7 @@ Die Entscheidung ist gefallen!
 Hiermit geht der erste Preis (ein UAP-AC Mesh von Ubiquiti) an das Projekt "Versorgung des Volksfests Rudelzhausen".
 Der zweite Preis (ein GL-Inet B1300) findet seine neue Heimat beim Projekt am Heimstettener See.
 
-Wir bitten die Gewinner uns unter [chat.ffmuc.net](https://chat.ffmuc.net/) zu Kontaktieren!
+Wir bitten die Gewinner uns unter [chat.ffmuc.net](https://chat.ffmuc.net/) oder hilfe@ffmuc.bayern zu Kontaktieren!
 
 
 Wir bedankden uns für eure Teilnahme!
