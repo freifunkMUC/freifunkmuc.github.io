@@ -27,4 +27,4 @@ Der zweite Preis (ein GL-Inet B1300) findet seine neue Heimat beim Projekt am He
 Wir bitten die Gewinner uns unter [chat.ffmuc.net](https://chat.ffmuc.net/) oder hilfe@ffmuc.bayern zu Kontaktieren!
 
 
-Wir bedankden uns für eure Teilnahme!
+Wir bedanken uns für eure Teilnahme!
