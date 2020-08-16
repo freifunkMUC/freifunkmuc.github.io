@@ -10,7 +10,7 @@ permalink: /impressum/
 <br>80803 München
 
 ### Vertreten durch:
-<br>Marcel Senf, Vorsitzender
+<br>Tobias McFadden, Vorsitzender
 
 ### Registereintrag:
 <br>Eintragung im Vereinsregister
