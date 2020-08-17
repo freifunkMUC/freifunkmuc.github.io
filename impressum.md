@@ -6,8 +6,8 @@ permalink: /impressum/
 
 ### Angaben gemäß § 5 TMG:
 <br>Freie Netze München e. V.
-<br>Herzogstr. 25
-<br>80803 München
+<br>Parkstraße 28
+<br>82131 Gauting
 
 ### Vertreten durch:
 <br>Tobias McFadden, Vorsitzender

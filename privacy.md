@@ -183,8 +183,8 @@ Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf <a class="adsim
 </p>
 
 <p>Freie Netze München e.V.</p>
-<p>Herzogstr. 25</p>
-<p>80803 Munich</p>
+<p>Parkstraße 28</p>
+<p>82131 Gauting</p>
 <p>Germany</p>
 <p>Email: hilfe@ffmuc.bayern</p>
 <p>Website: www.ffmuc.net</p>
