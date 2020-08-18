@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pressemeldung Freie Netze München e.V. vom 18.08.2020"
-date:   2020-08-19 10:43:00
+date:   2020-08-18 10:43:00
 categories: freifunkmuc
 ---
 
