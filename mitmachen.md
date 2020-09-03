@@ -6,7 +6,7 @@ permalink: /mitmachen/
 
 ## Werde FreifunkerIn
 
-Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Wir befinden uns derzeit noch in der Beta-Phase. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
+Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
 
 Falls sich in Deiner Nachbarschaft noch keine FreifunkerInnen befinden und die Entfernung zur nächsten Wolke einfach zu groß ist, musst Du den Freifunk Router an Dein heimische Netzwerk anschließen. Damit ermöglichst Du, dass sich Dein neuer Knoten mit einem der zentralen Gateways der Community über Deine Internet-Verbindung verbinden kann. Keine Sorge, Du bestimmst wie viel Bandbreite Du dafür reservieren möchtest. Der Freifunk Knoten greift nicht auf Dein lokales Netzwerk zu. Falls Dein Router ein Gäste-Netzwerk unterstützt, dann schließe bitte dort Deinen Freifunk Knoten an (FritzBox-Nutzer beachten bitte den Punkt ["Mein Knoten funktioniert nicht am Gastzugang der FritzBox"][faq] in den FAQ). Vertrauen ist gut aber zusätzliche Sicherheitsmassnahmen sind besser.
 
