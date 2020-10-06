@@ -21,7 +21,7 @@ Freifunk funktioniert nur durch deinen Einsatz! Die Initiative setzt auf eine Ge
 
 Von der technischen Seite her bilden alle Freifunk-Geräte ein Mesh-Netzwerk. Das bedeutet, dass alle Geräte innerhalb des Freifunk Netzwerks direkt miteinander kommunizieren können und somit das eigene Netzwerk erstellen.
 
-Du als UnterstützerIn der Freifunk Community stellst also einen Knoten bei Dir zu Hause auf und bildest ein Teil dieses Netzwerks. Diese WLAN-Router verwenden eine spezielle Software (Firmware), die fr das Freifunk Projekt entwickelt wurde und außerdem frei sowie quelloffen im Internet zur Verfügung steht.
+Du als UnterstützerIn der Freifunk Community stellst also einen Knoten bei Dir zu Hause auf und bildest ein Teil dieses Netzwerks. Diese WLAN-Router verwenden eine spezielle Software (Firmware), die für das Freifunk Projekt entwickelt wurde und außerdem frei sowie quelloffen im Internet zur Verfügung steht.
 
 
 ## Störerhaftung
