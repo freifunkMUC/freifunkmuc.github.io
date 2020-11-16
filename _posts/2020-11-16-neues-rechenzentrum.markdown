@@ -34,3 +34,7 @@ Wir wünschen euch viel Spaß mit dem neuen Standort!
 [![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="100px" style="margin-right: 10px; margin-top: 8px;"}](https://meerfarbig.net)
 
 <div style="clear: both;" ></div>
+
+**Ihr wollt uns unterstützen?**
+
+Wir freuen uns immer über Schenkungen die uns den weiteren Betrieb ermöglichen. Informationen wie Bankverbindung oder [Paypal](https://www.paypal.me/ffmucspenden) findet ihr auf unserer [Vereinsseite](https://ffmuc.net/wiki/doku.php?id=ev:start).
