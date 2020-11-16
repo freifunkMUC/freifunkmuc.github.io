@@ -22,4 +22,4 @@ Natürlich geht auch ein Dank an alle anderen Spender, Unterstützer und sonstig
 
 ![Anexia](/assets/rz/anexia.jpg)
 ![Flexoptix](/assets/rz/flexoptix.png)
-![Meerfarbig](/assets/rz/meerfarbig.png)
+![Meerfarbig](/assets/rz/meerfarbig.jpeg)
