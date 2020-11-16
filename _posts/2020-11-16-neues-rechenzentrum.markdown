@@ -5,7 +5,7 @@ date:   2020-11-16 10:43:00
 categories: freifunkmuc
 ---
 
-Lange haben wir als Team dran gearbeitet und viel vorbereitet sowie Hardware angeschafft. Am 25.10.2020 war es dann so weit, es standen insgesamt 900km Fahrt an um den Einbau der Hardware an unserem neuen Standort zu realisieren. Um circa 13:00 CEST war es dann soweit und der erste Host von [AS212567](https://stat.ripe.net/AS212567) antwortete auf Ping!
+Lange haben wir als Team dran gearbeitet und viel vorbereitet sowie Hardware angeschafft. Am 25.10.2020, nach insgesamt 900km Fahrt, konnten wir den Einbau der Hardware an unserem neuen Standort endlich realisieren. Um circa 13:00 CEST war es dann soweit und der erste Host von [AS212567](https://stat.ripe.net/AS212567) antwortete auf Ping!
 
 ![Ping as212567](/assets/rz/ping-as212567.jpeg){: width="600px" }
 
