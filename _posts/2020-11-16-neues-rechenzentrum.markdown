@@ -22,6 +22,6 @@ Natürlich geht auch ein Dank an alle anderen Spender, Unterstützer und sonstig
 
 ![Anexia](/assets/rz/anexia.jpg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}
 
-![Flexoptix](/assets/rz/flexoptix.png){:.pull-left height="50px style="margin-top: 8px; "}
+![Flexoptix](/assets/rz/flexoptix.png){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}
 
-![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="50px style="margin-top: 8px; "}
+![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}
