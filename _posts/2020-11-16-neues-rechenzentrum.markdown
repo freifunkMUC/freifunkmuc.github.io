@@ -16,7 +16,7 @@ Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 C
 
 **ISP: Freie Netze München e.V.**
 
-Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun auch möglich Standortunabhängiger zu agieren. Außerdem können wir so auf Dauer mehr Kapazitäten in verschiedenen Städten ausbauen um so mehr Dezenztralität zu erreichen.
+Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun möglich standortunabhängiger zu agieren. Außerdem können wir so auf Dauer mehr Kapazitäten in verschiedenen Städten ausbauen um mehr Dezenztralität zu erreichen.
 
 ![ISP as212567](/assets/rz/isp-as212567.png){: height="400px" }
 
