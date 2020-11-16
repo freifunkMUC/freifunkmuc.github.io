@@ -20,6 +20,11 @@ Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun möglich stan
 
 ![ISP as212567](/assets/rz/isp-as212567.png){: height="400px" }
 
+**Ihr wollt uns unterstützen?**
+
+Ein Betrieb in dieser Größenordnung ist nicht mehr kostenfrei und wir sind deswegen auf Schenkungen angewiesen. 
+Informationen wie Bankverbindung oder [Paypal](https://www.paypal.me/ffmucspenden) findet ihr auf unserer [Vereinsseite](https://ffmuc.net/wiki/doku.php?id=ev:start).
+
 **Unsere Partner und Unterstützer**
 
 
@@ -33,8 +38,4 @@ Wir wünschen euch viel Spaß mit dem neuen Standort!
 [![Flexoptix](/assets/rz/flexoptix.png){:.pull-left height="60px" style="margin-right: 10px; margin-top: 8px;"}](https://www.flexoptix.net/de/)
 [![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="100px" style="margin-right: 10px; margin-top: 8px;"}](https://meerfarbig.net)
 
-<div style="clear: both;" ></div>
-
-**Ihr wollt uns unterstützen?**
-
-Wir freuen uns immer über Schenkungen die uns den weiteren Betrieb ermöglichen. Informationen wie Bankverbindung oder [Paypal](https://www.paypal.me/ffmucspenden) findet ihr auf unserer [Vereinsseite](https://ffmuc.net/wiki/doku.php?id=ev:start).
+<div style="clear: both;" ></div>´
