@@ -23,4 +23,6 @@ Natürlich geht auch ein Dank an alle anderen Spender, Unterstützer und sonstig
 [![Flexoptix](/assets/rz/flexoptix.png){:.pull-left height="60px style="margin-right: 10px; margin-top: 8px; "}](https://www.flexoptix.net/de/)
 [![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="100px style="margin-right: 10px; margin-top: 8px; "}](https://meerfarbig.net)
 
+<div style="clear: both;" ></div>
+
 Wir wünschen euch viel Spaß mit dem neuen Standort!
