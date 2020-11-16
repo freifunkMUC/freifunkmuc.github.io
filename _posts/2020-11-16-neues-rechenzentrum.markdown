@@ -14,6 +14,14 @@ Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 C
 ![Vorne as212567](/assets/rz/vorne-as212567.jpg){: width="600px" }
 ![Hinten as212567](/assets/rz/hinten-as212567.jpg){: width="600px" }
 
+**ISP: Freie Netze München e.V.**
+
+Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun auch möglich Standortunabhängiger zu agieren. Außerdem können wir so auf Dauer mehr Kapazitäten in verschiedenen Städten ausbauen um so mehr Dezenztralität zu erreichen.
+
+![ISP as212567](/assets/rz/isp-as212567.png){: width="600px" }
+
+**Unsere Partner und Unterstützer**
+
 
 Wir danken an dieser Stelle besonders unseren Partnern [Anexia](https://anexia.com), [Flexoptix](https://www.flexoptix.net/de/) und [Meerfarbig](https://meerfarbig.net) für die Unterstützung beim neuen Standort. Wir hoffen auf gute Zusammenarbeit die nächsten Jahre :).
 
