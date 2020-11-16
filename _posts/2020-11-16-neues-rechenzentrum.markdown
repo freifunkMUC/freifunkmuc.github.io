@@ -11,8 +11,8 @@ Lange haben wir als Team dran gearbeitet und viel vorbereitet sowie Hardware ang
 
 Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 Cores sowie 2x 10Gbit/s Netzwerkkarten. Als Switch kommt ein 52x 10Gbit/s Gerät von Arista zum Einsatz.
 
-[![Vorne as212567](/assets/rz/vorne-as212567.jpeg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
-[![Hinten as212567](/assets/rz/hinten-as212567.jpeg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
+[![Vorne as212567](/assets/rz/vorne-as212567.jpg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
+[![Hinten as212567](/assets/rz/hinten-as212567.jpg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
 
 
 Wir danken an dieser Stelle besonders unseren Partnern [Anexia](https:/anexia.com), [Flexoptix](https://www.flexoptix.net/de/) und [Meerfarbig](https://meerfarbig.net) für die Unterstützung beim neuen Standort.
