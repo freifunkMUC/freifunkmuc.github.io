@@ -15,7 +15,7 @@ Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 C
 ![Hinten as212567](/assets/rz/hinten-as212567.jpg){: width="600px" }
 
 
-Wir danken an dieser Stelle besonders unseren Partnern [Anexia](https://anexia.com), [Flexoptix](https://www.flexoptix.net/de/) und [Meerfarbig](https://meerfarbig.net) für die Unterstützung beim neuen Standort.
+Wir danken an dieser Stelle besonders unseren Partnern [Anexia](https://anexia.com), [Flexoptix](https://www.flexoptix.net/de/) und [Meerfarbig](https://meerfarbig.net) für die Unterstützung beim neuen Standort. Wir hoffen auf gute Zusammenarbeit die nächsten Jahre :).
 
 Natürlich geht auch ein Dank an alle anderen Spender, Unterstützer und sonstiger Helfer!
 
