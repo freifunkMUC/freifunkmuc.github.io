@@ -20,6 +20,8 @@ Wir danken an dieser Stelle besonders unseren Partnern [Anexia](https://anexia.c
 Natürlich geht auch ein Dank an alle anderen Spender, Unterstützer und sonstiger Helfer!
 
 
-[![Anexia](/assets/rz/anexia.jpg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
-[![Flexoptix](/assets/rz/flexoptix.png){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
-[![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}]
+![Anexia](/assets/rz/anexia.jpg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}
+
+![Flexoptix](/assets/rz/flexoptix.png){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}
+
+![Meerfarbig](/assets/rz/meerfarbig.jpeg){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}
