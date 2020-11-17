@@ -9,15 +9,15 @@ von Freifunk München!
 
 ### ANEXIA Internetdienstleistungs GmbH
 
-![anexia](/assets/unterstuetzung/anexia.jpg)
+![anexia](/assets/unterstuetzung/anexia.jpg){: height="100px" }
 
 ### Flexoptix GmbH
 
-![flexoptix](/assets/unterstuetzung/flexoptix.png)
+![flexoptix](/assets/unterstuetzung/flexoptix.png){: height="60px" }
 
 ### meerfarbig GmbH & Co. KG
 
-![meerfarbig](/assets/unterstuetzung/meerfarbig.jpeg)
+![meerfarbig](/assets/unterstuetzung/meerfarbig.jpeg){: height="100px" }
 
 ### SpaceNet AG
 
