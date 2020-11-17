@@ -9,22 +9,22 @@ von Freifunk München!
 
 ### ANEXIA Internetdienstleistungs GmbH
 
-![anexia](/assets/unterstuetzung/anexia.jpg){: height="100px" }
+[![ANEXIA logo](/assets/unterstuetzung/anexia.jpg){: height="100px" }][anexia]
 
 ### Flexoptix GmbH
 
-![flexoptix](/assets/unterstuetzung/flexoptix.png){: height="60px" }
+[![Flexoptix logo](/assets/unterstuetzung/flexoptix.png){: height="60px" }][flexoptix]
 
 ### meerfarbig GmbH & Co. KG
 
-![meerfarbig](/assets/unterstuetzung/meerfarbig.jpeg){: height="100px" }
+[![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: height="100px" }][meerfarbig]
 
 ### SpaceNet AG
 
-![spacenet](/assets/unterstuetzung/logo_spacenet.png)
+[![SpaceNet logo](/assets/unterstuetzung/logo_spacenet.png)][spacenet]
 
 [anexia]: https://www.anexia.com/
-[flexoptix]: https://www.flexoptix.com/
+[flexoptix]: https://www.flexoptix.net/
 [meerfarbig]: https://www.meerfarbig.net/
 [spacenet]: https://www.space.net/
 [kontakt]: /kontakt/
