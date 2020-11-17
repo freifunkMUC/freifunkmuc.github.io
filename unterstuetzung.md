@@ -25,6 +25,6 @@ von Freifunk München!
 
 [anexia]: https://www.anexia.com/
 [flexoptix]: https://www.flexoptix.net/
-[meerfarbig]: https://www.meerfarbig.net/
+[meerfarbig]: https://meerfarbig.net/
 [spacenet]: https://www.space.net/
 [kontakt]: /kontakt/
