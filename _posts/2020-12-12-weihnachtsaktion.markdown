@@ -10,9 +10,11 @@ Um den Betrieb von Freifunk München sicherzustellen sind wir wie ihr wisst auf 
 Die ersten 50 Zuwendungen ab 60 Euro bekommen einen von uns vorgeflashten Router zugeschickt. Dazu schickt ihr bitte nach erfolgter Überweisung oder Paypal Transaktion eine E-mail an [weihnachten@fnmuc.net](mailto:weihnachten@fnmuc.net), wir kümmern uns dann um den Versand! Natürlich freuen wir uns auch über jede andere Summe, denn jeder Euro hilft uns den Betrieb von #FFMEET und Freifunk München sicherzustellen.
 
 **Unsere Kontodaten lauten:**
-Freie Netze München e.V.
-DE73 7025 0150 0029 4939 13
-Kreissparkasse München - Starnberg - Ebersberg
+
+Freie Netze München e.V.<br />
+DE73 7025 0150 0029 4939 13<br />
+Kreissparkasse München - Starnberg - Ebersberg<br />
 
 **Paypal:**
+
 [paypal.me/ffmucspenden](paypal.me/ffmucspenden)
