@@ -37,14 +37,18 @@ Damit auf den Gateways alles rund läuft, haben wir uns zu guter Letzt noch eine
 
 ### Fehlersuche
 
-Direkt nach der Umstellung fiel auf, dass wir zwar deutlich schnellere Einzelverbindungen haben, die Gateways aber unter deutlich höherer Last leiden als zuvor. Also ging es los mit der Fehlersuche, dabei wurden [Flamegraphen](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) angefertigt und der Kernelcode sowie der batman-adv code untersucht. Es wurde relativ schnell klar, dass innerhalb des Kernel die Netzwerkpakete zu oft umkopiert werden müssen, was zu einem großen Performance Verlust führt. Die Fehlersuche nahm mehrere Tage in Anspruch. Dank der B.A.T.M.A.N Advanced Entwickler wurde das Problem aber behoben! Im Moment laufen wir deswegen auf einem Kernel mit Custom Patches.
+Direkt nach der Umstellung fiel auf, dass wir zwar deutlich schnellere Einzelverbindungen haben, die Gateways aber unter deutlich höherer Last litten, als zuvor. Auch mehr, als durch die Zunahme des Traffics zu erklären gewesen wäre. Also ging es los mit der Fehlersuche. Dabei wurden [Flamegraphen](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) angefertigt, Linux-Kernelcode studiert sowie der _batman-adv_-Code näher unter die Lupe genommen.
 
-#### B.A.T.M.A.N. Advanced Patches
+Es wurde relativ schnell klar, dass innerhalb des Kernels die Netzwerkpakete zu oft umkopiert werden mussten, was zu großen Performanceverlusten im Netzwerkstack führte. Nach mehreren Tagen intersiver Suche durch das FFMUC-Server-Team und auch dank der Unterstützung der _B.A.T.M.A.N.-Advanced_-Entwickler konnte das Problem eingegrenzt und schließlich behoben werden.
+
+Aktuell (12/2020) laufen unsere Gateways deswegen auf einem Linux-Kernel mit Custom-Patches, sozusagen an der "bleeding edge", aber wir hoffen, dass bald auch die Allgemeinheit von unserer Arbeit profitieren kann.
+
+#### B.A.T.M.A.N.-Advanced-Patches
 [batman-adv: Reserve needed_*room for fragments](https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126153120.1053700-1-sven@narfation.org/)<br />
 [batman-adv: Don't always reallocate the fragmentation skb head](https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-4-sw@simonwunderlich.de/)<br />
 [batman-adv: Consider fragmentation for needed_headroom](https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-2-sw@simonwunderlich.de/)<br />
 
-#### Linux Kernel Patch im VXLAN Code
+#### Linux-Kernel-Patch im VXLAN-Code
 [vxlan: Add needed_headroom for lower device](https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126125247.1047977-1-sven@narfation.org/)
 
 ### Fazit
