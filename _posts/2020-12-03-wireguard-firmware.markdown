@@ -12,6 +12,16 @@ Alles begann mit der Idee, dass Freifunk München endlich schnell und das ganze 
 
 Nachdem wir aber findige Techniker haben, haben diese einen Weg gefunden! Also transportieren wir nun über Wireguard VXLAN und in diesem läuft dann batman-adv! Klingt ein bisschen nach Matroschka Puppen? Stimmt, genauso ist es auch. Doch trotz des dreifachen encapsulierens sind wir bis zu fünf Mal schneller auf den aktuellen Routern!
 
-### Technik
-
 ### Softwareprojekte
+
+#### Wireguard Key Exchange
+Das Ganze klingt etwas nach Pionierarbeit? Richtig - deswegen haben wir auch einige neue Softwareprojekte ins Leben gerufen. Unter anderem braucht es wie oben erwähnt einen Broker zum annehmen der Wireguard Keys. Diesen haben wir zusammen mit Freifunk Regensburg und Freifunk Darmstadt [WGKEX](https://github.com/freifunkMUC/wgkex) (Wireguard Key Exchange) getauft. Dieser teilt sich in zwei Komponenten auf. Dem `broker` der die Keys per Webrequest annimmt und einem `worker` der dann die Gateways entsprechend programmiert dass die Keys bekannt sind und alle Routen korrekt gesetzt werden.
+
+#### Firmwarekomponente (gluon-mesh-vpn-wireguard-vxlan)
+Natürlich braucht es auch einen Teil in der Firmware der Knoten, welcher statt einem fastd oder l2tp VPN eine Wireguard + VXLAN Verbindung aufbaut. Dieses Projekt findet ihr natürlich auch [öffentlich auf Github](gluon-mesh-vpn-wireguard-vxlan).
+
+#### systemd-networkd
+Diese Komponente ist natürlich keine Vorraussetzung für das Setup, macht aber das Leben deutlich einfacher da es nun dank uns BATMAN Interfaces unterstützt! Den entsprechenden PullRequest findet ihr im [systemd Projekt](https://github.com/systemd/systemd/pull/17252)
+
+
+ https://github.com/freifunk-gluon/community-packages/pull/6
