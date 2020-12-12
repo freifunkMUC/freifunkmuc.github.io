@@ -7,7 +7,7 @@ categories: freifunkmuc
 
 Um den Betrieb von Freifunk München sicherzustellen, sind wir, wie viele Projekte, die von Ehrenamltichen betrieben werden, auf eure finanzielle Unterstützung angewiesen.
 
-In der heurigen Adventszeit bekommt ihr für eure großzügige Spende an den Freie Netze München e.V. neben einem vorzüglich gewarteten Freifunk München zusätzlichen ein kleines Präsent von uns.
+In der heurigen Adventszeit bekommt ihr für eure großzügige Unterstützung an den Freie Netze München e.V. neben einem vorzüglich gewarteten Freifunk München zusätzlichen ein kleines Präsent von uns.
 
 Dazu haben wir uns folgende Aktion ausgedacht:
 
