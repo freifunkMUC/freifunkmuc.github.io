@@ -30,6 +30,3 @@ Natürlich braucht es auch einen Teil in der Firmware der Knoten, welcher statt 
 
 #### systemd-networkd
 Diese Komponente ist natürlich keine Vorraussetzung für das Setup, macht aber das Leben deutlich einfacher da es nun dank uns BATMAN Interfaces unterstützt! Den entsprechenden PullRequest findet ihr im [systemd Projekt](https://github.com/systemd/systemd/pull/17252)
-
-
- https://github.com/freifunk-gluon/community-packages/pull/6
