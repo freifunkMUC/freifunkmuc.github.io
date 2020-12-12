@@ -15,7 +15,7 @@ Nachdem wir aber findige Techniker haben, haben diese einen Weg gefunden! Also t
 ### Technik
 
 #### Wireguard
-Wireguard verwendet eine Public/Private Key Architektur, es heißt es ist notwendig dass wir vorher den PublicKey eines Knoten wissen und bei den Gateways entsprechend anmelden. Hierzu haben wir wie unten erwähnt eine eigene Softwarekomponente geschrieben, den Wireguard Key Exchange. Hier schicken die Knoten ihren Key hin und werden entsprechend auf den Gateways angelegt. Auch wird aus diesem Publikey die interne v6 Adresse berechnet, welche wir für die VXLAN Kommunikation benötigen und diese wird entsprechend im Wireguard freigegeben.
+Wireguard verwendet eine Public/Private Key Architektur, das heißt es ist notwendig dass wir vorher den PublicKey eines Knoten wissen und bei den Gateways entsprechend anmelden. Hierzu haben wir wie unten erwähnt eine eigene Softwarekomponente geschrieben, den Wireguard Key Exchange. Hier schicken die Knoten ihren Key hin und werden entsprechend auf den Gateways angelegt. Auch wird aus diesem Publikey die interne v6 Adresse berechnet, welche wir für die VXLAN Kommunikation benötigen und diese wird entsprechend im Wireguard freigegeben.
 
 #### VXLAN
 Wir verwenden VXLAN um die Limitierung von Wireguard zu umgehen nur "geroutete" Pakete auf Layer 3 zu übertragen. Mit VXLAN ist es uns möglich via Layer3 wieder Layer2 Pakete (in unserem Fall BATMAN) zu übertragen. Dazu programmieren wir auf den Gateways und den Knoten eine 1:1 v6 Verbindung zwischen einander. Auch hier werden die IPv6 Adressen wieder aus dem Publickey des Gateways und des Knoten errechnet. So stellen wir auch sicher, dass eine IPv6 Unique ist.
