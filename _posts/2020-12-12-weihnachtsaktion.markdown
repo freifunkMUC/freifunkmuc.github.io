@@ -13,7 +13,7 @@ Dazu haben wir uns folgende Aktion ausgedacht:
 
 Alle noblen Spender, die uns eine finanziellen Zuwendungen ab 60 Euro zukommen lassen, bekommen, auf Wunsch, einen von uns vorkunfigurierten Netgear R6120-Router mit unserer brandneuen und sehr leistungsfähigen auf [_WireGuard_-VPN](wireguard-firmware) basierenden Firmware zugeschickt. Damit könnte ihr und eure Lieben sofort ins Freifunk München-Netz starten.
 
-Dazu schickt ihr uns bitte nach erfolgter Überweisung oder PayPal-Transaktion eine E-Mail an [weihnachten@ffmuc.net](mailto:weihnachten@ffmuc.net) mit eurem Namen bzw. der PayPal-Adresse und eurer Lieferanschrift zu. Wir kümmern uns dann um den Versand.
+Dazu schickt ihr uns bitte nach erfolgter Überweisung oder PayPal-Transaktion eine E-Mail an [weihnachten@fnmuc.net](mailto:weihnachten@fnmuc.net) mit eurem Namen bzw. der PayPal-Adresse und eurer Lieferanschrift zu. Wir kümmern uns dann um den Versand.
 
 Natürlich freuen wir uns auch über jede andere Summe, denn jeder Euro hilft, den Betrieb von unserer kostenlosen Videokonferenz-Plattform [#FFMEET](https://meet.ffmuc.net/) und dem wachsenden Freifunk München langfristig sicherzustellen.
 
