@@ -35,6 +35,18 @@ Natürlich benötigten wir auch einen Teil in der Firmware der Teilnehmer-Knoten
 #### systemd-networkd
 Damit auf den Gateways alles rund läuft, haben wir uns zu guter Letzt noch eine **systemd-Erweitung** ausgedacht. Diese Komponente ist natürlich keine Vorraussetzung für das Setup. Sie macht uns und anderen _systemd_-Nutzern das Leben aber deutlich einfacher, da _systemd_ nun auch _B.A.T.M.A.N._-Interfaces unterstützt! Den entsprechenden Pull-Request findet ihr im _systemd_-Projekt, wieder öffentlich auf [GitHub](https://github.com/systemd/systemd/pull/17252).
 
+### Fehlersuche
+
+Direkt nach der Umstellung fiel auf, dass wir zwar deutlich schnellere Einzelverbindungen haben, die Gateways aber unter deutlich höherer Last leiden als zuvor. Also ging es los mit der Fehlersuche, dabei wurden [Flamegraphen](http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html) angefertigt und der Kernelcode sowie der batman-adv code untersucht. Es wurde relativ schnell klar, dass innerhalb des Kernel die Netzwerkpakete zu oft umkopiert werden müssen, was zu einem großen Performance Verlust führt. Dank der B.A.T.M.A.N Advanced Entwickler wurde das Problem aber zeitnah behoben! Im Moment laufen wir deswegen auf einem Kernel mit Custom Patches.
+
+#### B.A.T.M.A.N. Advanced Patches
+https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126153120.1053700-1-sven@narfation.org/
+https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-4-sw@simonwunderlich.de/
+https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-2-sw@simonwunderlich.de/
+
+#### Linux Kernel Patch im VXLAN Code
+https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126125247.1047977-1-sven@narfation.org/
+
 ### Fazit
 Heute, fast einen Monat nach Inbetriebnahme des neuen Systems, können wir zufrieden auf das Projekt zurückblicken. Es hat uns zwar unzählige Stunden Arbeit gekostet, war aber für alle Beteiligten immer spannend und lehrreich. Mit den Performance-Gewinnen sind wir auch sehr zufrieden und für die Freifunk- und _systemd_-Community ist auch etwas herausgekommen.
 
