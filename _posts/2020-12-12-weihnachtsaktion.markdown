@@ -11,7 +11,7 @@ In der heurigen Adventszeit bekommt ihr für eure großzügige Unterstützung de
 
 Dazu haben wir uns folgende Aktion ausgedacht:
 
-Alle noblen Unterstützer, die uns eine finanzielle Zuwendung ab 60 Euro zukommen lassen, bekommen, auf Wunsch, einen von uns **vorkonfigurierten Netgear R6120-Router** mit unserer brandneuen, sehr leistungsfähigen und auf [_WireGuard_-VPN](https://ffmuc.net/freifunkmuc/2020/12/03/wireguard-firmware/) basierenden Firmware zugeschickt. Damit könnt ihr und eure Lieben sofort ins Freifunk München-Netz starten.
+Die ersten 50 noblen Unterstützer, die uns eine finanzielle Zuwendung ab 60 Euro zukommen lassen, bekommen, auf Wunsch, einen von uns **vorkonfigurierten Netgear R6120-Router** mit unserer brandneuen, sehr leistungsfähigen und auf [_WireGuard_-VPN](https://ffmuc.net/freifunkmuc/2020/12/03/wireguard-firmware/) basierenden Firmware zugeschickt. Damit könnt ihr und eure Lieben sofort ins Freifunk München-Netz starten.
 
 Dazu schickt ihr uns bitte nach erfolgter Überweisung oder PayPal-Transaktion eine E-Mail an [weihnachten@fnmuc.net](mailto:weihnachten@fnmuc.net) mit eurem Namen bzw. der PayPal-Adresse und eurer Lieferanschrift zu. Wir kümmern uns dann um den Versand.
 
