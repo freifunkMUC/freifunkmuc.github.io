@@ -29,7 +29,9 @@ IT-Chefin des Freifunk Netzwerks und des neu entwickelten Service ist Annika Wic
 „Wir sind technisch sehr gut aufgestellt“, erklärt sie.
 Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie
 [Cloudflare](https://www.cloudflare.com),
-[Esplendor Group](https://esplendor.industries),
+[Esplendor Group](https://esplendor.industries)
+[PHILUNET](https://philunet.de),
+[Vserver.site](https://vserver.site),
 [PlusServer GmbH](https://www.plusserver.com) und die
 [Open Telekom Cloud der Deutschen Telekom AG](https://open-telekom-cloud.com).
 Auch [Alibaba Cloud](https://www.alibabacloud.com) und
@@ -70,7 +72,13 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 
 <div style="clear: both;" ></div>
 
+[![Vserver.site](/assets/unterstuetzung/vserversite_logo.png){:.pull-left width="300px" style="margin-right: 10px"}](https://vserver.site)
+[![PHILUNET](/assets/unterstuetzung/philunet_logo.svg){:.pull-left width="300px" style="margin-right: 10px"}](https://philunet.de/)
+
+<div style="clear: both;" ></div>
+
 ### Updates:
+- 05.01.2021: Vserver.site und PHILUNET als Supporter ergänzt.
 - 27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
 - 28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.
 - 03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.
