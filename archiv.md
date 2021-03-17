@@ -9,6 +9,32 @@ title: Archiv
 
 <div class="panel-heading" markdown="1">
 
+### 2021
+<ul class="posts">
+{% for post in site.posts %}
+  {% assign y = post.date | date: "%Y" %}
+  {% if y == "2021" %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+### 2020
+<ul class="posts">
+{% for post in site.posts %}
+  {% assign y = post.date | date: "%Y" %}
+  {% if y == "2020" %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 ### 2019
 <ul class="posts">
 {% for post in site.posts %}
