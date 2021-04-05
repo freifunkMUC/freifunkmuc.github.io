@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <META HTTP-EQUIV="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ;      style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self'">
+    <META HTTP-EQUIV="X-Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ;      style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self'">
+    <META HTTP-EQUIV="X-WebKit-CSP" content="default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ;      style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self'">
+    <title>Willkommen bei Freifunk München</title>
+    <meta name="viewport" content="width=device-width">
+
+
+    <meta name="description" content="Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München">
+    <link rel="canonical" href="https://ffmuc.net//">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Projekktor -->
+    <link rel="stylesheet" href="/assets/projekktor/projekktor.style.css">
+
+    <!-- page feed -->
+    <link rel="alternate" type="application/rss+xml" title="Freifunk München Feed" href="/feed.xml" />
+
+    <!-- podlove stuff -->
+    <link rel="alternate" type="application/rss+xml" title="mp3 Podcast Feed" href="https://ffmuc.net/podcast/mp3.xml" />
+</head>
+
+
+
+    <body>
+
+    <header class="site-header">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Freifunk München</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/wasistfreifunk">Was ist Freifunk?</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mitmachen <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-link" href="/mitmachen">0. Einstieg</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:download">1. Firmware herunterladen</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware">2. Router flashen</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:gui">3. Router konfigurieren</a></li>
+            <li><a class="page-link" href="/verbreiten">Infomaterial</a></li>
+            <li><a class="page-link" href="/unterstuetzung">Unterstützung</a></li>
+          </ul>
+        </li>
+        <li><a href="https://map.ffmuc.net/">Knotenkarte</a></li>
+        <li><a href="https://ffmuc.net/wiki/doku.php?id=knb:faq">FAQ</a></li>
+        <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
+        <li><a href="/wiki">Wiki</a></li>
+        <li><a href="https://shop.spreadshirt.de/freifunk-muenchen">Shop</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dienste <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-link" href="https://chat.ffmuc.net">Chat</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:dohdot">DoH/DoT</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/pad/">Etherpad</a></li>
+            <li><a class="page-link" href="https://meet.ffmuc.net">Jitsi-Meet</a></li>
+          </ul>
+        </li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Willkommen bei Freifunk München</h1>
+  </header>
+
+  <article class="post-content">
+  <p><img src="/assets/mobilewikilogo.png" alt="Logo Freifunk München" class="pull-left" width="60px" height="60px" style="margin-right: 10px" /></p>
+
+<p>Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.</p>
+
+<p>Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.</p>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading">
+        <h2 id="neuigkeiten">Neuigkeiten</h2>
+
+        <ul id="posts" class="posts">
+
+  <li>
+    <span class="post-date">Dec 12, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/12/12/weihnachtsaktion/">Freifunk München - Weihnachtsaktion</a>
+  </li>
+
+  <li>
+    <span class="post-date">Dec 3, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/12/03/wireguard-firmware/">WireGuard-Firmware oder Freifunk München wird endlich schnell! - #USEMOREBANDWIDTH</a>
+  </li>
+
+  <li>
+    <span class="post-date">Nov 16, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/11/16/neues-rechenzentrum/">Unser neuer Standort - AS212567 - #USEMOREBANDWIDTH</a>
+  </li>
+
+  <li>
+    <span class="post-date">Aug 18, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/08/18/pressemitteilung-fnmuc/">Pressemeldung Freie Netze München e.V. vom 18.08.2020</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 19, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/07/19/gewinnspiel_aufloesung/">Auflösung des  Gewinnspiels 2020</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 9, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/07/09/gewinnspiel_auslosung/">Bitte abstimmen fürs Gewinnspiel 2020</a>
+  </li>
+
+  <li>
+    <span class="post-date">Apr 23, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/04/23/laptopsammelei/">Laptopsammelei - Aufruf zur Laptopspende für Schüler*innen im Landkreis München</a>
+  </li>
+
+  <li>
+    <span class="post-date">Apr 21, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/04/21/postmortem/">MEET - Ausfall am 21.04.2020 von 10:04 - 10:24</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 23, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/03/23/pressemitteilung_meet/">Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 21, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/03/21/meet/">Konferenzserver - meet.ffmuc.net</a>
+  </li>
+
+  <li>
+    <span class="post-date">Feb 28, 2020</span>
+    <a class="post-link" href="/freifunkmuc/2020/02/28/gewinnspiel/">Gewinnspiel 2020</a>
+  </li>
+
+  <li>
+    <span class="post-date">Sep 16, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/09/16/doh-dot-ffmuc/">DNS-over-HTTPS und DNS-over-TLS Unterstützung</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 23, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/07/23/aktuelle-dokumentationen-un-anleitungen/">Aktuelle Anleitungen und Dokumentationen im WIKI</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 11, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/07/11/austausch-aelterer-geraete/">Austausch älterer Router</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 2, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/07/02/verschiedene-ssids/">Warum gibt es verschiedene SSIDs?</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jun 7, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/06/07/migration-abgeschlossen/">Migration abgeschlossen</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jun 3, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/06/03/infrastruktur-reboot-teil2/">Infrastruktur Reboot Teil 2.0</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jun 1, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/06/01/infrastruktur-reboot-teil175/">Infrastruktur Reboot Teil 1.75</a>
+  </li>
+
+  <li>
+    <span class="post-date">May 27, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/05/27/infrastruktur-reboot-teil15/">Infrastruktur Reboot Teil 1.5</a>
+  </li>
+
+  <li>
+    <span class="post-date">May 20, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/05/20/infrastruktur-reboot-teil1/">Infrastruktur Reboot Teil 1</a>
+  </li>
+
+  <li>
+    <span class="post-date">Apr 3, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/04/03/new-autoupdater-branch-testing/">Neuer Branch für autoupdater: testing</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 29, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/03/29/release-firmware-v2018.1-stable/">Firmware Rollout auf v2018.1 erfolgreich. Bitte manuell aktualisieren</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 28, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/03/28/firmware-update/">Bitte Firmware aktualisieren auf v2018.1</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 26, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/03/26/hardware-umzug-spacenet/">ACHTUNG - Freifunk ist OFFLINE wegen Wartungsarbeiten am 27. März 15:00 - 18:00 Uhr</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 19, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/03/19/release-firmware-v2019.0-experimental/">Tests für v2019.0 auf experimental</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 18, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/03/18/release-firmware-v2018.0-stable/">Firmware-Release v2018.0 geplant am 26.03.</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 1, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/03/01/release-firmware-v2018.0-experimental/">Firmware-Release v2018.0 - Phase 2</a>
+  </li>
+
+  <li>
+    <span class="post-date">Feb 27, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/02/27/uplink-erweiterung/">Upgrade Uplink auf 2 Gbit/s</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jan 31, 2019</span>
+    <a class="post-link" href="/freifunkmuc/2019/01/31/firmware-v2018.0/">Neue Firmware v2018.0</a>
+  </li>
+
+  <li>
+    <span class="post-date">Aug 5, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/08/05/neue-stable-firmware-v2016.0/">Neue Stable Firmware v2016.0</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 1, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/07/01/freifunk-jetzt-im-ankunftszentrum/">Freifunk bringt freies WLAN in das Ankunftszentrum im Euro-Industriepark</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jun 3, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/06/03/freifunk-auf-dem-corso-leopold/">Freifunk auf dem Corso Leopold</a>
+  </li>
+
+  <li>
+    <span class="post-date">Apr 29, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/04/29/zusammenarbeit-mit-spacenet/">SpaceNet unterstützt eine der größten deutschen Freifunk-Communities</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 13, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/03/13/viele-neuigkeiten-und-1500-knoten/">Viele Neuigkeiten und 1500 Knoten online</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jan 9, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/01/09/firmware-fuer-tp-link-tl-wr841n-v10/">Firmware für TP-Link TL-WR841N(D) v10</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jan 6, 2016</span>
+    <a class="post-link" href="/freifunkmuc/2016/01/06/alle-in-einem-netz-freifunk-in-dachau/">Alle in einem Netz: Freifunk in Dachau</a>
+  </li>
+
+  <li>
+    <span class="post-date">Oct 29, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/10/29/unvereinbarkeitserklaerung/">Farbe bekennen gegen Rechts / Unvereinbarkeitserklärung</a>
+  </li>
+
+  <li>
+    <span class="post-date">Oct 15, 2015</span>
+    <a class="post-link" href="/freifunkmuc/podcast/2015/10/15/podcast-folge-freifunk-muenchen-jahresrueckblick/">Podcast Folge 03 - Freifunk München Jahresrückblick</a>
+  </li>
+
+  <li>
+    <span class="post-date">Oct 14, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/10/14/1000-knoten-online/">1000 Knoten online</a>
+  </li>
+
+  <li>
+    <span class="post-date">Oct 8, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/10/08/sz-berichtet-ueber-freifunk-in-pullach/">SZ berichtet über Freifunk in Pullach</a>
+  </li>
+
+  <li>
+    <span class="post-date">Sep 13, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/09/13/b5-aktuell-beitrag/">B5 aktuell Beitrag</a>
+  </li>
+
+  <li>
+    <span class="post-date">Sep 9, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/09/09/fluechtlinge-in-muenchen-funken-frei/">Flüchtlinge in München funken frei</a>
+  </li>
+
+  <li>
+    <span class="post-date">Sep 1, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/09/01/freifunk-am-hbf-muenchen/">Freifunk für Flüchtlinge am Hauptbahnhof München</a>
+  </li>
+
+  <li>
+    <span class="post-date">Aug 24, 2015</span>
+    <a class="post-link" href="/freifunkmuc/medien/2015/08/24/freifunker-helfen-fluechtlingen/">Freifunker helfen Flüchtlingen</a>
+  </li>
+
+  <li>
+    <span class="post-date">Aug 11, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/08/11/700-Knoten-im-Netz/">700 Knoten im Netz</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 23, 2015</span>
+    <a class="post-link" href="/freifunkmuc/podcast/2015/07/23/erste-podcast-folge/">Erste Podcast Folge online</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jul 17, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/07/17/infomaterial/">Infomaterial</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jun 25, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/06/25/1-jahr-freifunk-muenchen/">Ein Jahr Freifunk München</a>
+  </li>
+
+  <li>
+    <span class="post-date">May 12, 2015</span>
+    <a class="post-link" href="/freifunkmuc/2015/05/12/500-Knoten-im-Netz/">500 Knoten im Netz</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 27, 2015</span>
+    <a class="post-link" href="/testbetrieb/freifunkmuc/2015/03/27/netzupgrade-v2015.2-erfolgreich/">Upgrade des Freifunk-München Netzes erfolgreich durchgeführt</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 16, 2015</span>
+    <a class="post-link" href="/testbetrieb/freifunkmuc/2015/03/16/netzupgrade-verschoben/">Update verschoben</a>
+  </li>
+
+  <li>
+    <span class="post-date">Mar 12, 2015</span>
+    <a class="post-link" href="/testbetrieb/freifunkmuc/2015/03/12/netzupgrade/">Start des Produktivbetriebs am 16. März 2015</a>
+  </li>
+
+  <li>
+    <span class="post-date">Feb 25, 2015</span>
+    <a class="post-link" href="/pr/video/rundfunk/br/freifunkmuc/2015/02/25/br-abendschau-tv-beitrag/">Fernsehbeitrag Bayrischer Rundfunk - Abendschau vom 11.02.2015</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jan 28, 2015</span>
+    <a class="post-link" href="/meta/2015/01/28/beitrag-ueber-freifunk-muenchen-auf-br1.markdown/">Beitrag über Freifunk München auf Bayern 1</a>
+  </li>
+
+  <li>
+    <span class="post-date">Jan 20, 2015</span>
+    <a class="post-link" href="/organisation/2015/01/20/vereinsgruendung-freie-netze-muenchen-ev/">Gründung des Vereins Freie Netze München</a>
+  </li>
+
+  <li>
+    <span class="post-date">Nov 19, 2014</span>
+    <a class="post-link" href="/technik/2014/11/19/neue-firmware-erweiterte-statistiken/">Neue Firmware Version und erweiterte Statistiken</a>
+  </li>
+
+  <li>
+    <span class="post-date">Nov 11, 2014</span>
+    <a class="post-link" href="/meta/2014/11/11/beitrag-ueber-freifunk-muenchen-auf-br2/">Beitrag über Freifunk München auf Radio BR2</a>
+  </li>
+
+  <li>
+    <span class="post-date">Nov 10, 2014</span>
+    <a class="post-link" href="/meta/2014/11/10/freifunk-muenchen-auf-der-make-munich/">Freifunk München auf der Make Munich</a>
+  </li>
+
+  <li>
+    <span class="post-date">Oct 27, 2014</span>
+    <a class="post-link" href="/meta/2014/10/27/statement-str-antrag/">Statement Stadtratsantrag Freifunk-Router auf städtischen Gebäuden</a>
+  </li>
+
+  <li>
+    <span class="post-date">Sep 10, 2014</span>
+    <a class="post-link" href="/organisation/2014/09/10/neue-mailingliste/">Neue Mailinglisten</a>
+  </li>
+
+  <li>
+    <span class="post-date">Sep 6, 2014</span>
+    <a class="post-link" href="/testbetrieb/freifunkmuc/2014/09/06/testbetrieb-gestartet/">Testbetrieb gestartet</a>
+  </li>
+
+</ul>
+
+        <p class="rss-subscribe"><a href="/feed.xml">RSS abonnieren</a> | <a href="/archiv">Archiv</a></p>
+      </div>
+
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading">
+        <h2 id="treffen">Treffen</h2>
+
+        <p>Wir treffen uns meistens am letzten Mittwoch des Monats im <a href="https://muc.ccc.de">muCCC</a> (<a href="https://osm.org/go/0JAf0IVLh?node=2012031859">Schleißheimer Str. 39</a>).</p>
+
+        <p>Aktuelle Infos zum Treffen im <a href="https://chat.ffmuc.net/freifunk/channels/00-freifunk-treffen">ffmuc-chat</a> sowie im <a href="https://ffmuc.net/wiki/doku.php?id=treffen:start">Wiki</a></p>
+
+        <!-- Das nächste Treffen im **"404 page not found"** findet am **12. Juli 2018 um 19:00 Uhr** statt. Erkennungsmerkmal ist der Freifunkrouter auf dem Tisch.
+Das nächste Treffen im **muCCC** findet am **25. Juli 2018 um 20:00 Uhr** statt.
+Es können vor Ort gleich ein fertig konfigurierter Router, Flyer und Sticker mitgenommen werden.
+ Zusätzlich findet diesen Monat am **15.2.2018 ab 19 Uhr** ein Freifunk-Treffen im "404 page not found" Cafe in der ([Corneliusstr. 2](https://www.openstreetmap.org/node/279849547)) statt, diesmal mit einem Vortrag über den Einsatz und Aufbau von freifunk in Flüchtlingsheimen.  -->
+
+      </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="list-group">
+
+<div class="panel-heading">
+        <h2 id="netzwerk-status">Netzwerk Status</h2>
+        <p><a target="_blank" href="https://stats.ffmuc.net/dashboard/db/network-overview">» Gateway Stats-Dashboard</a>
+<br />
+<br /><u><b>Aktuell:</b></u>
+<br />
+<br /><u><b>History:</b></u>
+<br /><b>01.10.20 10:20-13:46</b> Ausfall von DoT (dot.ffmuc.net)
+<br /><b>04.05.20 17:20-17:50</b> IPv4 DHCP gestört für ca. 30 Minuten
+<br /><b>03.06 - 06.06.2019</b> Mailserver offline. u.A. Tickethandling, Registrierungen im Chat sind nicht möglich
+<br /><b>27.03.2019 17:00-20:00</b> Das gesamte Netz ist aufgrund eines geplanten Serverumzugs offline
+<br /><b>02.10.2018</b> Probleme mit den Miniaturbildern der Statistiken auf der Knotenkarte wurde behoben
+<br /><b>10.09 - 26.09.2018 11:20</b> erhebliche Probleme mit den Gateways, seit 25. September kein IPv4 Traffic
+<br /><b>17.01.2018 13:00-23:30</b> Alle Segmente sind auf Grund einer Stoerung auf den Gateways Offline
+<br /></p>
+
+      </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+  </article>
+
+</div>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!--<h2 class="footer-heading">Freifunk München</h2>-->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>
+          <a href="http://freifunk.net/" target="_blank"><img src="/assets/button_freifunk.png"></a>
+        </li>
+        <li>
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="/assets/license.png"></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        <li>
+          <a href="https://github.com/FreifunkMUC">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">FreifunkMUC</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/FreifunkMUC">
+            <span class="icon twitter">
+              <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill="#C2C2C2" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27
+                c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767
+                c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206
+                C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271
+                c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469
+                c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+              </svg>
+            </span>
+            <span class="username">FreifunkMUC</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://ffmuc.net/privacy/">Datenschutzerklärung/Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München</p>
+    </div>
+
+  </div>
+
+</footer>
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+      
+    <script src="/js/longlist.min.js" type="text/javascript"></script>
+      
+    <script src="/js/main.js" type="text/javascript"></script>
+      
+    
+    </body>
+</html>

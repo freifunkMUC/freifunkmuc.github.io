@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://ffmuc.net//feed.xml" rel="self" type="application/atom+xml" /><link href="https://ffmuc.net//" rel="alternate" type="text/html" /><updated>2021-04-05T16:58:36+00:00</updated><id>https://ffmuc.net//feed.xml</id><title type="html">Freifunk München</title><subtitle>Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München</subtitle><entry><title type="html">Freifunk München - Weihnachtsaktion</title><link href="https://ffmuc.net//freifunkmuc/2020/12/12/weihnachtsaktion/" rel="alternate" type="text/html" title="Freifunk München - Weihnachtsaktion" /><published>2020-12-12T08:43:00+00:00</published><updated>2020-12-12T08:43:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/12/12/weihnachtsaktion</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/12/12/weihnachtsaktion/">&lt;p&gt;Um den Betrieb von Freifunk München sicherzustellen, sind wir, wie viele Projekte, die von Ehrenamltichen betrieben werden, auf eure finanzielle Unterstützung angewiesen.&lt;/p&gt;
+
+&lt;p&gt;In der heurigen Adventszeit bekommt ihr für eure großzügige Unterstützung des Freie Netze München e.V., neben einem vorzüglich gewarteten Freifunk München, zusätzlich ein kleines Präsent von uns.&lt;/p&gt;
+
+&lt;p&gt;Dazu haben wir uns folgende Aktion ausgedacht:&lt;/p&gt;
+
+&lt;p&gt;Die ersten 50 noblen Unterstützer, die uns eine finanzielle Zuwendung ab 60 Euro zukommen lassen, bekommen, auf Wunsch, einen von uns &lt;strong&gt;vorkonfigurierten Netgear R6120-Router&lt;/strong&gt; mit unserer brandneuen, sehr leistungsfähigen und auf &lt;a href=&quot;https://ffmuc.net/freifunkmuc/2020/12/03/wireguard-firmware/&quot;&gt;&lt;em&gt;WireGuard&lt;/em&gt;-VPN&lt;/a&gt; basierenden Firmware zugeschickt. Damit könnt ihr und eure Lieben sofort ins Freifunk München-Netz starten.&lt;/p&gt;
+
+&lt;p&gt;Dazu schickt ihr uns bitte nach erfolgter Überweisung oder PayPal-Transaktion eine E-Mail an &lt;a href=&quot;mailto:weihnachten@fnmuc.net&quot;&gt;weihnachten@fnmuc.net&lt;/a&gt; mit eurem Namen bzw. der PayPal-Adresse und eurer Lieferanschrift zu. Wir kümmern uns dann um den Versand.&lt;/p&gt;
+
+&lt;p&gt;Natürlich freuen wir uns auch über jede andere Summe, denn jeder Euro hilft, den Betrieb von unserer kostenlosen Videokonferenz-Plattform &lt;a href=&quot;https://meet.ffmuc.net/&quot;&gt;#FFMEET&lt;/a&gt; und dem wachsenden Freifunk München langfristig sicherzustellen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unsere Kontodaten lauten:&lt;/strong&gt;&lt;br /&gt;
+Freie Netze München e.V.&lt;br /&gt;
+DE73 7025 0150 0029 4939 13&lt;br /&gt;
+Kreissparkasse München - Starnberg - Ebersberg&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Paypal:&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://paypal.me/ffmucspenden&quot;&gt;paypal.me/ffmucspenden&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/weihnachtsaktion/router.jpg&quot; alt=&quot;Netgear R6120&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Um den Betrieb von Freifunk München sicherzustellen, sind wir, wie viele Projekte, die von Ehrenamltichen betrieben werden, auf eure finanzielle Unterstützung angewiesen.</summary></entry><entry><title type="html">WireGuard-Firmware oder Freifunk München wird endlich schnell! - #USEMOREBANDWIDTH</title><link href="https://ffmuc.net//freifunkmuc/2020/12/03/wireguard-firmware/" rel="alternate" type="text/html" title="WireGuard-Firmware oder Freifunk München wird endlich schnell! - #USEMOREBANDWIDTH" /><published>2020-12-03T10:43:00+00:00</published><updated>2020-12-03T10:43:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/12/03/wireguard-firmware</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/12/03/wireguard-firmware/">&lt;h3 id=&quot;überblick&quot;&gt;Überblick&lt;/h3&gt;
+
+&lt;p&gt;Am 19.11.2020 war es dann soweit: Wir haben unser komplettes Netzwerk von &lt;em&gt;fastd&lt;/em&gt;-VPN auf &lt;strong&gt;WireGuard-VPN&lt;/strong&gt; umgestellt. Was einfach klingt, war überhaupt nicht einfach. Viele Softwarekomponenten auf unseren Servern und auf den Teilnehmer-Routern mussten neu eingebunden und angepasst werden. Vor allem mussten viele, viele Tests durchgeführt werden, um dieses Projekt zu verwirklichen.&lt;/p&gt;
+
+&lt;p&gt;Alles begann mit der Idee, Freifunk München für die Benutzer endlich schneller zu machen und das volle Potential der Teilnehmer-Router und Gateways im Backend abzurufen. Zudem stand ein größerer Umbau der Server-Infrastruktur an und so ergab es sich, dass sich unser Team sowieso mit dem gesamten FFMUC-Ökosystem auseinandersetzen musste.&lt;/p&gt;
+
+&lt;p&gt;Es war uns klar, dass es mit der vorhandenen VPN-Technik nicht möglich wäre, mehr Leistung herauszuholen. Deswegen suchten wir Alternativen zum bestehenden &lt;em&gt;fastd&lt;/em&gt;-Ansatz und wurden bei &lt;a href=&quot;https://www.wireguard.com/&quot;&gt;WireGuard&lt;/a&gt; fündig. Aber vorher gab ein großes Problem zu lösen: &lt;em&gt;WireGuard&lt;/em&gt; transportiert nur Layer-3-Verbindungen und keine Layer-2-Verbindungen, die wir aber für das von uns eingesetzte Meshprotokoll, &lt;strong&gt;B.A.T.M.A.N.-Advanced&lt;/strong&gt; &lt;em&gt;batman-adv&lt;/em&gt;, benötigen.&lt;/p&gt;
+
+&lt;p&gt;Aber wir haben ja findige Techniker und die haben eine Lösung gefunden! Also transportieren wir nun über &lt;em&gt;WireGuard&lt;/em&gt; ein &lt;strong&gt;Virtual eXtensible LAN&lt;/strong&gt; (&lt;em&gt;VXLAN&lt;/em&gt;, siehe &lt;a href=&quot;https://tools.ietf.org/html/rfc7348&quot;&gt;RFC 7348&lt;/a&gt;) und in diesem &lt;strong&gt;VXLAN&lt;/strong&gt; läuft dann &lt;em&gt;batman-adv&lt;/em&gt;. Klingt ein bisschen nach Matroschka-Puppe? Stimmt, genauso ist es auch. Doch trotz des dreifachen “Encapsulierens” sind wir bis zu fünf Mal schneller auf den aktuellen Teilnehmer-Routern und auf älteren Modellen holen wir immerhin bis zu Faktor 2,5 heraus! Und das ist für viele Teilnehmer der Unterschied von “gefühlt lahm” zu “gefühlt flott”.&lt;/p&gt;
+
+&lt;h3 id=&quot;technik&quot;&gt;Technik&lt;/h3&gt;
+
+&lt;h4 id=&quot;wireguard&quot;&gt;WireGuard&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;WireGuard&lt;/em&gt; verwendet eine &lt;em&gt;Public/Private-Key&lt;/em&gt;-Architektur, dass heißt, es ist notwendig, dass wir vorher den &lt;em&gt;Public-Key&lt;/em&gt; eines Knotens (Teilnehmer-Routers) wissen müssen und bei den Backend-Gateways entsprechend anmelden müssen. Hierzu haben wir, wie weiter unten ausgeführt wird, eine eigene Softwarekomponente geschrieben, den &lt;strong&gt;WireGuard Key Exchange&lt;/strong&gt; &lt;em&gt;wgkex&lt;/em&gt;. Diese Komponente sorgt dafür, dass die Knoten ihren &lt;em&gt;Public-Key&lt;/em&gt; den Gateways mitteilen und die Gateways ihn in den entsprechenden &lt;em&gt;WireGuard&lt;/em&gt;-Strukturen ablegen. Auch wird aus diesem &lt;em&gt;Public-Key&lt;/em&gt; die interne &lt;em&gt;IPv6&lt;/em&gt;-Adresse der Knoten berechnet und für &lt;em&gt;WireGuard&lt;/em&gt; freigegeben, die wir wiederum wir für die &lt;em&gt;VXLAN&lt;/em&gt;-Kommunikation benötigen.&lt;/p&gt;
+
+&lt;h4 id=&quot;vxlan&quot;&gt;VXLAN&lt;/h4&gt;
+&lt;p&gt;Wir verwenden &lt;em&gt;VXLAN&lt;/em&gt; um die Limitierung von &lt;em&gt;WireGuard&lt;/em&gt; zu umgehen, nur “geroutete” Pakete auf Layer 3 zu übertragen. Mit &lt;em&gt;VXLAN&lt;/em&gt; ist es uns nun möglich, via Layer 3 wieder Layer-2-Pakete, in unserem Fall &lt;em&gt;B.A.T.M.A.N.&lt;/em&gt;-Pakete, zu übertragen. Dazu richten wir zwischen den Gateways und den Knoten eine 1:1-IPv6-Verbindung ein. Auch hier werden die &lt;em&gt;IPv6&lt;/em&gt;-Adressen des Gateways und des Knoten wieder aus den jeweiligen &lt;em&gt;Public-Keys&lt;/em&gt; errechnet. So stellen wir sicher, dass alle generierten &lt;em&gt;IPv6&lt;/em&gt;-Adressen im System einmalig sind.&lt;/p&gt;
+
+&lt;h3 id=&quot;softwareprojekte&quot;&gt;Softwareprojekte&lt;/h3&gt;
+
+&lt;p&gt;Klingt das Ganze für euch nach Pionierarbeit? Richtig, das war es auch! Deswegen haben wir auch einige neue Softwareprojekte ins Leben gerufen. Diese wollen wir hier zum Schluss kurz vorstellen.&lt;/p&gt;
+
+&lt;h4 id=&quot;wireguard-key-exchange&quot;&gt;Wireguard Key Exchange&lt;/h4&gt;
+&lt;p&gt;Wie oben erwähnt, brauchten wir einen Broker zum Entgegennehmen der &lt;em&gt;WireGuard-Public-Keys&lt;/em&gt;. Diesen haben wir zusammen mit &lt;strong&gt;Freifunk Regensburg&lt;/strong&gt; und &lt;strong&gt;Freifunk Darmstadt&lt;/strong&gt; Wireguard Key Exchange &lt;em&gt;wgkex&lt;/em&gt; getauft und den Code auf &lt;a href=&quot;https://github.com/freifunkMUC/wgkex&quot;&gt;GitHub&lt;/a&gt; veröffentlicht. &lt;em&gt;wgkex&lt;/em&gt; besteht aus zwei Komponenten: Dem &lt;strong&gt;broker&lt;/strong&gt;, der die &lt;em&gt;Public-Keys&lt;/em&gt; per Webrequest annimmt und einem &lt;strong&gt;worker&lt;/strong&gt;, der dann die Gateways so umkonfiguriert, dass die &lt;em&gt;Public-Keys&lt;/em&gt; im System bekannt sind und alle Routen korrekt gesetzt werden.&lt;/p&gt;
+
+&lt;h4 id=&quot;gluon-firmwarekomponente&quot;&gt;Gluon-Firmwarekomponente&lt;/h4&gt;
+&lt;p&gt;Natürlich benötigten wir auch einen Teil in der Firmware der Teilnehmer-Knoten, der statt einem &lt;em&gt;fastd&lt;/em&gt;- oder &lt;em&gt;L2TP&lt;/em&gt;-VPN eine &lt;em&gt;WireGuard/VXLAN&lt;/em&gt;-Verbindung aufbaut. Dieses Projekt haben wir &lt;strong&gt;gluon-mesh-vpn-wireguard-vxlan&lt;/strong&gt; genannt und ihr findet es natürlich auch auf &lt;a href=&quot;https://github.com/freifunkMUC/gluon-mesh-vpn-wireguard&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;systemd-networkd&quot;&gt;systemd-networkd&lt;/h4&gt;
+&lt;p&gt;Damit auf den Gateways alles rund läuft, haben wir uns zu guter Letzt noch eine &lt;strong&gt;systemd-Erweitung&lt;/strong&gt; ausgedacht. Diese Komponente ist natürlich keine Vorraussetzung für das Setup. Sie macht uns und anderen &lt;em&gt;systemd&lt;/em&gt;-Nutzern das Leben aber deutlich einfacher, da &lt;em&gt;systemd&lt;/em&gt; nun auch &lt;em&gt;B.A.T.M.A.N.&lt;/em&gt;-Interfaces unterstützt! Den entsprechenden Pull-Request findet ihr im &lt;em&gt;systemd&lt;/em&gt;-Projekt, wieder öffentlich auf &lt;a href=&quot;https://github.com/systemd/systemd/pull/17252&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;fehlersuche&quot;&gt;Fehlersuche&lt;/h3&gt;
+
+&lt;p&gt;Direkt nach der Umstellung fiel auf, dass wir zwar deutlich schnellere Einzelverbindungen haben, die Gateways aber unter deutlich höherer Last litten, als zuvor. Auch mehr, als durch die Zunahme des Traffics zu erklären gewesen wäre. Also ging es los mit der Fehlersuche. Dabei wurden &lt;a href=&quot;http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html&quot;&gt;Flamegraphen&lt;/a&gt; angefertigt, Linux-Kernelcode studiert sowie der &lt;em&gt;batman-adv&lt;/em&gt;-Code näher unter die Lupe genommen.&lt;/p&gt;
+
+&lt;p&gt;Es wurde relativ schnell klar, dass innerhalb des Kernels die Netzwerkpakete zu oft umkopiert werden mussten, was zu großen Performanceverlusten im Netzwerkstack führte. Nach mehreren Tagen intersiver Suche durch das FFMUC-Server-Team und auch dank der Unterstützung der &lt;em&gt;B.A.T.M.A.N.-Advanced&lt;/em&gt;-Entwickler konnte das Problem eingegrenzt und schließlich behoben werden.&lt;/p&gt;
+
+&lt;p&gt;Aktuell (12/2020) laufen unsere Gateways deswegen auf einem Linux-Kernel mit Custom-Patches, sozusagen an der “bleeding edge”, aber wir hoffen, dass bald auch die Allgemeinheit von unserer Arbeit profitieren kann.&lt;/p&gt;
+
+&lt;h4 id=&quot;batman-advanced-patches&quot;&gt;B.A.T.M.A.N.-Advanced-Patches&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126153120.1053700-1-sven@narfation.org/&quot;&gt;batman-adv: Reserve needed_*room for fragments&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-4-sw@simonwunderlich.de/&quot;&gt;batman-adv: Don’t always reallocate the fragmentation skb head&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-2-sw@simonwunderlich.de/&quot;&gt;batman-adv: Consider fragmentation for needed_headroom&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;linux-kernel-patch-im-vxlan-code&quot;&gt;Linux-Kernel-Patch im VXLAN-Code&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126125247.1047977-1-sven@narfation.org/&quot;&gt;vxlan: Add needed_headroom for lower device&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fazit&quot;&gt;Fazit&lt;/h3&gt;
+&lt;p&gt;Heute, fast einen Monat nach Inbetriebnahme des neuen Systems, können wir zufrieden auf das Projekt zurückblicken. Es hat uns zwar unzählige Stunden Arbeit gekostet, war aber für alle Beteiligten immer spannend und lehrreich. Mit den Performance-Gewinnen sind wir auch sehr zufrieden und für die Freifunk- und &lt;em&gt;systemd&lt;/em&gt;-Community ist auch etwas herausgekommen.&lt;/p&gt;
+
+&lt;p&gt;Für die Freifunk-München-Benutzer, die vom Umbau hoffentlich garnichts mitbekommen haben, hat es ein insgesamt besseres Freifunk-Erlebnis mit einer höheren nutzbaren Freifunk-Bandbreite gebracht.&lt;/p&gt;
+
+&lt;p&gt;Und vielleicht zeigt es für andere Freifunk-Communities einen Weg auf, Engpässe im eigenen Netz zu beheben und unbekannte Leistungsreserven auszuschöpfen.&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Überblick</summary></entry><entry><title type="html">Unser neuer Standort - AS212567 - #USEMOREBANDWIDTH</title><link href="https://ffmuc.net//freifunkmuc/2020/11/16/neues-rechenzentrum/" rel="alternate" type="text/html" title="Unser neuer Standort - AS212567 - #USEMOREBANDWIDTH" /><published>2020-11-16T10:43:00+00:00</published><updated>2020-11-16T10:43:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/11/16/neues-rechenzentrum</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/11/16/neues-rechenzentrum/">&lt;p&gt;Lange haben wir als Team dran gearbeitet und viel vorbereitet sowie Hardware angeschafft. Am 25.10.2020, nach insgesamt 900km Fahrt, konnten wir den Einbau der Hardware an unserem neuen Standort endlich realisieren. Um circa 13:00 CEST war es dann soweit und der erste Host von &lt;a href=&quot;https://stat.ripe.net/AS212567&quot;&gt;AS212567&lt;/a&gt; antwortete auf Ping!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/rz/ping-as212567.jpeg&quot; alt=&quot;Ping as212567&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 Cores sowie 2x 10Gbit/s Netzwerkkarten. Als Switch kommt ein 52x 10Gbit/s Gerät von Arista zum Einsatz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/rz/vorne-as212567.jpg&quot; alt=&quot;Vorne as212567&quot; width=&quot;600px&quot; /&gt;
+&lt;img src=&quot;/assets/rz/hinten-as212567.jpg&quot; alt=&quot;Hinten as212567&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ISP: Freie Netze München e.V.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun möglich standortunabhängiger zu agieren.  Wir haben so die Grundlage geschaffen um auf Dauer mehr Kapazitäten in verschiedenen Städten auszubauen und mehr Dezenztralität zu erreichen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/rz/isp-as212567.png&quot; alt=&quot;ISP as212567&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ihr wollt uns unterstützen?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ein Betrieb in dieser Größenordnung ist nicht mehr kostenfrei und wir sind deswegen auf Schenkungen angewiesen. 
+Informationen wie Bankverbindung oder &lt;a href=&quot;https://www.paypal.me/ffmucspenden&quot;&gt;Paypal&lt;/a&gt; findet ihr auf unserer &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=ev:start&quot;&gt;Vereinsseite&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unsere Partner und Unterstützer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wir danken an dieser Stelle besonders unseren Partnern &lt;a href=&quot;https://anexia.com&quot;&gt;Anexia&lt;/a&gt;, &lt;a href=&quot;https://www.flexoptix.net/de/&quot;&gt;Flexoptix&lt;/a&gt; und &lt;a href=&quot;https://meerfarbig.net&quot;&gt;Meerfarbig&lt;/a&gt; für die Unterstützung beim neuen Standort. Wir hoffen auf gute Zusammenarbeit die nächsten Jahre :).&lt;/p&gt;
+
+&lt;p&gt;Natürlich geht auch ein Dank an alle anderen Spender, Unterstützer und sonstiger Helfer!&lt;/p&gt;
+
+&lt;p&gt;Wir wünschen euch viel Spaß mit dem neuen Standort!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://anexia.com&quot;&gt;&lt;img src=&quot;/assets/rz/anexia.jpg&quot; alt=&quot;Anexia&quot; class=&quot;pull-left&quot; height=&quot;100px&quot; style=&quot;margin-right: 10px; margin-top: 8px;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.flexoptix.net/de/&quot;&gt;&lt;img src=&quot;/assets/rz/flexoptix.png&quot; alt=&quot;Flexoptix&quot; class=&quot;pull-left&quot; height=&quot;60px&quot; style=&quot;margin-right: 10px; margin-top: 8px;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://meerfarbig.net&quot;&gt;&lt;img src=&quot;/assets/rz/meerfarbig.jpeg&quot; alt=&quot;Meerfarbig&quot; class=&quot;pull-left&quot; height=&quot;100px&quot; style=&quot;margin-right: 10px; margin-top: 8px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+&lt;p&gt;´&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Lange haben wir als Team dran gearbeitet und viel vorbereitet sowie Hardware angeschafft. Am 25.10.2020, nach insgesamt 900km Fahrt, konnten wir den Einbau der Hardware an unserem neuen Standort endlich realisieren. Um circa 13:00 CEST war es dann soweit und der erste Host von AS212567 antwortete auf Ping!</summary></entry><entry><title type="html">Pressemeldung Freie Netze München e.V. vom 18.08.2020</title><link href="https://ffmuc.net//freifunkmuc/2020/08/18/pressemitteilung-fnmuc/" rel="alternate" type="text/html" title="Pressemeldung Freie Netze München e.V. vom 18.08.2020" /><published>2020-08-18T10:43:00+00:00</published><updated>2020-08-18T10:43:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/08/18/pressemitteilung-fnmuc</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/08/18/pressemitteilung-fnmuc/">&lt;p&gt;Der &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=ev:gruendung&quot;&gt;Verein Freie Netze München e.V.&lt;/a&gt; hat sich in seiner Mitgliederversammlung vergangenes Wochenende mit der Wahl eines neuen Vorstands stark aufgestellt.&lt;/p&gt;
+
+&lt;p&gt;In den vergangenen Jahren hatte der Trägerverein hinter “Freifunk München” mit &lt;a href=&quot;https://map.ffmuc.net&quot;&gt;weit über tausend kostenlosen öffentlichen Hotspots&lt;/a&gt; und der Internetversorgung von vielen Flüchtlingsunterkünften von sich Reden gemacht.&lt;/p&gt;
+
+&lt;p&gt;Zu Beginn der Corona-Pandemie wurde das Projekt “meet.ffmuc.net” aus dem Boden gestampft, ein &lt;a href=&quot;https://ffmuc.net/freifunkmuc/2020/03/23/pressemitteilung_meet/&quot;&gt;ehrenamtlich betriebener Video-Konferenzdienst&lt;/a&gt; für Vereine, Schulen und Privatpersonen. Hiermit werden zu Spitzenzeiten über &lt;a href=&quot;https://twitter.com/FreifunkMUC/status/1257248129252044800?s=20&quot;&gt;1400 gleichzeitige&lt;/a&gt; und mehr als 100.000 Benutzer pro Tag mit kostenlosen Videokonferenzen versorgt.&lt;/p&gt;
+
+&lt;p&gt;In der Mitgliederversammlung am 15.08.2020 wurde Tobias McFadden zum ersten Vorsitzenden des Vereins gewählt. Der Freiheitsrechte-Aktivist aus Gauting bei München erlangte unter anderem durch seinen langjährigen Rechtsstreit gegen die Störerhaftung bis vor den BGH und EUGH Bekanntheit.
+“Freifunk ist dezentrale Infrastruktur in der Hand der Bevölkerung!”, so McFadden. “Wir ermöglichen durch einfache Technik die risikolose Bereitstellung öffentlicher WLAN-Versorgung von Menschen für Menschen, sowie unkomplizierte Vernetzung und Datenaustausch.”&lt;/p&gt;
+
+&lt;p&gt;Zweite Vorsitzende des Vereins Freie Netze München e.V. ist nun Annika Wickert. Bisher hauptverantwortliche Systemadministratorin bei Freifunk München und treibende Kraft hinter dem Videokonferenztool “Freifunk-Meet”, bildet sie zukünftig als zweite Vorsitzende die direkte Schnittstelle zwischen Technik und Organisation. Wickert: “In der Zeit mit Corona haben wir wieder besonders bemerkt, wozu ehrenamtliche Arbeit in der Lage ist und haben in kürzester Zeit gemeinsam eine skalierende Videoplattform für Alle geschaffen. Ganz nach dem Motto “Freifunk verbindet”.”&lt;/p&gt;
+
+&lt;p&gt;Drittes neues Vorstandsmitglied ist Kassenwart Ole Dreessen, der dem Verein schon seit Gründung angehörte und mit seiner langjährigen Erfahrung ein solides Rückgrat im neuen Vorstand schafft. “Mir war eine dezentrale Kommunikations-Infrastruktur immer wichtig. Daher habe ich 2014 damit angefangen Freifunk in München zu verbreiten. Seitdem wurden aus ehemals 6 Knoten inzwischen mehr als 1700.”, erklärt der Elektrotechnik-Ingenieur.&lt;/p&gt;
+
+&lt;p&gt;Ziel des neuen Vorstandsteams ist es u.a., Freifunk mit neuen Technologien und Partnern besser auszubauen und voranzutreiben, sowie eine starke lokale Community aufzubauen.&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Der Verein Freie Netze München e.V. hat sich in seiner Mitgliederversammlung vergangenes Wochenende mit der Wahl eines neuen Vorstands stark aufgestellt.</summary></entry><entry><title type="html">Auflösung des Gewinnspiels 2020</title><link href="https://ffmuc.net//freifunkmuc/2020/07/19/gewinnspiel_aufloesung/" rel="alternate" type="text/html" title="Auflösung des Gewinnspiels 2020" /><published>2020-07-19T15:43:00+00:00</published><updated>2020-07-19T15:43:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/07/19/gewinnspiel_aufloesung</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/07/19/gewinnspiel_aufloesung/">&lt;p&gt;&lt;a href=&quot;/freifunkmuc/2020/02/28/gewinnspiel/&quot;&gt;Wie angekündigt&lt;/a&gt; verlosen wir einen Unifi AC-Mesh für den ersten und einen GL.iNET B1300 für den zweiten Platz.&lt;/p&gt;
+
+&lt;p&gt;Die folgenden Projekte nahmen an der Abstimmung teil:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Projekt am Heimstettner See&lt;/li&gt;
+  &lt;li&gt;Freifunk entlang der Hauptstraße in Maisach&lt;/li&gt;
+  &lt;li&gt;Knoten Nockherberg (Dachinstallation)&lt;/li&gt;
+  &lt;li&gt;Versorgung des Volksfest in Rudelzhausen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Abstimmen konntet ihr in bis einschließlich Samstag, den 18. Juli.&lt;/p&gt;
+
+&lt;p&gt;Zur Erinnerung noch einmal die beiden Geräte um die es im Gewinnspiel geht:
+&lt;img src=&quot;/assets/gewinnspiel-2020.jpg&quot; alt=&quot;UAP-AC-M / GL.Inet B1300&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Entscheidung ist gefallen!
+&lt;img src=&quot;/assets/gewinnspiel-2020-aufloesung.png&quot; alt=&quot;ergebniss&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hiermit geht der erste Preis (ein UAP-AC Mesh von Ubiquiti) an das Projekt “Versorgung des Volksfests Rudelzhausen”.
+Der zweite Preis (ein GL-Inet B1300) findet seine neue Heimat beim Projekt am Heimstettener See.&lt;/p&gt;
+
+&lt;p&gt;Wir bitten die Gewinner uns unter &lt;a href=&quot;https://chat.ffmuc.net/&quot;&gt;chat.ffmuc.net&lt;/a&gt; oder hilfe@ffmuc.bayern zu Kontaktieren!&lt;/p&gt;
+
+&lt;p&gt;Wir bedanken uns für eure Teilnahme!&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Wie angekündigt verlosen wir einen Unifi AC-Mesh für den ersten und einen GL.iNET B1300 für den zweiten Platz.</summary></entry><entry><title type="html">Bitte abstimmen fürs Gewinnspiel 2020</title><link href="https://ffmuc.net//freifunkmuc/2020/07/09/gewinnspiel_auslosung/" rel="alternate" type="text/html" title="Bitte abstimmen fürs Gewinnspiel 2020" /><published>2020-07-09T10:00:00+00:00</published><updated>2020-07-09T10:00:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/07/09/gewinnspiel_auslosung</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/07/09/gewinnspiel_auslosung/">&lt;p&gt;Nachdem wir durch #Corona und unseren dafür eingerichteten Konferenzserver &lt;a href=&quot;/freifunkmuc/2020/03/21/meet/&quot;&gt;meet.ffmuc.net&lt;/a&gt; etwas abgelenkt waren, kommt jetzt endlich die Abstimmung zu den Projekten! &lt;a href=&quot;/freifunkmuc/2020/02/28/gewinnspiel/&quot;&gt;Wie angekündigt&lt;/a&gt; verlosen wir einen Unifi AC-Mesh für den ersten und einen GL.iNET B1300 für den zweiten Platz.&lt;/p&gt;
+
+&lt;p&gt;Dafür haben sich folgende Projekte qualifiziert:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Projekt am Heimstettner See&lt;/li&gt;
+  &lt;li&gt;Freifunk entlang der Hauptstraße in Maisach&lt;/li&gt;
+  &lt;li&gt;Knoten Nockherberg (Dachinstallation)&lt;/li&gt;
+  &lt;li&gt;Versorgung des Volksfest in Rudelzhausen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Abstimmen könnt ihr in bis einschließlich Samstag, den 18. Juli, indem ihr im dafür eingerichteten &lt;a href=&quot;https://strawpoll.de/fyz8c7w&quot;&gt;Poll&lt;/a&gt; die Projekte benennt, welche in euren Augen die Geräte am ehesten verdient haben:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://strawpoll.de/fyz8c7w&quot;&gt;https://strawpoll.de/fyz8c7w&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Zur Erinnerung noch einmal die beiden Geräte um die es im Gewinnspiel geht:
+&lt;img src=&quot;/assets/gewinnspiel-2020.jpg&quot; alt=&quot;UAP-AC-M / GL.Inet B1300&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wir sind gespannt auf eure Entscheidung! Das Ergebnis wird am 19.07.2020 auf Twitter sowie auf unserer Homepage veröffentlicht.&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Nachdem wir durch #Corona und unseren dafür eingerichteten Konferenzserver meet.ffmuc.net etwas abgelenkt waren, kommt jetzt endlich die Abstimmung zu den Projekten! Wie angekündigt verlosen wir einen Unifi AC-Mesh für den ersten und einen GL.iNET B1300 für den zweiten Platz.</summary></entry><entry><title type="html">Laptopsammelei - Aufruf zur Laptopspende für Schüler*innen im Landkreis München</title><link href="https://ffmuc.net//freifunkmuc/2020/04/23/laptopsammelei/" rel="alternate" type="text/html" title="Laptopsammelei - Aufruf zur Laptopspende für Schüler*innen im Landkreis München" /><published>2020-04-23T22:00:00+00:00</published><updated>2020-04-23T22:00:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/04/23/laptopsammelei</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/04/23/laptopsammelei/">&lt;p&gt;Gemeinsam mit dem AWO Kreisverband München-Land e. V. und der Bundestagsabgeordneten Bela Bach starten wir eine Hilfsaktion: Wir bitten um die Spende funktionsfähiger Laptops, die an Schüler*innen im Landkreis weitergegeben werden, die selbst über keinen Laptop verfügen.&lt;/p&gt;
+
+&lt;p&gt;Helferinnen und Helfer von Freifunk München werden ihr Wissen einbringen, alle persönlichen Daten von den Geräten löschen und das Betriebssystem frisch aufspielen.&lt;/p&gt;
+
+&lt;p&gt;In Frage kommen nur funktionsfähige Geräte, das heißt:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Der Laptop muss funktionstüchtig und internetfähig sein&lt;/li&gt;
+  &lt;li&gt;Das Gerät läuft mit möglichst aktuellem Betriebssystem&lt;/li&gt;
+  &lt;li&gt;Das Ladegerät muss vorhanden sein.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Alle Bürgerinnen und Bürger sowie an Firmen im Landkreis München, die einen geeigneten Laptop besitzen, bitten wir sich bei bela.bach.wk@bundestag.de zu melden.&lt;/p&gt;
+
+&lt;p&gt;Abgegeben werden können die Laptops entweder persönlich zu den entsprechenden Öffnungszeiten in den &lt;a href=&quot;https://awo-kvmucl.de/klawotte-2/&quot;&gt;Klawotten im Landkreis München&lt;/a&gt; sowie bei der AWO Kinderkrippe Feldmäuse (Bahnhofstraße 8, 85622 Feldkirchen), Montag bis Freitag von 8:00 Uhr bis 15:00 Uhr (Betretungsverbot, Abgabe nur direkt an der Türe möglich.) oder durch Zusendung per Post an AWO, Balanstr. 55, 81541 München.&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Gemeinsam mit dem AWO Kreisverband München-Land e. V. und der Bundestagsabgeordneten Bela Bach starten wir eine Hilfsaktion: Wir bitten um die Spende funktionsfähiger Laptops, die an Schüler*innen im Landkreis weitergegeben werden, die selbst über keinen Laptop verfügen.</summary></entry><entry><title type="html">MEET - Ausfall am 21.04.2020 von 10:04 - 10:24</title><link href="https://ffmuc.net//freifunkmuc/2020/04/21/postmortem/" rel="alternate" type="text/html" title="MEET - Ausfall am 21.04.2020 von 10:04 - 10:24" /><published>2020-04-21T09:00:00+00:00</published><updated>2020-04-21T09:00:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/04/21/postmortem</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/04/21/postmortem/">&lt;p&gt;Leider hatten wir heute in der PrimeTime um 10 Uhr einen Ausfall zu verzeichnen. Die entsprechenden Gegenmaßnahmen sind getroffen und dieser Fehler tritt nicht noch einmal auf.&lt;/p&gt;
+
+&lt;h3 id=&quot;hintergründe&quot;&gt;Hintergründe&lt;/h3&gt;
+
+&lt;p&gt;Gegen 10 Uhr erreichten wir einen neuen Nutzerpeak. Dieser führte auf einer der Hauptkomponenten des Setups dazu, dass zuviele Backendverbindungen aufgebaut wurden. Daraufhin beendete der Dienst (Prosody) alle Nutzerverbindungen (siehe Graph). Dieser Fehler war schnell behoben und alle Nutzer konnten wieder verbinden.&lt;/p&gt;
+
+&lt;p&gt;Doch leider zeigte sich daraufhin ein Problem in einer anderen Hauptkomponente (Jicofo), dieser entschied auf der Grund der Geschwindigkeit in der die neuen Verbindungen nun anfielen alle Teilnehmer auf eine einzige unserer Videobridges zu schicken. Dies führte in der Konsequenz zu einer Überlast der Videobridge und damit wieder zu einer Trennung aller Teilnehmer. Nun kamen aber die Verbindungen wieder gleich schnell rein und das Spiel ging mit der nächsten Videobridge von vorne los. Um einen Ausweg aus der Situation zu finden haben wir zunächst auf unserem Webserver konfiguriert Verbindungen langsamer anzunehmen und so Jicofo Zeit zugeben “richtige” Loadbalancing Entscheidungen zu treffen. Dies führe allerdings auch nicht zum erhofften Erfolg.&lt;/p&gt;
+
+&lt;p&gt;Im weiteren Verlauf haben wir nach eben diesem Problem im Code gesucht und einen Fix in der neuesten Version von Jicofo gefunden. Daraufhin haben wir Jicofo auf die neueste Version aktualisiert, daraufhin pendelte sich dann alles wieder in normalen Bahnen ein.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/postmortem.png&quot; alt=&quot;Postmortem&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nachtrag-von-1630&quot;&gt;Nachtrag von 16:30&lt;/h3&gt;
+
+&lt;p&gt;Wir dachten wir hatten durch den Fix in Jicofo alle Probleme behoben und den Service wiederhergestellt, was auch soweit stimmt als das wir euch wieder bedienen konnten und die Konferenzen weiterliefen. Im Laufe des Tages wurde allerdings sichtbar, dass der Loadbalancing Algorithmus nicht mehr richtig funktioniert.&lt;/p&gt;
+
+&lt;p&gt;Erst kam der Verdacht auf, dass noch mehr Fehler im Code von Jicofo zu diesem Problem führt. Wie sich aber herraustellte war das Problem nicht Jicofo an dieser Stelle.&lt;/p&gt;
+
+&lt;p&gt;Sondern, bei dem Crash von Prosody heute morgen um 10:00Uhr wurden die internen Datenbanken die die Auslastung der Videobridges bereithalten zerstört. Dies war jedoch nicht im Ansatz offensichtlich. Erst als das Problem mit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strace&lt;/code&gt; näher Untersucht wurde zeigte sich die kleine aber feine Meldung
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openat(AT_FDCWD, &quot;/var/lib/prosody/meet%2effmuc%2enet/pubsub_sharedStatsNode.list&quot;, O_RDONLY) = 
+-1 ENOENT (No such file or directory)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Daraufhin begann das Team dieses Problem näher zu untersuchen und stellte auch auf den nicht verwendeten Videobridges fest, dass diese bei einem Neustart ebenfalls die sharedStatsNode Liste nicht erreichen beschreiben können.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/postmortem2.png&quot; alt=&quot;Postmortem - JVB&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Um 16:30 konnten wir dann endgültig die volle Kapazität wieder herstellen in dem wir die Datenbanken wieder repariert haben. Zusehen im nachfolgenden Graphen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/postmortem3.png&quot; alt=&quot;Postmortem - Restored&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wir wünschen euch viel Spaß bei weiteren Videokonferenzen!&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Leider hatten wir heute in der PrimeTime um 10 Uhr einen Ausfall zu verzeichnen. Die entsprechenden Gegenmaßnahmen sind getroffen und dieser Fehler tritt nicht noch einmal auf.</summary></entry><entry><title type="html">Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice</title><link href="https://ffmuc.net//freifunkmuc/2020/03/23/pressemitteilung_meet/" rel="alternate" type="text/html" title="Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice" /><published>2020-03-23T21:30:00+00:00</published><updated>2020-03-23T21:30:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/03/23/pressemitteilung_meet</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/03/23/pressemitteilung_meet/">&lt;h2 id=&quot;freifunk-münchen-stellt-freifunk-meet-für-die-corona-zeit-vor---einen-kostenlosen-video-konferenzservice&quot;&gt;Freifunk München stellt &lt;a href=&quot;https://meet.ffmuc.net&quot;&gt;Freifunk MEET&lt;/a&gt; für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;- Angebot für Privatpersonen, Hilfskräfte, Medizin, Schule und Lehre, kleine Firmen und Handwerk - oder einfach Freunde und Familie -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(München, 23.03.2020)&lt;/p&gt;
+
+&lt;p&gt;Mit einer Gruppe von Freunden aus einem anderen Stadtviertel trotz Ausgangsbeschränkungen entspannt von Angesicht zu Angesicht plaudern?
+Schulklassen und Lerngruppen am Rechner zusammenbringen? Verwandte aus einer anderen Stadt sehen und Erinnerungen austauschen?
+Den Lieblingskollegen in Frankreich oder Italien anrufen und sich per Videokonferenz über das Leben in Zeiten von Corona unterhalten?
+Das geht! Und zwar einfach und kostenlos mit dem neu eingerichteten Video-Konferenzservice Freifunk MEET der Initiative „Freifunk München“.&lt;/p&gt;
+
+&lt;p&gt;Die ehrenamtlich Engagierten haben das erste Daheim-Wochenende genutzt, um ab sofort einen Service anzubieten,
+mit dem sich aktuell bis zu 10.000 Personen gleichzeitig per Videokonferenz unterhalten können – beispielsweise in 330 Gruppen zu 30 Menschen.
+Einfach &lt;a href=&quot;https://meet.ffmuc.net&quot;&gt;meet.ffmuc.net&lt;/a&gt; in den Browser (am besten Chrome) eingeben, eine Gruppe gründen oder einer beitreten –
+und schon kann man mit Bild, Ton und Bildschirmfreigabe miteinander kommunizieren.
+Das kann ein Ersatz für einen Stammtisch sein, Helfern, Pflegern und Handwerkern die Abstimmung erleichtern
+oder Forschung und Lehre vernetzen. „Wir wollen, dass sich die Menschen weiter treffen können –
+sei es auch nur auf dem Bildschirm“, erläutert Freifunk-Koordinator Peter Buschkamp.&lt;/p&gt;
+
+&lt;p&gt;MEET setzt auf grenzüberschreitende Verständigung. Anleitungen sind in &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet&quot;&gt;Deutsch&lt;/a&gt;, &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet-en&quot;&gt;Englisch&lt;/a&gt;, &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet-fr&quot;&gt;Französisch&lt;/a&gt;, &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet-it&quot;&gt;Italienisch&lt;/a&gt;, &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet-es&quot;&gt;Spanisch&lt;/a&gt; und &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet-gr&quot;&gt;Griechisch&lt;/a&gt; verfügbar. Portugiesisch, Türkisch und weitere Sprachen sind in Arbeit.&lt;/p&gt;
+
+&lt;p&gt;IT-Chefin des Freifunk Netzwerks und des neu entwickelten Service ist Annika Wickert.
+„Wir sind technisch sehr gut aufgestellt“, erklärt sie.
+Unterstützt wird das Projekt von Freifunk, Privatpersonen und Firmen wie
+&lt;a href=&quot;https://www.cloudflare.com&quot;&gt;Cloudflare&lt;/a&gt;,
+&lt;a href=&quot;https://esplendor.industries&quot;&gt;Esplendor Group&lt;/a&gt;
+&lt;a href=&quot;https://philunet.de&quot;&gt;PHILUNET&lt;/a&gt;,
+&lt;a href=&quot;https://vserver.site&quot;&gt;Vserver.site&lt;/a&gt;,
+&lt;a href=&quot;https://www.plusserver.com&quot;&gt;PlusServer GmbH&lt;/a&gt; und die
+&lt;a href=&quot;https://open-telekom-cloud.com&quot;&gt;Open Telekom Cloud der Deutschen Telekom AG&lt;/a&gt;.
+Auch &lt;a href=&quot;https://www.alibabacloud.com&quot;&gt;Alibaba Cloud&lt;/a&gt; und
+&lt;a href=&quot;https://level66.network/&quot;&gt;level66.network UG&lt;/a&gt; gehören zu den Unterstützern.
+Neben Unternehmen unterstützen uns aber auch andere Freifunk-Gruppen wie &lt;a href=&quot;https://freifunk-franken.de&quot;&gt;Freifunk Franken&lt;/a&gt;, &lt;a href=&quot;https://karlsruhe.freifunk.net&quot;&gt;Freifunk Karlsruhe&lt;/a&gt; und &lt;a href=&quot;https://www.neanderfunk.de&quot;&gt;Neanderfunk&lt;/a&gt; mit Ressourcen.
+„Wir suchen aber weiterhin Partner und Sponsoren.
+Freifunk MEET ist höchst modular und daher einfach ausbaubar“.&lt;/p&gt;
+
+&lt;p&gt;Der designierte SPD-Stadtrat Lars Mentrup lobt:
+„Die Freifunker helfen, dass sich Menschen und Gruppen digital treffen, die sich aktuell nicht zusammen finden können. Das ist digitales Ehrenamt in seiner besten Form!“&lt;/p&gt;
+
+&lt;h3 id=&quot;kontakt&quot;&gt;Kontakt:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;E-Mail:   &lt;a href=&quot;mailto:presse@ffmuc.net&quot;&gt;presse@ffmuc.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twitter:  &lt;a href=&quot;https://twitter.com/FreifunkMUC&quot;&gt;@FreifunkMUC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hintergrund-freifunk-münchen-ffmuc&quot;&gt;Hintergrund Freifunk München (FFMUC)&lt;/h3&gt;
+&lt;p&gt;FFMUC ist Teil der offenen deutschlandweiten Freifunk Gemeinschaft.
+Freifunk ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
+Ziel von FFMUC ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München. 
+Freifunk München hat ein Mandat durch Stadtratsbeschlüsse zum Aufbau von WLAN-Infrastruktur.
+Freifunk München hat 2015 diverse Flüchtlingszentren mit Wlan versorgt, u. a. das Ankunftszentrum im Euro-Industriepark.
+Freifunk geht zurück auf die Bürgernetze der 90er Jahre und das Umfeld des Chaos Computer Clubs.
+Mehr zu Freifunk auf unserer Seite &lt;a href=&quot;https://ffmuc.net/wasistfreifunk/&quot;&gt;„Was ist Freifunk?“&lt;/a&gt;, sowie der Webseite &lt;a href=&quot;https://freifunk.net/&quot;&gt;aller deutschen Freifunkgruppen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;supporter&quot;&gt;Supporter:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.alibabacloud.com&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo_alibaba_cloud.png&quot; alt=&quot;Alibaba Cloud&quot; class=&quot;pull-left&quot; height=&quot;50px style=&amp;quot;margin-right: 10px; margin-top: 8px; &quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.cloudflare.com&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo-cloudflare-dark.svg&quot; alt=&quot;Cloudflare Inc.&quot; class=&quot;pull-left&quot; height=&quot;50px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://esplendor.industries&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo-esplendor.png&quot; alt=&quot;Esplendor Group&quot; class=&quot;pull-left&quot; width=&quot;180px&quot; style=&quot;margin-right: 10px; margin-bottom: 10px; &quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://level66.network/&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo_level66.network.jpeg&quot; alt=&quot;level66.network UG&quot; class=&quot;pull-left&quot; height=&quot;50px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://www.plusserver.com&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo-plusserver-blue.svg&quot; alt=&quot;PlusServer GmbH&quot; class=&quot;pull-left&quot; width=&quot;180px&quot; style=&quot;margin-right: 10px; margin-top: 10px; &quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://freifunk-franken.de&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo_freifunk_franken.png&quot; alt=&quot;Freifunk Franken&quot; class=&quot;pull-left&quot; width=&quot;300px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://karlsruhe.freifunk.net&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/freifunk_karlsruhe_logo_webseite.svg&quot; alt=&quot;Freifunk Karlsruhe e.V.&quot; class=&quot;pull-left&quot; width=&quot;300px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://neanderfunk.de&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/logo_neanderfunk.png&quot; alt=&quot;Neanderfunk.&quot; class=&quot;pull-left&quot; width=&quot;200px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://open-telekom-cloud.com&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/bi-170330-opentelekomcloud.jpg&quot; alt=&quot;Open Telekom Cloud&quot; class=&quot;pull-left&quot; width=&quot;180px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vserver.site&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/vserversite_logo.png&quot; alt=&quot;Vserver.site&quot; class=&quot;pull-left&quot; width=&quot;300px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://philunet.de/&quot;&gt;&lt;img src=&quot;/assets/unterstuetzung/philunet_logo.svg&quot; alt=&quot;PHILUNET&quot; class=&quot;pull-left&quot; width=&quot;300px&quot; style=&quot;margin-right: 10px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&quot;clear: both;&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;updates&quot;&gt;Updates:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;05.01.2021: Vserver.site und PHILUNET als Supporter ergänzt.&lt;/li&gt;
+  &lt;li&gt;27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.&lt;/li&gt;
+  &lt;li&gt;28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.&lt;/li&gt;
+  &lt;li&gt;03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.&lt;/li&gt;
+  &lt;li&gt;29.05.2020: Neanderfunk als Supporter ergänzt.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice - Angebot für Privatpersonen, Hilfskräfte, Medizin, Schule und Lehre, kleine Firmen und Handwerk - oder einfach Freunde und Familie -</summary></entry><entry><title type="html">Konferenzserver - meet.ffmuc.net</title><link href="https://ffmuc.net//freifunkmuc/2020/03/21/meet/" rel="alternate" type="text/html" title="Konferenzserver - meet.ffmuc.net" /><published>2020-03-21T10:00:00+00:00</published><updated>2020-03-21T10:00:00+00:00</updated><id>https://ffmuc.net//freifunkmuc/2020/03/21/meet</id><content type="html" xml:base="https://ffmuc.net//freifunkmuc/2020/03/21/meet/">&lt;p&gt;Die aktuelle Lage mit dem Corona Virus macht für uns alle das Leben etwas schwerer und führt zu weniger Sozialkontakten.&lt;/p&gt;
+
+&lt;p&gt;Damit ihr trotzdem mit euren Freunden, Verwandten, Kollegen und Bekannten in Kontakt bleiben könnte haben wir einen kostenlosen Videokonferenz Server bereitgestellt.&lt;/p&gt;
+
+&lt;p&gt;Hier kannst du deine Videokonferenz starten. &lt;a href=&quot;https://meet.ffmuc.net&quot;&gt;https://meet.ffmuc.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Auch alle Hilfsorganisationen, Krisendienste, Forschungsstätten sowie Lehrstätten sind aufgerufen, diesen Server kostenlos zu nutzen!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hier geht es zur &lt;a href=&quot;https://ffmuc.net/wiki/doku.php?id=knb:meet&quot;&gt;Anleitung&lt;/a&gt; für die einfache Benutzung.
+&lt;!---
+Und für alle Nerds unter uns haben wir auch eine technische [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet-server) wie das alles funktioniert.
+---&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Und ein Hinweis noch, benutzt am Besten Chrome oder die mobilen Apps!&lt;/strong&gt; - Firefox hat leider nur eine rudimentäre Unterstützung.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wir bitte euch um Fair use (siehe Anleitung), damit wir den Service lange anbieten können.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bitte streamt keine Musik oder Videos über den Dienst, ansonsten müssen wir ihn vermutlich schließen.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://meet.ffmuc.net&quot;&gt;Viel Spaß beim Benutzen!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://meet.ffmuc.net&quot;&gt;&lt;img src=&quot;/assets/meet-2020.png&quot; alt=&quot;Konferenz System&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Wir haben schon einige kreative Ideen gesehen, für was so ein Konferenzserver alles genutzt werden kann.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gemeinsames #Sharknado schauen (Film lief bei jedem zuhause auf Tele5)&lt;/strong&gt;
+&lt;a href=&quot;https://twitter.com/SktnBlfld/status/1241096899521851393?s=20&quot;&gt;&lt;img src=&quot;/assets/sharknado-meet-2020.png&quot; alt=&quot;Sharknado Filmabend&quot; /&gt;&lt;/a&gt;
+Quelle: &lt;a href=&quot;https://twitter.com/SktnBlfld/status/1241096899521851393?s=20&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gemeinsame Biergartenrunde&lt;/strong&gt;
+&lt;a href=&quot;https://m.facebook.com/story.php?story_fbid=10221036247674388&amp;amp;id=1188532331&quot;&gt;&lt;img src=&quot;/assets/biergarten-meet-2020.jpg&quot; alt=&quot;Biergarten&quot; /&gt;&lt;/a&gt;
+Quelle: &lt;a href=&quot;https://m.facebook.com/story.php?story_fbid=10221036247674388&amp;amp;id=1188532331&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="freifunkmuc" /><summary type="html">Die aktuelle Lage mit dem Corona Virus macht für uns alle das Leben etwas schwerer und führt zu weniger Sozialkontakten.</summary></entry></feed>

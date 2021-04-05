@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <META HTTP-EQUIV="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ;      style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self'">
+    <META HTTP-EQUIV="X-Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ;      style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self'">
+    <META HTTP-EQUIV="X-WebKit-CSP" content="default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ;      style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self'">
+    <title>WireGuard-Firmware oder Freifunk München wird endlich schnell! - #USEMOREBANDWIDTH</title>
+    <meta name="viewport" content="width=device-width">
+
+
+    <meta name="description" content="Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München">
+    <link rel="canonical" href="https://ffmuc.net//freifunkmuc/2020/12/03/wireguard-firmware/">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Projekktor -->
+    <link rel="stylesheet" href="/assets/projekktor/projekktor.style.css">
+
+    <!-- page feed -->
+    <link rel="alternate" type="application/rss+xml" title="Freifunk München Feed" href="/feed.xml" />
+
+    <!-- podlove stuff -->
+    <link rel="alternate" type="application/rss+xml" title="mp3 Podcast Feed" href="https://ffmuc.net/podcast/mp3.xml" />
+</head>
+
+
+
+    <body>
+
+    <header class="site-header">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Freifunk München</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/wasistfreifunk">Was ist Freifunk?</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mitmachen <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-link" href="/mitmachen">0. Einstieg</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:download">1. Firmware herunterladen</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware">2. Router flashen</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:gui">3. Router konfigurieren</a></li>
+            <li><a class="page-link" href="/verbreiten">Infomaterial</a></li>
+            <li><a class="page-link" href="/unterstuetzung">Unterstützung</a></li>
+          </ul>
+        </li>
+        <li><a href="https://map.ffmuc.net/">Knotenkarte</a></li>
+        <li><a href="https://ffmuc.net/wiki/doku.php?id=knb:faq">FAQ</a></li>
+        <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
+        <li><a href="/wiki">Wiki</a></li>
+        <li><a href="https://shop.spreadshirt.de/freifunk-muenchen">Shop</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dienste <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-link" href="https://chat.ffmuc.net">Chat</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:dohdot">DoH/DoT</a></li>
+            <li><a class="page-link" href="https://ffmuc.net/pad/">Etherpad</a></li>
+            <li><a class="page-link" href="https://meet.ffmuc.net">Jitsi-Meet</a></li>
+          </ul>
+        </li>
+        <li><a href="/kontakt">Kontakt</a></li>
+        <li><a href="/impressum">Impressum</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>WireGuard-Firmware oder Freifunk München wird endlich schnell! - #USEMOREBANDWIDTH</h1>
+    <p class="meta">Dec 3, 2020</p>
+  </header>
+
+  <article class="post-content">
+  <h3 id="überblick">Überblick</h3>
+
+<p>Am 19.11.2020 war es dann soweit: Wir haben unser komplettes Netzwerk von <em>fastd</em>-VPN auf <strong>WireGuard-VPN</strong> umgestellt. Was einfach klingt, war überhaupt nicht einfach. Viele Softwarekomponenten auf unseren Servern und auf den Teilnehmer-Routern mussten neu eingebunden und angepasst werden. Vor allem mussten viele, viele Tests durchgeführt werden, um dieses Projekt zu verwirklichen.</p>
+
+<p>Alles begann mit der Idee, Freifunk München für die Benutzer endlich schneller zu machen und das volle Potential der Teilnehmer-Router und Gateways im Backend abzurufen. Zudem stand ein größerer Umbau der Server-Infrastruktur an und so ergab es sich, dass sich unser Team sowieso mit dem gesamten FFMUC-Ökosystem auseinandersetzen musste.</p>
+
+<p>Es war uns klar, dass es mit der vorhandenen VPN-Technik nicht möglich wäre, mehr Leistung herauszuholen. Deswegen suchten wir Alternativen zum bestehenden <em>fastd</em>-Ansatz und wurden bei <a href="https://www.wireguard.com/">WireGuard</a> fündig. Aber vorher gab ein großes Problem zu lösen: <em>WireGuard</em> transportiert nur Layer-3-Verbindungen und keine Layer-2-Verbindungen, die wir aber für das von uns eingesetzte Meshprotokoll, <strong>B.A.T.M.A.N.-Advanced</strong> <em>batman-adv</em>, benötigen.</p>
+
+<p>Aber wir haben ja findige Techniker und die haben eine Lösung gefunden! Also transportieren wir nun über <em>WireGuard</em> ein <strong>Virtual eXtensible LAN</strong> (<em>VXLAN</em>, siehe <a href="https://tools.ietf.org/html/rfc7348">RFC 7348</a>) und in diesem <strong>VXLAN</strong> läuft dann <em>batman-adv</em>. Klingt ein bisschen nach Matroschka-Puppe? Stimmt, genauso ist es auch. Doch trotz des dreifachen “Encapsulierens” sind wir bis zu fünf Mal schneller auf den aktuellen Teilnehmer-Routern und auf älteren Modellen holen wir immerhin bis zu Faktor 2,5 heraus! Und das ist für viele Teilnehmer der Unterschied von “gefühlt lahm” zu “gefühlt flott”.</p>
+
+<h3 id="technik">Technik</h3>
+
+<h4 id="wireguard">WireGuard</h4>
+<p><em>WireGuard</em> verwendet eine <em>Public/Private-Key</em>-Architektur, dass heißt, es ist notwendig, dass wir vorher den <em>Public-Key</em> eines Knotens (Teilnehmer-Routers) wissen müssen und bei den Backend-Gateways entsprechend anmelden müssen. Hierzu haben wir, wie weiter unten ausgeführt wird, eine eigene Softwarekomponente geschrieben, den <strong>WireGuard Key Exchange</strong> <em>wgkex</em>. Diese Komponente sorgt dafür, dass die Knoten ihren <em>Public-Key</em> den Gateways mitteilen und die Gateways ihn in den entsprechenden <em>WireGuard</em>-Strukturen ablegen. Auch wird aus diesem <em>Public-Key</em> die interne <em>IPv6</em>-Adresse der Knoten berechnet und für <em>WireGuard</em> freigegeben, die wir wiederum wir für die <em>VXLAN</em>-Kommunikation benötigen.</p>
+
+<h4 id="vxlan">VXLAN</h4>
+<p>Wir verwenden <em>VXLAN</em> um die Limitierung von <em>WireGuard</em> zu umgehen, nur “geroutete” Pakete auf Layer 3 zu übertragen. Mit <em>VXLAN</em> ist es uns nun möglich, via Layer 3 wieder Layer-2-Pakete, in unserem Fall <em>B.A.T.M.A.N.</em>-Pakete, zu übertragen. Dazu richten wir zwischen den Gateways und den Knoten eine 1:1-IPv6-Verbindung ein. Auch hier werden die <em>IPv6</em>-Adressen des Gateways und des Knoten wieder aus den jeweiligen <em>Public-Keys</em> errechnet. So stellen wir sicher, dass alle generierten <em>IPv6</em>-Adressen im System einmalig sind.</p>
+
+<h3 id="softwareprojekte">Softwareprojekte</h3>
+
+<p>Klingt das Ganze für euch nach Pionierarbeit? Richtig, das war es auch! Deswegen haben wir auch einige neue Softwareprojekte ins Leben gerufen. Diese wollen wir hier zum Schluss kurz vorstellen.</p>
+
+<h4 id="wireguard-key-exchange">Wireguard Key Exchange</h4>
+<p>Wie oben erwähnt, brauchten wir einen Broker zum Entgegennehmen der <em>WireGuard-Public-Keys</em>. Diesen haben wir zusammen mit <strong>Freifunk Regensburg</strong> und <strong>Freifunk Darmstadt</strong> Wireguard Key Exchange <em>wgkex</em> getauft und den Code auf <a href="https://github.com/freifunkMUC/wgkex">GitHub</a> veröffentlicht. <em>wgkex</em> besteht aus zwei Komponenten: Dem <strong>broker</strong>, der die <em>Public-Keys</em> per Webrequest annimmt und einem <strong>worker</strong>, der dann die Gateways so umkonfiguriert, dass die <em>Public-Keys</em> im System bekannt sind und alle Routen korrekt gesetzt werden.</p>
+
+<h4 id="gluon-firmwarekomponente">Gluon-Firmwarekomponente</h4>
+<p>Natürlich benötigten wir auch einen Teil in der Firmware der Teilnehmer-Knoten, der statt einem <em>fastd</em>- oder <em>L2TP</em>-VPN eine <em>WireGuard/VXLAN</em>-Verbindung aufbaut. Dieses Projekt haben wir <strong>gluon-mesh-vpn-wireguard-vxlan</strong> genannt und ihr findet es natürlich auch auf <a href="https://github.com/freifunkMUC/gluon-mesh-vpn-wireguard">GitHub</a>.</p>
+
+<h4 id="systemd-networkd">systemd-networkd</h4>
+<p>Damit auf den Gateways alles rund läuft, haben wir uns zu guter Letzt noch eine <strong>systemd-Erweitung</strong> ausgedacht. Diese Komponente ist natürlich keine Vorraussetzung für das Setup. Sie macht uns und anderen <em>systemd</em>-Nutzern das Leben aber deutlich einfacher, da <em>systemd</em> nun auch <em>B.A.T.M.A.N.</em>-Interfaces unterstützt! Den entsprechenden Pull-Request findet ihr im <em>systemd</em>-Projekt, wieder öffentlich auf <a href="https://github.com/systemd/systemd/pull/17252">GitHub</a>.</p>
+
+<h3 id="fehlersuche">Fehlersuche</h3>
+
+<p>Direkt nach der Umstellung fiel auf, dass wir zwar deutlich schnellere Einzelverbindungen haben, die Gateways aber unter deutlich höherer Last litten, als zuvor. Auch mehr, als durch die Zunahme des Traffics zu erklären gewesen wäre. Also ging es los mit der Fehlersuche. Dabei wurden <a href="http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html">Flamegraphen</a> angefertigt, Linux-Kernelcode studiert sowie der <em>batman-adv</em>-Code näher unter die Lupe genommen.</p>
+
+<p>Es wurde relativ schnell klar, dass innerhalb des Kernels die Netzwerkpakete zu oft umkopiert werden mussten, was zu großen Performanceverlusten im Netzwerkstack führte. Nach mehreren Tagen intersiver Suche durch das FFMUC-Server-Team und auch dank der Unterstützung der <em>B.A.T.M.A.N.-Advanced</em>-Entwickler konnte das Problem eingegrenzt und schließlich behoben werden.</p>
+
+<p>Aktuell (12/2020) laufen unsere Gateways deswegen auf einem Linux-Kernel mit Custom-Patches, sozusagen an der “bleeding edge”, aber wir hoffen, dass bald auch die Allgemeinheit von unserer Arbeit profitieren kann.</p>
+
+<h4 id="batman-advanced-patches">B.A.T.M.A.N.-Advanced-Patches</h4>
+<p><a href="https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126153120.1053700-1-sven@narfation.org/">batman-adv: Reserve needed_*room for fragments</a><br />
+<a href="https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-4-sw@simonwunderlich.de/">batman-adv: Don’t always reallocate the fragmentation skb head</a><br />
+<a href="https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201127173849.19208-2-sw@simonwunderlich.de/">batman-adv: Consider fragmentation for needed_headroom</a><br /></p>
+
+<h4 id="linux-kernel-patch-im-vxlan-code">Linux-Kernel-Patch im VXLAN-Code</h4>
+<p><a href="https://patchwork.open-mesh.org/project/b.a.t.m.a.n./patch/20201126125247.1047977-1-sven@narfation.org/">vxlan: Add needed_headroom for lower device</a></p>
+
+<h3 id="fazit">Fazit</h3>
+<p>Heute, fast einen Monat nach Inbetriebnahme des neuen Systems, können wir zufrieden auf das Projekt zurückblicken. Es hat uns zwar unzählige Stunden Arbeit gekostet, war aber für alle Beteiligten immer spannend und lehrreich. Mit den Performance-Gewinnen sind wir auch sehr zufrieden und für die Freifunk- und <em>systemd</em>-Community ist auch etwas herausgekommen.</p>
+
+<p>Für die Freifunk-München-Benutzer, die vom Umbau hoffentlich garnichts mitbekommen haben, hat es ein insgesamt besseres Freifunk-Erlebnis mit einer höheren nutzbaren Freifunk-Bandbreite gebracht.</p>
+
+<p>Und vielleicht zeigt es für andere Freifunk-Communities einen Weg auf, Engpässe im eigenen Netz zu beheben und unbekannte Leistungsreserven auszuschöpfen.</p>
+
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!--<h2 class="footer-heading">Freifunk München</h2>-->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>
+          <a href="http://freifunk.net/" target="_blank"><img src="/assets/button_freifunk.png"></a>
+        </li>
+        <li>
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="/assets/license.png"></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        <li>
+          <a href="https://github.com/FreifunkMUC">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">FreifunkMUC</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/FreifunkMUC">
+            <span class="icon twitter">
+              <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill="#C2C2C2" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27
+                c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767
+                c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206
+                C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271
+                c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469
+                c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+              </svg>
+            </span>
+            <span class="username">FreifunkMUC</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://ffmuc.net/privacy/">Datenschutzerklärung/Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München</p>
+    </div>
+
+  </div>
+
+</footer>
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+    </body>
+</html>
