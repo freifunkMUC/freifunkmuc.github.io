@@ -1,0 +1,25 @@
+name: DEPLOY
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [webfrontend03, webfrontend04, webfrontend05, webfrontend06]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses:  lemonarc/jekyll-action@1.0.0
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@4.1
+      with:
+        switches: -avzr
+        path: _site
+        remote_path: /srv/www/ffmuc.net/
+        remote_host: ${{ matrix.target }}.ext.ffmuc.net
+        remote_user: deploy-ffmuc
+        remote_key: ${{ secrets.DEPLOY_KEY }}
