@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build
 on: [pull_request, push]
 jobs:
   build-and-deploy:
@@ -14,8 +14,3 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - uses:  lemonarc/jekyll-action@1.0.0
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: _site # The folder the action should deploy.
