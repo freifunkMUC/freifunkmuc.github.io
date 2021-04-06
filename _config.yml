@@ -1,19 +1,35 @@
-# Site settings
-title: Freifunk München
-email: 
-description: "Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke in München"
-baseurl: ""
-url: "https://ffmuc.net/"
-twitter_username: FreifunkMUC
-github_username:  FreifunkMUC
+baseurl: "/zolan" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-gems:
-  - jekyll-feed
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
 
-# Custom headers
-webrick:
-  headers:
-      Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
+paginate: 5
+paginate_path: "/page/:num"
+
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
