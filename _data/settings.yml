@@ -12,17 +12,14 @@ author:
   image: 01.jpg
   say-hello: Willkommen bei <strong>Freifunk München</strong>
   bio: |
-    Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.\n
-    Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
+    Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
+    Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+twitter: https://twitter.com/FreifunkMUC # Add your Twitter handle
+github: https://github.com/freifunkMUC
 
 
 #-------------------------------
