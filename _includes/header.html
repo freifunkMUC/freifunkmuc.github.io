@@ -23,9 +23,6 @@
             <div class="nav__title">Menu</div>
 
             <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
-              </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
               {% if page.title %}

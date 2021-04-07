@@ -1,26 +1,26 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-05-29 18:05:55 +0300
-image:  10.jpg
-tags:   Jekyll
+title:  "Freifunk München - Weihnachtsaktion"
+date:   2020-12-12 18:05:55 +0300
+image:  router.jpg
+tags:   Aktion
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Um den Betrieb von Freifunk München sicherzustellen, sind wir, wie viele Projekte, die von Ehrenamltichen betrieben werden, auf eure finanzielle Unterstützung angewiesen.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+In der heurigen Adventszeit bekommt ihr für eure großzügige Unterstützung des Freie Netze München e.V., neben einem vorzüglich gewarteten Freifunk München, zusätzlich ein kleines Präsent von uns.
 
-Jekyll also offers powerful support for code snippets:
+Dazu haben wir uns folgende Aktion ausgedacht:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Die ersten 50 noblen Unterstützer, die uns eine finanzielle Zuwendung ab 60 Euro zukommen lassen, bekommen, auf Wunsch, einen von uns vorkonfigurierten Netgear R6120-Router mit unserer brandneuen, sehr leistungsfähigen und auf WireGuard-VPN basierenden Firmware zugeschickt. Damit könnt ihr und eure Lieben sofort ins Freifunk München-Netz starten.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Dazu schickt ihr uns bitte nach erfolgter Überweisung oder PayPal-Transaktion eine E-Mail an weihnachten@fnmuc.net mit eurem Namen bzw. der PayPal-Adresse und eurer Lieferanschrift zu. Wir kümmern uns dann um den Versand.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Natürlich freuen wir uns auch über jede andere Summe, denn jeder Euro hilft, den Betrieb von unserer kostenlosen Videokonferenz-Plattform #FFMEET und dem wachsenden Freifunk München langfristig sicherzustellen.
+
+Unsere Kontodaten lauten:
+Freie Netze München e.V.
+DE73 7025 0150 0029 4939 13
+Kreissparkasse München - Starnberg - Ebersberg
+
+Paypal:
+paypal.me/ffmucspenden
