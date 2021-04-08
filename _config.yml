@@ -1,5 +1,5 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://freifunk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://freifunkmuc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
