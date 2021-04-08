@@ -1,52 +1,50 @@
-<header class="site-header">
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <!-- begin header -->
+      <header class="header">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <div class="logo">
+          <a class="logo__link" href="{{site.baseurl}}/">
+          {%if site.data.settings.logo %}
+            <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+          {% endif %}
+          {{ site.data.settings.title }}
+          </a>
+        </div>
+
+        <nav class="main-nav">
+
+          <div class="main-nav__box">
+            <div class="nav-icon__close">
+              <i class="ion ion-ios-close-circle-outline"></i>
+            </div>
+
+            <div class="nav__title">Menu</div>
+
+            <ul class="nav__list list-reset">
+              {% for page in site.pages %}
+                {% unless page.name == 'tags.html' or page.name == '404.html' %}
+              {% if page.title %}
+              <li class="nav__item">
+                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+              </li>
+              {% endif %}
+                {% endunless %}
+              {% endfor %}
+            </ul>
+
+          </div>
+        </nav>
+
+        <div class="nav-buttons">
+          <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
+          <i class="nav__icon nav__icon-search ion ion-md-search" aria-label="Search Icon"></i>
+        </div>
+
+        <div class="header__overlay"></div>
+      </header>
+      <!-- end header -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/wasistfreifunk">Was ist Freifunk?</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mitmachen <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a class="page-link" href="/mitmachen">0. Einstieg</a></li>
-            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:download">1. Firmware herunterladen</a></li>
-            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware">2. Router flashen</a></li>
-            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:gui">3. Router konfigurieren</a></li>
-            <li><a class="page-link" href="/verbreiten">Infomaterial</a></li>
-            <li><a class="page-link" href="/unterstuetzung">Unterstützung</a></li>
-          </ul>
-        </li>
-        <li><a href="https://map.ffmuc.net/">Knotenkarte</a></li>
-        <li><a href="https://ffmuc.net/wiki/doku.php?id=knb:faq">FAQ</a></li>
-        <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
-        <li><a href="/wiki">Wiki</a></li>
-        <li><a href="https://shop.spreadshirt.de/freifunk-muenchen">Shop</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dienste <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a class="page-link" href="https://chat.ffmuc.net">Chat</a></li>
-            <li><a class="page-link" href="https://ffmuc.net/wiki/doku.php?id=knb:dohdot">DoH/DoT</a></li>
-            <li><a class="page-link" href="https://ffmuc.net/pad/">Etherpad</a></li>
-            <li><a class="page-link" href="https://meet.ffmuc.net">Jitsi-Meet</a></li>
-          </ul>
-        </li>
-        <li><a href="/kontakt">Kontakt</a></li>
-        <li><a href="/impressum">Impressum</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav>
-
-</header>
+  </div>
+</div>
