@@ -1,4 +1,4 @@
-Basierend auf dem [Zolan Theme](https://github.com/artemsheludko/zolan).
+Basierend auf dem [Zolan Theme](https://github.com/artemsheludko/zolan). Erreichbar unter: http://freifunkmuc.github.io/
 
 Diese Webseite wird mit dem [jekyll](https://jekyllrb.com) compiler erstellt.
 
