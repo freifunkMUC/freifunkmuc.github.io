@@ -21,7 +21,7 @@ E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
 
 ### Kontakt / Hilfe / Ticketsystem
 
-E-Mail: [hilfe@ffmuc.bayern](mailto:hilfe@ffmuc.bayern) / Telegram: [@ffmuc_help_bot](https://t.me/ffmuc_help_bot) / Web: [tickets.ffmuc.net](https://tickets.ffmuc.net)
+E-Mail: [hilfe@ffmuc.bayern](mailto:hilfe@ffmuc.bayern) / Web: [tickets.ffmuc.net](https://tickets.ffmuc.net)
 
 ### Abuse Kontakt / Anlaufstelle für Auskunftsersuchen
 
