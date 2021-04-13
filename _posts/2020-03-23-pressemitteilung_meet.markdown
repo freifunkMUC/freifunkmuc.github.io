@@ -74,7 +74,7 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 
 [![Vserver.site](/assets/unterstuetzung/vserversite_logo.png){:.pull-left width="300px" style="margin-right: 10px"}](https://vserver.site)
 [![PHILUNET](/assets/unterstuetzung/philunet_logo.svg){:.pull-left width="300px" style="margin-right: 10px"}](https://philunet.de/)
-[![Combahton](/assets/unterstuetzung/photo_2021-04-13 09.56.15.jpeg){:.pull-left width="300px" style="margin-right: 10px"}](https://www.combahton.net/)
+[![Combahton](/assets/unterstuetzung/combahton.jpeg){:.pull-left width="300px" style="margin-right: 10px"}](https://www.combahton.net/)
 <div style="clear: both;" ></div>
 
 ### Updates:
