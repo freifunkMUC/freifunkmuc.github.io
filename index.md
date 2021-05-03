@@ -8,9 +8,9 @@ customjs:
 
 ![Logo Freifunk München](/assets/mobilewikilogo.png){:.pull-left width="60px" height="60px" style="margin-right: 10px"}
 
-Die nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
+Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationswege.
 
-Unser Ziel: Der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
+Unser Ziel ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in und um München.
 
 <div class="row">
     <div class="col-sm-6">
