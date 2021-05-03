@@ -5,7 +5,7 @@
 <br>Aktuell sind uns keine Störungen bekannt
 <br>
 <br><u><b>History:</b></u>
-<br><b>01.10.2020 10:20 - 13:46</b> Ausfall des DoT (dot.ffmuc.net)
+<br><b>01.10.2020 10:20 - 13:46</b> Ausfall des DoT Servers (dot.ffmuc.net)
 <br><b>04.05.2020 17:20 - 17:50</b> IPv4 DHCP für circa 30 Minuten gestört
 <br><b>03.06.2019 - 06.06.2019</b> Mailserver offline. u.A. Tickethandling, Registrierungen im Chat sind nicht möglich
 <br><b>27.03.2019 17:00 - 20:00</b> Das gesamte Netz ist aufgrund eines geplanten Serverumzugs offline
