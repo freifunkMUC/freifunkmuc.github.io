@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Upgrade des Freifunk-München Netzes erfolgreich durchgeführt"
+date:   2015-03-27 10:05:00
+categories: testbetrieb freifunkmuc
+---
+
+**Upgrade des Freifunk-München Netzes erfolgreich durchgeführt**
+
+In den letzten beiden Nächten konnten wir Vollautomatisiert über 300 Freifunk Router auf die neue Firmware Upgraden. Wenn euer Router das Upgrade noch nicht erhalten hat, probiert bitte manuell das Autoupdate durchzuführen.
+
+Das Netz läuft jetzt schneller und wir haben einige neue Features. Details zu den Änderungen findet Ihr auf der Website unter [Firmware][firmware].
+
+Für Rückfragen und weitere Informationen einfach unseren [IRC Channel][irc] joinen
+oder zu unserem [nächsten Treffen][treffen] kommen!
+
+Für Knotenbeteiber und technisch weitergehend Interessierte kann auch unser [Development IRC Channel][irc-dev] interessant sein. 
+
+Vielen Dank an alle fleißigen Hände!
+
+[irc]: https://webirc.darkfasel.net/#freifunk
+[irc-dev]: https://webirc.darkfasel.net/#freifunk-dev
+[treffen]: http://freifunkmuc.github.io/mitmachen/
+[firmware]: http://freifunkmuc.github.io/firmware/
