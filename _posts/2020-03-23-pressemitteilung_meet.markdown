@@ -79,7 +79,7 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 
 ### Updates:
 - 05.01.2021: Vserver.site und PHILUNET als Supporter ergänzt.
-- 27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
-- 28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.
-- 03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.
 - 29.05.2020: Neanderfunk als Supporter ergänzt.
+- 03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.
+- 28.03.2020: Alibaba Cloud und Level66.network sowie Freifunk Franken als Supporter ergänzt.
+- 27.03.2020: Freifunk Karlsruhe und Open Telekom Cloud als Supporter ergänzt.
