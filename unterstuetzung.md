@@ -19,12 +19,12 @@ von Freifunk München!
 
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: height="100px" }][meerfarbig]
 
-### SpaceNet AG
+### EMC HostCo GmbH
 
-[![SpaceNet logo](/assets/unterstuetzung/logo_spacenet.png)][spacenet]
+[![EMC logo](/assets/unterstuetzung/EMC.png)][emc-hostco]
 
 [anexia]: https://www.anexia.com/
 [flexoptix]: https://www.flexoptix.net/
 [meerfarbig]: https://meerfarbig.net/
-[spacenet]: https://www.space.net/
+[emc-hostco]: https://emc-hostco.de/
 [kontakt]: /kontakt/
