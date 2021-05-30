@@ -27,4 +27,3 @@ von Freifunk München!
 [emc-hostco]: https://emc-hostco.de/
 [flexoptix]: https://www.flexoptix.net/
 [meerfarbig]: https://meerfarbig.net/
-[kontakt]: /kontakt/
