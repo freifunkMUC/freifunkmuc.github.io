@@ -13,8 +13,6 @@ Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
 Mattermost: [https://chat.ffmuc.net](https://chat.ffmuc.net/) / [Firmware Development](https://chat.ffmuc.net/freifunk/channels/firmware)
 
-IRC: #freifunk & #freifunk-dev, irc.darkfasel.net, Port 6697 oder 9999 ([TLS benötigt, DANE Support](https://www.darkfasel.net))
-
 ### Presse
 
 E-Mail: [presse@ffmuc.net](mailto:presse@ffmuc.net)
