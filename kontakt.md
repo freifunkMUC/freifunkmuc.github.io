@@ -27,17 +27,6 @@ E-Mail: [hilfe@ffmuc.bayern](mailto:hilfe@ffmuc.bayern) / Web: [tickets.ffmuc.ne
 
 E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
 
-### Mailingliste
-
-[muenchen@freifunk.net](mailto:muenchen@freifunk.net) (Öffentliche Mailingliste!)
-[Allgemeine Mailingliste Freifunk München][allgListe] \\
-[Mailingliste für EntwicklerInnen und Technikinteressierte][devListe] \\
-[Mailingliste zur Koordination von Projekten zur Unterstützung von Flüchtlingen][fluechtListe]
-
-[allgListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-freifunk.net
-[devListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-dev-freifunk.net
-[fluechtListe]: https://lists.freifunk.net/mailman/listinfo/muenchen-fluechtlinge-freifunk.net
-
 ### Wiki, Bugtracker, ...
 
 [Freifunk München Wiki](https://ffmuc.net/wiki) \\
