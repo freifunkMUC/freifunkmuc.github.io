@@ -5,7 +5,7 @@ date:   2019-07-11 14:00:00
 categories: freifunkmuc
 ---
 
-Wie ihr vielleicht schon in unserem [Chat](https://chat.ffmuc.net) mitbekommen habt, werden manche Geräte demnächst nicht mehr unterstützt. Unter anderem fallen diese Geräte durch gelegentliche Neustarts bei vielen Clients auf, schlechter Performance und geringen Durchsatz auf.
+Wie ihr vielleicht schon in unserem [Chat](https://chat.ffmuc.net) mitbekommen habt, werden manche Geräte demnächst nicht mehr unterstützt. Unter anderem fallen diese Geräte durch gelegentliche Neustarts bei vielen Clients, schlechter Performance und geringen Durchsatz auf.
 
 Gerade der gerine Arbeitsspeicher stellt ein großes Problem für die Stabilität der Geräte dar, da dieser schnell voll läuft. Außerdem wird der Support von Gluon und OpenWrt, unserer Basisfirmware, im nächsten Release beendet. Das bedeutet, dass es schwierig wird, Funktions-, sowie Sicherheitsupdates für diese Geräte bereit zu stellen.
 
