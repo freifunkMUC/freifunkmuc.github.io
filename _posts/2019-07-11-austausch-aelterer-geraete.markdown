@@ -13,7 +13,7 @@ Aus diesem Grund wird es leider in naher Zukunft **keine** Updates - auch keine 
 
 Wir werden versuchen so lange wie **möglich** und **sinnvoll** noch Updates für die Geräte bereitzustellen, können jedoch nicht sagen wie lange dies der Fall sein wird.
 
-Deswegen wollen wir euch bitten, so abdl wie möglich eure alten Geräte durch neuere zu ersetzen!
+Deswegen wollen wir euch bitten, so bald wie möglich eure alten Geräte durch neuere zu ersetzen!
 
 Kostengünstige Geräte:
 
