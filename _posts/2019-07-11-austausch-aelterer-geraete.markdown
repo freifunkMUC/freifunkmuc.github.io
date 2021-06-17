@@ -5,15 +5,15 @@ date:   2019-07-11 14:00:00
 categories: freifunkmuc
 ---
 
-Wie ihr vielleicht schon im [Chat](https://chat.ffmuc.net) mitbekommen habt, nähern sich manche Geräte ihrem Lebensende. Diese Geräte fallen unter anderem  immer wieder damit auf, dass sie gelegentlich neustarten, eine generelle schlechte Performance zeigen und zu wenig Speicherplatz und Arbeitsspeicher besitzen.
+Wie ihr vielleicht schon in unserem [Chat](https://chat.ffmuc.net) mitbekommen habt, werden manche Geräte demnächst nicht mehr unterstützt. Unter anderem fallen diese Geräte durch gelegentliche Neustarts bei vielen Clients auf, schlechter Performance und geringen Durchsatz auf.
 
-Gerade zu wenig Arbeitsspeicher stellt ein großes Problem für die Stabilität dar. Aber auch der Speicherplatz ist ein Problem, da OpenWRT (die Basis unserer Firmware) immer weiter wächst und diese Geräte nicht mehr genug Speicher für die Firmware besitzen.
+Gerade der gerine Arbeitsspeicher stellt ein großes Problem für die Stabilität der Geräte dar, da dieser schnell voll läuft. Außerdem wird der Support von Gluon und OpenWrt, unserer Basisfirmware, im nächsten Release beendet. Das bedeutet, dass es schwierig wird, Funktions-, sowie Sicherheitsupdates für diese Geräte bereit zu stellen.
 
 Aus diesem Grund wird es leider in naher Zukunft **keine** Updates - auch keine Sicherheitsupdates - mehr für diese Geräte geben.
 
 Wir werden versuchen so lange wie **möglich** und **sinnvoll** noch Updates für die Geräte bereitzustellen, können jedoch nicht sagen wie lange dies der Fall sein wird.
 
-Deswegen wollen wir euch bitten, so bald wie möglich auf neuere Geräte umzustellen.
+Deswegen wollen wir euch bitten, so abdl wie möglich eure alten Geräte durch neuere zu ersetzen!
 
 Kostengünstige Geräte:
 
@@ -40,55 +40,53 @@ Für Fragen und Feedback könnt ihr euch gerne mit uns in [Verbindung](https://f
 
 ### Betroffene Geräte
 
-* Alfa
+* ALFA Network
   * AP121
   * AP121U
-  * Hornet-UB
-  * Tube2H
-  * N2
-  * N5
+* A5-V11
 * D-Link
-  * DIR-615
+  * DIR-615 (C1, D1, D2, D3, D4, H1)
 * Linksys
   * WRT160NL
 * TP-Link
-  * TL-MR13U
-  * TL-MR3020
-  * TL-MR3040
-  * TL-MR3220
-  * TL-MR3420
-  * TL-WA701N/ND
-  * TL-WA7210N/NDAlfa
-  * TL-WA730RE
-  * TL-WA750RE
-  * TL-WA7510N
-  * TL-WA801N/ND
-  * TL-WA830RE
-  * TL-WA850RE
-  * TL-WA860RE
-  * TL-WA901N/ND
-  * TL-WR1043N/ND (V1)
-  * TL-WR703N
-  * TL-WR710N
-  * TL-WR740N/ND
-  * TL-WR741N/ND
-  * TL-WR743N/ND
-  * TL-WR802N
-  * TL-WR810N
-  * TL-WR841N/ND
-  * TL-WR842N/ND (v1, v2)
-  * TL-WR843N/ND
-  * TL-WR940N/ND
-  * TL-WR941N/ND
+  * TL-MR13U (v1)
+  * TL-MR3020 (v1)
+  * TL-MR3040 (v1, v2)
+  * TL-MR3220 (v1, v2)
+  * TL-MR3420 (v1, v2)
+  * TL-WA701N/ND (v1, v2)
+  * TL-WA730RE (v1)
+  * TL-WA750RE (v1)
+  * TL-WA801N/ND (v1, v2, v3)
+  * TL-WA830RE (v1, v2)
+  * TL-WA850RE (v1)
+  * TL-WA860RE (v1)
+  * TL-WA901N/ND (v1, v2, v3, v4, v5)
+  * TL-WA7210N (v2)
+  * TL-WA7510N (v1)
+  * TL-WR703N (v1)
+  * TL-WR710N (v2)
+  * TL-WR740N (v1, v3, v4, v5)
+  * TL-WR741N/ND (v1, v2, v4, v5)
+  * TL-WR743N/ND (v1, v2)
+  * TL-WR840N (v2)
+  * TL-WR841N/ND (v3, v5, v7, v8, v9, v10, v11, v12)
+  * TL-WR843N/ND (v1)
+  * TL-WR940N (v1, v2, v3, v4, v5, v6)
+  * TL-WR941ND (v2, v3, v4, v5, v6)
+  * RE450 (v1)
+
 * Ubiquiti Networks
-  * AirGateway
-  * AirRouter
-  * Bullet
-  * Litestation SR71
-  * NanoStation Loco M2
-  * NanoStation Loco M5
+  * Air Gateway
+  * Air Gateway LR
+  * Air Gateway PRO
+  * Air Router
+  * Bullet M2
+  * Bullet M5
+  * Loco M2
+  * Loco M5
   * NanoStation M2
   * NanoStation M5
-  * PicoStation
+  * PicoStation M2
 * VoCore
-  * VoCore
+  * VoCore (8M, 16M)
