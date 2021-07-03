@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Freifunk München im Autokino Aschheim"
+date:   2021-07-03 08:43:00
+categories: freifunkmuc
+---
+
+Wir freuen uns zusammen mit dem Autokino Aschheim eine Installation für alle Besucher des Kinos bereitstellen können.
+
+### Verwendete Hardware:
+
+- NanoPI R2S
+- 4x Ubiquiti UMA-D
+- 4x Ubiquiti Unifi UAP-Mesh
+- 1x Ubiquiti Surge Protector
+- 1x Ubiquiti Unifi USW Flex
+
