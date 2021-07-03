@@ -5,9 +5,20 @@ date:   2021-07-03 08:43:00
 categories: freifunkmuc
 ---
 
-Wir freuen uns zusammen mit dem Autokino Aschheim eine Installation für alle Besucher des Kinos bereitstellen können.
+Wir freuen uns zusammen mit dem [Autokino Aschheim](https://www.autokino-aschheim.de/) eine [Installation](https://map.ffmuc.net/#!/en/map/3695965c4ffb) für alle Besucher des Kinos bereitstellen können. Außerdem bietet uns der Standort die Möglichkeit in Zukunft auch Richtfunk machen zu können.
 
-### Verwendete Hardware:
+Die für diesen Aufbau verwendete Hardware ist der Prototyp den wir für weitere Großinstallationen verwenden möchten.
+
+### Bilder vom Aufbau
+
+
+![Aufbau](/assets/autokino/aufbau.jpeg){: height="400px"}
+
+![Mast in der Ferne](/assets/autokino/mast-autokino.jpg){: height="400px"}
+
+![Durchsatz](/assets/autokino/speed.png){: height="200px"}
+
+### Verwendete Hardware
 
 - NanoPI R2S
 - 4x Ubiquiti UMA-D
