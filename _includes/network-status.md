@@ -1,5 +1,5 @@
 ## Netzwerk Status
-<a target='_blank' href="https://stats.ffmuc.net/dashboard/db/network-overview">>> Gateway Stats-Dashboard</a>
+<a target='_blank' href="https://stats.ffmuc.net/d/kUoZ2DRWz/network-overview">>> Gateway Stats-Dashboard</a>
 <br>
 <br><u><b>Aktuell:</b></u>
 <br>Aktuell sind uns keine Störungen bekannt
