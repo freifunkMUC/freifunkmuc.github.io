@@ -15,6 +15,6 @@ Für Freifunk Augsburg wird die Infrastruktur von Freifunk München genutzt. Die
 
 Es gibt bereits ein Projekt in Augsburg, über das wir demnächst berichten werden! :wink:
 
-Wenn ihr wieder eine aktive Freifunk-Community in Augsburg aufbauen wollt, wenn ihr Projektideen habt oder einfach nur dabei sein wollt, dann meldet euch in unserem [Chat](https://chat.ffmuc.net)!
+Wenn ihr wieder eine aktive Freifunk-Community in Augsburg aufbauen wollt, wenn ihr Projektideen habt oder einfach nur dabei sein wollt, dann meldet euch in unserem [Chat](https://chat.ffmuc.net/freifunk/channels/freifunk-augsburg)!
 
 Wir freuen uns auf euch!
