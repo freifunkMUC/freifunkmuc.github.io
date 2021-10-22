@@ -5,7 +5,7 @@ date:   2021-10-22 12:00:00
 categories: freifunkmuc
 ---
 
-Eine große Neuerung bahnt sich schon seit einiger Zeit an. Die Augsburger unter Euch haben es vielleicht schon mitbekommen: Wir planen einen Neustart der augsburger Freifunk-Community!
+Eine große Neuerung bahnt sich schon seit einiger Zeit an. Die Augsburger unter Euch haben es vielleicht schon mitbekommen: Wir planen einen Neustart der Augsburger Freifunk-Community!
 
 Seit Jahren betreiben wir erfolgreich das Freifunk-Netzwerk in und um München, entwickeln die Firmware weiter und starten neue Projekte. Da einige unserer Mitglieder aus Augsburg aktiver werden wollen, planen wir seit Mitte des Jahres den Neustart der Augsburger Freifunk-Community.
 Nun ist es soweit, vor ein paar Tagen haben wir unsere Firmware und den Backbone um ein neues Netzwerksegment erweitert, um auch den Bereich in und um Augsburg abzudecken.
