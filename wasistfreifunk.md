@@ -9,7 +9,11 @@ customjs:
 
 Das Projekt Freifunk München baut ein stadtweites Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist dabei frei von Registrierung und Erfassung von Informationen.
 
-<div id="player_a" class="projekktor"></div>
+<video class="video-js">
+  <source src="/assets/media/freifunk.mp4" type="video/mp4">
+  <source src="/assets/media/freifunk.webm" type="video/webm">
+</video>
+<script>videojs(document.querySelector('.video-js'));</script>
 
 Konkret hat sich Freifunk zum Ziel gesetzt, offene Funknetzwerke einzurichten und diese miteinander zu verbinden. Dies ermöglicht einen freien Datenverkehr “durch die Luft” in der ganze Stadt innerhalb des Freifunk-Netzes. Freifunk ist somit eine offene, nicht-kommerzielle, hierarchielose Initiative für freie Funknetzwerke.
 
