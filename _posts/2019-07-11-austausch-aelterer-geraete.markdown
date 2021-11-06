@@ -7,7 +7,9 @@ categories: freifunkmuc
 
 Wie ihr vielleicht schon in unserem [Chat](https://chat.ffmuc.net) mitbekommen habt, werden manche Geräte demnächst nicht mehr unterstützt. Unter anderem fallen diese Geräte durch gelegentliche Neustarts bei vielen Clients, schlechter Performance und geringen Durchsatz auf.
 
-Gerade der geringe Arbeitsspeicher stellt ein großes Problem für die Stabilität der Geräte dar, da dieser schnell voll läuft. Außerdem wird der Support von Gluon und OpenWrt, unserer Basisfirmware, im nächsten Release beendet. Das bedeutet, dass es schwierig wird, Funktions-, sowie Sicherheitsupdates für diese Geräte bereit zu stellen.
+Es handelt sich um die sogenannten 4/32-Geräte, das heisst Geräte mit nur 4MB Flash-Speicher und 32MB RAM. Der geringe Arbeitsspeicher stellt ein großes Problem für die Stabilität der Geräte dar, da dieser schnell voll läuft. Da der Linux-Kernel und die benötigten Libraries mit der Zeit gewachsen sind, schaffen wir es mit dem neuesten Release nicht mehr das Firmware-Image klein genug für den vorhandenen Flash-Speicher zu machen.
+
+Außerdem wird der Support von Gluon und OpenWrt, unserer Basisfirmware, im nächsten Release beendet. Das bedeutet, dass es schwierig wird, Funktions-, sowie Sicherheitsupdates für diese Geräte bereit zu stellen.
 
 Aus diesem Grund wird es leider in naher Zukunft **keine** Updates - auch keine Sicherheitsupdates - mehr für diese Geräte geben.
 
@@ -17,15 +19,18 @@ Deswegen wollen wir euch bitten, so bald wie möglich eure alten Geräte durch n
 
 Kostengünstige Geräte:
 
+* Xiaomi Mi Rouer 4C (ca. 12€) 
+* Xiaomi Mi Rouer 4A (ca. 25€) 
 * Gl.iNet MT300 (ca. 25€)
 * Gl.iNet AR150 (ca. 25€)
 * Gl.iNet AR300 (ca. 30€)
-* Netgear R6120 (ca. 40€)
 
 Mittleres Preissegment:
 
 * AVM FRITZ!Box 4020 (ca. 40€)
+* Netgear R6120 (ca. 40€)
 * Netgear EX6150V2 (ca. 50€)
+* Xiaomi Mi Rouer 4A Gigabit Edition (ca. 50€) 
 
 Oberes Preissegment:
 
