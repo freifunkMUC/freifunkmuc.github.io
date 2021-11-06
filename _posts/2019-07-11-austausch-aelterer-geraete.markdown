@@ -17,15 +17,18 @@ Deswegen wollen wir euch bitten, so bald wie möglich eure alten Geräte durch n
 
 Kostengünstige Geräte:
 
+* Xiaomi Mi Rouer 4C (ca. 12€) 
+* Xiaomi Mi Rouer 4A (ca. 25€) 
 * Gl.iNet MT300 (ca. 25€)
 * Gl.iNet AR150 (ca. 25€)
 * Gl.iNet AR300 (ca. 30€)
-* Netgear R6120 (ca. 40€)
 
 Mittleres Preissegment:
 
 * AVM FRITZ!Box 4020 (ca. 40€)
+* Netgear R6120 (ca. 40€)
 * Netgear EX6150V2 (ca. 50€)
+* Xiaomi Mi Rouer 4A Gigabit Edition (ca. 50€) 
 
 Oberes Preissegment:
 
