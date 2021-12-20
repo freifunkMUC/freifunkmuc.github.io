@@ -22,7 +22,7 @@ jobs:
           ${{ runner.os }}-gems-
     - uses:  lemonarc/jekyll-action@1.0.0
     - name: rsync deployments
-      uses: burnett01/rsync-deployments@4.1
+      uses: burnett01/rsync-deployments@5.1
       with:
         switches: -avzr --delete
         path: _site
