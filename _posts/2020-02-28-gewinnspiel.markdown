@@ -17,4 +17,4 @@ Wir freuen uns auf eure Einsendungen!
 
 Hier ein Bild der beiden Geräte:
 
-![UAP-AC-M / GL.Inet B1300](/assets/gewinnspiel-2020.jpg)
+![UAP-AC-M / GL.Inet B1300](/assets/posts/2020-gewinnspiel.jpg)

@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Freifunk München im Autokino Aschheim"
+date:   2021-07-03 08:43:00
+categories: freifunkmuc
+---
+
+Wir freuen uns zusammen mit dem [Autokino Aschheim](https://www.autokino-aschheim.de/) eine [Installation](https://map.ffmuc.net/#!/en/map/3695965c4ffb) für alle [Besucher des Kinos](https://m.facebook.com/autokinoaschheim/photos/a.10152181591927127/10158005607342127/?type=3&source=48&__tn__=EH-R) bereitstellen können. Außerdem bietet uns der Standort die Möglichkeit in Zukunft Richtfunk machen zu können.
+
+Die für diesen Aufbau verwendete Hardware ist der Prototyp den wir für weitere Großinstallationen verwenden möchten.
+
+### Bilder vom Aufbau
+
+
+![Aufbau](/assets/posts/2021-07-03-aufbau.jpg){: height="400px"}
+
+![Mast in der Ferne](/assets/posts/2021-07-03-mast-autokino.jpg){: height="400px"}
+
+![Durchsatz](/assets/posts/2021-07-03-speed.png){: height="200px"}
+
+### Verwendete Hardware
+
+- 1x FriendlyElec NanoPI R2S
+- 4x Ubiquiti UMA-D
+- 4x Ubiquiti UniFi UAP-Mesh
+- 1x Ubiquiti UniFi USW Flex
+- 1x Ubiquiti Surge Protector
+

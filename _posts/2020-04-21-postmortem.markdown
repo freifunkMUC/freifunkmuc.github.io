@@ -15,7 +15,7 @@ Doch leider zeigte sich daraufhin ein Problem in einer anderen Hauptkomponente (
 
 Im weiteren Verlauf haben wir nach eben diesem Problem im Code gesucht und einen Fix in der neuesten Version von Jicofo gefunden. Daraufhin haben wir Jicofo auf die neueste Version aktualisiert, daraufhin pendelte sich dann alles wieder in normalen Bahnen ein.
 
-![Postmortem](/assets/postmortem.png)
+![Postmortem](/assets/posts/2020-04-21-postmortem.png)
 
 ### Nachtrag von 16:30
 
@@ -29,10 +29,10 @@ Sondern, bei dem Crash von Prosody heute morgen um 10:00Uhr wurden die internen 
 
 Daraufhin begann das Team dieses Problem näher zu untersuchen und stellte auch auf den nicht verwendeten Videobridges fest, dass diese bei einem Neustart ebenfalls die sharedStatsNode Liste nicht erreichen beschreiben können.
 
-![Postmortem - JVB](/assets/postmortem2.png)
+![Postmortem - JVB](/assets/posts/2020-04-21-postmortem2.png)
 
 Um 16:30 konnten wir dann endgültig die volle Kapazität wieder herstellen in dem wir die Datenbanken wieder repariert haben. Zusehen im nachfolgenden Graphen.
 
-![Postmortem - Restored](/assets/postmortem3.png)
+![Postmortem - Restored](/assets/posts/2020-04-21-postmortem3.png)
 
 Wir wünschen euch viel Spaß bei weiteren Videokonferenzen!

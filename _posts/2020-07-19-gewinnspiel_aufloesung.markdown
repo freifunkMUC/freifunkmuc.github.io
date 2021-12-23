@@ -16,10 +16,10 @@ Die folgenden Projekte nahmen an der Abstimmung teil:
 Abstimmen konntet ihr in bis einschließlich Samstag, den 18. Juli.
 
 Zur Erinnerung noch einmal die beiden Geräte um die es im Gewinnspiel geht:
-![UAP-AC-M / GL.Inet B1300](/assets/gewinnspiel-2020.jpg)
+![UAP-AC-M / GL.Inet B1300](/assets/posts/2020-gewinnspiel.jpg)
 
 Die Entscheidung ist gefallen!
-![ergebniss](/assets/gewinnspiel-2020-aufloesung.png)
+![ergebniss](/assets/posts/2020-gewinnspiel-aufloesung.png)
 
 Hiermit geht der erste Preis (ein UAP-AC Mesh von Ubiquiti) an das Projekt "Versorgung des Volksfests Rudelzhausen".
 Der zweite Preis (ein GL-Inet B1300) findet seine neue Heimat beim Projekt am Heimstettener See.

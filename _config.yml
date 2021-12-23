@@ -1,35 +1,101 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://freifunkmuc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Freifunk München
+email: hilfe@ffmuc.bayern
+author: Freie Netze München e.V.
+# Copyright setting
+# You can use any html code, currently below placeholders are available:
+# * current year: {currentYear}
+# * author: {author} (Value is the same as site.author)
+# * copyright: (c) - ©
+# * copyleft: (cleft)
+# * sound recording copyright: (p) - ℗
+#
+# For example:
+#   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
+#   "Copyright © 2017-2021 Foobar"
+#
+description: Freifunk München
+baseurl: ""
+url: "https://ffmuc.net"
+favicon: "assets/favicon/favicon.ico"
 
+twitter_username: FreifunkMUC
+github_username:  FreifunkMUC
+
+# If you don't want transparent header, you can set false
+header_transparent: false
 # Build settings
 markdown: kramdown
-permalink: pretty
+kmarkdown:
+  input: GFM
+theme: jekyll-theme-yat
 plugins:
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll/tagging
+  - jekyll-paginate
+  - jekyll-spaceship
 
-paginate: 5
-paginate_path: "/page/:num"
+# If you want to generate website sitemap, you can set true
+sitemap: true
 
+header_pages:
+  - wasistfreifunk.md
+  - mitmachen.md
+  - knotenkarte.md
+  - faq.md
+  - wiki.md
+  - kontakt.md
+#  - archives.html
+#  - categories.html
+#  - tags.html
 
-# Pages Path
+# You can choose a brand color
+# Default brand colors as below:
+# orangered: #ff5100
+# greatgold: #f2cb05
+# greenblue: #389092
+#
+brand_color: "#d42a67"
+#
+# Custom color as below:
+# brand_color: "#1a8e42"
+# Page default value
 defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
+   home:
+    heading: "Willkommen bei Freifunk München"
+    subheading: "Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle. Unser Ziel ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in und um München."
+banner:
+#   video: null             # Video banner source
+#   loop: true              # Video loop
+#   volume: 0               # Video volume (100% is 1.0)
+#   start_at: 0             # Video start time
+  image: /assets/banner.jpg             # Image banner source
+  opacity: 0.5            # Banner opacity (100% is 1.0)
+#
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-include:
-  - _pages
-
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-
-sass:
-  sass_dir: _sass
-  style: compressed

@@ -2,8 +2,7 @@
 layout: post
 title:  "Freifunk München - Weihnachtsaktion"
 date:   2020-12-12 08:43:00
-image:  router.jpg
-tags:   Aktion
+categories: freifunkmuc
 ---
 
 Um den Betrieb von Freifunk München sicherzustellen, sind wir, wie viele Projekte, die von Ehrenamltichen betrieben werden, auf eure finanzielle Unterstützung angewiesen.
@@ -26,4 +25,4 @@ Kreissparkasse München - Starnberg - Ebersberg<br />
 **Paypal:**<br />
 [paypal.me/ffmucspenden](https://paypal.me/ffmucspenden)
 
-![Netgear R6120](/assets/weihnachtsaktion/router.jpg){: height="400px" }
+![Netgear R6120](/assets/posts/2020-12-12-router.jpg){: height="400px" }

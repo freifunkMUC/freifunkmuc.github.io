@@ -13,12 +13,12 @@ Die Änderung innerhalb von weniger Minuten überzeugt zumindest uns :)
 
 | Stand 12:00 | Stand 12:07 |
 |--------|--------|
-| ![Stand 12:00](/assets/2019-06-07-migration_1200.png) | ![](/assets/2019-06-07-migration_1207.png)|
+| ![Stand 12:00](/assets/posts/2019-06-07-migration_1200.png) | ![](/assets/posts/2019-06-07-migration_1207.png)|
 
 Ihr habt es vielleicht daran gemerkt, dass sich der Name des WLAN's geändert hat - oder daran dass das Surfen wieder schneller funktioniert.
 
 Trotzdem möchten wir euch die Entwicklung anhand eines Graphen etwas zeigen:
-![Graph Knoten](/assets/2019-06-07-migration_nodes.png)
+![Graph Knoten](/assets/posts/2019-06-07-migration_nodes.png)
 Man sieht, dass viele Knoten vor 12 Uhr noch in alten Segmenten waren (die größen Bereiche).
 Als die Knoten umgeschaltet haben, brauchte das System ein paar Minuten um dies zu bemerken (der Ausschlag)
 doch danach waren alle Knoten wieder da.
