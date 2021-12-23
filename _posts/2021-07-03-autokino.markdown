@@ -12,17 +12,17 @@ Die für diesen Aufbau verwendete Hardware ist der Prototyp den wir für weitere
 ### Bilder vom Aufbau
 
 
-![Aufbau](/assets/autokino/aufbau.jpeg){: height="400px"}
+![Aufbau](/assets/posts/2021-07-03-aufbau.jpg){: height="400px"}
 
-![Mast in der Ferne](/assets/autokino/mast-autokino.jpg){: height="400px"}
+![Mast in der Ferne](/assets/posts/2021-07-03-mast-autokino.jpg){: height="400px"}
 
-![Durchsatz](/assets/autokino/speed.png){: height="200px"}
+![Durchsatz](/assets/posts/2021-07-03-speed.png){: height="200px"}
 
 ### Verwendete Hardware
 
 - 1x FriendlyElec NanoPI R2S
 - 4x Ubiquiti UMA-D
-- 4x Ubiquiti Unifi UAP-Mesh
+- 4x Ubiquiti UniFi UAP-Mesh
+- 1x Ubiquiti UniFi USW Flex
 - 1x Ubiquiti Surge Protector
-- 1x Ubiquiti Unifi USW Flex
 

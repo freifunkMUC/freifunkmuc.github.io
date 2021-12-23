@@ -46,8 +46,8 @@ Nun fragt ihr euch sicher, warum das so plötzlich passiert. Nun der Grund ist e
 
 Nachdem es gerade Probleme mit dem Wiki gibt, hier ein Screenshot aus Netbox welchen Bereich welches Segment bekommt.
 
-![IPv4](/assets/ipv4.png)
-![IPv6](/assets/ipv6.png)
+![IPv4](/assets/posts/2019-06-03-ipv4.png)
+![IPv6](/assets/posts/2019-06-03-ipv6.png)
 
 **Relevante Github Repos**
 

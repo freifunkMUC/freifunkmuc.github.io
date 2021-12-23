@@ -15,4 +15,4 @@ Aktuell arbeitet das Infrastruktur Team hart im Hintergrund um bald weitere Neue
 
 Lob/Feedback/Probleme bitte im [Chat](https://chat.ffmuc.net/freifunk/channels/noc) melden.
 
-![Logo Spacenet](/assets/logo_spacenet.png)
+![Logo Spacenet](/assets/posts/2019-02-27-logo_spacenet.png)

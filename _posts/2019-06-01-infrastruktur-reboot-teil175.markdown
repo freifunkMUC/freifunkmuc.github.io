@@ -25,7 +25,7 @@ Dies betrifft **NUR** Knoten welche als `autoupdater` `experimental` oder `testi
 
 In den Knoteneinstellungen hat sich damit auch die Segmentauswahl geändert, diese sieht nun so aus:
 
-![Segment Selektion](/assets/new_segment_selection.png) 
+![Segment Selektion](/assets/posts/2019-06-01-new_segment_selection.png) 
 
 Bleibt also gespannt und bis demnächst,
 

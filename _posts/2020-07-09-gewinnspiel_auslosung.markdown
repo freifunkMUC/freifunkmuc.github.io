@@ -17,6 +17,6 @@ Abstimmen könnt ihr in bis einschließlich Samstag, den 18. Juli, indem ihr im 
 * [https://strawpoll.de/fyz8c7w](https://strawpoll.de/fyz8c7w)
 
 Zur Erinnerung noch einmal die beiden Geräte um die es im Gewinnspiel geht:
-![UAP-AC-M / GL.Inet B1300](/assets/gewinnspiel-2020.jpg)
+![UAP-AC-M / GL.Inet B1300](/assets/posts/2020-gewinnspiel.jpg)
 
 Wir sind gespannt auf eure Entscheidung! Das Ergebnis wird am 19.07.2020 auf Twitter sowie auf unserer Homepage veröffentlicht.
