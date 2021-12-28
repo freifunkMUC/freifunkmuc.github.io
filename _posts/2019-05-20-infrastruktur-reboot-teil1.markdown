@@ -17,13 +17,13 @@ Folgende Aenderungen erwarten euch:
 
 Ihr koennt die neuen Segmente bequem im Setup des Knotens auswaehlen:
 
-![Segmente Auswahl](/assets/new_segments.png)
+![Segmente Auswahl](/assets/posts/2019-05-20-new_segments.png)
 
 Eine Anleitung wie man das Segment per SSH wechselt findet ihr im [Wiki](https://ffmuc.net/wiki/p/Routerkonfiguration_via_SSH#site.conf.2FSegment_.C3.A4ndern).
 
 Die Segmentierung wurde vor Allem wegen dem viel zu hohen Management Traffic angegangen. Welche signifikante Änderung im Management Traffic diese Segmentierung hat, seht ihr im folgenden Screenshot.
 
-![Node Graph](/assets/nodetraffic.png)
+![Node Graph](/assets/posts/2019-05-20-nodetraffic.png)
 
 Alles in Allem wäre es sehr schön, wenn ihr uns helft, die neuen Gateways zu testen und möglichst viel Feedback im [Chat](https://chat.ffmuc.net) oder den anderen [Kontaktmoeglichkeiten](https://ffmuc.net/kontakt) gebt.
 
@@ -38,7 +38,7 @@ Bekannte Probleme:
 
 Und so sieht die neue Hardware hinter Freifunk aus:
 
-![New Servers](/assets/new_servers.png)
+![New Servers](/assets/posts/2019-05-20-new_servers.png)
 
 Viele Grüße und viel Spaß beim Testen,
 

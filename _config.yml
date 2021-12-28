@@ -10,6 +10,7 @@ github_username:  FreifunkMUC
 gems:
   - jekyll-feed
   - jekyll-seo-tag
+favicon: assets/favicon/favicon.ico
 # Build settings
 markdown: kramdown
 permalink: pretty
