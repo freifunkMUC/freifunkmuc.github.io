@@ -12,7 +12,7 @@ Zwei Paletten mit Servern, Switches und Routern gespendet von [GitHub](https://g
 
 Die neue Hardware ermöglicht uns, eine bessere Infrastruktur für Freifunk München bereitzustellen. Sie unterstützt unsere Mission, ein stadtweites Datennetz mit WLAN-Geräten aufzubauen, wobei Freifunk immer ohne Registrierung funktioniert und keine Informationen über seine Nutzer erfasst. Auf diese Weise stellen wir auch Geflüchteten und anderen benachteiligten Bevölkerungsgruppen kostenlose Internetzugänge bereit.
 
-![Server](/assets/2021-10-07-servers-github.png)
+![Server](/assets/posts/2021-10-07-servers-github.png)
 
 Im Moment arbeiten wir an einem Migrationsplan, damit wir alles fehlerfrei einbauen können, ohne dass es zu Störungen kommt.
 
