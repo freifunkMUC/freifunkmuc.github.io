@@ -9,5 +9,5 @@ Freifunk München erlebt gerade einen Neustart - gerade deswegen sollte auch die
 
 Als Antwort der Freifunk Community München zum Beschlussentwurf des Stadtratsantrag "Freifunk-Router auf städtischen Gebäuden" haben wir daher ein [Statement][statement] verfasst und der zuständigen Stelle übergeben.
 
-[statement]: (/assets/posts/2014-10-27-Statement_StR-Antrag.pdf)
+[statement]: /assets/posts/2014-10-27-Statement_StR-Antrag.pdf
 
