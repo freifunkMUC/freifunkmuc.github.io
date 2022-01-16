@@ -9,6 +9,8 @@ permalink: /kontakt/
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
+Mastodon: [@FreifunkMUC](https://muenchen.social/@FreifunkMUC)
+
 ### Chat
 
 Mattermost: [https://chat.ffmuc.net](https://chat.ffmuc.net/) / [Firmware Development](https://chat.ffmuc.net/freifunk/channels/firmware)
