@@ -23,7 +23,7 @@ Der Aufbau ist unterteilt in insgesamt 3 Einzelstrecken. Einmal werden Mikrotik 
 
 ### Geschwindigkeit
 
-Wir bekommen auf der kompletten Strecke einen Durchsatz von 1Gbit/s pro Sekunde ohne Probleme bewältigt. Im Moment ist der Internetdurchsatz durch den DSL Anschluss am Uplink auf 300mbit/s begrenzt.
+Wir bekommen auf der kompletten Strecke einen Durchsatz von 1Gbit/s ohne Probleme bewältigt. Im Moment ist der Internetdurchsatz durch den DSL Anschluss am Uplink auf 300mbit/s begrenzt.
 
 ### Regen? Schnee?
 
