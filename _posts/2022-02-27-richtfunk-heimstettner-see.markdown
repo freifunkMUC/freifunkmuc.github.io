@@ -11,9 +11,7 @@ Wir haben uns bei der Technik dazu entschieden nur 60 Ghz Geräte zu nutzen, um 
 
 ### Um welche Strecken geht es?
 
-![Richtfunk strecken](/assets/posts/2022-02-27-rifu.png){: height="400px" }
-
-Der Aufbau ist unterteilt in insgesamt 3 Einzelstrecken. Einmal werden Mikrotik Cube 60 eingesetzt um die kurze Strecke von der Wasserwacht auf das Silo Dach zu überbrücken. Als nächstes erfolgt die Übertragung per Ubiquiti Airfiber 60 LR zum Schlauchturm der Feuerwehr. Die letzte Strecke wird dann mit Hilfe von Mikrotik 60 LHG zum eigentlichen Uplink überbrückt.
+Der Aufbau ist unterteilt in insgesamt 3 Einzelstrecken. Einmal werden Mikrotik Cube 60 eingesetzt um die kurze Strecke von der Wasserwacht auf das Silo Dach zu überbrücken. Als nächstes erfolgt die Übertragung per Ubiquiti Airfiber 60 LR zu einem weiteren Hop. Die letzte Strecke wird dann mit Hilfe von Mikrotik 60 LHG zum eigentlichen Uplink überbrückt.
 
 ![Richtfunk strecken lhg60](/assets/posts/2022-02-27-lhg60.jpg){: height="400px" }
 
@@ -50,8 +48,8 @@ Für die Verteilung in der Wasserwacht und zum Anschluss der Accesspoints verwen
 
 Wie oben bereits geschrieben, kommen hier verschiedene Produkte je nach Entfernung zum Einsatz.
 
-2x Ubiquiti Airfiber 60LR (2,3km - Silo-Feuerwehr)
-2x Mikrotik LHG60 (1.6km - Feuerwehr-Uplink) 
+2x Ubiquiti Airfiber 60LR (2,3km - Silo-Hop)
+2x Mikrotik LHG60 (1.6km - Hop-Uplink)
 2x Mikrotik Cube60 (100m - Silo-Wasserwacht)
 
 #### Wireless Access Points
@@ -65,3 +63,4 @@ Um an der Wasserwacht das Netz ausstrahlen zu können setzen wir auf Ubiquiti Un
 Es ist geplant die Kapazität der Richtfunkstrecke noch deutlich zu erhöhen, so wie weitere Wasserwachten und andere gemeinnützige Organisationen an diese Strecke anzubinden.
 
 Als nächstes steht der Uplink zum Aschheimer Autokino an, was die nutzbare Kapazität deutlich erhöhen wird. Auch hier kommen auf Grund der Entfernung Airfiber 60 LR zum Einsatz.
+
