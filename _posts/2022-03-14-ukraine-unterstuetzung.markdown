@@ -10,7 +10,7 @@ Die aktuelle Welle von Flüchtlingen aus der Ukraine kommt auch in München an. 
 ### Einrichtung GOROD-Kulturzentrum
 
 Dem [GOROD Kulturzentrum](https://de.newgorod.org) haben wir sehr kurzfristig mit Hardware unter die Arme greifen können, um den Ansturm an Helfern und Flüchtigen stand zu halten.
-Hier werden derzeit circa 800 Geräte mit derzeit circa 230 gleichzeitig verbundenen Clients mit circa 1 TB Traffic täglich versorgt. Anhand dessen sieht man deutlich, dass das Angebot gebraucht und genutzt wird.
+Hier werden derzeit circa 230 gleichzeitig verbundene Clients mit etwa 1 TB Traffic täglich versorgt. Man sieht deutlich, wie sehr die Menschen auf Internet angewiesen sind.
 
 
 ![Switch](/assets/posts/2022-03-14-gorod.png){: height="400px" }
