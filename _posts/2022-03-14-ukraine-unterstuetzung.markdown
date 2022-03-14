@@ -16,7 +16,7 @@ Hier werden derzeit circa 230 gleichzeitig verbundene Clients mit etwa 1 TB Traf
 ![Switch](/assets/posts/2022-03-14-gorod.png){: height="400px" }
 ### Einrichtung AWO-Unterkunft Neuherbergstraße
 
-Auch die [AWO-Unterkunft](https://map.ffmuc.net/#!/de/map/6aaa521e6bc0) Neuherbergstraße hat mittlerweile von uns etwas Hardware spendiert bekommen. Aufgrund der fehlenden Breitbandanbindung vor Ort gehen wir in dem Fall sogar über LTE und versorgen zeitweise bis zu 120 Geräte gleichzeitig mit schnellem und zuverlässigem Internet.
+Auch in der [Aufnahmestelle Neuherbergstraße](https://map.ffmuc.net/#!/de/map/6aaa521e6bc0) stellen wir aktuell den Geflüchteten einen Internetzugang bereit - für über 120 Endgeräte. Hier ist der Uplink über LTE realisiert, da vor Ort kein vorhandener Anschluss geschaltet ist.
 
 ![Hardware](/assets/posts/2022-03-14-awo-01.jpg){: height="400px" }
 ![Aufbau](/assets/posts/2022-03-14-awo-02.jpg){: height="400px" }
