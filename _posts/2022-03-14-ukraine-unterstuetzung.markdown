@@ -16,14 +16,14 @@ Hier werden derzeit circa 230 gleichzeitig verbundene Clients mit etwa 1 TB Traf
 ![Switch](/assets/posts/2022-03-14-gorod.png){: height="400px" }
 ### Einrichtung AWO-Unterkunft Neuherbergstraße
 
-Auch die AWO-Unterkunft Neuherbergstraße hat mittlerweile von uns etwas Hardware spendiert bekommen. Aufgrund der fehlenden Breitbandanbindung vor Ort gehen wir in dem Fall sogar über LTE und versorgen zeitweise bis zu 120 Geräte gleichzeitig mit schnellem und zuverlässigem Internet.
+Auch die [AWO-Unterkunft](https://map.ffmuc.net/#!/de/map/6aaa521e6bc0) Neuherbergstraße hat mittlerweile von uns etwas Hardware spendiert bekommen. Aufgrund der fehlenden Breitbandanbindung vor Ort gehen wir in dem Fall sogar über LTE und versorgen zeitweise bis zu 120 Geräte gleichzeitig mit schnellem und zuverlässigem Internet.
 
 ![Hardware](/assets/posts/2022-03-14-awo-01.jpg){: height="400px" }
 ![Aufbau](/assets/posts/2022-03-14-awo-02.jpg){: height="400px" }
 
 # Wie geht es weiter?
 
-Da soll jedoch nicht Schluss sein. Wir haben bereits neue Hardware bestellt, in der Hoffnung vielen weiteren Menschen zumindest eine Grundversorgung mit Internet anbieten zu können. Falls Ihr also Kontakte habt oder selber Hilfe bei der Versorgung von Unterkünften braucht, dann kontaktiert uns einfach. Wir helfen gerne!
+Da soll jedoch nicht Schluss sein. Wir haben bereits neue Hardware bestellt, in der Hoffnung vielen weiteren Menschen zumindest eine Grundversorgung mit Internet anbieten zu können. Falls Ihr also Kontakte habt oder selber Hilfe bei der Versorgung von Unterkünften braucht, dann [kontaktiert](https://chat.ffmuc.net/freifunk/channels/ukraine-hilfe---2022) uns einfach. Wir helfen gerne!
 
 ![TP-Link](/assets/posts/2022-03-14-tplink.jpg){: height="400px" }
 ![UniFi](/assets/posts/2022-03-14-unifi.jpg){: height="400px" }
