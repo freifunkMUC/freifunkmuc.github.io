@@ -19,6 +19,7 @@ Hier werden derzeit circa 800 Geräte mit derzeit circa 230 gleichzeitig verbund
 Auch die AWO-Unterkunft Neuherbergstraße hat mittlerweile von uns etwas Hardware spendiert bekommen. Aufgrund der fehlenden Breitbandanbindung vor Ort gehen wir in dem Fall sogar über LTE und versorgen zeitweise bis zu 120 Geräte gleichzeitig mit schnellem und zuverlässigem Internet.
 
 ![Hardware](/assets/posts/2022-03-14-awo-01.jpg){: height="400px" }
+![Aufbau](/assets/posts/2022-03-14-awo-02.jpg){: height="400px" }
 
 # Wie geht es weiter?
 
