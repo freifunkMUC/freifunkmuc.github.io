@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Freifunk München hilft unbürokratisch Geflüchteten aus der Ukraine"
-date:   2022-03-14 13:00:00
+date:   2022-03-14 10:00:00
 categories: freifunkmuc
 ---
 
