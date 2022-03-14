@@ -32,10 +32,10 @@ Da soll jedoch nicht Schluss sein. Wir haben bereits neue Hardware bestellt, in 
 
 ### Kontaktmöglichkeiten
 
-E-Mail: <hilfe@ffmuc.bayern>  
-Twitter: <https://twitter.com/FreifunkMUC>  
-Facebook: <https://www.facebook.com/FreifunkMUC>  
-Chat: <https://chat.ffmuc.net>  
+ - E-Mail: <hilfe@ffmuc.bayern>  
+ - Twitter: <https://twitter.com/FreifunkMUC>  
+ - Facebook: <https://www.facebook.com/FreifunkMUC>  
+ - Chat: <https://chat.ffmuc.net>  
 
 ### Unterstützungsmöglichkeiten
 
