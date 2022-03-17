@@ -13,7 +13,7 @@ von Freifunk München!
 
 ### EMC HostCo GmbH
 
-[![EMC logo](/assets/unterstuetzung/EMC.png)][emc-hostco]
+[![EMC logo](/assets/unterstuetzung/EMC.png){: height="100px" }][emc-hostco]
 
 ### Flexoptix GmbH
 
