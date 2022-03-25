@@ -26,8 +26,7 @@ Freifunk München kann einfach und unbürokratisch auf individuelle Gegebenheite
 
 # Leih-Hardware-Pool
 
-Egal ob eine kleine Installation in der privaten Wohnung oder Bereitstellung von WLAN in ganzen Gebäudekomplexen: Freifunk München kann bei Planung und Aufbau helfen. Je früher wir kontaktiert werden, desto besser können wir helfen.
-Bei grossen Installationen gilt: die zu verbauende Hardware ist vorher mit Freifunk München abzustimmen, denn die dort benötigte Hardware ist erfahrungsgemäss speziell (und teuer) - wir haben genug Erfahrung mit großen Installationen und für solche auch quasi standardisierte robuste Setups, und verbauen Hardware, wie sie im professionellen Telekommunikationumfeld verbaut wird.
+Freifunk München kann oft, gerade wenn es um grössere Installationen geht, die zwingend professionelles Equipment erfordern, mit seinem Hardwarepool zur Seite stehen. Das bedeutet, dass Hardware für eine Zeit  ausgeliehen werden kann (und unter Umtänden sogar gegen Kostenerstattung übernommen werden kann). Geliehene Hardware verbleibt in jedem Fall Eigentum von Freifunk München, Beschädigungen gehen zu Lasten des Verursachers.
 
 
 # Aufbauhilfe für Setups aller Größen
