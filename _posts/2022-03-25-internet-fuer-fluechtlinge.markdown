@@ -57,9 +57,9 @@ Generell gilt: Freifunk ist kein Anschlussprovider. Freifunk baut auf einen exis
 Im konkreten Fall kann unter Umständen zur Überbrückung (d.h. bis ein anderweitiger Internetzugang bereitgestellt ist) ein LTE-Mobilfunkrouter von Freifunk München ausgeliehen werden (Verfügbarkeit und Absprache vorausgesetzt) oder ein in der Nachbarschaft bereits vorhandener Freifunkrouter über eine Funkanbindung genutzt werden (das Freifunk Router-zu-Router Netz). Standorte von Freifunkroutern können unter <https://map.ffmuc.net> eingesehen werden.
 
 
-### Ihr schreibt, dass ihr manche Unterkünfte per LTE versorgt, kann ich auch eine Simkarte haben? {#SIM-Karte}
+### Ihr schreibt, dass ihr manche Unterkünfte per LTE versorgt, kann ich auch eine SIM-Karte haben? {#SIM-Karte}
 
-Wir setzen Simkarten nur in Gebieten ein, wo es technisch oder anderweitig nicht möglich ist, Internet per Richtfunk oder vom Nachbarn zu bekommen. Ebenso wird es nur bei größeren Unterkünften (>20 Personen) eingesetzt,​​​ da​​ **das Kontingent für Simkarten begrenzt ist**. Generell gilt, dass die Simkarten nur eine Übergangslösung darstellen, um die Zeit für einen dauerhaften (nicht von Freifunk gestellten) Internetanschluss zu überbrücken. Praktisch bedeutet das, dass man sich gleich zu Beginn um einen dauerhaften Internetanschluss kümmern muss, denn die Überbrückungszeit ist endlich und Freifunk München garantiert keine Verfügbarkeit.
+Wir setzen SIM-Karten nur in Gebieten ein, wo es technisch oder anderweitig nicht möglich ist, Internet per Richtfunk oder vom Nachbarn zu bekommen. Ebenso wird es nur bei größeren Unterkünften (>20 Personen) eingesetzt,​​​ da​​ **das Kontingent für SIM-Karten begrenzt ist**. Generell gilt, dass die SIM-Karten nur eine Übergangslösung darstellen, um die Zeit für einen dauerhaften (nicht von Freifunk gestellten) Internetanschluss zu überbrücken. Praktisch bedeutet das, dass man sich gleich zu Beginn um einen dauerhaften Internetanschluss kümmern muss, denn die Überbrückungszeit ist endlich und Freifunk München garantiert keine Verfügbarkeit.
 
 
 ### Welche Kosten entstehen für eine Installation? {#Kosten}
