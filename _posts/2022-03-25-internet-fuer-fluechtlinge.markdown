@@ -73,7 +73,7 @@ Freie Netze München e.V. tritt als Provider auf und übernimmt damit auch die H
 Grundsätzlich gilt: Wir verhindern oder erschweren keine legalen Maßnahmen der Strafverfolgung. Falls rechtlich begründet, arbeitet Freifunk München vollumfänglich mit Justiz und Polizei zusammen.
 
 
-### Wie wird das finanziert? {#Finazierung}
+### Wie wird das finanziert? {#Finanzierung}
 
 Der Verein Freie Netze München e.V., der hinter Freifunk München die rechtlichen Strukturen stellt, ist auf Spenden und Mitgliedsbeiträge angewiesen. Wir sind daher für jede Unterstützung dankbar. <https://ffmuc.net/spenden>
 
