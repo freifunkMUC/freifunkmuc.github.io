@@ -19,6 +19,10 @@ von Freifunk München!
 
 [![Flexoptix logo](/assets/unterstuetzung/flexoptix.png){: height="60px" }][flexoptix]
 
+### Inter.link GmbH
+
+[![Inter.link logo](/assets/unterstuetzung/interlink_logo.svg){: height="100px" }][interlink]
+
 ### meerfarbig GmbH & Co. KG
 
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: height="100px" }][meerfarbig]
@@ -27,3 +31,4 @@ von Freifunk München!
 [emc-homeofdata]: https://www.emc-homeofdata.de/
 [flexoptix]: https://www.flexoptix.net/
 [meerfarbig]: https://meerfarbig.net/
+[interlink]: https://inter.link/
