@@ -73,7 +73,6 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 * Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
   * Ubiquiti UAP-AC-Mesh
-  * Ubiquiti NanoStation M2 oder M2 loco
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Montiere den Router an einem geeigneten Ort.
 </div>
