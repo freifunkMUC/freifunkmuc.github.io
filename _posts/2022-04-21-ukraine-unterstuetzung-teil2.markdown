@@ -27,3 +27,8 @@ Doch das bekommen die Helfer von Freifunk schon gar nicht mehr mit, denn sie sin
 📝 Mehr Informationen zu Freifunk und den Modalitäten bei Internetzugängen für Flüchtlinge finden Sie unter:
 https://ffmuc.net/freifunkmuc/2022/03/25/internet-fuer-fluechtlinge/
 ```
+
+Kleine Impressionen der Aufbauten:
+![Aufbau AWO](/assets/posts/2022-04-21-AWO.jpg)
+![Aufbau UHG](/assets/posts/2022-04-21-UHG.jpeg)
+![Aufbau UHG2](/assets/posts/2022-04-21-UHG2.jpeg)
