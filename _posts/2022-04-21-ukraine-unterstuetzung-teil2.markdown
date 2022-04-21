@@ -26,7 +26,9 @@ Doch das bekommen die Helfer von Freifunk schon gar nicht mehr mit, denn sie sin
 https://ffmuc.net/freifunkmuc/2022/03/25/internet-fuer-fluechtlinge/
 ```
 
-Kleine Impressionen der Aufbauten:
-![Aufbau AWO](/assets/posts/2022-04-21-AWO.jpg){: height="400px" }
-![Aufbau UHG](/assets/posts/2022-04-21-UHG.jpeg){: height="400px" }
-![Aufbau UHG2](/assets/posts/2022-04-21-UHG2.jpeg){: height="400px" }
+Impressionen der Aufbauten:
+
+|![Aufbau UHG](/assets/posts/2022-04-21-UHG.jpeg){: height="400px" }|![Aufbau UHG2](/assets/posts/2022-04-21-UHG2.jpeg){: height="400px" }|
+|![Auto](/assets/posts/2022-04-21-Auto.jpeg){: height="400px" }|![Aufbau AWO](/assets/posts/2022-04-21-AWO.jpg){: height="400px" }|
+|![LTE](/assets/posts/2022-04-21-lte-notversorgung.jpeg){: height="400px" }|![Aufbau AWO](/assets/posts/2022-04-21-rz-upgrade.jpeg){: height="400px" }|
+
