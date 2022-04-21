@@ -1,88 +1,29 @@
 ---
 layout: post
-title:  "Internet für Flüchtlinge: einfach, schnell, ohne Risiko: Freifunk München - Fragen und Antworten"
-date:   2022-03-25 19:00:00
+title:  "Ukrainehilfe Teil 2"
+date:   2022-04-21 10:00:00
 categories: freifunkmuc
 ---
 
-Ihr habt Geflüchtete bei euch aufgenommen und wollt sie einfach mit Internet versorgen? Euer Helferkreis betreut geflüchtete Familien in einem Gebäude mit oder ohne Internetanschluss? In eurer Gemeinde wird eine Turnhalle/Leichtbauhalle/Zeltanlage für Flüchtlinge aufgebaut und es wird dringend funktionierendes WLAN benötigt? Wir können helfen!
+#### 6 Woche, 6 Unterkünfte... Freifunk hilft immer mehr Geflüchteten aus der Ukraine
 
+Seit 6 Wochen eskaliert der Angriffskrieg Russlands auf die Ukraine und genauso lange werden Menschen in der Ukraine aus ihrem normalen Leben herausgerissen und suchen Schutz in Deutschland. Auch in München und Umgebung. Und seit 6 Wochen wiederholt sich für Freifunk München eine Situation wie zuvor 2015: Menschen kommen mit ein paar Taschen Hab und Gut an und brauchen Kommunikationwege zu Familien, Freunden und Bekannten
 
-### Freifunk - Grundsätzliches {#Grundsaetzliches}
+"Seit dem ersten Tag der neuen heissen Kriegsphase und mit dem Eintreffen der ersten Kriegsflüchtlinge bekommen wir fast täglich Anfragen von Menschen und Einrichtungen mit der Bitte um Hilfe bei der Einrichtung von Internetzugängen", berichtet Annika Wickert, eine der hauptehrenamtlich Aktiven bei Freifunk München, "..und dem kommen wir natürlich gern und nach Kräften nach." Und das mit Erfolg
+Bislang haben die Freifunker 6 grosse Unterkünfte und viele kleine -auch private- Einrichtungen verfreifunkt und versorgen mittlerweile ca 2500 Geflüchtete mit Internet.
 
-Freifunk ermöglicht es, relativ einfach WLAN für Freunde, Geflüchtete oder Gäste bereit zu stellen und vom eigenen Netzwerk zu trennen.
-Darüber hinaus bauen die Freifunkgeräte ("Router") untereinander ein Netzwerk von Router zu Router auf. Besitzt in einem solchen Freifunk-Netz irgendeiner Freifunkrouter eine Verbindung zum Internet, haben alle anderen Router im Netzwerk auch Internet.
-Zur Internetversorgung von Gästen genügt im einfachsten Fall ein einzelner Freifunkrouter, der direkt am bereits existierenden eigenen Internetrouter angeschlossen wird.
+"Freifunk baut dabei auf einen vor Ort existierenden Internetanschluss auf", erklärt Tobias McFadden, der mit Freifunk schon seit 2015 Geflüchteten hilft, "... und damit wir schnell helfen können, stellen wir auch schon mal übergangsweise Mobilfunk-basierte Anschlüsse bereit, bis ein fester Anschluss geschaltet werden kann". Das ist aber anhängig von Sponsoren, denn bei Freifunk arbeiten alle ehrenamtlich und  alle Ressourcen müssen über Spenden finanziert werden. "An den Anschluss kommt dann ein sogenannter Freifunkrouter, der die Kommunikation mit dem Freifunk-Rechenzentren in München und Wien übernimmt, sowie ein oder mehrere leistungsstarke WLAN-Zugangspunkte - je nach lokaler Gegebenheit des Gebäudes." ergänzt McFadden.  
+Freifunk verbaut dabei ausschliesslich professionelles Equipment, denn Internetrouter wie man sie von zuhause kennt, reichen meist nur zur Versorgung von einer Famile. 
 
-Für größere Projekte stehen wir mit Rat und Tat zur Seite!
+"Dem GOROD Kulturzentrum haben wir sehr kurzfristig mit Hardware unter die Arme greifen können. Hier werden derzeit circa 230 gleichzeitig verbundene BenutzerInnen versorgt. Auch in der Aufnahmestelle Neuherbergstraße der AWO stellen wir aktuell den Geflüchteten einen Internetzugang bereit - für über 120 Endgeräte. Hier ist der Uplink über LTE realisiert, da vor Ort noch kein Anschluss geschaltet ist" berichtet Wickert. Weitere Einrichtungen sind in Garmisch-Partenkirchen, Unterhaching und Allershausen. Und dabei ist Freifunk vor allem schnell: Die Notversorgung in Unterhaching wurde nur 5 Tage nach dem ersten Kontakt in unter 4h aufgebaut. 270 Bewohner sollen dort versorgt werden.
 
+"Der Zugang zum Internet ist kein Luxus" gibt Wolfgang Landsberger zu bedenken, einer der aktuell Aktiven beim Aufbau von WLAN-Infrastruktur in Flüchtlingeseinrichtungen. "... es gehört zur Grundversorgung. Die Menschen in der Ukraine haben genau wie die in Deutschland alle Internet zuhause und auf ihren Smartphones und nutzen es genauso intensiv. Da ist ein funktionierender Zugang auch ein Stück Normalität". Und das zeigt sich auch in den Statistiken: "Aktuell gehen durch die Freifunkzugangspunkte für Geflüchtete etwa 3 Terabyte an Daten, aber das ist nur ein Bruchteil dessen, was unsere Infrastruktur bereitstellen kann", ergänzt Landsberger sichtlich stolz.
 
-### Warum Freifunk? Welche Rolle übernimmt Freifunk München? Stellt Freifunk München Hardware? Aufbauhilfe? {#Warum}
+Das bekommen die FreifunkerInnen auch gleich am ersten Tag der Flüchtlingshilfe beim Aufbau des Internetzugang in der ersten Aufnahmeeinrichtung zu spüren:
+Nach 10 Minuten hat es sich vor allem unter den geflüchteten Kindern in der Neuherbergstraße herumgesprochen, dass "es da gleich Internet gibt". Die Helfer von Freifunk sind umringt von einer Taube Neugieriger, die genau verfolgen, was dort installiert wird. "Als wir dann den Zugang freigegeben haben, dauerte es keine 5 Minuten bis etwa 80 User aktiv waren und sich die ersten bedankten. Da weiss man, wofür man das macht" berichtet Wickert. Und auch die Eltern zeigen sich sichtlich erleichtert, denn so kehrt zumindest ein kleines Stück Normalität zurück - und auch das digitale Home-Schooling ist so möglich. Etwas, wo die Ukraine sogar weiter ist als Deutschland in der Pandemie. 
+Doch das bekommen die Helfer von Freifunk schon gar nicht mehr mit, denn sie sind schon auf dem Weg zur nächsten Einrichtung. Nach über 2km verlegten Netzwerkkabeln und fast 1000km Anfahrten ist noch lange nicht Schluss, es gibt noch viel zu tun.
 
-Der Vorteil von Freifunk München ist die schnelle Reaktionszeit und der unkomplizierte Aufbau. Ist vor Ort bereits Internet vorhanden und sollen nur wenige Menschen versorgt werden, kann ein Aufbau innerhalb von Stunden erfolgen - und selbst bei grösseren Installationen kann die Zeit recht kurz sein, d.h. einige Tage.
-
-Freifunk München kann einfach und unbürokratisch auf individuelle Gegebenheiten vor Ort reagieren. Das bedeutet aber auch, dass eine Mitarbeit/Unterstützung durch Menschen vor Ort vorausgesetzt wird. Diese ist in den wenigsten Fällen technischer Natur - Freifunk ist aber kein Anbieter, bei dem man etwas bestellen und Betriebsverantwortung komplett einkaufen kann.
-
-
-### Leih-Hardware-Pool {#HW-Pool}
-
-Freifunk München kann oft, gerade wenn es um grössere Installationen geht, die zwingend professionelles Equipment erfordern, mit seinem Hardwarepool zur Seite stehen. Das bedeutet, dass Hardware für eine Zeit  ausgeliehen werden kann (und unter Umtänden sogar gegen Kostenerstattung übernommen werden kann). Geliehene Hardware verbleibt in jedem Fall Eigentum von Freifunk München, Beschädigungen gehen zu Lasten des Verursachers.
-
-
-### Aufbauhilfe für Setups aller Größen {#setup-groessen}
-
-Egal ob eine kleine Installation in der privaten Wohnung oder Bereitstellung von WLAN in ganzen Gebäudekomplexen: Freifunk München kann bei Planung und Aufbau helfen. Je früher wir kontaktiert werden, desto besser können wir helfen.
-Bei grossen Installationen gilt: die zu verbauende Hardware ist vorher mit Freifunk München abzustimmen, denn die dort benötigte Hardware ist erfahrungsgemäss speziell (und teuer) - wir haben genug Erfahrung mit großen Installationen und für solche auch quasi standardisierte robuste Setups, und verbauen Hardware, wie sie im professionellen Telekommunikationumfeld verbaut wird.
-
-
-### Welche Möglichkeiten habe ich bei welcher Versorgungsgröße? {#Moeglichkeiten}
-
-Für kleinere Einrichtungen empfehlen wir Geräte zum selbst Aufstellen.
- - 5-20 Menschen ⇨ eigene günstige Router mit FFMUC Firmware (siehe <https://ffmuc.net/mitmachen/>)
-
-Bei etwas größeren Installationen kann ein Setup mit mehreren solcher Router sinnvoll sein.
- - 20-50 Menschen ⇨ mehrere, evtl. vernetzte Router mit FFMUC Firmware - wir helfen bei Fragen!
-
-Bei großen Setups (typ. mehr als 50 Personen, die das Netz dauernd nutzen) kommt man um einen (semi-)professionellen Aufbau nicht herum.
- - 50 Menschen ⇨ professionelle Accesspoints + Offloader (= Gerät, das zu Freifunk München verbindet) - meldet euch; wir machen das gemeinsam!
-
-
-### Muss vor Ort ein Internetanschluss vorhanden sein? {#Internetanschluss}
-
-Generell gilt: Freifunk ist kein Anschlussprovider. Freifunk baut auf einen existierenden Internetanschluss auf. Dieser kann ein Festanschluss (DSL, Kabel oder Glasfaser) oder ein mobilfunkgestützter Anschluss sein. Ausnahmen bestehen, wo unser Richtfunkbackbone verfügbar ist. Das benötigt aber weitere Absprachen.
-
-
-### Was kann ich machen, wenn es vor Ort kein Internet gibt? {#keinInternetvorOrt}
-
-Im konkreten Fall kann unter Umständen zur Überbrückung (d.h. bis ein anderweitiger Internetzugang bereitgestellt ist) ein LTE-Mobilfunkrouter von Freifunk München ausgeliehen werden (Verfügbarkeit und Absprache vorausgesetzt) oder ein in der Nachbarschaft bereits vorhandener Freifunkrouter über eine Funkanbindung genutzt werden (das Freifunk Router-zu-Router Netz). Standorte von Freifunkroutern können unter <https://map.ffmuc.net> eingesehen werden.
-
-
-### Ihr schreibt, dass ihr manche Unterkünfte per LTE versorgt, kann ich auch eine SIM-Karte haben? {#SIM-Karte}
-
-Wir setzen SIM-Karten nur in Gebieten ein, wo es technisch oder anderweitig nicht möglich ist, Internet per Richtfunk oder vom Nachbarn zu bekommen. Ebenso wird es nur bei größeren Unterkünften (>20 Personen) eingesetzt,​​​ da​​ **das Kontingent für SIM-Karten begrenzt ist**. Generell gilt, dass die SIM-Karten nur eine Übergangslösung darstellen, um die Zeit für einen dauerhaften (nicht von Freifunk gestellten) Internetanschluss zu überbrücken. Praktisch bedeutet das, dass man sich gleich zu Beginn um einen dauerhaften Internetanschluss kümmern muss, denn die Überbrückungszeit ist endlich und Freifunk München garantiert keine Verfügbarkeit.
-
-
-### Welche Kosten entstehen für eine Installation? {#Kosten}
-
-Das kommt auf den Umfang der Installation an und ist schwer abschätzbar im Vorfeld. Wenn ihr einen günstigen Freifunk-Router selbst konfigurieren und aufstellen könnt, entstehen keine weiteren Kosten. Professionelle Hardware für größere Einrichtungen ist teuer; hier muss im Einzelfall über die Finanzierung gesprochen werden.
-
-
-### Wie sieht es mit der Haftung aus? {#Haftung}
-
-Freie Netze München e.V. tritt als Provider auf und übernimmt damit auch die Haftungsfrage. Mehr zu den rechtlichen Aspekten und Sicherheit im Freifunk ist im FAQ zu lesen: <https://ffmuc.net/wiki/doku.php?id=knb:faq#rechtliches>
-Grundsätzlich gilt: Wir verhindern oder erschweren keine legalen Maßnahmen der Strafverfolgung. Falls rechtlich begründet, arbeitet Freifunk München vollumfänglich mit Justiz und Polizei zusammen.
-
-
-### Wie wird das finanziert? {#Finanzierung}
-
-Der Verein Freie Netze München e.V., der hinter Freifunk München die rechtlichen Strukturen stellt, ist auf Spenden und Mitgliedsbeiträge angewiesen. Wir sind daher für jede Unterstützung dankbar. <https://ffmuc.net/spenden>
-
-
-### Wo finde ich mehr Infos zum Thema Freifunk? {#Infos}
-
-In unseren FAQ <https://ffmuc.net/wiki/doku.php?id=knb:faq>
-
-
-### Wen kontaktiere ich bei Fragen? {#Fragen}
-
-Ansprechpartner findest du entweder im Chat (<https://chat.ffmuc.net>) oder per E-Mail (<hilfe@ffmuc.bayern>).
+```
+📝 Mehr Informationen zu Freifunk und den Modalitäten bei Internetzugängen für Flüchtlinge finden Sie unter:
+https://ffmuc.net/freifunkmuc/2022/03/25/internet-fuer-fluechtlinge/
+```
