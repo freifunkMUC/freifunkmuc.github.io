@@ -29,6 +29,6 @@ https://ffmuc.net/freifunkmuc/2022/03/25/internet-fuer-fluechtlinge/
 Impressionen der Aufbauten:
 
 |![Aufbau UHG](/assets/posts/2022-04-21-UHG.jpeg){: height="400px" }|![Aufbau UHG2](/assets/posts/2022-04-21-UHG2.jpeg){: height="400px" }|
-|![Auto](/assets/posts/2022-04-21-Auto.jpeg){: height="400px" }|![Aufbau AWO](/assets/posts/2022-04-21-AWO.jpg){: height="400px" }|
+|![Auto](/assets/posts/2022-04-21-auto.jpeg){: height="400px" }|![Aufbau AWO](/assets/posts/2022-04-21-AWO.jpg){: height="400px" }|
 |![LTE](/assets/posts/2022-04-21-lte-notversorgung.jpeg){: height="400px" }|![Aufbau AWO](/assets/posts/2022-04-21-rz-upgrade.jpeg){: height="400px" }|
 
