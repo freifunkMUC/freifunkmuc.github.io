@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ukrainehilfe Teil 2"
-date:   2022-04-21 10:00:00
+date:   2022-04-21 08:00:00
 categories: freifunkmuc
 ---
 
