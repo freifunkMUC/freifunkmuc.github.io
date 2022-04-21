@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Ukrainehilfe Teil 2"
+title:  "Ukrainehilfe Teil 2 - 6 Woche, 6 Unterkünfte... Freifunk hilft immer mehr Geflüchteten aus der Ukraine"
 date:   2022-04-21 08:00:00
 categories: freifunkmuc
 ---
-
-#### 6 Woche, 6 Unterkünfte... Freifunk hilft immer mehr Geflüchteten aus der Ukraine
 
 Seit 6 Wochen eskaliert der Angriffskrieg Russlands auf die Ukraine und genauso lange werden Menschen in der Ukraine aus ihrem normalen Leben herausgerissen und suchen Schutz in Deutschland. Auch in München und Umgebung. Und seit 6 Wochen wiederholt sich für Freifunk München eine Situation wie zuvor 2015: Menschen kommen mit ein paar Taschen Hab und Gut an und brauchen Kommunikationwege zu Familien, Freunden und Bekannten
 
