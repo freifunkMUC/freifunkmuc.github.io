@@ -2,30 +2,26 @@
 layout: home
 title: Was ist Freifunk?
 permalink: /wasistfreifunk/
+video: true
 ---
 
 Das Projekt Freifunk München baut ein stadtweites Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist dabei frei von Registrierung und Erfassung von Informationen.
 
+<p>
 <video
-    id="player1"
+    id="ffmuc"
     class="video-js"
     controls
+    width="640"
+    height="264"
     preload="auto"
+    class="video-js vjs-default-skin col-xs-12"
     data-setup="{}"
   >
     <source src="/assets/media/freifunk.mp4" type="video/mp4">
     <source src="/assets/media/freifunk.webm" type="video/webm">
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
   </video>
-
-  <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
-
+</p>
 Konkret hat sich Freifunk zum Ziel gesetzt, offene Funknetzwerke einzurichten und diese miteinander zu verbinden. Dies ermöglicht einen freien Datenverkehr “durch die Luft” in der ganze Stadt innerhalb des Freifunk-Netzes. Freifunk ist somit eine offene, nicht-kommerzielle, hierarchielose Initiative für freie Funknetzwerke.
 
 ## Wie funktioniert Freifunk?
