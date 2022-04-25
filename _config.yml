@@ -87,6 +87,7 @@ banner:
 #   start_at: 0             # Video start time
   image: /assets/banner.jpg             # Image banner source
   opacity: 0.5            # Banner opacity (100% is 1.0)
+  height: "320px"
 #
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
