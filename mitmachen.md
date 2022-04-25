@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Einstieg
+title: Wie mache ich mit?
 permalink: /mitmachen/
 ---
 

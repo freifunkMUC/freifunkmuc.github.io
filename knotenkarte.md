@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Knotenkarte
+title: Wo empfange ich Freifunk?
 permalink: /map
 ---
 <head>

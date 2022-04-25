@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Unterstützung
-permalink: /unterstuetzung/
+title: Unterstützer
+permalink: /unterstuetzer/
 ---
 
 Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung

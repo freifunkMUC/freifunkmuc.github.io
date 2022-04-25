@@ -56,14 +56,14 @@ sitemap: true
 
 header_pages:
   - wasistfreifunk.md
-  - mitmachen.md
   - knotenkarte.md
+  - mitmachen.md
   - faq.md
   - wiki.md
   - kontakt.md
-#  - archives.html
-#  - categories.html
-#  - tags.html
+  - unterstuetzung.md
+  - impressum.md
+  - spenden.md
 
 # You can choose a brand color
 # Default brand colors as below:
