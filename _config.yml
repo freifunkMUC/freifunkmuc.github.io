@@ -31,7 +31,7 @@ author: Freie Netze München e.V.
 description: Freifunk München
 baseurl: ""
 url: "https://ffmuc.net"
-favicon: "assets/favicon/favicon.ico"
+favicon: "/assets/favicon/favicon.ico"
 
 twitter_username: FreifunkMUC
 github_username:  FreifunkMUC
