@@ -11,9 +11,9 @@ von Freifunk München!
 
 [![ANEXIA logo](/assets/unterstuetzung/anexia.jpg){: height="100px" }][anexia]
 
-### EMC HostCo GmbH
+### EMC Home of Data GmbH
 
-[![EMC logo](/assets/unterstuetzung/EMC.png)][emc-hostco]
+[![EMC logo](/assets/unterstuetzung/emc-logo.svg){: height="100px" }][emc-homeofdata]
 
 ### Flexoptix GmbH
 
@@ -24,6 +24,6 @@ von Freifunk München!
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: height="100px" }][meerfarbig]
 
 [anexia]: https://www.anexia.com/
-[emc-hostco]: https://emc-hostco.de/
+[emc-homeofdata]: https://www.emc-homeofdata.de/
 [flexoptix]: https://www.flexoptix.net/
 [meerfarbig]: https://meerfarbig.net/
