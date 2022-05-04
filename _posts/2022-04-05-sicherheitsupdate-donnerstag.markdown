@@ -9,7 +9,7 @@ Am Donnerstag, den 05.05.2022 werden wir Updates für alle Knoten im Netzwerk au
 
 Dieses Update **MUSS** auf alle Geräte ausgerollt werden. Geräte, die nicht rechtzeitig aktualisiert wurden, müssen aus dem Freifunk-Netzwerk ausgeschlossen werden, um die Betreiber und das Freifunk-Netzwerk nicht zu gefährden (dies gilt auch für das gesamte Mesh, mit dem sie verbunden sind).
 
-Bei Fragen schaut gerne bei uns im [Chat](https://chat.ffmuc.net/freifunk/channels/freifunk-augsburg) vorbei!
+Bei Fragen schaut gerne bei uns im [Chat](https://chat.ffmuc.net) vorbei!
 
 
 Ankündigung:
@@ -31,4 +31,4 @@ end-of-life status.
 -- NeoRaider
 ```
 
-Quelle: https://lists.freifunk.net/pipermail/firmware-devel-freifunk.net/2022-May/000240.html
+[Quelle](https://lists.freifunk.net/pipermail/firmware-devel-freifunk.net/2022-May/000240.html)
