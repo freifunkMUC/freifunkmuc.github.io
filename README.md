@@ -7,7 +7,7 @@ Zum lokalen testen sollte folgendes genügen:
 git clone https://github.com/freifunkMUC/freifunkmuc.github.io.git
 cd freifunkmuc.github.io
 git checkout facelift
-gem install jekyll
+bundle install
 bundle exec jekyll serve
 ```
 
