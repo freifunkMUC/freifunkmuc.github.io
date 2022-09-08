@@ -21,7 +21,7 @@ Deswegen wollen wir euch bitten, so bald wie möglich eure alten Geräte durch n
 
 Wir empfehlen den Besuch beim lokalen Händler deines Vertrauens, da du dort die Revision vor dem Kauf überprüfen kannst. Alternativ lohnt sich der Preisvergleich im Internet bei Seiten wie [Geizhals](https://geizhals.de/) oder [Idealo](https://www.idealo.de/). 
 
-Kostengünstige Geräte:
+### Kostengünstige Geräte:
 
 * AVM FRITZ!WLAN Repeater 300E (max. 15€)
 * AVM FRITZ!WLAN Repeater 450E (max. 25€)
@@ -29,27 +29,27 @@ Kostengünstige Geräte:
 * Gl.iNet AR150 (ca. 25€)
 * Gl.iNet AR300 (ca. 30€)
 
-Mittleres Preissegment:
+### Mittleres Preissegment:
 
 * AVM FRITZ!Box 4020 (ca. 40€)
 * Netgear R6120 (ca. 40€)
 * Xiaomi Mi Router 4A Gigabit Edition (ca. 50€) 
 * AVM FRITZ!Repeater 1200 (ca. 55€)
 
-Oberes Preissegment:
+### Oberes Preissegment:
 
 * AVM FRITZ!Box 4040 (ca. 72€)
 * Ubiquiti Unifi AC Lite (ca. 78€)
 * Gl.iNet GL-B1300 (ca. 89€)
 
-Outdoor:
+### Outdoor:
 * Ubiquiti UniFi AC Mesh (ca. 87€)
-* 
+
 Auch schauen wir, dass wir in unserem [Marktplatz](https://ffmuc.net/pad/p/Marktplatz) einige Geräte zur Aufrüstung zur Verfügung stellen können, hierfür achten wir immer wieder auf gute Angebote und stellen diese dann kostenneutral und fertig mit FFMUC Firmware bestückt zur Verfügung.
 
 Für Fragen und Feedback könnt ihr euch gerne mit uns in [Verbindung](https://ffmuc.net/kontakt) setzen.
 
-### Betroffene Geräte
+## Betroffene Geräte
 
 * ALFA Network
   * AP121
