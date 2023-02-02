@@ -42,7 +42,7 @@ Wir empfehlen den Besuch beim lokalen Händler deines Vertrauens, da du dort die
 * AVM FRITZ!Box 4040 (ca. 72€)
 * Ubiquiti Unifi AC Lite (ca. 78€)
 * Gl.iNet GL-B1300 (ca. 90€)
-* ZyXEL NWA50AX (ca. 90€)
+* Zyxel NWA50AX (ca. 90€)
 
 ### Outdoor:
 * Ubiquiti UniFi AC Mesh (ca. 87€)
