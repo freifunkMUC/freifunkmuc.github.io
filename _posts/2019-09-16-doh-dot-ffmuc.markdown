@@ -17,8 +17,9 @@ Wir haben uns zudem auch auf der Seite des [DNSCrypt-Projektes](https://dnscrypt
 Adressen:
 
 ```
-doh.ffmuc.net - 195.30.94.28 / 2001:608:a01::3
-dot.ffmuc.net - 195.30.94.28 / 2001:608:a01::3
+doh.ffmuc.net - IPv4: 5.1.66.255 / 185.150.99.255 IPv6: 2001:678:e68:f000:: / 2001:678:ed0:f000::
+dot.ffmuc.net - IPv4: 5.1.66.255 / 185.150.99.255 IPv6: 2001:678:e68:f000:: / 2001:678:ed0:f000::
+https://doh.ffmuc.net/dns-query
 ```
 ## Einrichtung
 
