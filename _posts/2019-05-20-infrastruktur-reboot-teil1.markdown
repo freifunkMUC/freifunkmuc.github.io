@@ -38,7 +38,7 @@ Bekannte Probleme:
 
 Und so sieht die neue Hardware hinter Freifunk aus:
 
-![New Servers](/assets/posts/2019-05-20-new_servers.png)
+![New Servers](/assets/posts/2019-05-20-servers.png)
 
 Viele Grüße und viel Spaß beim Testen,
 
