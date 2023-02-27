@@ -52,5 +52,11 @@ Unser Ziel ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes
         </div>
     </div>
 
+<div class="col-sm-6">
+<div class="list-group">
+<div class="panel-heading" markdown="1">
+{% include spenden.md %}
+</div>
+</div>
 </div>
 
