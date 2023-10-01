@@ -12,7 +12,7 @@ jobs:
         target: [webfrontend03, webfrontend04, webfrontend05, webfrontend06]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v3.3.1
       with:
