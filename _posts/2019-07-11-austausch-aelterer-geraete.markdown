@@ -19,33 +19,37 @@ Deswegen wollen wir euch bitten, so bald wie möglich eure alten Geräte durch n
 
 ## Router kaufen
 
-Wir empfehlen den Besuch beim lokalen Händler deines Vertrauens, da du dort die Revision vor dem Kauf überprüfen kannst. Alternativ lohnt sich der Preisvergleich im Internet bei Seiten wie [Geizhals](https://geizhals.de/) oder [Idealo](https://www.idealo.de/). 
+Wir empfehlen den Besuch beim lokalen Händler deines Vertrauens, da du dort die Revision vor dem Kauf überprüfen kannst. Alternativ lohnt sich der Preisvergleich im Internet bei Seiten wie [Geizhals](https://geizhals.de/) oder [Idealo](https://www.idealo.de/).
+
+Hier findet ihr außerdem eine [Geschwindigkeitsmessungen für viele Geräte](https://ffmuc.net/wiki/doku.php?id=knb:gluon.speed-with-wg).
+
 
 ### Kostengünstige Geräte:
 
-* AVM FRITZ!WLAN Repeater 300E (max. 15€)
-* AVM FRITZ!WLAN Repeater 450E (max. 25€)
-* Gl.iNet MT300 (ca. 25€)
-* Gl.iNet AR150 (ca. 25€)
-* Gl.iNet AR300 (ca. 30€)
+Siehe [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
 
-### Mittleres Preissegment:
 
-* AVM FRITZ!Box 4020 (ca. 40€)
-* Netgear R6120 (ca. 40€)
+### Bekannte Geräte:
+
 * Xiaomi Mi Router 4A Gigabit Edition (ca. 50€) 
-* AVM FRITZ!Repeater 1200 (ca. 55€)
-
-### Oberes Preissegment:
-
-* Netgear WAX202 (ca. 70€)
+* AVM FRITZ!Repeater 1200 (ohne AX!) (ca. 55€)
 * AVM FRITZ!Box 4040 (ca. 72€)
-* Ubiquiti Unifi AC Lite (ca. 78€)
-* Gl.iNet GL-B1300 (ca. 90€)
-* Zyxel NWA50AX (ca. 90€)
+* Netgear WAX220 (ca. 130€)
 
-### Outdoor:
-* Ubiquiti UniFi AC Mesh (ca. 87€)
+
+### High-Performance Lösungen:
+
+Für Lösungen die viele Endgeräte erwarten oder hohe Anforderungen an Bandbreite haben, empfehlen wir einen Offloader zusammen mit Ubiquiti Unifi oder TP-Link Omada Geräten. 
+
+Für die Verwaltung der Unifi oder Omada Geräte benötigt ihr keine eigenen Controller (bspw. "UniFi Cloud Key", "Omada Hardware Controller", ...), ihr könnt dir die Geräte über die von FFMuc betriebnen Controller konfigurieren.
+
+#### Offloader
+* NanoPi R2S (ca. 90€)
+* NanoPi R4S (ca. 140€)
+* t-bao	T8 Plus	(ca. 150€)
+
+
+## Kontakt mit FFMuc aufnehmen
 
 Auch schauen wir, dass wir in unserem [Marktplatz](https://ffmuc.net/pad/p/Marktplatz) einige Geräte zur Aufrüstung zur Verfügung stellen können, hierfür achten wir immer wieder auf gute Angebote und stellen diese dann kostenneutral und fertig mit FFMUC Firmware bestückt zur Verfügung.
 
