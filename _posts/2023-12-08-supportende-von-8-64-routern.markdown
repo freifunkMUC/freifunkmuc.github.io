@@ -68,15 +68,18 @@ Für Fragen und Feedback könnt ihr euch gerne mit uns in [Verbindung](https://f
 
 Liste wird regelmäßig aktualisiert.
 
+* AVM
+  * FRITZ!WLAN Repeater 1750E (RAM limitiert)
+
 * TP-Link
   * Archer C2
   * Archer C20
   * Archer C20i
   * Archer C25
   * Archer C50
+  * Archer C58 (RAM limitiert)
   * Archer C6
   * Archer C60
-  * Archer C7
   * CPE210
   * CPE510
   * TL-WR902AC
