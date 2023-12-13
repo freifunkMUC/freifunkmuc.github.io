@@ -14,7 +14,7 @@ Arbeitsspeicher stellt unter anderem ein Problem für die Stabilität dar, da ne
 benötigen. Da der Linux-Kernel und die benötigten Libraries mit der Zeit gewachsen sind, schaffen wir es außerdem mit
 dem neuesten Firmware-Release nicht mehr, das Image klein genug für den vorhandenen Flash-Speicher zu machen.
 
-Wir werden im nächsten Release den Support für diese Router beenden. Das bedeutet, dass wir keine Funktions- oder
+Wir werden in einem der nächsten Releases den Support für diese Router beenden. Das bedeutet, dass wir keine Funktions- oder
 Sicherheitsupdates für diese Geräte mehr bereitstellen werden.
 
 In Ausnahmefällen werden wir versuchen wichtige Sicherheitsupdates soweit **möglich** und **sinnvoll** für die Geräte
