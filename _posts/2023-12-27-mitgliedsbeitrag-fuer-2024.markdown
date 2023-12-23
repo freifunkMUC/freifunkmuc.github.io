@@ -26,6 +26,6 @@ Verwendungszweck deine Mitgliedsnummer
 Wir danken Ihnen herzlich für Ihre fortwährende Unterstützung und das Engagement für unseren Verein.  
 Bei Fragen zur Mitgliedschaft oder zur Zahlung des Jahresbeitrags stehen wir Ihnen jederzeit gerne im [Chat](https://chat.ffmuc.net) zur Verfügung.  
   
-**Noch kein Mitglied? Und du möchtest Mitglied werden?**  
+**Du bist noch kein Mitglied, aber interessiert daran, eins zu werden?**  
 
 Dann schau einmal im [Wiki](https://ffmuc.net/wiki/doku.php?id=ev:start) nach dort gibt es weitere Infos.
