@@ -1,6 +1,9 @@
 ## Netzwerk Status
 <a target='_blank' href="https://stats.ffmuc.net/d/kUoZ2DRWz/network-overview">>> Gateway Stats-Dashboard</a>
 <br>
+<br><u><b>Geplant:</b></u>
+<br>09.03.2024 - Wartungsarbeiten neue Server für Münchner Rechenzentrum
+<br>
 <br><u><b>Aktuell:</b></u>
 <br>Aktuell sind uns keine Störungen bekannt
 <br>
