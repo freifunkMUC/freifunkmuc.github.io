@@ -9,7 +9,7 @@ permalink: /kontakt/
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
-Mastodon: [@FreifunkMUC](https://muenchen.social/@FreifunkMUC)
+Mastodon: [@FreifunkMUC](https://social.ffmuc.net/@freifunkMUC)
 
 ### Chat
 
