@@ -18,7 +18,7 @@ Bitte beachten Sie die folgenden Details:
 
 Wir entschuldigen uns für eventuelle Unannehmlichkeiten, die Ihnen während dieser Zeit entstehen. Die Wartung ist notwendig, um die Leistung und Zuverlässigkeit unserer Dienste zu verbessern.
 
-|![Neue Server 1](/assets/posts/2024-02-27-upgrade1.jpeg){: height="400px" }|![Neue Server 2](/assets/posts/2024-02-27-upgrade2.jpeg){: height="400px" }|![Neue Server 3](/assets/posts/2024-02-27-upgrade3.jpeg){: height="400px" }
+![Neue Server 1](/assets/posts/2024-02-27-upgrade1.jpeg){: style="max-height:400px;"} | ![Neue Server 2](/assets/posts/2024-02-27-upgrade2.jpeg){: style="max-height:400px;"} | ![Neue Server 3](/assets/posts/2024-02-27-upgrade3.jpeg){: style="max-height:400px;"}
 
 Bitte beachten Sie, dass es sich hierbei um eine vorläufige Ankündigung handelt und Änderungen vorbehalten sind. 
 
