@@ -7,7 +7,7 @@ url: "https://ffmuc.net/"
 twitter_username: FreifunkMUC
 github_username:  FreifunkMUC
 mastodon_username: "@freifunkMUC"
-mastodon_link: "https://social.ffmuc.net/""
+mastodon_link: "https://social.ffmuc.net/"
 
 gems:
   - jekyll-feed
