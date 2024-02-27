@@ -13,21 +13,21 @@ Dem [GOROD Kulturzentrum](https://de.newgorod.org) haben wir sehr kurzfristig mi
 Hier werden derzeit circa 230 gleichzeitig verbundene Clients mit etwa 1 TB Traffic täglich versorgt. Man sieht deutlich, wie sehr die Menschen auf Internet angewiesen sind.
 
 
-![Switch](/assets/posts/2022-03-14-gorod.png){: height="400px" }
+![Switch](/assets/posts/2022-03-14-gorod.png){: style="max-height: 400px;"}
 ### Einrichtung AWO-Unterkunft Neuherbergstraße
 
 Auch in der [Aufnahmestelle Neuherbergstraße](https://map.ffmuc.net/#!/de/map/6aaa521e6bc0) stellen wir aktuell den Geflüchteten einen Internetzugang bereit - für über 120 Endgeräte. Hier ist der Uplink über LTE realisiert, da vor Ort kein vorhandener Anschluss geschaltet ist.
 
-![Hardware](/assets/posts/2022-03-14-awo-01.jpg){: height="400px" }
-![Aufbau](/assets/posts/2022-03-14-awo-02.jpg){: height="400px" }
+![Hardware](/assets/posts/2022-03-14-awo-01.jpg){: style="max-height: 400px;"}
+![Aufbau](/assets/posts/2022-03-14-awo-02.jpg){: style="max-height: 400px;"}
 
 # Wie geht es weiter?
 
 Da soll jedoch nicht Schluss sein. Wir haben bereits neue Hardware bestellt, in der Hoffnung vielen weiteren Menschen zumindest eine Grundversorgung mit Internet anbieten zu können. Falls Ihr also Kontakte habt oder selber Hilfe bei der Versorgung von Unterkünften braucht, dann [kontaktiert](https://chat.ffmuc.net/freifunk/channels/ukraine-hilfe---2022) uns einfach. Wir helfen gerne!
 
-![TP-Link](/assets/posts/2022-03-14-tplink.jpg){: height="400px" }
-![UniFi](/assets/posts/2022-03-14-unifi.jpg){: height="400px" }
-![Mikrotik](/assets/posts/2022-03-14-mikrotik.jpg){: height="400px" }
+![TP-Link](/assets/posts/2022-03-14-tplink.jpg){: style="max-height: 400px;"}
+![UniFi](/assets/posts/2022-03-14-unifi.jpg){: style="max-height: 400px;"}
+![Mikrotik](/assets/posts/2022-03-14-mikrotik.jpg){: style="max-height: 400px;"}
 
 
 ### Kontaktmöglichkeiten
