@@ -70,7 +70,7 @@ Das Freie Netzwerk ist die Summe der miteinander verbundenen Hard- und Software,
 Der Dienst (Betrieb, Service) besteht aus freiem Transit und zusätzlichen Diensten.
 
 * **Zusätzliche Dienste**\\
-Im Sinne des PPA ist ein Zusätzlicher Dienst alles war über freien Transit hinaus geht. Zum Beispiel die Bereitstellung eines DHCP-Servers, WEB-Servers oder Mail-Servers.\\
+Im Sinne des PPA ist ein Zusätzlicher Dienst alles, was über freien Transit hinaus geht. Zum Beispiel die Bereitstellung eines DHCP-Servers, WEB-Servers oder Mail-Servers.\\
 Das PPA soll nach vereinbarten Standards in maschinenlesbarer Form in Community-Node-Datenbanken (nodeDBs) eingebaut werden, um die automatische Vernetzung solcher Knoten (Nodes) zu ermöglichen
 
 
