@@ -25,4 +25,4 @@ Kreissparkasse München - Starnberg - Ebersberg<br />
 **Paypal:**<br />
 [paypal.me/ffmucspenden](https://paypal.me/ffmucspenden)
 
-![Netgear R6120](/assets/posts/2020-12-12-router.jpg){: height="400px" }
+![Netgear R6120](/assets/posts/2020-12-12-router.jpg){: style="max-height: 400px;"}

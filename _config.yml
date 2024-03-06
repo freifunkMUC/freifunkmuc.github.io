@@ -35,6 +35,8 @@ favicon: "/assets/favicon/favicon.ico"
 
 twitter_username: FreifunkMUC
 github_username:  FreifunkMUC
+mastodon_username: "@freifunkMUC"
+mastodon_link: "https://social.ffmuc.net/"
 
 # If you don't want transparent header, you can set false
 header_transparent: false

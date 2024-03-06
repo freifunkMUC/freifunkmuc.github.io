@@ -2,7 +2,14 @@ Basierend auf dem [YAT THEME](https://github.com/jeffreytse/jekyll-theme-yat/). 
 
 Diese Webseite wird mit dem [jekyll](https://jekyllrb.com) compiler erstellt.
 
+
+Prerequisites:
+```bash
+sudo apt-get install ruby-dev jekyll
+```
+
 Zum lokalen testen sollte folgendes genügen:
+
 ```bash
 git clone https://github.com/freifunkMUC/freifunkmuc.github.io.git
 cd freifunkmuc.github.io

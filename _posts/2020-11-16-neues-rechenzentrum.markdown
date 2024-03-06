@@ -18,7 +18,7 @@ Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 C
 
 Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun möglich standortunabhängiger zu agieren.  Wir haben so die Grundlage geschaffen um auf Dauer mehr Kapazitäten in verschiedenen Städten auszubauen und mehr Dezenztralität zu erreichen.
 
-![ISP as212567](/assets/rz/isp-as212567.png){: height="400px" }
+![ISP as212567](/assets/rz/isp-as212567.png){: style="max-height: 400px;"}
 
 **Ihr wollt uns unterstützen?**
 
