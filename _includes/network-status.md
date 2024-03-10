@@ -8,7 +8,7 @@
 <br>Aktuell sind uns keine Störungen bekannt
 <br>
 <br><u><b>History:</b></u>
-<br>09.03.2024 - Wartungsarbeiten neue Server für Münchner Rechenzentrum
+<br<b>>09.03.2024</b> - Wartungsarbeiten neue Server für Münchner Rechenzentrum
 <br><b>08.02.2024 18:07 - 08.02.2024 21:34</b> Chat, Unifi Controller 
 <br><b>22.05.2022 23:43 - 23.05.2022 09:25</b> Ausfall einzelner FFMUC Dienste (z.B. DoT, Chat, Ticket-System, CryptPad)
 <br>
