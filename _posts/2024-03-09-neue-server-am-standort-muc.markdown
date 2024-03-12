@@ -15,7 +15,9 @@ München läuft nun mit viel mehr Power! Auch unser Public DNS Dienst ist nun vi
 Viel Spaß beim Nutzen :).
    
    
-![Neue Server](/assets/posts/2024-03-12-neue-server.jpeg) | ![Neues Tempo](/assets/posts/2024-03-12-neues-tempo.jpeg)
+![Neue Server](/assets/posts/2024-03-12-neue-server.jpeg) 
+
+![Neues Tempo](/assets/posts/2024-03-12-neues-tempo.jpeg)
    
 Weitere Infos zu z.B. den Servern finden Sie bei uns im [Chat](https://chat.ffmuc.net) auf [Twitter/X](https://twitter.com/FreifunkMUC/status/1762382921451684233) oder [Mastodon](https://social.ffmuc.net/@freifunkMUC)
    
