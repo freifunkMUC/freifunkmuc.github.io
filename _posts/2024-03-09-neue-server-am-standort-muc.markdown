@@ -8,7 +8,7 @@ categories: freifunkmuc
 **Neue Server am Standort München seit 09.03.2024**
 
 Am 09. März 2024 wurden an unserem Standort in Münchnen von unserm Team die alten Server gegen neue ausgetauscht.  
-Es stehen jetzt statt der insgesamt 32 Kerne in sehr alten Intels 256 kerne Epycs zur Verfügung:  
+Es stehen jetzt statt der insgesamt 32 Kerne in sehr alten Intels 256 Kerne mit Epycs zur Verfügung:  
 München läuft nun mit viel mehr Power! Auch unser Public DNS Dienst ist nun viel schneller!  
 Außerdem haben wir jetzt auch noch Peering mit Google.
    
