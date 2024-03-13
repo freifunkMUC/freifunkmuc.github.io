@@ -81,8 +81,8 @@ brand_color: "#d42a67"
 # Page default value
 defaults:
    home:
-    heading: "Willkommen bei Freifunk München"
-    subheading: "Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle. Unser Ziel ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in und um München."
+    heading: "Willkommen bei Freifunk München - Testseite"
+    subheading: "Dies ist noch eine Testseite von Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle. Unser Ziel ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in und um München."
 banner:
 #   video: null             # Video banner source
 #   loop: true              # Video loop
