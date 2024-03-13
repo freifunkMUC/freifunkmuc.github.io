@@ -7,17 +7,20 @@ categories: freifunkmuc
 
 **Neue Server am Standort München seit 09.03.2024**
 
-Am 09. März 2024 wurden an unserem Standort in Münchnen von unserm Team die alten Server gegen neue ausgetauscht.  
-Es stehen statt der insgesamt 32 Kerne in sehr alten Intels jetzt 256 Kerne mit Epycs zur Verfügung:  
-München läuft nun mit viel mehr Power! Auch unser Public DNS Dienst ist nun viel schneller!  
-Außerdem haben wir jetzt auch noch Peering mit Google.
+Am 9. März 2024 wurden neue Server implementiert, die eine signifikante Verbesserung gegenüber den Alten darstellen.  
+Statt der bisherigen 32 Kerne mit Intel-Prozessoren stehen nun 256 Kerne mit Epyc-Prozessoren in München zur Verfügung.  
+Diese Aktualisierung hat zu einer deutlichen Steigerung der Leistung geführt, was anhand unten stehenden Screenshots deutlich wird.  
+Als Beispiel ist der [Public DNS-Dienst](https://ffmuc.net/wiki/doku.php?id=knb:dns) und [Grafana](https://stats.ffmuc.net) spürbar schneller geworden.  
    
-Viel Spaß beim Nutzen :).
-   
-   
-![Neue Server](/assets/posts/2024-03-12-neue-server.jpg) 
+![Neue Server](/assets/posts/2024-03-12-neue-server.jpg){: style="max-height:300px;"} | ![Neue Server](/assets/posts/2024-03-12-neue-server2.jpg){: style="max-height:300px;"}
 
-![Neues Tempo](/assets/posts/2024-03-12-neues-tempo.jpg)
+Vorher/Nacher Bilder:  
+
+![Neues Tempo](/assets/posts/2024-03-12-neues-tempo.jpg){: style="max-height:400px;"} | ![Vorher-Nacher](/assets/posts/2024-03-12-gateway-stats.jpg){: style="max-height:400px;"}  
+
+Auch neu: Wir haben jetzt ein Peering mit Google.
+   
+![Google Peering Stats](/assets/posts/2024-03-12-google-peering.jpg){: style="max-height:400px;"}
    
 Weitere Infos zu z.B. den Servern finden Sie bei uns im [Chat](https://chat.ffmuc.net) auf [Twitter/X](https://twitter.com/FreifunkMUC/status/1762382921451684233) oder [Mastodon](https://social.ffmuc.net/@freifunkMUC)
    
