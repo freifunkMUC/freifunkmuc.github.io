@@ -7,13 +7,14 @@ categories: freifunkmuc
 
 ## Firmware-Update v2024.1.5: Behebung von Wiederverbindungsproblemen
 
-Während unserer Wartungsarbeiten ist uns ein Fehler aufgefallen, der vor allem beim Abschalten eines Gateways auftritt.  
-Das Wiederverbinden eines Nodes dauerte bis zu 30 Minuten, was nun jedoch auf unter 2 Minuten verbessert wurde.
+Während unserer Wartungsarbeiten ist uns ein Fehler aufgefallen, der vor allem beim Abschalten eines Gateways auftritt:  
+Das Wiederverbinden eines Nodes dauerte bis zu 30 Minuten.
 Deshalb veröffentlichen wir bald die Version v2024.1.5, um das Problem zu beheben
 
 ## Lösung
 
-Wir haben intensive Änderungen vorgenommen, um das Wiederverbindungsverhalten zu verbessern.
+Wir haben intensive Änderungen vorgenommen, um das Wiederverbindungsverhalten zu verbessern. 
+Das Wiederverbinden eines Nodes dauert nun nur noch bis zu 2 Minuten.
 
 ## Nächste Schritte
 
