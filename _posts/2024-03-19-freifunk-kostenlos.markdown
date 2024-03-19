@@ -33,10 +33,10 @@ Freifunk ist also keineswegs kostenlos. Die scheinbare Kostenlosigkeit für die 
 
 [**Paypal**](https://paypal.me/spenden)
 
-**Konto:**
+**Konto:**  
 
-Freie Netze München e.V.<br />
-DE73 7025 0150 0029 4939 13<br />
-Kreissparkasse München - Starnberg - Ebersberg<br />
+Freie Netze München e.V.  
+DE73 7025 0150 0029 4939 13  
+Kreissparkasse München - Starnberg - Ebersberg  
 
 [**Mitgliedsantrag**](https://ffmuc.net/wiki/doku.php?id=ev:start)
