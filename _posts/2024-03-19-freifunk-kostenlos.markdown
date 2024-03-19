@@ -11,6 +11,8 @@ Freifunk, eine Initiative zur Schaffung offener WLAN-Netzwerke, wird oft als kos
 
 Die Grundvoraussetzung für Freifunk ist der Internetzugang. Obwohl viele Menschen dies als selbstverständlich betrachten, ist die Bereitstellung eines Internetanschlusses nicht kostenlos. ISPs (Internet Service Providers) verlangen Gebühren für den Zugang zum Internet, sei es über Kabel, DSL oder andere Technologien. Diese Kosten müssen von den Freifunk-Initiativen gedeckt werden, um das Netzwerk überhaupt betreiben zu können.
 
+Im Falle von Freifunk München erhalten wir großzügige Unterstützung von mehreren renommierten Anbietern von Hosting- und Cloud-Infrastrukturen. Diese Partnerschaften ermöglichen es uns, leistungsstarke Server zu nutzen und eine zuverlässige Anbindung an Transitprovider (Internezugang im Rechenzentrum) zu gewährleisten. Dennoch sind die Kosten für die Internetanbindung nicht null, da wir zusätzliche Ressourcen für Backups über DSL und Starlink bereitstellen müssen.
+
 **2. Serverbetrieb: Kosten und Ressourcen**
 
 Die technische Infrastruktur hinter Freifunk erfordert Server, die den Datenverkehr verwalten und die Netzwerkknoten miteinander verbinden. Der Betrieb und die Wartung dieser Server verursachen laufende Kosten, sei es für Hardware (Neuanschaffung der Server lag bei etwa ~60.000 Euro), Strom (~300 Euro im Monat) oder Personal (Anfahrt/Abfahrt oder Remotehands). Diese Ressourcen müssen finanziert werden, um die Stabilität und Leistungsfähigkeit des Netzwerks sicherzustellen.
