@@ -13,11 +13,11 @@ Die Grundvoraussetzung für Freifunk ist der Internetzugang. Obwohl viele Mensch
 
 **2. Serverbetrieb: Kosten und Ressourcen**
 
-Die technische Infrastruktur hinter Freifunk erfordert Server, die den Datenverkehr verwalten und die Netzwerkknoten miteinander verbinden. Der Betrieb und die Wartung dieser Server verursachen laufende Kosten, sei es für Hardware, Strom oder Personal (Remotehands). Diese Ressourcen müssen finanziert werden, um die Stabilität und Leistungsfähigkeit des Netzwerks sicherzustellen.
+Die technische Infrastruktur hinter Freifunk erfordert Server, die den Datenverkehr verwalten und die Netzwerkknoten miteinander verbinden. Der Betrieb und die Wartung dieser Server verursachen laufende Kosten, sei es für Hardware (Neuanschaffung der Server lag bei etwa ~60.000 Euro), Strom (~300 Euro im Monat) oder Personal (Anfahrt/Abfahrt oder Remotehands). Diese Ressourcen müssen finanziert werden, um die Stabilität und Leistungsfähigkeit des Netzwerks sicherzustellen.
 
 **3. Rechtliche Absicherung: Notwendige Ausgaben für den e.V.**
 
-Freifunk-Initiativen organisieren sich oft in rechtlichen Strukturen wie eingetragenen Vereinen (e.V.). Die Gründung und Aufrechterhaltung eines Vereins ist mit Kosten verbunden, darunter Notarkosten und Gebühren für die Eintragung ins Vereinsregister. Diese Ausgaben sind unvermeidlich, um eine rechtliche Hülle zu schaffen, die den Verein vor rechtlichen Risiken schützt und seine Handlungsfähigkeit sicherstellt.
+Freifunk-Initiativen organisieren sich oft in rechtlichen Strukturen wie eingetragenen Vereinen (e.V.). Die Gründung und Aufrechterhaltung eines Vereins ist mit Kosten verbunden, darunter Notarkosten und Gebühren für die Eintragung ins Vereinsregister, sowie Kontoführungskosten und Versicherungen. Diese Ausgaben sind unvermeidlich, um eine rechtliche Hülle zu schaffen, die den Verein vor rechtlichen Risiken schützt und seine Handlungsfähigkeit sicherstellt.
 
 **4. Rücklagen für Rechtsstreits**
 
