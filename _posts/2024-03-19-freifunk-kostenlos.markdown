@@ -31,7 +31,7 @@ Freifunk ist also keineswegs kostenlos. Die scheinbare Kostenlosigkeit für die 
 
 **Ihr wollt uns unterstützen?**
 
-[**Paypal**](https://paypal.me/spenden)
+[**Paypal**](https://paypal.me/ffmucspenden)
 
 **Konto:**  
 
