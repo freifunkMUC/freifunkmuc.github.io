@@ -17,7 +17,7 @@ Die technische Infrastruktur hinter Freifunk erfordert Server, die den Datenverk
 
 **3. Rechtliche Absicherung: Notwendige Ausgaben für den e.V.**
 
-Freifunk-Initiativen organisieren sich oft in rechtlichen Strukturen wie eingetragenen Vereinen (e.V.). Die Gründung und Aufrechterhaltung eines Vereins ist mit Kosten verbunden, darunter Notarkosten und Gebühren für die Eintragung ins Vereinsregister, sowie Kontoführungskosten und Versicherungen. Diese Ausgaben sind unvermeidlich, um eine rechtliche Hülle zu schaffen, die den Verein vor rechtlichen Risiken schützt und seine Handlungsfähigkeit sicherstellt.
+Freifunk-Initiativen organisieren sich oft in rechtlichen Strukturen wie eingetragenen Vereinen (e.V.). Die Gründung und Aufrechterhaltung eines Vereins ist mit Kosten verbunden, darunter Notarkosten und Gebühren für die Eintragung ins Vereinsregister, sowie Kontoführungskosten (8 Euro im Monat) und Versicherungen (350 Euro im Jahr). Diese Ausgaben sind unvermeidlich, um eine rechtliche Hülle zu schaffen, die den Verein vor rechtlichen Risiken schützt und seine Handlungsfähigkeit sicherstellt.
 
 **4. Rücklagen für Rechtsstreits**
 
