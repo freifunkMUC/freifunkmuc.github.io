@@ -13,7 +13,7 @@ Die Grundvoraussetzung für Freifunk ist der Internetzugang. Obwohl viele Mensch
 
 2. Serverbetrieb: Kosten und Ressourcen
 
-Die technische Infrastruktur hinter Freifunk erfordert Server, die den Datenverkehr verwalten und die Netzwerkknoten miteinander verbinden. Der Betrieb und die Wartung dieser Server verursachen laufende Kosten, sei es für Hardware, Strom oder Personal. Diese Ressourcen müssen finanziert werden, um die Stabilität und Leistungsfähigkeit des Netzwerks sicherzustellen.
+Die technische Infrastruktur hinter Freifunk erfordert Server, die den Datenverkehr verwalten und die Netzwerkknoten miteinander verbinden. Der Betrieb und die Wartung dieser Server verursachen laufende Kosten, sei es für Hardware, Strom oder Personal (Remotehands). Diese Ressourcen müssen finanziert werden, um die Stabilität und Leistungsfähigkeit des Netzwerks sicherzustellen.
 
 3. Rechtliche Absicherung: Notwendige Ausgaben für den e.V.
 
