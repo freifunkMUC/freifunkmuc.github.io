@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mythos aufgeklärt - Freifunk ist nicht kostenlos"
-date:   2024-03-19 20:00:00
+date:   2024-03-19 07:00:00
 categories: freifunkmuc
 ---
 
@@ -11,7 +11,7 @@ Freifunk, eine Initiative zur Schaffung offener WLAN-Netzwerke, wird oft als kos
 
 Die Grundvoraussetzung für Freifunk ist der Internetzugang. Obwohl viele Menschen dies als selbstverständlich betrachten, ist die Bereitstellung eines Internetanschlusses nicht kostenlos. ISPs (Internet Service Providers) verlangen Gebühren für den Zugang zum Internet, sei es über Kabel, DSL oder andere Technologien. Diese Kosten müssen von den Freifunk-Initiativen gedeckt werden, um das Netzwerk überhaupt betreiben zu können.
 
-Im Falle von Freifunk München erhalten wir großzügige Unterstützung von mehreren renommierten Anbietern von Hosting- und Cloud-Infrastrukturen. Diese Partnerschaften ermöglichen es uns, leistungsstarke Server zu nutzen und eine zuverlässige Anbindung an Transitprovider (Internezugang im Rechenzentrum) zu gewährleisten. Dennoch sind die Kosten für die Internetanbindung nicht null, da wir zusätzliche Ressourcen für Backups über DSL und Starlink bereitstellen müssen.
+Im Falle von Freifunk München erhalten wir großzügige Unterstützung von mehreren renommierten Anbietern von Hosting- und Cloud-Infrastrukturen. Diese Partnerschaften ermöglichen es uns, leistungsstarke Server zu nutzen und eine zuverlässige Anbindung an Transitprovider (Internetzugang im Rechenzentrum) zu gewährleisten. Dennoch sind die Kosten für die Internetanbindung nicht null, da wir zusätzliche Ressourcen für Backups über DSL und Starlink bereitstellen müssen.
 
 **2. Serverbetrieb: Kosten und Ressourcen**
 
@@ -31,11 +31,12 @@ Freifunk ist also keineswegs kostenlos. Die scheinbare Kostenlosigkeit für die 
 
 **Ihr wollt uns unterstützen?**
 
-**Paypal:** https://paypal.me/spenden
+[**Paypal**](https://paypal.me/spenden)
 
-**Konto:**
-Freie Netze München e.V.
-DE73 7025 0150 0029 4939 13
-Kreissparkasse München - Starnberg - Ebersberg
+**Konto:**  
 
-Mitgliedsantrag: https://ffmuc.net/wiki/doku.php?id=ev:start
+Freie Netze München e.V.  
+DE73 7025 0150 0029 4939 13  
+Kreissparkasse München - Starnberg - Ebersberg  
+
+[**Mitgliedsantrag**](https://ffmuc.net/wiki/doku.php?id=ev:start)
