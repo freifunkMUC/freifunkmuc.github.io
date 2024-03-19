@@ -27,7 +27,7 @@ Rechtliche Auseinandersetzungen können für Freifunk-Initiativen unvermeidlich 
 
 **Die Realität hinter der Kostenlosigkeit von Freifunk**
 
-Freifunk ist also keineswegs kostenlos. Die scheinbare Kostenlosigkeit für die Nutzer beruht vielmehr darauf, dass diese Kosten von Spendern, Vereinsmitgliedern und Unternehmen getragen werden. Diese finanzielle Unterstützung ist unerlässlich, um die Vision von freiem, offenen WLAN-Zugang zu verwirklichen. Unternehmen und Kommunen erkennen diesen Umstand an und beteiligen sich durch monatliche Zuwendungen am Erhalt des Freifunkbetriebs. Ohne diese finanzielle Unterstützung wäre Freifunk München nicht in der Lage, sein Angebot aufrechtzuerhalten und die digitale Teilhabe für alle zu fördern.
+Freifunk ist also keineswegs kostenlos. Die scheinbare Kostenlosigkeit für die Nutzer beruht vielmehr darauf, dass diese Kosten von Spendern, Vereinsmitgliedern, Kommunen und Unternehmen getragen werden. Diese finanzielle Unterstützung ist unerlässlich, um die Vision von freiem, offenen WLAN-Zugang zu verwirklichen. Einen weiteren unerlässlichen Teil leisten die Unternehmen die Rackspace, Internetanbindung und Strom kostenneutral zur Verfügung stellen. Ohne diese finanzielle Unterstützung wäre Freifunk München nicht in der Lage, sein Angebot aufrechtzuerhalten und die digitale Teilhabe für alle zu fördern.
 
 **Ihr wollt uns unterstützen?**
 
