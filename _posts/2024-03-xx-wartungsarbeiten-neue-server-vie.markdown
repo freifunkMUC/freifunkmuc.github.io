@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Wartungsankündigung: Upgrade des Wiener Standorts am xx.03.2024"
-date:   2024-03-xx 10:00:00
+title:  "Wartungsankündigung: Upgrade des Wiener Standorts am 03.04.2024"
+date:   2024-03-26 10:00:00
 categories: freifunkmuc
 ---
 
-**Wartungsankündigung für den xx. März 2024: Upgrade des Wiener Standorts**
+**Wartungsankündigung für den 03. April 2024: Upgrade des Wiener Standorts**
 
-Am xx. März 2024 wird unser Wiener Standort einem Upgrade unterzogen, um auf neue Server umzustellen.  
+Am 03. April 2024 wird unser Wiener Standort einem Upgrade unterzogen, um auf neue Server umzustellen.  
 Während dieser Zeit werden einige Dienste vorübergehend eingeschränkt sein.  
    
 Bitte beachten Sie die folgenden Details:  
@@ -25,4 +25,4 @@ Vielen Dank für Ihr Verständnis und Ihre Geduld während dieser Wartungsarbeit
 Mehr Infos zu z.B. den Servern findest du bei uns im [Chat](https://chat.ffmuc.net) auf [Twitter/X](https://twitter.com/FreifunkMUC/) oder [Mastodon](https://social.ffmuc.net/@freifunkMUC)
 
 
-<small>Letztes Update: xx.03.2024 10:00 Uhr</small>
+<small>Letztes Update: 26.03.2024 10:00 Uhr</small>
