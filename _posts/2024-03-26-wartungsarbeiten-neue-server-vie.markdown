@@ -13,6 +13,8 @@ Während dieser Zeit werden einige Dienste vorübergehend eingeschränkt sein.
 Bitte beachten Sie die folgenden Details:  
 - Gateways: Zwei von vier Gateways werden vorübergehend offline sein.
 - [DNS-Server](https://ffmuc.net/wiki/doku.php?id=knb:dns): Zwei von vier DNS-Servern werden während der Wartung nicht verfügbar sein. Bitte stellt deswegen sicher dass ihr [BEIDE Rechenzentren](https://ffmuc.net/wiki/doku.php?id=knb:dns) konfiguriert habt!
+- Die Knoten Karte wird komplett offline sein
+- Knoten Statistiken werden nicht aktulisiert werden
 
 Wir entschuldigen uns für eventuelle Unannehmlichkeiten, die Ihnen während dieser Zeit entstehen. Die Wartung ist notwendig, um die Leistung und Zuverlässigkeit unserer Dienste zu verbessern.
 
