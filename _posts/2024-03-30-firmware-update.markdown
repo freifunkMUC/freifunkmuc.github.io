@@ -7,8 +7,6 @@ categories: freifunkmuc
  
 Wir arbeiten seit einiger Zeit an einer verbesserten Load-Balancing-Firmware, die eine gleichmäßige Verteilung der Clients auf die Gateways ermöglicht.  
 Im Gegensatz zur aktuellen Situation, bei der die Zuweisung zufällig erfolgt, bietet die neue Firmware eine Reihe von Vorteilen.  
-  
-Die neue Firmware Version kann bereits in [next](https://firmware.ffmuc.net/next) und [experimental](https://firmware.ffmuc.net/experimental/) getestet werden und wird in den nächsten Tagen auf stable ausgerollt sollte uns keine Fehler auftauchen.
 
 ## Vorteile
 
