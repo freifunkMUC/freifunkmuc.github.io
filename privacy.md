@@ -128,7 +128,7 @@ Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf <a class="adsim
 </p>
 
 
-<h4>Privacy Policy</h4>
+<h2>Privacy Policy</h2>
 
 <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Freie Netze München e.V.. The use of the Internet pages of the Freie Netze München e.V. is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
 
