@@ -45,9 +45,10 @@ markdown: kramdown
 kmarkdown:
   input: GFM
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
-remote_theme: "jeffreytse/jekyll-theme-yat"
+remote_theme: "mmistakes/minimal-mistakes@latest"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
@@ -68,29 +69,6 @@ header_pages:
   - spenden.md
   - privacy.md
 
-# You can choose a brand color
-# Default brand colors as below:
-# orangered: #ff5100
-# greatgold: #f2cb05
-# greenblue: #389092
-#
-brand_color: "#d42a67"
-#
-# Custom color as below:
-# brand_color: "#1a8e42"
-# Page default value
-defaults:
-   home:
-    heading: "Willkommen bei Freifunk München - Testseite"
-    subheading: "Dies ist noch eine Testseite von Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle. Unser Ziel ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in und um München."
-banner:
-#   video: null             # Video banner source
-#   loop: true              # Video loop
-#   volume: 0               # Video volume (100% is 1.0)
-#   start_at: 0             # Video start time
-  image: /assets/banner.jpg             # Image banner source
-  opacity: 0.5            # Banner opacity (100% is 1.0)
-  height: "320px"
 #
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
