@@ -45,7 +45,7 @@ markdown: kramdown
 kmarkdown:
   input: GFM
 # theme: owner/name --> Don't forget to remove/comment the gem-based theme option
-remote_theme: "mmistakes/minimal-mistakes@latest"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
