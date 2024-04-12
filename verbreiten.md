@@ -6,7 +6,7 @@ permalink: /verbreiten/
 
 Um die Idee von Freifunk weitertragen- und interessierten Personen etwas in die Hand drücken zu können, bieten wir hier unser Logo, diverse Druckvorlagen für Flyer, Sticker, Nachbarschaftsbriefe u.v.m. als Download an.
 
-Die Flyer und Sticker liegen in der Regel auch beim monatlichen Treffen im [muCCC](/kontakt/) zur Mitnahme bereit.
+Die Flyer und Sticker liegen in der Regel auch bei Offline Events wie z.B. Corso Leopold zur Mitnahme bereit, mehr Infos zu solchen Events unter Neuigkeiten auf der Startseite.
 
 Eine vollständige Sammlung der Vorlagen ist in unserem Repository auf [Github] zu finden.
 
