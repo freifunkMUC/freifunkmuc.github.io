@@ -4,8 +4,8 @@ title: Unterstützung
 permalink: /unterstuetzung/
 ---
 
-Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung
-von Freifunk München!
+Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung von Freifunk München!  
+<small>(Die Liste ist Alphabetisch sortiert)</small>
 
 ### ANEXIA Internetdienstleistungs GmbH
 
