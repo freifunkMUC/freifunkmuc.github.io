@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Auflösung des  Gewinnspiels 2020"
 date:   2020-07-19 15:43:00
 categories: freifunkmuc

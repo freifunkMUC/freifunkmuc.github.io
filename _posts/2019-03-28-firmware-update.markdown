@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Bitte Firmware aktualisieren auf v2018.1"
 date:   2019-03-28 08:00:00
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "SZ berichtet über Freifunk in Pullach"
 date:   2015-10-08 15:30:00
 categories: freifunkmuc

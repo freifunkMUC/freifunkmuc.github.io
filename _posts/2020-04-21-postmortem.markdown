@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "MEET - Ausfall am 21.04.2020 von 10:04 - 10:24"
 date:   2020-04-21 09:00:00
 categories: freifunkmuc

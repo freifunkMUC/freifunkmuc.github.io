@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Testbetrieb gestartet"
 date:   2014-09-06 17:23:42
 categories: testbetrieb freifunkmuc

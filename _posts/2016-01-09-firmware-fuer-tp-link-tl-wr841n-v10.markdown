@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Firmware für TP-Link TL-WR841N(D) v10"
 date:   2016-01-09 10:13:00
 categories: freifunkmuc

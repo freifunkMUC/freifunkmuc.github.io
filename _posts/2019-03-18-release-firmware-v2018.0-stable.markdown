@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Firmware-Release v2018.0 geplant am 26.03."
 date:   2019-03-18 15:00:00
 categories: freifunkmuc

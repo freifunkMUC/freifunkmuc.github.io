@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Tests für v2019.0 auf experimental"
 date:   2019-03-19 00:00:00
 categories: freifunkmuc

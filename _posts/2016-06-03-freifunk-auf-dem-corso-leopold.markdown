@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk auf dem Corso Leopold"
 date:   2016-06-03 17:00:00
 categories: freifunkmuc

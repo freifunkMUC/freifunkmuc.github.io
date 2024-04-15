@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Firmware Rollout auf v2024.3.1 - Load Balancing Update"
 date:   2024-03-30 10:00:00
 categories: freifunkmuc

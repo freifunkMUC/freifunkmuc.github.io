@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Farbe bekennen gegen Rechts / Unvereinbarkeitserklärung"
 date:   2015-10-29 14:35:00
 categories: freifunkmuc

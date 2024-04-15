@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Reboot der Freifunk Augsburg Community!"
 date:   2021-10-22 09:00:00
 categories: freifunkmuc

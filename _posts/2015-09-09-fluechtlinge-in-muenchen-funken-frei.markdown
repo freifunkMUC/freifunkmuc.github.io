@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Flüchtlinge in München funken frei"
 date:   2015-09-09 19:47:00
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk München - Weihnachtsaktion"
 date:   2020-12-12 08:43:00
 categories: freifunkmuc

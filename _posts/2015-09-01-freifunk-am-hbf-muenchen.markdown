@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk für Flüchtlinge am Hauptbahnhof München"
 date:   2015-09-01 21:00:00
 categories: freifunkmuc

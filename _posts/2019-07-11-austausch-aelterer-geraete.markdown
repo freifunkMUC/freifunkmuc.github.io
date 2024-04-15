@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Austausch älterer Router"
 date:   2019-07-11 14:00:00
 categories: freifunkmuc

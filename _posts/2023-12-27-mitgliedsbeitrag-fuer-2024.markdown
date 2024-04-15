@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Erinnerung: Mitgliedsbeitrag für das Jahr 2024"
 date:   2023-12-27 12:00:00
 categories: freifunkmuc

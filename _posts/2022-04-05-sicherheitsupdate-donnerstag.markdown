@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Sicherheitsupdate am Donnerstag, den 05.05.2022"
 date:   2022-05-04 08:00:00
 categories: freifunkmuc

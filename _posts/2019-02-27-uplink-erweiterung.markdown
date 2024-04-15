@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Upgrade Uplink auf 2 Gbit/s"
 date:   2019-02-27 12:31:18
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk München im Autokino Aschheim"
 date:   2021-07-03 08:43:00
 categories: freifunkmuc

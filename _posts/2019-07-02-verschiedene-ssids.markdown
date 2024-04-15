@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Warum gibt es verschiedene SSIDs?"
 date:   2019-07-02 14:00:00
 categories: freifunkmuc

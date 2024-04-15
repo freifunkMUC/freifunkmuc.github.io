@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Upgrade des Freifunk-München Netzes erfolgreich durchgeführt"
 date:   2015-03-27 10:05:00
 categories: testbetrieb freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Internet für Flüchtlinge: einfach, schnell, ohne Risiko: Freifunk München - Fragen und Antworten"
 date:   2022-03-25 19:00:00
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "WireGuard-Firmware oder Freifunk München wird endlich schnell! - #USEMOREBANDWIDTH"
 date:   2020-12-03 10:43:00
 categories: freifunkmuc

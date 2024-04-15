@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Statement Stadtratsantrag Freifunk-Router auf städtischen Gebäuden"
 date:   2014-10-27 20:23:42
 categories: meta

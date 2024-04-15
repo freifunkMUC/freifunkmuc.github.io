@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Supportende von 8/64 Routern"
 date:   2023-12-08 14:00:00
 categories: freifunkmuc

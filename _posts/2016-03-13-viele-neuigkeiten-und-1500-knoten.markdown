@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Viele Neuigkeiten und 1500 Knoten online"
 date:   2016-03-13 14:00:00
 categories: freifunkmuc

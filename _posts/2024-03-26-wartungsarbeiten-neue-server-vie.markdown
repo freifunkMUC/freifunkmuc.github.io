@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Wartungsankündigung: Upgrade des Wiener Standorts am 03.04.2024"
 date:   2024-03-26 09:00:00
 categories: freifunkmuc

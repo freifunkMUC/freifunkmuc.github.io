@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Start des Produktivbetriebs am 16. März 2015"
 date:   2015-03-12 12:55:00
 categories: testbetrieb freifunkmuc

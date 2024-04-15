@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neue Firmware Version und erweiterte Statistiken"
 date:   2014-11-19 21:46:42
 categories: technik

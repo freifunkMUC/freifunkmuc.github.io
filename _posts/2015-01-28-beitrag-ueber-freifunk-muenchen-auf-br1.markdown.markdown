@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Beitrag über Freifunk München auf Bayern 1"
 date:   2015-01-28 17:42:42
 categories: meta

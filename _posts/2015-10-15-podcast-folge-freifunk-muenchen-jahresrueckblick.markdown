@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Podcast Folge 03 - Freifunk München Jahresrückblick"
 date:   2015-10-15 19:15:00
 categories: freifunkmuc podcast

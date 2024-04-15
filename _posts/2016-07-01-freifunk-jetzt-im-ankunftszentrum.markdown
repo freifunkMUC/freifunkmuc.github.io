@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk bringt freies WLAN in das Ankunftszentrum im Euro-Industriepark"
 date:   2016-07-01 12:00:00
 categories: freifunkmuc

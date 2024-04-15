@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Monatliches Freifunk München Meeting im Dezember entfällt"
 date:   2023-12-17 14:00:00
 categories: freifunkmuc
