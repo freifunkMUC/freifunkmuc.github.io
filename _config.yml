@@ -30,7 +30,7 @@ author: Freie Netze München e.V.
 #
 description: Freifunk München
 baseurl: ""
-repository: "https://github.com/freifunkMUC/freifunkmuc.github.io"
+repository: "freifunkMUC/freifunkmuc.github.io"
 url: "https://ffmuc.net"
 favicon: "/assets/favicon/favicon.ico"
 
