@@ -73,6 +73,13 @@ footer:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://social.ffmuc.net/@freifunkMUC"
+    - label: "Impressum"
+      icon: "fab fa-fw fa-legal"
+      url: "/impressum"
+    - label: "Datenschutzerklärung"
+      icon: "fab fa-fw fa-legal"
+      url: "/privacy"
+      
 
 
 # Reading Files
