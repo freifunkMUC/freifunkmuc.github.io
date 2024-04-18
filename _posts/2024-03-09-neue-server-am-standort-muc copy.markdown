@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neue Server am Standort Wien seit 03.04.2024"
 date:   2024-04-06 20:00:00
 categories: freifunkmuc
