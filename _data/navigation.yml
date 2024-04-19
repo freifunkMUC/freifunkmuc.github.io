@@ -1,0 +1,11 @@
+main:
+  - title: "Mitmachen"
+    url: /mitmachen
+  - title: "Knotenkarte"
+    url: "https://map.ffmuc.net/"
+  - title: "Wiki"
+    url: "https://ffmuc.net/wiki"
+  - title: "Spenden"
+    url: /spenden
+  - title: "Kontakt"
+    url: /kontakt

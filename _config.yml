@@ -27,11 +27,13 @@ repository               : "freifunkMUC/freifunkmuc.github.io"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
-
+# If you want to generate website sitemap, you can set true
+sitemap: true
 # Site Author
 author:
   name             : "Freie Netze München e.V."
   email            : "hilfe@ffmuc.bayern"
+  avatar           : "/assets/favicon/apple-touch-icon.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -206,6 +208,8 @@ compress_html:
   ignore:
     envs: development
 
+teaser: /assets/banner.jpg
+logo: "/assets/favicon/apple-touch-icon.png"
 
 # Defaults
 defaults:
@@ -220,3 +224,12 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+
+head_scripts:
+  - https://code.jquery.com/jquery-3.7.1.min.js
+
+twitter:
+  username: "freifunkMUC"
+
+timezone: Europe/Berlin
