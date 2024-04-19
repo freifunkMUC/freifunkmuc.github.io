@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Besucht uns auf dem 20. Augsburger Linux-Infotag"
 date:   2024-04-19 09:30:00
 categories: meta
