@@ -57,13 +57,7 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hilfe@ffmuc.bayern"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://ffmuc.net"
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/FreifunkMUC"
     - label: "Facebook"
