@@ -35,9 +35,9 @@ author:
   email            : "hilfe@ffmuc.bayern"
   avatar           : "/assets/favicon/apple-touch-icon.png"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hilfe@ffmuc.bayern"
+    - label: "Chat"
+      icon: "fas fa-fw fa-mattermost"
+      url: "https://chat.ffmuc.net"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ffmuc.net"
