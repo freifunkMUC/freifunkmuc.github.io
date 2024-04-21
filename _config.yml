@@ -76,10 +76,10 @@ footer:
       icon: "fab fa-fw fa-mastodon"
       url: "https://social.ffmuc.net/@freifunkMUC"
     - label: "Impressum"
-      icon: "fab fa-fw fa-book"
+      icon: "fa fa-fw fa-book"
       url: "/impressum"
     - label: "Datenschutzerklärung"
-      icon: "fab fa-fw fa-book"
+      icon: "fa fa-fw fa-book"
       url: "/privacy"
       
 
