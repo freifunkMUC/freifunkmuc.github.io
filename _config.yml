@@ -41,7 +41,7 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ffmuc.net"
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/FreifunkMUC"
     - label: "Facebook"
@@ -76,10 +76,10 @@ footer:
       icon: "fab fa-fw fa-mastodon"
       url: "https://social.ffmuc.net/@freifunkMUC"
     - label: "Impressum"
-      icon: "fab fa-fw fa-legal"
+      icon: "fab fa-fw fa-book"
       url: "/impressum"
     - label: "Datenschutzerklärung"
-      icon: "fab fa-fw fa-legal"
+      icon: "fab fa-fw fa-book"
       url: "/privacy"
       
 
