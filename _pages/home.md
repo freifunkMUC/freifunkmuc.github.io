@@ -26,16 +26,14 @@ Protokolle der vergangenen sowie die Termine für kommende Treffen sind im [Wiki
 <br>
 <br><u><b>Geplant:</b></u>
 <br>Aktuell sind keine Wartungen geplant
-<br>
 <br><u><b>Aktuell:</b></u>
 <br>Aktuell sind uns keine Störungen bekannt
-<br>
 <br><u><b>History:</b></u>
 <br><b>03.04.2024</b> - Wartungsarbeiten neue Server für Wiener Rechenzentrum
 <br><b>09.03.2024</b> - Wartungsarbeiten neue Server für Münchner Rechenzentrum
 <br>
 
-<h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h1 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
