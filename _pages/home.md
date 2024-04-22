@@ -33,7 +33,7 @@ Protokolle der vergangenen sowie die Termine für kommende Treffen sind im [Wiki
 <br><b>09.03.2024</b> - Wartungsarbeiten neue Server für Münchner Rechenzentrum
 <br>
 
-<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Neuigkeiten" }}</h2>
+## Neuigkeiten
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
