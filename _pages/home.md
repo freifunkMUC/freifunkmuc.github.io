@@ -15,12 +15,23 @@ excerpt: >
 ## Treffen
 
 <!-- Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 39](https://osm.org/go/0JAf0IVLh?node=2012031859)).  -->
-Wir treffen uns jeden letzten Mittwoch des Monats um 19:30 Uhr online auf [#FFMEET](https://meet.ffmuc.net/ffmuctreffen).
-
-Aktuelle Infos und Diskussionen zum Treffen gibt es im [ffmuc-chat](https://chat.ffmuc.net/freifunk/channels/00-freifunk-treffen).
-
+Wir treffen uns jeden letzten Mittwoch des Monats um 19:30 Uhr online auf [#FFMEET](https://meet.ffmuc.net/ffmuctreffen).\\
+Aktuelle Infos und Diskussionen zum Treffen gibt es im [ffmuc-chat](https://chat.ffmuc.net/freifunk/channels/00-freifunk-treffen).\\
 Protokolle der vergangenen sowie die Termine für kommende Treffen sind im [Wiki](https://ffmuc.net/wiki/doku.php?id=treffen:start) zu finden.
 
-{% for post in site.pages %}
-{% include archive-single.html %}
-{% endfor %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
