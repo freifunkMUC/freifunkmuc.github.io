@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Router konfigurieren
 permalink: /router-konfigurieren/
 ---

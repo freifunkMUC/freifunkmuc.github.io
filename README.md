@@ -1,4 +1,4 @@
-Basierend auf dem [YAT THEME](https://github.com/jeffreytse/jekyll-theme-yat/). Erreichbar unter: https://freifunkmuc.github.io/
+Basierend auf dem [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/) Theme. Erreichbar unter: https://freifunkmuc.github.io/
 
 Diese Webseite wird mit dem [jekyll](https://jekyllrb.com) compiler erstellt.
 
@@ -13,7 +13,6 @@ Zum lokalen testen sollte folgendes genügen:
 ```bash
 git clone https://github.com/freifunkMUC/freifunkmuc.github.io.git
 cd freifunkmuc.github.io
-git checkout facelift
 bundle install
 bundle exec jekyll serve
 ```

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Wie mache ich mit?
 permalink: /mitmachen/
 ---

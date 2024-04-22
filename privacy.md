@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Datenschutzerklärung / Privacy Policy
 permalink: /privacy/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Firmware herunterladen
 permalink: /firmware/
 ---

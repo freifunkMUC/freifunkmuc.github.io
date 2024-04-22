@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Wo empfange ich Freifunk?
 permalink: /map
 ---
