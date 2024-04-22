@@ -36,7 +36,7 @@ author:
   avatar           : "/assets/favicon/apple-touch-icon.png"
   links:
     - label: "Chat"
-      icon: "fa fa-comments-o"
+      icon: "fas fa-fw fa-comment"
       url: "https://chat.ffmuc.net"
     - label: "X"
       icon: "fab fa-fw fa-twitter-square"
