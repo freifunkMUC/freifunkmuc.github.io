@@ -232,3 +232,7 @@ twitter:
   username: "freifunkMUC"
 
 timezone: Europe/Berlin
+# Custom headers
+webrick:
+  headers:
+      Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
