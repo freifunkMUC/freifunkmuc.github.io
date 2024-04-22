@@ -12,6 +12,8 @@ excerpt: >
   Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle.
 ---
 
+{{ content }}
+
 ## Treffen
 
 <!-- Wir treffen uns meistens am letzten Mittwoch des Monats im [muCCC](https://muc.ccc.de) ([Schleißheimer Str. 39](https://osm.org/go/0JAf0IVLh?node=2012031859)).  -->
