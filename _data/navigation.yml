@@ -6,6 +6,6 @@ main:
   - title: "Wiki"
     url: "https://ffmuc.net/wiki"
   - title: "Spenden"
-    url: /spenden
+    url: "https://ffmuc.net/wiki/doku.php?id=ev:start"
   - title: "Kontakt"
     url: /kontakt
