@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neue Server am Standort München seit 09.03.2024"
 date:   2024-03-09 20:00:00
 categories: freifunkmuc

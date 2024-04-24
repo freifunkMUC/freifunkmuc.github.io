@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Beitrag über Freifunk München auf Radio BR2"
 date:   2014-11-11 20:23:42
 categories: meta

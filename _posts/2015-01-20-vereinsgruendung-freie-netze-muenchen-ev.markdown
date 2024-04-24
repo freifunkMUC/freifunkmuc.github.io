@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Gründung des Vereins Freie Netze München"
 date:   2015-01-20 23:42:23
 categories: organisation

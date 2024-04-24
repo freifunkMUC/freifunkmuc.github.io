@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Update verschoben"
 date:   2015-03-16 12:55:00
 categories: testbetrieb freifunkmuc

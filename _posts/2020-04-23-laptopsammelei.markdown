@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Laptopsammelei - Aufruf zur Laptopspende für Schüler*innen im Landkreis München"
 date:   2020-04-23 22:00:00
 categories: freifunkmuc

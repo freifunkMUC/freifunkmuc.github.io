@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Ukrainehilfe Teil 2 - 6 Wochen, 6 Unterkünfte... Freifunk hilft immer mehr Geflüchteten aus der Ukraine"
 date:   2022-04-21 08:00:00
 categories: freifunkmuc

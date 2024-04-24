@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice"
 date:   2020-03-23 21:30:00
 categories: freifunkmuc

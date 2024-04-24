@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Migration abgeschlossen"
 date:   2019-06-07 22:00:00
 categories: freifunkmuc

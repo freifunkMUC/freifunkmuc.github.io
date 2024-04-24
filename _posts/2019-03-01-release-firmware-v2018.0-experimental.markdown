@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Firmware-Release v2018.0 - Phase 2"
 date:   2019-03-01 14:05:18
 categories: freifunkmuc

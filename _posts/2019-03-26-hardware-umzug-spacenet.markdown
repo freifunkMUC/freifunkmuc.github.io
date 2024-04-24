@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "ACHTUNG - Freifunk ist OFFLINE wegen Wartungsarbeiten am 27. März 15:00 - 18:00 Uhr"
 date:   2019-03-26 11:00:00
 categories: freifunkmuc

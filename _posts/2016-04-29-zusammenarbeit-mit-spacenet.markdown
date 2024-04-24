@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "SpaceNet unterstützt eine der größten deutschen Freifunk-Communities"
 date:   2016-04-29 14:00:00
 categories: freifunkmuc

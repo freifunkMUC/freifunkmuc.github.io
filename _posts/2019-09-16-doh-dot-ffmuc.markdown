@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "DNS-over-HTTPS und DNS-over-TLS Unterstützung"
 date:   2019-09-16 10:00:00
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neuer Branch für autoupdater: testing"
 date:   2019-04-03 20:00:00
 categories: freifunkmuc

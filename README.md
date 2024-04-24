@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/freifunkMUC/freifunkmuc.github.io.svg?branch=master)](https://travis-ci.org/freifunkMUC/freifunkmuc.github.io)
-
-Zu erreichen unter: https://ffmuc.net
+Basierend auf dem [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/) Theme. Erreichbar unter: https://freifunkmuc.github.io/
 
 Diese Webseite wird mit dem [jekyll](https://jekyllrb.com) compiler erstellt.
 
@@ -15,8 +13,7 @@ Zum lokalen testen sollte folgendes genügen:
 ```bash
 git clone https://github.com/freifunkMUC/freifunkmuc.github.io.git
 cd freifunkmuc.github.io
-bundle config set --local path '.gems'
-bundle install # install gem dependencies
+bundle install
 bundle exec jekyll serve
 ```
 

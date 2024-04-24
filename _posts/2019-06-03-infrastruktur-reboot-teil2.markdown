@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Infrastruktur Reboot Teil 2.0"
 date:   2019-06-03 07:00:00
 categories: freifunkmuc

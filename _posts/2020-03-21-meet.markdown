@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Konferenzserver - meet.ffmuc.net"
 date:   2020-03-21 10:00:00
 categories: freifunkmuc

@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Frequently Asked Questions
+layout: single
+title: FAQ
 permalink: /faq/
 ---
 <head>

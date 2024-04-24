@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "500 Knoten im Netz"
 date:   2015-05-12 23:32:00
 categories: freifunkmuc

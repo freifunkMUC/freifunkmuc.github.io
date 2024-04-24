@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk München dankt für Hardware-Spende von GitHub"
 date:   2021-10-07 10:43:00
 categories: freifunkmuc
@@ -25,6 +25,6 @@ Und als wir gegen 22 Uhr zurück nach München kamen, hatten wir 980 Kilometer z
 
 Hoffentlich läuft es auch dieses Mal so glatt!
 
-Wir denken, dass wir mit der neuen Hardware mindestens fünf Jahre auskommen werden. Bei Freifunk München sind immer ungefähr 1.700 Router und 3.000 Clients eingeloggt, und ständig werden es mehr. Da ist es gut, dass wir jetzt große Kapazitätsreserven haben. 
+Wir denken, dass wir mit der neuen Hardware mindestens fünf Jahre auskommen werden. Bei Freifunk München sind immer ungefähr 1.700 Router und 3.000 Clients eingeloggt, und ständig werden es mehr. Da ist es gut, dass wir jetzt große Kapazitätsreserven haben.
 
 Wir sagen Danke für diese große Spende!

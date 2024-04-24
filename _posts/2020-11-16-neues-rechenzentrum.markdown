@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Unser neuer Standort - AS212567 - #USEMOREBANDWIDTH"
 date:   2020-11-16 10:43:00
 categories: freifunkmuc

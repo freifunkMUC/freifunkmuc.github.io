@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Richtfunk Projekt Heimstettner See"
 date:   2022-02-27 09:00:00
 categories: freifunkmuc

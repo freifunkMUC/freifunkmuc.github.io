@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunker helfen Flüchtlingen"
 date:   2015-08-24 18:05:00
 categories: freifunkmuc medien

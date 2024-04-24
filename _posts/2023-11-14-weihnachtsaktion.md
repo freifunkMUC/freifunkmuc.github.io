@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk München - Weihnachtsaktion"
 date:   2023-11-14 10:00:00
 categories: freifunkmuc

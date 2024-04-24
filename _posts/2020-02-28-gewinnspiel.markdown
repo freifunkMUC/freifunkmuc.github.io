@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Gewinnspiel 2020"
 date:   2020-02-28 10:00:00
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neue Firmware v2018.0"
 date:   2019-01-31 12:01:23
 categories: freifunkmuc

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neue Stable Firmware v2016.0"
 date:   2016-08-05 21:56:00
 categories: freifunkmuc

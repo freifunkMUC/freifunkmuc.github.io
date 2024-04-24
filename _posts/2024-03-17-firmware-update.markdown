@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Firmware-Update: Behebung von Wiederverbindungsproblemen"
 date:   2024-03-17 20:00:00
 categories: freifunkmuc

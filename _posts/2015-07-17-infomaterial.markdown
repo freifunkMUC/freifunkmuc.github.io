@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Infomaterial"
 date:   2015-07-17 15:35:00
 categories: freifunkmuc

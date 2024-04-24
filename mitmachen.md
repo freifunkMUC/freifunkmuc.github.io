@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Einstieg
+layout: single
+title: Wie mache ich mit?
 permalink: /mitmachen/
 ---
 

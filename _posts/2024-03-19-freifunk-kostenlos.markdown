@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Mythos aufgeklärt - Freifunk ist nicht kostenlos"
 date:   2024-03-19 07:00:00
 categories: freifunkmuc

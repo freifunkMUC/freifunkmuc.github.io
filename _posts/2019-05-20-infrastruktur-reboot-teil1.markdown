@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Infrastruktur Reboot Teil 1"
 date:   2019-05-20 12:00:00
 categories: freifunkmuc

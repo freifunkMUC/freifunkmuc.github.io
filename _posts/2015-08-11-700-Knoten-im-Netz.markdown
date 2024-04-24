@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "700 Knoten im Netz"
 date:   2015-08-11 23:32:00
 categories: freifunkmuc

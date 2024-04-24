@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Wartungsankündigung: Upgrade des Münchner Standorts am 09.03.2024"
 date:   2024-02-27 10:00:00
 categories: freifunkmuc

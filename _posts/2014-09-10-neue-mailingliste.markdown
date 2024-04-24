@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Neue Mailinglisten"
 date:   2014-09-10 20:03:42
 categories: organisation

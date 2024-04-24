@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Erste Podcast Folge online"
 date:   2015-07-23 12:13:00
 categories: freifunkmuc podcast

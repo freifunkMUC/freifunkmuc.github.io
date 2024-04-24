@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Unterstützung
-permalink: /unterstuetzung/
+layout: single
+title: Unterstützer
+permalink: /unterstuetzer/
 ---
 
 Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung von Freifunk München!  

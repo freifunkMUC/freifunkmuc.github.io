@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Freifunk München auf der Make Munich"
 date:   2014-11-10 18:23:42
 categories: meta
