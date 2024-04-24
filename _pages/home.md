@@ -13,7 +13,6 @@ excerpt: >
   Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle.
 ---
 {% include sidebar.html %}
-{% include treffen.md layout=half %}
 
 # Start
 {% include treffen.md layout=half %}
