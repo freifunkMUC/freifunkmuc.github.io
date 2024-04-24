@@ -9,8 +9,6 @@ header:
   actions:
   - label: "<i class='fas fa-fw fa-comment'></i> Unser Chat"
     url: "https://chat.ffmuc.net"
-  - label: "<i class='fas fa-fw fa-comment'></i> Unterstützer"
-    url: "unterstuetzung"
 excerpt: >
   Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle.
 ---
