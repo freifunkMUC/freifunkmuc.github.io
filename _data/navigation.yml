@@ -1,11 +1,17 @@
 main:
   - title: "Mitmachen"
     url: /mitmachen
+  - title: "Firmware"
+    url: "https://firmware.ffmuc.net"
   - title: "Knotenkarte"
     url: "https://map.ffmuc.net/"
   - title: "Wiki"
     url: "https://ffmuc.net/wiki"
   - title: "Spenden"
     url: "https://ffmuc.net/wiki/doku.php?id=ev:start"
+  - title: "Unterstützer"
+    url: /unterstuetzung
+  - title: "Shop"
+    url: "https://freifunk-muenchen.myspreadshop.de/"
   - title: "Kontakt"
     url: /kontakt
