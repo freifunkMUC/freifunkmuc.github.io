@@ -7,5 +7,7 @@ main:
     url: "https://ffmuc.net/wiki"
   - title: "Spenden"
     url: "https://ffmuc.net/wiki/doku.php?id=ev:start"
+  - title: "Shop"
+    url: "https://freifunk-muenchen.myspreadshop.de/"
   - title: "Kontakt"
     url: /kontakt
