@@ -20,7 +20,7 @@ title                    : "Freifunk München"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Freifunk München"
-description              : "An amazing website."
+description              : "Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle."
 url                      : "https://ffmuc.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "freifunkMUC/freifunkmuc.github.io"
