@@ -15,6 +15,6 @@ Mehr Infos und bei generellen Fragen zu Freifunk Ulm meldet euch gerne bei uns i
 ### Stable:
 - [v2024.4.2](https://github.com/freifunkMUC/site-ffm/releases/tag/v2024.4.2) (Rename Ulm Domain)
 - [v2024.4.1](https://github.com/freifunkMUC/site-ffm/releases/tag/v2024.4.1) (add Ulm Domain)
-- [v2024.3.1](https://github.com/freifunkMUC/site-ffm/releases/tag/v2024.3.2) (User Agent für Broker call)
+- [v2024.3.1](https://github.com/freifunkMUC/site-ffm/releases/tag/v2024.3.2) (User Agent für Broker call)  
 ### Legacy:  
 - [v2022.5.7](https://github.com/freifunkMUC/site-ffm/releases/tag/v2022.5.7) (Migrationspackage für Ulm + ein paar Backports) 
