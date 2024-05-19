@@ -1,0 +1,19 @@
+---
+layout: posts
+title:  "Abgeschlossen: Ulm Migration"
+date:   2024-04-30 10:00:00
+categories: freifunkmuc
+---
+ 
+Die Migration von Freifunk Ulm zu Freifunk München ist erfolgreich abgeschlossen.
+Am **17.05.2024** wurden die Ulmer Freifunk Server abgeschalten.     
+Am **09.05.2024** wurde die [Migrationssfirmare](https://ffmuc.net/freifunkmuc/2024/04/30/firmware-update/) auf die Update Server von Freifunk Ulm abgelegt.  
+Mittlerweile sind in dem neuen Segment bereits ca. 100 Knoten angekommen.  
+
+Bei generellen Fragen zu der Migration meldet euch gerne bei uns im [Chat](https://chat.ffmuc.net/freifunk/channels/freifunk-ulm).
+
+Mehr Infos:
+- https://wiki.freifunk-ulm.de/
+- https://twitter.com/FreifunkMUC/status/1788657622012326184
+- https://twitter.com/FreifunkMUC/status/1787080532389503108
+- 
