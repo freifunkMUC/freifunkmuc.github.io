@@ -43,11 +43,12 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 #### So kannst du mitmachen
 
 * Besorge einen Freifunk-fähigen 2,4&nbsp;GHz und 5&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi6, Steckdosenplug)
+  * D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi 6, Steckdosenplug)
   * AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
-  * D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi6)
-  * ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi6, inkl. Wandhalterung)
-  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€, Wifi4&5)
+  * D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi 6)
+  * ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi 6, inkl. Wandhalterung)
+  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€, Wifi 4&5)
+  * Für weitere Empfehlungen siehe: [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
