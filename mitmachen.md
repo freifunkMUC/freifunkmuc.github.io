@@ -42,11 +42,12 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 
 #### So kannst du mitmachen
 
-* Besorge einen Freifunk-fähigen 2,4&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * GL.INET GL-AR150 (ca. 20&nbsp;€)
-  * NETGEAR R6120 - AC1200 (ca. 37&nbsp;€)
-  * NETGEAR EX6150v2 - AC1200 (ca. 55&nbsp;€)
-  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€)
+* Besorge einen Freifunk-fähigen 2,4&nbsp;GHz und 5&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  * D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi6, Steckdosenplug)
+  * AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
+  * D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi6)
+  * ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi6, inkl. Wandhalterung)
+  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€, Wifi4&5)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
@@ -71,8 +72,9 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * Ubiquiti UAP-AC-Mesh
+* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  * Zyxel NWA55AXE (Wifi 6)
+  * Ubiquiti UAP-AC-Mesh (Wifi 4&5)
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Montiere den Router an einem geeigneten Ort.
 </div>
