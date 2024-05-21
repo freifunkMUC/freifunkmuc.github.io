@@ -36,10 +36,11 @@ Hier findet ihr außerdem eine [Geschwindigkeitsmessungen für viele Geräte](ht
 
 Siehe [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
 
-Neu im nächsten Release (v2024+)
-* Zyxel Multy M1 (ca 35€)
-* Cudy WR3000 (ca 55€)
-* Netgear WAX220 (ca. 130€)
+Besonders empfehlen wir:
+* D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi 6, Steckdosenplug)
+* AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
+* D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi 6)
+* ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi 6, inkl. Wandhalterung)
 
 
 ### High-Performance Lösungen:
