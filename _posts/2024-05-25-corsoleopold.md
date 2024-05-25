@@ -5,9 +5,9 @@ date:   2024-05-25 19:00:00
 categories: events
 ---
 
-Auch dieses Mal wird Freifunk München auf dem Corso Leopold am 01. und 02. Juni mit einem Stand vertreten sein! An diesen beiden Tagen laden wir euch herzlich ein, uns zu besuchen und mit uns auszutauschen.
+Auch dieses Mal wird Freifunk München auf dem Corso Leopold am 01. und 02. Juni mit einem Stand vertreten sein! An diesen beiden Tagen laden wir euch herzlich ein, uns zu besuchen und euch mit uns auszutauschen.
 
-Der Corso Leopold ist eine ideale Gelegenheit, um etwas über Freifunk zu erfahren und Fragen zu stellen, oder für bereits teilnehmende Knotenbetreiber sich mit Gleichgesinnten zu treffen. Oder auch einfach nur um das in der Umgebung des Standes ausgestrahlte freie WLAN zu nutzen.
+Der Corso Leopold ist eine ideale Gelegenheit, um etwas über Freifunk zu erfahren, Fragen zu stellen und euch beraten zu lassen. Auch bereits teilnehmende Knotenbetreiber sind selbstverständlich willkommen, um sich mit Gleichgesinnten treffen. Oder ihr kommt einfach nur vorbei, um das in der Umgebung des Standes ausgestrahlte freie WLAN zu nutzen.
 
 Wir freuen uns darauf, mit euch ins Gespräch zu kommen. In den letzten Monaten hat sich wieder einiges getan, unter anderem mit der Integration der Freifunk-Communities von Donau-Ries und Ulm, oder der Anschaffung neuer Server-Hardware.
 
