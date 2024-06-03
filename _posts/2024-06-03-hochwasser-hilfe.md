@@ -5,7 +5,7 @@ date:   2024-06-03 10:00:00
 categories: freifunkmuc
 ---
 
-Falls wegen des Hochwassers im Raum München/Augsburg/Donauwörth ein Starlink/LTE Router zur Internetversorgung benötigt wird. 
+Falls wegen des Hochwassers im Raum München/Augsburg/Donauwörth ein Starlink/LTE Router zur Internetversorgung benötigt wird:
 
 Kontaktiert uns am besten unter [hilfe@ffmuc.bayern](mailto:hilfe@ffmuc.bayern)
 
