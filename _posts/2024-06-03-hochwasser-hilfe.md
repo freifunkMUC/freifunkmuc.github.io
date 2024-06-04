@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Freifunk München hilft bei Internetversorung in Hochwassergebieten (München/Augsburg/Donauwörth)"
-date:   2024-06-03 10:00:00
+date:   2024-06-03 08:00:00
 categories: freifunkmuc
 ---
 
