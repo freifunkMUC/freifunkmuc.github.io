@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Internet für die Flutopfer in Wertingen"
-date:   2024-06-04 11:00:00
+date:   2024-06-04 10:00:00
 categories: freifunkmuc
 ---
 
