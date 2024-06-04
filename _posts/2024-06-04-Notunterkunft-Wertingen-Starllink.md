@@ -11,4 +11,4 @@ Weitere Infos finden Sie bei uns im [Chat](https://chat.ffmuc.net) auf [Twitter/
    
 Kontakt für für weitere Unterstützung am besten unter [hilfe@ffmuc.bayern](mailto:hilfe@ffmuc.bayern)
    
-<small>Letztes Update: 04.06.2024 12:00 Uhr</small>
+<small>Letztes Update: 04.06.2024 14:00 Uhr</small>
