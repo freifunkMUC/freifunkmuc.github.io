@@ -47,7 +47,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
   * AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
   * D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi 6)
   * ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi 6, inkl. Wandhalterung)
-  * Ubiquiti UAP-AC-LITE (ca. 80&nbsp;€, Wifi 4&5)
+  * Zyxel NWA50AX (ca. 90&nbsp;€, Wifi 6, Wandmontage, PoE+)
   * Für weitere Empfehlungen siehe: [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
 * [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
@@ -74,8 +74,8 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 #### So kannst du mitmachen
 
 * Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * Zyxel NWA55AXE (Wifi 6)
-  * Ubiquiti UAP-AC-Mesh (Wifi 4&5)
+  * Zyxel NWA55AXE (ca. 100&nbsp;€, Wifi 6, Wand-/Mastmontage, PoE+)
+  * Ubiquiti UAP-AC-Mesh (ca. 100&nbsp;€, Wifi 4&5, Wand-/Mastmontage, PoE)
 * [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 * Montiere den Router an einem geeigneten Ort.
 </div>
