@@ -4,7 +4,7 @@
 <br><u><b>Geplant:</b></u>
 <br>Aktuell sind keine Wartungen geplant
 <br><u><b>Aktuell:</b></u>
-<br>Aktuell ist unser Wiki nicht erreichbar (https://ffmuc.net/wiki/)
+<br>Aktuell sind uns keine Störungen bekannt
 <br><u><b>History:</b></u>
 <br><b>03.04.2024</b> - Wartungsarbeiten neue Server für Wiener Rechenzentrum
 <br><b>09.03.2024</b> - Wartungsarbeiten neue Server für Münchner Rechenzentrum
