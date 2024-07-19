@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "Freifunk auf dem Kulturspektakel 2024 in Gauting"
-date:   2024-07-19 12:00:00
+date:   2024-07-18 12:00:00
 categories: freifunkmuc
 ---
 
