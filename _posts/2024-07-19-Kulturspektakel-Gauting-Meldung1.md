@@ -10,7 +10,7 @@ Ein Open-Air-Festival mit Live-Musik auf 3 Bühnen mit kostenlosem Eintritt, Wor
    
 Auf dem gesammten Gelände ist flottes WLAN von Freifunk installiert!
    
-Es wurden bisher insgesamt bisher 5 Offloader mit 6 APs aufgebaut und für die Verbindungen einige zig Meter Strom- und Netzwerkkabel verlegt. Im Endausbau werden werden es 7 Offloader und 20 APs (in fast allen Buden) werden.
+Es wurden bisher insgesamt 5 Offloader mit 6 APs aufgebaut und für die Verbindungen einige zig Meter Strom- und Netzwerkkabel verlegt. Im Endausbau werden es 7 Offloader und 20 APs (in fast allen Buden) werden.
 
 Der Uplink erfolgt über Starlinks.
 
