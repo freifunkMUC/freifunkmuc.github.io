@@ -11,7 +11,9 @@ Ein Open-Air-Festival mit Live-Musik auf 3 Bühnen mit kostenlosem Eintritt, Wor
 Auf dem gesammten Gelände ist flottes WLAN von Freifunk installiert!
    
 Es wurden bisher insgesamt bisher 5 Offloader mit 6 APs aufgebaut und für die Verbindungen einige zig Meter Strom- und Netzwerkkabel verlegt. Im Endausbau werden werden es 7 Offloader und 20 APs (in fast allen Buden) werden.
+
 Der Uplink erfolgt über Starlinks.
+
 Die Waldbühne wird mit einer Photovoltaikanlage von @DerKalle versorgt.
    
 ![Mehr Material 1](/assets/posts/2024-07-19-Technik.jpg){: style="max-height:300px;"} | ![Mehr Material 2](/assets/posts/2024-07-19-PV-Anlage.jpg){: style="max-height:300px;"}
