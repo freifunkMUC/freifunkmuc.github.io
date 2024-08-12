@@ -55,7 +55,7 @@ author:
 footer:
   links:
     - label: "X"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-square-x-twitter"
       url: "https://twitter.com/FreifunkMUC"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
