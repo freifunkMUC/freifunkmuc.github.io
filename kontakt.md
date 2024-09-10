@@ -4,7 +4,7 @@ title: Kontakt
 permalink: /kontakt/
 ---
 
-{% include treffen.md %}
+{% include treffen.html %}
 
 
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)

@@ -144,14 +144,12 @@ sass:
 
 # Outputting
 permalink: pretty
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: Europe/Berlin
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -159,7 +157,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -236,3 +234,12 @@ twitter:
 webrick:
   headers:
       Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
+
+pagination:
+  enabled: true
+  per_page: 5
+  title: ':title - Seite :num'
+  permalink: /page/:num/
+  trail:
+    before: 2
+    after: 2

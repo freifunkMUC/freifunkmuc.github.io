@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: home
 permalink: /
 hidden: true
 author_profile: true
@@ -11,27 +11,19 @@ header:
       url: "https://chat.ffmuc.net"
 excerpt: >
   Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle.
-paginate: 5
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /page/:num/
 ---
 
-# Start
-{% include treffen.md layout=half %}
+<h1>Start</h1>
+{% include treffen.html layout=half %}
 
-{% include network-status.md layout=half %}
+{% include network-status.html layout=half %}
 
-## Neuigkeiten
+<h2>Neuigkeiten</h2>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type="entries_layout" %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
