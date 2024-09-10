@@ -15,15 +15,3 @@ main:
     url: "https://freifunk-muenchen.myspreadshop.de/"
   - title: "Kontakt"
     url: /kontakt
-  - title: "Dienste"
-    sublinks:
-      - title: "Chat"
-        url: "https://chat.ffmuc.net"
-      - title: "DoH/DoT"
-        url: "https://ffmuc.net/wiki/doku.php?id=knb:dohdot"
-      - title: "Etherpad"
-        url: "https://ffmuc.net/pad/"
-      - title: "CryptPad"
-        url: "https://cryptpad.ffmuc.net"
-      - title: "FFMEET"
-        url: "https://meet.ffmuc.net"

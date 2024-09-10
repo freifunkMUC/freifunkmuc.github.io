@@ -24,6 +24,9 @@ pagination:
 
 <h2>Neuigkeiten</h2>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if paginator %}
+  {% assign posts = paginator.posts | sort: 'date' | reverse %}
+{% else %}
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+{% endif %}
+
