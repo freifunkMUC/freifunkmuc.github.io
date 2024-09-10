@@ -7,10 +7,11 @@ header:
   overlay_image: /assets/banner.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   actions:
-  - label: "<i class='fas fa-fw fa-comment'></i> Unser Chat"
-    url: "https://chat.ffmuc.net"
+    - label: "<i class='fas fa-fw fa-comment'></i> Unser Chat"
+      url: "https://chat.ffmuc.net"
 excerpt: >
   Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle.
+paginate: 5
 ---
 
 # Start

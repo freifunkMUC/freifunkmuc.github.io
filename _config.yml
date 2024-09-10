@@ -72,6 +72,9 @@ footer:
     - label: "Datenschutzerklärung"
       icon: "fa fa-fw fa-book"
       url: "/privacy"
+    - label: "Freie Netze München e.V."
+      icon: "fa fa-fw fa-meetup"
+      url: "https://ffmuc.net/wiki/doku.php?id=ev:start"
       
 
 
