@@ -16,7 +16,7 @@ main:
   - title: "Kontakt"
     url: /kontakt
   - title: "Dienste"
-    children:
+    sublinks:
       - title: "Chat"
         url: "https://chat.ffmuc.net"
       - title: "DoH/DoT"
