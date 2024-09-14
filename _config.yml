@@ -238,6 +238,7 @@ webrick:
 pagination:
   enabled: true
   per_page: 5
+  sort_reverse: true
   title: ':title - Seite :num'
   permalink: /page/:num/
   trail:
