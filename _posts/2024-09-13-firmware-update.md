@@ -6,6 +6,7 @@ categories: freifunkmuc
 ---
  
 Momentan befindet sich die Version **v2024.9.1** für stable/testing/experimental sowie **v2024.9.1-next** für den next Branch im Rollout.  
+Hier werden die Geräte alle nach und nach das Update erhalten.   
 Eine wichtige Änderung in der neuen Version ist das hinzufügen eines neuen Debug Befehl per SSH so wie viele kleine Neuerungen für die next Version.  
 Mit `collect-debug-info` printet der Node per SSH alle notwendigen Debug Infos die wir für eine ggf. Problem Behebung benötigen könnten.  
 (Hier für geht ein expliziter dank an [Freifunk Braunschweig](https://freifunk-bs.de/) die dieses Package entwicklet haben) 
