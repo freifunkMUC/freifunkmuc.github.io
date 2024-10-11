@@ -1,0 +1,18 @@
+---
+layout: posts
+title:  "Neuer Switch für den Standort München"
+date:   2024-10-11 09:00:00
+categories: freifunkmuc
+---
+
+**Neuer Switch für den Standort München**
+
+Morgen, am 12.10.2024, ist der Tag des Switch Upgrades in München.  
+Wir rüsten von Arista DCS7050 auf DCS-7280SR3E-40YC6-F auf!  
+Das heißt unsere Server sind ab sofort mit 2x25G angebunden.  
+
+![Neuer Switch](/assets/posts/2024-10-11-switch.jpeg){: style="max-height:300px;"}
+   
+Wir bedanken uns bei [Arista Networks](https://www.arista.com/), [Flexoptix GmbH](https://www.flexoptix.net/)  und [Xantaro Deutschland GmbH](https://www.xantaro.net) die das möglich gemacht haben.
+  
+---
