@@ -15,4 +15,8 @@ Das heißt unsere Server sind ab sofort mit 2x25G angebunden.
    
 Wir bedanken uns bei [Arista Networks](https://www.arista.com/), [Flexoptix GmbH](https://www.flexoptix.net/)  und [Xantaro Deutschland GmbH](https://www.xantaro.net) die das möglich gemacht haben.
   
+**Update 12.10.2024**  
+So sieht es nun im Münchner Rechenzentrum aus:
+![Neuer Switch](/assets/posts/2024-10-11-switch-einbau.jpg){: style="max-height:300px;"}
+
 ---
