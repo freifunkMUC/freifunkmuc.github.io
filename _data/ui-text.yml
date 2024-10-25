@@ -511,7 +511,7 @@ de: &DEFAULT_DE
   powered_by                 : "Möglich durch"
   website_label              : "Webseite"
   email_label                : "E-Mail"
-  recent_posts               : "Aktuelle Beiträge"
+  recent_posts               : "Neuigkeiten"
   undefined_wpm              : "Undefinierter Parameter words_per_minute in _config.yml"
   comment_form_info          : "Ihre E-Mail Adresse wird nicht veröffentlicht. Benötigte Felder sind markiert"
   comment_form_comment_label : "Kommentar"
