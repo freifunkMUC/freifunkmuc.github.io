@@ -22,8 +22,6 @@ pagination:
 
 {% include network-status.html layout=half %}
 
-<h2>Neuigkeiten</h2>
-
 {% if paginator %}
   {% assign posts = paginator.posts | sort: 'date' | reverse %}
 {% else %}
