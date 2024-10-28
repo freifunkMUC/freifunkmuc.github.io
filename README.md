@@ -13,7 +13,6 @@ Zum lokalen testen sollte folgendes genügen:
 ```bash
 git clone https://github.com/freifunkMUC/freifunkmuc.github.io.git
 cd freifunkmuc.github.io
-bundle add webrick
 bundle install
 bundle exec jekyll serve
 ```
