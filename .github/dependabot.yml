@@ -8,3 +8,8 @@ updates:
     schedule: {interval: monthly}
     reviewers: [freifunkMUC/webseite]
     assignees: [freifunkMUC/webseite]
+  - package-ecosystem: bundler
+    directory: /
+    schedule: {interval: monthly}
+    reviewers: [freifunkMUC/webseite]
+    assignees: [freifunkMUC/webseite]
