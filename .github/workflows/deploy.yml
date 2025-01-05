@@ -1,8 +1,9 @@
 name: DEPLOY
+
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   deploy:
@@ -12,22 +13,29 @@ jobs:
       matrix:
         target: [webfrontend03, webfrontend04, webfrontend05, webfrontend06]
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v4
-      # Use GitHub Actions' cache to shorten build times and decrease load on servers
-    - uses: actions/cache@v4.2.0
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - uses:  lemonarc/jekyll-action@1.0.0
-    - name: rsync deployments
-      uses: burnett01/rsync-deployments@5.2
-      with:
-        switches: -avzr --delete
-        path: _site
-        remote_path: /srv/www/ffmuc.net/
-        remote_host: ${{ matrix.target }}.ext.ffmuc.net
-        remote_user: deploy-ffmuc
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true # Enables caching for Bundler
+
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: _site/
+          remote_path: /srv/www/ffmuc.net/
+          remote_host: ${{ matrix.target }}.ext.ffmuc.net
+          remote_user: deploy-ffmuc
+          remote_key: ${{ secrets.DEPLOY_KEY }}
