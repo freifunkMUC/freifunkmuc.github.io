@@ -41,5 +41,5 @@ jobs:
           remote_path: /srv/www/ffmuc.net/
           remote_host: ${{ matrix.target }}.ext.ffmuc.net
           remote_user: deploy-ffmuc
-          legacy_allow_rsa_hostkeys: "true"
+          rsh: -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedKeyTypes=+ssh-rsa
           remote_key: ${{ secrets.DEPLOY_KEY }}
