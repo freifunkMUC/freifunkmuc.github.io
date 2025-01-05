@@ -34,8 +34,9 @@ jobs:
         uses: burnett01/rsync-deployments@5.2
         with:
           switches: -avzr --delete
-          path: _site
+          path: ${{ github.workspace }}/_site/
           remote_path: /srv/www/ffmuc.net/
           remote_host: ${{ matrix.target }}.ext.ffmuc.net
           remote_user: deploy-ffmuc
           remote_key: ${{ secrets.DEPLOY_KEY }}
+
