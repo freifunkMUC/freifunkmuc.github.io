@@ -29,16 +29,18 @@ jobs:
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
+
       - name: Verify _site directory
         run: ls -al ${{ github.workspace }}/_site
 
-      - name: Deploy via rsync
-        uses: burnett01/rsync-deployments@5.2
-        with:
-          switches: -avzr --delete
-          path: ${{ github.workspace }}/_site/
-          remote_path: /srv/www/ffmuc.net/
-          remote_host: ${{ matrix.target }}.ext.ffmuc.net
-          remote_user: deploy-ffmuc
-          remote_key: ${{ secrets.DEPLOY_KEY }}
-
+      - name: Deploy via SSH and rsync
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ matrix.target }}.ext.ffmuc.net >> ~/.ssh/known_hosts
+          rsync -avzvr --delete \
+            ${{ github.workspace }}/_site/ \
+            deploy-ffmuc@${{ matrix.target }}.ext.ffmuc.net:/srv/www/ffmuc.net/
