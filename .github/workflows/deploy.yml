@@ -29,6 +29,8 @@ jobs:
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
+      - name: Verify _site directory
+        run: ls -al ${{ github.workspace }}/_site
 
       - name: Deploy via rsync
         uses: burnett01/rsync-deployments@5.2
