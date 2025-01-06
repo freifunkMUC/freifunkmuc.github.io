@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.1"
+gem "jekyll", "~> 3.10.0"
 gem "ffi", "= 1.16.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
