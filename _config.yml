@@ -106,6 +106,8 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - CNAME
+  - CODEOWNERS
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
