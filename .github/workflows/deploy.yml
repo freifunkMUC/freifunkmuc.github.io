@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Ruby environment
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@2654679fe7f7c29875c669398a8ec0791b8a64a1 # v1.215.0
         with:
           ruby-version: '3.2'
           bundler-cache: true # Enables caching for Bundler
@@ -34,7 +34,7 @@ jobs:
         run: ls -al ${{ github.workspace }}/_site
 
       - name: Deploy via rsync
-        uses: burnett01/rsync-deployments@5.2
+        uses: burnett01/rsync-deployments@3cccb6851148e6198ed9ed89eb0d1c17b5e58cc7 #v7.0.2
         with:
           switches: -avzr --delete
           path: _site/
