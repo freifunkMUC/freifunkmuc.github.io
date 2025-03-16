@@ -27,8 +27,13 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: style="max-height:100px;"}][meerfarbig]
 
+### Wiit
+
+[![wiit logo](/assets/unterstuetzung/wiit.png){: style="max-height:100px;"}][wiit]
+
 [anexia]: https://www.anexia.com/
 [emc-homeofdata]: https://www.emc-homeofdata.de/
 [flexoptix]: https://www.flexoptix.net/
 [meerfarbig]: https://meerfarbig.net/
 [interlink]: https://inter.link/
+[wiit]: https://www.wiit.cloud/
