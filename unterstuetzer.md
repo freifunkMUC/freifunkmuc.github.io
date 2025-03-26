@@ -13,13 +13,17 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 ### [Arista Networks Inc](arista)
 
-### [Cloudflare Inc](cloudflare)
+### Cloudflare Inc
+
+[![Cloudflare Inc logo](/assets/unterstuetzung/cf-logo.webp){: style="max-height:100px;"}][cloudflare]
 
 ### EMC Home of Data GmbH
 
 [![EMC logo](/assets/unterstuetzung/emc-logo.svg){: style="max-height:100px;"}][emc-homeofdata]
 
-### [DE-CIX](de-cix)
+### DE-CIX
+
+[![DE-CIX logo](/assets/unterstuetzung/decix_logo.svg){: style="max-height:100px;"}][de-cix]
 
 ### Flexoptix GmbH
 
