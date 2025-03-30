@@ -33,8 +33,9 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![Inter.link logo](/assets/unterstuetzung/interlink_logo.svg){: style="max-height:100px;"}][interlink]
 
-### [LWLcom GmbH][lwlcom]
+### LWLcom GmbH
 
+[![LWLcom logo](/assets/unterstuetzung/lwlcom.jpg){: style="max-height:100px;"}][lwlcom]
 
 ### meerfarbig GmbH & Co. KG
 
