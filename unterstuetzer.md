@@ -11,7 +11,7 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![ANEXIA logo](/assets/unterstuetzung/anexia.jpg){: style="max-height:100px;"}][anexia]
 
-### [Arista Networks Inc](arista)
+### [Arista Networks Inc][arista]
 
 ### Cloudflare Inc
 
@@ -33,20 +33,21 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![Inter.link logo](/assets/unterstuetzung/interlink_logo.svg){: style="max-height:100px;"}][interlink]
 
-### [LWLcom GmbH](lwlcom)
+### LWLcom GmbH
 
+[![LWLcom logo](/assets/unterstuetzung/lwlcom.jpg){: style="max-height:100px;"}][lwlcom]
 
 ### meerfarbig GmbH & Co. KG
 
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: style="max-height:100px;"}][meerfarbig]
 
-### [PHILUNET GmbH](philunet)
+### [PHILUNET GmbH][philunet]
 
 ### Wiit
 
 [![wiit logo](/assets/unterstuetzung/wiit.png){: style="max-height:100px;"}][wiit]
 
-### [Xantaro Deutschland GmbH](xantaro)
+### [Xantaro Deutschland GmbH][xantaro]
 
 
 [anexia]: https://www.anexia.com/
