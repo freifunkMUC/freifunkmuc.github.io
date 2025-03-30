@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false  # Safer for pull requests
 
       - name: Cache Ruby gems
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.2
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.0.3
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
