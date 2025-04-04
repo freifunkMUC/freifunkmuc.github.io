@@ -5,41 +5,64 @@ on:
     branches:
       - main
 
+# Set minimal permissions at workflow level
+permissions:
+  contents: read
+  deployments: write
+
 jobs:
   deploy:
     if: github.repository_owner == 'freifunkMUC'
+    # Job-specific permissions (inherits and extends workflow permissions)
+    permissions:
+      contents: read
+
     strategy:
       fail-fast: false
       matrix:
         target: [webfrontend03, webfrontend04, webfrontend05, webfrontend06]
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false  # More secure for deployments
+
+      - name: Cache Ruby gems
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.0.3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
 
       - name: Set up Ruby environment
-        uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777 # v1.221.0
+        uses: ruby/setup-ruby@354a1ad156761f5ee2b7b13fa8e09943a5e8d252 # v1.229.0
         with:
           ruby-version: '3.2'
-          bundler-cache: true # Enables caching for Bundler
+          bundler-cache: true
+          cache-version: 0
 
       - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3
+        run: bundle install --jobs $(nproc) --retry 3 --path vendor/bundle
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
 
       - name: Verify _site directory
-        run: ls -al ${{ github.workspace }}/_site
+        run: |
+          [ -d "_site" ] || exit 1
+          ls -al _site
 
       - name: Deploy via rsync
-        uses: burnett01/rsync-deployments@3cccb6851148e6198ed9ed89eb0d1c17b5e58cc7 #v7.0.2
+        uses: burnett01/rsync-deployments@3cccb6851148e6198ed9ed89eb0d1c17b5e58cc7 # v7.0.2
         with:
-          switches: -avzr --delete
+          switches: -avzr --delete --stats
           path: _site/
           remote_path: /srv/www/ffmuc.net/_site
           remote_host: ${{ matrix.target }}.ext.ffmuc.net
           remote_user: deploy-ffmuc
-          rsh: -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedKeyTypes=+ssh-rsa
+          rsh: -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedKeyTypes=+ssh-rsa -o StrictHostKeyChecking=no
           remote_key: ${{ secrets.DEPLOY_KEY }}
