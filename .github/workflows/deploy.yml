@@ -16,8 +16,6 @@ jobs:
     # Job-specific permissions (inherits and extends workflow permissions)
     permissions:
       contents: read
-      deployments: write
-      id-token: write
 
     strategy:
       fail-fast: false
