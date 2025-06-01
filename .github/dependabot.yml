@@ -6,10 +6,7 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule: {interval: monthly}
-    reviewers: [freifunkMUC/webseite]
-    assignees: [freifunkMUC/webseite]
+
   - package-ecosystem: bundler
     directory: /
     schedule: {interval: monthly}
-    reviewers: [freifunkMUC/webseite]
-    assignees: [freifunkMUC/webseite]
