@@ -1,11 +1,12 @@
 ---
 layout: posts
-title:  "Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice"
-date:   2020-03-23 21:30:00
+title: "Pressemitteilung zu meet.ffmuc.net: Freifunk München stellt Freifunk MEET für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice"
+date: 2020-03-23 21:30:00
 categories: freifunkmuc
 ---
 
 ## Freifunk München stellt [Freifunk MEET](https://meet.ffmuc.net) für die Corona-Zeit vor - einen kostenlosen Video-Konferenzservice
+
 **- Angebot für Privatpersonen, Hilfskräfte, Medizin, Schule und Lehre, kleine Firmen und Handwerk - oder einfach Freunde und Familie -**
 
 (München, 23.03.2020)
@@ -44,19 +45,22 @@ Der designierte SPD-Stadtrat Lars Mentrup lobt:
 „Die Freifunker helfen, dass sich Menschen und Gruppen digital treffen, die sich aktuell nicht zusammen finden können. Das ist digitales Ehrenamt in seiner besten Form!“
 
 ### Kontakt:
-- E-Mail:   <presse@ffmuc.net>
-- Twitter:  [@FreifunkMUC](https://twitter.com/FreifunkMUC)
+
+- E-Mail: <presse@ffmuc.net>
+- Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
 ### Hintergrund Freifunk München (FFMUC)
+
 FFMUC ist Teil der offenen deutschlandweiten Freifunk Gemeinschaft.
 Freifunk ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netzwerke.
-Ziel von FFMUC ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München. 
+Ziel von FFMUC ist der Aufbau und Betrieb eines freien und unabhängigen WLAN Netzes in München.
 Freifunk München hat ein Mandat durch Stadtratsbeschlüsse zum Aufbau von WLAN-Infrastruktur.
 Freifunk München hat 2015 diverse Flüchtlingszentren mit Wlan versorgt, u. a. das Ankunftszentrum im Euro-Industriepark.
 Freifunk geht zurück auf die Bürgernetze der 90er Jahre und das Umfeld des Chaos Computer Clubs.
 Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/wasistfreifunk/), sowie der Webseite [aller deutschen Freifunkgruppen](https://freifunk.net/).
 
 ### Supporter:
+
 [![Alibaba Cloud](/assets/unterstuetzung/logo_alibaba_cloud.png){:.pull-left height="50px style="margin-right: 10px; margin-top: 8px; "}](https://www.alibabacloud.com)
 [![Cloudflare Inc.](/assets/unterstuetzung/logo-cloudflare-dark.svg){:.pull-left height="50px" style="margin-right: 10px"}](https://www.cloudflare.com)
 [![Esplendor Group](/assets/unterstuetzung/logo-esplendor.png){:.pull-left width="180px" style="margin-right: 10px; margin-bottom: 10px; "}](https://esplendor.industries)
@@ -75,9 +79,11 @@ Mehr zu Freifunk auf unserer Seite [„Was ist Freifunk?“](https://ffmuc.net/w
 [![Vserver.site](/assets/unterstuetzung/vserversite_logo.png){:.pull-left width="300px" style="margin-right: 10px"}](https://vserver.site)
 [![PHILUNET](/assets/unterstuetzung/philunet_logo.svg){:.pull-left width="300px" style="margin-right: 10px"}](https://philunet.de/)
 [![Combahton](/assets/unterstuetzung/combahton.jpeg){:.pull-left width="300px" style="margin-right: 10px"}](https://www.combahton.net/)
+
 <div style="clear: both;" ></div>
 
 ### Updates:
+
 - 05.01.2021: Vserver.site und PHILUNET als Supporter ergänzt.
 - 29.05.2020: Neanderfunk als Supporter ergänzt.
 - 03.04.2020: Kapazitätverbesserung von 3.000 auf 10.000 Personen ergänzt. Hinzugekommene Anleitungen in verschiedenen Sprachen ergänzt.

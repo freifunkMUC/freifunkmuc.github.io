@@ -29,49 +29,49 @@ Das PPA wird auf [https://picopeer.net](https://picopeer.net) von einer Gruppe F
 ### Vereinbarung
 
 1. Freier Transit \\
-EigentümerInnen bestätigen, freien Transit über ihre freie Netzwerkinfrastruktur anzubieten.
-EigentümerInnen bestätigen, die Daten, die seine freie Netzwerkinfrastruktur passieren, weder störend zu beeinträchtigen noch zu verändern.
+   EigentümerInnen bestätigen, freien Transit über ihre freie Netzwerkinfrastruktur anzubieten.
+   EigentümerInnen bestätigen, die Daten, die seine freie Netzwerkinfrastruktur passieren, weder störend zu beeinträchtigen noch zu verändern.
 
 2. Offene Kommunikation \\
-EigentümerInnen erklären, alle Informationen zu veröffentlichen, die für die Verbindung mit ihrer Netzwerkinfrastruktur notwendig sind.
-Diese Information soll (muss?) unter einer freien Lizenz (free licence) veröffentlicht werden.
-EigentümerInnen erklären, erreichbar zu sein und wird dazu wenigstens eine E-Mail-Adresse bekanntgeben.
+   EigentümerInnen erklären, alle Informationen zu veröffentlichen, die für die Verbindung mit ihrer Netzwerkinfrastruktur notwendig sind.
+   Diese Information soll (muss?) unter einer freien Lizenz (free licence) veröffentlicht werden.
+   EigentümerInnen erklären, erreichbar zu sein und wird dazu wenigstens eine E-Mail-Adresse bekanntgeben.
 
 3. Keine Garantie (Haftungsausschluss) \\
-Es wird keinerlei garantierter Dienst (Betrieb, Service) vereinbart. (Es gibt keine Garantie für die Verfügbarkeit / Qualität des Dienstes.)
-Der Dienst (Betrieb, Service) wird ohne Gewähr bereitgestellt, ohne Garantie oder Verpflichtung jedweder Art.
-Der Dienst (Betrieb, Service) kann jeder Zeit ohne weitere Erklärung beschränkt oder eingestellt werden.
+   Es wird keinerlei garantierter Dienst (Betrieb, Service) vereinbart. (Es gibt keine Garantie für die Verfügbarkeit / Qualität des Dienstes.)
+   Der Dienst (Betrieb, Service) wird ohne Gewähr bereitgestellt, ohne Garantie oder Verpflichtung jedweder Art.
+   Der Dienst (Betrieb, Service) kann jeder Zeit ohne weitere Erklärung beschränkt oder eingestellt werden.
 
 4. Nutzungsbestimmungen \\
-EigentümerInnen sind berechtigt, eine akzeptierbare Benutzungsrichtlinie (use policy) zu formulieren.
-Diese kann Informationen über zusätzlich (neben den grundsätzlich) angebotene Dienste enthalten.
-EigentümerInnen steht es frei, die Richtlinie selber zu formulieren, so lange diese nicht den Punkten 1 bis 3 dieser Vereinbarung widersprechen (siehe Punkt 5).
+   EigentümerInnen sind berechtigt, eine akzeptierbare Benutzungsrichtlinie (use policy) zu formulieren.
+   Diese kann Informationen über zusätzlich (neben den grundsätzlich) angebotene Dienste enthalten.
+   EigentümerInnen steht es frei, die Richtlinie selber zu formulieren, so lange diese nicht den Punkten 1 bis 3 dieser Vereinbarung widersprechen (siehe Punkt 5).
 
 5. Lokale Zusätze für Freifunk München \\
-Das Betreiben von Routern in Verbindung mit der Freifunk-München Netzwerkinfrastruktur ist nur gestattet, solange die folgenden zwei Bedingungen erfüllt sind:
- * die SSID des Client-Netzes auf "muenchen.freifunk.net/(Segmentname)" lautet
- * die Mesh-BSSID/SSID denen, der in den offiziellen Firmware-Images veröffentlichten, entspricht
+   Das Betreiben von Routern in Verbindung mit der Freifunk-München Netzwerkinfrastruktur ist nur gestattet, solange die folgenden zwei Bedingungen erfüllt sind:
+
+- die SSID des Client-Netzes auf "muenchen.freifunk.net/(Segmentname)" lautet
+- die Mesh-BSSID/SSID denen, der in den offiziellen Firmware-Images veröffentlichten, entspricht
 
 ### Begriffserklärungen
 
-* **EigentümerIn**\\
-EigentümerInnen verfügen über das Recht, ihre Netzwerkinfrastruktur zu betreiben und einen Teil ihrer Funktionalität für das freie Netzwerk (FreeNetwork) bereitzustellen (zu stiften, zu spenden).
+- **EigentümerIn**\\
+  EigentümerInnen verfügen über das Recht, ihre Netzwerkinfrastruktur zu betreiben und einen Teil ihrer Funktionalität für das freie Netzwerk (FreeNetwork) bereitzustellen (zu stiften, zu spenden).
 
-* **Transit**\\
-Transit ist der Austausch von Daten in ein Netzwerk hinein, heraus oder durch ein Netzwerk hindurch.
+- **Transit**\\
+  Transit ist der Austausch von Daten in ein Netzwerk hinein, heraus oder durch ein Netzwerk hindurch.
 
-* **Freier Transit**\\
-Freier Transit bedeutet, dass EigentümerInnen weder Gebühren für den Transit von Daten erhebt, noch die Daten verändert.
+- **Freier Transit**\\
+  Freier Transit bedeutet, dass EigentümerInnen weder Gebühren für den Transit von Daten erhebt, noch die Daten verändert.
 
-* **Freies Netzwerk**\\
-Das Freie Netzwerk ist die Summe der miteinander verbundenen Hard- und Software, dessen Anteil für den freien Transit von EigentümerInnen dieser Ressourcen zu Verfügung gestellt wird.
+- **Freies Netzwerk**\\
+  Das Freie Netzwerk ist die Summe der miteinander verbundenen Hard- und Software, dessen Anteil für den freien Transit von EigentümerInnen dieser Ressourcen zu Verfügung gestellt wird.
 
-* **Der Dienst**\\
-Der Dienst (Betrieb, Service) besteht aus freiem Transit und zusätzlichen Diensten.
+- **Der Dienst**\\
+  Der Dienst (Betrieb, Service) besteht aus freiem Transit und zusätzlichen Diensten.
 
-* **Zusätzliche Dienste**\\
-Im Sinne des PPA ist ein Zusätzlicher Dienst alles, was über freien Transit hinaus geht. Zum Beispiel die Bereitstellung eines DHCP-Servers, WEB-Servers oder Mail-Servers.\\
-Das PPA soll nach vereinbarten Standards in maschinenlesbarer Form in Community-Node-Datenbanken (nodeDBs) eingebaut werden, um die automatische Vernetzung solcher Knoten (Nodes) zu ermöglichen
-
+- **Zusätzliche Dienste**\\
+  Im Sinne des PPA ist ein Zusätzlicher Dienst alles, was über freien Transit hinaus geht. Zum Beispiel die Bereitstellung eines DHCP-Servers, WEB-Servers oder Mail-Servers.\\
+  Das PPA soll nach vereinbarten Standards in maschinenlesbarer Form in Community-Node-Datenbanken (nodeDBs) eingebaut werden, um die automatische Vernetzung solcher Knoten (Nodes) zu ermöglichen
 
 Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)

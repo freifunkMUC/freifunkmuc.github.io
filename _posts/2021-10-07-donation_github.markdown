@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunk München dankt für Hardware-Spende von GitHub"
-date:   2021-10-07 10:43:00
+title: "Freifunk München dankt für Hardware-Spende von GitHub"
+date: 2021-10-07 10:43:00
 categories: freifunkmuc
 ---
 

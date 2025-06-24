@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "1000 Knoten online"
-date:   2015-10-14 14:00:00
+title: "1000 Knoten online"
+date: 2015-10-14 14:00:00
 categories: freifunkmuc
 ---
 
@@ -14,4 +14,3 @@ Gratulation, wir dürfen uns gegenseitig auf die Schultern klopfen. Weiter so! A
 Freifunk München ist mittlerweile die zweitgrößte Community in Deutschland. Einhergehend mit dem Wachstum, möchten wir erneut auf unser [LiquidFeedback][lqfb] hinweisen, um technische und nicht-technische Entscheidungen innerhalb der Community zu treffen und transparent zu dokumentieren.
 
 [lqfb]: https://ffmuc.net/wiki/p/Liquid-Feedback
-

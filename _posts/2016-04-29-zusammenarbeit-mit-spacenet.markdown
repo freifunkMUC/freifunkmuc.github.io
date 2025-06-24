@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "SpaceNet unterstützt eine der größten deutschen Freifunk-Communities"
-date:   2016-04-29 14:00:00
+title: "SpaceNet unterstützt eine der größten deutschen Freifunk-Communities"
+date: 2016-04-29 14:00:00
 categories: freifunkmuc
 ---
 
@@ -11,7 +11,7 @@ Freifunk ist eine nicht kommerzielle Initiative für den Aufbau freier Funk-Netz
 
 Einige Flüchtlingsunterkünfte konnten zudem bereits zu einem gewissen Grad durch freiwillige Initiativen auf Basis der Freifunk-Technik (Router-Firmware) mit einer Internetanbindung versorgt werden. Von SpaceNet stehen den Freifunkern aktuell ein Gigabit-Internet-Zugang sowie Hosting-Kapazitäten zur Verfügung. Künftig soll unter anderem das Ankunftszentrum an der Maria-Probst-Straße, das im Münchner Norden täglich als erste Station für rund 600 Flüchtlinge fungiert, von Freifunk in Kooperation mit SpaceNet mit WLAN versorgt werden. Die Arbeiten für die Anbindung dieses Standorts an das Freifunk-Netz sind aktuell im Gang. Sobald die Rahmenbedingungen mit der Stadt München endgültig geklärt sind, soll auch weiteren Ünterkünften ein kostenloser Internetzugang via Freifunk ermöglicht werden.
 
-*„Ein kostenloser Internetzugang ist für die meisten Flüchtlinge die einzige Chance, ihre Familien zu kontaktieren, hier Verwandte und Freunde wiederzufinden oder sich Informationen aus dem Netz zu holen“*, erklärt Sebastian von Bomhard, Vorstand der SpaceNet AG. *„Daher unterstützen wir diese Initiative sehr gerne. Freifunk steht darüber hinaus für freie Kommunikation in digitalen Datennetzen. Auch in diesem Punkt funken SpaceNet und Freifunk definitiv auf derselben Wellenlänge. SpaceNet und Freifunk streben daher eine langfristige Partnerschaft an.”*
+_„Ein kostenloser Internetzugang ist für die meisten Flüchtlinge die einzige Chance, ihre Familien zu kontaktieren, hier Verwandte und Freunde wiederzufinden oder sich Informationen aus dem Netz zu holen“_, erklärt Sebastian von Bomhard, Vorstand der SpaceNet AG. _„Daher unterstützen wir diese Initiative sehr gerne. Freifunk steht darüber hinaus für freie Kommunikation in digitalen Datennetzen. Auch in diesem Punkt funken SpaceNet und Freifunk definitiv auf derselben Wellenlänge. SpaceNet und Freifunk streben daher eine langfristige Partnerschaft an.”_
 
 **Über SpaceNet**
 
@@ -27,9 +27,8 @@ Weitere Infos unter: [https://www.space.net](https://www.space.net)
 
 Die Freifunk-Initiative hat zum Ziel, freie, unabhängige und nichtkommerzielle Funknetze zu etablieren, so dass schließlich eine flächendeckende offene WLAN-Versorgung im öffentlichen Raum entsteht. Jeder Nutzer im Freifunk-Netz stellt seinen WLAN-Router anderen Teilnehmern für den Datentransfer zur Verfügung. Im Gegenzug kann er oder sie ebenfalls Daten, wie zum Beispiel Texte, Musik und Filme über das interne Freifunk-Netz übertragen oder über von Teilnehmern eingerichtete Dienste im Netz chatten, telefonieren und gemeinsam Onlinegames spielen. Auf diese Weise entsteht ein sogenanntes Mesh-Netzwerk.
 
-Freifunk-Netze sind „Selbstmach”-Netze. Für den Aufbau nutzen Teilnehmer auf ihren WLAN-Routern eine spezielle Linux-Distribution, die Freifunk-Firmware. Die lokalen Freifunk-Communities stellen die auf eigene Bedürfnisse angepasste Software dann auf ihren Websites der Öffentlichkeit frei zur Verfügung. Mittlerweile sind ungefähr 1.500 Freifunk-Hotspots in München und dem Umland aktiv. 
+Freifunk-Netze sind „Selbstmach”-Netze. Für den Aufbau nutzen Teilnehmer auf ihren WLAN-Routern eine spezielle Linux-Distribution, die Freifunk-Firmware. Die lokalen Freifunk-Communities stellen die auf eigene Bedürfnisse angepasste Software dann auf ihren Websites der Öffentlichkeit frei zur Verfügung. Mittlerweile sind ungefähr 1.500 Freifunk-Hotspots in München und dem Umland aktiv.
 
 Weitere Infos über die Community und Technik unter: [https://ffmuc.net](https://ffmuc.net) und deutschlandweit [https://www.freifunk.net](https://www.freifunk.net)
-
 
 **Quelle: [Pressemitteilung der SpaceNet AG vom 29. April 2016](https://www.space.net/it-expertenwissen/aktuelles/unternehmen/detail-unternehmensnews/titel/spacenet-unterstuetzt-eine-der-groessten-deutschen-freifunk-communities/News/detail/index.html?actbackPid=1247&cHash=1dcaab9cec56b4b76ee0d95002793cb3)**

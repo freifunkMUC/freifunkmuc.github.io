@@ -1,15 +1,16 @@
 ---
 layout: posts
-title:  "Tests für v2019.0 auf experimental"
-date:   2019-03-19 00:00:00
+title: "Tests für v2019.0 auf experimental"
+date: 2019-03-19 00:00:00
 categories: freifunkmuc
 ---
+
 Wie [erwähnt](/freifunkmuc/2019/03/18/release-firmware-v2018.0-stable/) haben alle Knoten
 auf "experimental" das Update von v2016.0 auf v2018.0 heil überstanden,
 sodass wir uns nun dazu entschieden haben, dieses Image 1:1 auf die anderen Knoten zu verteilen.
 
-Um die Vorzüge von "experimental" weiter nutzen zu können - 
-und dem Namen auch ein stückweit wieder gerecht zu werden - 
+Um die Vorzüge von "experimental" weiter nutzen zu können -
+und dem Namen auch ein stückweit wieder gerecht zu werden -
 planen wir diesen Kanal zu nutzen um den Rollout der kommenden Firmware v2019.0 zu testen.
 
 Wir werden also bald anfangen die ersten Builds von v2019.0 auf experimental auszurollen.

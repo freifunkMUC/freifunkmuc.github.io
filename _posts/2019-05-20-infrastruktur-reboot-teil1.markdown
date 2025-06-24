@@ -1,12 +1,13 @@
 ---
 layout: posts
-title:  "Infrastruktur Reboot Teil 1"
-date:   2019-05-20 12:00:00
+title: "Infrastruktur Reboot Teil 1"
+date: 2019-05-20 12:00:00
 categories: freifunkmuc
 ---
+
 Nachdem wir die letzten Monate damit zugebracht haben die Freifunk München Infrastruktur komplett zu erneuern und die ersten sichtbaren Änderungen auch schon bei euch ankamen ([neue Karte](https://map.ffmuc.net), [neues Grafana](https://stats.ffmuc.net)) machen wir nun weiter mit den großen Änderungen.
 
-Dazu wurde eine neue [Firmware](https://firmware.ffmuc.net) gebaut, welche aktuell in `testing` und `experimental` zu finden ist. 
+Dazu wurde eine neue [Firmware](https://firmware.ffmuc.net) gebaut, welche aktuell in `testing` und `experimental` zu finden ist.
 
 Folgende Aenderungen erwarten euch:
 

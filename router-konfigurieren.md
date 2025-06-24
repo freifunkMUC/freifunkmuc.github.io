@@ -18,7 +18,7 @@ Wenn du noch nicht im [Konfigurationsmodus](https://ffmuc.net/wiki/p/Routerkonfi
 
 Deinem Router liegen ein Steckernetzteil (1) und ein LAN-Kabel (2) bei.
 
-![Ueberblick](/assets/router-flashen/guide-17.jpg) 
+![Ueberblick](/assets/router-flashen/guide-17.jpg)
 
 Schließe zuerst den Router mit dem Steckernetzteil (1) an eine Steckdose an. [Verbinde](https://ffmuc.net/wiki/p/Routerkonfiguration_via_UI#Verkabeln) dann den Router mit dem beiliegenden LAN-Kabel (2) mit Deinem Computer. Stecke es dabei am Router in eine gelbe Buchse.
 
@@ -39,14 +39,16 @@ Zuerst klickst Du auf "Expert Mode" um folgende Einstellungen vorzunehmen:
 #### Expert Mode
 
 ##### Autoupdate
+
 Es wird empfohlen, den Auto-Update Mechanismus zu aktivieren.
 Stelle sicher, dass der Haken bei "Auto-Update" gesetzt ist.
 Das heisst sobald eine neue Version unserer Freifunk Firmware verfügbar ist, wird sie automatisch auf den Router heruntergeladen und installiert - Du musst nichts Zusätzliches tun!
 
 ##### Zugangsdaten
-Falls Du die Einstellungen deines Routers ueber Netzwerk aendern willst, 
+
+Falls Du die Einstellungen deines Routers ueber Netzwerk aendern willst,
 musst Du hier ein Passwort oder einen [SSH Key hinterlegen](https://forum.freifunk.net/t/ssh-key-einrichten/2165).
-Wenn Du das nicht machst, musst Du physischen Zugang zu dem Router haben, um 
+Wenn Du das nicht machst, musst Du physischen Zugang zu dem Router haben, um
 ihn manuell in den Konfigurationsmodus zurueck zu versetzen.
 
 Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
@@ -54,10 +56,12 @@ Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
 #### Wizard
 
 ##### Name dieses Knotens
-Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
+
+Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“\_”).
 
 ##### Segmente
-Auf Grund der Größe von Freifunk München ist das Netz in mehrere Segmente unterteilt. 
+
+Auf Grund der Größe von Freifunk München ist das Netz in mehrere Segmente unterteilt.
 
 In der Mitte befindet sich `München Stadt` und außen rum die jeweiligen Himmelsrichtungen, danach folgt das Umland mit seinen Himmelsrichtungen. Auf Grund der hohen Knotendichte in `Gauting` und `Freising` haben diese beiden Kreise jeweils extra Segmente erhalten. Die Unterteilungen halten sich nicht strikt an Stadtgrenzen, sondern sind so gewählt dass eine möglichst gute Verteilung der Knoten stattfindet.
 
@@ -66,6 +70,7 @@ Für alle Knoten die in keines der aufgezeigten Segmente passen gibt es das Segm
 ![Segment Übersicht](/assets/segmente_map.png)
 
 ##### Mesh-VPN aktivieren (empfohlen)
+
 Wenn du bei “Mesh-VPN aktivieren” ein Häkchen setzt, wird über deinen Internet-Anschluss eine verschlüsselte Verbindung zu den Freifunk-Servern hergestellt. Diese verbinden deinen Router dann mit weit entfernten Freifunk-Routern und dem Internet, ohne Störerhaftung.
 
 Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifunk-Routern in der Nachbarschaft verbinden. Internet-Zugang ist dann nur möglich, wenn einer der anderen Router ihn anbietet. Auch in dem Fall bietet es sich an die Option zu setzen und einfach in der Praxis den blauen Port ungenutzt zu lassen.
@@ -75,11 +80,13 @@ Wenn die Option deaktiviert bleibt, kann sich dein Router nur mit anderen Freifu
 Wir empfehlen dieses Häkchen zu setzen.
 
 ##### Mesh-VPN Bandbreite begrenzen (optional)
+
 Wenn du einen normalen Internet-Anschluss hast, wird dein Freifunk-Router im alltäglichen Betrieb nicht allzuviel von deiner Bandbreite in Anspruch nehmen. Unsere Empfehlung ist deshalb, die Begrenzung nicht zu aktivieren.
 
 Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “Mesh-VPN Bandbreite begrenzen”. Daraufhin erscheinen zwei neue Felder. Trage in die beiden Felder die gewünschten Grenzen in Kbit/s ein. Wir empfehlen mindestens “8000″ für Downstream und “500″ für Upstream.
 
 ##### Geo-Koordinaten
+
 Wenn du die Geo-Koordinaten deines Routers hier einträgst, ist er auf der [Knotenkarte](https://map.ffmuc.net/) zu sehen. So können alle feststellen, wo überall Freifunk verfügbar ist. Diese Angabe ist freiwillig, aber empfohlen.
 
 Die Koordinaten zu ermitteln, ist ganz einfach: Suche den Standort auf der [Knotenkarte](https://map.ffmuc.net/) und klicke mit der rechten Maustaste auf die entsprechende Stelle in der Karte, um die Koordinaten zu erfahren.

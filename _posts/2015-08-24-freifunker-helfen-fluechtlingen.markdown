@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunker helfen Flüchtlingen"
-date:   2015-08-24 18:05:00
+title: "Freifunker helfen Flüchtlingen"
+date: 2015-08-24 18:05:00
 categories: freifunkmuc medien
 ---
 
@@ -15,4 +15,3 @@ Freifunker stehen dabei den Betreibern bei Technikfragen beratend zur Seite oder
 
 Doch nicht nur in München, auch deutschlandweit sind Freifunker aktiv: \\
 [Freies WLAN: Freifunker stellen Internet für Flüchtlinge bereit (Heise.de)](http://www.heise.de/newsticker/meldung/Freies-WLAN-Freifunker-stellen-Internet-fuer-Fluechtlinge-bereit-2780265.html)
-

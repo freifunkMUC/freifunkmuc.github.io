@@ -2,8 +2,8 @@ Basierend auf dem [minimal-mistakes](https://github.com/mmistakes/minimal-mistak
 
 Diese Webseite wird mit dem [jekyll](https://jekyllrb.com) compiler erstellt.
 
-
 Prerequisites:
+
 ```bash
 sudo apt-get install ruby-dev jekyll
 ```

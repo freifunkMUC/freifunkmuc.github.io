@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Ukrainehilfe Teil 2 - 6 Wochen, 6 Unterkünfte... Freifunk hilft immer mehr Geflüchteten aus der Ukraine"
-date:   2022-04-21 08:00:00
+title: "Ukrainehilfe Teil 2 - 6 Wochen, 6 Unterkünfte... Freifunk hilft immer mehr Geflüchteten aus der Ukraine"
+date: 2022-04-21 08:00:00
 categories: freifunkmuc
 ---
 
@@ -31,4 +31,3 @@ Impressionen der Aufbauten:
 |![Aufbau UHG](/assets/posts/2022-04-21-UHG.jpeg){: style="max-height: 400px;"}|![Aufbau UHG2](/assets/posts/2022-04-21-UHG2.jpeg){: style="max-height: 400px;"}|
 |![Auto](/assets/posts/2022-04-21-auto.jpeg){: style="max-height: 400px;"}|![Aufbau AWO](/assets/posts/2022-04-21-AWO.jpg){: style="max-height: 400px;"}|
 |![LTE](/assets/posts/2022-04-21-lte-notversorgung.jpeg){: style="max-height: 400px;"}|![Aufbau AWO](/assets/posts/2022-04-21-rz-upgrade.jpeg){: style="max-height: 400px;"}|
-

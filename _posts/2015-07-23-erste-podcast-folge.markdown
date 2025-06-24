@@ -1,15 +1,15 @@
 ---
 layout: posts
-title:  "Erste Podcast Folge online"
-date:   2015-07-23 12:13:00
+title: "Erste Podcast Folge online"
+date: 2015-07-23 12:13:00
 categories: freifunkmuc podcast
 ---
 
-Hier und unter [ffmuc.net/podcast][podcast] gibt es nun die erste Folge des 
+Hier und unter [ffmuc.net/podcast][podcast] gibt es nun die erste Folge des
 Freifunk München Podcasts zum Anhören und zum Download.
 
-Thema: fpletz und ruebezahl geben einen groben Überblick über 
-die verwendete Technik und wie alles zusammenhängt. 
+Thema: fpletz und ruebezahl geben einen groben Überblick über
+die verwendete Technik und wie alles zusammenhängt.
 
 <audio id="audio_ffmuc-001">
 		<source src="https://ffmuc.net/podcast/audio/ffmuc-001.mp3" type="audio/mpeg"></source>
@@ -24,5 +24,5 @@ die verwendete Technik und wie alles zusammenhängt.
       chaptersVisible: true
    });
 </script>
-   
+
 [podcast]: https://ffmuc.net/podcast/

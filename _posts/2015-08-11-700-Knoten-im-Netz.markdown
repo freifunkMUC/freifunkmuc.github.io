@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "700 Knoten im Netz"
-date:   2015-08-11 23:32:00
+title: "700 Knoten im Netz"
+date: 2015-08-11 23:32:00
 categories: freifunkmuc
 ---
 
@@ -16,7 +16,7 @@ Herzlichen Glückwunsch an alle Knotenbetreiber und weiter so!
 Für Rückfragen und weitere Informationen einfach unseren [IRC Channel][irc] joinen
 oder zu unserem [nächsten Treffen][treffen] kommen!
 
-Für Knotenbeteiber und technisch weitergehend Interessierte kann auch unser [Development IRC Channel][irc-dev] interessant sein. 
+Für Knotenbeteiber und technisch weitergehend Interessierte kann auch unser [Development IRC Channel][irc-dev] interessant sein.
 
 [irc]: https://webirc.darkfasel.net/#freifunk
 [irc-dev]: https://webirc.darkfasel.net/#freifunk-dev

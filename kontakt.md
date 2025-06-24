@@ -6,7 +6,6 @@ permalink: /kontakt/
 
 {% include treffen.html %}
 
-
 Twitter: [@FreifunkMUC](https://twitter.com/FreifunkMUC)
 
 Mastodon: [@FreifunkMUC](https://social.ffmuc.net/@freifunkMUC)
@@ -36,10 +35,10 @@ E-Mail: [abuse@ffmuc.net](mailto:abuse@ffmuc.net)
 
 Von allen Besuchern werden gespeichert und auf unbestimmte Zeit aufbewahrt:
 
-  * Datum/Uhrzeit,
-  * die abgerufene Seite,
-  * Statuscode des Webservers,
-  * Browser/Betriebssystem,
-  * der Referer.
+- Datum/Uhrzeit,
+- die abgerufene Seite,
+- Statuscode des Webservers,
+- Browser/Betriebssystem,
+- der Referer.
 
 Wir geben die geloggten Daten nicht an Dritte weiter. Wir versuchen, im Rahmen der üblichen Vorsichtsmaßnahmen zur Sicherung unseres Servers zu verhindern, daß Dritte von diesen Daten Kenntnis erlangen.

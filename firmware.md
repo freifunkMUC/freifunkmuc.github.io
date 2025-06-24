@@ -3,6 +3,7 @@ layout: single
 title: Firmware herunterladen
 permalink: /firmware/
 ---
+
 [Freifunk München Firmware](https://firmware.ffmuc.net/)
 
 ## Vor dem Kauf
@@ -15,16 +16,14 @@ Zunächst musst Du prüfen, welche Firmware Du benötigst. Wichtig ist der Route
 
 ![Modell und Version](/assets/router-flashen/guide-14.jpg)
 
-
-
 Die Anleitung zum Flashen des Routers findest du [hier][router-flashen].
 
 ## Passende Firmware herunterladen
 
 Hier kannst du die entsprechende [Freifunk München Firmware](https://firmware.ffmuc.net/) herunterladen.
 
-* Für eine **Erstinstalltion** benötigst du eine Firmware aus dem Ordner [`factory`](https://firmware.ffmuc.net/stable/factory).
-* Für eine **Aktualisierung** eines bestehenden Freifunk Routers oder wenn die Originalfirmware bereits auf OpenWRT basiert benötigst du eine Firmware aus dem Ordner [`sysupgrade`](https://firmware.ffmuc.net/stable/sysupgrade).
+- Für eine **Erstinstalltion** benötigst du eine Firmware aus dem Ordner [`factory`](https://firmware.ffmuc.net/stable/factory).
+- Für eine **Aktualisierung** eines bestehenden Freifunk Routers oder wenn die Originalfirmware bereits auf OpenWRT basiert benötigst du eine Firmware aus dem Ordner [`sysupgrade`](https://firmware.ffmuc.net/stable/sysupgrade).
 
 ## Segmente
 

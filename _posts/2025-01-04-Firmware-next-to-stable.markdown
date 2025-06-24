@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Rollout-Update: v2024.9.1-next auf v2025.1.1"
-date:   2025-01-04 09:00:00
+title: "Rollout-Update: v2024.9.1-next auf v2025.1.1"
+date: 2025-01-04 09:00:00
 categories: freifunkmuc
 ---
 

@@ -16,10 +16,10 @@ Falls Dir das mit der Technik zu kompliziert ist, [sprich uns einfach an][kontak
 
 Sprich mit deinem Freundeskreis, GeschäftspartnerInnen und allen Menschen die dich umgeben und verbreite die Idee von Freifunk. Alle können FreifunkerInnen werden! Wir freuen uns über Unterstützung bei
 
-* der Erweiterung des Freifunk-Netzwerks durch das Aufstellen neuer Freifunk-Router (siehe unten) oder durch das Bereitstellen interessanter Standorte für Freifunk-Router (z.B. Dächer).
-* der Entwicklung von Infomaterial, Bannern, Transparenten, T-Shirts, … was immer dir Kreatives einfällt!
-* der Verbreitung der Idee auf Veranstaltungen, Barcamps und Kongressen.
-* dem Betreiben von Diensten für die Community und der Entwicklung von Webanwendungen.
+- der Erweiterung des Freifunk-Netzwerks durch das Aufstellen neuer Freifunk-Router (siehe unten) oder durch das Bereitstellen interessanter Standorte für Freifunk-Router (z.B. Dächer).
+- der Entwicklung von Infomaterial, Bannern, Transparenten, T-Shirts, … was immer dir Kreatives einfällt!
+- der Verbreitung der Idee auf Veranstaltungen, Barcamps und Kongressen.
+- dem Betreiben von Diensten für die Community und der Entwicklung von Webanwendungen.
 
 ## Du möchtest einen Freifunk-Router aufstellen?
 
@@ -36,27 +36,27 @@ Wohnung, Geschäft, Café, Restaurant, Bar
 
 #### Du möchtest
 
-* dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
-* deinen Internet-Anschluss freigeben.
-* den ersten Freifunk-Router in deiner Umgebung aufstellen.
+- dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
+- deinen Internet-Anschluss freigeben.
+- den ersten Freifunk-Router in deiner Umgebung aufstellen.
 
 #### So kannst du mitmachen
 
-* Besorge einen Freifunk-fähigen 2,4&nbsp;GHz und 5&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi 6, Steckdosenplug)
-  * AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
-  * D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi 6)
-  * ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi 6, inkl. Wandhalterung)
-  * Zyxel NWA50AX (ca. 90&nbsp;€, Wifi 6, Wandmontage, PoE+)
-  * Für weitere Empfehlungen siehe: [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
-* [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
-* Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
-</div>
+- Besorge einen Freifunk-fähigen 2,4&nbsp;GHz und 5&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  - D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi 6, Steckdosenplug)
+  - AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
+  - D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi 6)
+  - ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi 6, inkl. Wandhalterung)
+  - Zyxel NWA50AX (ca. 90&nbsp;€, Wifi 6, Wandmontage, PoE+)
+  - Für weitere Empfehlungen siehe: [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
+- [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
+- Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
+  </div>
 
-        </div>            
-    </div><!-- /.col-sm-4 -->
-    <div class="col-sm-4">
-    <div class="list-group">
+          </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+      <div class="list-group">
 
 <div markdown="1">
 ### Level 2
@@ -67,23 +67,23 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
 
 #### Du möchtest
 
-* dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
-* deinen Internet-Anschluss freigeben.
-* den ersten Freifunk-Router in deiner Umgebung aufstellen.
+- dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
+- deinen Internet-Anschluss freigeben.
+- den ersten Freifunk-Router in deiner Umgebung aufstellen.
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * Zyxel NWA55AXE (ca. 100&nbsp;€, Wifi 6, Wand-/Mastmontage, PoE+)
-  * Ubiquiti UAP-AC-Mesh (ca. 100&nbsp;€, Wifi 4&5, Wand-/Mastmontage, PoE)
-* [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
-* Montiere den Router an einem geeigneten Ort.
-</div>
+- Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  - Zyxel NWA55AXE (ca. 100&nbsp;€, Wifi 6, Wand-/Mastmontage, PoE+)
+  - Ubiquiti UAP-AC-Mesh (ca. 100&nbsp;€, Wifi 4&5, Wand-/Mastmontage, PoE)
+- [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
+- Montiere den Router an einem geeigneten Ort.
+  </div>
 
-        </div>
-    </div><!-- /.col-sm-4 -->
-    <div class="col-sm-4">
-    <div class="list-group">
+          </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+      <div class="list-group">
 
 <div markdown="1">
 ### Backbone
@@ -94,22 +94,23 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
 
 #### Du möchtest
 
-* das “Rückgrat” des Freifunk-Netzes stärken, indem du stabile Richtfunk-Verbindungen zu weit entfernten Freifunk-Routern aufbaust. Für stabile Verbindungen wird eine freie Sicht zum entfernten Router benötigt.
+- das “Rückgrat” des Freifunk-Netzes stärken, indem du stabile Richtfunk-Verbindungen zu weit entfernten Freifunk-Routern aufbaust. Für stabile Verbindungen wird eine freie Sicht zum entfernten Router benötigt.
 
 #### So kannst du mitmachen
 
-* Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  * Ubiquiti Litebeam AC Gen2 \\
+- Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
+  - Ubiquiti Litebeam AC Gen2 \\
     (bis ca. 5&nbsp;km)
-  * Ubiquiti Powerbeam \\
+  - Ubiquiti Powerbeam \\
     (bis ca. 10&nbsp;km)
-* Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
-* Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
-</div>
+- Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
+- Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
+  </div>
 
-    </div>
-    </div><!-- /.col-sm-4 -->
-</div>
+      </div>
+      </div><!-- /.col-sm-4 -->
+
+  </div>
 
 ## Wo kann ich meine Fragen stellen?
 
@@ -125,4 +126,3 @@ Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
 [twitter]: https://twitter.com/freifunkmuc
 [router-flashen]: https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware
 [router-konfigurieren]: https://ffmuc.net/wiki/doku.php?id=knb:gui
-

@@ -1,9 +1,10 @@
 ---
 layout: posts
-title:  "Firmware Rollout auf v2018.1 erfolgreich. Bitte manuell aktualisieren"
-date:   2019-03-29 15:00:00
+title: "Firmware Rollout auf v2018.1 erfolgreich. Bitte manuell aktualisieren"
+date: 2019-03-29 15:00:00
 categories: freifunkmuc
 ---
+
 Hallo zusammen,
 
 Wie einige schon auf Twitter
@@ -16,13 +17,14 @@ Da schon lange kein Firmware-Update kam haben einige eigene Firmwares gebaut und
 Gerade euch bitten wir, dass ihr die aktuelle Firmware auf euren Knoten installiert.
 Da dass Update auf allen Knoten ohne Probleme verlief, sollte es sicher sein, v2018.1 jetzt zu installieren.
 
-***Wir sind dabei auch unser Backend zu aktualisieren was dazu führen wird, dass alte Knoten bald nicht mehr am Netzwerk teilnehmen können.***
+**_Wir sind dabei auch unser Backend zu aktualisieren was dazu führen wird, dass alte Knoten bald nicht mehr am Netzwerk teilnehmen können._**
 
 Schaltet eure Autoupdater also wieder an oder verfolgt die kommenden Releases wieder mit mehr Aufmerksamkeit.
 
 Downloads:
-* [Vorhandene Router](https://firmware.ffmuc.net/stable/sysupgrade/)
-* [***NEUE*** Router](https://firmware.ffmuc.net/stable/factory/)
+
+- [Vorhandene Router](https://firmware.ffmuc.net/stable/sysupgrade/)
+- [**_NEUE_** Router](https://firmware.ffmuc.net/stable/factory/)
 
 Schaut gerne im [Chat](https://chat.ffmuc.net/freifunk/channels/firmware) vorbei oder [kontaktiert](/kontakt/) uns anderweitig.
 

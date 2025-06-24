@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "B5 aktuell Beitrag"
-date:   2015-09-13 15:00:00
+title: "B5 aktuell Beitrag"
+date: 2015-09-13 15:00:00
 categories: freifunkmuc
 ---
 

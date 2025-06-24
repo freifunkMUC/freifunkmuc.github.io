@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Upgrade des Freifunk-München Netzes erfolgreich durchgeführt"
-date:   2015-03-27 10:05:00
+title: "Upgrade des Freifunk-München Netzes erfolgreich durchgeführt"
+date: 2015-03-27 10:05:00
 categories: testbetrieb freifunkmuc
 ---
 
@@ -14,7 +14,7 @@ Das Netz läuft jetzt schneller und wir haben einige neue Features. Details zu d
 Für Rückfragen und weitere Informationen einfach unseren [IRC Channel][irc] joinen
 oder zu unserem [nächsten Treffen][treffen] kommen!
 
-Für Knotenbeteiber und technisch weitergehend Interessierte kann auch unser [Development IRC Channel][irc-dev] interessant sein. 
+Für Knotenbeteiber und technisch weitergehend Interessierte kann auch unser [Development IRC Channel][irc-dev] interessant sein.
 
 Vielen Dank an alle fleißigen Hände!
 

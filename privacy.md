@@ -96,6 +96,7 @@ Im Folgenden erklären wir, was Cookies sind und warum Sie genutzt werden, damit
 <p>In der Regel werden Webserver-Logfiles zwei Wochen gespeichert und danach automatisch gelöscht. Wir geben diese Daten nicht weiter, können jedoch nicht ausschließen, dass diese Daten beim Vorliegen von rechtswidrigem Verhalten eingesehen werden.</p>
 
 <strong> Der folgende Passus betrifft nur stats.ffmuc.net/ffmuc.net/map.ffmuc.net und das Frontend von meet.ffmuc.net. Videos werden nicht per Cloudflare übertragen.</strong>
+
 <h2 class="adsimple-311166442">Cloudflare Datenschutzerklärung</h2>
 <p>Wir verwenden auf dieser Webseite Cloudflare der Firma Cloudflare, Inc. (101 Townsend St., San Francisco, CA 94107, USA), um unsere Webseite schneller und sicherer zu machen. Dabei verwendet Cloudflare Cookies und verarbeitet User-Daten. Cloudflare, Inc. ist eine amerikanische Firma, die ein Content Delivery Network und diverse Sicherheitsdienste bereitstellt. Diese Dienste befinden sich zwischen dem User und unserem Hosting-Anbieter und fungieren als <a class="adsimple-311166442" href="https://de.wikipedia.org/wiki/Reverse_Proxy" target="_blank" rel="noopener">Reverse Proxy</a> für Webseiten. Was das alles genau bedeutet, versuchen wir im Folgenden genauer zu erläutern.</p>
 <h3 class="adsimple-311166442">Was ist Cloudflare?</h3>
@@ -126,7 +127,6 @@ Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf <a class="adsim
 </p>
 <p style="margin-top:15px;">Quelle: Erstellt mit dem <a title="Datenschutz Generator Deutschland" href="https://www.adsimple.de/datenschutz-generator/" target="_blank" rel="follow" style="text-decoration:none;">Datenschutz Generator</a> von AdSimple in Kooperation mit <a href="https://www.bauenwir.de" target="_blank" rel="follow" title="">bauenwir.de</a>
 </p>
-
 
 <h2>Privacy Policy</h2>
 
@@ -322,10 +322,10 @@ Finally, processing operations could be based on Article 6(1) lit. f GDPR. This 
 Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded.
 
 Before personal data is provided by the data subject, the data subject must contact any employee. The employee clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.
+
 </p>
 
 <h4>12. Existence of automated decision-making</h4>
 <p>As a responsible company, we do not use automatic decision-making or profiling.</p>
 
 <p>Developed by the specialists for <a href="https://willing-able.com/">LegalTech</a> at Willing & Able that also developed the system for <a href="https://abletocontract.com/">sign pdf online</a>. The legal texts contained in our privacy policy generator have been provided and published by <a href="https://dg-datenschutz.de/">Prof. Dr. h.c. Heiko Jonny Maniero</a> from the German Association for Data Protection and <a href="https://www.wbs-law.de/" rel="nofollow">Christian Solmecke</a> from WBS law.</p>
-

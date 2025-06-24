@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunk München auf der Make Munich"
-date:   2014-11-10 18:23:42
+title: "Freifunk München auf der Make Munich"
+date: 2014-11-10 18:23:42
 categories: meta
 ---
 
@@ -20,5 +20,3 @@ Hier noch ein Video vom zeitlichen Verlauf der Clientanzahlen pro aufgestelltem 
 <p style="text-align: center;">
     <div class='embed-container'><iframe width="560" height="315" src="//www.youtube.com/embed/WgvOQh8u6Zc" frameborder="0" allowfullscreen></iframe></div>
 </p>
-
-

@@ -3,6 +3,7 @@ layout: single
 title: FAQ
 permalink: /faq/
 ---
+
 <head>
   <meta http-equiv='refresh' content='0; URL=https://ffmuc.net/wiki/doku.php?id=knb:faq'>
 </head>

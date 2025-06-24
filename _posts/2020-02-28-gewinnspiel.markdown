@@ -1,11 +1,11 @@
 ---
 layout: posts
-title:  "Gewinnspiel 2020"
-date:   2020-02-28 10:00:00
+title: "Gewinnspiel 2020"
+date: 2020-02-28 10:00:00
 categories: freifunkmuc
 ---
 
-Nachdem es nun soweit ist und [die 4MB Flash Geräte](https://ffmuc.net/freifunkmuc/2019/07/11/austausch-aelterer-geraete/) mit dem nächsten Firmware Update nicht mehr berücksichtigt werden können, veranstalten wir ein Gewinnspiel. 
+Nachdem es nun soweit ist und [die 4MB Flash Geräte](https://ffmuc.net/freifunkmuc/2019/07/11/austausch-aelterer-geraete/) mit dem nächsten Firmware Update nicht mehr berücksichtigt werden können, veranstalten wir ein Gewinnspiel.
 
 Es gibt einen Unifi AC-Mesh sowie einen GL.iNET B1300 zu gewinnen.
 

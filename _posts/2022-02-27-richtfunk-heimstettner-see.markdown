@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Richtfunk Projekt Heimstettner See"
-date:   2022-02-27 09:00:00
+title: "Richtfunk Projekt Heimstettner See"
+date: 2022-02-27 09:00:00
 categories: freifunkmuc
 ---
 
@@ -30,7 +30,6 @@ Wir haben sehr wenige Probleme durch Wettereinflüsse, nur bei absolutem Starkre
 ![Richtfunk strecke im Regen](/assets/posts/2022-02-27-see-regen-rifu.jpg){: style="max-height: 400px;"}
 
 ![Richtfunk strecke im Regenradar](/assets/posts/2022-02-27-see-regen.jpg){: style="max-height: 400px;"}
-
 
 ### Verwendete Hardware
 
@@ -63,4 +62,3 @@ Um an der Wasserwacht das Netz ausstrahlen zu können setzen wir auf Ubiquiti Un
 Es ist geplant die Kapazität der Richtfunkstrecke noch deutlich zu erhöhen, so wie weitere Wasserwachten und andere gemeinnützige Organisationen an diese Strecke anzubinden.
 
 Als nächstes steht der Uplink zum Aschheimer Autokino an, was die nutzbare Kapazität deutlich erhöhen wird. Auch hier kommen auf Grund der Entfernung Airfiber 60 LR zum Einsatz.
-

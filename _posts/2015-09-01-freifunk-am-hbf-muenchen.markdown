@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunk für Flüchtlinge am Hauptbahnhof München"
-date:   2015-09-01 21:00:00
+title: "Freifunk für Flüchtlinge am Hauptbahnhof München"
+date: 2015-09-01 21:00:00
 categories: freifunkmuc
 ---
 
@@ -17,7 +17,6 @@ Durch ein paar kleinere Anpassungen können wir aktuell die Bahnhofshalle gut au
 
 ![Hbf Setup](/assets/posts/2015-09-01-ffmuc-setup-hbf-02.png)
 
-
 Wir freuen uns mit der unkomplizierten Hilfe vieler Beteiligter so schnell ein freies Netzwerk zur Verfügung stellen zu können. Zu den oben genannten Unterstützern haben wir noch [Yormas](http://www.yormas.de/) hinzu gewinnen können.
 
 Nach wie vor streben wir an in möglichst vielen Unterkünften ebenfalls Freifunk für die Flüchtlinge anbieten zu können. Hierbei freuen wir uns über jede Art der Unterstützung!
@@ -25,7 +24,6 @@ Nach wie vor streben wir an in möglichst vielen Unterkünften ebenfalls Freifun
 Ihr erreicht uns am besten per [E-Mail][email], über unseren [Web-Chat][irc] oder kommt einfach bei unserem nächsten [Treffen][treffen] vorbei.
 
 ![Linkstrecke zur Nachbarin](/assets/posts/2015-09-01-setup-hbf-link.jpg)
-
 
 [irc]: https://webirc.darkfasel.net/#freifunk
 [email]: mailto:muenchen@freifunk.net

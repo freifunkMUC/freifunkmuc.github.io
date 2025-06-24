@@ -1,12 +1,13 @@
 ---
 layout: posts
-title:  "Pressemeldung Freie Netze München e.V. vom 18.08.2020"
-date:   2020-08-18 10:43:00
+title: "Pressemeldung Freie Netze München e.V. vom 18.08.2020"
+date: 2020-08-18 10:43:00
 categories: freifunkmuc
 ---
+
 Der [Verein Freie Netze München e.V.](https://ffmuc.net/wiki/doku.php?id=ev:gruendung) hat sich in seiner Mitgliederversammlung vergangenes Wochenende mit der Wahl eines neuen Vorstands stark aufgestellt.
 
-In den vergangenen Jahren hatte der Trägerverein hinter "Freifunk München" mit [weit über tausend kostenlosen öffentlichen Hotspots](https://map.ffmuc.net) und der Internetversorgung von vielen Flüchtlingsunterkünften von sich Reden gemacht. 
+In den vergangenen Jahren hatte der Trägerverein hinter "Freifunk München" mit [weit über tausend kostenlosen öffentlichen Hotspots](https://map.ffmuc.net) und der Internetversorgung von vielen Flüchtlingsunterkünften von sich Reden gemacht.
 
 Zu Beginn der Corona-Pandemie wurde das Projekt “meet.ffmuc.net” aus dem Boden gestampft, ein [ehrenamtlich betriebener Video-Konferenzdienst](https://ffmuc.net/freifunkmuc/2020/03/23/pressemitteilung_meet/) für Vereine, Schulen und Privatpersonen. Hiermit werden zu Spitzenzeiten über [1400 gleichzeitige](https://twitter.com/FreifunkMUC/status/1257248129252044800?s=20) und mehr als 100.000 Benutzer pro Tag mit kostenlosen Videokonferenzen versorgt.
 

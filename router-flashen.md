@@ -6,7 +6,7 @@ permalink: /router-flashen/
 
 ## Router auspacken
 
-![Ueberblick](/assets/router-flashen/guide-17.jpg) 
+![Ueberblick](/assets/router-flashen/guide-17.jpg)
 
 Schließe zuerst den Router mit dem Netzteil (1) an eine Steckdose an. Anschließend verbindest Du den Router mit dem LAN-Kabel (2) mit Deinem Computer über eine der gelben Buchsen.
 

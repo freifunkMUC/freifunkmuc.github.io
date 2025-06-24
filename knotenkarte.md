@@ -3,6 +3,7 @@ layout: single
 title: Wo empfange ich Freifunk?
 permalink: /map
 ---
+
 <head>
   <meta http-equiv='refresh' content='0; URL=https://map.ffmuc.net'>
 </head>

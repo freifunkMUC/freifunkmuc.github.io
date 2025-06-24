@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Besucht uns auf dem Corso Leopold am 01.-02.06.2024"
-date:   2024-05-25 19:00:00
+title: "Besucht uns auf dem Corso Leopold am 01.-02.06.2024"
+date: 2024-05-25 19:00:00
 categories: events
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Firmware-Update: Behebung von Wiederverbindungsproblemen"
-date:   2024-03-17 20:00:00
+title: "Firmware-Update: Behebung von Wiederverbindungsproblemen"
+date: 2024-03-17 20:00:00
 categories: freifunkmuc
 ---
 
@@ -13,7 +13,7 @@ Deshalb veröffentlichen wir bald die Version v2024.1.5, um das Problem zu beheb
 
 ## Lösung
 
-Wir haben intensive Änderungen vorgenommen, um das Wiederverbindungsverhalten zu verbessern. 
+Wir haben intensive Änderungen vorgenommen, um das Wiederverbindungsverhalten zu verbessern.
 Das Wiederverbinden eines Nodes dauert nun nur noch bis zu 2 Minuten.
 
 ## Nächste Schritte

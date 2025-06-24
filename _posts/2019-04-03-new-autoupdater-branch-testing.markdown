@@ -1,9 +1,10 @@
 ---
 layout: posts
-title:  "Neuer Branch für autoupdater: testing"
-date:   2019-04-03 20:00:00
+title: "Neuer Branch für autoupdater: testing"
+date: 2019-04-03 20:00:00
 categories: freifunkmuc
 ---
+
 Hallo zusammen,
 
 Wir richten einen 3. Branch für den autoupdater ein.
@@ -19,17 +20,17 @@ Deswegen nun die 3-teilung. Die Branches werden wie folgt lauten:
 - `experimental`
   - Für alle "Entwickler" oder Personen, die bereit sind ihren Knoten unter Umständen selbst zu reparieren.
   - Wir werden davon ausgehen (müssen), dass alle die diesen Branch benutzen über unseren [Chat](https://chat.ffmuc.net/freifunk/channels/firmware) erreichbar sind.
-  - Wir *hoffen*. dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
+  - Wir _hoffen_. dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
 - `testing`
   - Hier werden wir in Zukunft das Rollout einer stabilen Version testen.
   - Neueste Features wird es zuerst hier geben.
-  - Wir *glauben*, dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
+  - Wir _glauben_, dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
 - `stable`
   - Alle hier veröffentlichten Builds wurden über `experimental` und `testing` getestet. In dem Zug sind uns keine Fehler aufgefallen, die wir beheben müssten.
-  - Wir *sind davon überzeugt*, dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
+  - Wir _sind davon überzeugt_, dass Updates, die über diesen Kanal verteilt werden für alle funktionieren werden.
 
 Aktuell läuft eine Migration, bei der alle Knoten, die bisher auf `experimental` waren auf `testing` umgezogen werden.
-*Sollte euer Knoten also im autoupdater `testing` stehen haben, auch wenn ihr `experimental` eingestellt habt, liegt das genau daran.*
+_Sollte euer Knoten also im autoupdater `testing` stehen haben, auch wenn ihr `experimental` eingestellt habt, liegt das genau daran._
 
 Wir gehen davon aus, dass diese 3-teilung uns in Zukunft das Testen vereinfachen wird.
 Vor allen Dingen werden wir in Zukunft mit ruhigerem Gewissen Tests auf `experimental` ausrollen können.

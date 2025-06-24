@@ -19,14 +19,13 @@ Weitere Ressourcen, Anregungen und Informationen können unter [https://wiki.fre
 ![SVG](https://raw.githubusercontent.com/freifunkMUC/logo_merchandise_ci/master/logos/Ffmuc-logo-vector.svg)
 
 ### Logo mit Schriftzug
+
 ![SVG](https://raw.githubusercontent.com/freifunkMUC/logo_merchandise_ci/master/logos/Ffmuc_kombi_vector.svg) \\
 [PDF zum Drucken (8.5 cm x 5.5 cm)](https://github.com/freifunkMUC/logo_merchandise_ci/blob/master/sticker/export/sticker_hotspot_5.5x8.5.pdf)
 
-
 ### Hotspot Sticker
+
 ![SVG](https://raw.githubusercontent.com/freifunkMUC/logo_merchandise_ci/master/sticker/sticker_hotspot_5.5x8.5.svg) \\
 [PDF zum Drucken (8.5 cm x 5.5 cm)](https://github.com/freifunkMUC/logo_merchandise_ci/raw/master/sticker/export/sticker_hotspot_5.5x8.5.pdf)
-
-
 
 [GitHub]: https://github.com/freifunkMUC/logo_merchandise_ci

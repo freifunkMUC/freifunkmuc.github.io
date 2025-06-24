@@ -49,7 +49,6 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 ### [Xantaro Deutschland GmbH][xantaro]
 
-
 [anexia]: https://www.anexia.com/
 [emc-homeofdata]: https://www.emc-homeofdata.de/
 [flexoptix]: https://www.flexoptix.net/

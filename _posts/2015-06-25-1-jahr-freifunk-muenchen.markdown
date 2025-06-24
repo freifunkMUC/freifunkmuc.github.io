@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Ein Jahr Freifunk München"
-date:   2015-06-25 19:23:00
+title: "Ein Jahr Freifunk München"
+date: 2015-06-25 19:23:00
 categories: freifunkmuc
 ---
 

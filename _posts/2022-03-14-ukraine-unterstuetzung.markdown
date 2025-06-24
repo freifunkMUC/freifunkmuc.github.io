@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunk München hilft unbürokratisch Geflüchteten aus der Ukraine"
-date:   2022-03-14 10:00:00
+title: "Freifunk München hilft unbürokratisch Geflüchteten aus der Ukraine"
+date: 2022-03-14 10:00:00
 categories: freifunkmuc
 ---
 
@@ -12,8 +12,8 @@ Die aktuelle Welle von Flüchtlingen aus der Ukraine kommt auch in München an. 
 Dem [GOROD Kulturzentrum](https://de.newgorod.org) haben wir sehr kurzfristig mit Hardware unter die Arme greifen können, um den Ansturm an Helfern und Flüchtigen stand zu halten.
 Hier werden derzeit circa 230 gleichzeitig verbundene Clients mit etwa 1 TB Traffic täglich versorgt. Man sieht deutlich, wie sehr die Menschen auf Internet angewiesen sind.
 
-
 ![Switch](/assets/posts/2022-03-14-gorod.png){: style="max-height: 400px;"}
+
 ### Einrichtung AWO-Unterkunft Neuherbergstraße
 
 Auch in der [Aufnahmestelle Neuherbergstraße](https://map.ffmuc.net/#!/de/map/6aaa521e6bc0) stellen wir aktuell den Geflüchteten einen Internetzugang bereit - für über 120 Endgeräte. Hier ist der Uplink über LTE realisiert, da vor Ort kein vorhandener Anschluss geschaltet ist.
@@ -29,13 +29,12 @@ Da soll jedoch nicht Schluss sein. Wir haben bereits neue Hardware bestellt, in 
 ![UniFi](/assets/posts/2022-03-14-unifi.jpg){: style="max-height: 400px;"}
 ![Mikrotik](/assets/posts/2022-03-14-mikrotik.jpg){: style="max-height: 400px;"}
 
-
 ### Kontaktmöglichkeiten
 
- - E-Mail: <hilfe@ffmuc.bayern>  
- - Twitter: <https://twitter.com/FreifunkMUC>  
- - Facebook: <https://www.facebook.com/FreifunkMUC>  
- - Chat: <https://chat.ffmuc.net>  
+- E-Mail: <hilfe@ffmuc.bayern>
+- Twitter: <https://twitter.com/FreifunkMUC>
+- Facebook: <https://www.facebook.com/FreifunkMUC>
+- Chat: <https://chat.ffmuc.net>
 
 ### Unterstützungsmöglichkeiten
 

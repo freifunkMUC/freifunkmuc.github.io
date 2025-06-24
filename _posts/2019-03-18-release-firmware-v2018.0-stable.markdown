@@ -1,9 +1,10 @@
 ---
 layout: posts
-title:  "Firmware-Release v2018.0 geplant am 26.03."
-date:   2019-03-18 15:00:00
+title: "Firmware-Release v2018.0 geplant am 26.03."
+date: 2019-03-18 15:00:00
 categories: freifunkmuc
 ---
+
 Der Rollout der aktuellsten Firmware v2018.0 auf experimental lief (fast) wie erwartet.
 Wir wollten ja, wie [angekündigt](/freifunkmuc/2019/03/01/release-firmware-v2018.0-experimental/) am 12.03.2019 die aktuelle stable auf die Konten ausspielen, die im Auto-Updater ihrem Knoten auf "experimental" eingestellt haben.
 

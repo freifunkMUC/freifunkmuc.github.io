@@ -1,9 +1,10 @@
 ---
 layout: posts
-title:  "Infrastruktur Reboot Teil 1.75"
-date:   2019-06-01 09:00:00
+title: "Infrastruktur Reboot Teil 1.75"
+date: 2019-06-01 09:00:00
 categories: freifunkmuc
 ---
+
 # Infrastruktur Reboot Teil 1.75
 
 In unserer [letzten Mitteilung](https://ffmuc.net/freifunkmuc/2019/05/27/infrastruktur-reboot-teil15/) haben wir euch gebeten auf euren Knoten testweise schon die neuen Segmente einzurichten.
@@ -16,7 +17,7 @@ Nachdem bereits [andere](https://karlsruhe.freifunk.net) [Communities](https://d
 Wie schon mal erwähnt haben wir mit [UMap](https://umap.openstreetmap.fr/en/map/ffmuc-sites_319166) eine Einteilung der Knoten in verschiedene Segmente vorgenommen.
 Diese Segmente werden durch den Domain-Director automatisch den Knoten mitgeteilt.
 
-Wir überwachen bereits mit [Grafana](https://stats.ffmuc.net/d/vhI10KgZk/debugging-dashboard?orgId=1&refresh=1m&fullscreen&panelId=13), in welche Segmente die Knoten wechseln wollen. 
+Wir überwachen bereits mit [Grafana](https://stats.ffmuc.net/d/vhI10KgZk/debugging-dashboard?orgId=1&refresh=1m&fullscreen&panelId=13), in welche Segmente die Knoten wechseln wollen.
 Falls es hier zu einem Ungleichgewicht kommt und ein Segment wesentlich zu viele Knoten abbekommen würde, können wir also rechtzeitig eingreifen und den Domain-Director anpassen.
 
 **Um die Funktionalität der neuen Firmware zu testen, werden wir heute um 15:00 Uhr die ersten Knoten automatisiert in die neuen Segmente umziehen.**
@@ -25,7 +26,7 @@ Dies betrifft **NUR** Knoten welche als `autoupdater` `experimental` oder `testi
 
 In den Knoteneinstellungen hat sich damit auch die Segmentauswahl geändert, diese sieht nun so aus:
 
-![Segment Selektion](/assets/posts/2019-06-01-new_segment_selection.png) 
+![Segment Selektion](/assets/posts/2019-06-01-new_segment_selection.png)
 
 Bleibt also gespannt und bis demnächst,
 

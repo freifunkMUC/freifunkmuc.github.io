@@ -23,8 +23,7 @@ pagination:
 {% include network-status.html layout=half %}
 
 {% if paginator %}
-  {% assign posts = paginator.posts | sort: 'date' | reverse %}
+{% assign posts = paginator.posts | sort: 'date' | reverse %}
 {% else %}
-  {% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
 {% endif %}
-

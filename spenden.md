@@ -3,6 +3,7 @@ layout: single
 title: Spenden
 permalink: /spenden/
 ---
+
 <head>
   <meta http-equiv='refresh' content='0; URL=https://ffmuc.net/wiki/doku.php?id=ev:start'>
 </head>

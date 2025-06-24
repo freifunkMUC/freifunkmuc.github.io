@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Migration abgeschlossen"
-date:   2019-06-07 22:00:00
+title: "Migration abgeschlossen"
+date: 2019-06-07 22:00:00
 categories: freifunkmuc
 ---
 
@@ -11,9 +11,9 @@ Nach den ganzen [Neuigkeiten](https://ffmuc.net/freifunkmuc/2019/05/20/infrastru
 
 Die Änderung innerhalb von weniger Minuten überzeugt zumindest uns :)
 
-| Stand 12:00 | Stand 12:07 |
-|--------|--------|
-| ![Stand 12:00](/assets/posts/2019-06-07-migration_1200.png) | ![](/assets/posts/2019-06-07-migration_1207.png)|
+| Stand 12:00                                                 | Stand 12:07                                      |
+| ----------------------------------------------------------- | ------------------------------------------------ |
+| ![Stand 12:00](/assets/posts/2019-06-07-migration_1200.png) | ![](/assets/posts/2019-06-07-migration_1207.png) |
 
 Ihr habt es vielleicht daran gemerkt, dass sich der Name des WLAN's geändert hat - oder daran dass das Surfen wieder schneller funktioniert.
 
@@ -31,7 +31,7 @@ Unser alter Server, den wir aufgrund von zunehmenden Altersschwächen ablösen w
 Von den vorher 80°C ist er innerhalb kürester Zeit auf 40°C abgekühlt.
 
 Da wir in den letzten Wochen intensiv daran gearbeitet haben die Gateways automatisiert und reproduzierbar installieren zu können,
-ist es recht einfach geworden ein "Legacy-Gateway" zu bauen, welches die alten Segmente *übergangsweise* versorgt.
+ist es recht einfach geworden ein "Legacy-Gateway" zu bauen, welches die alten Segmente _übergangsweise_ versorgt.
 
 Aus diesem Grund waren wir endlich in der Lage den alten Server auch heute noch abschalten.
 Und das haben wir auch getan.
@@ -62,6 +62,7 @@ Dadurch, dass wir jetzt keine Angst mehr haben müssen, dass unser Gateway an Al
 haben wir aber auch wieder Kapazitäten um vielleicht gemeinsam mit euch Dinge zu starten.
 
 Das Netz wäre jetzt vorbereitet. Jetzt könnt ihr losgehen und
+
 - euere Nachbarn einladen einen Router aufzustellen und so unabhängiger von ihrem Provider zu werden (ein Hoch aufs [Mesh-Netzwerk](https://de.wikipedia.org/wiki/Vermaschtes_Netz))
 - zusammen mit uns und anderen neue Dienste entwickeln und im Freifunk anzubieten
 - ...

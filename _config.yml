@@ -11,29 +11,29 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 #theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes@4.27.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "de-DE"
-title                    : "Freifunk München"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Freifunk München"
-description              : "Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle."
-url                      : "https://ffmuc.net"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "freifunkMUC/freifunkmuc.github.io"
+locale: "de-DE"
+title: "Freifunk München"
+title_separator: "-"
+subtitle: # site tagline that appears below site title in masthead
+name: "Freifunk München"
+description: "Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle."
+url: "https://ffmuc.net"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: "freifunkMUC/freifunkmuc.github.io"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 
 # If you want to generate website sitemap, you can set true
 sitemap: true
 # Site Author
 author:
-  name             : "Freie Netze München e.V."
-  email            : "hilfe@ffmuc.bayern"
-  avatar           : "/assets/favicon/apple-touch-icon.png"
+  name: "Freie Netze München e.V."
+  email: "hilfe@ffmuc.bayern"
+  avatar: "/assets/favicon/apple-touch-icon.png"
   links:
     - label: "Chat"
       icon: "fas fa-fw fa-comment"
@@ -43,7 +43,7 @@ author:
       url: "https://twitter.com/FreifunkMUC"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/@freifunkMUC"
+      url: "https://www.facebook.com/FreifunkMUC/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/FreifunkMUC"
@@ -59,7 +59,7 @@ footer:
       url: "https://twitter.com/FreifunkMUC"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/@freifunkMUC"
+      url: "https://www.facebook.com/FreifunkMUC/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/FreifunkMUC"
@@ -75,8 +75,6 @@ footer:
     - label: "Freie Netze München e.V."
       icon: "fa fa-fw fa-users"
       url: "https://ffmuc.net/wiki/doku.php?id=ev:start"
-      
-
 
 # Reading Files
 include:
@@ -117,14 +115,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -137,17 +133,14 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: pretty
 timezone: Europe/Berlin
-
 
 # Plugins (previously gems:)
 plugins:
@@ -164,7 +157,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -193,7 +185,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -228,21 +219,29 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-twitter:
-  username: "freifunkMUC"
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
 # Custom headers
 webrick:
   headers:
-      Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
+    Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self';
 
 pagination:
   enabled: true
   per_page: 5
   sort_reverse: true
-  title: ':title - Seite :num'
+  title: ":title - Seite :num"
   permalink: /page/:num/
   trail:
     before: 2
     after: 2
+
+seo:
+  type: "Organization"
+  name: "Freifunk München"
+  twitter:
+    card: "summary_large_image"
+    username: "freifunkMUC"

@@ -1,14 +1,14 @@
 ---
 layout: posts
-title:  "Podcast Folge 03 - Freifunk München Jahresrückblick"
-date:   2015-10-15 19:15:00
+title: "Podcast Folge 03 - Freifunk München Jahresrückblick"
+date: 2015-10-15 19:15:00
 categories: freifunkmuc podcast
 ---
 
-Hier und unter [ffmuc.net/podcast][podcast] gibt es eine neue Folge des 
+Hier und unter [ffmuc.net/podcast][podcast] gibt es eine neue Folge des
 Freifunk München Podcasts zum Anhören und zum Download.
 
-Thema: Vier Münchner Freifunker geben einen Rückblick über Entstehung und Entwicklung des 'neuen' Münchner Freifunks seit 2014 bis heute. 
+Thema: Vier Münchner Freifunker geben einen Rückblick über Entstehung und Entwicklung des 'neuen' Münchner Freifunks seit 2014 bis heute.
 
 <audio id="audio_ffmuc-003">
 		<source src="https://ffmuc.net/podcast/audio/ffmuc-003.mp3" type="audio/mpeg"></source>
@@ -23,5 +23,5 @@ Thema: Vier Münchner Freifunker geben einen Rückblick über Entstehung und Ent
 			chaptersVisible: true
 		});
 	</script>
-   
+
 [podcast]: https://ffmuc.net/podcast/

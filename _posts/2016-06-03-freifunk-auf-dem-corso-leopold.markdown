@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunk auf dem Corso Leopold"
-date:   2016-06-03 17:00:00
+title: "Freifunk auf dem Corso Leopold"
+date: 2016-06-03 17:00:00
 categories: freifunkmuc
 ---
 
@@ -13,4 +13,3 @@ Mehr Infos im [Wiki][wiki] und auf der Webseite des [Corso Leopold][leopold].
 
 [wiki]: https://ffmuc.net/wiki/p/Teilnahme_Corso_Leopold
 [leopold]: http://corso-leopold.de/
-

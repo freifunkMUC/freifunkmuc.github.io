@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Reboot der Freifunk Augsburg Community!"
-date:   2021-10-22 09:00:00
+title: "Reboot der Freifunk Augsburg Community!"
+date: 2021-10-22 09:00:00
 categories: freifunkmuc
 ---
 
@@ -20,6 +20,7 @@ Wenn ihr wieder eine aktive Freifunk-Community in Augsburg aufbauen wollt, wenn 
 Wir freuen uns auf euch!
 
 Die Pull Requests:
- - [Meshviewer](https://github.com/freifunkMUC/meshviewer/pull/5)
- - [Saltstack](https://github.com/freifunkMUC/ffmuc-salt-public/pull/70)
- - [Firmware](https://github.com/freifunkMUC/site-ffm/pull/151)
+
+- [Meshviewer](https://github.com/freifunkMUC/meshviewer/pull/5)
+- [Saltstack](https://github.com/freifunkMUC/ffmuc-salt-public/pull/70)
+- [Firmware](https://github.com/freifunkMUC/site-ffm/pull/151)

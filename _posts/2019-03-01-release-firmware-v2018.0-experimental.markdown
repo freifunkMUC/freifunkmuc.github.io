@@ -1,9 +1,10 @@
 ---
 layout: posts
-title:  "Firmware-Release v2018.0 - Phase 2"
-date:   2019-03-01 14:05:18
+title: "Firmware-Release v2018.0 - Phase 2"
+date: 2019-03-01 14:05:18
 categories: freifunkmuc
 ---
+
 Wie [schon erwähnt](/freifunkmuc/2019/01/31/firmware-v2018.0/) hat Krombel sich daran gemacht und die Konfiguration der Freifunk-Firmware auf ein aktuelles gluon (v2018.2) aktualisiert.
 Dabei ist ihm aufgefallen, dass er dies nicht sofort ausliefern kann,
 da in der aktuell ausgerollten Firmware (stable-v2016) ein Bug existiert der dazu führt,

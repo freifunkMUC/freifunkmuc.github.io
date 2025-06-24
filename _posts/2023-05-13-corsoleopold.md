@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Besucht uns auf dem Corso Leopold am 13.-14.5.2023"
-date:   2023-05-13 10:00:00
+title: "Besucht uns auf dem Corso Leopold am 13.-14.5.2023"
+date: 2023-05-13 10:00:00
 categories: meta
 ---
 

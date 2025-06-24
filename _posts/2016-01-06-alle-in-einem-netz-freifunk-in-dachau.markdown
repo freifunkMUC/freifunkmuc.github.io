@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Alle in einem Netz: Freifunk in Dachau"
-date:   2016-01-06 13:30:00
+title: "Alle in einem Netz: Freifunk in Dachau"
+date: 2016-01-06 13:30:00
 categories: freifunkmuc
 ---
 

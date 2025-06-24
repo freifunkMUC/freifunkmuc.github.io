@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Sicherheitsupdate am Donnerstag, den 05.05.2022"
-date:   2022-05-04 08:00:00
+title: "Sicherheitsupdate am Donnerstag, den 05.05.2022"
+date: 2022-05-04 08:00:00
 categories: freifunkmuc
 ---
 
@@ -11,8 +11,8 @@ Dieses Update **MUSS** auf alle Geräte ausgerollt werden. Geräte, die nicht re
 
 Bei Fragen schaut gerne bei uns im [Chat](https://chat.ffmuc.net) vorbei!
 
-
 Ankündigung:
+
 ```
 Hi everyone,
 

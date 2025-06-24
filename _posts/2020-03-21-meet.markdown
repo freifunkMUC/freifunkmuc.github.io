@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Konferenzserver - meet.ffmuc.net"
-date:   2020-03-21 10:00:00
+title: "Konferenzserver - meet.ffmuc.net"
+date: 2020-03-21 10:00:00
 categories: freifunkmuc
 ---
 
@@ -14,6 +14,7 @@ Hier kannst du deine Videokonferenz starten. [https://meet.ffmuc.net](https://me
 **Auch alle Hilfsorganisationen, Krisendienste, Forschungsstätten sowie Lehrstätten sind aufgerufen, diesen Server kostenlos zu nutzen!**
 
 Hier geht es zur [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet) für die einfache Benutzung.
+
 <!---
 Und für alle Nerds unter uns haben wir auch eine technische [Anleitung](https://ffmuc.net/wiki/doku.php?id=knb:meet-server) wie das alles funktioniert.
 --->

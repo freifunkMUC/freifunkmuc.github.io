@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "DNS-over-HTTPS und DNS-over-TLS Unterstützung"
-date:   2019-09-16 10:00:00
+title: "DNS-over-HTTPS und DNS-over-TLS Unterstützung"
+date: 2019-09-16 10:00:00
 categories: freifunkmuc
 ---
 
@@ -21,15 +21,18 @@ doh.ffmuc.net - IPv4: 5.1.66.255 / 185.150.99.255 IPv6: 2001:678:e68:f000:: / 20
 dot.ffmuc.net - IPv4: 5.1.66.255 / 185.150.99.255 IPv6: 2001:678:e68:f000:: / 2001:678:ed0:f000::
 https://doh.ffmuc.net/dns-query
 ```
+
 ## Einrichtung
 
 Um die Einrichtung zu erleichtern, könnt ihr [in unserem Wiki](https://ffmuc.net/wiki/doku.php?id=knb:dohdot) Anleitungen für verschiedene Geräte (mit Screenshots) ansehen.
 
 ## Statistiken
+
 Natürlich gibt es auch eine ausführliche [Statusseite](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m) auf der ihr alle möglichen Statistiken zu dem Dienst ansehen könnt.
 
 ## Mehr zum Thema
+
 Wer noch mehr zu dem Thema wissen möchte, dem seien folgende Talks (englisch) empfohlen:
 
 - [NLNOG 2019 - DNS over HTTPS considerations - Bert Hubert](https://www.youtube.com/watch?v=pjin3nv8jAo)
-- [CCCamp 2019 - DoH or Don't](https://media.ccc.de/v/Camp2019-10213-doh_or_don_t )
+- [CCCamp 2019 - DoH or Don't](https://media.ccc.de/v/Camp2019-10213-doh_or_don_t)

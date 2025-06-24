@@ -1,17 +1,18 @@
 ---
 layout: posts
-title:  "Auflösung des  Gewinnspiels 2020"
-date:   2020-07-19 15:43:00
+title: "Auflösung des  Gewinnspiels 2020"
+date: 2020-07-19 15:43:00
 categories: freifunkmuc
 ---
 
- [Wie angekündigt](/freifunkmuc/2020/02/28/gewinnspiel/) verlosen wir einen Unifi AC-Mesh für den ersten und einen GL.iNET B1300 für den zweiten Platz.
+[Wie angekündigt](/freifunkmuc/2020/02/28/gewinnspiel/) verlosen wir einen Unifi AC-Mesh für den ersten und einen GL.iNET B1300 für den zweiten Platz.
 
 Die folgenden Projekte nahmen an der Abstimmung teil:
-  - Projekt am Heimstettner See
-  - Freifunk entlang der Hauptstraße in Maisach
-  - Knoten Nockherberg (Dachinstallation)
-  - Versorgung des Volksfest in Rudelzhausen
+
+- Projekt am Heimstettner See
+- Freifunk entlang der Hauptstraße in Maisach
+- Knoten Nockherberg (Dachinstallation)
+- Versorgung des Volksfest in Rudelzhausen
 
 Abstimmen konntet ihr in bis einschließlich Samstag, den 18. Juli.
 
@@ -25,6 +26,5 @@ Hiermit geht der erste Preis (ein UAP-AC Mesh von Ubiquiti) an das Projekt "Vers
 Der zweite Preis (ein GL-Inet B1300) findet seine neue Heimat beim Projekt am Heimstettener See.
 
 Wir bitten die Gewinner uns unter [chat.ffmuc.net](https://chat.ffmuc.net/) oder hilfe@ffmuc.bayern zu Kontaktieren!
-
 
 Wir bedanken uns für eure Teilnahme!

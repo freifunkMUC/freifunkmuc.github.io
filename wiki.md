@@ -2,6 +2,7 @@
 layout: single
 title: Wiki
 ---
+
 <head>
   <meta http-equiv='refresh' content='0; URL=https://ffmuc.net/wiki/'>
 </head>

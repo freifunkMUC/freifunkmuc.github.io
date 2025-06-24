@@ -1,12 +1,12 @@
 ---
 layout: posts
-title:  "Firmware Rollout auf v2024.3.1 - Load Balancing Update"
-date:   2024-03-30 10:00:00
+title: "Firmware Rollout auf v2024.3.1 - Load Balancing Update"
+date: 2024-03-30 10:00:00
 categories: freifunkmuc
 ---
- 
+
 Wir arbeiten seit einiger Zeit an einer verbesserten Load-Balancing-Firmware, die eine gleichmäßige Verteilung der Clients auf die Gateways ermöglicht.  
-Im Gegensatz zur aktuellen Situation, bei der die Zuweisung zufällig erfolgt, bietet die neue Firmware eine Reihe von Vorteilen.  
+Im Gegensatz zur aktuellen Situation, bei der die Zuweisung zufällig erfolgt, bietet die neue Firmware eine Reihe von Vorteilen.
 
 ## Vorteile
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Freifunk München - Weihnachtsaktion"
-date:   2023-11-14 10:00:00
+title: "Freifunk München - Weihnachtsaktion"
+date: 2023-11-14 10:00:00
 categories: freifunkmuc
 ---
 
@@ -13,7 +13,7 @@ Eure Einsendungen werden dann von der Community bewertet, indem sie für ihre Li
 
 Die Hardware soll dann in die Realisierung des Projekts fließen.
 
-Eure Projekte sollten den Ausbau und die Förderung offener Netzwerke in eurer Nachbarschaft oder Umgebung vorantreiben. 
+Eure Projekte sollten den Ausbau und die Förderung offener Netzwerke in eurer Nachbarschaft oder Umgebung vorantreiben.
 Beschreibt in eurer E-Mail kurz eure Projektidee und wie die Hardware-Unterstützung das Projekt vorantreiben könnte.
 
 Gemeinsam gestalten wir eine Zukunft mit einem offenen und freien Netz für alle! ✨🤝

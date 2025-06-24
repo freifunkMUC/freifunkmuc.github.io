@@ -1,7 +1,7 @@
 ---
 layout: posts
-title:  "Unser neuer Standort - AS212567 - #USEMOREBANDWIDTH"
-date:   2020-11-16 10:43:00
+title: "Unser neuer Standort - AS212567 - #USEMOREBANDWIDTH"
+date: 2020-11-16 10:43:00
 categories: freifunkmuc
 ---
 
@@ -16,17 +16,16 @@ Unser neues Setup besteht aus zwei HP Servern mit je 128GB RAM, 2x 1TB SSD, 32 C
 
 **ISP: Freie Netze München e.V.**
 
-Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun möglich standortunabhängiger zu agieren.  Wir haben so die Grundlage geschaffen um auf Dauer mehr Kapazitäten in verschiedenen Städten auszubauen und mehr Dezenztralität zu erreichen.
+Durch unser eigenes ASN mit eigenen IP Addressbereichen ist es nun möglich standortunabhängiger zu agieren. Wir haben so die Grundlage geschaffen um auf Dauer mehr Kapazitäten in verschiedenen Städten auszubauen und mehr Dezenztralität zu erreichen.
 
 ![ISP as212567](/assets/rz/isp-as212567.png){: style="max-height: 400px;"}
 
 **Ihr wollt uns unterstützen?**
 
-Ein Betrieb in dieser Größenordnung ist nicht mehr kostenfrei und wir sind deswegen auf Schenkungen angewiesen. 
+Ein Betrieb in dieser Größenordnung ist nicht mehr kostenfrei und wir sind deswegen auf Schenkungen angewiesen.
 Informationen wie Bankverbindung oder [Paypal](https://www.paypal.me/ffmucspenden) findet ihr auf unserer [Vereinsseite](https://ffmuc.net/wiki/doku.php?id=ev:start).
 
 **Unsere Partner und Unterstützer**
-
 
 Wir danken an dieser Stelle besonders unseren Partnern [Anexia](https://anexia.com), [Flexoptix](https://www.flexoptix.net/de/) und [Meerfarbig](https://meerfarbig.net) für die Unterstützung beim neuen Standort. Wir hoffen auf gute Zusammenarbeit die nächsten Jahre :).
 
