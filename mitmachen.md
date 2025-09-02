@@ -23,10 +23,6 @@ Sprich mit deinem Freundeskreis, GeschäftspartnerInnen und allen Menschen die d
 
 ## Du möchtest einen Freifunk-Router aufstellen?
 
-<div class="row">
-    <div class="col-sm-4">
-        <div class="list-group">
-
 <div  markdown="1">
 ### Starter-Kit
 
@@ -51,12 +47,7 @@ Wohnung, Geschäft, Café, Restaurant, Bar
   - Für weitere Empfehlungen siehe: [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
 - [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 - Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
-  </div>
-
-          </div>
-      </div><!-- /.col-sm-4 -->
-      <div class="col-sm-4">
-      <div class="list-group">
+</div>
 
 <div markdown="1">
 ### Level 2
@@ -78,12 +69,7 @@ Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
   - Ubiquiti UAP-AC-Mesh (ca. 100&nbsp;€, Wifi 4&5, Wand-/Mastmontage, PoE)
 - [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
 - Montiere den Router an einem geeigneten Ort.
-  </div>
-
-          </div>
-      </div><!-- /.col-sm-4 -->
-      <div class="col-sm-4">
-      <div class="list-group">
+</div>
 
 <div markdown="1">
 ### Backbone
@@ -105,12 +91,7 @@ Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
     (bis ca. 10&nbsp;km)
 - Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
 - Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
-  </div>
-
-      </div>
-      </div><!-- /.col-sm-4 -->
-
-  </div>
+</div>
 
 ## Wo kann ich meine Fragen stellen?
 
