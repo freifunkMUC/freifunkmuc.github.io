@@ -14,6 +14,6 @@ jobs:
     # Don't run on closed unmerged pull requests
     if: github.event.pull_request.merged
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Create backport pull requests
         uses: korthout/backport-action@0193454f0c5947491d348f33a275c119f30eb736 # v3.2.1
