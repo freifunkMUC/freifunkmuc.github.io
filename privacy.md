@@ -87,9 +87,8 @@ Im Folgenden erklären wir, was Cookies sind und warum Sie genutzt werden, damit
 <ul class="adsimple-311166442">
 <li class="adsimple-311166442">die Adresse (URL) der aufgerufenen Webseite</li>
 <li class="adsimple-311166442">Browser und Browserversion</li>
-<li class="adsimple-311166442">das verwendete Betriebssystem</li>
 <li class="adsimple-311166442">die Adresse (URL) der zuvor besuchten Seite (Referrer URL)</li>
-<li class="adsimple-311166442">den Hostname und die IP-Adresse des Geräts von welchem aus zugegriffen wird</li>
+<li class="adsimple-311166442">die Subnetmaske des Anwenders</li>
 <li class="adsimple-311166442">Datum und Uhrzeit</li>
 </ul>
 <p>in Dateien (Webserver-Logfiles).</p>
@@ -201,7 +200,7 @@ Mehr Informationen zum Datenschutz bei Cloudflare finden Sie auf <a class="adsim
 <p>The data subject may, at any time, prevent the setting of cookies through our website by means of a corresponding setting of the Internet browser used, and may thus permanently deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet browser or other software programs. This is possible in all popular Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, not all functions of our website may be entirely usable.</p>
 
 <h4>4. Collection of general data and information</h4>
-<p>The website of the Freie Netze München e.V. collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
+<p>The website of the Freie Netze München e.V. collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol subnet, (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
 
 <p>When using these general data and information, the Freie Netze München e.V. does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the Freie Netze München e.V. analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.</p>
 
