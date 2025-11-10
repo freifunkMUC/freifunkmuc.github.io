@@ -75,6 +75,8 @@ Die dort genannten Grundrechte-, Betriebs- und Datenschutzrisiken korrespondiere
 - Der Gesetzgeber sollte bei der Ausgestaltung der Regelung technische Realitäten und Datenschutz berücksichtigen.  
 - Wir empfehlen eine **Ausnahme für gemeinnützige und nicht-kommerzielle WLAN-Betreiber**, den **Verzicht auf pauschale Speicherpflichten** und die **Einbindung von Fachverbänden** in den Gesetzgebungsprozess.
 
+[Text als PDF herunterladen](/assets/posts/Freifunk_Muenchen_Stellungnahme_IP-Adressen-Speicherung.pdf)
+
 ---
 
 **Freifunk München / Freie Netze München e.V.**  
