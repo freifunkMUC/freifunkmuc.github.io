@@ -45,7 +45,8 @@ Die geplanten Vorgaben würden diese niedrigschwelligen Zugänge faktisch einsch
 
 ### Perspektive von Rechts- und Fachverbänden  
 Die BRAK kritisiert in ihrer [Stellungnahme Nr. 7/2025](https://www.brak.de/fileadmin/05_zur_rechtspolitik/stellungnahmen-pdf/stellungnahmen-deutschland/2025/stellungnahme-der-brak-2025-07.pdf) die anlasslose Mindestspeicherung von IP-Adressen als rechtlich und technisch problematisch und weist auf erhebliche Risiken für Datenschutz und Grundrechte hin.  
-Die **eco – Verband der Internetwirtschaft e. V.** warnt in ihrer [Pressemitteilung](https://www.eco.de/presse/vorratsdatenspeicherung-eco-verband-der-internetwirtschaft-e-v-warnt-vor-rueckschritt-rechtssicherheit-verhaeltnismaessigkeit-und-datenschutz-muessen-leitlinien-bleiben/), dass eine pauschale IP-Adressenspeicherung „einen Rückschritt in der Digitalpolitik“ darstelle und nennt insbesondere wirtschaftliche Belastungen für Infrastruktur- und Netzbetreiber sowie Risiken für Datenschutz und Rechtssicherheit.  
+
+Der **eco – Verband der Internetwirtschaft e. V.** warnt in ihrer [Pressemitteilung](https://www.eco.de/presse/vorratsdatenspeicherung-eco-verband-der-internetwirtschaft-e-v-warnt-vor-rueckschritt-rechtssicherheit-verhaeltnismaessigkeit-und-datenschutz-muessen-leitlinien-bleiben/), dass eine pauschale IP-Adressenspeicherung „einen Rückschritt in der Digitalpolitik“ darstelle und nennt insbesondere wirtschaftliche Belastungen für Infrastruktur- und Netzbetreiber sowie Risiken für Datenschutz und Rechtssicherheit.  
 
 ### Bezug zur vorliegenden Analyse  
 Die dort genannten Grundrechte-, Betriebs- und Datenschutzrisiken korrespondieren unmittelbar mit den technischen und organisatorischen Herausforderungen öffentlicher WLAN-Anbieter – insbesondere kleinerer Gemeinschaftsnetze wie dem unsrigen.
