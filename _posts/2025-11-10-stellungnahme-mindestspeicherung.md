@@ -14,7 +14,7 @@ Ausnahmen für gemeinnützige oder nicht-kommerzielle Anbieter – etwa Freifunk
 ## Technische Unmöglichkeit
 
 Die geforderte Speicherung setzt voraus, dass einem Nutzer eindeutig eine IP-Adresse zugewiesen und diese Zuordnung protokolliert werden kann.  
-Bei modernen Netzen ist das technisch nicht mehr zuverlässig möglich:
+Bei modernen öffentlichen Wlan-Netzen ist das technisch nicht mehr zuverlässig möglich:
 
 - Endgeräte erzeugen ihre IPv6-Adressen selbst über SLAAC; der Betreiber weist keine Adressen aktiv zu.  
 - Privacy Extensions führen dazu, dass sich IPv6-Adressen regelmäßig ändern.  
