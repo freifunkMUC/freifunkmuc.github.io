@@ -12,16 +12,16 @@ Der Gesetzentwurf – [BT-Drs. 20/13748](https://dserver.bundestag.de/btd/20/137
 Ausnahmen für gemeinnützige oder nicht-kommerzielle Anbieter – etwa Freifunk oder kommunale Hotspots – sind nicht vorgesehen.  
 
 
-## Technische Unmöglichkeit
+## Technische Unmöglichkeit/Komplikationen
 
 Die geforderte Speicherung setzt voraus, dass einem Nutzer eindeutig eine IP-Adresse zugewiesen und diese Zuordnung protokolliert werden kann.  
-Bei modernen öffentlichen WLAN-Netzen ist das technisch nicht mehr zuverlässig möglich:
+Bei modernen öffentlichen WLAN-Netzen ist das technisch nur sehr erschwert möglich:
 
 - Endgeräte erzeugen ihre IPv6-Adressen selbst über SLAAC; der Betreiber weist keine Adressen aktiv zu.
 - Privacy Extensions führen dazu, dass sich IPv6-Adressen regelmäßig ändern.
 - Viele Endgeräte (Android, Apple, Windows) rotieren heute ihre MAC-Adressen auch im IPv4-Betrieb, um Nachverfolgbarkeit zu erschweren. Dadurch lassen sich DHCP-Zuweisungen keinem bestimmten Gerät mehr dauerhaft zuordnen.
 
-Eine eindeutige, dauerhafte Zuordnung von IP-Adresse oder Anschlusskennung zu einem Endgerät ist somit weder unter IPv6 noch unter IPv4 technisch sicher möglich.  
+Eine eindeutige, dauerhafte Zuordnung von IP-Adresse zu einem Endgerät ist somit weder unter IPv6 noch unter IPv4 technisch sicher möglich.  
 Die Umsetzung der Speicherpflicht wäre nur über eine verpflichtende Nutzeridentifikation mit personenbezogenen Daten realisierbar. Das würde spontane, niederschwellige WLAN-Nutzung erheblich erschweren.
 
 ## Datenschutz und organisatorische Folgen
