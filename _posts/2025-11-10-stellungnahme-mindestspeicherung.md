@@ -36,6 +36,15 @@ Wenn jedoch personenbezogene Nutzerdaten erhoben und gespeichert werden müssten
 
 Für viele ehrenamtliche, kommunale oder kleinere gewerbliche Betreiber wäre das wirtschaftlich und organisatorisch kaum leistbar.
 
+## Wirtschaftlicher und organisatorischer Mehraufwand für kleinere Betreiber
+
+Die Einführung einer Pflicht zur Erfassung und Speicherung von IP-Adressen würde insbesondere kleinere oder ehrenamtlich betriebene WLAN-Netze unverhältnismäßig treffen.  
+
+Um die gesetzlichen Anforderungen zu erfüllen, müssten Betreiber komplexe Logging-, Speicher- und Sicherheitsinfrastrukturen aufbauen, Datenschutzkonzepte erweitern und laufend pflegen.
+Das verursacht hohe Kosten für Hardware, Betrieb und rechtliche Absicherung – ein Aufwand, den kleinere Initiativen oder kommunale Projekte nicht tragen können.  
+
+Die Folge wäre ein Rückgang offener WLAN-Angebote und damit eine Einschränkung digitaler Teilhabe im öffentlichen Raum.
+
 ## Auswirkungen auf Barrierefreiheit und digitale Teilhabe
 
 Eine verpflichtende Nutzeridentifikation oder komplexe Anmeldeverfahren würden den barrierefreien Zugang zum Internet im öffentlichen Raum deutlich erschweren.  
