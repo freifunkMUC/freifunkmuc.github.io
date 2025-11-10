@@ -53,8 +53,8 @@ Die dort genannten Grundrechte-, Betriebs- und Datenschutzrisiken korrespondiere
 
 ## Fazit
 
-Die geplante Mindestspeicherung ist mit den heutigen technischen Standards nicht praktikabel und führt zu erheblichen rechtlichen und gesellschaftlichen Nebenwirkungen.  
-Ohne eine gesetzliche Ausnahme oder eine differenzierte Regelung nach Betreiberart würde sie die Bereitstellung öffentlicher WLAN-Angebote erheblich erschweren oder unmöglich machen – sowohl technisch als auch aus Gründen der Barrierefreiheit und Datenschutzkonformität.
+- Die geplante Mindestspeicherung ist mit den heutigen technischen Standards nicht praktikabel und führt zu erheblichen rechtlichen und gesellschaftlichen Nebenwirkungen.  
+- Ohne eine gesetzliche Ausnahme oder eine differenzierte Regelung nach Betreiberart würde sie die Bereitstellung öffentlicher WLAN-Angebote erheblich erschweren oder unmöglich machen – sowohl technisch als auch aus Gründen der Barrierefreiheit und Datenschutzkonformität.
 
 ---
 
