@@ -21,7 +21,7 @@ Bei modernen öffentlichen WLAN-Netzen ist das technisch nur sehr erschwert mög
 - Privacy Extensions führen dazu, dass sich IPv6-Adressen regelmäßig ändern.
 - Viele Endgeräte (Android, Apple, Windows) rotieren heute ihre MAC-Adressen auch im IPv4-Betrieb, um Nachverfolgbarkeit zu erschweren. Dadurch lassen sich DHCP-Zuweisungen keinem bestimmten Gerät mehr dauerhaft zuordnen.
 
-Eine eindeutige, dauerhafte Zuordnung von IP-Adresse zu einem Endgerät ist somit weder unter IPv6 noch unter IPv4 technisch sicher möglich.  
+Eine eindeutige, dauerhafte Zuordnung von IP-Adresse zu einem Nutzer/Endgerät ist somit weder unter IPv6 noch unter IPv4 technisch sicher möglich.  
 Die Umsetzung der Speicherpflicht wäre nur über eine verpflichtende Nutzeridentifikation mit personenbezogenen Daten realisierbar. Das würde spontane, niederschwellige WLAN-Nutzung erheblich erschweren.
 
 ## Datenschutz und organisatorische Folgen
