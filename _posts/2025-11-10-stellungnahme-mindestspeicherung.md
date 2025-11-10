@@ -53,4 +53,3 @@ Eingetragen im Vereinsregister beim Amtsgericht München – VR 206402
 Web: [https://ffmuc.net](https://ffmuc.net)  
 E-Mail: [info@ffmuc.net](mailto:info@ffmuc.net)
 
-📄 [PDF-Version herunterladen](https://ffmuc.net/downloads/Stellungnahme_Freifunk_Muenchen_Mindestspeicherung.pdf)
