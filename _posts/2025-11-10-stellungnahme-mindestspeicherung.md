@@ -8,7 +8,9 @@ author: Freifunk München / Freie Netze München e.V.
 
 ## Hintergrund
 
-Der Gesetzentwurf [„Gesetz zur Einführung einer Mindestspeicherung von IP-Adressen für die Bekämpfung schwerer Kriminalität – BT-Drs. 20/13748“](https://dserver.bundestag.de/btd/20/137/2013748.pdf) verpflichtet Anbieter „öffentlich zugänglicher Internetzugangsdienste“ zur Speicherung der dem Endnutzer zugewiesenen IP-Adresse, Anschlusskennung und Nutzungszeiten für einen Monat. Ausnahmen für gemeinnützige oder nicht-kommerzielle Anbieter – etwa Freifunk oder kommunale Hotspots – sind nicht vorgesehen.  
+Der Gesetzentwurf [„Gesetz zur Einführung einer Mindestspeicherung von IP-Adressen für die Bekämpfung schwerer Kriminalität – BT-Drs. 20/13748“](https://dserver.bundestag.de/btd/20/137/2013748.pdf) verpflichtet Anbieter „öffentlich zugänglicher Internetzugangsdienste“ zur Speicherung der dem Endnutzer zugewiesenen IP-Adresse, Anschlusskennung und Nutzungszeiten für einen Monat. 
+
+Ausnahmen für gemeinnützige oder nicht-kommerzielle Anbieter – etwa Freifunk oder kommunale Hotspots – sind nicht vorgesehen.  
 
 Laut Koalitionsvertrag soll eine entsprechende Regelung noch in dieser Legislaturperiode beschlossen werden. Das Bundesjustizministerium arbeitet derzeit an einem Referentenentwurf, und Bundesinnenminister [Alexander Dobrindt](https://netzpolitik.org/2025/vorratsdatenspeicherung-dobrindt-kuendigt-gesetzentwurf-in-den-naechsten-wochen-an/) kündigte Ende August an, dass ein Gesetzesentwurf „in den nächsten Wochen“ vorgelegt werden soll.  
 
