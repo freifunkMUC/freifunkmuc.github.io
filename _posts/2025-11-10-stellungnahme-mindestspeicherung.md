@@ -8,9 +8,9 @@ author: Freifunk München / Freie Netze München e.V.
 
 ## Hintergrund
 
-Der Gesetzentwurf (:contentReference[oaicite:1]{index=1} – BT-Drs. 20/13748) verpflichtet Anbieter „öffentlich zugänglicher Internetzugangsdienste“ zur Speicherung der dem Endnutzer zugewiesenen IP-Adresse, Anschlusskennung und Nutzungszeiten für einen Monat.  
+Der Gesetzentwurf – [BT-Drs. 20/13748](https://dserver.bundestag.de/btd/20/137/2013748.pdf) verpflichtet Anbieter „öffentlich zugänglicher Internetzugangsdienste“ zur Speicherung der dem Endnutzer zugewiesenen IP-Adresse, Anschlusskennung und Nutzungszeiten für einen Monat.  
 Ausnahmen für gemeinnützige oder nicht-kommerzielle Anbieter – etwa Freifunk oder kommunale Hotspots – sind nicht vorgesehen.  
-[Gesetzentwurf herunterladen](https://dserver.bundestag.de/btd/20/137/2013748.pdf)
+
 
 ## Technische Unmöglichkeit
 
