@@ -12,12 +12,12 @@ Der Gesetzentwurf – [BT-Drs. 20/13748](https://dserver.bundestag.de/btd/20/137
 Ausnahmen für gemeinnützige oder nicht-kommerzielle Anbieter – etwa Freifunk oder kommunale Hotspots – sind nicht vorgesehen.  
 
 
-## Technische Unmöglichkeit/Komplikationen
+## Technische Herausforderungen
 
 Die geforderte Speicherung setzt voraus, dass einem Nutzer eindeutig eine IP-Adresse zugewiesen und diese Zuordnung protokolliert werden kann.  
 Bei modernen öffentlichen WLAN-Netzen ist das technisch nur sehr erschwert möglich:
 
-- Endgeräte erzeugen ihre IPv6-Adressen selbst über SLAAC; der Betreiber weist keine Adressen aktiv zu.
+- Moderne Endgeräte erzeugen ihre IPv6-Adressen selbst über SLAAC; der Betreiber weist keine Adressen aktiv zu.
 - Privacy Extensions führen dazu, dass sich IPv6-Adressen regelmäßig ändern.
 - Viele Endgeräte (Android, Apple, Windows) rotieren heute ihre MAC-Adressen auch im IPv4-Betrieb, um Nachverfolgbarkeit zu erschweren. Dadurch lassen sich DHCP-Zuweisungen keinem bestimmten Gerät mehr dauerhaft zuordnen.
 
