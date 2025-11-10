@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Stellungnahme zur Mindestspeicherung von IP-Adressen bei öffentlichen WLANs"
 date: 2025-11-10 10:00:00 +0200
 categories: politik freifunk gesetzgebung
