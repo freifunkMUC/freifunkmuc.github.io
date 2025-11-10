@@ -70,6 +70,11 @@ Die dort genannten Grundrechte-, Betriebs- und Datenschutzrisiken korrespondiere
 - Die geplante Mindestspeicherung ist mit den heutigen technischen Standards nicht praktikabel und führt zu erheblichen rechtlichen und gesellschaftlichen Nebenwirkungen.  
 - Ohne eine gesetzliche Ausnahme oder eine differenzierte Regelung nach Betreiberart würde sie die Bereitstellung öffentlicher WLAN-Angebote erheblich erschweren oder unmöglich machen – sowohl technisch als auch aus Gründen der Barrierefreiheit und Datenschutzkonformität.
 
+## Handlungsempfehlung
+
+- Der Gesetzgeber sollte bei der Ausgestaltung der Regelung technische Realitäten und Datenschutz berücksichtigen.  
+- Wir empfehlen eine **Ausnahme für gemeinnützige und nicht-kommerzielle WLAN-Betreiber**, den **Verzicht auf pauschale Speicherpflichten** und die **Einbindung von Fachverbänden** in den Gesetzgebungsprozess.
+
 ---
 
 **Freifunk München / Freie Netze München e.V.**  
