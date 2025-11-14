@@ -11,7 +11,9 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![ANEXIA logo](/assets/unterstuetzung/anexia.jpg){: style="max-height:100px;"}][anexia]
 
-### [Arista Networks Inc][arista]
+### Arista Networks Inc
+
+[![arista logo](/assets/unterstuetzung/arista-logo-color-RGB.png){: style="max-height:100px;"}][arista]
 
 ### Cloudflare Inc
 
