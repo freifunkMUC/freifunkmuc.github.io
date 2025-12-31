@@ -68,6 +68,10 @@ Freifunk München betreibt zensurfreie öffentliche DNS-Resolver als EU-basierte
 
 ## Community & Engagement
 
+### Umstellung Vereinsverwaltung
+
+Migration auf neues Vereinstool abgeschlossen und neue Mitglieder gewonnen so wie die Möglichkeit zum Lastschrifteinzug. Wir zählen damit **93 Mitglieder**.
+
 ### Neue Unterkünfte für Geflüchtete
 
 2025 kamen zwei weitere große Unterkünfte zum Freifunk-Netzwerk hinzu:
