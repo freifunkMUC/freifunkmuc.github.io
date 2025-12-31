@@ -131,6 +131,9 @@ Auch dieses Jahr waren wir wieder mit einem Stand präsent: Interessierte und Ne
 **Besuch bei Freifunk Braunschweig** (Juli 2025) 
 Bei einem gemeinsamen Hackathon zu "Project Parker", einem neuen Netzdesign von dem wir uns mehr Stabilität und mehr Performance erhoffen
 
+**Community übergreifende Aktion zur Nachnutzung einer Großspende ausrangierter Accesspoints**
+Wir haben viele Stunden in die Integration der Geräte aus der Großspende gesteckt und hoffen, dass das diese auch bald in OpenWRT für jeden nutzbar sein wird. Dies erfolgte in zusammenarbeit mit vielen anderen Communities, frei nachdem Motto "Freifunk verbindet".
+
 
 ### Regelmäßige Treffen
 **Online Treffen**
