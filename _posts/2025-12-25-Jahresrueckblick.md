@@ -105,11 +105,10 @@ Der Verein kämpft mit einem Mangel an aktiven Helfer:innen, was die Organisatio
 - Mehrere hundert Meter Strom- und Netzwerkkabel verlegt
 - Open-Air-Festival mit Live-Musik auf 3 Bühnen, kostenloser Eintritt
 
-**Augsburger Linux-Infotag** (April 2024)
+**Augsburger Linux-Infotag**
 - Stand auf dem 20. Augsburger Linux-Infotag
 - Präsentation der Vereinsaktivitäten und Services
 - Vernetzung mit Freifunk Augsburg
-- Technische Hochschule Augsburg, 20. April 2024
 
 ### Regelmäßige Treffen
 - **Jeden letzten Mittwoch des Monats** um 19:30 Uhr
