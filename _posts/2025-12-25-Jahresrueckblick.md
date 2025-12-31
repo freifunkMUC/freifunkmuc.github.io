@@ -57,7 +57,7 @@ Freifunk München betreibt zensurfreie öffentliche DNS-Resolver als EU-basierte
 
 **HedgeDoc** (April 2025)
 - Kollaboratives Markdown-Dokumenten-Tool
-- Erreichbar unter: https://hedgedoc.ffmuc.net
+- Erreichbar unter: [https://hedgedoc.ffmuc.net](https://hedgedoc.ffmuc.net)
 - Kostenloser Service für die Community
 
 ### media.ccc.de Mirror
@@ -78,8 +78,8 @@ Migration auf [neues Vereinstool](https://web.meinverein.de/profile/86506) abges
 - [Passwortmanager](https://vault.ffmuc.net/)
 
 ### Kurzinformations Webseiten zum Verein
-- https://mitglieder.ffmuc.net/
-- https://spende.ffmuc.net/
+- [https://mitglieder.ffmuc.net/](https://mitglieder.ffmuc.net/)
+- [https://spende.ffmuc.net/](https://spende.ffmuc.net/)
 
 ### Signifikante Anschaffungen
 
@@ -217,9 +217,9 @@ Die Services umfassen:
 *Freifunk München ist eine Initiative für freie Netzwerke und wird getragen vom Freie Netze München e.V.*
 
 **Links:**
-- Website: https://ffmuc.net
-- Knotenkarte: https://map.ffmuc.net
-- Wiki: https://ffmuc.net/wiki
-- Chat: https://chat.ffmuc.net
-- Mastodon: @freifunkMUC@social.ffmuc.net
-- Stats: https://stats.ffmuc.net
+- Website: [https://ffmuc.net](https://ffmuc.net)
+- Knotenkarte: [https://map.ffmuc.net](https://map.ffmuc.net)
+- Wiki: [https://ffmuc.net/wiki](https://ffmuc.net/wiki)
+- Chat: [https://chat.ffmuc.net](https://chat.ffmuc.net)
+- Mastodon: [@freifunkMUC@social.ffmuc.net](https://social.ffmuc.net/@freifunkMUC)
+- Stats: [https://stats.ffmuc.net](https://stats.ffmuc.net)
