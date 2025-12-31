@@ -141,8 +141,8 @@ Wir haben viele Stunden in die Integration der Geräte aus der Großspende geste
 ### Regelmäßige Treffen
 **Online Treffen**
 - Jeden letzten Mittwoch des Monats um 19:30 Uhr
-- Online auf https://meet.ffmuc.net/ffmuctreffen
-- Chat-Diskussionen: https://chat.ffmuc.net
+- Online auf [https://meet.ffmuc.net/ffmuctreffen](https://meet.ffmuc.net/ffmuctreffen)
+- Chat-Diskussionen: [https://chat.ffmuc.net](https://chat.ffmuc.net)
 
 **Stammtisch**
 
