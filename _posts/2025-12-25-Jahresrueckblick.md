@@ -1,0 +1,184 @@
+---
+layout: posts
+title: "Jahresrückblick 2025"
+date: 2025-12-31 14:00:00 +0200
+categories: freifunk community
+author: Freifunk München / Freie Netze München e.V.
+---
+
+Freifunk München - Jahresrückblick 2025
+
+## Einleitung
+
+2025 war ein bedeutendes Jahr für Freifunk München. Als nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze konnten wir unsere Services weiter ausbauen und die Community stärken.
+
+## Netzwerk-Statistiken
+
+### Überblick
+- **Online Nodes**: Das Netzwerk zeigt eine stabile Entwicklung mit durchschnittlich über 3.300 aktiven Knoten über das Jahr verteilt
+- **Firmware-Adoption**: Im Jahresdurchschnitt laufen ca. 85-87% der Nodes auf den aktuellen Firmware-Versionen
+- **Router-Vielfalt**: Über 150 verschiedene Router-Modelle im Einsatz
+
+### Top Router-Modelle
+Die beliebtesten Router im ffmuc-Netzwerk 2025:
+1. Ubiquiti UniFi AC Lite (109 Geräte, 6%)
+2. TP-Link Archer C7 v5 (106 Geräte, 6%)
+3. AVM FRITZ!Box 4040 (83 Geräte, 5%)
+4. Netgear R6120 (77 Geräte, 4%)
+5. QEMU Virtual Machines (62 Geräte, 3%)
+
+### Internet-Gateways
+Zwei Hauptstandorte sichern die Konnektivität mit folgenden Durchschnittswerten über das Jahr:
+- **München (MUC01)**: RX: durchschnittlich 700-800 Mbps, TX: durchschnittlich 2-3 Gbps
+- **Wien (VIE01)**: RX: durchschnittlich 300-400 Mbps, TX: durchschnittlich 350-450 Mbps
+
+Insgesamt stehen in unserem Netzwerk dank zahlreicher Sponsoren über 300Gbps Anbindung zur Verfügung.
+
+## DNS & Privacy Services
+
+### DNS-Service Highlights
+Freifunk München betreibt zensurfreie öffentliche DNS-Resolver als EU-basierte, non-profit Alternative zu kommerziellen Anbietern:
+
+**Technische Details:**
+- IPv4: 185.150.99.255 / 5.1.66.255
+- IPv6: 2001:678:e68:f000:: / 2001:678:ed0:f000::
+- DoH (DNS over HTTPS): https://doh.ffmuc.net/dns-query
+- DoT/DoQ (DNS over TLS/QUIC): dot.ffmuc.net / doq.ffmuc.net Port 853
+
+### DNS-Neuigkeiten 2025
+
+**September 2025**: Umstellung auf HAProxy
+- HTTP/3 und QUIC-Unterstützung für DoH-Server
+- Verbesserte Performance und moderne Protokoll-Unterstützung
+
+## Weitere Services
+
+### Neue Dienste 2025
+
+**HedgeDoc** (April 2025)
+- Kollaboratives Markdown-Dokumenten-Tool
+- Erreichbar unter: https://hedgedoc.ffmuc.net
+- Kostenloser Service für die Community
+
+### media.ccc.de Mirror
+2025 stellte ffmuc wieder erhebliche Bandbreite für die Spiegelung der CCC-Videos bereit:
+- 80 Gbps verfügbare Bandbreite
+- Spitzenauslastung während 39C3 (7Gbps), durchschnittlich 1-2 Gbps im regulären Betrieb
+- Traffic-Monitoring via [öffentlichem Dashboard](https://stats.ffmuc.net/d/aegea5ohylkaoa/ffmuc-media-ccc-de?orgId=1&from=now-24h&to=now&timezone=browser&refresh=30s)
+
+## Community & Engagement
+
+### Neue Unterkünfte für Geflüchtete
+
+2025 kamen zwei weitere große Unterkünfte zum Freifunk-Netzwerk hinzu:
+
+**Garching**
+- Internetversorgung für eine Unterkunft für Geflüchtete
+- Über 20 Unifi Accesspoints
+- [Nanopi R4S als Offloader](https://map.ffmuc.net/#/en/map/82342878f006)
+- Starlink als Uplink
+
+**Unterschleißheim**
+- Neue große Unterkunft mit Freifunk-Anbindung
+- Omada Setup
+- [Nanopi R2S](https://map.ffmuc.net/#/en/map/263e34f31f0f)
+- Starlink als Uplink
+
+Diese Projekte setzen die langjährige Tradition von Freifunk München fort, Internet-Zugang für Geflüchtete und sozial benachteiligte Gruppen bereitzustellen.
+
+### Herausforderungen 2025
+
+**Aufruf vom Juli**: "Unser Verein braucht dich"
+Der Verein kämpft mit einem Mangel an aktiven Helfer:innen, was die Organisation zunehmend an ihre Grenzen bringt. Der Aufruf zum monatlichen Treffen am 30.07.2025 betonte die Notwendigkeit für mehr Community-Engagement.
+
+### Events & Öffentlichkeitsarbeit
+
+**Kulturspektakel Gauting** (Juli 2025)
+- Freifunk-WLAN auf dem gesamten Festivalgelände
+- 7 Offloader und 20 Access Points in fast allen Buden
+- Uplink über Starlink-Verbindungen
+- Waldbühne mit Photovoltaikanlage versorgt
+- Mehrere hundert Meter Strom- und Netzwerkkabel verlegt
+- Open-Air-Festival mit Live-Musik auf 3 Bühnen, kostenloser Eintritt
+
+**Augsburger Linux-Infotag** (April 2024)
+- Stand auf dem 20. Augsburger Linux-Infotag
+- Präsentation der Vereinsaktivitäten und Services
+- Vernetzung mit Freifunk Augsburg
+- Technische Hochschule Augsburg, 20. April 2024
+
+### Regelmäßige Treffen
+- **Jeden letzten Mittwoch des Monats** um 19:30 Uhr
+- Online auf https://meet.ffmuc.net/ffmuctreffen
+- Chat-Diskussionen: https://chat.ffmuc.net
+
+### Social Media Präsenz
+Aktive Präsenz auf Mastodon (@freifunkMUC@social.ffmuc.net) mit:
+- 292 Posts
+- 1.3K Follower
+- Regelmäßige Updates zu technischen Themen und Community-Events
+
+## Technische Highlights & Wartungen
+
+### Support-Ende
+**November 2025**: Ende der Unterstützung für EdgeRouter X und EdgeRouter X SFP
+- Betroffene Nutzer wurden frühzeitig informiert
+- Migration auf neuere Hardware empfohlen
+
+### Technische Verbesserungen
+- [Monitoring von Paketverlusten von allen Standorten](https://stats.ffmuc.net/d/Os3hdxQZk/http-response-monitoring?orgId=1&from=now-1h&to=now&timezone=browser&var-url_name=$__all&var-error_url=$__all&refresh=auto)
+- Ubuntu 24.04 Updates
+- Neuer Switch in Wiener Rechenzentrum (Arista DCS-7280SR3E-40YC6-F) und Server auf 2x25Gbps geupgraded
+
+## Politisches Engagement
+
+### Stellungnahme zur Mindestspeicherung (November 2025)
+Freifunk München nahm [Stellung zur geplanten Mindestspeicherung von IP-Adressen bei öffentlichen WLANs](https://ffmuc.net/politik/freifunk/gesetzgebung/2025/11/10/stellungnahme-mindestspeicherung/) und setzte sich für datenschutzfreundliche Lösungen ein. Die Stellungnahme kritisiert die technische Impraktikabilität der Regelung, die erheblichen Datenschutzrisiken und den unverhältnismäßigen Aufwand für kleinere und ehrenamtliche Betreiber. Als PDF verfügbar unter: [Stellungnahme als PDF](https://ffmuc.net/assets/posts/Freifunk_Muenchen_Stellungnahme_IP-Adressen-Speicherung.pdf)
+
+### Münchener Digitalrat
+Teilnahme und Weitergabe von Informationen zur Digital Strategie der Stadt München
+
+### Chatkontrolle
+Kontinuierliche Aufklärungsarbeit und kritische Begleitung der EU-Gesetzgebung zur Chatkontrolle.
+
+## Ausblick & Freifunk-Jubiläum
+
+## Unterstützung & Spenden
+
+Alle Services werden durch Spenden finanziert:
+**https://spende.ffmuc.net**
+
+Die Services umfassen:
+- DNS (DoH/DoT/DoQ)
+- Jitsi Meet Videokonferenz
+- Chat (Mattermost - Migration geplant wegen Policy-Änderungen)
+- HedgeDoc
+- Wiki
+- Gateway-Services
+
+---
+
+## Zusammenfassung
+
+2025 war ein Jahr der Konsolidierung und des Ausbaus für Freifunk München. Trotz Herausforderungen bei der Gewinnung aktiver Helfer:innen konnten wir:
+
+- Stabile Netzwerk-Performance mit über 3.300 Nodes  
+- Ausbau der DNS-Services mit modernen Protokollen (HTTP/3, QUIC)  
+- Neue Community-Tools (HedgeDoc)  
+- Erfolgreiche Unterstützung von Community-Events (39C3)  
+- Politisches Engagement für digitale Grundrechte  
+- Hardware-Upgrades in den Rechenzentrumsstandorten  
+
+**Für 2026 und darüber hinaus** brauchen wir verstärkt die Unterstützung der Community, um diese wichtige Infrastruktur für digitale Souveränität und Privatsphäre weiter betreiben und ausbauen zu können.
+
+---
+
+*Freifunk München ist eine Initiative für freie Netzwerke und wird getragen vom Freie Netze München e.V.*
+
+**Links:**
+- Website: https://ffmuc.net
+- Knotenkarte: https://map.ffmuc.net
+- Wiki: https://ffmuc.net/wiki
+- Chat: https://chat.ffmuc.net
+- Mastodon: @freifunkMUC@social.ffmuc.net
+- Stats: https://stats.ffmuc.net
