@@ -313,7 +313,15 @@ input, textarea, select {
   }
   
   body {
-    background-color: var(--background-color);
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  .page__content,
+  .page__inner-wrap,
+  .archive__item,
+  .layout--single {
+    background: var(--background-color);
     color: var(--text-color);
   }
   
@@ -323,8 +331,86 @@ input, textarea, select {
   }
   
   .masthead {
-    background: var(--background-alt);
+    background: var(--background-alt) !important;
     border-bottom: 1px solid var(--border-color);
+  }
+  
+  .greedy-nav {
+    background: var(--background-alt);
+    
+    a {
+      color: var(--text-color);
+      
+      &:hover {
+        background: var(--background-color);
+        color: var(--text-color);
+      }
+    }
+    
+    .visible-links a {
+      color: var(--text-color);
+      
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+    
+    .hidden-links {
+      background: var(--background-alt);
+      border-color: var(--border-color);
+      box-shadow: var(--shadow-lg);
+      
+      a {
+        color: var(--text-color);
+        
+        &:hover {
+          background: var(--background-color);
+          color: var(--primary-color);
+        }
+      }
+    }
+    
+    button {
+      background: transparent;
+      color: var(--text-color);
+      
+      &:hover {
+        background: var(--background-color);
+      }
+    }
+  }
+  
+  .page__footer {
+    background: var(--background-alt) !important;
+    border-top-color: var(--border-color);
+  }
+  
+  .info-box {
+    background: var(--background-alt);
+    border-color: var(--border-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  
+  code {
+    background: var(--background-alt);
+    border-color: var(--border-color);
+    color: var(--text-color);
+  }
+  
+  pre {
+    background: var(--background-alt);
+    border-color: var(--border-color);
+  }
+  
+  table th {
+    background: var(--background-alt);
+  }
+  
+  table th, table td {
+    border-bottom-color: var(--border-color);
   }
 }
 
@@ -490,6 +576,31 @@ table {
 
 .author__avatar {
   border-radius: 50%;
+}
+
+/* Force wider content in posts and pages */
+.page {
+  width: 100% !important;
+  
+  @media (min-width: 80em) {
+    .page__inner-wrap {
+      float: none !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      width: 100% !important;
+      max-width: 1400px;
+      padding: 0 3rem;
+    }
+  }
+}
+
+/* Hide sidebar on posts for full-width content */
+.layout--single {
+  .sidebar {
+    @media (min-width: 80em) {
+      display: none;
+    }
+  }
 }
 
 /* ==========================================================================
