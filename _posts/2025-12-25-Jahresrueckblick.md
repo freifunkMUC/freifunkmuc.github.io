@@ -187,7 +187,7 @@ Kontinuierliche Aufklärungsarbeit und kritische Begleitung der EU-Gesetzgebung 
 ## Unterstützung & Spenden
 
 Alle Services werden durch Spenden finanziert:
-**https://spende.ffmuc.net**
+**[https://spende.ffmuc.net](https://spende.ffmuc.net)**
 
 Die Services umfassen:
 - DNS (DoH/DoT/DoQ)
