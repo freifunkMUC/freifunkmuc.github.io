@@ -6,7 +6,17 @@
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% endunless %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Enhanced Viewport for Better Mobile Experience -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<!-- Accessibility & SEO Meta Tags -->
+<meta name="theme-color" content="#dc0067">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="{{ site.description }}">
+
+<!-- Preconnect to improve performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
