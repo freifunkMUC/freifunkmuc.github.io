@@ -126,12 +126,15 @@ Der Verein kämpft mit einem Mangel an aktiven Helfer:innen, was die Organisatio
 - Vernetzung mit Freifunk Augsburg
 
 [**Corso Leopold**](https://corso-leopold.de) (Juni 2025)
+
 Auch dieses Jahr waren wir wieder mit einem Stand präsent: Interessierte und Neugierige mit Informationen versorgen, Tipps geben und das Projekt erklären.
 
 **Besuch bei Freifunk Braunschweig** (Juli 2025) 
+
 Bei einem gemeinsamen Hackathon zu "Project Parker", einem neuen Netzdesign von dem wir uns mehr Stabilität und mehr Performance erhoffen
 
 **Community übergreifende Aktion zur Nachnutzung einer Großspende ausrangierter Accesspoints**
+
 Wir haben viele Stunden in die Integration der Geräte aus der Großspende gesteckt und hoffen, dass das diese auch bald in OpenWRT für jeden nutzbar sein wird. Dies erfolgte in zusammenarbeit mit vielen anderen Communities, frei nachdem Motto "Freifunk verbindet".
 
 
@@ -142,6 +145,7 @@ Wir haben viele Stunden in die Integration der Geräte aus der Großspende geste
 - Chat-Diskussionen: https://chat.ffmuc.net
 
 **Stammtisch**
+
 Unser Stammtisch findet seit diesem Jahr regelmäßig alle 2 Monate im 
 [MuMaLab](https://munichmakerlab.de) statt: Socializing, Hacking, Networking, grillen, diskutieren, Spaß haben...
 
