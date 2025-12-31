@@ -121,14 +121,26 @@ Der Verein kämpft mit einem Mangel an aktiven Helfer:innen, was die Organisatio
 - Open-Air-Festival mit Live-Musik auf 3 Bühnen, kostenloser Eintritt
 
 **Augsburger Linux-Infotag**
-- Stand auf dem 20. Augsburger Linux-Infotag
+- Stand auf dem [Augsburger Linux-Infotag 2025](https://www.luga.de/static/LIT-2025/)
 - Präsentation der Vereinsaktivitäten und Services
 - Vernetzung mit Freifunk Augsburg
 
+[**Corso Leopold**](https://corso-leopold.de) (Juni 2025)
+Auch dieses Jahr waren wir wieder mit einem Stand präsent: Interessierte und Neugierige mit Informationen versorgen, Tipps geben und das Projekt erklären.
+
+**Besuch bei Freifunk Braunschweig** (Juli 2025) 
+Bei einem gemeinsamen Hackathon zu "Project Parker", einem neuen Netzdesign von dem wir uns mehr Stabilität und mehr Performance erhoffen
+
+
 ### Regelmäßige Treffen
-- **Jeden letzten Mittwoch des Monats** um 19:30 Uhr
+**Online Treffen**
+- Jeden letzten Mittwoch des Monats um 19:30 Uhr
 - Online auf https://meet.ffmuc.net/ffmuctreffen
 - Chat-Diskussionen: https://chat.ffmuc.net
+
+**Stammtisch**
+Unser Stammtisch findet seit diesem Jahr regelmäßig alle 2 Monate im 
+[MuMaLab](https://munichmakerlab.de) statt: Socializing, Hacking, Networking, grillen, diskutieren, Spaß haben...
 
 ### Social Media Präsenz
 Aktive Präsenz auf Mastodon (@freifunkMUC@social.ffmuc.net) mit:
