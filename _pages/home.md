@@ -17,10 +17,16 @@ pagination:
   permalink: /page/:num/
 ---
 
-<h1>Start</h1>
-{% include treffen.html layout=half %}
+<div class="info-boxes-container">
+  <div class="info-box">
+    {% include treffen.html %}
+  </div>
+  <div class="info-box">
+    {% include network-status.html %}
+  </div>
+</div>
 
-{% include network-status.html layout=half %}
+<h2 class="news-heading">Neuigkeiten</h2>
 
 {% if paginator %}
 {% assign posts = paginator.posts | sort: 'date' | reverse %}

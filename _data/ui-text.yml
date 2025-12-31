@@ -482,17 +482,18 @@ zh-HK:
 # German / Deutsch
 # ----------------
 de: &DEFAULT_DE
-  skip_links                 :
-  skip_primary_nav           :
-  skip_content               :
-  skip_footer                :
+  skip_links                 : "Links überspringen"
+  skip_primary_nav           : "Zur Hauptnavigation springen"
+  skip_content               : "Zum Hauptinhalt springen"
+  skip_footer                : "Zur Fußzeile springen"
+  skip_to_content            : "Zum Hauptinhalt springen"
   page                       : "Seite"
   pagination_previous        : "Vorherige"
   pagination_next            : "Nächste"
   breadcrumb_home_label      : "Start"
   breadcrumb_separator       : "/"
   menu_label                 : "Menü ein-/ausschalten"
-  search_label               :
+  search_label               : "Suche ein-/ausschalten"
   toc_label                  : "Auf dieser Seite"
   ext_link_label             : "Direkter Link"
   less_than                  : "weniger als"
@@ -523,10 +524,10 @@ de: &DEFAULT_DE
   comment_btn_submitted      : "Versendet"
   comment_success_msg        : "Danke für Ihren Kommentar! Er wird auf der Seite angezeigt, nachdem er geprüft wurde."
   comment_error_msg          : "Entschuldigung, es gab einen Fehler. Bitte füllen Sie alle benötigten Felder aus und versuchen Sie es erneut."
-  loading_label              : "Lade..."
-  search_label_text          :
+  loading_label              : "Lädt..."
+  search_label_text          : "Suchbegriff eingeben..."
   search_placeholder_text    : "Suchbegriff eingeben..."
-  search_algolia_no_results  :
+  search_algolia_no_results  : "Keine Ergebnisse gefunden"
   results_found              : "Ergebnis(se) gefunden"
 de-DE:
   <<: *DEFAULT_DE

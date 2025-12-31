@@ -1,0 +1,545 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+/* ==========================================================================
+   Custom Modern & Accessible Design for Freifunk München
+   ========================================================================== */
+
+/* Import minimal mistakes theme */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   Modern Typography & Readability Improvements
+   ========================================================================== */
+
+:root {
+  /* Modern, accessible color palette */
+  --primary-color: #dc0067;
+  --primary-dark: #b00054;
+  --primary-light: #ff1a7f;
+  --text-color: #2d3436;
+  --text-light: #636e72;
+  --background-color: #ffffff;
+  --background-alt: #f8f9fa;
+  --border-color: #dfe6e9;
+  --focus-color: #0984e3;
+  --success-color: #00b894;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.15);
+  --radius: 8px;
+  --radius-lg: 12px;
+  --transition: all 0.3s ease;
+}
+
+/* Improved base typography */
+html {
+  font-size: 18px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Improved heading hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  color: var(--text-color);
+  
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+  
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+  
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+/* Better paragraph spacing */
+p {
+  margin-bottom: 1.5em;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Improved link styling with better accessibility */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition);
+  
+  &:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+  }
+  
+  &:focus {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+  
+  &:focus-visible {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 2px;
+  }
+}
+
+/* ==========================================================================
+   Modern Card Components
+   ========================================================================== */
+
+.page__content {
+  max-width: 100%;
+  padding: 2rem 1rem;
+  
+  @media (min-width: 768px) {
+    padding: 3rem 2rem;
+  }
+}
+
+.archive__item {
+  background: var(--background-color);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+  
+  &:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+  }
+}
+
+/* ==========================================================================
+   Improved Navigation
+   ========================================================================== */
+
+.masthead {
+  background: var(--background-color);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+    a {
+      color: var(--primary-color);
+      
+      &:hover {
+        text-decoration: none;
+        color: var(--primary-dark);
+      }
+    }
+  }
+}
+
+.greedy-nav {
+  a {
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    
+    &:hover {
+      background: var(--background-alt);
+      text-decoration: none;
+    }
+    
+    &.site-nav {
+      font-weight: 500;
+    }
+  }
+}
+
+/* ==========================================================================
+   Buttons with Better Accessibility
+   ========================================================================== */
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-decoration: none;
+  
+  &--primary {
+    background: var(--primary-color);
+    color: white;
+    
+    &:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+      text-decoration: none;
+    }
+  }
+  
+  &:focus {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 2px;
+  }
+}
+
+/* ==========================================================================
+   Improved Forms & Inputs
+   ========================================================================== */
+
+input, textarea, select {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius);
+  transition: var(--transition);
+  
+  &:focus {
+    border-color: var(--focus-color);
+    outline: 3px solid var(--focus-color);
+    outline-offset: 2px;
+  }
+}
+
+/* ==========================================================================
+   Accessibility Improvements
+   ========================================================================== */
+
+/* Skip to main content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary-color);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 10000;
+  
+  &:focus {
+    top: 0;
+  }
+}
+
+/* Focus visible improvements */
+*:focus-visible {
+  outline: 3px solid var(--focus-color);
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --text-color: #000000;
+    --background-color: #ffffff;
+    --primary-color: #b00054;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e8eaed;
+    --text-light: #9aa0a6;
+    --background-color: #202124;
+    --background-alt: #292a2d;
+    --border-color: #3c4043;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .archive__item {
+    background: var(--background-alt);
+    border-color: var(--border-color);
+  }
+  
+  .masthead {
+    background: var(--background-alt);
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+
+/* ==========================================================================
+   Content Readability Improvements
+   ========================================================================== */
+
+.page__inner-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  @media (min-width: 768px) {
+    padding: 0 2rem;
+  }
+  
+  @media (min-width: 1200px) {
+    padding: 0 3rem;
+  }
+}
+
+ul, ol {
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+  
+  li {
+    margin-bottom: 0.5em;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--text-light);
+}
+
+code {
+  background: var(--background-alt);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  border: 1px solid var(--border-color);
+}
+
+pre {
+  background: var(--background-alt);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  
+  code {
+    background: none;
+    padding: 0;
+    border: none;
+  }
+}
+
+/* ==========================================================================
+   Image Improvements
+   ========================================================================== */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+.page__hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   Responsive Tables
+   ========================================================================== */
+
+table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  th {
+    font-weight: 600;
+    background: var(--background-alt);
+  }
+  
+  @media (max-width: 768px) {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+/* ==========================================================================
+   Footer Improvements
+   ========================================================================== */
+
+.page__footer {
+  background: var(--background-alt);
+  border-top: 1px solid var(--border-color);
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  
+  a {
+    margin: 0 0.5rem;
+  }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .masthead,
+  .page__footer,
+  .page__share,
+  .page__related {
+    display: none;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  .page__content {
+    max-width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Custom Overrides for minimal-mistakes
+   ========================================================================== */
+
+.page__hero--overlay {
+  .page__title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.sidebar {
+  @media (min-width: 1024px) {
+    opacity: 1;
+  }
+}
+
+.author__avatar {
+  border-radius: 50%;
+}
+
+/* ==========================================================================
+   Homepage Info Boxes
+   ========================================================================== */
+
+.info-boxes-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0 3rem;
+  
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.info-box {
+  background: var(--background-alt);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  
+  h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  a {
+    color: var(--primary-color);
+    font-weight: 500;
+  }
+}
+
+.news-heading {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--primary-color);
+}
