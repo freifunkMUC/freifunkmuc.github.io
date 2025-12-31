@@ -104,12 +104,14 @@ p {
 /* Improved link styling with better accessibility */
 a {
   color: var(--primary-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
   transition: var(--transition);
   
   &:hover {
     color: var(--primary-dark);
-    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
   
   &:focus {
@@ -125,6 +127,18 @@ a {
   &:focus-visible {
     outline: 3px solid var(--focus-color);
     outline-offset: 2px;
+  }
+}
+
+/* Navigation and button links should not be underlined by default */
+.masthead a,
+.greedy-nav a,
+.btn,
+.page__footer a {
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
   }
 }
 
@@ -310,11 +324,22 @@ input, textarea, select {
     --border-color: #3c4043;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.6);
+    --primary-color: #ff4d94;
+    --primary-dark: #ff2d7d;
   }
   
   body {
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration-color: var(--primary-color);
+    
+    &:hover {
+      color: var(--primary-dark);
+    }
   }
   
   .page__content,
