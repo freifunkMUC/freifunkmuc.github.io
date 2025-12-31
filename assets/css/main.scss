@@ -441,6 +441,24 @@ input, textarea, select {
     }
   }
   
+  /* Fix grey backdrop when menu opens in dark mode */
+  .nav__list .nav__items {
+    background: var(--background-color);
+  }
+  
+  .nav__sub-title {
+    background: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Remove grey overlay/backdrop in dark mode */
+  body:after,
+  .initial-content:before,
+  #main:before,
+  .masthead:after {
+    display: none !important;
+  }
+  
   .page__footer {
     background: var(--background-alt) !important;
     border-top-color: var(--border-color);
