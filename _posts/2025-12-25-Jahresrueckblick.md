@@ -83,7 +83,7 @@ Migration auf [neues Vereinstool](https://web.meinverein.de/profile/86506) abges
 
 ### Signifikante Anschaffungen
 
-Supportvertrag für Switche für 3 Jahre verlängt
+Supportvertrag für Switche für 3 Jahre verlängert.
 
 ## Community & Engagement
 
