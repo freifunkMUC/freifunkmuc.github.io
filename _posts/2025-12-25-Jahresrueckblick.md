@@ -61,7 +61,7 @@ Freifunk München betreibt zensurfreie öffentliche DNS-Resolver als EU-basierte
 - Kostenloser Service für die Community
 
 ### media.ccc.de Mirror
-2025 stellt FFMUC Bandbreite für die Spiegelung der CCC-Videos bereit:
+2025 stellt FFMUC Bandbreite für die Spiegelung der c3voc-Videos bereit:
 - 80 Gbps verfügbare Bandbreite
 - Spitzenauslastung während 39C3 (7Gbps), durchschnittlich 1-2 Gbps im regulären Betrieb
 - Traffic-Monitoring via [öffentlichem Dashboard](https://stats.ffmuc.net/d/aegea5ohylkaoa/ffmuc-media-ccc-de?orgId=1&from=now-24h&to=now&timezone=browser&refresh=30s)
