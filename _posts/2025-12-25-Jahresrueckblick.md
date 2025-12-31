@@ -140,7 +140,7 @@ Aktive Präsenz auf Mastodon (@freifunkMUC@social.ffmuc.net) mit:
 Freifunk München nahm [Stellung zur geplanten Mindestspeicherung von IP-Adressen bei öffentlichen WLANs](https://ffmuc.net/politik/freifunk/gesetzgebung/2025/11/10/stellungnahme-mindestspeicherung/) und setzte sich für datenschutzfreundliche Lösungen ein. Die Stellungnahme kritisiert die technische Impraktikabilität der Regelung, die erheblichen Datenschutzrisiken und den unverhältnismäßigen Aufwand für kleinere und ehrenamtliche Betreiber. Als PDF verfügbar unter: [Stellungnahme als PDF](https://ffmuc.net/assets/posts/Freifunk_Muenchen_Stellungnahme_IP-Adressen-Speicherung.pdf)
 
 ### Münchener Digitalrat
-Teilnahme und Weitergabe von Informationen zur Digital Strategie der Stadt München
+Teilnahme und Weitergabe von Informationen zur Digital Strategie der [Stadt München](https://muenchen.digital/projekte/digitale-teilhabe/digitalrat.html).
 
 ### Chatkontrolle
 Kontinuierliche Aufklärungsarbeit und kritische Begleitung der EU-Gesetzgebung zur Chatkontrolle.
