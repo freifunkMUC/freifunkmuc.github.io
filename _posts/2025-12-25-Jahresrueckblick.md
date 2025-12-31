@@ -32,7 +32,7 @@ Zwei Hauptstandorte sichern die Konnektivität mit folgenden Durchschnittswerten
 - **München (MUC01)**: RX: durchschnittlich 700-800 Mbps, TX: durchschnittlich 2-3 Gbps
 - **Wien (VIE01)**: RX: durchschnittlich 300-400 Mbps, TX: durchschnittlich 350-450 Mbps
 
-Insgesamt stehen in unserem Netzwerk dank zahlreicher Sponsoren über 300Gbps Anbindung zur Verfügung.
+Insgesamt stehen in unserem Netzwerk dank [zahlreicher Sponsoren](https://ffmuc.net/unterstuetzer/) über 300Gbps Anbindung zur Verfügung.
 
 ## DNS & Privacy Services
 
@@ -61,7 +61,7 @@ Freifunk München betreibt zensurfreie öffentliche DNS-Resolver als EU-basierte
 - Kostenloser Service für die Community
 
 ### media.ccc.de Mirror
-2025 stellte ffmuc wieder erhebliche Bandbreite für die Spiegelung der CCC-Videos bereit:
+2025 stellt FFMUC Bandbreite für die Spiegelung der CCC-Videos bereit:
 - 80 Gbps verfügbare Bandbreite
 - Spitzenauslastung während 39C3 (7Gbps), durchschnittlich 1-2 Gbps im regulären Betrieb
 - Traffic-Monitoring via [öffentlichem Dashboard](https://stats.ffmuc.net/d/aegea5ohylkaoa/ffmuc-media-ccc-de?orgId=1&from=now-24h&to=now&timezone=browser&refresh=30s)
