@@ -153,6 +153,12 @@ Aktive Präsenz auf Mastodon (@freifunkMUC@social.ffmuc.net) mit:
 ### Stellungnahme zur Mindestspeicherung (November 2025)
 Freifunk München nahm [Stellung zur geplanten Mindestspeicherung von IP-Adressen bei öffentlichen WLANs](https://ffmuc.net/politik/freifunk/gesetzgebung/2025/11/10/stellungnahme-mindestspeicherung/) und setzte sich für datenschutzfreundliche Lösungen ein. Die Stellungnahme kritisiert die technische Impraktikabilität der Regelung, die erheblichen Datenschutzrisiken und den unverhältnismäßigen Aufwand für kleinere und ehrenamtliche Betreiber. Als PDF verfügbar unter: [Stellungnahme als PDF](https://ffmuc.net/assets/posts/Freifunk_Muenchen_Stellungnahme_IP-Adressen-Speicherung.pdf)
 
+**Medienecho**  
+Die Stellungnahme fand Beachtung in der Fachpresse:
+- **heise online** berichtete am 11. November 2025 ausführlich über die Warnung der Freifunker mit dem Artikel ["Aus für offenes WLAN? Vorratsdatenspeicherung gefährdet digitale Teilhabe"](https://www.heise.de/news/Aus-fuer-offenes-WLAN-Vorratsdatenspeicherung-gefaehrdet-digitale-Teilhabe-11074279.html)
+- Der Artikel zitiert die Stellungnahme von Freifunk München und stellt die technischen und rechtlichen Probleme der geplanten Regelung detailliert dar
+- Auch andere Fachverbände wie die Bundesanwaltskammer (BRAK) und der eco-Verband der Internetwirtschaft schlossen sich der Kritik an
+
 ### Münchener Digitalrat
 Teilnahme und Weitergabe von Informationen zur Digital Strategie der [Stadt München](https://muenchen.digital/projekte/digitale-teilhabe/digitalrat.html).
 
