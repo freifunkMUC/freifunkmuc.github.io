@@ -180,13 +180,17 @@ a {
   position: sticky;
   top: 0;
   z-index: 1000;
+  padding: 0.5rem 1rem;
   
   .site-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
     
     a {
       color: var(--primary-color);
+      padding: 0.5rem 0.75rem;
       
       &:hover {
         text-decoration: none;
@@ -194,13 +198,23 @@ a {
       }
     }
   }
+  
+  .site-logo img {
+    max-height: 2rem;
+  }
 }
 
 .greedy-nav {
   a {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.65rem;
     border-radius: var(--radius);
     transition: var(--transition);
+    font-size: 0.95rem;
+    
+    @media (min-width: 1200px) {
+      padding: 0.75rem 0.85rem;
+      font-size: 1rem;
+    }
     
     &:hover {
       background: var(--background-alt);
@@ -210,6 +224,10 @@ a {
     &.site-nav {
       font-weight: 500;
     }
+  }
+  
+  .visible-links {
+    margin-left: 0;
   }
 }
 
@@ -381,16 +399,21 @@ input, textarea, select {
     }
     
     .hidden-links {
-      background: var(--background-alt);
-      border-color: var(--border-color);
-      box-shadow: var(--shadow-lg);
+      background: #1a1a1d !important;
+      border: 1px solid var(--border-color) !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8) !important;
       
       a {
-        color: var(--text-color);
+        color: var(--text-color) !important;
+        background: transparent !important;
         
         &:hover {
-          background: var(--background-color);
-          color: var(--primary-color);
+          background: var(--background-color) !important;
+          color: var(--primary-color) !important;
+        }
+        
+        &:before {
+          background: transparent !important;
         }
       }
     }
