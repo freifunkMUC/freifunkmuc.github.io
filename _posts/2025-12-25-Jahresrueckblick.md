@@ -66,11 +66,26 @@ Freifunk München betreibt zensurfreie öffentliche DNS-Resolver als EU-basierte
 - Spitzenauslastung während 39C3 (7Gbps), durchschnittlich 1-2 Gbps im regulären Betrieb
 - Traffic-Monitoring via [öffentlichem Dashboard](https://stats.ffmuc.net/d/aegea5ohylkaoa/ffmuc-media-ccc-de?orgId=1&from=now-24h&to=now&timezone=browser&refresh=30s)
 
-## Community & Engagement
+## Verein Freie Netze München e.V.
 
 ### Umstellung Vereinsverwaltung
 
-Migration auf neues Vereinstool abgeschlossen und neue Mitglieder gewonnen so wie die Möglichkeit zum Lastschrifteinzug. Wir zählen damit **93 Mitglieder**.
+Migration auf [neues Vereinstool](https://web.meinverein.de/profile/86506) abgeschlossen und neue Mitglieder gewonnen so wie die Möglichkeit zum Lastschrifteinzug. Wir zählen damit **93 Mitglieder**.
+
+### Neue Dienste exklusiv für Mitglieder
+- [VMs](https://vms.ffmuc.net/) zur Selbstverwaltung via Incus
+- [Wireguard VPN](https://vpn.ffmuc.net/)
+- [Passwortmanager](https://vault.ffmuc.net/)
+
+### Kurzinformations Webseiten zum Verein
+- https://mitglieder.ffmuc.net/
+- https://spende.ffmuc.net/
+
+### Signifikante Anschaffungen
+
+Supportvertrag für Switche für 3 Jahre verlängt
+
+## Community & Engagement
 
 ### Neue Unterkünfte für Geflüchtete
 
@@ -143,8 +158,6 @@ Teilnahme und Weitergabe von Informationen zur Digital Strategie der [Stadt Mün
 
 ### Chatkontrolle
 Kontinuierliche Aufklärungsarbeit und kritische Begleitung der EU-Gesetzgebung zur Chatkontrolle.
-
-## Ausblick & Freifunk-Jubiläum
 
 ## Unterstützung & Spenden
 
