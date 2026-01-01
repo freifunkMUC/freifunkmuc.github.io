@@ -1,15 +1,21 @@
-// Add clickable anchor links to all headings
+// Add clickable anchor links to headings in article content only
 (function() {
   'use strict';
   
   function initHeadingAnchors() {
-    // Find all headings in the content area
-    const content = document.querySelector('.page__content') || document.querySelector('main');
-    if (!content) return;
+    // Only target headings inside single article content, not on homepage
+    const articleContent = document.querySelector('.page__content .page__inner-wrap');
+    const isSinglePost = document.body.classList.contains('layout--single');
     
-    const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    // Skip if not a single post/page or can't find content
+    if (!isSinglePost || !articleContent) return;
+    
+    const headings = articleContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
     
     headings.forEach(function(heading) {
+      // Skip if heading is a link already (like article titles)
+      if (heading.querySelector('a') || heading.closest('.archive__item')) return;
+      
       // Create ID if it doesn't exist
       if (!heading.id) {
         const text = heading.textContent.trim();
