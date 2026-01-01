@@ -60,9 +60,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
   margin-bottom: 0.75em;
   color: var(--text-color);
+  position: relative;
   
   &:first-child {
     margin-top: 0;
+  }
+  
+  /* Add anchor link markers */
+  &:hover::before {
+    content: "#";
+    position: absolute;
+    left: -1.5em;
+    color: var(--primary-color);
+    font-weight: 400;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  
+  /* Make entire heading clickable for anchor */
+  &[id] {
+    cursor: pointer;
+    scroll-margin-top: 5rem;
+    
+    &:hover {
+      color: var(--primary-color);
+    }
   }
 }
 

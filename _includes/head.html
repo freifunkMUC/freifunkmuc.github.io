@@ -30,6 +30,9 @@
 <link rel="preload" href="{{ '/assets/css/fontawesome.min.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ '/assets/css/fontawesome.min.css' | relative_url }}"></noscript>
 
+<!-- Heading anchor links -->
+<script src="{{ '/assets/js/heading-anchors.js' | relative_url }}" defer></script>
+
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
