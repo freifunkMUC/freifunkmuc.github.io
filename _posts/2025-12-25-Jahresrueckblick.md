@@ -176,7 +176,7 @@ Freifunk München nahm [Stellung zur geplanten Mindestspeicherung von IP-Adresse
 Die Stellungnahme fand Beachtung in der Fachpresse:
 - **heise online** berichtete am 11. November 2025 ausführlich über die Warnung der Freifunker mit dem Artikel ["Aus für offenes WLAN? Vorratsdatenspeicherung gefährdet digitale Teilhabe"](https://www.heise.de/news/Aus-fuer-offenes-WLAN-Vorratsdatenspeicherung-gefaehrdet-digitale-Teilhabe-11074279.html)
 - Der Artikel zitiert die Stellungnahme von Freifunk München und stellt die technischen und rechtlichen Probleme der geplanten Regelung detailliert dar
-- Auch andere Fachverbände wie die Bundesanwaltskammer (BRAK) und der eco-Verband der Internetwirtschaft schlossen sich der Kritik an
+- Auch andere Fachverbände wie die Bundesanwaltskammer (BRAK) und der eco-Verband der Internetwirtschaft übten Kritik
 
 ### Münchener Digitalrat
 Teilnahme und Weitergabe von Informationen zur Digital Strategie der [Stadt München](https://muenchen.digital/projekte/digitale-teilhabe/digitalrat.html).
