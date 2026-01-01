@@ -150,7 +150,7 @@ Unser Stammtisch findet seit diesem Jahr regelmäßig alle 2 Monate im
 [MuMaLab](https://munichmakerlab.de) statt: Socializing, Hacking, Networking, grillen, diskutieren, Spaß haben...
 
 ### Social Media Präsenz
-Aktive Präsenz auf Mastodon (@freifunkMUC@social.ffmuc.net) mit:
+Aktive Präsenz auf Mastodon ([@freifunkMUC@social.ffmuc.net](https://social.ffmuc.net/@freifunkMUC)) mit:
 - 292 Posts
 - 1.3K Follower
 - Regelmäßige Updates zu technischen Themen und Community-Events
