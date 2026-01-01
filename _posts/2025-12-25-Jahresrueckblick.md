@@ -105,6 +105,10 @@ Supportvertrag für Switche für 3 Jahre verlängert.
 
 Diese Projekte setzen die langjährige Tradition von Freifunk München fort, Internet-Zugang für Geflüchtete und sozial benachteiligte Gruppen bereitzustellen.
 
+### Unterstützung für Internet Researcher
+
+Wir unterstützen einige Internet Research Projekte mit VMs, so zum Beispiel ein Projekt zu RPKI Messungen, Globalping und weitere Wissenschaftler. Solltet ihr Unterstützung benötigen für eure Studienarbeit meldet euch gerne bei uns.
+
 ### Herausforderungen 2025
 
 **Aufruf vom Juli**: "Unser Verein braucht dich"
@@ -150,7 +154,7 @@ Unser Stammtisch findet seit diesem Jahr regelmäßig alle 2 Monate im
 [MuMaLab](https://munichmakerlab.de) statt: Socializing, Hacking, Networking, grillen, diskutieren, Spaß haben...
 
 ### Social Media Präsenz
-Aktive Präsenz auf Mastodon (@freifunkMUC@social.ffmuc.net) mit:
+Aktive Präsenz auf Mastodon ([@freifunkMUC@social.ffmuc.net](https://social.ffmuc.net/@freifunkMUC)) mit:
 - 292 Posts
 - 1.3K Follower
 - Regelmäßige Updates zu technischen Themen und Community-Events
@@ -176,7 +180,7 @@ Freifunk München nahm [Stellung zur geplanten Mindestspeicherung von IP-Adresse
 Die Stellungnahme fand Beachtung in der Fachpresse:
 - **heise online** berichtete am 11. November 2025 ausführlich über die Warnung der Freifunker mit dem Artikel ["Aus für offenes WLAN? Vorratsdatenspeicherung gefährdet digitale Teilhabe"](https://www.heise.de/news/Aus-fuer-offenes-WLAN-Vorratsdatenspeicherung-gefaehrdet-digitale-Teilhabe-11074279.html)
 - Der Artikel zitiert die Stellungnahme von Freifunk München und stellt die technischen und rechtlichen Probleme der geplanten Regelung detailliert dar
-- Auch andere Fachverbände wie die Bundesanwaltskammer (BRAK) und der eco-Verband der Internetwirtschaft schlossen sich der Kritik an
+- Auch andere Fachverbände wie die Bundesanwaltskammer (BRAK) und der eco-Verband der Internetwirtschaft übten Kritik
 
 ### Münchener Digitalrat
 Teilnahme und Weitergabe von Informationen zur Digital Strategie der [Stadt München](https://muenchen.digital/projekte/digitale-teilhabe/digitalrat.html).
