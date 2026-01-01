@@ -105,6 +105,10 @@ Supportvertrag für Switche für 3 Jahre verlängert.
 
 Diese Projekte setzen die langjährige Tradition von Freifunk München fort, Internet-Zugang für Geflüchtete und sozial benachteiligte Gruppen bereitzustellen.
 
+### Unterstützung für Internet Researcher
+
+Wir unterstützen einige Internet Research Projekte mit VMs, so zum Beispiel ein Projekt zu RPKI Messungen, Globalping und weitere Wissenschaftler. Solltet ihr Unterstützung benötigen für eure Studienarbeit meldet euch gerne bei uns.
+
 ### Herausforderungen 2025
 
 **Aufruf vom Juli**: "Unser Verein braucht dich"
