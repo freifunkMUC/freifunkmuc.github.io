@@ -354,6 +354,69 @@ input, textarea, select {
   }
 }
 
+/* Remove overlay effects in light mode */
+body:after,
+body::after,
+body:before,
+body::before,
+.initial-content:before,
+.initial-content::before,
+.initial-content:after,
+.initial-content::after,
+#main:before,
+#main::before,
+#main:after,
+#main::after,
+.masthead:after,
+.masthead::after,
+.masthead:before,
+.masthead::before,
+.nav__list:before,
+.nav__list::before,
+.nav__list:after,
+.nav__list::after,
+.greedy-nav:before,
+.greedy-nav::before,
+.greedy-nav:after,
+.greedy-nav::after,
+.greedy-nav__toggle:before,
+.greedy-nav__toggle::before,
+.greedy-nav__toggle:after,
+.greedy-nav__toggle::after {
+  display: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  backdrop-filter: none !important;
+}
+
+/* Specifically target when menu is open/visible in light mode */
+.nav__list.nav__list--visible:before,
+.nav__list.nav__list--visible::before,
+.nav__list.nav__list--visible:after,
+.nav__list.nav__list--visible::after,
+.hidden--visble:before,
+.hidden--visble::before,
+.hidden--visble:after,
+.hidden--visble::after {
+  display: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  backdrop-filter: none !important;
+}
+
+/* Remove any backdrop elements */
+.backdrop,
+[class*="backdrop"],
+[class*="overlay"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -473,15 +536,67 @@ input, textarea, select {
     color: var(--text-color);
   }
   
-  /* Remove grey overlay/backdrop in dark mode */
+  /* Remove ALL grey overlay/backdrop effects in dark mode */
   body:after,
+  body::after,
+  body:before,
+  body::before,
   .initial-content:before,
+  .initial-content::before,
+  .initial-content:after,
+  .initial-content::after,
   #main:before,
+  #main::before,
+  #main:after,
+  #main::after,
   .masthead:after,
-  .nav__list:before {
+  .masthead::after,
+  .masthead:before,
+  .masthead::before,
+  .nav__list:before,
+  .nav__list::before,
+  .nav__list:after,
+  .nav__list::after,
+  .greedy-nav:before,
+  .greedy-nav::before,
+  .greedy-nav:after,
+  .greedy-nav::after,
+  .greedy-nav__toggle:before,
+  .greedy-nav__toggle::before,
+  .greedy-nav__toggle:after,
+  .greedy-nav__toggle::after {
     display: none !important;
     background: transparent !important;
+    background-color: transparent !important;
     opacity: 0 !important;
+    visibility: hidden !important;
+    backdrop-filter: none !important;
+  }
+  
+  /* Specifically target when menu is open/visible */
+  .nav__list.nav__list--visible:before,
+  .nav__list.nav__list--visible::before,
+  .nav__list.nav__list--visible:after,
+  .nav__list.nav__list--visible::after,
+  .hidden--visble:before,
+  .hidden--visble::before,
+  .hidden--visble:after,
+  .hidden--visble::after {
+    display: none !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    backdrop-filter: none !important;
+  }
+  
+  /* Remove any backdrop elements */
+  .backdrop,
+  [class*="backdrop"],
+  [class*="overlay"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
   }
   
   /* Force dark backgrounds everywhere */
