@@ -1,38 +1,40 @@
-// Add clickable anchor links to headings in article content only
+// Add clickable anchor links to headings in article content
 (function() {
   'use strict';
   
   function initHeadingAnchors() {
-    // Only target headings inside single article content, not on homepage
-    const articleContent = document.querySelector('.page__content .page__inner-wrap');
-    const isSinglePost = document.body.classList.contains('layout--single');
+    // Get all headings on the page
+    const allHeadings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
     
-    // Skip if not a single post/page or can't find content
-    if (!isSinglePost || !articleContent) return;
-    
-    const headings = articleContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
-    
-    headings.forEach(function(heading) {
-      // Skip if heading is a link already (like article titles)
-      if (heading.querySelector('a') || heading.closest('.archive__item')) return;
+    allHeadings.forEach(function(heading) {
+      // Skip headings that are:
+      // - Already links
+      // - Inside archive items (homepage article listings)
+      // - Inside the page hero
+      // - Inside navigation
+      if (heading.querySelector('a') || 
+          heading.closest('.archive__item') ||
+          heading.closest('.page__hero') ||
+          heading.closest('.greedy-nav')) {
+        return;
+      }
       
       // Create ID if it doesn't exist
       if (!heading.id) {
         const text = heading.textContent.trim();
         heading.id = text
           .toLowerCase()
-          .replace(/[^\w\s-]/g, '')
+          .replace(/[^\w\s-äöüß]/g, '')
           .replace(/\s+/g, '-')
           .replace(/-+/g, '-');
       }
       
       // Make heading clickable
       heading.style.cursor = 'pointer';
-      heading.setAttribute('title', 'Click to get link to this section');
+      heading.setAttribute('title', 'Klicken um Link zu diesem Abschnitt zu erhalten');
       
       // Add click handler
       heading.addEventListener('click', function(e) {
-        e.preventDefault();
         const id = this.id;
         if (id) {
           // Update URL
