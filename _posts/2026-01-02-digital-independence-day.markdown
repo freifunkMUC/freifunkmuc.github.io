@@ -40,4 +40,4 @@ Freifunk München bietet dazu folgende Möglichkeiten:
 
 Weitere Informationen und andere lokale Angebote gibt es bei [DI.DAY](https://di.day)
 
-Wer unsere Arbeit unterstützen möchte: Bitte [hier](https://spende.ffmuc.net) entlang.
+Wenn ihr unsere Arbeit unterstützen möchtet, würden wir uns über eine [Spende](https://spende.ffmuc.net) freuen.
