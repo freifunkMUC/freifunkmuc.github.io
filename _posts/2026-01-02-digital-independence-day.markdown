@@ -5,7 +5,6 @@ date: 2026-01-02 10:00:00
 categories: freifunkmuc
 ---
 
-**DID Digital Independence Day**  
 immer am 1. Sonntag im Monat
 
 Diesen Sonntag am 04.01.2026 startet der erste Digital Independence Day. 
