@@ -619,7 +619,15 @@ body::before,
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: var(--text-color);
+    color: #ffffff;
+  }
+  
+  .page__title {
+    color: #ffffff !important;
+  }
+  
+  .archive__item-title {
+    color: #ffffff !important;
   }
   
   code {
@@ -979,5 +987,25 @@ table {
   span.translation-lang-inline {
     color: var(--text-muted, #666);
     font-weight: 400;
+  }
+}
+
+/* ==========================================================================
+   Dark Mode Title Fix
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  .page__title,
+  .page__meta-title,
+  h1.page__title,
+  .page h1,
+  .layout--single h1 {
+    color: #ffffff !important;
+  }
+  
+  .page__title a,
+  h1.page__title a {
+    color: #ffffff !important;
+    text-decoration: none !important;
   }
 }
