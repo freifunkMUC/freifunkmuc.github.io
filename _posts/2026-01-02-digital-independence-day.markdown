@@ -36,7 +36,7 @@ Freifunk München bietet dazu folgende Möglichkeiten:
  - IPv4: 185.150.99.255 / 5.1.66.255 
  - IPv6: 2001:678:e68:f000:: / 2001:678:ed0:f000::
  - DoH: https://doh.ffmuc.net/dns-query 
- - DoT/DoQ: http://dot.ffmuc.net Port 853
+ - DoT/DoQ: https://dot.ffmuc.net Port 853
 
 Weitere Informationen und andere lokale Angebote gibt es bei [DI.DAY](https://di.day)
 
