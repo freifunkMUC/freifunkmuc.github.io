@@ -29,7 +29,7 @@ pagination:
 <h2 class="news-heading">Neuigkeiten</h2>
 
 {% if paginator %}
-{% assign posts = paginator.posts | sort: 'date' | reverse %}
+{% assign posts = paginator.posts | where_lang: "de" | sort: 'date' | reverse %}
 {% else %}
-{% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign posts = site.posts | where_lang: "de" | sort: 'date' | reverse %}
 {% endif %}

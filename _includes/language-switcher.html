@@ -1,0 +1,106 @@
+<div class="language-switcher">
+  <style>
+    .language-switcher {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 8px 12px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .language-switcher select {
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    section.language-content,
+    div.language-content {
+      display: none !important;
+    }
+    section.language-content.active,
+    div.language-content.active {
+      display: block !important;
+    }
+    @media (max-width: 768px) {
+      .language-switcher {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 10px;
+      }
+    }
+  </style>
+  
+  <select id="language-selector" onchange="switchLanguage(this.value)">
+    <option value="de" selected>🇩🇪 Deutsch</option>
+    <option value="en">🇬🇧 English</option>
+    <option value="fr">🇫🇷 Français</option>
+    <option value="es">🇪🇸 Español</option>
+    <option value="ua">🇺🇦 Українська</option>
+  </select>
+  
+  <script>
+    function switchLanguage(lang) {
+      // Save language preference
+      localStorage.setItem('preferredLanguage', lang);
+      
+      // Update URL hash for sharing
+      if (history.replaceState) {
+        history.replaceState(null, null, '#' + lang);
+      } else {
+        window.location.hash = lang;
+      }
+      
+      // Hide all language versions
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        el.classList.remove('active');
+      });
+      
+      // Show selected language
+      document.querySelectorAll('[data-lang="' + lang + '"]').forEach(el => {
+        el.classList.add('active');
+      });
+      
+      // Update selector
+      document.getElementById('language-selector').value = lang;
+    }
+    
+    // Load saved preference or detect browser language
+    document.addEventListener('DOMContentLoaded', function() {
+      var langToUse = 'de'; // default
+      
+      // Check URL hash first (for sharing links)
+      var hashLang = window.location.hash.substring(1);
+      if (hashLang && ['de', 'en', 'fr', 'es', 'ua'].includes(hashLang)) {
+        langToUse = hashLang;
+      } else {
+        // Check saved preference
+        var savedLang = localStorage.getItem('preferredLanguage');
+        if (savedLang && ['de', 'en', 'fr', 'es', 'ua'].includes(savedLang)) {
+          langToUse = savedLang;
+        } else {
+          // Auto-detect browser language
+          var userLang = navigator.language || navigator.userLanguage;
+          var langCode = userLang.split('-')[0];
+          if (['en', 'fr', 'es', 'ua'].includes(langCode)) {
+            langToUse = langCode;
+          }
+        }
+      }
+      
+      switchLanguage(langToUse);
+    });
+    
+    // Handle hash changes (browser back/forward)
+    window.addEventListener('hashchange', function() {
+      var hashLang = window.location.hash.substring(1);
+      if (hashLang && ['de', 'en', 'fr', 'es', 'ua'].includes(hashLang)) {
+        switchLanguage(hashLang);
+      }
+    });
+  </script>
+</div>

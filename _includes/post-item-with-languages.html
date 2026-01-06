@@ -1,0 +1,63 @@
+{% assign post_url = include.post.url | relative_url %}
+{% assign post_title = include.post.title | markdownify | strip_html %}
+
+<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    <a href="{{ post_url }}" rel="permalink">{{ post_title }}</a>
+  </h2>
+  
+  {% if include.post.translations and include.post.translations.size > 0 %}
+    <p class="translation-indicators">
+      <span class="translation-lang">Deutsch</span>
+      {% for lang in include.post.translations %}
+        {% if lang == "en" %}
+          <a href="{{ post_url }}#en" class="translation-lang">English</a>
+        {% elsif lang == "fr" %}
+          <a href="{{ post_url }}#fr" class="translation-lang">Français</a>
+        {% elsif lang == "es" %}
+          <a href="{{ post_url }}#es" class="translation-lang">Español</a>
+        {% elsif lang == "ua" %}
+          <a href="{{ post_url }}#ua" class="translation-lang">Українська</a>
+        {% endif %}
+      {% endfor %}
+    </p>
+  {% endif %}
+  
+  {% if include.post.date %}
+    <p class="page__meta">
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">
+        {{ include.post.date | date: "%B %d, %Y" }}
+      </time>
+    </p>
+  {% endif %}
+  
+  {% if include.post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ include.post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+  {% endif %}
+</article>
+
+<style>
+  .translation-indicators {
+    font-size: 0.85em;
+    margin: 0.1rem 0 0.5rem 0;
+    color: var(--text-muted, #666);
+  }
+  
+  .translation-lang {
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: var(--primary-color, #7253ed);
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+  }
+  
+  .translation-lang:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+  
+  .translation-indicators span.translation-lang {
+    color: var(--text-muted, #666);
+    font-weight: 400;
+  }
+</style>

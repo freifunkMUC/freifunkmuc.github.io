@@ -7,6 +7,9 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
+    {% if page.translations %}
+      {% include language-switcher.html %}
+    {% endif %}
     {% include_cached masthead.html %}
 
     <!-- Main Content Area with proper ARIA landmarks -->

@@ -1,0 +1,39 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+{% endif %}
+
+<div class="entries-list">
+  {% for post in posts %}
+    {% include post-item-with-languages.html post=post %}
+  {% endfor %}
+</div>
+
+{% if paginator %}
+  {% if paginator.total_pages > 1 %}
+    <nav class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination--pager">&laquo; {{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+      {% else %}
+        <span class="pagination--pager disabled">&laquo; {{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span>
+      {% endif %}
+
+      <span class="pagination--page">
+        {{ paginator.page }} {{ site.data.ui-text[site.locale].pagination_of | default: "of" }} {{ paginator.total_pages }}
+      </span>
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination--pager">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }} &raquo;</a>
+      {% else %}
+        <span class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }} &raquo;</span>
+      {% endif %}
+    </nav>
+  {% endif %}
+{% endif %}

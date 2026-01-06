@@ -420,8 +420,8 @@ body::before,
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #e8eaed;
-    --text-light: #9aa0a6;
+    --text-color: #f0f0f0;
+    --text-light: #d0d0d0;
     --background-color: #202124;
     --background-alt: #292a2d;
     --border-color: #3c4043;
@@ -619,18 +619,35 @@ body::before,
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: var(--text-color);
+    color: #ffffff;
+  }
+  
+  .page__title {
+    color: #ffffff !important;
+  }
+  
+  .archive__item-title {
+    color: #ffffff !important;
   }
   
   code {
-    background: var(--background-alt);
+    background: #1a1a1d;
     border-color: var(--border-color);
-    color: var(--text-color);
+    color: #ff4d94;
+    padding: 2px 6px;
+    border-radius: 3px;
   }
   
   pre {
-    background: var(--background-alt);
+    background: #1a1a1d;
     border-color: var(--border-color);
+    
+    code {
+      color: #f0f0f0;
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+    }
   }
   
   table th {
@@ -763,6 +780,26 @@ table {
   
   a {
     margin: 0 0.5rem;
+    color: var(--primary-color);
+    
+    &:hover {
+      color: var(--primary-dark);
+    }
+  }
+}
+
+/* Light mode specific footer */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  .page__footer {
+    color: #333 !important;
+    
+    a {
+      color: #7253ed !important;
+      
+      &:hover {
+        color: #5a3fc9 !important;
+      }
+    }
   }
 }
 
@@ -951,4 +988,53 @@ table {
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--primary-color);
+}
+
+/* ==========================================================================
+   Translation Indicators
+   ========================================================================== */
+
+.translation-indicators-inline {
+  display: inline-block;
+  margin: 0 0.75rem;
+  font-size: 0.8em;
+  color: var(--text-muted, #666);
+  
+  .translation-lang-inline {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-color, #7253ed);
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+    
+    &:hover {
+      opacity: 0.7;
+      text-decoration: underline;
+    }
+  }
+  
+  span.translation-lang-inline {
+    color: var(--text-muted, #666);
+    font-weight: 400;
+  }
+}
+
+/* ==========================================================================
+   Dark Mode Title Fix
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  .page__title,
+  .page__meta-title,
+  h1.page__title,
+  .page h1,
+  .layout--single h1 {
+    color: #ffffff !important;
+  }
+  
+  .page__title a,
+  h1.page__title a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
 }
