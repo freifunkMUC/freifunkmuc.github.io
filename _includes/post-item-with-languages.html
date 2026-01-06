@@ -2,13 +2,9 @@
 {% assign post_title = include.post.title | markdownify | strip_html %}
 
 <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-  {% if include.post.date %}
-    <p class="page__meta">
-      <time datetime="{{ include.post.date | date_to_xmlschema }}">
-        {{ include.post.date | date: "%B %d, %Y" }}
-      </time>
-    </p>
-  {% endif %}
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    <a href="{{ post_url }}" rel="permalink">{{ post_title }}</a>
+  </h2>
   
   {% if include.post.translations and include.post.translations.size > 0 %}
     <p class="translation-indicators">
@@ -27,9 +23,13 @@
     </p>
   {% endif %}
   
-  <h2 class="archive__item-title no_toc" itemprop="headline">
-    <a href="{{ post_url }}" rel="permalink">{{ post_title }}</a>
-  </h2>
+  {% if include.post.date %}
+    <p class="page__meta">
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">
+        {{ include.post.date | date: "%B %d, %Y" }}
+      </time>
+    </p>
+  {% endif %}
   
   {% if include.post.excerpt %}
     <p class="archive__item-excerpt" itemprop="description">{{ include.post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
@@ -39,7 +39,7 @@
 <style>
   .translation-indicators {
     font-size: 0.85em;
-    margin: 0.25rem 0;
+    margin: 0.1rem 0 0.5rem 0;
     color: var(--text-muted, #666);
   }
   

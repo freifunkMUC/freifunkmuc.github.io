@@ -18,6 +18,7 @@ title: Archiv
     {% if y == current_year %}
     <li>
       <span class="post-date">{{ post.date | date: "%b %-d" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% if post.translations and post.translations.size > 0 %}
         <span class="translation-indicators-inline">
           <span class="translation-lang-inline">Deutsch</span>
@@ -34,7 +35,6 @@ title: Archiv
           {% endfor %}
         </span>
       {% endif %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
     {% endif %}
   {% endfor %}
