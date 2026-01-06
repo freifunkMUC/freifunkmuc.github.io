@@ -771,6 +771,26 @@ table {
   
   a {
     margin: 0 0.5rem;
+    color: var(--primary-color);
+    
+    &:hover {
+      color: var(--primary-dark);
+    }
+  }
+}
+
+/* Light mode specific footer */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  .page__footer {
+    color: #333 !important;
+    
+    a {
+      color: #7253ed !important;
+      
+      &:hover {
+        color: #5a3fc9 !important;
+      }
+    }
   }
 }
 
