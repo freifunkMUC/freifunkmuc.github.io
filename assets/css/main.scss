@@ -952,3 +952,32 @@ table {
   padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--primary-color);
 }
+
+/* ==========================================================================
+   Translation Indicators
+   ========================================================================== */
+
+.translation-indicators-inline {
+  display: inline-block;
+  margin: 0 0.75rem;
+  font-size: 0.8em;
+  color: var(--text-muted, #666);
+  
+  .translation-lang-inline {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-color, #7253ed);
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+    
+    &:hover {
+      opacity: 0.7;
+      text-decoration: underline;
+    }
+  }
+  
+  span.translation-lang-inline {
+    color: var(--text-muted, #666);
+    font-weight: 400;
+  }
+}

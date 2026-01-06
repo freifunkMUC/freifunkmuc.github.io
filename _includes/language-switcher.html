@@ -48,6 +48,13 @@
       // Save language preference
       localStorage.setItem('preferredLanguage', lang);
       
+      // Update URL hash for sharing
+      if (history.replaceState) {
+        history.replaceState(null, null, '#' + lang);
+      } else {
+        window.location.hash = lang;
+      }
+      
       // Hide all language versions
       document.querySelectorAll('[data-lang]').forEach(el => {
         el.classList.remove('active');
@@ -64,21 +71,36 @@
     
     // Load saved preference or detect browser language
     document.addEventListener('DOMContentLoaded', function() {
-      var savedLang = localStorage.getItem('preferredLanguage');
       var langToUse = 'de'; // default
       
-      if (savedLang && ['de', 'en', 'fr', 'es', 'ua'].includes(savedLang)) {
-        langToUse = savedLang;
+      // Check URL hash first (for sharing links)
+      var hashLang = window.location.hash.substring(1);
+      if (hashLang && ['de', 'en', 'fr', 'es', 'ua'].includes(hashLang)) {
+        langToUse = hashLang;
       } else {
-        // Auto-detect browser language
-        var userLang = navigator.language || navigator.userLanguage;
-        var langCode = userLang.split('-')[0];
-        if (['en', 'fr', 'es', 'ua'].includes(langCode)) {
-          langToUse = langCode;
+        // Check saved preference
+        var savedLang = localStorage.getItem('preferredLanguage');
+        if (savedLang && ['de', 'en', 'fr', 'es', 'ua'].includes(savedLang)) {
+          langToUse = savedLang;
+        } else {
+          // Auto-detect browser language
+          var userLang = navigator.language || navigator.userLanguage;
+          var langCode = userLang.split('-')[0];
+          if (['en', 'fr', 'es', 'ua'].includes(langCode)) {
+            langToUse = langCode;
+          }
         }
       }
       
       switchLanguage(langToUse);
+    });
+    
+    // Handle hash changes (browser back/forward)
+    window.addEventListener('hashchange', function() {
+      var hashLang = window.location.hash.substring(1);
+      if (hashLang && ['de', 'en', 'fr', 'es', 'ua'].includes(hashLang)) {
+        switchLanguage(hashLang);
+      }
     });
   </script>
 </div>
