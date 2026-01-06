@@ -1,18 +1,31 @@
 ---
-layout: archive
+layout: single
 ---
 
-{{ content }}
+{% comment %}
+Multi-language post layout
+Posts can include translations in data attributes: data-lang="en", data-lang="fr", etc.
+Default content is shown unless language-specific content is provided.
+{% endcomment %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign posts_limit = site.posts_limit | default: 10 %}
-<section class="taxonomy__section">
-  <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_label | default: 'Recent Posts' }}</h2>
-  <div class="entries-{{ entries_layout }}">
-    {% assign recent_posts = site.posts | where_exp: "item", "item.hidden != true" | slice: 0, posts_limit %}
-    {% for post in recent_posts %}
-      {% include archive-single.html type=entries_layout %}
+{% if page.translations %}
+  <div class="language-versions" style="margin-bottom: 1.5em; padding: 0.75em 1em; background: #f5f5f5; border-left: 4px solid #7c4dff; border-radius: 3px;">
+    <p style="margin: 0;"><strong>Available in:</strong>
+    <a href="#" onclick="switchLanguage('de'); return false;" style="cursor: pointer;">Deutsch</a>
+    {% for lang in page.translations %}
+      | {% case lang %}
+        {% when 'en' %}
+          <a href="#" onclick="switchLanguage('en'); return false;" style="cursor: pointer;">English</a>
+        {% when 'fr' %}
+          <a href="#" onclick="switchLanguage('fr'); return false;" style="cursor: pointer;">Français</a>
+        {% when 'es' %}
+          <a href="#" onclick="switchLanguage('es'); return false;" style="cursor: pointer;">Español</a>
+        {% when 'ua' %}
+          <a href="#" onclick="switchLanguage('ua'); return false;" style="cursor: pointer;">Українська</a>
+      {% endcase %}
     {% endfor %}
+    </p>
   </div>
-  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</section>
+{% endif %}
+
+{{ content }}

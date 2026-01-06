@@ -24,6 +24,12 @@ description: "Freifunk München ist eine nichtkommerzielle Initiative für den A
 url: "https://ffmuc.net"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "freifunkMUC/freifunkmuc.github.io"
+
+# Multi-language support
+languages: ["de", "en", "fr", "es", "ua"]
+default_lang: "de"
+exclude_from_localization: ["assets", "javascript", "images"]
+parallel_localization: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 
@@ -201,13 +207,26 @@ header:
 
 # Defaults
 defaults:
-  # _posts
+  # _posts with single layout (regular posts)
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      show_date: true
+  # _posts with posts layout (multi-language posts)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: posts
+      author_profile: false
+      classes: wide
       read_time: true
       comments: # true
       share: true
