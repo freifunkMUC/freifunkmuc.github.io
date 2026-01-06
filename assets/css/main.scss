@@ -420,8 +420,8 @@ body::before,
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #e8eaed;
-    --text-light: #9aa0a6;
+    --text-color: #f0f0f0;
+    --text-light: #d0d0d0;
     --background-color: #202124;
     --background-alt: #292a2d;
     --border-color: #3c4043;
