@@ -3,6 +3,9 @@ layout: home
 permalink: /
 hidden: true
 author_profile: true
+sidebar:
+  - title: '<a href="https://silo.ffmuc.net" target="_blank" style="color: inherit;">Richtfunk - Webcam</a>'
+    text: '<iframe src="https://silo.ffmuc.net/embed/video" title="Owncast" style="width: 100%; height: 200px; border: none;" referrerpolicy="origin" allowfullscreen></iframe>'
 header:
   overlay_image: /assets/banner.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
