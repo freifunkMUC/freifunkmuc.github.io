@@ -26,6 +26,14 @@ Freifunk München betreibt seit Jahren zensurfreie, öffentliche DNS-Resolver al
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Port 853
 
+### Live-Statistiken
+
+Verfolge die Nutzung unseres DNS-Services in Echtzeit:
+
+<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
+
+[→ Statistiken in neuem Fenster öffnen](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+
 ### Warum ist das wichtig?
 
 Die Listung bei European Alternatives hilft dabei:
@@ -120,6 +128,14 @@ Freifunk München has been operating censorship-free, public DNS resolvers for y
 - IPv6: `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Port 853
+
+### Live Statistics
+
+Track our DNS service usage in real-time:
+
+<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
+
+[→ Open statistics in new window](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### Why is this important?
 
@@ -216,6 +232,14 @@ Freifunk München exploite depuis des années des résolveurs DNS publics sans c
 - DoH (DNS over HTTPS) : `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC) : `dot.ffmuc.net` / `doq.ffmuc.net` Port 853
 
+### Statistiques en direct
+
+Suivez l'utilisation de notre service DNS en temps réel :
+
+<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
+
+[→ Ouvrir les statistiques dans une nouvelle fenêtre](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+
 ### Pourquoi est-ce important ?
 
 Le référencement sur European Alternatives aide à :
@@ -311,6 +335,14 @@ Freifunk München opera desde hace años resolvedores DNS públicos sin censura 
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Puerto 853
 
+### Estadísticas en vivo
+
+Sigue el uso de nuestro servicio DNS en tiempo real:
+
+<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
+
+[→ Abrir estadísticas en nueva ventana](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+
 ### ¿Por qué es esto importante?
 
 La inclusión en European Alternatives ayuda a:
@@ -405,6 +437,14 @@ Freifunk München уже багато років керує публічними
 - IPv6: `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Порт 853
+
+### Статистика в реальному часі
+
+Відстежуйте використання нашого DNS-сервісу в реальному часі:
+
+<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
+
+[→ Відкрити статистику в новому вікні](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### Чому це важливо?
 
