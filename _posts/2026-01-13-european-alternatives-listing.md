@@ -25,6 +25,7 @@ Freifunk München betreibt seit Jahren zensurfreie, öffentliche DNS-Resolver al
 - IPv6: `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Port 853
+- DNSSEC-Validierung aktiv
 
 ### Live-Statistiken
 
@@ -126,6 +127,7 @@ Freifunk München has been operating censorship-free, public DNS resolvers for y
 - IPv6: `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Port 853
+- DNSSEC validation enabled
 
 ### Live Statistics
 
@@ -227,6 +229,7 @@ Freifunk München exploite depuis des années des résolveurs DNS publics sans c
 - IPv6 : `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS) : `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC) : `dot.ffmuc.net` / `doq.ffmuc.net` Port 853
+- Validation DNSSEC activée
 
 ### Statistiques en direct
 
@@ -328,6 +331,7 @@ Freifunk München opera desde hace años resolvedores DNS públicos sin censura 
 - IPv6: `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Puerto 853
+- Validación DNSSEC habilitada
 
 ### Estadísticas en vivo
 
@@ -429,6 +433,7 @@ Freifunk München уже багато років керує публічними
 - IPv6: `2001:678:e68:f000::` / `2001:678:ed0:f000::`
 - DoH (DNS over HTTPS): `https://doh.ffmuc.net/dns-query`
 - DoT/DoQ (DNS over TLS/QUIC): `dot.ffmuc.net` / `doq.ffmuc.net` Порт 853
+- Валідація DNSSEC увімкнена
 
 ### Статистика в реальному часі
 
