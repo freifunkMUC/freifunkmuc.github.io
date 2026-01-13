@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "FFMUC DNS jetzt bei European Alternatives gelistet"
-date: 2026-01-13 12:00:00 +0100
+date: 2026-01-13 08:00:00 +0100
 categories: freifunk dns privacy
 translations: [en, fr, es, ua]
 ---
