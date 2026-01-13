@@ -10,7 +10,7 @@ translations: [en, fr, es, ua]
 
 ## FFMUC DNS jetzt bei European Alternatives gelistet
 
-Wir freuen uns bekannt zu geben, dass unser DNS-Service nun offiziell bei [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns) gelistet ist!
+Unser DNS-Service ist nun offiziell bei [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns) gelistet!
 
 ### Was ist European Alternatives?
 
