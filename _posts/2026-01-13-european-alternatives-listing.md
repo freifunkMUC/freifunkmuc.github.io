@@ -28,11 +28,9 @@ Freifunk München betreibt seit Jahren zensurfreie, öffentliche DNS-Resolver al
 
 ### Live-Statistiken
 
-Verfolge die Nutzung unseres DNS-Services in Echtzeit:
+[![DNS Service Statistics](https://stats.ffmuc.net/render/d-solo/tlvoghcZk/doh-dot?panelId=2&orgId=1&theme=light&width=500&height=500)](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
-<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
-
-[→ Statistiken in neuem Fenster öffnen](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+[→ Vollständiges Dashboard öffnen](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### Warum ist das wichtig?
 
@@ -131,11 +129,9 @@ Freifunk München has been operating censorship-free, public DNS resolvers for y
 
 ### Live Statistics
 
-Track our DNS service usage in real-time:
+[![DNS Service Statistics](https://stats.ffmuc.net/render/d-solo/tlvoghcZk/doh-dot?panelId=2&orgId=1&theme=light&width=500&height=500)](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
-<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
-
-[→ Open statistics in new window](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+[→ Open full dashboard](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### Why is this important?
 
@@ -234,11 +230,9 @@ Freifunk München exploite depuis des années des résolveurs DNS publics sans c
 
 ### Statistiques en direct
 
-Suivez l'utilisation de notre service DNS en temps réel :
+[![DNS Service Statistics](https://stats.ffmuc.net/render/d-solo/tlvoghcZk/doh-dot?panelId=2&orgId=1&theme=light&width=500&height=500)](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
-<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
-
-[→ Ouvrir les statistiques dans une nouvelle fenêtre](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+[→ Ouvrir le tableau de bord complet](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### Pourquoi est-ce important ?
 
@@ -337,11 +331,9 @@ Freifunk München opera desde hace años resolvedores DNS públicos sin censura 
 
 ### Estadísticas en vivo
 
-Sigue el uso de nuestro servicio DNS en tiempo real:
+[![DNS Service Statistics](https://stats.ffmuc.net/render/d-solo/tlvoghcZk/doh-dot?panelId=2&orgId=1&theme=light&width=500&height=500)](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
-<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
-
-[→ Abrir estadísticas en nueva ventana](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+[→ Abrir panel completo](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### ¿Por qué es esto importante?
 
@@ -440,11 +432,9 @@ Freifunk München уже багато років керує публічними
 
 ### Статистика в реальному часі
 
-Відстежуйте використання нашого DNS-сервісу в реальному часі:
+[![DNS Service Statistics](https://stats.ffmuc.net/render/d-solo/tlvoghcZk/doh-dot?panelId=2&orgId=1&theme=light&width=500&height=500)](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
-<iframe src="https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m&theme=light&kiosk" width="100%" height="600" frameborder="0"></iframe>
-
-[→ Відкрити статистику в новому вікні](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
+[→ Відкрити повну панель](https://stats.ffmuc.net/d/tlvoghcZk/doh-dot?orgId=1&refresh=1m)
 
 ### Чому це важливо?
 
