@@ -36,7 +36,7 @@ Der Gesetzentwurf geht davon aus, dass ein Anbieter „seinem Kunden" eine IP-Ad
 - Moderne Endgeräte wechseln ständig ihre Identität: Sie erzeugen eigene IPv6-Adressen (SLAAC mit Privacy Extensions), rotieren ihre MAC-Adressen und erscheinen dem Netz bei jeder Verbindung als neues, unbekanntes Gerät.
 - Es gibt keine zentrale Stelle, die Adressen „zuweist" – das Netz stellt Konnektivität bereit, die Adressvergabe geschieht automatisch und dezentral.
 
-Um die Speicherpflicht zu erfüllen, müssten wir **jeden dieser tausenden Nutzer identifizieren** – etwa durch ein Captive Portal mit Ausweispflicht oder Mobilfunknummer. Das würde den offenen Charakter des Netzes zerstören und ist mit unserem gemeinnützigen Zweck unvereinbar.
+Um die Speicherpflicht zu erfüllen, müssten wir **jeden dieser tausenden Nutzer identifizieren** – etwa durch ein Captive Portal mit Ausweispflicht oder Mobilfunknummer. Das würde nicht nur den offenen Charakter des Netzes zerstören, sondern auch die **niederschwellige Nutzung** unmöglich machen, die gerade den gesellschaftlichen Wert von Freifunk ausmacht: Menschen ohne Smartphone-Vertrag, ohne Ausweis, ohne Sprachkenntnisse – Geflüchtete, Wohnungslose, Kinder, ältere Menschen – nutzen unser Netz täglich, weil es **barrierefrei** funktioniert: verbinden und lossurfen, ohne Formulare, ohne Registrierung, ohne Hürden. Eine Identifikationspflicht würde genau diese Menschen ausschließen und ist mit unserem gemeinnützigen Zweck unvereinbar.
 
 ### 2. Die Kosten: NAT-Protokollierung bei tausenden gleichzeitigen Nutzern
 
