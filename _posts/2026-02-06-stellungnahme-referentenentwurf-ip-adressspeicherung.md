@@ -46,7 +46,7 @@ Diese Datenmengen ermöglichen entgegen der Behauptung des Entwurfs sehr wohl di
 
 ### 3. Systeme von Freifunk sind „Privacy by Design"
 
-Unsere Netzwerkinfrastruktur wurde bewusst und DSGVO-konform nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einem Endgerät oder einer Person zuzuordnen. Dieses Designprinzip ist keine Nachlässigkeit, sondern bewusste Umsetzung geltenden Datenschutzrechts. Eine grundlegende Umgestaltung der Systeme wäre notwendig – und stünde im direkten Widerspruch zu den Prinzipien von Privacy by Design und Privacy by Default.
+Unsere Netzwerkinfrastruktur wurde bewusst und DSGVO-konform nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einer konkreten Person zuzuordnen – es existiert weder eine Nutzerregistrierung noch ein Vertragsverhältnis, das eine solche Zuordnung erlauben würde. Dieses Designprinzip ist keine Nachlässigkeit, sondern bewusste Umsetzung geltenden Datenschutzrechts. Eine grundlegende Umgestaltung der Systeme wäre notwendig – und stünde im direkten Widerspruch zu den Prinzipien von Privacy by Design und Privacy by Default.
 
 ---
 
@@ -95,7 +95,7 @@ Der Referentenentwurf enthält keine nachvollziehbare Darstellung des **Erfüllu
 
 ## V. Breiter Konsens gegen den Entwurf
 
-Unsere Einschätzung wird von einer breiten Allianz aus Zivilgesellschaft, Wirtschaft und Fachwissenschaft geteilt. Unter den 27 veröffentlichten Stellungnahmen lehnen zahlreiche Organisationen den Entwurf ab oder fordern grundlegende Änderungen:
+Unsere Einschätzung wird von einer breiten Allianz aus Zivilgesellschaft, Wirtschaft und Fachwissenschaft geteilt. Unter den [27 veröffentlichten Stellungnahmen](https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/Stellugnahmen_RefE_IP_Speicherung.zip?__blob=publicationFile&v=2) lehnen zahlreiche Organisationen den Entwurf ab oder fordern grundlegende Änderungen:
 
 - Die **Bundesrechtsanwaltskammer (BRAK)** kritisiert die anlasslose Speicherung als grundrechtswidrig und bemängelt fehlende richterliche Kontrolle.
 - Der **eco – Verband der Internetwirtschaft** sieht Gründe für eine vollständige Rücknahme des Entwurfs.
