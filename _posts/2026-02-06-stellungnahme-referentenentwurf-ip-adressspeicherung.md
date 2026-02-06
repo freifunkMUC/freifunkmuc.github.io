@@ -24,29 +24,42 @@ Wir lehnen den Entwurf in seiner jetzigen Form ab. Er ist mit dem Betrieb offene
 
 ---
 
-## II. Technische Unmöglichkeit der Umsetzung in offenen Netzen
+## II. Warum die Umsetzung in offenen Netzen unmöglich und unbezahlbar ist
 
-### 1. Keine Zuordnung von IP-Adressen zu Personen möglich
+### 1. Die Dimension: 4.000 und mehr gleichzeitige Nutzer – ohne jedes Vertragsverhältnis
 
-Der Gesetzentwurf setzt voraus, dass eine eindeutige Zuordnung einer IP-Adresse zu einem „Anschlussinhaber" technisch möglich ist. **Diese Annahme trifft auf offene WLAN-Netze wie Freifunk nicht zu.**
+Freifunk München versorgt regelmäßig **über 4.000 gleichzeitig verbundene Endgeräte** – an Spitzentagen deutlich mehr. Anders als bei einem klassischen Internetzugangsanbieter gibt es zu keinem dieser Geräte ein Vertragsverhältnis, keine Registrierung, keine Identitätsprüfung. Es gibt schlicht keinen „Anschlussinhaber" im Sinne des Entwurfs.
 
-- **IPv6 / SLAAC:** Moderne Endgeräte erzeugen ihre IPv6-Adressen über Stateless Address Autoconfiguration (SLAAC) selbst. Der Netzbetreiber weist keine Adressen aktiv zu. Privacy Extensions führen dazu, dass sich diese Adressen regelmäßig ändern.
-- **MAC-Adressen-Rotation:** Aktuelle Betriebssysteme (Android, iOS, Windows) randomisieren ihre MAC-Adressen. Damit ist selbst bei IPv4-DHCP-Zuweisungen keine dauerhafte Zuordnung zu einem bestimmten Gerät möglich.
-- **Kein Vertragsverhältnis:** In Freifunk-Netzen existiert weder eine Registrierung noch eine Identitätsprüfung. Es gibt keinen „Anschlussinhaber" im Sinne des Entwurfs.
+Der Gesetzentwurf geht davon aus, dass ein Anbieter „seinem Kunden" eine IP-Adresse zuweist und diese Zuordnung speichern kann. In einem offenen WLAN funktioniert das nicht:
 
-### 2. CGNAT erzeugt massive Datenmengen ohne Erkenntnisgewinn
+- Nutzer kommen und gehen im Minutentakt. Ein Gerät, das sich am Hauptbahnhof verbindet, ist zehn Minuten später möglicherweise am Marienplatz in einem anderen Netzknoten – oder offline.
+- Moderne Endgeräte wechseln ständig ihre Identität: Sie erzeugen eigene IPv6-Adressen (SLAAC mit Privacy Extensions), rotieren ihre MAC-Adressen und erscheinen dem Netz bei jeder Verbindung als neues, unbekanntes Gerät.
+- Es gibt keine zentrale Stelle, die Adressen „zuweist" – das Netz stellt Konnektivität bereit, die Adressvergabe geschieht automatisch und dezentral.
 
-Wie der Sachverständige Lutz Donnerhacke in seiner Stellungnahme detailliert darlegt, erfordert die Speicherung von Portnummern bei Carrier-Grade NAT (CGNAT) eine **Protokollierung jeder einzelnen Verbindung**. Für einen mittelgroßen Anbieter mit ca. 100.000 Kunden bedeutet dies:
+Um die Speicherpflicht zu erfüllen, müssten wir **jeden dieser tausenden Nutzer identifizieren** – etwa durch ein Captive Portal mit Ausweispflicht oder Mobilfunknummer. Das würde den offenen Charakter des Netzes zerstören und ist mit unserem gemeinnützigen Zweck unvereinbar.
 
-- Bei konservativster Schätzung: **ca. 2 Terabyte** Speicherbedarf für drei Monate
-- Realistisch mit Power-Usern und IoT-Geräten: **500 Terabyte und mehr**
-- Ein einziges kompromittiertes IoT-Gerät bei einem DDoS-Angriff erzeugt **360 MB Verkehrsdaten pro Stunde**
+### 2. Die Kosten: NAT-Protokollierung bei tausenden gleichzeitigen Nutzern
 
-Diese Datenmengen ermöglichen entgegen der Behauptung des Entwurfs sehr wohl die Erstellung detaillierter **Persönlichkeits- und Kommunikationsprofile** – ein Punkt, den sowohl die Gesellschaft für Informatik als auch die BRAK in ihren Stellungnahmen hervorheben.
+Da sich in unserem Netz viele Nutzer wenige öffentliche IPv4-Adressen teilen (NAT bzw. CGNAT), müsste nicht nur die IP-Adresse, sondern **jede einzelne Verbindung mit Portnummer, Zeitstempel und Zieladresse** protokolliert werden, um eine nachträgliche Zuordnung überhaupt theoretisch zu ermöglichen.
 
-### 3. Systeme von Freifunk sind „Privacy by Design"
+Was das bei unserer Größenordnung konkret bedeutet:
 
-Unsere Netzwerkinfrastruktur wurde bewusst und DSGVO-konform nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einer konkreten Person zuzuordnen – es existiert weder eine Nutzerregistrierung noch ein Vertragsverhältnis, das eine solche Zuordnung erlauben würde. Dieses Designprinzip ist keine Nachlässigkeit, sondern bewusste Umsetzung geltenden Datenschutzrechts. Eine grundlegende Umgestaltung der Systeme wäre notwendig – und stünde im direkten Widerspruch zu den Prinzipien von Privacy by Design und Privacy by Default.
+- **4.000+ gleichzeitige Nutzer** erzeugen jeweils hunderte bis tausende NAT-Übersetzungen pro Stunde – allein durch normales Surfen, E-Mail, Messenger und App-Updates im Hintergrund.
+- Konservativ geschätzt fallen damit **mehrere Millionen NAT-Einträge pro Stunde** an, die jeweils mit Quell-IP, Quell-Port, Ziel-IP, Ziel-Port und Zeitstempel gespeichert werden müssten.
+- Über **drei Monate** summiert sich das auf **dutzende Terabyte** an Rohdaten – allein für unser ehrenamtlich betriebenes Netz.
+- Ein einziges kompromittiertes IoT-Gerät, das an einem DDoS-Angriff beteiligt ist, erzeugt laut Sachverständigem Lutz Donnerhacke **360 MB Verkehrsdaten pro Stunde** zusätzlich.
+
+Diese Datenmengen erfordern eine professionelle **Logging-Infrastruktur** mit leistungsfähiger Hardware, redundanter Speicherung, Backup, Verschlüsselung und Zugriffskontrolle. Die Kosten dafür liegen **im fünf- bis sechsstelligen Bereich jährlich** – für ein Netz, das vollständig ehrenamtlich und aus Spenden finanziert wird.
+
+Darüber hinaus ermöglichen diese Datenmengen entgegen der Behauptung des Entwurfs sehr wohl die Erstellung detaillierter **Persönlichkeits- und Kommunikationsprofile** – ein Punkt, den sowohl die Gesellschaft für Informatik als auch die BRAK in ihren Stellungnahmen hervorheben.
+
+Wie Lutz Donnerhacke zudem aufzeigt, ließe sich das CGNAT-Problem durch eine konsequente **IPv6-Migration (RFC 6540)** beseitigen. Statt eine unverhältnismäßige Speicherinfrastruktur für ein Übergangsproblem aufzubauen, sollte der Gesetzgeber die Abkehr von CGNAT vorantreiben.
+
+### 3. Freifunk ist „Privacy by Design" – aus gutem Grund
+
+Unsere Netzwerkinfrastruktur wurde bewusst und DSGVO-konform nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einer konkreten Person zuzuordnen – es existiert weder eine Nutzerregistrierung noch ein Vertragsverhältnis, das eine solche Zuordnung erlauben würde.
+
+Dieses Designprinzip ist keine Nachlässigkeit, sondern bewusste Umsetzung geltenden Datenschutzrechts. Eine grundlegende Umgestaltung unserer gesamten Infrastruktur wäre notwendig – mit erheblichen Kosten für Neuentwicklung, Betrieb und laufende Wartung, die ein ehrenamtlicher Verein nicht stemmen kann.
 
 ---
 
@@ -87,9 +100,22 @@ Der Referentenentwurf enthält **keine Ausnahme** für gemeinnützige, ehrenamtl
 
 Erst 2020 wurde die Gemeinnützigkeit von Freifunk-Initiativen durch eine Bundesratsinitiative explizit anerkannt. Die damalige Begründung betonte die Bedeutung des „freien Zugangs zum Netz" und der „Teilhabe aller Menschen an der Digitalisierung". Der vorliegende Entwurf droht genau diese gesellschaftliche Leistung zu zerstören.
 
-### 3. Fehlende Darstellung des Erfüllungsaufwands
+### 3. Fehlende Darstellung des Erfüllungsaufwands – eine konkrete Rechnung
 
-Der Referentenentwurf enthält keine nachvollziehbare Darstellung des **Erfüllungsaufwands** für kleinere Betreiber. Die Kosten für Logging-Infrastruktur, Speichersysteme, Datenschutz-Compliance, rechtliche Absicherung und laufende Wartung sind für ehrenamtliche Initiativen schlicht nicht tragbar. Gleichzeitig sollen die **Entschädigungssätze** (JVEG) sogar noch gesenkt werden – ein Punkt, den der eco-Verband und der VATM zutreffend kritisieren.
+Der Referentenentwurf enthält keine nachvollziehbare Darstellung des **Erfüllungsaufwands** für kleinere Betreiber. Für Freifunk München lässt sich der Aufwand konkret abschätzen:
+
+| Posten | Geschätzte Kosten |
+|---|---|
+| Speicherhardware für NAT-Logs (dutzende TB, redundant, verschlüsselt) | 20.000–50.000 € Anschaffung |
+| Laufender Betrieb, Strom, Hosting, Wartung der Logging-Systeme | 10.000–20.000 € / Jahr |
+| Neuentwicklung der Netzwerkinfrastruktur (Logging, Zuordnung, Schnittstellen) | 50.000–100.000 € |
+| Datenschutz-Compliance (DSFA, TOM, Löschkonzept, Auskunftsprozesse) | 10.000–20.000 € / Jahr |
+| Rechtliche Absicherung und Beratung | 5.000–10.000 € / Jahr |
+| Bearbeitung behördlicher Auskunftsersuchen | laufender ehrenamtlicher Personalaufwand |
+
+Dem stehen **jährliche Spendeneinnahmen im niedrigen fünfstelligen Bereich** gegenüber, die heute vollständig in den Netzbetrieb fließen. Allein die Erstinvestition würde das Jahresbudget des Vereins um ein Vielfaches übersteigen.
+
+Gleichzeitig sollen die **Entschädigungssätze** (JVEG) für die Bearbeitung behördlicher Anfragen sogar noch gesenkt werden – ein Punkt, den der eco-Verband und der VATM zutreffend kritisieren. Für ehrenamtlich betriebene Netze bedeutet das: Die Kosten der Überwachungsinfrastruktur sollen vollständig von den Betreibern getragen werden – ohne jede Gegenleistung.
 
 ---
 
@@ -116,9 +142,7 @@ Statt einer anlasslosen Massenüberwachung stehen zielgerichtete und grundrechts
 
 2. **Login-Falle:** Bei langfristig genutzten Accounts (Cybergrooming, Hasskriminalität) kann die Identifikation über die **aktuelle IP-Adresse** nach richterlicher Anordnung erfolgen – ohne historische Massenerhebung.
 
-3. **IPv6-Pflicht (RFC 6540):** Wie Lutz Donnerhacke vorschlägt, würde eine konsequente IPv6-Migration die technischen Probleme von CGNAT beseitigen. In einer Übergangsphase könnte für Bestandskunden lediglich die Zuordnung öffentlicher IP-Adressen verlängert werden.
-
-4. **Ausbau bestehender Ermittlungsinstrumente:** Verbesserung der IT-Ausstattung und Kapazitäten der Strafverfolgungsbehörden, schnellere richterliche Verfahren und internationale Kooperation (e-Evidence).
+3. **Ausbau bestehender Ermittlungsinstrumente:** Verbesserung der IT-Ausstattung und Kapazitäten der Strafverfolgungsbehörden, schnellere richterliche Verfahren und internationale Kooperation (e-Evidence).
 
 ---
 
