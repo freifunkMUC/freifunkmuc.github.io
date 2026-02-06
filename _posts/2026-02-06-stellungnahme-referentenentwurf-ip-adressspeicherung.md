@@ -49,7 +49,7 @@ Was das bei unserer Größenordnung konkret bedeutet:
 - Über **drei Monate** summiert sich das auf **dutzende Terabyte** an Rohdaten – allein für unser ehrenamtlich betriebenes Netz.
 - Ein einziges kompromittiertes IoT-Gerät, das an einem DDoS-Angriff beteiligt ist, erzeugt laut Sachverständigem Lutz Donnerhacke **360 MB Verkehrsdaten pro Stunde** zusätzlich.
 
-Diese Datenmengen erfordern eine professionelle **Logging-Infrastruktur** mit leistungsfähiger Hardware, redundanter Speicherung, Backup, Verschlüsselung und Zugriffskontrolle. Die Kosten dafür liegen **im fünf- bis sechsstelligen Bereich jährlich** – für ein Netz, das vollständig ehrenamtlich und aus Spenden finanziert wird.
+Diese Datenmengen erfordern eine professionelle **Logging-Infrastruktur** mit leistungsfähiger Hardware, redundanter Speicherung, Backup, Verschlüsselung und Zugriffskontrolle. Da Freifunk München seine Infrastruktur aus Ausfallsicherheitsgründen über **zwei redundante Standorte** betreibt, müssten beide Standorte mit entsprechenden Logging- und Speicherkapazitäten ausgestattet werden – was die Kosten nochmals verdoppelt. Insgesamt liegen die Kosten **im fünf- bis sechsstelligen Bereich jährlich** – für ein Netz, das vollständig ehrenamtlich und aus Spenden finanziert wird.
 
 Darüber hinaus ermöglichen diese Datenmengen entgegen der Behauptung des Entwurfs sehr wohl die Erstellung detaillierter **Persönlichkeits- und Kommunikationsprofile** – ein Punkt, den sowohl die Gesellschaft für Informatik als auch die BRAK in ihren Stellungnahmen hervorheben.
 
