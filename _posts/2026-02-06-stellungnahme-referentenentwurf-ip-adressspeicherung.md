@@ -28,7 +28,7 @@ Wir lehnen den Entwurf in seiner jetzigen Form ab. Er ist mit dem Betrieb offene
 
 ### 1. Die Dimension: 4.000 und mehr gleichzeitige Nutzer – ohne jedes Vertragsverhältnis
 
-Freifunk München versorgt regelmäßig **über 4.000 gleichzeitig verbundene Endgeräte** – an Spitzentagen deutlich mehr. Anders als bei einem klassischen Internetzugangsanbieter gibt es zu keinem dieser Geräte ein Vertragsverhältnis, keine Registrierung, keine Identitätsprüfung. Es gibt schlicht keinen „Anschlussinhaber" im Sinne des Entwurfs.
+Freifunk München versorgt regelmäßig **über 4.000 gleichzeitig verbundene Endgeräte** – an Spitzentagen deutlich mehr. Dabei handelt es sich nicht um einen festen Kreis von 4.000 „Kunden": Die Nutzerschaft wechselt ständig. Im Laufe eines einzigen Tages verbinden sich **zehntausende unterschiedliche Geräte** mit dem Netz – Passanten, Reisende, Besucher, Anwohner. Anders als bei einem klassischen Internetzugangsanbieter gibt es zu keinem dieser Geräte ein Vertragsverhältnis, keine Registrierung, keine Identitätsprüfung. Es gibt schlicht keinen „Anschlussinhaber" im Sinne des Entwurfs.
 
 Der Gesetzentwurf geht davon aus, dass ein Anbieter „seinem Kunden" eine IP-Adresse zuweist und diese Zuordnung speichern kann. In einem offenen WLAN funktioniert das nicht:
 
