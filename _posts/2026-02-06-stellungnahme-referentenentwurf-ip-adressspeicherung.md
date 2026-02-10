@@ -18,7 +18,7 @@ Bereits im November 2025 haben wir in einer [früheren Stellungnahme](/politik/f
 
 ## I. Zusammenfassung
 
-Der Referentenentwurf sieht eine **dreimonatige, anlasslose und unterschiedslose Speicherpflicht** für IP-Adressen (einschließlich Portnummern) durch Anbieter von Internetzugangsdiensten vor. Ergänzt wird dies durch eine **Sicherungsanordnung** für sonstige Verkehrsdaten und **neue Befugnisse für das BKA** zur präventiven Datensicherung.
+Der Referentenentwurf sieht eine **dreimonatige, anlasslose und unterschiedslose Speicherpflicht** für IP-Adressen (einschließlich Portnummern) durch Anbieter von Internetzugangsdiensten vor. Ergänzt wird dies durch eine **Sicherungsanordnung** für sonstige Verkehrsdaten und **neue Befugnisse für das Bundeskriminalamt (BKA)** zur präventiven Datensicherung.
 
 Wir lehnen den Entwurf in seiner jetzigen Form ab. Er ist mit dem Betrieb offener, gemeinnütziger Netze unvereinbar, technisch auf falsche Annahmen gestützt, grundrechtlich problematisch und in der Praxis unverhältnismäßig.
 
@@ -59,7 +59,7 @@ Hinzu kommt ein **grundlegender innerer Widerspruch** im Entwurf selbst: Einerse
 
 ### 3. Freifunk ist "Privacy by Design" - aus gutem Grund
 
-Unsere Netzwerkinfrastruktur wurde bewusst und DSGVO-konform nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einer konkreten Person zuzuordnen - es existiert weder eine Nutzerregistrierung noch ein Vertragsverhältnis, das eine solche Zuordnung erlauben würde.
+Unsere Netzwerkinfrastruktur wurde bewusst und konform zur Datenschutz-Grundverordnung (DSGVO) nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einer konkreten Person zuzuordnen - es existiert weder eine Nutzerregistrierung noch ein Vertragsverhältnis, das eine solche Zuordnung erlauben würde.
 
 Dieses Designprinzip ist keine Nachlässigkeit, sondern bewusste Umsetzung geltenden Datenschutzrechts. Eine grundlegende Umgestaltung unserer gesamten Infrastruktur wäre notwendig - mit erheblichen Kosten für Neuentwicklung, Betrieb und laufende Wartung, die ein ehrenamtlicher Verein nicht stemmen kann.
 
@@ -69,13 +69,13 @@ Dieses Designprinzip ist keine Nachlässigkeit, sondern bewusste Umsetzung gelte
 
 ### 1. Anlasslose Massenüberwachung
 
-Die Speicherpflicht trifft **alle Nutzerinnen und Nutzer** ohne konkreten Verdacht. Der EuGH hat in seinem Urteil vom 20. September 2022 (C-793/19, C-794/19) klargestellt, dass auch die Vorratsdatenspeicherung von IP-Adressen ein **schwerwiegender Eingriff in die Grundrechte** der Art. 7, 8 und 11 der EU-Grundrechtecharta darstellt und das "absolut Notwendige" nicht überschreiten darf.
+Die Speicherpflicht trifft **alle Nutzerinnen und Nutzer** ohne konkreten Verdacht. Der Europäische Gerichtshof (EuGH) hat in seinem Urteil vom 20. September 2022 (C-793/19, C-794/19) klargestellt, dass auch die Vorratsdatenspeicherung von IP-Adressen ein **schwerwiegender Eingriff in die Grundrechte** der Art. 7, 8 und 11 der EU-Grundrechtecharta darstellt und das "absolut Notwendige" nicht überschreiten darf.
 
 Das Bundesverwaltungsgericht (BVerwG, Urteil vom 14.08.2023) hat die bis dahin geltende deutsche Regelung zur Vorratsdatenspeicherung für unionsrechtswidrig erklärt.
 
 ### 2. Fehlender Richtervorbehalt
 
-Die BRAK, der DAV und weitere Verbände weisen zutreffend darauf hin, dass der Entwurf für die Abfrage der gespeicherten IP-Adressen **keinen Richtervorbehalt** vorsieht. Dies widerspricht den Anforderungen des BVerfG an Eingriffe in Art. 10 GG (Fernmeldegeheimnis).
+Die Bundesrechtsanwaltskammer (BRAK), der Deutsche Anwaltverein (DAV) und weitere Verbände weisen zutreffend darauf hin, dass der Entwurf für die Abfrage der gespeicherten IP-Adressen **keinen Richtervorbehalt** vorsieht. Dies widerspricht den Anforderungen des Bundesverfassungsgerichts (BVerfG) an Eingriffe in Art. 10 GG (Fernmeldegeheimnis).
 
 ### 3. Keine empirische Grundlage
 
@@ -111,13 +111,13 @@ Der Referentenentwurf enthält keine nachvollziehbare Darstellung des **Erfüllu
 | Speicherhardware für NAT-Logs (dutzende TB, redundant, verschlüsselt) | 20.000-50.000 € Anschaffung |
 | Laufender Betrieb, Strom, Hosting, Wartung der Logging-Systeme | 10.000-20.000 € / Jahr |
 | Neuentwicklung der Netzwerkinfrastruktur (Logging, Zuordnung, Schnittstellen) | 50.000-100.000 € |
-| Datenschutz-Compliance (DSFA, TOM, Löschkonzept, Auskunftsprozesse) | 10.000-20.000 € / Jahr |
+| Datenschutz-Compliance (Datenschutz-Folgenabschätzung, technische und organisatorische Maßnahmen, Löschkonzept, Auskunftsprozesse) | 10.000-20.000 € / Jahr |
 | Rechtliche Absicherung und Beratung | 5.000-10.000 € / Jahr |
 | Bearbeitung behördlicher Auskunftsersuchen | laufender ehrenamtlicher Personalaufwand |
 
 Dem stehen **jährliche Spendeneinnahmen im niedrigen fünfstelligen Bereich** gegenüber, die heute vollständig in den Netzbetrieb fließen. Allein die Erstinvestition würde das Jahresbudget des Vereins um ein Vielfaches übersteigen.
 
-Gleichzeitig sollen die **Entschädigungssätze** (JVEG) für die Bearbeitung behördlicher Anfragen sogar noch gesenkt werden - ein Punkt, den der eco-Verband und der VATM zutreffend kritisieren. Für ehrenamtlich betriebene Netze bedeutet das: Die Kosten der Überwachungsinfrastruktur sollen vollständig von den Betreibern getragen werden - ohne jede Gegenleistung.
+Gleichzeitig sollen die **Entschädigungssätze** nach dem Justizvergütungs- und -entschädigungsgesetz (JVEG) für die Bearbeitung behördlicher Anfragen sogar noch gesenkt werden - ein Punkt, den der eco-Verband und der Verband der Anbieter von Telekommunikations- und Mehrwertdiensten (VATM) zutreffend kritisieren. Für ehrenamtlich betriebene Netze bedeutet das: Die Kosten der Überwachungsinfrastruktur sollen vollständig von den Betreibern getragen werden - ohne jede Gegenleistung.
 
 ---
 
@@ -125,7 +125,7 @@ Gleichzeitig sollen die **Entschädigungssätze** (JVEG) für die Bearbeitung be
 
 Unsere Einschätzung wird von einer breiten Allianz aus Zivilgesellschaft, Wirtschaft und Fachwissenschaft geteilt. Unter den [27 veröffentlichten Stellungnahmen](https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/Stellugnahmen_RefE_IP_Speicherung.zip?__blob=publicationFile&v=2) lehnen zahlreiche Organisationen den Entwurf ab oder fordern grundlegende Änderungen:
 
-- Die **Bundesrechtsanwaltskammer (BRAK)** kritisiert die anlasslose Speicherung als grundrechtswidrig und bemängelt fehlende richterliche Kontrolle.
+- Die **BRAK** kritisiert die anlasslose Speicherung als grundrechtswidrig und bemängelt fehlende richterliche Kontrolle.
 - Der **eco - Verband der Internetwirtschaft** sieht Gründe für eine vollständige Rücknahme des Entwurfs.
 - Die **Gesellschaft für Informatik** lehnt die Speicherpflicht als technisch verfehlt und grundrechtlich unverhältnismäßig ab.
 - Die **Digitale Gesellschaft e.V.** empfiehlt, den Entwurf nicht zu beschließen und die Vorratsdatenspeicherung endgültig zu beerdigen.
@@ -152,7 +152,7 @@ Statt einer anlasslosen Massenüberwachung stehen zielgerichtete und grundrechts
 
 Wir fordern den Gesetzgeber auf:
 
-1. **Auf jede Form der anlasslosen Vorratsdatenspeicherung zu verzichten** - gleich unter welcher Bezeichnung - für ISPs, Internetzugänge, WLAN/Hotspot-Betreiber, LoRaWAN- und ähnliche Netzwerke.
+1. **Auf jede Form der anlasslosen Vorratsdatenspeicherung zu verzichten** - gleich unter welcher Bezeichnung - für Internet Service Provider (ISPs), Internetzugänge, WLAN/Hotspot-Betreiber, LoRaWAN- und ähnliche Netzwerke.
 
 2. Hilfsweise, sofern an einer Speicherpflicht festgehalten wird: **eine ausdrückliche gesetzliche Ausnahme** für:
    - Bürgernetze und vergleichbare offene Infrastrukturen,
