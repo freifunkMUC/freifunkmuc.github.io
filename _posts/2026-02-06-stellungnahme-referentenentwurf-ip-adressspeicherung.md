@@ -55,6 +55,8 @@ Darüber hinaus ermöglichen diese Datenmengen entgegen der Behauptung des Entwu
 
 Wie Lutz Donnerhacke zudem aufzeigt, ließe sich das CGNAT-Problem durch eine konsequente **IPv6-Migration (RFC 6540)** beseitigen. Statt eine unverhältnismäßige Speicherinfrastruktur für ein Übergangsproblem aufzubauen, sollte der Gesetzgeber die Abkehr von CGNAT vorantreiben.
 
+Hinzu kommt ein **grundlegender innerer Widerspruch** im Entwurf selbst: Einerseits sollen "weitere Verkehrsdaten, soweit diese für eine Identifizierung des Beschuldigten anhand einer zu einem bestimmten Zeitpunkt zugewiesenen Internetprotokoll-Adresse erforderlich sind" gespeichert werden - was bei CGNAT zwingend auch Ziel-IP-Adressen umfasst. Andererseits bestimmt der Entwurf, dass "Inhalte der Kommunikation, wie Daten über den Aufruf oder die Nutzung von anderen Telekommunikationsdiensten oder digitalen Diensten" gerade **nicht** gespeichert werden dürfen. Jede Ziel-IP-Adresse stellt jedoch technisch die "Nutzung eines anderen digitalen Dienstes" dar. Wer entscheidet, welche Zieladresse gespeichert werden darf und welche nicht? Der Entwurf lässt diese Frage offen und schafft damit für Betreiber eine **massive Rechtsunsicherheit** - mit dem Risiko, entweder gegen die Speicherpflicht oder gegen das Speicherverbot zu verstoßen.
+
 ### 3. Freifunk ist "Privacy by Design" - aus gutem Grund
 
 Unsere Netzwerkinfrastruktur wurde bewusst und DSGVO-konform nach dem Grundsatz der **Datensparsamkeit** konzipiert. Es ist technisch nicht möglich, IP-Adressen einer konkreten Person zuzuordnen - es existiert weder eine Nutzerregistrierung noch ein Vertragsverhältnis, das eine solche Zuordnung erlauben würde.
