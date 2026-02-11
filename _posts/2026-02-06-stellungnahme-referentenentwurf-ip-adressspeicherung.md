@@ -161,21 +161,21 @@ Statt einer anlasslosen Massenüberwachung stehen zielgerichtete und grundrechts
 
 Wir fordern den Gesetzgeber auf:
 
-1. **Auf jede Form der anlasslosen Vorratsdatenspeicherung zu verzichten** - gleich unter welcher Bezeichnung - für Internet Service Provider (ISPs), Internetzugänge, WLAN/Hotspot-Betreiber, LoRaWAN- und ähnliche Netzwerke.
+1. **Jede Form der anlasslosen Vorratsdatenspeicherung ausdrücklich auszuschließen** - unabhängig von ihrer Bezeichnung oder technischen Ausgestaltung. Dies gilt insbesondere für Internet Service Provider (ISPs), Anbieter von Internetzugängen, WLAN- und Hotspot-Betreiber sowie Betreiber von LoRaWAN- und vergleichbaren Netzinfrastrukturen.
 
-2. Hilfsweise, sofern an einer Speicherpflicht festgehalten wird: **eine ausdrückliche gesetzliche Ausnahme** für:
+2. **Sollte dennoch an einer Speicherpflicht festgehalten werden**, ist zwingend eine ausdrückliche gesetzliche Ausnahme vorzusehen für:
    - Bürgernetze und vergleichbare offene Infrastrukturen,
    - ehrenamtlich betriebene Netzwerke,
    - Betreiber ohne kommerzielles Interesse,
-   - Kleine Organisationen und Unternehmen mit weniger als 50 Beschäftigten und einem Jahresumsatz unter 10 Millionen Euro.
+   - kleine Organisationen und Unternehmen mit weniger als 50 Beschäftigten und einem Jahresumsatz unter 10 Millionen Euro.
 
-3. **Grundrechtskonforme Alternativen** wie Quick-Freeze, Login-Falle und IPv6-Pflicht vorrangig zu verfolgen.
+3. **Grundrechtskonforme Alternativen vorrangig zu verfolgen**, insbesondere Quick-Freeze, Login-Falle und eine verbindliche IPv6-Migration.
 
 4. **Einen Richtervorbehalt** für jede Abfrage gespeicherter Daten vorzusehen.
 
-5. **Die EU-Harmonisierung abzuwarten**, statt durch einen nationalen Alleingang Fakten zu schaffen, die absehbar vor dem EuGH keinen Bestand haben werden.
+5. **Von einem nationalen Alleingang abzusehen.** Die unionsrechtliche Harmonisierung ist abzuwarten, um erneute Rechtsunsicherheit und absehbare Konflikte mit der Rechtsprechung des EuGH zu vermeiden.
 
-6. **Fachverbände und die Zivilgesellschaft** an der Ausgestaltung der Regelung substantiell zu beteiligen.
+6. **Fachverbände, technische Sachverständige und die organisierte Zivilgesellschaft** frühzeitig und substantiell in die Ausgestaltung der Regelung einzubeziehen.
 
 ---
 
