@@ -60,7 +60,7 @@ Doch die Kosten sind nur ein Aspekt. Die Speicherpflicht schafft ein **völlig n
 - **Log-Dateien als Hochrisiko-Angriffsziel:** Die gespeicherten Verkehrsdaten sind für Angreifer hochattraktiv. Ein erfolgreicher Datenabfluss ermöglicht **Stalking, Erpressung und gezielte Überwachung**. Besonders gravierend ist dies bei Freifunk-Standorten in sensiblen Einrichtungen wie **Frauenhäusern, Beratungsstellen oder Flüchtlingsunterkünften** - hier kann ein Datenleck unmittelbar die Sicherheit von Menschen gefährden.
 - **Neue DSGVO-Konflikte:** Die Speicherpflicht steht im Spannungsverhältnis zum Grundsatz der Datenminimierung (Art. 5 Abs. 1 lit. c DSGVO) und zur Zweckbindung. Betreiber geraten in einen unlösbaren Konflikt zwischen gesetzlicher Speicherpflicht und datenschutzrechtlichem Speicherverbot.
 
-Darüber hinaus ermöglichen diese Datenmengen entgegen der Behauptung des Entwurfs sehr wohl die Erstellung detaillierter **Persönlichkeits- und Kommunikationsprofile** - ein Punkt, den sowohl die Gesellschaft für Informatik als auch die BRAK in ihren Stellungnahmen hervorheben.
+Darüber hinaus ermöglichen diese Datenmengen entgegen der Behauptung des Entwurfs sehr wohl die Erstellung detaillierter **Persönlichkeits- und Kommunikationsprofile** - ein Punkt, den sowohl die Gesellschaft für Informatik als auch die Bundesrechtsanwaltskammer (BRAK) in ihren Stellungnahmen hervorheben.
 
 Wie Lutz Donnerhacke zudem aufzeigt, ließe sich das CGNAT-Problem durch eine konsequente **IPv6-Migration (RFC 6540)** beseitigen. Statt eine unverhältnismäßige Speicherinfrastruktur für ein Übergangsproblem aufzubauen, sollte der Gesetzgeber die Abkehr von CGNAT vorantreiben.
 
@@ -84,7 +84,7 @@ Das Bundesverwaltungsgericht (BVerwG, Urteil vom 14.08.2023) hat die bis dahin g
 
 ### 2. Fehlender Richtervorbehalt
 
-Die Bundesrechtsanwaltskammer (BRAK), der Deutsche Anwaltverein (DAV) und weitere Verbände weisen zutreffend darauf hin, dass der Entwurf für die Abfrage der gespeicherten IP-Adressen **keinen Richtervorbehalt** vorsieht. Dies widerspricht den Anforderungen des Bundesverfassungsgerichts (BVerfG) an Eingriffe in Art. 10 GG (Fernmeldegeheimnis).
+Die BRAK, der Deutsche Anwaltverein (DAV) und weitere Verbände weisen zutreffend darauf hin, dass der Entwurf für die Abfrage der gespeicherten IP-Adressen **keinen Richtervorbehalt** vorsieht. Dies widerspricht den Anforderungen des Bundesverfassungsgerichts (BVerfG) an Eingriffe in Art. 10 GG (Fernmeldegeheimnis).
 
 ### 3. Keine empirische Grundlage
 
