@@ -293,10 +293,15 @@ a {
 
 .greedy-nav {
   a {
-    padding: 0.75rem 0.65rem;
+    padding: 0.65rem 0.5rem;
     border-radius: var(--radius);
     transition: var(--transition);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    
+    @media (min-width: 601px) {
+      padding: 0.75rem 0.65rem;
+      font-size: 0.95rem;
+    }
     
     @media (min-width: 1200px) {
       padding: 0.75rem 0.85rem;
@@ -944,10 +949,6 @@ table {
       padding: 0 4rem;
     }
   }
-}
-
-.page__content {
-  max-width: 100% !important;
 }
 
 /* Hide sidebar ONLY on single post pages for full-width content */
