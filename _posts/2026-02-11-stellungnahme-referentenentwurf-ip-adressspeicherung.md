@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Stellungnahme zum Referentenentwurf „Einführung einer IP-Adressspeicherung und Weiterentwicklung der Befugnisse zur Datenerhebung im Strafverfahren""
+title: 'Stellungnahme zum Referentenentwurf „Einführung einer IP-Adressspeicherung und Weiterentwicklung der Befugnisse zur Datenerhebung im Strafverfahren"'
 date: 2026-02-11 07:00:00 +0100
 categories: politik freifunk gesetzgebung
 author: Freifunk München / Freie Netze München e.V.
