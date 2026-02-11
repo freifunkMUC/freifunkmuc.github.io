@@ -38,11 +38,23 @@ search: false
 
 /* Improved base typography */
 html {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  
+  @media (min-width: 48em) {
+    font-size: 17px;
+  }
+  
+  @media (min-width: 64em) {
+    font-size: 18px;
+  }
+  
+  @media (min-width: 80em) {
+    font-size: 19px;
+  }
 }
 
 body {
@@ -51,36 +63,48 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  /* Enable hyphenation for long German words on all screens */
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Improved heading hierarchy */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  line-height: 1.3;
-  margin-top: 2em;
-  margin-bottom: 0.75em;
+  line-height: 1.25;
+  margin-top: 1.75em;
+  margin-bottom: 0.6em;
   color: var(--text-color);
   position: relative;
+  
+  @media (max-width: 600px) {
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+  }
   
   &:first-child {
     margin-top: 0;
   }
   
-  /* Add anchor link markers */
-  &:hover::before {
-    content: "#";
-    position: absolute;
-    left: -1.5em;
-    color: var(--primary-color);
-    font-weight: 400;
-    opacity: 0.7;
-    transition: opacity 0.2s;
+  /* Add anchor link markers — hide on mobile to save space */
+  @media (min-width: 601px) {
+    &:hover::before {
+      content: "#";
+      position: absolute;
+      left: -1.5em;
+      color: var(--primary-color);
+      font-weight: 400;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
   }
   
   /* Make entire heading clickable for anchor */
   &[id] {
     cursor: pointer;
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 4rem;
     
     &:hover {
       color: var(--primary-color);
@@ -89,34 +113,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   letter-spacing: -0.02em;
   
-  @media (max-width: 768px) {
-    font-size: 2rem;
+  @media (max-width: 600px) {
+    font-size: 1.55rem;
+  }
+  
+  @media (min-width: 601px) and (max-width: 768px) {
+    font-size: 1.85rem;
   }
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   letter-spacing: -0.01em;
   
-  @media (max-width: 768px) {
-    font-size: 1.75rem;
+  @media (max-width: 600px) {
+    font-size: 1.3rem;
+  }
+  
+  @media (min-width: 601px) and (max-width: 768px) {
+    font-size: 1.5rem;
   }
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
+  
+  @media (max-width: 600px) {
+    font-size: 1.15rem;
+  }
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
+  
+  @media (max-width: 600px) {
+    font-size: 1.05rem;
+  }
 }
 
 /* Better paragraph spacing */
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
+  
+  @media (max-width: 600px) {
+    margin-bottom: 1em;
+  }
   
   &:last-child {
     margin-bottom: 0;
@@ -170,7 +214,11 @@ a {
 
 .page__content {
   max-width: 100%;
-  padding: 2rem 1rem;
+  padding: 1.25rem 0;
+  
+  @media (min-width: 601px) {
+    padding: 2rem 1rem;
+  }
   
   @media (min-width: 768px) {
     padding: 3rem 2rem;
@@ -180,11 +228,16 @@ a {
 .archive__item {
   background: var(--background-color);
   border-radius: var(--radius-lg);
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
   box-shadow: var(--shadow);
   transition: var(--transition);
   border: 1px solid var(--border-color);
+  
+  @media (min-width: 601px) {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
   
   &:hover {
     box-shadow: var(--shadow-lg);
@@ -202,17 +255,29 @@ a {
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.75rem;
+  
+  @media (min-width: 601px) {
+    padding: 0.5rem 1rem;
+  }
   
   .site-title {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin: 0;
     padding: 0;
     
+    @media (min-width: 601px) {
+      font-size: 1.25rem;
+    }
+    
     a {
       color: var(--primary-color);
-      padding: 0.5rem 0.75rem;
+      padding: 0.5rem 0.5rem;
+      
+      @media (min-width: 601px) {
+        padding: 0.5rem 0.75rem;
+      }
       
       &:hover {
         text-decoration: none;
@@ -668,6 +733,10 @@ body::before,
   margin: 0 auto;
   padding: 0 1rem;
   
+  @media (min-width: 601px) {
+    padding: 0 1.5rem;
+  }
+  
   @media (min-width: 768px) {
     padding: 0 2rem;
     max-width: 95%;
@@ -684,11 +753,16 @@ body::before,
 }
 
 ul, ol {
-  margin-bottom: 1.5em;
-  padding-left: 2em;
+  margin-bottom: 1.25em;
+  padding-left: 1.75em;
+  
+  @media (max-width: 600px) {
+    padding-left: 1.25em;
+    margin-bottom: 1em;
+  }
   
   li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
     
     &:last-child {
       margin-bottom: 0;
@@ -907,10 +981,14 @@ table {
   margin-right: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
-  padding: 0 2rem !important;
+  padding: 0 1rem !important;
+  
+  @media (min-width: 601px) {
+    padding: 0 2rem !important;
+  }
   
   @media (min-width: 768px) {
-    padding: 0 4rem !important;
+    padding: 0 3rem !important;
   }
   
   @media (min-width: 1200px) {
@@ -1016,6 +1094,130 @@ table {
   span.translation-lang-inline {
     color: var(--text-muted, #666);
     font-weight: 400;
+  }
+}
+
+/* ==========================================================================
+   Mobile-Specific Improvements
+   ========================================================================== */
+
+/* Page title — compact and readable on small screens */
+.page__title {
+  @media (max-width: 600px) {
+    font-size: 1.45rem !important;
+    line-height: 1.25;
+    margin-bottom: 0.4em;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  @media (min-width: 601px) and (max-width: 768px) {
+    font-size: 1.75rem !important;
+    line-height: 1.3;
+  }
+}
+
+/* Post meta (date, read time) — tighter on mobile */
+.page__meta {
+  @media (max-width: 600px) {
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+  }
+}
+
+/* Blockquotes — don't eat too much horizontal space on mobile */
+blockquote {
+  @media (max-width: 600px) {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+  }
+}
+
+/* Code blocks — smaller font and tighter padding on mobile */
+pre {
+  @media (max-width: 600px) {
+    padding: 0.75rem;
+    font-size: 0.85em;
+    border-radius: 6px;
+  }
+}
+
+/* Tables — better horizontal scroll UX on mobile */
+@media (max-width: 600px) {
+  .page__content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.9em;
+  }
+}
+
+/* Footer — tighter on mobile */
+.page__footer {
+  @media (max-width: 600px) {
+    padding: 1.25rem 1rem;
+    margin-top: 2.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* hr separators — less vertical space on mobile */
+hr {
+  @media (max-width: 600px) {
+    margin: 1.5em 0;
+  }
+}
+
+/* Archive items — better title sizing on mobile */
+.archive__item-title {
+  @media (max-width: 600px) {
+    font-size: 1.15rem !important;
+    line-height: 1.3;
+  }
+}
+
+/* Hidden nav dropdown — full-width on mobile for easier tap targets */
+.greedy-nav .hidden-links {
+  @media (max-width: 600px) {
+    min-width: 100vw;
+    right: -0.75rem;
+    border-radius: 0;
+    
+    a {
+      padding: 0.85rem 1.25rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+/* Info boxes — stack cleanly on mobile */
+.info-boxes-container {
+  @media (max-width: 600px) {
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+}
+
+.info-box {
+  @media (max-width: 600px) {
+    padding: 1.15rem;
+  }
+}
+
+/* Ensure images don't overflow on small screens */
+@media (max-width: 600px) {
+  .page__content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Prevent horizontal scrollbar from embedded content */
+  .page__content iframe,
+  .page__content embed,
+  .page__content object,
+  .page__content video {
+    max-width: 100%;
   }
 }
 
