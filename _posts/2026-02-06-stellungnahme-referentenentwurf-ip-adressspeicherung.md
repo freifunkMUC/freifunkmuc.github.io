@@ -30,6 +30,8 @@ Wir lehnen den Entwurf in seiner jetzigen Form ab. Er ist mit dem Betrieb offene
 
 Freifunk München versorgt regelmäßig **über 4.000 gleichzeitig verbundene Endgeräte** - an Spitzentagen deutlich mehr. Dabei handelt es sich nicht um einen festen Kreis von 4.000 "Kunden": Die Nutzerschaft wechselt ständig. Im Laufe eines einzigen Tages verbinden sich **zehntausende unterschiedliche Geräte** mit dem Netz - Passanten, Reisende, Besucher, Anwohner. Anders als bei einem klassischen Internetzugangsanbieter gibt es zu keinem dieser Geräte ein Vertragsverhältnis, keine Registrierung, keine Identitätsprüfung. Es gibt schlicht keinen "Anschlussinhaber" im Sinne des Entwurfs.
 
+Bereits die **rechtliche Einordnung** offener WLAN-Netze unter den Gesetzentwurf ist unklar: Sind wir "Anbieter von Internetzugangsdiensten" im Sinne des Entwurfs? Oder fallen wir unter eine andere Kategorie? Der Entwurf liefert keine Antwort auf diese Frage und schafft damit schon bei der Frage der Anwendbarkeit **Rechtsunsicherheit und Vollzugschaos**. Betreiber offener Netze müssten auf eigenes Risiko entscheiden, ob und wie sie die Regelungen umsetzen - mit der ständigen Gefahr, entweder unnötig in teure Infrastruktur zu investieren oder sich unwissentlich rechtswidrig zu verhalten.
+
 Der Gesetzentwurf geht davon aus, dass ein Anbieter "seinem Kunden" eine IP-Adresse zuweist und diese Zuordnung speichern kann. In einem offenen WLAN funktioniert das nicht:
 
 - Nutzer kommen und gehen im Minutentakt. Ein Gerät, das sich am Hauptbahnhof verbindet, ist zehn Minuten später möglicherweise am Marienplatz in einem anderen Netzknoten - oder offline.
@@ -50,6 +52,13 @@ Was das bei unserer Größenordnung konkret bedeutet:
 - Ein einziges kompromittiertes IoT-Gerät, das an einem DDoS-Angriff beteiligt ist, erzeugt laut Sachverständigem Lutz Donnerhacke **360 MB Verkehrsdaten pro Stunde** zusätzlich.
 
 Diese Datenmengen erfordern eine professionelle **Logging-Infrastruktur** mit leistungsfähiger Hardware, redundanter Speicherung, Backup, Verschlüsselung und Zugriffskontrolle. Da Freifunk München seine Infrastruktur aus Ausfallsicherheitsgründen über **zwei redundante Standorte** betreibt, müssten beide Standorte mit entsprechenden Logging- und Speicherkapazitäten ausgestattet werden - was die Kosten nochmals verdoppelt. Insgesamt liegen die Kosten **im fünf- bis sechsstelligen Bereich jährlich** - für ein Netz, das vollständig ehrenamtlich und aus Spenden finanziert wird.
+
+Doch die Kosten sind nur ein Aspekt. Die Speicherpflicht schafft ein **völlig neues Risikoprofil** für Betreiber offener Netze:
+
+- **Neue DSGVO-Pflichten:** Die Erhebung und Speicherung dieser Daten erfordert eine vollständige **Datenschutz-Folgenabschätzung** (Art. 35 DSGVO), neue Verarbeitungsverzeichnisse, Löschkonzepte und Informationspflichten gegenüber den Nutzenden - die wir mangels Kontaktdaten gar nicht erfüllen können.
+- **Meldepflichten bei Datenschutzvorfällen:** Bei jedem Sicherheitsvorfall entstehen Melde- und Benachrichtigungspflichten nach Art. 33 und 34 DSGVO - mit erheblichem bürokratischem Aufwand und Haftungsrisiken.
+- **Log-Dateien als Hochrisiko-Angriffsziel:** Die gespeicherten Verkehrsdaten sind für Angreifer hochattraktiv. Ein erfolgreicher Datenabfluss ermöglicht **Stalking, Erpressung und gezielte Überwachung**. Besonders gravierend ist dies bei Freifunk-Standorten in sensiblen Einrichtungen wie **Frauenhäusern, Beratungsstellen oder Flüchtlingsunterkünften** - hier kann ein Datenleck unmittelbar die Sicherheit von Menschen gefährden.
+- **Neue DSGVO-Konflikte:** Die Speicherpflicht steht im Spannungsverhältnis zum Grundsatz der Datenminimierung (Art. 5 Abs. 1 lit. c DSGVO) und zur Zweckbindung. Betreiber geraten in einen unlösbaren Konflikt zwischen gesetzlicher Speicherpflicht und datenschutzrechtlichem Speicherverbot.
 
 Darüber hinaus ermöglichen diese Datenmengen entgegen der Behauptung des Entwurfs sehr wohl die Erstellung detaillierter **Persönlichkeits- und Kommunikationsprofile** - ein Punkt, den sowohl die Gesellschaft für Informatik als auch die BRAK in ihren Stellungnahmen hervorheben.
 
