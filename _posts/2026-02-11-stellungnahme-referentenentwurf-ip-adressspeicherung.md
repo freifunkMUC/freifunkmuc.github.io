@@ -12,7 +12,7 @@ Der Verein Freie Netze München e.V. betreibt unter dem Namen **Freifunk Münche
 
 Wir nehmen hiermit Stellung zum [Referentenentwurf des Bundesministeriums der Justiz und für Verbraucherschutz vom 22. Dezember 2025](https://www.bmjv.de/SharedDocs/Gesetzgebungsverfahren/DE/2025_IP_Speicherung.html?nn=110518) zur "Einführung einer IP-Adressspeicherung und Weiterentwicklung der Befugnisse zur Datenerhebung im Strafverfahren".
 
-Bereits im November 2025 haben wir in einer [früheren Stellungnahme](/politik/freifunk/gesetzgebung/2025/11/10/stellungnahme-mindestspeicherung.html) auf die grundlegenden technischen, datenschutzrechtlichen und gesellschaftlichen Probleme einer IP-Adressspeicherung für offene WLAN-Netze hingewiesen. Der nun vorliegende Referentenentwurf bestätigt und verschärft unsere Bedenken.
+Bereits im November 2025 haben wir in einer [früheren Stellungnahme](/politik/freifunk/gesetzgebung/2025/11/10/stellungnahme-mindestspeicherung) auf die grundlegenden technischen, datenschutzrechtlichen und gesellschaftlichen Probleme einer IP-Adressspeicherung für offene WLAN-Netze hingewiesen. Der nun vorliegende Referentenentwurf bestätigt und verschärft unsere Bedenken.
 
 ---
 
