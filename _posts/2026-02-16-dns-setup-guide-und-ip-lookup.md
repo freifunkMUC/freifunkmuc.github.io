@@ -30,16 +30,11 @@ Ihr wollt schnell wissen, mit welcher IP-Adresse ihr gerade unterwegs seid? Geht
 
 **Im Terminal:**
 
-```bash
-# IPv4-Adresse abfragen
-curl -4 ip.ffmuc.net
-
-# IPv6-Adresse abfragen
-curl -6 ip.ffmuc.net
-
-# Oder als JSON
-curl ip.ffmuc.net/json
-```
+| Was | Befehl |
+|-----|--------|
+| IPv4 | `curl -4 ip.ffmuc.net` |
+| IPv6 | `curl -6 ip.ffmuc.net` |
+| JSON | `curl ip.ffmuc.net/json` |
 
 Einfach, schnell und ohne Tracking.
 
@@ -73,16 +68,11 @@ Want to quickly check which IP address you're using? Just open:
 
 **In the terminal:**
 
-```bash
-# Query your IPv4 address
-curl -4 ip.ffmuc.net
-
-# Query your IPv6 address
-curl -6 ip.ffmuc.net
-
-# Or as JSON
-curl ip.ffmuc.net/json
-```
+| What | Command |
+|------|---------|
+| IPv4 | `curl -4 ip.ffmuc.net` |
+| IPv6 | `curl -6 ip.ffmuc.net` |
+| JSON | `curl ip.ffmuc.net/json` |
 
 Simple, fast, and tracking-free.
 
@@ -116,16 +106,11 @@ Vous voulez savoir quelle adresse IP vous utilisez en ce moment ? Ouvrez simplem
 
 **Dans le terminal :**
 
-```bash
-# Afficher votre adresse IPv4
-curl -4 ip.ffmuc.net
-
-# Afficher votre adresse IPv6
-curl -6 ip.ffmuc.net
-
-# Ou en JSON
-curl ip.ffmuc.net/json
-```
+| Quoi | Commande |
+|------|----------|
+| IPv4 | `curl -4 ip.ffmuc.net` |
+| IPv6 | `curl -6 ip.ffmuc.net` |
+| JSON | `curl ip.ffmuc.net/json` |
 
 Simple, rapide et sans tracking.
 
@@ -159,16 +144,11 @@ Nuestro servicio DNS también aparece en [European Alternatives](https://europea
 
 **En la terminal:**
 
-```bash
-# Consultar tu dirección IPv4
-curl -4 ip.ffmuc.net
-
-# Consultar tu dirección IPv6
-curl -6 ip.ffmuc.net
-
-# O en JSON
-curl ip.ffmuc.net/json
-```
+| Qué | Comando |
+|-----|---------|
+| IPv4 | `curl -4 ip.ffmuc.net` |
+| IPv6 | `curl -6 ip.ffmuc.net` |
+| JSON | `curl ip.ffmuc.net/json` |
 
 Sencillo, rápido y sin rastreo.
 
@@ -202,16 +182,11 @@ Si tienes preguntas o comentarios, puedes contactarnos en nuestro chat en cualqu
 
 **У терміналі:**
 
-```bash
-# Дізнатися свою IPv4-адресу
-curl -4 ip.ffmuc.net
-
-# Дізнатися свою IPv6-адресу
-curl -6 ip.ffmuc.net
-
-# Або у форматі JSON
-curl ip.ffmuc.net/json
-```
+| Що | Команда |
+|-----|--------|
+| IPv4 | `curl -4 ip.ffmuc.net` |
+| IPv6 | `curl -6 ip.ffmuc.net` |
+| JSON | `curl ip.ffmuc.net/json` |
 
 Просто, швидко і без відстеження.
 
