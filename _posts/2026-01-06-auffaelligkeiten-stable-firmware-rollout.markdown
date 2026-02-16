@@ -29,8 +29,8 @@ Wir würden die Situation gerne schnell analysieren und freuen uns auf eure Hilf
 * Hat jemand ähnliche Effekte bei eigenen Rollouts beobachtet?
 * Habt ihr Logs, serielle Ausgaben oder andere Informationen, die uns bei der Eingrenzung helfen könnten?
 
-Meldet euch gerne im [Firmware-Channel](https://chat.ffmuc.net/freifunk/channels/firmware) – wir freuen uns auf den Austausch mit euch!
-Weitere Informationen auch in unserem Issue Tracker: https://github.com/freifunkMUC/site-ffm/issues/776
+Meldet euch gerne im [Firmware-Channel](https://chat.ffmuc.net/freifunk/channels/firmware) – wir freuen uns auf den Austausch mit euch!  
+Weitere Informationen auch in unserem Issue Tracker: [https://github.com/freifunkMUC/site-ffm/issues/776](https://github.com/freifunkMUC/site-ffm/issues/776) 
 
 Viele Grüße und danke für eure Unterstützung  
 Euer Freifunk München Team
@@ -60,8 +60,8 @@ We'd like to analyze the situation quickly and look forward to your help! 🙏
 * Has anyone observed similar effects in their own rollouts?
 * Do you have logs, serial output, or other information that could help us narrow this down?
 
-Feel free to reach out in the [firmware channel](https://chat.ffmuc.net/freifunk/channels/firmware) – we look forward to hearing from you!
-For more information, also see our issue tracker: https://github.com/freifunkMUC/site-ffm/issues/776
+Feel free to reach out in the [firmware channel](https://chat.ffmuc.net/freifunk/channels/firmware) – we look forward to hearing from you!  
+For more information, also see our issue tracker: [https://github.com/freifunkMUC/site-ffm/issues/776](https://github.com/freifunkMUC/site-ffm/issues/776) 
 
 Best regards and thank you for your support  
 Your Freifunk München Team
@@ -91,8 +91,8 @@ Nous aimerions analyser la situation rapidement et comptons sur votre aide ! �
 * Quelqu'un a-t-il observé des effets similaires dans ses propres déploiements ?
 * Avez-vous des journaux, des sorties série ou d'autres informations qui pourraient nous aider à réduire le problème ?
 
-N'hésitez pas à nous contacter sur le [canal firmware](https://chat.ffmuc.net/freifunk/channels/firmware) – nous nous réjouissons de vous entendre !
-Pour plus d'informations, consultez également notre suivi des issues: https://github.com/freifunkMUC/site-ffm/issues/776
+N'hésitez pas à nous contacter sur le [canal firmware](https://chat.ffmuc.net/freifunk/channels/firmware) – nous nous réjouissons de vous entendre !  
+Pour plus d'informations, consultez également notre suivi des issues: [https://github.com/freifunkMUC/site-ffm/issues/776](https://github.com/freifunkMUC/site-ffm/issues/776) 
 
 Cordialement et merci pour votre soutien  
 Votre équipe Freifunk München
@@ -122,8 +122,8 @@ Hasta ahora, no podemos identificar un patrón claro de hardware. Algunos dispos
 * ¿Alguien ha observado efectos similares en sus propios despliegues?
 * ¿Tiene registros, salida serie u otra información que pueda ayudarnos a reducir el problema?
 
-No dude en comunicarse con nosotros en el [canal firmware](https://chat.ffmuc.net/freifunk/channels/firmware) – ¡Esperamos saber de usted!
-Para más información, consulte también nuestro rastreador de incidencias: https://github.com/freifunkMUC/site-ffm/issues/776
+No dude en comunicarse con nosotros en el [canal firmware](https://chat.ffmuc.net/freifunk/channels/firmware) – ¡Esperamos saber de usted!  
+Para más información, consulte también nuestro rastreador de incidencias: [https://github.com/freifunkMUC/site-ffm/issues/776](https://github.com/freifunkMUC/site-ffm/issues/776) 
 
 Saludos cordiales y gracias por su apoyo  
 Su equipo Freifunk München
@@ -153,8 +153,8 @@ Su equipo Freifunk München
 * Чи хтось помічав подібні ефекти в своїх власних розгортаннях?
 * Чи у вас є журнали, серійні результати або інша інформація, яка могла б нам допомогти звузити це?
 
-Будь ласка, зв'яжіться з нами на [каналі firmware](https://chat.ffmuc.net/freifunk/channels/firmware) – ми чекаємо на вас!
-Додаткову інформацію також див. у нашому трекері питань: https://github.com/freifunkMUC/site-ffm/issues/776
+Будь ласка, зв'яжіться з нами на [каналі firmware](https://chat.ffmuc.net/freifunk/channels/firmware) – ми чекаємо на вас!  
+Додаткову інформацію також див. у нашому трекері питань: [https://github.com/freifunkMUC/site-ffm/issues/776](https://github.com/freifunkMUC/site-ffm/issues/776) 
 
 З повагою та дякуємо за вашу підтримку  
 Ваша команда Freifunk München
