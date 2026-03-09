@@ -12,7 +12,15 @@ translations: [en, fr, es, ua]
 
 Wir freuen uns, dass unser DNS-Resolver ab sofort nativ in [CachyOS](https://cachyos.org/) als DNS-Option verfügbar ist! CachyOS ist eine auf Performance optimierte Arch-Linux-Distribution, die besonders bei Linux-Enthusiasten beliebt ist.
 
-Im [CachyOS Welcome-Tool](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs) kann Freifunk München DNS jetzt direkt als DNS-Provider ausgewählt werden — ohne manuelle Konfiguration. Die Integration wurde mit dem [CachyOS March 2026 Release](https://cachyos.org/blog/2603-march-release/) ausgeliefert.
+Im [CachyOS Hello-Tool](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs) kann Freifunk München DNS jetzt direkt als DNS-Provider ausgewählt werden — ohne manuelle Konfiguration. Die Integration wurde mit dem [CachyOS March 2026 Release](https://cachyos.org/blog/2603-march-release/) ausgeliefert.
+
+### So geht's
+
+1. Öffne die **CachyOS Hello**-Anwendung (startet automatisch beim Hochfahren oder suche sie im App-Menü)
+2. Klicke auf **„Apps/Tweaks"**
+3. Wähle **„DNS-Konfiguration"**
+4. Wähle **„FFMUC DNS"** aus der Liste der Anbieter
+5. Klicke auf **Anwenden** — fertig!
 
 ### Was bedeutet das?
 
@@ -55,7 +63,15 @@ Der Freifunk München DNS-Resolver steht allen offen — nicht nur Freifunk-Nutz
 
 We're happy to announce that our DNS resolver is now natively available as a DNS option in [CachyOS](https://cachyos.org/)! CachyOS is a performance-optimized Arch Linux distribution that's especially popular among Linux enthusiasts.
 
-In the [CachyOS Welcome tool](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs), Freifunk München DNS can now be selected directly as a DNS provider — no manual configuration needed. The integration shipped with the [CachyOS March 2026 Release](https://cachyos.org/blog/2603-march-release/).
+In the [CachyOS Hello app](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs), Freifunk München DNS can now be selected directly as a DNS provider — no manual configuration needed. The integration shipped with the [CachyOS March 2026 Release](https://cachyos.org/blog/2603-march-release/).
+
+### How to set it up
+
+1. Open the **CachyOS Hello** application (launches automatically on startup, or search for it in your app menu)
+2. Click on **"Apps/Tweaks"**
+3. Select **"DNS Configuration"**
+4. Choose **"FFMUC DNS"** from the list of providers
+5. Click **Apply** — done!
 
 ### What does this mean?
 
@@ -98,7 +114,15 @@ The Freifunk München DNS resolver is open to everyone — not just Freifunk use
 
 Nous sommes heureux d'annoncer que notre résolveur DNS est désormais disponible nativement comme option DNS dans [CachyOS](https://cachyos.org/) ! CachyOS est une distribution Arch Linux optimisée pour les performances, particulièrement populaire parmi les passionnés de Linux.
 
-Dans l'[outil CachyOS Welcome](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs), Freifunk München DNS peut désormais être sélectionné directement comme fournisseur DNS — sans aucune configuration manuelle. L'intégration a été livrée avec la [version de mars 2026 de CachyOS](https://cachyos.org/blog/2603-march-release/).
+Dans l'[application CachyOS Hello](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs), Freifunk München DNS peut désormais être sélectionné directement comme fournisseur DNS — sans aucune configuration manuelle. L'intégration a été livrée avec la [version de mars 2026 de CachyOS](https://cachyos.org/blog/2603-march-release/).
+
+### Comment configurer
+
+1. Ouvrez l'application **CachyOS Hello** (se lance automatiquement au démarrage ou cherchez-la dans le menu)
+2. Cliquez sur **« Apps/Tweaks »**
+3. Sélectionnez **« DNS Configuration »**
+4. Choisissez **« FFMUC DNS »** dans la liste des fournisseurs
+5. Cliquez sur **Appliquer** — c'est fait !
 
 ### Qu'est-ce que cela signifie ?
 
@@ -141,7 +165,15 @@ Le résolveur DNS Freifunk München est ouvert à tous — pas seulement aux uti
 
 Nos alegra anunciar que nuestro resolver DNS está ahora disponible nativamente como opción DNS en [CachyOS](https://cachyos.org/). CachyOS es una distribución Arch Linux optimizada para rendimiento, especialmente popular entre entusiastas de Linux.
 
-En la [herramienta CachyOS Welcome](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs), Freifunk München DNS ahora se puede seleccionar directamente como proveedor DNS — sin configuración manual. La integración se incluyó en el [lanzamiento de marzo 2026 de CachyOS](https://cachyos.org/blog/2603-march-release/).
+En la [aplicación CachyOS Hello](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs), Freifunk München DNS ahora se puede seleccionar directamente como proveedor DNS — sin configuración manual. La integración se incluyó en el [lanzamiento de marzo 2026 de CachyOS](https://cachyos.org/blog/2603-march-release/).
+
+### Cómo configurarlo
+
+1. Abre la aplicación **CachyOS Hello** (se inicia automáticamente al arrancar o búscala en el menú de aplicaciones)
+2. Haz clic en **"Apps/Tweaks"**
+3. Selecciona **"DNS Configuration"**
+4. Elige **"FFMUC DNS"** de la lista de proveedores
+5. Haz clic en **Aplicar** — ¡listo!
 
 ### ¿Qué significa esto?
 
@@ -184,7 +216,15 @@ El resolver DNS de Freifunk München está abierto a todos — no solo a usuario
 
 Ми раді повідомити, що наш DNS-резолвер тепер нативно доступний як опція DNS у [CachyOS](https://cachyos.org/)! CachyOS — це оптимізований для продуктивності дистрибутив Arch Linux, особливо популярний серед ентузіастів Linux.
 
-В [інструменті CachyOS Welcome](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs) Freifunk München DNS тепер можна вибрати безпосередньо як DNS-провайдер — без ручної конфігурації. Інтеграція була включена у [березневий реліз CachyOS 2026](https://cachyos.org/blog/2603-march-release/).
+У [додатку CachyOS Hello](https://github.com/CachyOS/CachyOS-Welcome/blob/develop/src/dns.rs) Freifunk München DNS тепер можна вибрати безпосередньо як DNS-провайдер — без ручної конфігурації. Інтеграція була включена у [березневий реліз CachyOS 2026](https://cachyos.org/blog/2603-march-release/).
+
+### Як налаштувати
+
+1. Відкрийте додаток **CachyOS Hello** (запускається автоматично при старті або знайдіть його в меню додатків)
+2. Натисніть **«Apps/Tweaks»**
+3. Виберіть **«DNS Configuration»**
+4. Оберіть **«FFMUC DNS»** зі списку провайдерів
+5. Натисніть **Застосувати** — готово!
 
 ### Що це означає?
 
