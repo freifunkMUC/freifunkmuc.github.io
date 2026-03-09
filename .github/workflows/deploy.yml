@@ -58,7 +58,7 @@ jobs:
           ls -al _site
 
       - name: Deploy via rsync
-        uses: burnett01/rsync-deployments@7659d600d8bdd035bb5cdfba1d4bd0dd4a307ca6 # v8.0.3
+        uses: burnett01/rsync-deployments@dc0d5d44c4728aad3f02154a87309809e62a960f # v8.0.4
         with:
           switches: -avzr --delete --stats
           path: _site/
