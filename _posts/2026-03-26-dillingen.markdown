@@ -11,9 +11,7 @@ Status: Stable
 
 Route: Isar (MUC) ➡️ Donau (DLG)
 
-Normalerweise fließen Isar und Donau erst viel weiter östlich zusammen, aber unsere Datenpakete haben die Abkürzung durch den Isar-Donau-Kanal genommen. Wir haben das Freifunk-Signal aus den Münchner Isarauen direkt an die Donau-Ufer exportiert.
-
-Ab sofort fließen die Datenpakete von Freifunk München nicht mehr nur entlang der Isar-Ufer, sondern sind auch erfolgreich in Dillingen an der Donau aufgeschlagen.
+Normalerweise fließen Isar und Donau erst viel weiter östlich zusammen, aber unsere Datenpakete haben die Abkürzung durch den Isar-Donau-Kanal genommen. Wir haben das Freifunk-Signal aus den Münchner Isarauen an eine weitere Donau-Stadt, nach Dillingen exportiert.
 
 
 Status: flowing
