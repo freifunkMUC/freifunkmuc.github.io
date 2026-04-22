@@ -19,5 +19,5 @@ Keine Anmeldung erforderlich.
 [Technische Hochschule Augsburg,  
 Fakultät für Informatik, Friedbergerstr. 2](https://www.luga.de/static/LIT-2026/location/)
 
-Mehr Infos hier [hier](https://www.luga.de/static/LIT-2026/).  
+Mehr Infos [hier](https://www.luga.de/static/LIT-2026/).  
 Wir freuen uns auf euch!
