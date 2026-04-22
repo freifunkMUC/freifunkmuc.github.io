@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Besucht uns auf dem 22. Augsburger Linux-Infotag"
-date: 2026-05-02 09:30:00
+date: 2026-04-22 12:00:00
 categories: meta
 ---
 
