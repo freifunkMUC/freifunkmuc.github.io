@@ -10,7 +10,7 @@ translations: [en, fr, es, ua]
 
 ## DENIC DNSSEC-Störung behoben – DNSSEC-Validierung wieder aktiv
 
-**Update zur [gestrigen Meldung](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung.html):** Die DNSSEC-Störung bei der DENIC ist behoben. Alle `.de`-Domains sind wieder normal erreichbar.
+**Update zur [gestrigen Meldung](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung):** Die DNSSEC-Störung bei der DENIC ist behoben. Alle `.de`-Domains sind wieder normal erreichbar.
 
 ### Was haben wir getan?
 
@@ -46,7 +46,7 @@ Quelle: [DENIC Blog](https://blog.denic.de/en/denic-reports-resolved-dnssec-disr
 
 ## DENIC DNSSEC Outage Resolved – DNSSEC Validation Re-enabled
 
-**Update to [yesterday's post](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung.html):** The DNSSEC disruption at DENIC has been resolved. All `.de` domains are reachable again.
+**Update to [yesterday's post](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung):** The DNSSEC disruption at DENIC has been resolved. All `.de` domains are reachable again.
 
 ### What did we do?
 
@@ -82,7 +82,7 @@ Source: [DENIC Blog](https://blog.denic.de/en/denic-reports-resolved-dnssec-disr
 
 ## Panne DNSSEC chez DENIC résolue – Validation DNSSEC réactivée
 
-**Mise à jour du [post d'hier](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung.html) :** La perturbation DNSSEC chez DENIC est résolue. Tous les domaines `.de` sont de nouveau accessibles.
+**Mise à jour du [post d'hier](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung) :** La perturbation DNSSEC chez DENIC est résolue. Tous les domaines `.de` sont de nouveau accessibles.
 
 ### Qu'avons-nous fait ?
 
@@ -118,7 +118,7 @@ Source : [Blog DENIC](https://blog.denic.de/en/denic-reports-resolved-dnssec-dis
 
 ## Fallo DNSSEC en DENIC resuelto – Validación DNSSEC reactivada
 
-**Actualización del [artículo de ayer](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung.html):** La interrupción DNSSEC en DENIC ha sido resuelta. Todos los dominios `.de` vuelven a estar accesibles.
+**Actualización del [artículo de ayer](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung):** La interrupción DNSSEC en DENIC ha sido resuelta. Todos los dominios `.de` vuelven a estar accesibles.
 
 ### ¿Qué hemos hecho?
 
@@ -154,7 +154,7 @@ Fuente: [Blog DENIC](https://blog.denic.de/en/denic-reports-resolved-dnssec-disr
 
 ## Збій DNSSEC у DENIC усунено – Валідацію DNSSEC відновлено
 
-**Оновлення до [вчорашнього повідомлення](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung.html):** Збій DNSSEC у DENIC усунено. Усі домени `.de` знову доступні.
+**Оновлення до [вчорашнього повідомлення](/freifunk/infrastruktur/2026/05/05/denic-dnssec-stoerung):** Збій DNSSEC у DENIC усунено. Усі домени `.de` знову доступні.
 
 ### Що ми зробили?
 
