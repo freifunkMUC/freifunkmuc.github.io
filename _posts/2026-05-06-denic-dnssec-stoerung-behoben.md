@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "DENIC DNSSEC-Störung behoben – DNSSEC-Validierung wieder aktiv"
-date: 2026-05-06 12:00:00 +0200
+date: 2026-05-06 06:00:00 +0200
 categories: freifunk infrastruktur
 translations: [en, fr, es, ua]
 ---
