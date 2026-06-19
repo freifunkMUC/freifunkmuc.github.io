@@ -6,7 +6,7 @@ categories: freifunkmuc
 ---
 
 In den kommenden Tagen veröffentlichen wir ein neues Firmware-Release **v2026.x.x**.  
-Das Release basiert auf **Gluon v2025.1.1** und wird wie gewohnt schrittweise ausgerollt.
+Das Release basiert auf [**Gluon v2025.1.1**](https://gluon.readthedocs.io/en/latest/releases/v2025.1.1.html) und wird wie gewohnt schrittweise ausgerollt.
 
 ## Automatische Updates
 
