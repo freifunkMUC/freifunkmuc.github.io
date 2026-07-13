@@ -115,6 +115,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - MULTILANG_SIMPLE_GUIDE.md
 keep_files:
   - .git
   - .svn
