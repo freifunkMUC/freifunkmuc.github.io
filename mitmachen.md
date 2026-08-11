@@ -2,108 +2,122 @@
 layout: single
 title: Wie mache ich mit?
 permalink: /mitmachen/
+classes: wide
+author_profile: false
 ---
 
-## Werde FreifunkerIn
+## In 4 Schritten zum eigenen Knoten
 
-Prima! Du hast Dich entschieden bei Freifunk mitzumachen und somit ist der schwierige Prozeß der Entscheidung erfolgreich absolviert. Falls sich bereits eine Freifunk Wolke (“Mesh-Netzwerk”) in unmittelbarer Umgebung befindet, braucht man nur einen eigenen Knoten ans Fenster zu stellen und mit etwas Strom aus der Steckdose versorgen. Die verwendeten Geräte sind sehr genügsam.
+1. **Schau auf die Karte**, ob in deiner Nähe schon Freifunk ist → [map.ffmuc.net](https://map.ffmuc.net/)
+2. **Kauf ein empfohlenes Gerät** (siehe unten). **Vor dem Bestellen** Modell und Version auf [firmware.ffmuc.net](https://firmware.ffmuc.net) prüfen
+3. **Firmware aufspielen** und einrichten → [Router flashen][router-flashen] · [konfigurieren][router-konfigurieren]
+4. **Aufstellen** (Fensterbank / möglichst hoch) und bei Fragen in den [Chat](https://chat.ffmuc.net/)
 
-Falls sich in Deiner Nachbarschaft noch keine FreifunkerInnen befinden und die Entfernung zur nächsten Wolke einfach zu groß ist, musst Du den Freifunk Router an Dein heimisches Netzwerk anschließen. Damit ermöglichst Du, dass sich Dein neuer Knoten mit einem der zentralen Gateways der Community über Deine Internet-Verbindung verbinden kann. Keine Sorge, Du bestimmst wie viel Bandbreite Du dafür reservieren möchtest. Der Freifunk Knoten greift nicht auf Dein lokales Netzwerk zu. Falls Dein Router ein Gäste-Netzwerk unterstützt, dann schließe bitte dort Deinen Freifunk Knoten an (FritzBox-Nutzer beachten bitte den Punkt ["Mein Knoten funktioniert nicht am Gastzugang der FritzBox"][faq] in den FAQ). Vertrauen ist gut aber zusätzliche Sicherheitsmassnahmen sind besser.
+Keine Lust auf Technik? Wir helfen beim [Treffen/Kontakt][kontakt]. Du kannst auch [spenden](https://spende.ffmuc.net) oder [Mitglied werden](https://mitglieder.ffmuc.net).
 
-Falls Dir das mit der Technik zu kompliziert ist, [sprich uns einfach an][kontakt]. Vielleicht findet sich ja ein Termin, um gemeinsam einen Knoten bei Dir aufzustellen. Du kannst aber auch mitmachen, indem Du keinen eigenen Knoten betreibst und z.B. eine kleine Spende entrichtest.
+---
 
-## Alle können mitmachen!
+## Welches Gerät brauche ich?
 
-Sprich mit deinem Freundeskreis, GeschäftspartnerInnen und allen Menschen die dich umgeben und verbreite die Idee von Freifunk. Alle können FreifunkerInnen werden! Wir freuen uns über Unterstützung bei
+<div class="hw-guide" markdown="1">
 
-- der Erweiterung des Freifunk-Netzwerks durch das Aufstellen neuer Freifunk-Router (siehe unten) oder durch das Bereitstellen interessanter Standorte für Freifunk-Router (z.B. Dächer).
-- der Entwicklung von Infomaterial, Bannern, Transparenten, T-Shirts, … was immer dir Kreatives einfällt!
-- der Verbreitung der Idee auf Veranstaltungen, Barcamps und Kongressen.
-- dem Betreiben von Diensten für die Community und der Entwicklung von Webanwendungen.
+### Für fast alle Einsteiger: das hier kaufen
 
-## Du möchtest einen Freifunk-Router aufstellen?
+<div class="hw-pick hw-pick--primary" markdown="1">
 
-<div  markdown="1">
-### Starter-Kit
+#### D-Link DAP-X1860
 
-![Starter-Kit](/assets/mitmachen/participate_small.png)
+- **Warum:** klein, günstig, Wi‑Fi&nbsp;6, steckt einfach in die Steckdose  
+- **Preis:** oft ab ca. 30&nbsp;€  
+- **Gut für:** Wohnung, WG, kleines Büro, Café-Einstieg  
+- **Achtung:** auf dem Karton/Gerät die **Hardware-Version** prüfen und im [Firmware-Selector](https://firmware.ffmuc.net) nach „DAP-X1860“ suchen
 
-Wohnung, Geschäft, Café, Restaurant, Bar
-
-#### Du möchtest
-
-- dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
-- deinen Internet-Anschluss freigeben.
-- den ersten Freifunk-Router in deiner Umgebung aufstellen.
-
-#### So kannst du mitmachen
-
-- Besorge einen Freifunk-fähigen 2,4&nbsp;GHz und 5&nbsp;GHz Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  - D-Link DAP-X1860 (ca. 30&nbsp;€, Wifi 6, Steckdosenplug)
-  - AVM Fritzbox 7520 (ca. 30&nbsp;€ gebraucht, Wifi 4&5)
-  - D-Link COVR-X1860 (ca. 50&nbsp;€, Wifi 6)
-  - ZyXEL WSM20/Multy-M1 (ca. 50&nbsp;€, Wifi 6, inkl. Wandhalterung)
-  - Zyxel NWA50AX (ca. 90&nbsp;€, Wifi 6, Wandmontage, PoE+)
-  - Für weitere Empfehlungen siehe: [Empfehlungen von Freifunk Aachen](https://wiki.freifunk.net/Freifunk_Aachen/Hardware)
-- [Installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
-- Stelle den Router an einem geeigneten Ort auf (z.B. Fensterbank).
 </div>
 
-<div markdown="1">
-### Level 2
+**Alternative, wenn der DAP-X1860 aus ist oder du LAN-Buchsen willst:**
 
-![Level 2](/assets/mitmachen/participate_medium.png)
+| Wenn du … | Dann eher … | ca. |
+| --- | --- | --- |
+| einen klassischen Router mit LAN-Ports willst | **ZyXEL WSM20** (auch Multy&nbsp;M1 / Telekom Multy&nbsp;M1) | ~50&nbsp;€ |
+| ein Mesh-Set im Angebot siehst | **D-Link COVR-X1860** (auch X1862/X1863) | ~50&nbsp;€/Set |
+| gebraucht sparen willst | **FRITZ!Box 7520 oder 7530** (nur **ohne „AX“** im Namen) | ~30&nbsp;€ |
 
-Balkon, hohes Gebäude, öffentlicher Platz, Park, weitläufiges Gelände
-
-#### Du möchtest
-
-- dich mit dem Freifunk-Netz in deiner Nachbarschaft verbinden.
-- deinen Internet-Anschluss freigeben.
-- den ersten Freifunk-Router in deiner Umgebung aufstellen.
-
-#### So kannst du mitmachen
-
-- Besorge dir einen Freifunk-fähigen 2,4&nbsp;GHz oder 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  - Zyxel NWA55AXE (ca. 100&nbsp;€, Wifi 6, Wand-/Mastmontage, PoE+)
-  - Ubiquiti UAP-AC-Mesh (ca. 100&nbsp;€, Wifi 4&5, Wand-/Mastmontage, PoE)
-- [installiere][router-flashen] und [konfiguriere][router-konfigurieren] die Freifunk-Firmware.
-- Montiere den Router an einem geeigneten Ort.
 </div>
 
-<div markdown="1">
-### Backbone
+<div class="hw-guide" markdown="1">
 
-![Level 2](/assets/mitmachen/participate_big.png)
+### Spezialfälle (nur wenn’s wirklich passt)
 
-Dach, Dachgeschoss, hohes Gebäude, öffentliches Gebäude, Rathaus, Kirchturm
+<details class="hw-details" markdown="1">
+<summary><strong>Draußen / Balkon / Hof</strong></summary>
 
-#### Du möchtest
+- **ZyXEL NWA55AXE** (ca. 95–100&nbsp;€): wetterfest, Mast/Wand, PoE+  
+- Montage und Strom (PoE) vorher planen  
+- Im [Chat](https://chat.ffmuc.net/) kurz nachfragen, lohnt sich oft
 
-- das “Rückgrat” des Freifunk-Netzes stärken, indem du stabile Richtfunk-Verbindungen zu weit entfernten Freifunk-Routern aufbaust. Für stabile Verbindungen wird eine freie Sicht zum entfernten Router benötigt.
+</details>
 
-#### So kannst du mitmachen
+<details class="hw-details" markdown="1">
+<summary><strong>Viele Nutzer, Wand-AP, LTE, Experimentelles</strong></summary>
 
-- Besorge dir einen Freifunk-fähigen 5&nbsp;GHz Outdoor-Router. Bitte beim Kauf immer auf die Hardwareversion achten! Von unseren [unterstützten Modellen][firmware] empfehlen wir:
-  - Ubiquiti Litebeam AC Gen2 \\
-    (bis ca. 5&nbsp;km)
-  - Ubiquiti Powerbeam \\
-    (bis ca. 10&nbsp;km)
-- Schalte die Originalfirmware der 5&nbsp;GHz Router in den Bridge-Modus und verbinde sie mit einem Mesh-on-LAN Port eines anderen Freifunk-Routers oder einem Server mit dem [x86 Virtual Machine Image][firmware].
-- Die neuen Verbindungen solltest du mit den Freifunker_innen planen, die die entfernten Router betreiben.
+**Wand-AP / mehr Clients (oft gebraucht):**
+
+- ZyXEL **NWA50AX** (~70&nbsp;€, PoE)  
+- Extreme Networks **WS-AP-3825i** / **3915i** (gebraucht, PoE)  
+- AVM **FRITZ!Box 4040** oder **Genexis Pulse EX400** (günstig/gebraucht)
+
+**LTE unterwegs (nur dieses Modell):**
+
+- ZTE **MF289F** / Vodafone **GigaCube 4G Z21**. Andere Gigacubes funktionieren nicht.
+
+**Mehr Leistung / nur mit Erfahrung:**
+
+- Acer **Connect Vero W6M** (Wi‑Fi&nbsp;6E)  
+- Darmstadt „experimentell“: **NWA50AX Pro**, ASUS **RT-AX52**, **TUF AX4200**
+
+**Richtfunk / Dach / weite Strecke:** nicht allein planen. Bitte [Chat](https://chat.ffmuc.net/) oder Treffen.
+
+</details>
+
 </div>
 
-## Wo kann ich meine Fragen stellen?
+### Wichtige Kauf-Regeln
 
-Wenn du noch mehr über Freifunk wissen möchtest, schaue bitte zuerst in die [häufig gestellten Fragen][faq]. Ansonsten schaue gerne im [Chat](https://chat.ffmuc.net) vorbei und scheue dich nicht uns zu [kontaktieren][kontakt].
+1. **Nur Modelle von der Liste** (bzw. Aachen/Darmstadt, siehe Quellen)  
+2. **Immer Hardware-Version prüfen.** Gleiche Modellnummer, neue Technik innen = oft keine Firmware  
+3. **Vor dem Bezahlen** auf [firmware.ffmuc.net](https://firmware.ffmuc.net) das exakte Gerät suchen  
+4. Unsicher? Foto vom Typenschild in den [Chat](https://chat.ffmuc.net/)
 
-Die Anleitung basiert auf [https://berlin.freifunk.net/de/participate/][berlin] \\
-Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
+**Quellen der Empfehlungen:**  
+[Freifunk Aachen Hardware](https://wiki.freifunk.net/Freifunk_Aachen/Hardware) · [Freifunk Darmstadt Kaufberatung](https://darmstadt.freifunk.net/mitmachen/kaufberatung/)  
+Stand: 2026. Vor Nutzung der Geräte: Images bei **Freifunk München** prüfen.
 
-[berlin]: https://berlin.freifunk.net/de/participate/
+---
+
+## So hängt du den Knoten richtig ein
+
+- Am besten am **Gastnetz / Gäste-LAN** deines Heimrouters (FritzBox: siehe [FAQ][faq])  
+- Der Freifunk-Knoten sieht dein privates Heimnetz normalerweise **nicht**  
+- Du kannst begrenzen, wie viel Internet du teilst  
+- Aufstellen: **Fenster**, möglichst frei Richtung Nachbarschaft
+
+Mehr Hintergrund: [Was ist Freifunk?](/wasistfreifunk/)
+
+## Auch ohne eigenen Freifunk-Router
+
+Du brauchst keinen Knoten, um dabei zu sein:
+
+- **Dienste nutzen:** DNS, Meet, CryptPad und mehr unter [Dienste](/dienste/) (auch ohne Freifunk-WLAN)
+- Freifunk erklären, Standorte finden, auf Events helfen
+- Design, Texte, Social Media
+- An Diensten mitentwickeln
+- [Spenden](https://spende.ffmuc.net) · [Mitglied werden](https://mitglieder.ffmuc.net)
+
+## Hilfe
+
+- [FAQ][faq] · [Chat](https://chat.ffmuc.net/) · [Kontakt / Treffen][kontakt] · [Wiki](https://ffmuc.net/wiki/)
+
 [faq]: /faq/
-[firmware]: /firmware/
 [kontakt]: /kontakt/
-[twitter]: https://twitter.com/freifunkmuc
 [router-flashen]: https://ffmuc.net/wiki/doku.php?id=knb:download#router_flashen_-_aufspielen_der_freifunk-firmware
 [router-konfigurieren]: https://ffmuc.net/wiki/doku.php?id=knb:gui

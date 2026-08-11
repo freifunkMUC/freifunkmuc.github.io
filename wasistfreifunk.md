@@ -3,9 +3,15 @@ layout: single
 title: Was ist Freifunk?
 permalink: /wasistfreifunk/
 video: true
+classes: wide
+author_profile: false
 ---
 
-Das Projekt Freifunk München baut ein stadtweites Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist dabei frei von Registrierung und Erfassung von Informationen.
+## Kurz gesagt
+
+**Freifunk** ist ein freies, gemeinschaftlich betriebenes WLAN-Netz. In München und Umgebung bauen wir mit vielen kleinen Routern („Knoten“) ein offenes Netz auf, das **ohne Login, ohne Registrierung und ohne Tracking** nutzbar ist.
+
+Freifunk München ist Teil der bundesweiten Freifunk-Idee und wird vor Ort von der Community und dem Verein **Freie Netze München e.V.** getragen. Neben freiem WLAN betreiben wir offene digitale Dienste für **digitale Teilhabe**, etwa [privates DNS](https://dns-setup.ffmuc.net), [Videokonferenzen](https://meet.ffmuc.net) und [verschlüsselte Collaboration-Tools](https://cryptpad.ffmuc.net). Übersicht: [Dienste](/dienste/).
 
 <p>
 <video
@@ -22,24 +28,75 @@ Das Projekt Freifunk München baut ein stadtweites Datennetz mit WLAN-Geräten, 
     <source src="/assets/media/freifunk.webm" type="video/webm">
   </video>
 </p>
-Konkret hat sich Freifunk zum Ziel gesetzt, offene Funknetzwerke einzurichten und diese miteinander zu verbinden. Dies ermöglicht einen freien Datenverkehr “durch die Luft” in der ganze Stadt innerhalb des Freifunk-Netzes. Freifunk ist somit eine offene, nicht-kommerzielle, hierarchielose Initiative für freie Funknetzwerke.
 
-## Wie funktioniert Freifunk?
+## Warum gibt es Freifunk?
 
-Freifunk funktioniert nur durch deinen Einsatz! Die Initiative setzt auf eine Gemeinschaft von Menschen, die dazu beitragen, dass die Idee von Freifunk wächst. Um mitzumachen brauchst Du gar nicht viel zu tun. Mach einfach mit!
+Wir finden: **Zugang zu Netz und digitalen Diensten ist ein Grundrecht**, unabhängig vom Geldbeutel und ohne unnötige Datensammlung.
 
-## Technische Aspekte
+Deshalb:
 
-Von der technischen Seite her bilden alle Freifunk-Geräte ein Mesh-Netzwerk. Das bedeutet, dass alle Geräte innerhalb des Freifunk Netzwerks direkt miteinander kommunizieren können und somit das eigene Netzwerk erstellen.
+- bauen wir **offene Funknetze** in der Nachbarschaft, in Cafés, Vereinen und öffentlichen Orten
+- leiten Internetverkehr über **zentrale Community-Gateways** aus (Schutz vor Störerhaftung)
+- betreiben wir **in Europa gehostete** Dienste mit Fokus auf Datenschutz
+- machen wir Technik und Status **transparent** ([stats.ffmuc.net](https://stats.ffmuc.net/))
 
-Du als UnterstützerIn der Freifunk Community stellst also einen Knoten bei Dir zu Hause auf und bildest ein Teil dieses Netzwerks. Diese WLAN-Router verwenden eine spezielle Software (Firmware), die für das Freifunk Projekt entwickelt wurde und außerdem frei sowie quelloffen im Internet zur Verfügung steht.
+Freifunk ist **nichtkommerziell**, **offen** und **hierarchielos**: Es gibt keine zentrale Firma, die das Netz „besitzt“. Es lebt von Menschen, die mitmachen.
 
-## Störerhaftung
+## So nutzt du Freifunk
 
-Du kannst über Deinen WLAN-Router auch einen Teil deiner Internetverbindung dem Freifunknetz zur Verfügung stellen. Damit Du keine Probleme mit der Störerhaftung bekommst, betreiben wir mehrere zentrale Zugangspunkte für München (Gateways), die den Internetverkehr ausleiten. So bleibt auch Dein Heimnetzwerk sicher und unberührt! Und wie kommst Du zu diesem Gateway? Das ist alles in der Software bereits für Dich eingestellt, Du brauchst Dich um nichts mehr zu kümmern!
+1. Suche in den WLAN-Einstellungen nach einem Netz wie **`ffmuc.net`** (oder einem lokalen Freifunk-SSID).
+2. Verbinde dich, **ohne Passwort und ohne Account**.
+3. Fertig. Viele Orte siehst du auf der [Knotenkarte](https://map.ffmuc.net/).
 
-## Freifunk Prinzipien
+Tipp: Freifunk ist ein Community-Netz. Bandbreite und Abdeckung hängen vom Standort und den Nachbar-Knoten ab.
 
-Freifunk ist komplett von seinen BenutzerInnen geschaffen worden, es gibt keine mächtige Instanz, die über das Netz herrscht. Alle AnwenderInnen sind zum gleichen Teil an dem Projekt beteiligt. Die Beteiligten betreiben das Netzwerk auf eigene Kosten und dies ist nur möglich, wenn sich alle an ein paar Regeln halten. Lies Dir bitte die [Nutzungsbedingungen](https://ffmuc.net/nutzungsbedingungen/) durch und halte Dich daran. Wir speichern zwar keinerlei Verbindungsdaten und können Dich somit nicht identifizieren, aber ein soziales Projekt kann nur dann funktionieren, wenn sich alle an die Regeln halten.
+## Wie funktioniert das technisch?
 
-Quelle: [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net)
+Jeder Freifunk-Router ist ein **Knoten**. Viele Knoten bilden zusammen ein **Mesh-Netzwerk**: Sie verbinden sich untereinander „durch die Luft“ und reichen Daten weiter.
+
+- Die Router laufen mit freier, quelloffener **Freifunk-Firmware** (basiert auf OpenWrt/Gluon).
+- Clients (Handy, Laptop) sehen ein offenes WLAN und können surfen.
+- Dein privates Heimnetz bleibt getrennt, der Freifunk-Knoten greift nicht darauf zu.
+- Internet-Uplink läuft über VPN zu unseren Gateways; so bleibst du als Knotenbetreiber\*in besser abgesichert.
+
+Du musst das nicht im Detail verstehen, um mitzumachen. Wenn du magst, erklären wir es im [Chat](https://chat.ffmuc.net/) oder beim [Treffen](/kontakt/).
+
+## Mitmachen (auch ohne Technik-Studium und ohne eigenen Router)
+
+Es gibt viele Wege:
+
+| Du möchtest … | Einstieg |
+| --- | --- |
+| Verstehen & erzählen | Diese Seite, [FAQ](/faq/), Freunde mitnehmen |
+| Einen Knoten aufstellen | [Mitmachen](/mitmachen/) · aktuelle Hardware-Empfehlungen dort |
+| Dienste ohne eigenen Router nutzen | [dns-setup.ffmuc.net](https://dns-setup.ffmuc.net) · [Dienste](/dienste/) |
+| Mit Geld unterstützen | [Spenden](https://spende.ffmuc.net) · [Mitglied werden](https://mitglieder.ffmuc.net) |
+| Mitentwickeln / helfen | [Chat](https://chat.ffmuc.net/) · [Wiki](https://ffmuc.net/wiki/) |
+
+**Wichtig vor dem Router-Kauf:** Immer Modell **und Hardware-Version** gegen die aktuelle [Firmware-Liste](https://firmware.ffmuc.net) prüfen. Hersteller ändern intern oft die Technik, dann passt eine „alte“ Kaufempfehlung plötzlich nicht mehr.
+
+## Störerhaftung & Sicherheit
+
+Wenn du einen Teil deiner Internetverbindung freigibst, leiten wir den Verkehr über **Community-Gateways** aus. Dein Heimnetz bleibt getrennt. Trotzdem gilt: Schließ den Knoten idealerweise am **Gäste-LAN/Gast-WLAN** deines Heimrouters an und lies die [Nutzungsbedingungen](/nutzungsbedingungen/).
+
+Wir speichern keine Verbindungsdaten, um Nutzer\*innen zu identifizieren. Ein soziales Netz funktioniert aber nur, wenn sich alle an faire Regeln halten.
+
+## Prinzipien
+
+- **Frei und offen:** Nutzung ohne Zwang zur Registrierung
+- **Dezentral:** viele Menschen betreiben viele Knoten
+- **Gemeinschaftlich:** Wissen, Firmware und Dienste werden geteilt
+- **Datensparsam:** so wenig Logging und Tracking wie möglich
+- **Nichtkommerziell:** Infrastruktur statt Profit
+
+## Nächste Schritte
+
+- [Mitmachen: Knoten aufstellen](/mitmachen/)
+- [Alle Dienste im Überblick](/dienste/)
+- [Knotenkarte](https://map.ffmuc.net/)
+- [Firmware herunterladen](https://firmware.ffmuc.net)
+- [Chat & Hilfe](https://chat.ffmuc.net/)
+
+---
+
+Teile dieser Seite basieren auf Texten von [Freifunk Magdeburg (CC BY-SA 4.0)](https://md.freifunk.net) und der [Berliner Mitmach-Seite](https://berlin.freifunk.net/de/participate/).

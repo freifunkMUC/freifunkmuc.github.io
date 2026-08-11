@@ -2,6 +2,8 @@
 layout: single
 title: Unterstützer
 permalink: /unterstuetzer/
+classes: wide
+author_profile: false
 ---
 
 Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung von Freifunk München!  
@@ -31,6 +33,10 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![Flexoptix logo](/assets/unterstuetzung/flexoptix.png){: style="max-height:60px;"}][flexoptix]
 
+### G-Core
+
+[![G-Core logo](/assets/unterstuetzung/gcore_logo.svg){: style="max-height:100px;"}][gcore]
+
 ### Inter.link GmbH
 
 [![Inter.link logo](/assets/unterstuetzung/interlink_logo.svg){: style="max-height:100px;"}][interlink]
@@ -43,13 +49,17 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: style="max-height:100px;"}][meerfarbig]
 
-### [PHILUNET GmbH][philunet]
+### PHILUNET GmbH
+
+[![PHILUNET logo](/assets/unterstuetzung/philunet_logo.svg){: style="max-height:100px;"}][philunet]
 
 ### Wiit
 
 [![wiit logo](/assets/unterstuetzung/wiit.png){: style="max-height:100px;"}][wiit]
 
-### [Xantaro Deutschland GmbH][xantaro]
+### Xantaro Deutschland GmbH
+
+[![Xantaro logo](/assets/unterstuetzung/xantaro_logo.svg){: style="max-height:100px;"}][xantaro]
 
 [anexia]: https://www.anexia.com/
 [emc-homeofdata]: https://www.emc-homeofdata.de/
@@ -63,3 +73,4 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 [de-cix]: https://www.de-cix.net/
 [lwlcom]: https://www.lwlcom.net/
 [philunet]: https://philunet.de/
+[gcore]: https://gcore.com/
