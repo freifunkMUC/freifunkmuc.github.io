@@ -33,6 +33,10 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![Flexoptix logo](/assets/unterstuetzung/flexoptix.png){: style="max-height:60px;"}][flexoptix]
 
+### G-Core
+
+[![G-Core logo](/assets/unterstuetzung/gcore_logo.svg){: style="max-height:100px;"}][gcore]
+
 ### Inter.link GmbH
 
 [![Inter.link logo](/assets/unterstuetzung/interlink_logo.svg){: style="max-height:100px;"}][interlink]
@@ -69,3 +73,4 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 [de-cix]: https://www.de-cix.net/
 [lwlcom]: https://www.lwlcom.net/
 [philunet]: https://philunet.de/
+[gcore]: https://gcore.com/
