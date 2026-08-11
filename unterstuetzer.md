@@ -2,6 +2,8 @@
 layout: single
 title: Unterstützer
 permalink: /unterstuetzer/
+classes: wide
+author_profile: false
 ---
 
 Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützung von Freifunk München!  

@@ -2,6 +2,8 @@
 layout: single
 title: Infomaterial
 permalink: /verbreiten/
+classes: wide
+author_profile: false
 ---
 
 Um die Idee von Freifunk weitertragen- und interessierten Personen etwas in die Hand drücken zu können, bieten wir hier unser Logo, diverse Druckvorlagen für Flyer, Sticker, Nachbarschaftsbriefe u.v.m. als Download an.

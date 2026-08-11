@@ -20,7 +20,7 @@ title: "Freifunk München"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Freifunk München"
-description: "Freifunk München ist eine nichtkommerzielle Initiative für den Aufbau freier (Funk-)Netze sowie Kommunikationskanäle."
+description: "Freier Zugang zu Netz und digitalen Diensten ist ein Grundrecht. Freifunk München baut offene Funknetze und betreibt datenschutzfreundliche Infrastruktur: nichtkommerziell und in Europa gehostet."
 url: "https://ffmuc.net"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "freifunkMUC/freifunkmuc.github.io"
@@ -60,18 +60,33 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Mitglied werden"
+      icon: "fa fa-fw fa-id-card"
+      url: "https://mitglieder.ffmuc.net"
+    - label: "Unterstützer"
+      icon: "fa fa-fw fa-handshake"
+      url: "/unterstuetzer/"
+    - label: "Firmware"
+      icon: "fa fa-fw fa-microchip"
+      url: "https://firmware.ffmuc.net"
+    - label: "Shop"
+      icon: "fa fa-fw fa-shopping-bag"
+      url: "https://freifunk-muenchen.myspreadshop.de/"
+    - label: "Chat"
+      icon: "fas fa-fw fa-comment"
+      url: "https://chat.ffmuc.net"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://social.ffmuc.net/@freifunkMUC"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/FreifunkMUC"
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://twitter.com/FreifunkMUC"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/FreifunkMUC/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/FreifunkMUC"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://social.ffmuc.net/@freifunkMUC"
     - label: "Impressum"
       icon: "fa fa-fw fa-book"
       url: "/impressum"
@@ -238,7 +253,16 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      classes: wide
+  # Top-level content pages (mitmachen.md, dienste.md, …)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      classes: wide
   - scope:
       path: "assets"
     values:

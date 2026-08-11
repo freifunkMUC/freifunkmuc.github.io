@@ -2,6 +2,8 @@
 layout: single
 title: FAQ
 permalink: /faq/
+classes: wide
+author_profile: false
 ---
 
 <head>

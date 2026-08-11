@@ -2,6 +2,8 @@
 layout: single
 title: Kontakt
 permalink: /kontakt/
+classes: wide
+author_profile: false
 ---
 
 {% include treffen.html %}
