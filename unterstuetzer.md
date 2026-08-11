@@ -45,13 +45,17 @@ Ein herzliches Dankeschön an die folgenden Institutionen für die Unterstützun
 
 [![meerfarbig logo](/assets/unterstuetzung/meerfarbig.jpeg){: style="max-height:100px;"}][meerfarbig]
 
-### [PHILUNET GmbH][philunet]
+### PHILUNET GmbH
+
+[![PHILUNET logo](/assets/unterstuetzung/philunet_logo.svg){: style="max-height:100px;"}][philunet]
 
 ### Wiit
 
 [![wiit logo](/assets/unterstuetzung/wiit.png){: style="max-height:100px;"}][wiit]
 
-### [Xantaro Deutschland GmbH][xantaro]
+### Xantaro Deutschland GmbH
+
+[![Xantaro logo](/assets/unterstuetzung/xantaro_logo.svg){: style="max-height:100px;"}][xantaro]
 
 [anexia]: https://www.anexia.com/
 [emc-homeofdata]: https://www.emc-homeofdata.de/
