@@ -22,6 +22,8 @@ search: false
   --primary-color: #dc0067;
   --primary-dark: #b00054;
   --primary-light: #ff1a7f;
+  --button-background: #dc0067;
+  --button-hover-background: #b00054;
   --text-color: #2d3436;
   --text-light: #636e72;
   --background-color: #ffffff;
@@ -343,11 +345,12 @@ a {
   }
   
   &--primary {
-    background: var(--primary-color);
+    background: var(--button-background);
     color: white;
     
     &:hover {
-      background: var(--primary-dark);
+      background: var(--button-hover-background);
+      color: white;
       transform: translateY(-2px);
       box-shadow: var(--shadow);
       text-decoration: none;
@@ -368,7 +371,7 @@ a {
     &:hover,
     &:focus {
       background: #fff;
-      color: var(--primary-dark);
+      color: var(--button-hover-background);
       border-color: #fff;
       text-decoration: none;
       transform: translateY(-2px);
@@ -1733,11 +1736,16 @@ a.feature-card {
 
 .btn--outline {
   background: transparent;
-  color: var(--primary-color);
-  border-color: var(--primary-color);
+  color: var(--button-hover-background);
+  border-color: var(--button-hover-background);
 
-  &:hover {
-    background: var(--primary-color);
+  &:visited {
+    color: var(--button-hover-background);
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--button-background);
     color: #fff;
     text-decoration: none;
     transform: translateY(-2px);
@@ -1805,8 +1813,8 @@ a.feature-card {
 
     &:hover,
     &:focus-visible {
-      background: var(--primary-dark);
-      border-color: var(--primary-dark);
+      background: var(--button-hover-background);
+      border-color: var(--button-hover-background);
       color: #fff;
     }
 
@@ -1847,9 +1855,15 @@ a.feature-card {
   border-bottom: 1px solid var(--border-color);
 
   @media (min-width: 601px) {
-    display: flex;
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
     align-items: baseline;
-    gap: 0.75rem;
+    gap: 0.25rem 0.75rem;
+
+    .translation-indicators-inline {
+      grid-column: 2;
+      margin-left: 0;
+    }
   }
 }
 
@@ -1914,10 +1928,15 @@ a.feature-card {
     color: var(--primary-light);
     border-color: var(--primary-light);
 
-    &:hover {
-      background: var(--primary-color);
+    &:visited {
+      color: var(--primary-light);
+    }
+
+    &:hover,
+    &:focus-visible {
+      background: var(--button-background);
       color: #ffffff;
-      border-color: var(--primary-color);
+      border-color: var(--button-background);
     }
   }
 }
