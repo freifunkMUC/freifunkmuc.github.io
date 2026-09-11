@@ -3,6 +3,8 @@ main:
     url: /mitmachen/
   - title: "Dienste"
     url: /dienste/
+  - title: "News"
+    url: /archiv/
   - title: "Karte"
     url: "https://map.ffmuc.net/"
   - title: "Spenden"

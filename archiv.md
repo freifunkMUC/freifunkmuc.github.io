@@ -1,49 +1,40 @@
 ---
 layout: single
 title: Archiv
+permalink: /archiv/
+author_profile: false
+classes: wide
 ---
 
-<div class="row">        
-    <div class="col-sm-6">
-        <div class="list-group">
-          <div class="panel-heading" markdown="1">
-{% assign current_year = 'now' | date: "%Y" %}
-{% assign start_year = 2014 %}
-{% for year in (start_year..current_year) reversed %}
-{% capture current_year %}{{ year }}{% endcapture %}
-### {{ year }}
-  <ul class="posts">
-  {% for post in site.posts %}
-    {% assign y = post.date | date: "%Y" %}
-    {% if y == current_year %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      {% if post.translations and post.translations.size > 0 %}
-        <span class="translation-indicators-inline">
-          <span class="translation-lang-inline">Deutsch</span>
-          {% for lang in post.translations %}
-            {% if lang == "en" %}
-              <a href="{{ post.url | prepend: site.baseurl }}#en" class="translation-lang-inline">English</a>
-            {% elsif lang == "fr" %}
-              <a href="{{ post.url | prepend: site.baseurl }}#fr" class="translation-lang-inline">Français</a>
-            {% elsif lang == "es" %}
-              <a href="{{ post.url | prepend: site.baseurl }}#es" class="translation-lang-inline">Español</a>
-            {% elsif lang == "ua" %}
-              <a href="{{ post.url | prepend: site.baseurl }}#ua" class="translation-lang-inline">Українська</a>
-            {% endif %}
-          {% endfor %}
-        </span>
-      {% endif %}
-    </li>
+Alle Neuigkeiten von Freifunk München, nach Jahren sortiert. Du kannst auch
+nach [Kategorien]({{ '/categories/' | relative_url }}) stöbern.
+
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
+## {{ year.name }}
+
+<ul class="archive-posts">
+{% for post in year.items %}
+  <li class="archive-post">
+    <time class="archive-post__date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d.%m.%Y" }}</time>
+    <a class="archive-post__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    {% if post.translations and post.translations.size > 0 %}
+      <span class="translation-indicators-inline">
+        <span class="translation-lang-inline">Deutsch</span>
+        {% for lang in post.translations %}
+          {% if lang == "en" %}
+            <a href="{{ post.url | relative_url }}#en" class="translation-lang-inline">English</a>
+          {% elsif lang == "fr" %}
+            <a href="{{ post.url | relative_url }}#fr" class="translation-lang-inline">Français</a>
+          {% elsif lang == "es" %}
+            <a href="{{ post.url | relative_url }}#es" class="translation-lang-inline">Español</a>
+          {% elsif lang == "ua" %}
+            <a href="{{ post.url | relative_url }}#ua" class="translation-lang-inline">Українська</a>
+          {% endif %}
+        {% endfor %}
+      </span>
     {% endif %}
-  {% endfor %}
-  </ul>
+  </li>
 {% endfor %}
-
-</div>
-
-        </div>
-    </div>
-
-</div>
+</ul>
+{% endfor %}
