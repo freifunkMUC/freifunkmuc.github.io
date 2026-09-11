@@ -22,11 +22,17 @@
       // Create ID if it doesn't exist
       if (!heading.id) {
         const text = heading.textContent.trim();
-        heading.id = text
+        const id = text
           .toLowerCase()
           .replace(/[^\w\s-äöüß]/g, '')
           .replace(/\s+/g, '-')
           .replace(/-+/g, '-');
+
+        // Keep existing anchors, including the theme's taxonomy section IDs.
+        if (!id || document.getElementById(id)) {
+          return;
+        }
+        heading.id = id;
       }
       
       // Make heading clickable
