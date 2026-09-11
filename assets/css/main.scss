@@ -1732,6 +1732,16 @@ a.feature-card {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+
+  @media (max-width: 600px) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+
+    .btn {
+      margin: 0;
+      padding: 0.75rem 1rem;
+    }
+  }
 }
 
 .btn--outline {
@@ -1786,10 +1796,11 @@ a.feature-card {
   }
 }
 
-/* The theme's floated half-width pagers cannot accommodate a page counter. */
+/* Grid keeps both pagers aligned when labels wrap; news also has a counter. */
+.page .pagination,
 .pagination--news {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.75rem;
   align-items: stretch;
 
@@ -1826,6 +1837,10 @@ a.feature-card {
       cursor: default;
     }
   }
+}
+
+.pagination--news {
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
 
   .pagination--page {
     align-self: center;
@@ -1839,6 +1854,15 @@ a.feature-card {
     .pagination--page {
       grid-column: 1 / -1;
       grid-row: 1;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .page .pagination,
+  .pagination--news {
+    .pagination--pager {
+      padding: 0.75rem 0.5rem;
     }
   }
 }
