@@ -16,23 +16,27 @@ layout: archive
   {% endfor %}
 </div>
 
+<p class="news-archive-link">
+  <a href="{{ '/archiv/' | relative_url }}"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i> Alle Neuigkeiten im Archiv</a>
+</p>
+
 {% if paginator %}
   {% if paginator.total_pages > 1 %}
-    <nav class="pagination">
+    <nav class="pagination pagination--news" aria-label="Seitennavigation">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination--pager">&laquo; {{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination--pager" rel="prev">&laquo; {{ site.data.ui-text[site.locale].pagination_previous | default: "Vorherige" }}</a>
       {% else %}
-        <span class="pagination--pager disabled">&laquo; {{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span>
+        <span class="pagination--pager disabled" aria-disabled="true">&laquo; {{ site.data.ui-text[site.locale].pagination_previous | default: "Vorherige" }}</span>
       {% endif %}
 
-      <span class="pagination--page">
-        {{ paginator.page }} {{ site.data.ui-text[site.locale].pagination_of | default: "of" }} {{ paginator.total_pages }}
+      <span class="pagination--page" aria-current="page">
+        {{ paginator.page }} {{ site.data.ui-text[site.locale].pagination_of | default: "von" }} {{ paginator.total_pages }}
       </span>
 
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination--pager">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }} &raquo;</a>
+        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination--pager" rel="next">{{ site.data.ui-text[site.locale].pagination_next | default: "Nächste" }} &raquo;</a>
       {% else %}
-        <span class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }} &raquo;</span>
+        <span class="pagination--pager disabled" aria-disabled="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Nächste" }} &raquo;</span>
       {% endif %}
     </nav>
   {% endif %}

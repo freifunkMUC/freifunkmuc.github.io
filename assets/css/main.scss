@@ -193,10 +193,9 @@ a {
   }
 }
 
-/* Navigation and button links should not be underlined by default */
+/* Navigation and footer links should not be underlined by default */
 .masthead a,
 .greedy-nav a,
-.btn,
 .page__footer a {
   text-decoration: none;
   
@@ -328,12 +327,20 @@ a {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 600;
+  line-height: 1.3;
   text-align: center;
+  vertical-align: middle;
   border-radius: var(--radius);
   transition: var(--transition);
   cursor: pointer;
   border: 2px solid transparent;
   text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+  }
   
   &--primary {
     background: var(--primary-color);
@@ -346,10 +353,63 @@ a {
       text-decoration: none;
     }
   }
+
+  /* Theme "light-outline" variant (used by hero call-to-action buttons over
+     the banner image). Restore a clearly visible, readable button. */
+  &--light-outline {
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    border-color: #fff;
+
+    &:visited {
+      color: #fff;
+    }
+
+    &:hover,
+    &:focus {
+      background: #fff;
+      color: var(--primary-dark);
+      border-color: #fff;
+      text-decoration: none;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+  }
   
   &:focus {
     outline: 3px solid var(--focus-color);
     outline-offset: 2px;
+  }
+}
+
+/* Darker brand shades keep white share labels readable. */
+.btn--bluesky {
+  background-color: #0a6ccc;
+  color: #fff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #0857a6;
+    color: #fff;
+  }
+}
+
+.btn--linkedin {
+  background-color: #0a66c2;
+  color: #fff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #08528f;
+    color: #fff;
   }
 }
 
@@ -1687,6 +1747,125 @@ a.feature-card {
 
 .page__hero--overlay .btn {
   margin: 0.35rem 0.35rem 0.35rem 0;
+  vertical-align: middle;
+}
+
+/* Align the hero call-to-action buttons in a wrapping row so labels of
+   different lengths stay aligned, including when they wrap on mobile. */
+.page__hero--overlay p:has(> .btn) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0.5rem 0.6rem;
+
+  .btn {
+    margin: 0;
+  }
+}
+
+/* "All news / archive" link below the homepage news list */
+.news-archive-link {
+  margin: 1.5rem 0 0.5rem;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* The theme's floated half-width pagers cannot accommodate a page counter. */
+.pagination--news {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: stretch;
+
+  .pagination--pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    width: auto;
+    min-width: 0;
+    min-height: 44px;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius);
+    background: var(--background-alt);
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.4;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--primary-dark);
+      border-color: var(--primary-dark);
+      color: #fff;
+    }
+
+    &.disabled {
+      background: var(--background-alt);
+      border-color: var(--border-color);
+      border-style: dashed;
+      color: var(--text-light);
+      cursor: default;
+    }
+  }
+
+  .pagination--page {
+    align-self: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    .pagination--page {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
+  }
+}
+
+/* Modern archive listing (archiv.md) */
+.archive-posts {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.5rem;
+}
+
+.archive-post {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--border-color);
+
+  @media (min-width: 601px) {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+}
+
+.archive-post__date {
+  color: var(--text-light);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9em;
+  flex: 0 0 auto;
+
+  @media (min-width: 601px) {
+    min-width: 6.5rem;
+  }
+}
+
+.archive-post__link {
+  font-weight: 600;
 }
 
 @media (prefers-color-scheme: dark) {
