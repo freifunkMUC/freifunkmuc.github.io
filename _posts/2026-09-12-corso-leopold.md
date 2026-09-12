@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Besucht uns auf dem Corso Leopold am 12.-13.09.2026"
-date: 2026-09-13 10:00:00
+date: 2026-09-12 10:00:00
 categories: events
 ---
 
