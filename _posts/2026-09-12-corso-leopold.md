@@ -11,6 +11,10 @@ Der Corso Leopold ist eine ideale Gelegenheit, um etwas über Freifunk zu erfahr
 
 Außerdem haben wir einige [Aruba AP-325/Siemens Scalance W1750D-2IA](https://openwrt.org/toh/aruba/ap-325) dabei, die wir gegen alte (bisher aktive!) 4/32er oder Spende tauschen.
 
-Kommt am 12. September im laufe des Abends ab 16:00 Uhr oder am 13. September ab 11:00 Uhr bis 18:00 Uhr vorbei, und besucht unseren Stand auf Höhe der [Leopoldstraße 45](https://osm.org/go/0JAf9kKQ-?m)!
+Kommt am 12. September im laufe des Abends ab 16:00 Uhr oder am 13. September ab 11:00 Uhr bis 18:00 Uhr vorbei, und besucht unseren Stand auf Höhe der Leopoldstraße 45:
+
+- <https://map.ffmuc.net/#/de/map/a6b49ff98efc>
+- <https://osm.org/go/0JAf9kKQ-?m>
+- [geo:48.160110,11.584834?z=18](geo:48.160110,11.584834?z=18)
 
 Wir freuen uns auf euch!
