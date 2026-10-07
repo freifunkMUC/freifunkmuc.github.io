@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 #theme                  : "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 minimal_mistakes_skin: "air" # "air" = clean, modern, readable. Other options: "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -131,6 +131,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - MULTILANG_SIMPLE_GUIDE.md
+  - CLAUDE.md
 keep_files:
   - .git
   - .svn
