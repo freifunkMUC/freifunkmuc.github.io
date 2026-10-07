@@ -42,6 +42,6 @@ Flash-Anleitung: [Router flashen][router-flashen]
 
 Beim Einrichten wählst du den Standort; das Segment wird i. d. R. automatisch gesetzt.
 
-![Segmente](/assets/ipv6.png)
+Alle aktuellen Segmente findest du in [site-ffm/domains](https://github.com/freifunkMUC/site-ffm/tree/HEAD/domains).
 
 [router-flashen]: /router-flashen/
