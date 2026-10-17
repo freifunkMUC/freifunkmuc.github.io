@@ -36,6 +36,8 @@ Wir speichern nichts. Die Berechtigungen stecken kryptografisch signiert direkt 
 
 Normale Räume auf meet.ffmuc.net funktionieren natürlich weiterhin genau wie bisher.
 
+Wie viele Räume gerade reserviert sind, siehst du auf unserem [Statistik-Dashboard](https://stats.ffmuc.net/d/meet-reserve).
+
 Die Seite gibt es auf Deutsch, Englisch, Französisch, Spanisch und Ukrainisch, und sie funktioniert auch auf dem Handy. Wir freuen uns über euer Feedback!
 
 ![Mobile Ansicht](/assets/posts/2026-10-17-meet-reserve-mobile.jpg)
@@ -72,6 +74,8 @@ We store nothing. The permissions are cryptographically signed into the room nam
 
 Regular rooms on meet.ffmuc.net of course keep working exactly as before.
 
+You can see how many rooms are currently reserved on our [statistics dashboard](https://stats.ffmuc.net/d/meet-reserve).
+
 The page is available in German, English, French, Spanish and Ukrainian and works on mobile, too. We look forward to your feedback!
 
 </section>
@@ -101,7 +105,7 @@ Une salle est valable 1 jour, 3 jours ou 1 semaine et peut être prolongée grâ
 
 Nous n'enregistrons rien. Les droits sont signés cryptographiquement directement dans le nom de la salle et dans les liens. Nos serveurs vérifient seulement la signature : pas de base de données, pas de données personnelles, pas de liste des salles. Nous ne pouvons donc pas non plus récupérer des liens perdus. Pour éviter les abus, ton navigateur résout un petit calcul (proof of work) lors de la création, sans captcha ni pistage.
 
-Les salles normales sur meet.ffmuc.net fonctionnent bien sûr exactement comme avant. Nous attendons vos retours avec impatience !
+Les salles normales sur meet.ffmuc.net fonctionnent bien sûr exactement comme avant. Le nombre de salles actuellement réservées est visible sur notre [tableau de bord statistique](https://stats.ffmuc.net/d/meet-reserve). Nous attendons vos retours avec impatience !
 
 </section>
 
@@ -130,7 +134,7 @@ Una sala es válida 1 día, 3 días o 1 semana y se puede prolongar con el **enl
 
 No guardamos nada. Los permisos van firmados criptográficamente en el propio nombre de la sala y en los enlaces. Nuestros servidores solo comprueban la firma: no hay base de datos, ni datos personales, ni lista de salas. Por eso tampoco podemos recuperar enlaces perdidos. Para evitar abusos, tu navegador resuelve una pequeña tarea (proof of work) al crear la sala, sin captcha ni rastreo.
 
-Las salas normales de meet.ffmuc.net siguen funcionando exactamente igual. ¡Esperamos vuestros comentarios!
+Las salas normales de meet.ffmuc.net siguen funcionando exactamente igual. Cuántas salas hay reservadas ahora mismo lo puedes ver en nuestro [panel de estadísticas](https://stats.ffmuc.net/d/meet-reserve). ¡Esperamos vuestros comentarios!
 
 </section>
 
@@ -159,6 +163,6 @@ Las salas normales de meet.ffmuc.net siguen funcionando exactamente igual. ¡Esp
 
 Ми нічого не зберігаємо. Права криптографічно підписані прямо в назві кімнати та в посиланнях. Наші сервери лише перевіряють підпис: немає бази даних, персональних даних чи списку кімнат. Тому ми також не можемо відновити втрачені посилання. Для захисту від зловживань твій браузер під час створення розв'язує невелике завдання (proof of work): без капчі й без стеження.
 
-Звичайні кімнати на meet.ffmuc.net, звісно, працюють так само, як і раніше. Чекаємо на ваші відгуки!
+Звичайні кімнати на meet.ffmuc.net, звісно, працюють так само, як і раніше. Скільки кімнат зараз зарезервовано, можна побачити на нашій [панелі статистики](https://stats.ffmuc.net/d/meet-reserve). Чекаємо на ваші відгуки!
 
 </section>
