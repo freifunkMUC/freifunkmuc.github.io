@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Freifunk Meet: Reservierte Räume mit Zuschauer-Modus, ganz ohne Anmeldung"
-date: 2026-10-17 20:00:00
+date: 2026-10-17 20:00:00 +0200
 categories: freifunkmuc meet
 translations: [en, fr, es, ua]
 ---
