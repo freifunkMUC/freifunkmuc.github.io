@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Freifunk Meet: Zuschauer-Räume für Vorträge und Webinare – ganz ohne Anmeldung"
+title: "Freifunk Meet: Reservierte Räume mit Zuschauer-Modus – ganz ohne Anmeldung"
 date: 2026-10-17 20:00:00
 categories: freifunkmuc meet
 translations: [en, fr, es, ua]
@@ -10,13 +10,13 @@ translations: [en, fr, es, ua]
 
 **Liebe Freifunkerinnen und Freifunker,**
 
-ihr habt euch das schon lange gewünscht: Räume auf [meet.ffmuc.net](https://meet.ffmuc.net), in denen nur ausgewählte Personen sprechen und alle anderen zuschauen – für Vorträge, Webinare, Vereinssitzungen oder Elternabende.
+ihr habt euch das schon lange gewünscht: **reservierte Räume** auf [meet.ffmuc.net](https://meet.ffmuc.net) – einen eigenen Raum, in dem du sicher die Moderation hast und den dir niemand wegnehmen kann. Und dazu die Möglichkeit, dass nur ausgewählte Personen sprechen und alle anderen zuschauen – für Vorträge, Webinare, Vereinssitzungen oder Elternabende.
 
-Andere Anbieter lösen das mit Benutzerkonten. Das wollten wir nie: Wer bei uns eine Konferenz startet, soll sich nicht registrieren, keine E-Mail-Adresse angeben und keine Spuren bei uns hinterlassen müssen. Deshalb gab es Zuschauer-Räume bei uns bisher nicht.
+Andere Anbieter lösen das mit Benutzerkonten. Das wollten wir nie: Wer bei uns eine Konferenz startet, soll sich nicht registrieren, keine E-Mail-Adresse angeben und keine Spuren bei uns hinterlassen müssen. Deshalb gab es reservierte Räume bei uns bisher nicht.
 
 **Jetzt haben wir eine Lösung gefunden, die ohne Anmeldung auskommt.**
 
-Unter **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** erstellst du mit einem Klick einen Zuschauer-Raum und bekommst drei Links:
+Unter **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** reservierst du mit einem Klick deinen eigenen Raum. Nur wer deinen Moderationslink hat, wird Moderator – und Zuschauer kommen nur so weit rein, wie du es erlaubst. Du bekommst drei Links:
 
 - **Moderation** – für dich. Du moderierst den Raum.
 - **Sprecher** – für alle, die mitreden sollen.
@@ -46,13 +46,13 @@ Die Seite gibt es auf Deutsch, Englisch, Französisch, Spanisch und Ukrainisch, 
 
 **Dear Freifunk community,**
 
-You have asked for this for a long time: rooms on [meet.ffmuc.net](https://meet.ffmuc.net) where only selected people speak and everyone else watches – for talks, webinars, club meetings or parents' evenings.
+You have asked for this for a long time: **reserved rooms** on [meet.ffmuc.net](https://meet.ffmuc.net) – a room of your own where you are guaranteed to be the host and nobody else can take over. Plus the option that only selected people speak while everyone else watches – for talks, webinars, club meetings or parents' evenings.
 
-Other services solve this with user accounts. We never wanted that: starting a conference with us should not require signing up, handing over an e-mail address or leaving any traces. That's why we haven't offered viewers-only rooms until now.
+Other services solve this with user accounts. We never wanted that: starting a conference with us should not require signing up, handing over an e-mail address or leaving any traces. That's why we haven't offered reserved rooms until now.
 
 **Now we have found a solution that works without any sign-up.**
 
-At **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** you create a viewers-only room with a single click and get three links:
+At **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** you reserve your own room with a single click. Only people with your host link become moderators, and viewers only get as far as you let them. You get three links:
 
 - **Host** – for you. You moderate the room.
 - **Speaker** – for everyone who should be able to talk.
@@ -80,13 +80,13 @@ The page is available in German, English, French, Spanish and Ukrainian and work
 
 **Chère communauté Freifunk,**
 
-Vous nous le demandiez depuis longtemps : des salles sur [meet.ffmuc.net](https://meet.ffmuc.net) où seules certaines personnes prennent la parole et tous les autres regardent – pour des conférences, webinaires, réunions d'association ou réunions de parents.
+Vous nous le demandiez depuis longtemps : des **salles réservées** sur [meet.ffmuc.net](https://meet.ffmuc.net) – une salle à vous, dont vous êtes à coup sûr l'animateur et que personne ne peut vous prendre. Avec en plus la possibilité que seules certaines personnes prennent la parole et que tous les autres regardent – pour des conférences, webinaires, réunions d'association ou réunions de parents.
 
-D'autres services utilisent pour cela des comptes utilisateur. Nous ne l'avons jamais voulu : lancer une conférence chez nous ne doit exiger ni inscription, ni adresse e-mail, ni laisser de traces. C'est pourquoi nous ne proposions pas encore de salles réservées aux spectateurs.
+D'autres services utilisent pour cela des comptes utilisateur. Nous ne l'avons jamais voulu : lancer une conférence chez nous ne doit exiger ni inscription, ni adresse e-mail, ni laisser de traces. C'est pourquoi nous ne proposions pas encore de salles réservées.
 
 **Nous avons maintenant trouvé une solution sans aucune inscription.**
 
-Sur **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)**, tu crées une salle en un clic et tu reçois trois liens :
+Sur **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)**, tu réserves ta propre salle en un clic. Seules les personnes ayant ton lien d'animation deviennent modérateurs, et les spectateurs n'entrent que dans la mesure où tu le permets. Tu reçois trois liens :
 
 - **Modération** – pour toi. Tu modères la salle.
 - **Intervenant** – pour toutes les personnes qui doivent pouvoir parler.
@@ -109,13 +109,13 @@ Les salles normales sur meet.ffmuc.net fonctionnent bien sûr exactement comme a
 
 **Querida comunidad Freifunk:**
 
-Lo llevabais pidiendo mucho tiempo: salas en [meet.ffmuc.net](https://meet.ffmuc.net) donde solo hablan algunas personas y el resto mira – para charlas, webinars, reuniones de asociaciones o reuniones de padres.
+Lo llevabais pidiendo mucho tiempo: **salas reservadas** en [meet.ffmuc.net](https://meet.ffmuc.net) – una sala propia en la que tú eres siempre quien modera y que nadie te puede quitar. Y además la opción de que solo hablen algunas personas y el resto mire – para charlas, webinars, reuniones de asociaciones o reuniones de padres.
 
-Otros servicios lo resuelven con cuentas de usuario. Eso nunca lo quisimos: iniciar una videoconferencia con nosotros no debe exigir registro, ni dirección de correo, ni dejar rastro. Por eso hasta ahora no ofrecíamos salas solo para espectadores.
+Otros servicios lo resuelven con cuentas de usuario. Eso nunca lo quisimos: iniciar una videoconferencia con nosotros no debe exigir registro, ni dirección de correo, ni dejar rastro. Por eso hasta ahora no ofrecíamos salas reservadas.
 
 **Ahora hemos encontrado una solución sin ningún registro.**
 
-En **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** creas una sala con un clic y recibes tres enlaces:
+En **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** reservas tu propia sala con un clic. Solo quien tenga tu enlace de moderación será moderador, y los espectadores solo entran hasta donde tú lo permitas. Recibes tres enlaces:
 
 - **Moderación** – para ti. Tú moderas la sala.
 - **Ponente** – para quienes deben poder hablar.
@@ -138,13 +138,13 @@ Las salas normales de meet.ffmuc.net siguen funcionando exactamente igual. ¡Esp
 
 **Дорога спільното Freifunk!**
 
-Ви давно про це просили: кімнати на [meet.ffmuc.net](https://meet.ffmuc.net), де говорять лише вибрані люди, а всі інші дивляться – для доповідей, вебінарів, зборів об'єднань чи батьківських зборів.
+Ви давно про це просили: **зарезервовані кімнати** на [meet.ffmuc.net](https://meet.ffmuc.net) – власна кімната, де модератором гарантовано є ви і яку ніхто не може у вас забрати. А ще можливість, щоб говорили лише вибрані люди, а всі інші дивилися – для доповідей, вебінарів, зборів об'єднань чи батьківських зборів.
 
-Інші сервіси вирішують це за допомогою облікових записів. Ми цього ніколи не хотіли: щоб почати конференцію у нас, не потрібно реєструватися, вказувати e-mail чи залишати будь-які сліди. Тому досі ми не пропонували кімнат лише для глядачів.
+Інші сервіси вирішують це за допомогою облікових записів. Ми цього ніколи не хотіли: щоб почати конференцію у нас, не потрібно реєструватися, вказувати e-mail чи залишати будь-які сліди. Тому досі ми не пропонували зарезервованих кімнат.
 
 **Тепер ми знайшли рішення, яке працює без жодної реєстрації.**
 
-На **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** ти створюєш кімнату одним кліком і отримуєш три посилання:
+На **[meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/)** ти одним кліком резервуєш власну кімнату. Модераторами стають лише ті, хто має твоє посилання модератора, а глядачі отримують лише той доступ, який ти дозволиш. Ти отримуєш три посилання:
 
 - **Модерація** – для тебе. Ти модеруєш кімнату.
 - **Спікер** – для всіх, хто має говорити.
