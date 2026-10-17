@@ -43,6 +43,7 @@ Kein Login, kein Tracking-Produkt. Geeignet für Handy, Laptop, Browser und Rout
 - im Browser, oft ohne extra App
 - gut für Community-Treffen, Support und Vereinsarbeit
 - in Europa gehostet, nichtkommerziell
+- **neu:** Live-Untertitel (lokal auf unseren Servern) und Zuschauermodus für große Veranstaltungen ([mehr dazu](/freifunk/meet/dienste/2026/10/17/meet-untertitel-und-zuschauermodus/))
 
 Raum öffnen, Link teilen, fertig.
 
