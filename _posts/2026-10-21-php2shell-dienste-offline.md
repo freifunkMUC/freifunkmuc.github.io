@@ -12,7 +12,7 @@ translations: [en, fr, es, ua]
 
 Heute Morgen (21. Oktober 2026, ca. 09:00 Uhr) haben wir vorsorglich **alle unsere PHP-basierten Dienste vom Netz genommen**, bis gepatchte PHP-Versionen eingespielt sind.
 
-**Nur vier PHP-Dienste sind offline (siehe unten). Das Freifunk-Netz und alle anderen Dienste sind nicht betroffen.**
+**Betroffen sind nur cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net und das Wiki. Alles andere, auch das Freifunk-Netz selbst und [meet.ffmuc.net](https://meet.ffmuc.net), läuft ganz normal weiter.**
 
 ## Hintergrund
 
@@ -33,18 +33,6 @@ Folgende Dienste sind vorübergehend offline:
 - **Wiki** unter [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 Auf unseren HAProxy-Webfrontends beantwortet HAProxy Anfragen an die betroffenen Hostnamen/Pfade direkt mit einer **HTTP-503-Wartungsseite** (inkl. `Retry-After`). Die Requests erreichen PHP also gar nicht erst. Workarounds wie das Abschalten einzelner Einstellungen in der `php.ini` haben wir nicht als ausreichend angesehen, da bisher nur der Patch als wirksam bestätigt ist.
-
-## Nicht betroffen
-
-**Alles andere läuft ganz normal weiter:**
-
-- das **Freifunk-Netz selbst** (Router, Gateways, VPN und Internetzugang), siehe [Knotenkarte](https://map.ffmuc.net)
-- **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- unsere **DNS-Resolver** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
-- der **Chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
-- alle weiteren Dienste ohne PHP
-
-Den aktuellen Status unserer Dienste findet ihr unter [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Wie es weitergeht
 
@@ -72,7 +60,7 @@ Bei Fragen meldet euch gern im Chat: <https://chat.ffmuc.net> oder auf Mastodon:
 
 This morning (21 October 2026, around 09:00 CEST) we took **all our PHP-based services offline** as a precaution until patched PHP versions are deployed.
 
-**Only four PHP services are offline (see below). The Freifunk network and all other services are not affected.**
+**Only cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net and the wiki are affected. Everything else, including the Freifunk network itself and [meet.ffmuc.net](https://meet.ffmuc.net), keeps running normally.**
 
 ## Background
 
@@ -93,18 +81,6 @@ The following services are temporarily offline:
 - **Wiki** at [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 On our HAProxy web frontends, requests to the affected hostnames/paths are answered directly by HAProxy with an **HTTP 503 maintenance page** (including `Retry-After`), so they never reach PHP at all. We did not consider workarounds such as disabling settings in `php.ini` sufficient, since nothing except the patch is confirmed to fix the issue.
-
-## Not affected
-
-**Everything else keeps running normally:**
-
-- the **Freifunk network itself** (routers, gateways, VPN and internet access), see the [node map](https://map.ffmuc.net)
-- **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- our **DNS resolvers** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
-- the **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
-- all other non-PHP services
-
-You can find the current status of our services at [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Next steps
 
@@ -132,7 +108,7 @@ If you have questions, reach out in our chat: <https://chat.ffmuc.net> or on Mas
 
 Ce matin (21 octobre 2026, vers 09h00 CEST), nous avons mis **tous nos services basés sur PHP hors ligne** par précaution, jusqu'au déploiement de versions corrigées de PHP.
 
-**Seuls quatre services PHP sont hors ligne (voir ci-dessous). Le réseau Freifunk et tous les autres services ne sont pas concernés.**
+**Seuls cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net et le wiki sont concernés. Tout le reste, y compris le réseau Freifunk lui-même et [meet.ffmuc.net](https://meet.ffmuc.net), continue de fonctionner normalement.**
 
 ## Contexte
 
@@ -153,18 +129,6 @@ Les services suivants sont temporairement hors ligne :
 - **Wiki** sur [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 Sur nos frontaux web HAProxy, les requêtes vers les noms d'hôte/chemins concernés reçoivent directement de HAProxy une **page de maintenance HTTP 503** (avec `Retry-After`) ; elles n'atteignent donc jamais PHP. Nous n'avons pas jugé suffisantes des solutions comme la désactivation de paramètres dans `php.ini`, car seul le correctif est confirmé comme efficace.
-
-## Non concernés
-
-**Tout le reste continue de fonctionner normalement :**
-
-- le **réseau Freifunk lui-même** (routeurs, passerelles, VPN et accès Internet), voir la [carte des nœuds](https://map.ffmuc.net)
-- **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- nos **résolveurs DNS** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
-- le **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
-- tous les autres services sans PHP
-
-L'état actuel de nos services est disponible sur [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Prochaines étapes
 
@@ -192,7 +156,7 @@ Pour toute question, contactez-nous dans notre chat : <https://chat.ffmuc.net> o
 
 Esta mañana (21 de octubre de 2026, hacia las 09:00 CEST) hemos desconectado por precaución **todos nuestros servicios basados en PHP** hasta que se desplieguen versiones de PHP corregidas.
 
-**Solo cuatro servicios PHP están desconectados (ver abajo). La red Freifunk y todos los demás servicios no están afectados.**
+**Solo están afectados cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net y la wiki. Todo lo demás, incluida la propia red Freifunk y [meet.ffmuc.net](https://meet.ffmuc.net), sigue funcionando con normalidad.**
 
 ## Contexto
 
@@ -213,18 +177,6 @@ Los siguientes servicios están temporalmente desconectados:
 - **Wiki** en [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 En nuestros frontales web HAProxy, las peticiones a los nombres de host/rutas afectados reciben directamente de HAProxy una **página de mantenimiento HTTP 503** (con `Retry-After`), de modo que nunca llegan a PHP. No consideramos suficientes medidas como desactivar ajustes en `php.ini`, ya que solo el parche está confirmado como solución.
-
-## No afectados
-
-**Todo lo demás sigue funcionando con normalidad:**
-
-- la **propia red Freifunk** (routers, gateways, VPN y acceso a Internet), ver el [mapa de nodos](https://map.ffmuc.net)
-- **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- nuestros **resolutores DNS** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
-- el **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
-- todos los demás servicios sin PHP
-
-El estado actual de nuestros servicios está en [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Próximos pasos
 
@@ -252,7 +204,7 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 
 Сьогодні вранці (21 жовтня 2026 року, близько 09:00 CEST) ми з міркувань безпеки **вимкнули всі наші сервіси на базі PHP** до розгортання виправлених версій PHP.
 
-**Вимкнено лише чотири PHP-сервіси (див. нижче). Мережа Freifunk і всі інші сервіси не постраждали.**
+**Постраждали лише cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net і wiki. Усе інше, зокрема сама мережа Freifunk і [meet.ffmuc.net](https://meet.ffmuc.net), працює у звичайному режимі.**
 
 ## Передісторія
 
@@ -273,18 +225,6 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 - **Wiki** за адресою [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 На наших вебфронтендах HAProxy запити до відповідних хостів/шляхів отримують від HAProxy безпосередньо **сторінку обслуговування HTTP 503** (з `Retry-After`), тож вони взагалі не доходять до PHP. Обхідні рішення, як-от вимкнення налаштувань у `php.ini`, ми не вважали достатніми, оскільки підтверджено ефективним лише патч.
-
-## Не постраждали
-
-**Усе інше працює у звичайному режимі:**
-
-- **сама мережа Freifunk** (роутери, шлюзи, VPN і доступ до Інтернету), див. [карту вузлів](https://map.ffmuc.net)
-- **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- наші **DNS-резолвери** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
-- **чат** ([chat.ffmuc.net](https://chat.ffmuc.net))
-- усі інші сервіси без PHP
-
-Актуальний статус наших сервісів дивіться на [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Подальші кроки
 
