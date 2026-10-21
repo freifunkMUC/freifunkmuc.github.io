@@ -12,6 +12,8 @@ translations: [en, fr, es, ua]
 
 Heute Morgen (21. Oktober 2026, ca. 09:00 Uhr) haben wir vorsorglich **alle unsere PHP-basierten Dienste vom Netz genommen**, bis gepatchte PHP-Versionen eingespielt sind.
 
+**Betroffen sind nur cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net und das Wiki. Alles andere ist NICHT betroffen und läuft ganz normal weiter:** das Freifunk-Netz selbst (Router, Gateways, VPN und Internetzugang), [meet.ffmuc.net](https://meet.ffmuc.net), unsere DNS-Resolver und der Chat.
+
 ## Hintergrund
 
 Am 20. Oktober 2026 hat das PHP-Projekt zwei kritische Sicherheitslücken im PHP-Kern vorangekündigt: **CVE-2026-109618** und **CVE-2026-109619**, Spitzname „PHP2Shell“, jeweils mit CVSS v4 9.2 bewertet. Sie erlauben **Remote Code Execution ohne Authentifizierung**.
@@ -36,7 +38,13 @@ Die Wartungsseite (Deutsch + Englisch) weist auf die Lücken hin, auf Updates ü
 
 ## Nicht betroffen
 
-Das **Freifunk-Netz selbst** (Router, Gateways, VPN, Internetzugang), unsere **DNS-Resolver**, **Chat**, **Meet** und alle anderen Dienste ohne PHP laufen ganz normal weiter.
+Offline sind ausschließlich die vier oben genannten PHP-Dienste. **Alles andere läuft ganz normal weiter**, insbesondere:
+
+- das **Freifunk-Netz selbst** (Router, Gateways, VPN und Internetzugang)
+- **[meet.ffmuc.net](https://meet.ffmuc.net)**
+- unsere **DNS-Resolver**
+- der **Chat**
+- alle weiteren Dienste ohne PHP
 
 ## Wie es weitergeht
 
@@ -64,6 +72,8 @@ Bei Fragen meldet euch gern im Chat: <https://chat.ffmuc.net> oder auf Mastodon:
 
 This morning (21 October 2026, around 09:00 CEST) we took **all our PHP-based services offline** as a precaution until patched PHP versions are deployed.
 
+**Only cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net and the wiki are offline. Everything else is NOT affected and runs normally:** the Freifunk network itself (routers, gateways, VPN and internet access), [meet.ffmuc.net](https://meet.ffmuc.net), our DNS resolvers and the chat.
+
 ## Background
 
 On 20 October 2026 the PHP project pre-announced two critical vulnerabilities in PHP core: **CVE-2026-109618** and **CVE-2026-109619**, nicknamed "PHP2Shell", each rated CVSS v4 9.2. They allow **unauthenticated remote code execution**.
@@ -88,7 +98,13 @@ The maintenance page (German + English) explains the vulnerabilities, points to 
 
 ## Not affected
 
-The **Freifunk network itself** (routers, gateways, VPN, internet access), our **DNS resolvers**, **chat**, **Meet** and all other non-PHP services keep running normally.
+Only the four PHP services listed above are offline. **Everything else keeps running normally**, in particular:
+
+- the **Freifunk network itself** (routers, gateways, VPN and internet access)
+- **[meet.ffmuc.net](https://meet.ffmuc.net)**
+- our **DNS resolvers**
+- the **chat**
+- all other non-PHP services
 
 ## Next steps
 
@@ -116,6 +132,8 @@ If you have questions, reach out in our chat: <https://chat.ffmuc.net> or on Mas
 
 Ce matin (21 octobre 2026, vers 09h00 CEST), nous avons mis **tous nos services basés sur PHP hors ligne** par précaution, jusqu'au déploiement de versions corrigées de PHP.
 
+**Seuls cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net et le wiki sont hors ligne. Tout le reste n'est PAS concerné et fonctionne normalement :** le réseau Freifunk lui-même (routeurs, passerelles, VPN et accès Internet), [meet.ffmuc.net](https://meet.ffmuc.net), nos résolveurs DNS et le chat.
+
 ## Contexte
 
 Le 20 octobre 2026, le projet PHP a pré-annoncé deux vulnérabilités critiques dans le cœur de PHP : **CVE-2026-109618** et **CVE-2026-109619**, surnommées « PHP2Shell », chacune notée CVSS v4 9.2. Elles permettent une **exécution de code à distance sans authentification**.
@@ -140,7 +158,13 @@ La page de maintenance (allemand + anglais) explique les vulnérabilités, renvo
 
 ## Non concernés
 
-Le **réseau Freifunk lui-même** (routeurs, passerelles, VPN, accès Internet), nos **résolveurs DNS**, le **chat**, **Meet** et tous les autres services sans PHP continuent de fonctionner normalement.
+Seuls les quatre services PHP mentionnés ci-dessus sont hors ligne. **Tout le reste continue de fonctionner normalement**, en particulier :
+
+- le **réseau Freifunk lui-même** (routeurs, passerelles, VPN et accès Internet)
+- **[meet.ffmuc.net](https://meet.ffmuc.net)**
+- nos **résolveurs DNS**
+- le **chat**
+- tous les autres services sans PHP
 
 ## Prochaines étapes
 
@@ -168,6 +192,8 @@ Pour toute question, contactez-nous dans notre chat : <https://chat.ffmuc.net> o
 
 Esta mañana (21 de octubre de 2026, hacia las 09:00 CEST) hemos desconectado por precaución **todos nuestros servicios basados en PHP** hasta que se desplieguen versiones de PHP corregidas.
 
+**Solo cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net y la wiki están desconectados. Todo lo demás NO está afectado y funciona con normalidad:** la propia red Freifunk (routers, gateways, VPN y acceso a Internet), [meet.ffmuc.net](https://meet.ffmuc.net), nuestros resolutores DNS y el chat.
+
 ## Contexto
 
 El 20 de octubre de 2026, el proyecto PHP preanunció dos vulnerabilidades críticas en el núcleo de PHP: **CVE-2026-109618** y **CVE-2026-109619**, apodadas «PHP2Shell», ambas con una puntuación CVSS v4 de 9.2. Permiten la **ejecución remota de código sin autenticación**.
@@ -192,7 +218,13 @@ La página de mantenimiento (alemán + inglés) explica las vulnerabilidades, re
 
 ## No afectados
 
-La **propia red Freifunk** (routers, gateways, VPN, acceso a Internet), nuestros **resolutores DNS**, el **chat**, **Meet** y todos los demás servicios sin PHP siguen funcionando con normalidad.
+Solo los cuatro servicios PHP mencionados arriba están desconectados. **Todo lo demás sigue funcionando con normalidad**, en particular:
+
+- la **propia red Freifunk** (routers, gateways, VPN y acceso a Internet)
+- **[meet.ffmuc.net](https://meet.ffmuc.net)**
+- nuestros **resolutores DNS**
+- el **chat**
+- todos los demás servicios sin PHP
 
 ## Próximos pasos
 
@@ -220,6 +252,8 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 
 Сьогодні вранці (21 жовтня 2026 року, близько 09:00 CEST) ми з міркувань безпеки **вимкнули всі наші сервіси на базі PHP** до розгортання виправлених версій PHP.
 
+**Вимкнено лише cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net і wiki. Усе інше НЕ постраждало і працює у звичайному режимі:** сама мережа Freifunk (роутери, шлюзи, VPN і доступ до Інтернету), [meet.ffmuc.net](https://meet.ffmuc.net), наші DNS-резолвери та чат.
+
 ## Передісторія
 
 20 жовтня 2026 року проєкт PHP заздалегідь оголосив про дві критичні вразливості в ядрі PHP: **CVE-2026-109618** та **CVE-2026-109619** під назвою «PHP2Shell», кожна з оцінкою CVSS v4 9.2. Вони дозволяють **віддалене виконання коду без автентифікації**.
@@ -244,7 +278,13 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 
 ## Не постраждали
 
-**Сама мережа Freifunk** (роутери, шлюзи, VPN, доступ до Інтернету), наші **DNS-резолвери**, **чат**, **Meet** і всі інші сервіси без PHP працюють у звичайному режимі.
+Вимкнено лише чотири зазначені вище PHP-сервіси. **Усе інше працює у звичайному режимі**, зокрема:
+
+- **сама мережа Freifunk** (роутери, шлюзи, VPN і доступ до Інтернету)
+- **[meet.ffmuc.net](https://meet.ffmuc.net)**
+- наші **DNS-резолвери**
+- **чат**
+- усі інші сервіси без PHP
 
 ## Подальші кроки
 
