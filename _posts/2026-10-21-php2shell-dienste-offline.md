@@ -12,7 +12,7 @@ translations: [en, fr, es, ua]
 
 Heute Morgen (21. Oktober 2026, ca. 09:00 Uhr) haben wir vorsorglich **alle unsere PHP-basierten Dienste vom Netz genommen**, bis gepatchte PHP-Versionen eingespielt sind.
 
-**Betroffen sind nur cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net und das Wiki. Alles andere ist NICHT betroffen und läuft ganz normal weiter:** das Freifunk-Netz selbst (Router, Gateways, VPN und Internetzugang), [meet.ffmuc.net](https://meet.ffmuc.net), unsere DNS-Resolver und der Chat.
+**Nur vier PHP-Dienste sind offline (siehe unten). Das Freifunk-Netz und alle anderen Dienste sind nicht betroffen.**
 
 ## Hintergrund
 
@@ -36,13 +36,15 @@ Auf unseren HAProxy-Webfrontends beantwortet HAProxy Anfragen an die betroffenen
 
 ## Nicht betroffen
 
-Offline sind ausschließlich die vier oben genannten PHP-Dienste. **Alles andere läuft ganz normal weiter**, insbesondere:
+**Alles andere läuft ganz normal weiter:**
 
-- das **Freifunk-Netz selbst** (Router, Gateways, VPN und Internetzugang)
+- das **Freifunk-Netz selbst** (Router, Gateways, VPN und Internetzugang), siehe [Knotenkarte](https://map.ffmuc.net)
 - **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- unsere **DNS-Resolver**
-- der **Chat**
+- unsere **DNS-Resolver** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
+- der **Chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - alle weiteren Dienste ohne PHP
+
+Den aktuellen Status unserer Dienste findet ihr unter [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Wie es weitergeht
 
@@ -70,7 +72,7 @@ Bei Fragen meldet euch gern im Chat: <https://chat.ffmuc.net> oder auf Mastodon:
 
 This morning (21 October 2026, around 09:00 CEST) we took **all our PHP-based services offline** as a precaution until patched PHP versions are deployed.
 
-**Only cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net and the wiki are offline. Everything else is NOT affected and runs normally:** the Freifunk network itself (routers, gateways, VPN and internet access), [meet.ffmuc.net](https://meet.ffmuc.net), our DNS resolvers and the chat.
+**Only four PHP services are offline (see below). The Freifunk network and all other services are not affected.**
 
 ## Background
 
@@ -94,13 +96,15 @@ On our HAProxy web frontends, requests to the affected hostnames/paths are answe
 
 ## Not affected
 
-Only the four PHP services listed above are offline. **Everything else keeps running normally**, in particular:
+**Everything else keeps running normally:**
 
-- the **Freifunk network itself** (routers, gateways, VPN and internet access)
+- the **Freifunk network itself** (routers, gateways, VPN and internet access), see the [node map](https://map.ffmuc.net)
 - **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- our **DNS resolvers**
-- the **chat**
+- our **DNS resolvers** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
+- the **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - all other non-PHP services
+
+You can find the current status of our services at [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Next steps
 
@@ -128,7 +132,7 @@ If you have questions, reach out in our chat: <https://chat.ffmuc.net> or on Mas
 
 Ce matin (21 octobre 2026, vers 09h00 CEST), nous avons mis **tous nos services basés sur PHP hors ligne** par précaution, jusqu'au déploiement de versions corrigées de PHP.
 
-**Seuls cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net et le wiki sont hors ligne. Tout le reste n'est PAS concerné et fonctionne normalement :** le réseau Freifunk lui-même (routeurs, passerelles, VPN et accès Internet), [meet.ffmuc.net](https://meet.ffmuc.net), nos résolveurs DNS et le chat.
+**Seuls quatre services PHP sont hors ligne (voir ci-dessous). Le réseau Freifunk et tous les autres services ne sont pas concernés.**
 
 ## Contexte
 
@@ -152,13 +156,15 @@ Sur nos frontaux web HAProxy, les requêtes vers les noms d'hôte/chemins concer
 
 ## Non concernés
 
-Seuls les quatre services PHP mentionnés ci-dessus sont hors ligne. **Tout le reste continue de fonctionner normalement**, en particulier :
+**Tout le reste continue de fonctionner normalement :**
 
-- le **réseau Freifunk lui-même** (routeurs, passerelles, VPN et accès Internet)
+- le **réseau Freifunk lui-même** (routeurs, passerelles, VPN et accès Internet), voir la [carte des nœuds](https://map.ffmuc.net)
 - **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- nos **résolveurs DNS**
-- le **chat**
+- nos **résolveurs DNS** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
+- le **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - tous les autres services sans PHP
+
+L'état actuel de nos services est disponible sur [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Prochaines étapes
 
@@ -186,7 +192,7 @@ Pour toute question, contactez-nous dans notre chat : <https://chat.ffmuc.net> o
 
 Esta mañana (21 de octubre de 2026, hacia las 09:00 CEST) hemos desconectado por precaución **todos nuestros servicios basados en PHP** hasta que se desplieguen versiones de PHP corregidas.
 
-**Solo cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net y la wiki están desconectados. Todo lo demás NO está afectado y funciona con normalidad:** la propia red Freifunk (routers, gateways, VPN y acceso a Internet), [meet.ffmuc.net](https://meet.ffmuc.net), nuestros resolutores DNS y el chat.
+**Solo cuatro servicios PHP están desconectados (ver abajo). La red Freifunk y todos los demás servicios no están afectados.**
 
 ## Contexto
 
@@ -210,13 +216,15 @@ En nuestros frontales web HAProxy, las peticiones a los nombres de host/rutas af
 
 ## No afectados
 
-Solo los cuatro servicios PHP mencionados arriba están desconectados. **Todo lo demás sigue funcionando con normalidad**, en particular:
+**Todo lo demás sigue funcionando con normalidad:**
 
-- la **propia red Freifunk** (routers, gateways, VPN y acceso a Internet)
+- la **propia red Freifunk** (routers, gateways, VPN y acceso a Internet), ver el [mapa de nodos](https://map.ffmuc.net)
 - **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- nuestros **resolutores DNS**
-- el **chat**
+- nuestros **resolutores DNS** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
+- el **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - todos los demás servicios sin PHP
+
+El estado actual de nuestros servicios está en [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Próximos pasos
 
@@ -244,7 +252,7 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 
 Сьогодні вранці (21 жовтня 2026 року, близько 09:00 CEST) ми з міркувань безпеки **вимкнули всі наші сервіси на базі PHP** до розгортання виправлених версій PHP.
 
-**Вимкнено лише cloud.ffmuc.net, matomo.ffmuc.net, uisp.ffmuc.net і wiki. Усе інше НЕ постраждало і працює у звичайному режимі:** сама мережа Freifunk (роутери, шлюзи, VPN і доступ до Інтернету), [meet.ffmuc.net](https://meet.ffmuc.net), наші DNS-резолвери та чат.
+**Вимкнено лише чотири PHP-сервіси (див. нижче). Мережа Freifunk і всі інші сервіси не постраждали.**
 
 ## Передісторія
 
@@ -268,13 +276,15 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 
 ## Не постраждали
 
-Вимкнено лише чотири зазначені вище PHP-сервіси. **Усе інше працює у звичайному режимі**, зокрема:
+**Усе інше працює у звичайному режимі:**
 
-- **сама мережа Freifunk** (роутери, шлюзи, VPN і доступ до Інтернету)
+- **сама мережа Freifunk** (роутери, шлюзи, VPN і доступ до Інтернету), див. [карту вузлів](https://map.ffmuc.net)
 - **[meet.ffmuc.net](https://meet.ffmuc.net)**
-- наші **DNS-резолвери**
-- **чат**
+- наші **DNS-резолвери** ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net))
+- **чат** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - усі інші сервіси без PHP
+
+Актуальний статус наших сервісів дивіться на [status.ffmuc.net](https://status.ffmuc.net).
 
 ## Подальші кроки
 
