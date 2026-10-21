@@ -44,7 +44,7 @@ Auf unseren HAProxy-Webfrontends beantwortet HAProxy Anfragen an die betroffenen
 - der **Chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - alle weiteren Dienste ohne PHP
 
-Den aktuellen Status unserer Dienste findet ihr unter [status.ffmuc.net](https://status.ffmuc.net).
+Den aktuellen Status unserer Dienste findet ihr unter [stats.ffmuc.net](https://stats.ffmuc.net).
 
 ## Wie es weitergeht
 
@@ -104,7 +104,7 @@ On our HAProxy web frontends, requests to the affected hostnames/paths are answe
 - the **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - all other non-PHP services
 
-You can find the current status of our services at [status.ffmuc.net](https://status.ffmuc.net).
+You can find the current status of our services at [stats.ffmuc.net](https://stats.ffmuc.net).
 
 ## Next steps
 
@@ -164,7 +164,7 @@ Sur nos frontaux web HAProxy, les requêtes vers les noms d'hôte/chemins concer
 - le **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - tous les autres services sans PHP
 
-L'état actuel de nos services est disponible sur [status.ffmuc.net](https://status.ffmuc.net).
+L'état actuel de nos services est disponible sur [stats.ffmuc.net](https://stats.ffmuc.net).
 
 ## Prochaines étapes
 
@@ -224,7 +224,7 @@ En nuestros frontales web HAProxy, las peticiones a los nombres de host/rutas af
 - el **chat** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - todos los demás servicios sin PHP
 
-El estado actual de nuestros servicios está en [status.ffmuc.net](https://status.ffmuc.net).
+El estado actual de nuestros servicios está en [stats.ffmuc.net](https://stats.ffmuc.net).
 
 ## Próximos pasos
 
@@ -284,7 +284,7 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 - **чат** ([chat.ffmuc.net](https://chat.ffmuc.net))
 - усі інші сервіси без PHP
 
-Актуальний статус наших сервісів дивіться на [status.ffmuc.net](https://status.ffmuc.net).
+Актуальний статус наших сервісів дивіться на [stats.ffmuc.net](https://stats.ffmuc.net).
 
 ## Подальші кроки
 
