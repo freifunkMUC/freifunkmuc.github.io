@@ -34,8 +34,6 @@ Folgende Dienste sind vorübergehend offline:
 
 Auf unseren HAProxy-Webfrontends beantwortet HAProxy Anfragen an die betroffenen Hostnamen/Pfade direkt mit einer **HTTP-503-Wartungsseite** (inkl. `Retry-After`). Die Requests erreichen PHP also gar nicht erst. Workarounds wie das Abschalten einzelner Einstellungen in der `php.ini` haben wir nicht als ausreichend angesehen, da bisher nur der Patch als wirksam bestätigt ist.
 
-Die Wartungsseite (Deutsch + Englisch) weist auf die Lücken hin, auf Updates über [Mastodon](https://social.ffmuc.net/@freifunkMUC), darauf, dass unsere DNS-Dienste nicht betroffen sind ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)), und auf unsere Kontaktadresse <hilfe@ffmuc.net>.
-
 ## Nicht betroffen
 
 Offline sind ausschließlich die vier oben genannten PHP-Dienste. **Alles andere läuft ganz normal weiter**, insbesondere:
@@ -93,8 +91,6 @@ The following services are temporarily offline:
 - **Wiki** at [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 On our HAProxy web frontends, requests to the affected hostnames/paths are answered directly by HAProxy with an **HTTP 503 maintenance page** (including `Retry-After`), so they never reach PHP at all. We did not consider workarounds such as disabling settings in `php.ini` sufficient, since nothing except the patch is confirmed to fix the issue.
-
-The maintenance page (German + English) explains the vulnerabilities, points to updates on [Mastodon](https://social.ffmuc.net/@freifunkMUC), notes that our DNS services are not affected ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)), and lists our contact address <hilfe@ffmuc.net>.
 
 ## Not affected
 
@@ -154,8 +150,6 @@ Les services suivants sont temporairement hors ligne :
 
 Sur nos frontaux web HAProxy, les requêtes vers les noms d'hôte/chemins concernés reçoivent directement de HAProxy une **page de maintenance HTTP 503** (avec `Retry-After`) ; elles n'atteignent donc jamais PHP. Nous n'avons pas jugé suffisantes des solutions comme la désactivation de paramètres dans `php.ini`, car seul le correctif est confirmé comme efficace.
 
-La page de maintenance (allemand + anglais) explique les vulnérabilités, renvoie aux mises à jour sur [Mastodon](https://social.ffmuc.net/@freifunkMUC), précise que nos services DNS ne sont pas concernés ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)) et indique notre adresse de contact <hilfe@ffmuc.net>.
-
 ## Non concernés
 
 Seuls les quatre services PHP mentionnés ci-dessus sont hors ligne. **Tout le reste continue de fonctionner normalement**, en particulier :
@@ -214,8 +208,6 @@ Los siguientes servicios están temporalmente desconectados:
 
 En nuestros frontales web HAProxy, las peticiones a los nombres de host/rutas afectados reciben directamente de HAProxy una **página de mantenimiento HTTP 503** (con `Retry-After`), de modo que nunca llegan a PHP. No consideramos suficientes medidas como desactivar ajustes en `php.ini`, ya que solo el parche está confirmado como solución.
 
-La página de mantenimiento (alemán + inglés) explica las vulnerabilidades, remite a las novedades en [Mastodon](https://social.ffmuc.net/@freifunkMUC), indica que nuestros servicios DNS no están afectados ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)) y muestra nuestra dirección de contacto <hilfe@ffmuc.net>.
-
 ## No afectados
 
 Solo los cuatro servicios PHP mencionados arriba están desconectados. **Todo lo demás sigue funcionando con normalidad**, en particular:
@@ -273,8 +265,6 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 - **Wiki** за адресою [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
 
 На наших вебфронтендах HAProxy запити до відповідних хостів/шляхів отримують від HAProxy безпосередньо **сторінку обслуговування HTTP 503** (з `Retry-After`), тож вони взагалі не доходять до PHP. Обхідні рішення, як-от вимкнення налаштувань у `php.ini`, ми не вважали достатніми, оскільки підтверджено ефективним лише патч.
-
-Сторінка обслуговування (німецькою та англійською) пояснює вразливості, посилається на оновлення в [Mastodon](https://social.ffmuc.net/@freifunkMUC), зазначає, що наші DNS-сервіси не постраждали ([dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)), і містить нашу контактну адресу <hilfe@ffmuc.net>.
 
 ## Не постраждали
 
