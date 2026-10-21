@@ -17,15 +17,15 @@ Heute Morgen (21. Oktober 2026, ca. 09:00 Uhr) haben wir vorsorglich **alle unse
 Am 20. Oktober 2026 hat das PHP-Projekt zwei kritische Sicherheitslücken im PHP-Kern vorangekündigt: **CVE-2026-109618** und **CVE-2026-109619**, Spitzname „PHP2Shell“, jeweils mit CVSS v4 9.2 bewertet. Sie erlauben **Remote Code Execution ohne Authentifizierung**.
 
 - Details sind bereits vor dem Patch durchgesickert; laut dem CTO von Cloudflare gab es am 21. Oktober erste Angriffe „in the wild“.
-- Gepatchte Releases sind für den 21. Oktober 2026, 14:00 UTC angekündigt – Fixes gibt es nur für PHP 8.2 und neuer.
+- Gepatchte Releases sind für den 21. Oktober 2026, 14:00 UTC angekündigt. Fixes gibt es nur für PHP 8.2 und neuer.
 - Berichten zufolge liegt der Fehler in der Verarbeitung von Session-Upload-Progress bzw. Multipart-Requests und ist erreichbar, **bevor irgendein Anwendungscode läuft**. Schutzmaßnahmen auf Anwendungsebene helfen daher nicht.
-- Die PHP-Core-Entwickler:innen sagen: Die einzige echte Gegenmaßnahme ist das Patchen – wer kann, nimmt Server bis dahin besser vom Netz.
+- Die PHP-Core-Entwickler:innen sagen: Die einzige echte Gegenmaßnahme ist das Patchen. Wer kann, nimmt Server bis dahin besser vom Netz.
 
 ## Was wir gemacht haben
 
 Folgende Dienste sind vorübergehend offline:
 
-- **cloud.ffmuc.net** (Nextcloud, auch cloud.freifunk-muenchen.de) – der Nextcloud-PHP-Container wurde gestoppt
+- **cloud.ffmuc.net** (Nextcloud, auch cloud.freifunk-muenchen.de): Der Nextcloud-PHP-Container wurde gestoppt
 - **matomo.ffmuc.net** (Web-Analytics)
 - **uisp.ffmuc.net** (UISP)
 - **Wiki** unter [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
@@ -69,15 +69,15 @@ This morning (21 October 2026, around 09:00 CEST) we took **all our PHP-based se
 On 20 October 2026 the PHP project pre-announced two critical vulnerabilities in PHP core: **CVE-2026-109618** and **CVE-2026-109619**, nicknamed "PHP2Shell", each rated CVSS v4 9.2. They allow **unauthenticated remote code execution**.
 
 - Details leaked before the patch; Cloudflare's CTO reported early attacks in the wild on 21 October.
-- Patched releases are announced for 21 October 2026, 14:00 UTC – fixes are only provided for PHP 8.2 and newer.
+- Patched releases are announced for 21 October 2026, 14:00 UTC. Fixes are only provided for PHP 8.2 and newer.
 - Reportedly the bug sits in PHP's session upload-progress / multipart request handling and is reachable **before any application code runs**, so application-level protections don't help.
-- The PHP core developers said the only real mitigation is patching – and taking servers offline is the sensible choice if possible.
+- The PHP core developers said the only real mitigation is patching, and taking servers offline is the sensible choice if possible.
 
 ## What we did
 
 The following services are temporarily offline:
 
-- **cloud.ffmuc.net** (Nextcloud, also cloud.freifunk-muenchen.de) – the Nextcloud PHP container was stopped
+- **cloud.ffmuc.net** (Nextcloud, also cloud.freifunk-muenchen.de): the Nextcloud PHP container was stopped
 - **matomo.ffmuc.net** (web analytics)
 - **uisp.ffmuc.net** (UISP)
 - **Wiki** at [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
@@ -121,15 +121,15 @@ Ce matin (21 octobre 2026, vers 09h00 CEST), nous avons mis **tous nos services 
 Le 20 octobre 2026, le projet PHP a pré-annoncé deux vulnérabilités critiques dans le cœur de PHP : **CVE-2026-109618** et **CVE-2026-109619**, surnommées « PHP2Shell », chacune notée CVSS v4 9.2. Elles permettent une **exécution de code à distance sans authentification**.
 
 - Des détails ont fuité avant le correctif ; le CTO de Cloudflare a signalé les premières attaques réelles le 21 octobre.
-- Les versions corrigées sont annoncées pour le 21 octobre 2026 à 14h00 UTC – uniquement pour PHP 8.2 et versions ultérieures.
+- Les versions corrigées sont annoncées pour le 21 octobre 2026 à 14h00 UTC, uniquement pour PHP 8.2 et versions ultérieures.
 - Selon les rapports, le bug se situe dans le traitement de la progression d'upload des sessions / des requêtes multipart et est atteignable **avant l'exécution de tout code applicatif** ; les protections au niveau de l'application n'aident donc pas.
-- Les développeurs du cœur de PHP indiquent que la seule vraie mesure est d'appliquer le correctif – et que mettre les serveurs hors ligne est le choix raisonnable si possible.
+- Les développeurs du cœur de PHP indiquent que la seule vraie mesure est d'appliquer le correctif, et que mettre les serveurs hors ligne est le choix raisonnable si possible.
 
 ## Ce que nous avons fait
 
 Les services suivants sont temporairement hors ligne :
 
-- **cloud.ffmuc.net** (Nextcloud, aussi cloud.freifunk-muenchen.de) – le conteneur PHP de Nextcloud a été arrêté
+- **cloud.ffmuc.net** (Nextcloud, aussi cloud.freifunk-muenchen.de) : le conteneur PHP de Nextcloud a été arrêté
 - **matomo.ffmuc.net** (statistiques web)
 - **uisp.ffmuc.net** (UISP)
 - **Wiki** sur [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
@@ -227,13 +227,13 @@ Si tienes preguntas, contáctanos en nuestro chat: <https://chat.ffmuc.net> o en
 - Подробиці потрапили в мережу ще до виходу патча; технічний директор Cloudflare повідомив про перші реальні атаки 21 жовтня.
 - Виправлені релізи оголошено на 21 жовтня 2026 року, 14:00 UTC; виправлення отримають лише PHP 8.2 і новіші.
 - За повідомленнями, помилка знаходиться в обробці прогресу завантаження сесій / multipart-запитів і доступна **ще до виконання будь-якого коду застосунку**, тому захист на рівні застосунку не допомагає.
-- Розробники ядра PHP заявили, що єдиний справжній захист — це оновлення, а вимкнення серверів є розумним рішенням, якщо це можливо.
+- Розробники ядра PHP заявили, що єдиний справжній захист: це оновлення, а вимкнення серверів є розумним рішенням, якщо це можливо.
 
 ## Що ми зробили
 
 Тимчасово вимкнено такі сервіси:
 
-- **cloud.ffmuc.net** (Nextcloud, також cloud.freifunk-muenchen.de) — PHP-контейнер Nextcloud зупинено
+- **cloud.ffmuc.net** (Nextcloud, також cloud.freifunk-muenchen.de): PHP-контейнер Nextcloud зупинено
 - **matomo.ffmuc.net** (веб-аналітика)
 - **uisp.ffmuc.net** (UISP)
 - **Wiki** за адресою [ffmuc.net/wiki/](https://ffmuc.net/wiki/) (DokuWiki)
