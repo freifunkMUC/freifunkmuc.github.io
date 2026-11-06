@@ -55,20 +55,15 @@ Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden 
 Dieses Impressum gilt auch für folgende Social Media-Profile:
 
 - GitHub [https://github.com/FreifunkMUC/](https://github.com/FreifunkMUC/)
-- Mastodon [https://social.ffmuc.net/@freifunkMUC](https://social.ffmuc.net/@freifunkMUC)/li>
+- Mastodon [https://social.ffmuc.net/@freifunkMUC](https://social.ffmuc.net/@freifunkMUC)
 - X (ehem. Twitter) [https://x.com/FreifunkMUC/](https://x.com/FreifunkMUC/)
 - Facebook [https://www.facebook.com/FreifunkMUC/](https://www.facebook.com/FreifunkMUC/)
-
-## EU-Streitschlichtung
-
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/).  
-Unsere E-Mail-Adresse finden Sie oben im Impressum.
 
 ## Verbraucher­streit­beilegung/Universal­schlichtungs­stelle
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
-## Zentrale Kontaktstelle nach dem Digital Services Act - DSA (Verordnung (EU) 2022/265)
+## Zentrale Kontaktstelle nach dem Digital Services Act - DSA (Verordnung (EU) 2022/2065)
 
 Unsere zentrale Kontaktstelle für Nutzer und Behörden nach Art. 11, 12 DSA erreichen Sie wie folgt:
 
