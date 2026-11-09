@@ -50,6 +50,8 @@ jobs:
         run: bundle install --jobs $(nproc) --retry 3 --path vendor/bundle
 
       - name: Build Jekyll site
+        env:
+          JEKYLL_ENV: production
         run: bundle exec jekyll build --trace
 
       - name: Verify _site directory
