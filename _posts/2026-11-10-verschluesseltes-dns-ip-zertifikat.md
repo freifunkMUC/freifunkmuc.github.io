@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Verschlüsseltes DNS: Unser Zertifikat enthält jetzt auch die IP-Adressen"
+title: "Verschlüsseltes DNS: Dein Gerät schaltet jetzt von selbst um"
 date: 2026-11-10 08:00:00 +0100
 categories: services dns
 translations: [en, fr, es, ua]
@@ -8,31 +8,49 @@ translations: [en, fr, es, ua]
 
 <section data-lang="de" class="language-content active" markdown="1">
 
-**Kurz gesagt:** Unsere öffentlichen DNS-Server werden noch etwas sicherer. Viele Geräte können jetzt von selbst auf verschlüsseltes DNS umschalten. **Du musst nichts tun.**
+**Kurz gesagt:** Wer unsere DNS-Server nutzt, ist ab sofort noch privater unterwegs. Viele moderne Geräte erkennen jetzt von selbst, dass sie mit uns verschlüsselt sprechen können, und schalten automatisch um. **Du musst dafür nichts einstellen.**
 
 > 👉 **Noch nicht dabei?** Unser DNS ist **kostenlos, ohne Anmeldung** und für alle offen. In wenigen Minuten auf Handy, Laptop oder Router eingerichtet: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
-## Was ist DNS?
+## Worum geht es?
 
-DNS ist das Telefonbuch des Internets. Wenn du `ffmuc.net` eingibst, fragt dein Gerät einen DNS-Server: „Welche Adresse hat diese Seite?“ Erst dann kann es die Seite laden.
+Bevor dein Gerät eine Webseite lädt, fragt es einen DNS-Server nach deren Adresse – wie ein Blick ins Telefonbuch. Normalerweise passiert das **unverschlüsselt**. Jeder auf dem Weg kann mitlesen, welche Seiten du besuchst, oder die Antwort verfälschen.
 
-## Warum Verschlüsselung?
+**Verschlüsseltes DNS** schützt diese Anfragen. Wir bieten es schon lange an. Bisher musste man es aber meist von Hand einrichten. Viele Geräte kennen nur die IP-Adresse unseres DNS-Servers, zum Beispiel weil der Router sie verteilt – und fragen dann unverschlüsselt.
 
-Klassische DNS-Anfragen sind nicht verschlüsselt. Andere im Netz können also mitlesen, welche Seiten du aufrufst, oder die Antworten verfälschen. Mit **verschlüsseltem DNS** ist die Frage an das Telefonbuch privat. Das schützt deine Privatsphäre. Wir bieten verschlüsseltes DNS schon lange an.
+## So schaltet dein Gerät automatisch um
+
+Das Verfahren dafür heißt **DDR** („Discovery of Designated Resolvers“). Es läuft in fünf Schritten ab:
+
+1. **Adresse bekommen:** Dein Gerät bekommt wie gewohnt die IP-Adresse unseres DNS-Servers, zum Beispiel vom Router.
+2. **Nachfragen:** Es stellt diesem Server eine besondere Frage: „Kannst du auch verschlüsselt?“
+3. **Antwort bekommen:** Unser Server antwortet: „Ja!“ – und nennt seine verschlüsselten Zugänge mit Namen und Adressen.
+4. **Ausweis prüfen:** Das Gerät baut eine verschlüsselte Verbindung auf und prüft das Zertifikat des Servers, also seinen digitalen Ausweis. Darin muss die IP-Adresse stehen, mit der das Gerät angefangen hat. So weiß es sicher: Ich spreche noch mit demselben Server und nicht mit einem Angreifer.
+5. **Umschalten:** Passt alles, nutzt das Gerät ab jetzt automatisch verschlüsseltes DNS.
+
+```
+Gerät ── 1. kennt nur die IP ───────────▶ FFMUC-DNS
+Gerät ── 2. „Kannst du verschlüsselt?“ ─▶ FFMUC-DNS
+Gerät ◀─ 3. „Ja: DoQ, DoT, DoH“ ──────── FFMUC-DNS
+Gerät ══ 4. Ausweis mit IP prüfen ══════▶ FFMUC-DNS   (neu!)
+Gerät ══ 5. ab jetzt verschlüsselt ═════▶ FFMUC-DNS
+```
 
 ## Was ist neu?
 
-Viele Geräte kennen von unserem DNS-Server nur die **IP-Adresse**, zum Beispiel `5.1.66.255`, und keinen Namen. Moderne Systeme können dann selbst nachfragen: „Kann ich mit dir auch verschlüsselt reden?“ Das Verfahren heißt **DDR** (Discovery of Designated Resolvers).
+Die Schritte 1 bis 3 bieten wir [schon seit Januar](/services/dns/2026/01/09/rfc9462-rfc9463-support/) an. **Schritt 4 hat bisher nicht geklappt:** In unserem Zertifikat standen nur Namen wie `doh.ffmuc.net`, aber nicht unsere IP-Adressen. Die Geräte konnten also nicht sicher prüfen, ob sie noch mit uns sprechen, und blieben lieber beim unverschlüsselten DNS.
 
-Damit das sicher ist, muss das Gerät prüfen, dass es wirklich mit **unserem** Server spricht. Dafür braucht der Server ein Zertifikat – eine Art digitaler Ausweis. Bisher stand auf diesem Ausweis nur unser Name, aber nicht unsere IP-Adresse. Die Prüfung schlug fehl, und das Gerät blieb beim unverschlüsselten DNS.
+**Jetzt stehen auch unsere IP-Adressen im Zertifikat.** Damit klappt die Prüfung, und das Gerät schaltet um. Möglich ist das erst seit 2026: Seitdem stellt Let's Encrypt Zertifikate für IP-Adressen aus. Sie gelten nur wenige Tage und werden automatisch erneuert.
 
-**Jetzt steht auch die IP-Adresse im Ausweis.** Das Zertifikat kommt von Let's Encrypt. Let's Encrypt stellt solche Zertifikate für IP-Adressen erst seit 2026 aus. Sie gelten nur wenige Tage und werden automatisch erneuert.
+Im Freifunk-Netz geht es übrigens noch direkter: Dort sagt das Netz deinem Gerät schon beim Verbinden, dass verschlüsseltes DNS bereitsteht (DNR). Geräte, die das unterstützen, müssen also gar nicht erst nachfragen.
 
-Davon profitieren Systeme, die DDR unterstützen, zum Beispiel aktuelle Versionen von Windows 11 und Apple-Geräten sowie manche Android-Versionen und Browser. Wie gut das klappt, hängt vom Gerät und seinen Einstellungen ab.
+## Welche Geräte machen das?
 
-## Was ändert sich für dich?
+DDR unterstützen zum Beispiel aktuelle Versionen von Windows 11 und Apple-Geräten sowie manche Android-Versionen und Browser. Ob ein Gerät wirklich umschaltet, hängt vom System und seinen Einstellungen ab.
 
-- **Nichts einzustellen.** Es wird einfach sicherer.
+## Was musst du tun?
+
+- **Nichts.** Es wird einfach sicherer.
 - Nutzt du schon `doh.ffmuc.net`, `dot.ffmuc.net` oder `doq.ffmuc.net`, bleibt alles wie bisher.
 - Freifunk-Router und Firmware-Updates sind nicht betroffen.
 
@@ -52,43 +70,61 @@ Warum unser DNS?
 
 - **Anycast-IPs:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
+- **DDR-Antwort** auf `_dns.resolver.arpa` (Typ SVCB): DoQ (Priorität 1), DoT (Priorität 2), DoH (Priorität 3), jeweils mit `ipv4hint` und `ipv6hint`.
 - Das neue Let's-Encrypt-Zertifikat enthält die IPv4- und IPv6-Adressen als IP-SANs, zusätzlich zu `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` und `anycast02.ffmuc.net`. Laufzeit etwa 6 Tage, automatische Erneuerung.
 - Die IP-Adressen werden per HTTP-Challenge bestätigt. Da Anycast die Prüfung an jeden unserer Server schicken kann, teilen die Server die Antwort untereinander.
 - Das bestehende `*.ffmuc.net`-Zertifikat bleibt der Standard.
 - [Pull Request #697: Kurzlebiges DDR-Zertifikat mit Anycast-IP-Adressen](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
-- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html)
-- [Unser Beitrag zu RFC 9462 und RFC 9463](/services/dns/2026/01/09/rfc9462-rfc9463-support/)
+- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html) · [RFC 9463: DNR](https://datatracker.ietf.org/doc/rfc9463/)
 - [Datenschutzerklärung DNS](/dns-privacy)
 
 </section>
 
 <section data-lang="en" class="language-content" markdown="1">
 
-**In short:** Our public DNS servers get a bit safer. Many devices can now switch to encrypted DNS by themselves. **You do not have to do anything.**
+**In short:** If you use our DNS servers, you are now even more private. Many modern devices now find out by themselves that they can talk to us encrypted, and switch over automatically. **You do not have to change any setting.**
 
 > 👉 **Not using it yet?** Our DNS is **free, with no sign-up**, and open to everyone. Set it up on your phone, laptop or router in a few minutes: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
-## What is DNS?
+## What is this about?
 
-DNS is the phone book of the internet. When you type `ffmuc.net`, your device asks a DNS server: "What is the address of this site?" Only then can it load the page.
+Before your device loads a website, it asks a DNS server for the site's address – like looking it up in a phone book. Usually this happens **unencrypted**. Anyone along the way can see which sites you visit, or change the answer.
 
-## Why encryption?
+**Encrypted DNS** protects these requests. We have offered it for a long time. But until now, you usually had to set it up by hand. Many devices only know the IP address of our DNS server, for example because the router hands it out – and then they ask unencrypted.
 
-Classic DNS requests are not encrypted. Others on the network can see which sites you visit, or change the answers. With **encrypted DNS**, your question to the phone book stays private. This protects your privacy. We have offered encrypted DNS for a long time.
+## How your device switches automatically
+
+The method is called **DDR** ("Discovery of Designated Resolvers"). It works in five steps:
+
+1. **Get the address:** Your device gets the IP address of our DNS server as usual, for example from the router.
+2. **Ask:** It asks this server a special question: "Can you also talk encrypted?"
+3. **Get the answer:** Our server answers: "Yes!" – and lists its encrypted options with names and addresses.
+4. **Check the ID:** The device opens an encrypted connection and checks the server's certificate, its digital ID card. The ID must contain the IP address the device started with. This way the device knows for sure: I am still talking to the same server, not to an attacker.
+5. **Switch:** If everything matches, the device uses encrypted DNS from now on, automatically.
+
+```
+Device ── 1. knows only the IP ─────▶ FFMUC DNS
+Device ── 2. "Can you encrypt?" ────▶ FFMUC DNS
+Device ◀─ 3. "Yes: DoQ, DoT, DoH" ── FFMUC DNS
+Device ══ 4. check ID with IP ══════▶ FFMUC DNS   (new!)
+Device ══ 5. encrypted from now on ═▶ FFMUC DNS
+```
 
 ## What is new?
 
-Many devices only know the **IP address** of our DNS server, for example `5.1.66.255`, and no name. Modern systems can then ask by themselves: "Can we also talk encrypted?" This method is called **DDR** (Discovery of Designated Resolvers).
+We have offered steps 1 to 3 [since January](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **But step 4 did not work:** Our certificate only contained names like `doh.ffmuc.net`, not our IP addresses. So devices could not safely check that they were still talking to us, and stayed on unencrypted DNS.
 
-To make this safe, the device must check that it really talks to **our** server. For this, the server needs a certificate – a kind of digital ID card. Until now, this ID card only had our name, but not our IP address. The check failed, and the device stayed on unencrypted DNS.
+**Now our IP addresses are in the certificate, too.** The check passes, and the device switches over. This is only possible since 2026: since then, Let's Encrypt issues certificates for IP addresses. They are valid for a few days only and renew automatically.
 
-**Now the IP address is on the ID card, too.** The certificate comes from Let's Encrypt. Let's Encrypt only started to issue certificates for IP addresses in 2026. They are valid for a few days only and renew automatically.
+In the Freifunk network it is even more direct: there, the network tells your device right when it connects that encrypted DNS is available (DNR). Devices that support this do not even need to ask.
 
-Systems that support DDR benefit from this, for example recent versions of Windows 11 and Apple devices, and some Android versions and browsers. How well it works depends on the device and its settings.
+## Which devices do this?
 
-## What changes for you?
+DDR is supported, for example, by recent versions of Windows 11 and Apple devices, and by some Android versions and browsers. Whether a device really switches depends on the system and its settings.
 
-- **Nothing to configure.** It simply gets safer.
+## What do you have to do?
+
+- **Nothing.** It simply gets safer.
 - If you already use `doh.ffmuc.net`, `dot.ffmuc.net` or `doq.ffmuc.net`, nothing changes.
 - Freifunk routers and firmware updates are not affected.
 
@@ -108,43 +144,61 @@ Why our DNS?
 
 - **Anycast IPs:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
+- **DDR answer** for `_dns.resolver.arpa` (type SVCB): DoQ (priority 1), DoT (priority 2), DoH (priority 3), each with `ipv4hint` and `ipv6hint`.
 - The new Let's Encrypt certificate contains the IPv4 and IPv6 addresses as IP SANs, in addition to `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` and `anycast02.ffmuc.net`. Lifetime about 6 days, automatic renewal.
 - The IP addresses are validated with an HTTP challenge. Because anycast can send the check to any of our servers, the servers share the answer with each other.
 - The existing `*.ffmuc.net` certificate stays the default.
 - [Pull Request #697: Short-lived DDR certificate with anycast IP addresses](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
-- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html)
-- [Our post about RFC 9462 and RFC 9463](/services/dns/2026/01/09/rfc9462-rfc9463-support/)
+- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html) · [RFC 9463: DNR](https://datatracker.ietf.org/doc/rfc9463/)
 - [DNS privacy policy](/dns-privacy)
 
 </section>
 
 <section data-lang="fr" class="language-content" markdown="1">
 
-**En bref :** Nos serveurs DNS publics deviennent encore un peu plus sûrs. De nombreux appareils peuvent désormais passer seuls au DNS chiffré. **Vous n'avez rien à faire.**
+**En bref :** Si vous utilisez nos serveurs DNS, votre vie privée est désormais encore mieux protégée. De nombreux appareils modernes découvrent maintenant d'eux-mêmes qu'ils peuvent communiquer avec nous de façon chiffrée, et basculent automatiquement. **Vous n'avez aucun réglage à faire.**
 
 > 👉 **Pas encore utilisateur ?** Notre DNS est **gratuit, sans inscription** et ouvert à toutes et tous. Configurez-le en quelques minutes sur votre téléphone, ordinateur ou routeur : **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
-## Qu'est-ce que le DNS ?
+## De quoi s'agit-il ?
 
-Le DNS est l'annuaire d'Internet. Quand vous tapez `ffmuc.net`, votre appareil demande à un serveur DNS : « Quelle est l'adresse de ce site ? » Ce n'est qu'ensuite qu'il peut charger la page.
+Avant de charger un site web, votre appareil demande son adresse à un serveur DNS – comme on cherche un numéro dans un annuaire. En général, cela se fait **sans chiffrement**. N'importe qui sur le chemin peut voir quels sites vous visitez, ou modifier la réponse.
 
-## Pourquoi chiffrer ?
+Le **DNS chiffré** protège ces requêtes. Nous le proposons depuis longtemps. Mais jusqu'ici, il fallait le plus souvent le configurer à la main. Beaucoup d'appareils ne connaissent que l'adresse IP de notre serveur DNS, par exemple parce que le routeur la leur donne – et ils posent alors leurs questions sans chiffrement.
 
-Les requêtes DNS classiques ne sont pas chiffrées. D'autres personnes sur le réseau peuvent voir quels sites vous visitez, ou modifier les réponses. Avec le **DNS chiffré**, votre question à l'annuaire reste privée. Cela protège votre vie privée. Nous proposons le DNS chiffré depuis longtemps.
+## Comment votre appareil bascule automatiquement
+
+La méthode s'appelle **DDR** (« Discovery of Designated Resolvers »). Elle fonctionne en cinq étapes :
+
+1. **Recevoir l'adresse :** Votre appareil reçoit comme d'habitude l'adresse IP de notre serveur DNS, par exemple du routeur.
+2. **Demander :** Il pose à ce serveur une question spéciale : « Sais-tu aussi parler de façon chiffrée ? »
+3. **Recevoir la réponse :** Notre serveur répond : « Oui ! » – et indique ses accès chiffrés, avec noms et adresses.
+4. **Vérifier la carte d'identité :** L'appareil ouvre une connexion chiffrée et vérifie le certificat du serveur, sa carte d'identité numérique. Celle-ci doit contenir l'adresse IP avec laquelle l'appareil a commencé. Ainsi, il sait avec certitude : je parle toujours au même serveur, et non à un attaquant.
+5. **Basculer :** Si tout correspond, l'appareil utilise désormais automatiquement le DNS chiffré.
+
+```
+Appareil ── 1. connaît seulement l'IP ─▶ DNS FFMUC
+Appareil ── 2. « Chiffré possible ? » ─▶ DNS FFMUC
+Appareil ◀─ 3. « Oui : DoQ, DoT, DoH » ─ DNS FFMUC
+Appareil ══ 4. vérifier l'ID avec l'IP ▶ DNS FFMUC   (nouveau !)
+Appareil ══ 5. désormais chiffré ══════▶ DNS FFMUC
+```
 
 ## Quoi de neuf ?
 
-Beaucoup d'appareils ne connaissent que l'**adresse IP** de notre serveur DNS, par exemple `5.1.66.255`, et aucun nom. Les systèmes modernes peuvent alors demander d'eux-mêmes : « Pouvons-nous aussi parler de façon chiffrée ? » Cette méthode s'appelle **DDR** (Discovery of Designated Resolvers).
+Nous proposons les étapes 1 à 3 [depuis janvier](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Mais l'étape 4 ne fonctionnait pas :** notre certificat ne contenait que des noms comme `doh.ffmuc.net`, pas nos adresses IP. Les appareils ne pouvaient donc pas vérifier de façon sûre qu'ils parlaient toujours avec nous, et restaient sur le DNS non chiffré.
 
-Pour que ce soit sûr, l'appareil doit vérifier qu'il parle vraiment à **notre** serveur. Pour cela, le serveur a besoin d'un certificat – une sorte de carte d'identité numérique. Jusqu'ici, cette carte ne contenait que notre nom, mais pas notre adresse IP. La vérification échouait, et l'appareil restait sur le DNS non chiffré.
+**Désormais, nos adresses IP figurent aussi dans le certificat.** La vérification réussit, et l'appareil bascule. Ce n'est possible que depuis 2026 : depuis, Let's Encrypt délivre des certificats pour des adresses IP. Ils ne sont valables que quelques jours et se renouvellent automatiquement.
 
-**Désormais, l'adresse IP figure aussi sur la carte d'identité.** Le certificat vient de Let's Encrypt. Let's Encrypt ne délivre des certificats pour des adresses IP que depuis 2026. Ils ne sont valables que quelques jours et se renouvellent automatiquement.
+Dans le réseau Freifunk, c'est même encore plus direct : le réseau indique à votre appareil, dès la connexion, que le DNS chiffré est disponible (DNR). Les appareils compatibles n'ont même pas besoin de demander.
 
-Les systèmes compatibles DDR en profitent, par exemple les versions récentes de Windows 11 et des appareils Apple, ainsi que certaines versions d'Android et certains navigateurs. Le résultat dépend de l'appareil et de ses réglages.
+## Quels appareils le font ?
 
-## Qu'est-ce qui change pour vous ?
+DDR est pris en charge, par exemple, par les versions récentes de Windows 11 et des appareils Apple, ainsi que par certaines versions d'Android et certains navigateurs. Le basculement dépend du système et de ses réglages.
 
-- **Rien à configurer.** C'est simplement plus sûr.
+## Que devez-vous faire ?
+
+- **Rien.** C'est simplement plus sûr.
 - Si vous utilisez déjà `doh.ffmuc.net`, `dot.ffmuc.net` ou `doq.ffmuc.net`, rien ne change.
 - Les routeurs Freifunk et les mises à jour du firmware ne sont pas concernés.
 
@@ -164,43 +218,61 @@ Pourquoi notre DNS ?
 
 - **IP anycast :** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH :** `https://doh.ffmuc.net/dns-query` · **DoT :** `dot.ffmuc.net:853` · **DoQ :** `doq.ffmuc.net:853`
+- **Réponse DDR** pour `_dns.resolver.arpa` (type SVCB) : DoQ (priorité 1), DoT (priorité 2), DoH (priorité 3), chacun avec `ipv4hint` et `ipv6hint`.
 - Le nouveau certificat Let's Encrypt contient les adresses IPv4 et IPv6 comme IP SAN, en plus de `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` et `anycast02.ffmuc.net`. Durée de validité d'environ 6 jours, renouvellement automatique.
 - Les adresses IP sont validées par un challenge HTTP. Comme l'anycast peut envoyer la vérification à n'importe lequel de nos serveurs, les serveurs partagent la réponse entre eux.
 - Le certificat existant `*.ffmuc.net` reste le certificat par défaut.
 - [Pull Request #697 : certificat DDR de courte durée avec adresses IP anycast](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
-- [RFC 9462 : Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html)
-- [Notre article sur RFC 9462 et RFC 9463](/services/dns/2026/01/09/rfc9462-rfc9463-support/)
+- [RFC 9462 : Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html) · [RFC 9463 : DNR](https://datatracker.ietf.org/doc/rfc9463/)
 - [Politique de confidentialité DNS](/dns-privacy)
 
 </section>
 
 <section data-lang="es" class="language-content" markdown="1">
 
-**En resumen:** Nuestros servidores DNS públicos son ahora un poco más seguros. Muchos dispositivos pueden cambiar por sí solos a DNS cifrado. **No tienes que hacer nada.**
+**En resumen:** Si usas nuestros servidores DNS, tu privacidad está ahora aún mejor protegida. Muchos dispositivos modernos descubren ahora por sí solos que pueden hablar con nosotros de forma cifrada, y cambian automáticamente. **No tienes que cambiar ningún ajuste.**
 
 > 👉 **¿Aún no lo usas?** Nuestro DNS es **gratuito, sin registro** y abierto a todo el mundo. Configúralo en pocos minutos en tu móvil, portátil o router: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
-## ¿Qué es el DNS?
+## ¿De qué se trata?
 
-El DNS es la guía telefónica de Internet. Cuando escribes `ffmuc.net`, tu dispositivo pregunta a un servidor DNS: «¿Cuál es la dirección de este sitio?». Solo entonces puede cargar la página.
+Antes de cargar una página web, tu dispositivo pregunta su dirección a un servidor DNS, como quien busca un número en la guía telefónica. Normalmente esto ocurre **sin cifrar**. Cualquiera en el camino puede ver qué sitios visitas o cambiar la respuesta.
 
-## ¿Por qué cifrar?
+El **DNS cifrado** protege estas consultas. Lo ofrecemos desde hace mucho tiempo. Pero hasta ahora, casi siempre había que configurarlo a mano. Muchos dispositivos solo conocen la dirección IP de nuestro servidor DNS, por ejemplo porque se la da el router, y entonces preguntan sin cifrar.
 
-Las consultas DNS clásicas no están cifradas. Otras personas en la red pueden ver qué sitios visitas o cambiar las respuestas. Con **DNS cifrado**, tu pregunta a la guía telefónica es privada. Esto protege tu privacidad. Ofrecemos DNS cifrado desde hace mucho tiempo.
+## Así cambia tu dispositivo automáticamente
+
+El método se llama **DDR** («Discovery of Designated Resolvers»). Funciona en cinco pasos:
+
+1. **Recibir la dirección:** Tu dispositivo recibe como siempre la dirección IP de nuestro servidor DNS, por ejemplo del router.
+2. **Preguntar:** Le hace a ese servidor una pregunta especial: «¿Puedes hablar también de forma cifrada?»
+3. **Recibir la respuesta:** Nuestro servidor responde: «¡Sí!», y enumera sus accesos cifrados con nombres y direcciones.
+4. **Comprobar el documento de identidad:** El dispositivo abre una conexión cifrada y comprueba el certificado del servidor, su documento de identidad digital. En él debe figurar la dirección IP con la que empezó el dispositivo. Así sabe con seguridad: sigo hablando con el mismo servidor y no con un atacante.
+5. **Cambiar:** Si todo coincide, el dispositivo usa a partir de ahora DNS cifrado, de forma automática.
+
+```
+Dispositivo ── 1. solo conoce la IP ──▶ DNS FFMUC
+Dispositivo ── 2. «¿Puedes cifrar?» ──▶ DNS FFMUC
+Dispositivo ◀─ 3. «Sí: DoQ, DoT, DoH» ─ DNS FFMUC
+Dispositivo ══ 4. comprobar ID con IP ▶ DNS FFMUC   (¡nuevo!)
+Dispositivo ══ 5. ya siempre cifrado ═▶ DNS FFMUC
+```
 
 ## ¿Qué hay de nuevo?
 
-Muchos dispositivos solo conocen la **dirección IP** de nuestro servidor DNS, por ejemplo `5.1.66.255`, y ningún nombre. Los sistemas modernos pueden entonces preguntar por sí mismos: «¿Podemos hablar también de forma cifrada?». Este método se llama **DDR** (Discovery of Designated Resolvers).
+Ofrecemos los pasos 1 a 3 [desde enero](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Pero el paso 4 no funcionaba:** nuestro certificado solo contenía nombres como `doh.ffmuc.net`, no nuestras direcciones IP. Así que los dispositivos no podían comprobar con seguridad que seguían hablando con nosotros, y se quedaban con el DNS sin cifrar.
 
-Para que sea seguro, el dispositivo debe comprobar que realmente habla con **nuestro** servidor. Para ello, el servidor necesita un certificado: una especie de documento de identidad digital. Hasta ahora, este documento solo contenía nuestro nombre, pero no nuestra dirección IP. La comprobación fallaba y el dispositivo seguía usando DNS sin cifrar.
+**Ahora nuestras direcciones IP también están en el certificado.** La comprobación funciona y el dispositivo cambia. Esto solo es posible desde 2026: desde entonces, Let's Encrypt emite certificados para direcciones IP. Son válidos solo unos pocos días y se renuevan automáticamente.
 
-**Ahora la dirección IP también aparece en el documento.** El certificado lo emite Let's Encrypt. Let's Encrypt solo emite certificados para direcciones IP desde 2026. Son válidos solo unos pocos días y se renuevan automáticamente.
+En la red Freifunk es incluso más directo: allí la red le dice a tu dispositivo, nada más conectarse, que hay DNS cifrado disponible (DNR). Los dispositivos compatibles ni siquiera necesitan preguntar.
 
-Se benefician los sistemas que admiten DDR, por ejemplo versiones recientes de Windows 11 y de dispositivos Apple, así como algunas versiones de Android y algunos navegadores. El resultado depende del dispositivo y de su configuración.
+## ¿Qué dispositivos lo hacen?
 
-## ¿Qué cambia para ti?
+DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispositivos Apple, y con algunas versiones de Android y algunos navegadores. Que un dispositivo cambie de verdad depende del sistema y de su configuración.
 
-- **Nada que configurar.** Simplemente es más seguro.
+## ¿Qué tienes que hacer?
+
+- **Nada.** Simplemente es más seguro.
 - Si ya usas `doh.ffmuc.net`, `dot.ffmuc.net` o `doq.ffmuc.net`, todo sigue igual.
 - Los routers Freifunk y las actualizaciones de firmware no se ven afectados.
 
@@ -220,43 +292,61 @@ Se benefician los sistemas que admiten DDR, por ejemplo versiones recientes de W
 
 - **IP anycast:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
+- **Respuesta DDR** para `_dns.resolver.arpa` (tipo SVCB): DoQ (prioridad 1), DoT (prioridad 2), DoH (prioridad 3), cada uno con `ipv4hint` e `ipv6hint`.
 - El nuevo certificado de Let's Encrypt contiene las direcciones IPv4 e IPv6 como IP SAN, además de `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` y `anycast02.ffmuc.net`. Validez de unos 6 días, renovación automática.
 - Las direcciones IP se validan con un desafío HTTP. Como anycast puede enviar la comprobación a cualquiera de nuestros servidores, los servidores comparten la respuesta entre sí.
 - El certificado existente `*.ffmuc.net` sigue siendo el predeterminado.
 - [Pull Request #697: certificado DDR de corta duración con direcciones IP anycast](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
-- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html)
-- [Nuestro artículo sobre RFC 9462 y RFC 9463](/services/dns/2026/01/09/rfc9462-rfc9463-support/)
+- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html) · [RFC 9463: DNR](https://datatracker.ietf.org/doc/rfc9463/)
 - [Política de privacidad DNS](/dns-privacy)
 
 </section>
 
 <section data-lang="ua" class="language-content" markdown="1">
 
-**Коротко:** Наші публічні DNS-сервери стають ще трохи безпечнішими. Багато пристроїв тепер можуть самостійно перейти на зашифрований DNS. **Вам нічого не потрібно робити.**
+**Коротко:** Якщо ви користуєтеся нашими DNS-серверами, ваша приватність тепер захищена ще краще. Багато сучасних пристроїв тепер самі дізнаються, що можуть спілкуватися з нами зашифровано, і автоматично перемикаються. **Вам не потрібно нічого налаштовувати.**
 
 > 👉 **Ще не користуєтеся?** Наш DNS **безкоштовний, без реєстрації** і відкритий для всіх. Налаштуйте його за кілька хвилин на телефоні, ноутбуці чи маршрутизаторі: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
-## Що таке DNS?
+## Про що йдеться?
 
-DNS – це телефонна книга інтернету. Коли ви вводите `ffmuc.net`, ваш пристрій запитує DNS-сервер: «Яка адреса цього сайту?» Лише після цього він може завантажити сторінку.
+Перш ніж завантажити вебсторінку, ваш пристрій запитує її адресу в DNS-сервера – наче шукає номер у телефонній книзі. Зазвичай це відбувається **без шифрування**. Будь-хто на шляху може бачити, які сайти ви відвідуєте, або підмінити відповідь.
 
-## Навіщо шифрування?
+**Зашифрований DNS** захищає ці запити. Ми давно його пропонуємо. Але досі його зазвичай доводилося налаштовувати вручну. Багато пристроїв знають лише IP-адресу нашого DNS-сервера, наприклад тому, що її роздає маршрутизатор, – і тоді запитують без шифрування.
 
-Звичайні DNS-запити не зашифровані. Інші люди в мережі можуть бачити, які сайти ви відвідуєте, або змінювати відповіді. Із **зашифрованим DNS** ваше запитання до телефонної книги залишається приватним. Це захищає вашу приватність. Ми вже давно пропонуємо зашифрований DNS.
+## Як ваш пристрій перемикається автоматично
+
+Цей метод називається **DDR** («Discovery of Designated Resolvers»). Він працює у п'ять кроків:
+
+1. **Отримати адресу:** Ваш пристрій, як завжди, отримує IP-адресу нашого DNS-сервера, наприклад від маршрутизатора.
+2. **Запитати:** Він ставить цьому серверу особливе запитання: «Чи можеш ти спілкуватися зашифровано?»
+3. **Отримати відповідь:** Наш сервер відповідає: «Так!» – і називає свої зашифровані способи підключення з іменами та адресами.
+4. **Перевірити посвідчення:** Пристрій відкриває зашифроване з'єднання і перевіряє сертифікат сервера – його цифрове посвідчення. У ньому має бути IP-адреса, з якої пристрій почав. Так він точно знає: я досі спілкуюся з тим самим сервером, а не з нападником.
+5. **Перемкнутися:** Якщо все збігається, пристрій відтепер автоматично використовує зашифрований DNS.
+
+```
+Пристрій ── 1. знає лише IP ───────────▶ FFMUC DNS
+Пристрій ── 2. «Можеш зашифровано?» ───▶ FFMUC DNS
+Пристрій ◀─ 3. «Так: DoQ, DoT, DoH» ──── FFMUC DNS
+Пристрій ══ 4. перевірка ID з IP ══════▶ FFMUC DNS   (нове!)
+Пристрій ══ 5. відтепер зашифровано ═══▶ FFMUC DNS
+```
 
 ## Що нового?
 
-Багато пристроїв знають лише **IP-адресу** нашого DNS-сервера, наприклад `5.1.66.255`, і не знають імені. Сучасні системи можуть тоді самі запитати: «Чи можемо ми спілкуватися зашифровано?» Цей метод називається **DDR** (Discovery of Designated Resolvers).
+Кроки 1–3 ми пропонуємо [ще з січня](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Але крок 4 не працював:** у нашому сертифікаті були лише імена на кшталт `doh.ffmuc.net`, а не наші IP-адреси. Тож пристрої не могли надійно перевірити, що досі спілкуються з нами, і залишалися на незашифрованому DNS.
 
-Щоб це було безпечно, пристрій має перевірити, що він справді спілкується з **нашим** сервером. Для цього серверу потрібен сертифікат – щось на зразок цифрового посвідчення. Досі в цьому посвідченні було лише наше ім'я, але не наша IP-адреса. Перевірка не проходила, і пристрій залишався на незашифрованому DNS.
+**Тепер наші IP-адреси теж є в сертифікаті.** Перевірка проходить, і пристрій перемикається. Це можливо лише з 2026 року: відтоді Let's Encrypt видає сертифікати для IP-адрес. Вони дійсні лише кілька днів і оновлюються автоматично.
 
-**Тепер у посвідченні є й IP-адреса.** Сертифікат видає Let's Encrypt. Let's Encrypt видає сертифікати для IP-адрес лише з 2026 року. Вони дійсні лише кілька днів і оновлюються автоматично.
+У мережі Freifunk усе ще простіше: там мережа одразу під час підключення повідомляє вашому пристрою, що зашифрований DNS доступний (DNR). Пристроям, які це підтримують, навіть не потрібно запитувати.
 
-Від цього виграють системи з підтримкою DDR, наприклад актуальні версії Windows 11 і пристроїв Apple, а також деякі версії Android і деякі браузери. Результат залежить від пристрою та його налаштувань.
+## Які пристрої це вміють?
 
-## Що змінюється для вас?
+DDR підтримують, наприклад, актуальні версії Windows 11 і пристроїв Apple, а також деякі версії Android і деякі браузери. Чи справді пристрій перемкнеться, залежить від системи та її налаштувань.
 
-- **Нічого не потрібно налаштовувати.** Просто стає безпечніше.
+## Що вам потрібно зробити?
+
+- **Нічого.** Просто стає безпечніше.
 - Якщо ви вже використовуєте `doh.ffmuc.net`, `dot.ffmuc.net` або `doq.ffmuc.net`, нічого не змінюється.
 - Маршрутизатори Freifunk та оновлення прошивки це не зачіпає.
 
@@ -276,12 +366,12 @@ DNS – це телефонна книга інтернету. Коли ви в�
 
 - **Anycast IP:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
+- **DDR-відповідь** на `_dns.resolver.arpa` (тип SVCB): DoQ (пріоритет 1), DoT (пріоритет 2), DoH (пріоритет 3), кожен з `ipv4hint` та `ipv6hint`.
 - Новий сертифікат Let's Encrypt містить адреси IPv4 та IPv6 як IP SAN, окрім `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` та `anycast02.ffmuc.net`. Термін дії близько 6 днів, автоматичне оновлення.
 - IP-адреси підтверджуються через HTTP-перевірку. Оскільки anycast може надіслати перевірку на будь-який із наших серверів, сервери обмінюються відповіддю між собою.
 - Наявний сертифікат `*.ffmuc.net` залишається стандартним.
 - [Pull Request #697: короткостроковий DDR-сертифікат з anycast IP-адресами](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
-- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html)
-- [Наша публікація про RFC 9462 та RFC 9463](/services/dns/2026/01/09/rfc9462-rfc9463-support/)
+- [RFC 9462: Discovery of Designated Resolvers](https://www.rfc-editor.org/rfc/rfc9462.html) · [RFC 9463: DNR](https://datatracker.ietf.org/doc/rfc9463/)
 - [Політика конфіденційності DNS](/dns-privacy)
 
 </section>
