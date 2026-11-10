@@ -22,10 +22,10 @@ Bevor dein Gerät eine Webseite lädt, fragt es einen DNS-Server nach deren Adre
 
 Das Verfahren dafür heißt **DDR** („Discovery of Designated Resolvers“). Am Beispiel unserer Server sieht das so aus:
 
-1. **Adresse bekommen:** Dein Router sagt deinem Gerät: „Dein DNS-Server ist `5.1.66.255`“ (oder `2001:678:e68:f000::`). Mehr weiß das Gerät noch nicht.
-2. **Nachfragen:** Das Gerät fragt `5.1.66.255` (oder `2001:678:e68:f000::`): „Kannst du auch verschlüsselt?“ Technisch ist das eine Anfrage nach `_dns.resolver.arpa`.
-3. **Antwort bekommen:** Wir antworten: „Ja! Über `doq.ffmuc.net`, `dot.ffmuc.net` und `doh.ffmuc.net`, erreichbar unter `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` und `2001:678:ed0:f000::`.“
-4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu `5.1.66.255` (oder `2001:678:e68:f000::`) auf, zum Beispiel mit dem Namen `dot.ffmuc.net`. Unser Zertifikat zeigt die **Identität** des Servers: die Namen `doh.ffmuc.net`, `dot.ffmuc.net` und `doq.ffmuc.net` **und alle unsere Adressen: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` und `2001:678:ed0:f000::`**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse, mit der das Gerät angefangen hat, steht darin. Also spricht es nicht mit einem Angreifer.
+1. **Adresse bekommen:** Dein Router sagt deinem Gerät: „Dein DNS-Server ist 5.1.66.255“ (oder 2001:678:e68:f000::). Mehr weiß das Gerät noch nicht.
+2. **Nachfragen:** Das Gerät fragt 5.1.66.255 (oder 2001:678:e68:f000::): „Kannst du auch verschlüsselt?“ Technisch ist das eine Anfrage nach `_dns.resolver.arpa`.
+3. **Antwort bekommen:** Wir antworten: „Ja! Über <span lang="zxx">doq.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> und <span lang="zxx">doh.ffmuc.net</span>, erreichbar unter 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: und 2001:678:ed0:f000::.“
+4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu 5.1.66.255 (oder 2001:678:e68:f000::) auf, zum Beispiel mit dem Namen <span lang="zxx">dot.ffmuc.net</span>. Unser Zertifikat zeigt die **Identität** des Servers: die Namen <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> und <span lang="zxx">doq.ffmuc.net</span> **und alle unsere Adressen: 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: und 2001:678:ed0:f000::**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse, mit der das Gerät angefangen hat, steht darin. Also spricht es nicht mit einem Angreifer.
 5. **Umschalten:** Alles passt. Ab jetzt nutzt das Gerät automatisch verschlüsseltes DNS.
 
 ```
@@ -43,13 +43,13 @@ Gerät  ═▶ ab jetzt verschlüsseltes DNS
 
 ## Was ist neu?
 
-Die Schritte 1 bis 3 bieten wir [schon seit Januar](/services/dns/2026/01/09/rfc9462-rfc9463-support/) an. **Schritt 4 hat bisher nicht geklappt:** In unserem Zertifikat standen nur Namen wie `doh.ffmuc.net`, aber nicht unsere IP-Adressen. Die Geräte konnten also nicht sicher prüfen, ob sie noch mit uns sprechen, und blieben lieber beim unverschlüsselten DNS.
+Die Schritte 1 bis 3 bieten wir [schon seit Januar](/services/dns/2026/01/09/rfc9462-rfc9463-support/) an. **Schritt 4 hat bisher nicht geklappt:** In unserem Zertifikat standen nur Namen wie <span lang="zxx">doh.ffmuc.net</span>, aber nicht unsere IP-Adressen. Die Geräte konnten also nicht sicher prüfen, ob sie noch mit uns sprechen, und blieben lieber beim unverschlüsselten DNS.
 
 **Jetzt stehen auch unsere IP-Adressen im Zertifikat.** Damit klappt die Prüfung, und das Gerät schaltet um. Möglich ist das erst seit 2026: Seitdem stellt Let's Encrypt Zertifikate für IP-Adressen aus. Sie gelten nur wenige Tage und werden automatisch erneuert.
 
 ![Balkendiagramm: DoH-Anfragen direkt an unsere IP-Adressen in den letzten 4 Stunden](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*DoH-Anfragen, die direkt an unsere Resolver-IP-Adressen gehen (letzte 4 Stunden). Der Anstieg beginnt, nachdem das neue Zertifikat live gegangen ist. Blau: `5.1.66.255`, orange: `185.150.99.255`, grün: `2001:678:ed0:f000::`. Gezählt werden alle Geräte, die uns über eine IP-Adresse ansprechen, nicht nur Geräte, die automatisch umgeschaltet haben.*
+*DoH-Anfragen, die direkt an unsere Resolver-IP-Adressen gehen (letzte 4 Stunden). Der Anstieg beginnt, nachdem das neue Zertifikat live gegangen ist. Blau: 5.1.66.255, orange: 185.150.99.255, grün: 2001:678:ed0:f000::. Gezählt werden alle Geräte, die uns über eine IP-Adresse ansprechen, nicht nur Geräte, die automatisch umgeschaltet haben.*
 
 Im Freifunk-Netz geht es übrigens noch direkter: Dort sagt das Netz deinem Gerät schon beim Verbinden, dass verschlüsseltes DNS bereitsteht (DNR). Geräte, die das unterstützen, müssen also gar nicht erst nachfragen.
 
@@ -60,7 +60,7 @@ DDR unterstützen zum Beispiel aktuelle Versionen von Windows 11 und Apple-Gerä
 ## Was musst du tun?
 
 - **Nichts.** Es wird einfach sicherer.
-- Nutzt du schon `doh.ffmuc.net`, `dot.ffmuc.net` oder `doq.ffmuc.net`, bleibt alles wie bisher.
+- Nutzt du schon <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> oder <span lang="zxx">doq.ffmuc.net</span>, bleibt alles wie bisher.
 - Freifunk-Router und Firmware-Updates sind nicht betroffen.
 
 ## Jetzt umsteigen: privates DNS von Freifunk München
@@ -105,10 +105,10 @@ Before your device loads a website, it asks a DNS server for the site's address.
 
 The method is called **DDR** ("Discovery of Designated Resolvers"). With our servers as an example, it works like this:
 
-1. **Get the address:** Your router tells your device: "Your DNS server is `5.1.66.255`" (or `2001:678:e68:f000::`). The device knows nothing more yet.
-2. **Ask:** The device asks `5.1.66.255` (or `2001:678:e68:f000::`): "Can you also talk encrypted?" Technically, this is a query for `_dns.resolver.arpa`.
-3. **Get the answer:** We answer: "Yes! Use `doq.ffmuc.net`, `dot.ffmuc.net` and `doh.ffmuc.net`, reachable at `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` and `2001:678:ed0:f000::`."
-4. **Check the identity:** The device opens an encrypted connection to `5.1.66.255` (or `2001:678:e68:f000::`), for example with the name `dot.ffmuc.net`. Our certificate shows the **identity** of the server: the names `doh.ffmuc.net`, `dot.ffmuc.net` and `doq.ffmuc.net` **and all our addresses: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` and `2001:678:ed0:f000::`**. The device compares: is this really the server I asked at the start? The address the device started with is in it. So it is not talking to an attacker.
+1. **Get the address:** Your router tells your device: "Your DNS server is 5.1.66.255" (or 2001:678:e68:f000::). The device knows nothing more yet.
+2. **Ask:** The device asks 5.1.66.255 (or 2001:678:e68:f000::): "Can you also talk encrypted?" Technically, this is a query for `_dns.resolver.arpa`.
+3. **Get the answer:** We answer: "Yes! Use <span lang="zxx">doq.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> and <span lang="zxx">doh.ffmuc.net</span>, reachable at 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: and 2001:678:ed0:f000::."
+4. **Check the identity:** The device opens an encrypted connection to 5.1.66.255 (or 2001:678:e68:f000::), for example with the name <span lang="zxx">dot.ffmuc.net</span>. Our certificate shows the **identity** of the server: the names <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> and <span lang="zxx">doq.ffmuc.net</span> **and all our addresses: 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: and 2001:678:ed0:f000::**. The device compares: is this really the server I asked at the start? The address the device started with is in it. So it is not talking to an attacker.
 5. **Switch:** Everything matches. From now on, the device uses encrypted DNS automatically.
 
 ```
@@ -126,13 +126,13 @@ device ═▶ encrypted DNS from now on
 
 ## What is new?
 
-We have offered steps 1 to 3 [since January](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **But step 4 did not work:** Our certificate only contained names like `doh.ffmuc.net`, not our IP addresses. So devices could not safely check that they were still talking to us, and stayed on unencrypted DNS.
+We have offered steps 1 to 3 [since January](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **But step 4 did not work:** Our certificate only contained names like <span lang="zxx">doh.ffmuc.net</span>, not our IP addresses. So devices could not safely check that they were still talking to us, and stayed on unencrypted DNS.
 
 **Now our IP addresses are in the certificate, too.** The check passes, and the device switches over. This is only possible since 2026: since then, Let's Encrypt issues certificates for IP addresses. They are valid for a few days only and renew automatically.
 
 ![Bar chart: DoH requests sent directly to our IP addresses in the last 4 hours](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*DoH requests sent directly to our resolver IP addresses (last 4 hours). The rise starts after the new certificate went live. Blue: `5.1.66.255`, orange: `185.150.99.255`, green: `2001:678:ed0:f000::`. The chart counts every client that uses an IP address, not only devices that switched automatically.*
+*DoH requests sent directly to our resolver IP addresses (last 4 hours). The rise starts after the new certificate went live. Blue: 5.1.66.255, orange: 185.150.99.255, green: 2001:678:ed0:f000::. The chart counts every client that uses an IP address, not only devices that switched automatically.*
 
 In the Freifunk network it is even more direct: there, the network tells your device right when it connects that encrypted DNS is available (DNR). Devices that support this do not even need to ask.
 
@@ -143,7 +143,7 @@ DDR is supported, for example, by recent versions of Windows 11 and Apple device
 ## What do you have to do?
 
 - **Nothing.** It simply gets safer.
-- If you already use `doh.ffmuc.net`, `dot.ffmuc.net` or `doq.ffmuc.net`, nothing changes.
+- If you already use <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> or <span lang="zxx">doq.ffmuc.net</span>, nothing changes.
 - Freifunk routers and firmware updates are not affected.
 
 ## Switch now: private DNS from Freifunk München
@@ -188,10 +188,10 @@ Le **DNS chiffré** protège ces requêtes. Nous le proposons depuis longtemps. 
 
 La méthode s'appelle **DDR** (« Discovery of Designated Resolvers »). Avec nos serveurs comme exemple, cela se passe ainsi :
 
-1. **Recevoir l'adresse :** Votre routeur dit à votre appareil : « Ton serveur DNS est `5.1.66.255` » (ou `2001:678:e68:f000::`). L'appareil n'en sait pas plus pour l'instant.
-2. **Demander :** L'appareil demande à `5.1.66.255` (ou `2001:678:e68:f000::`) : « Sais-tu aussi parler de façon chiffrée ? » Techniquement, c'est une requête pour `_dns.resolver.arpa`.
-3. **Recevoir la réponse :** Nous répondons : « Oui ! Via `doq.ffmuc.net`, `dot.ffmuc.net` et `doh.ffmuc.net`, joignables à `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` et `2001:678:ed0:f000::`. »
-4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers `5.1.66.255` (ou `2001:678:e68:f000::`), par exemple avec le nom `dot.ffmuc.net`. Notre certificat montre l'**identité** du serveur : les noms `doh.ffmuc.net`, `dot.ffmuc.net` et `doq.ffmuc.net` **et toutes nos adresses : `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` et `2001:678:ed0:f000::`**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse avec laquelle l'appareil a commencé y figure : il ne parle donc pas à un attaquant.
+1. **Recevoir l'adresse :** Votre routeur dit à votre appareil : « Ton serveur DNS est 5.1.66.255 » (ou 2001:678:e68:f000::). L'appareil n'en sait pas plus pour l'instant.
+2. **Demander :** L'appareil demande à 5.1.66.255 (ou 2001:678:e68:f000::) : « Sais-tu aussi parler de façon chiffrée ? » Techniquement, c'est une requête pour `_dns.resolver.arpa`.
+3. **Recevoir la réponse :** Nous répondons : « Oui ! Via <span lang="zxx">doq.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> et <span lang="zxx">doh.ffmuc.net</span>, joignables à 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: et 2001:678:ed0:f000::. »
+4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers 5.1.66.255 (ou 2001:678:e68:f000::), par exemple avec le nom <span lang="zxx">dot.ffmuc.net</span>. Notre certificat montre l'**identité** du serveur : les noms <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> et <span lang="zxx">doq.ffmuc.net</span> **et toutes nos adresses : 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: et 2001:678:ed0:f000::**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse avec laquelle l'appareil a commencé y figure : il ne parle donc pas à un attaquant.
 5. **Basculer :** Tout correspond. Désormais, l'appareil utilise automatiquement le DNS chiffré.
 
 ```
@@ -209,13 +209,13 @@ appareil ═▶ désormais DNS chiffré
 
 ## Quoi de neuf ?
 
-Nous proposons les étapes 1 à 3 [depuis janvier](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Mais l'étape 4 ne fonctionnait pas :** notre certificat ne contenait que des noms comme `doh.ffmuc.net`, pas nos adresses IP. Les appareils ne pouvaient donc pas vérifier de façon sûre qu'ils parlaient toujours avec nous, et restaient sur le DNS non chiffré.
+Nous proposons les étapes 1 à 3 [depuis janvier](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Mais l'étape 4 ne fonctionnait pas :** notre certificat ne contenait que des noms comme <span lang="zxx">doh.ffmuc.net</span>, pas nos adresses IP. Les appareils ne pouvaient donc pas vérifier de façon sûre qu'ils parlaient toujours avec nous, et restaient sur le DNS non chiffré.
 
 **Désormais, nos adresses IP figurent aussi dans le certificat.** La vérification réussit, et l'appareil bascule. Ce n'est possible que depuis 2026 : depuis, Let's Encrypt délivre des certificats pour des adresses IP. Ils ne sont valables que quelques jours et se renouvellent automatiquement.
 
 ![Diagramme à barres : requêtes DoH envoyées directement à nos adresses IP au cours des 4 dernières heures](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*Requêtes DoH envoyées directement aux adresses IP de nos résolveurs (4 dernières heures). La hausse commence après la mise en service du nouveau certificat. Bleu : `5.1.66.255`, orange : `185.150.99.255`, vert : `2001:678:ed0:f000::`. Le graphique compte tous les clients qui utilisent une adresse IP, pas seulement les appareils qui ont basculé automatiquement.*
+*Requêtes DoH envoyées directement aux adresses IP de nos résolveurs (4 dernières heures). La hausse commence après la mise en service du nouveau certificat. Bleu : 5.1.66.255, orange : 185.150.99.255, vert : 2001:678:ed0:f000::. Le graphique compte tous les clients qui utilisent une adresse IP, pas seulement les appareils qui ont basculé automatiquement.*
 
 Dans le réseau Freifunk, c'est même encore plus direct : le réseau indique à votre appareil, dès la connexion, que le DNS chiffré est disponible (DNR). Les appareils compatibles n'ont même pas besoin de demander.
 
@@ -226,7 +226,7 @@ DDR est pris en charge, par exemple, par les versions récentes de Windows 11 et
 ## Que devez-vous faire ?
 
 - **Rien.** C'est simplement plus sûr.
-- Si vous utilisez déjà `doh.ffmuc.net`, `dot.ffmuc.net` ou `doq.ffmuc.net`, rien ne change.
+- Si vous utilisez déjà <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> ou <span lang="zxx">doq.ffmuc.net</span>, rien ne change.
 - Les routeurs Freifunk et les mises à jour du firmware ne sont pas concernés.
 
 ## Passez-y maintenant : le DNS privé de Freifunk Munich
@@ -271,10 +271,10 @@ El **DNS cifrado** protege estas consultas. Lo ofrecemos desde hace mucho tiempo
 
 El método se llama **DDR** («Discovery of Designated Resolvers»). Con nuestros servidores como ejemplo, funciona así:
 
-1. **Recibir la dirección:** Tu router le dice a tu dispositivo: «Tu servidor DNS es `5.1.66.255`» (o `2001:678:e68:f000::`). El dispositivo todavía no sabe nada más.
-2. **Preguntar:** El dispositivo pregunta a `5.1.66.255` (o `2001:678:e68:f000::`): «¿Puedes hablar también de forma cifrada?» Técnicamente, es una consulta de `_dns.resolver.arpa`.
-3. **Recibir la respuesta:** Respondemos: «¡Sí! A través de `doq.ffmuc.net`, `dot.ffmuc.net` y `doh.ffmuc.net`, accesibles en `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` y `2001:678:ed0:f000::`.»
-4. **Comprobar la identidad:** El dispositivo abre una conexión cifrada con `5.1.66.255` (o `2001:678:e68:f000::`), por ejemplo con el nombre `dot.ffmuc.net`. Nuestro certificado muestra la **identidad** del servidor: los nombres `doh.ffmuc.net`, `dot.ffmuc.net` y `doq.ffmuc.net` **y todas nuestras direcciones: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` y `2001:678:ed0:f000::`**. El dispositivo compara: ¿es de verdad el servidor al que pregunté al principio? La dirección con la que empezó el dispositivo está ahí, así que no está hablando con un atacante.
+1. **Recibir la dirección:** Tu router le dice a tu dispositivo: «Tu servidor DNS es 5.1.66.255» (o 2001:678:e68:f000::). El dispositivo todavía no sabe nada más.
+2. **Preguntar:** El dispositivo pregunta a 5.1.66.255 (o 2001:678:e68:f000::): «¿Puedes hablar también de forma cifrada?» Técnicamente, es una consulta de `_dns.resolver.arpa`.
+3. **Recibir la respuesta:** Respondemos: «¡Sí! A través de <span lang="zxx">doq.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> y <span lang="zxx">doh.ffmuc.net</span>, accesibles en 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: y 2001:678:ed0:f000::.»
+4. **Comprobar la identidad:** El dispositivo abre una conexión cifrada con 5.1.66.255 (o 2001:678:e68:f000::), por ejemplo con el nombre <span lang="zxx">dot.ffmuc.net</span>. Nuestro certificado muestra la **identidad** del servidor: los nombres <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> y <span lang="zxx">doq.ffmuc.net</span> **y todas nuestras direcciones: 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: y 2001:678:ed0:f000::**. El dispositivo compara: ¿es de verdad el servidor al que pregunté al principio? La dirección con la que empezó el dispositivo está ahí, así que no está hablando con un atacante.
 5. **Cambiar:** Todo coincide. A partir de ahora, el dispositivo usa DNS cifrado automáticamente.
 
 ```
@@ -292,13 +292,13 @@ dispositivo ═▶ DNS cifrado a partir de ahora
 
 ## ¿Qué hay de nuevo?
 
-Ofrecemos los pasos 1 a 3 [desde enero](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Pero el paso 4 no funcionaba:** nuestro certificado solo contenía nombres como `doh.ffmuc.net`, no nuestras direcciones IP. Así que los dispositivos no podían comprobar con seguridad que seguían hablando con nosotros, y se quedaban con el DNS sin cifrar.
+Ofrecemos los pasos 1 a 3 [desde enero](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Pero el paso 4 no funcionaba:** nuestro certificado solo contenía nombres como <span lang="zxx">doh.ffmuc.net</span>, no nuestras direcciones IP. Así que los dispositivos no podían comprobar con seguridad que seguían hablando con nosotros, y se quedaban con el DNS sin cifrar.
 
 **Ahora nuestras direcciones IP también están en el certificado.** La comprobación funciona y el dispositivo cambia. Esto solo es posible desde 2026: desde entonces, Let's Encrypt emite certificados para direcciones IP. Son válidos solo unos pocos días y se renuevan automáticamente.
 
 ![Gráfico de barras: solicitudes DoH enviadas directamente a nuestras direcciones IP en las últimas 4 horas](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*Solicitudes DoH enviadas directamente a las direcciones IP de nuestros resolvers (últimas 4 horas). El aumento empieza después de que el nuevo certificado entrara en servicio. Azul: `5.1.66.255`, naranja: `185.150.99.255`, verde: `2001:678:ed0:f000::`. El gráfico cuenta todos los clientes que usan una dirección IP, no solo los dispositivos que cambiaron automáticamente.*
+*Solicitudes DoH enviadas directamente a las direcciones IP de nuestros resolvers (últimas 4 horas). El aumento empieza después de que el nuevo certificado entrara en servicio. Azul: 5.1.66.255, naranja: 185.150.99.255, verde: 2001:678:ed0:f000::. El gráfico cuenta todos los clientes que usan una dirección IP, no solo los dispositivos que cambiaron automáticamente.*
 
 En la red Freifunk es incluso más directo: allí la red le dice a tu dispositivo, nada más conectarse, que hay DNS cifrado disponible (DNR). Los dispositivos compatibles ni siquiera necesitan preguntar.
 
@@ -309,7 +309,7 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 ## ¿Qué tienes que hacer?
 
 - **Nada.** Simplemente es más seguro.
-- Si ya usas `doh.ffmuc.net`, `dot.ffmuc.net` o `doq.ffmuc.net`, todo sigue igual.
+- Si ya usas <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> o <span lang="zxx">doq.ffmuc.net</span>, todo sigue igual.
 - Los routers Freifunk y las actualizaciones de firmware no se ven afectados.
 
 ## Cámbiate ahora: DNS privado de Freifunk Múnich
@@ -354,10 +354,10 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 
 Цей метод називається **DDR** («Discovery of Designated Resolvers»). На прикладі наших серверів це виглядає так:
 
-1. **Отримати адресу:** Ваш маршрутизатор каже пристрою: «Твій DNS-сервер: `5.1.66.255`» (або `2001:678:e68:f000::`). Більше пристрій поки нічого не знає.
-2. **Запитати:** Пристрій запитує `5.1.66.255` (або `2001:678:e68:f000::`): «Чи можеш ти спілкуватися зашифровано?» Технічно це запит `_dns.resolver.arpa`.
-3. **Отримати відповідь:** Ми відповідаємо: «Так! Через `doq.ffmuc.net`, `dot.ffmuc.net` і `doh.ffmuc.net`, доступні за адресами `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` і `2001:678:ed0:f000::`.»
-4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з `5.1.66.255` (або `2001:678:e68:f000::`), наприклад з іменем `dot.ffmuc.net`. Наш сертифікат показує **ідентичність** сервера: імена `doh.ffmuc.net`, `dot.ffmuc.net` і `doq.ffmuc.net` **та всі наші адреси: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` і `2001:678:ed0:f000::`**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса, з якої пристрій почав, там є. Отже, він не спілкується з нападником.
+1. **Отримати адресу:** Ваш маршрутизатор каже пристрою: «Твій DNS-сервер: 5.1.66.255» (або 2001:678:e68:f000::). Більше пристрій поки нічого не знає.
+2. **Запитати:** Пристрій запитує 5.1.66.255 (або 2001:678:e68:f000::): «Чи можеш ти спілкуватися зашифровано?» Технічно це запит `_dns.resolver.arpa`.
+3. **Отримати відповідь:** Ми відповідаємо: «Так! Через <span lang="zxx">doq.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> і <span lang="zxx">doh.ffmuc.net</span>, доступні за адресами 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: і 2001:678:ed0:f000::.»
+4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з 5.1.66.255 (або 2001:678:e68:f000::), наприклад з іменем <span lang="zxx">dot.ffmuc.net</span>. Наш сертифікат показує **ідентичність** сервера: імена <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> і <span lang="zxx">doq.ffmuc.net</span> **та всі наші адреси: 5.1.66.255, 185.150.99.255, 2001:678:e68:f000:: і 2001:678:ed0:f000::**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса, з якої пристрій почав, там є. Отже, він не спілкується з нападником.
 5. **Перемкнутися:** Усе збігається. Відтепер пристрій автоматично використовує зашифрований DNS.
 
 ```
@@ -375,13 +375,13 @@ FFMUC         ─▶ пристрій  «Так: dot.ffmuc.net, також на
 
 ## Що нового?
 
-Кроки з 1 по 3 ми пропонуємо [ще з січня](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Але крок 4 не працював:** у нашому сертифікаті були лише імена на кшталт `doh.ffmuc.net`, а не наші IP-адреси. Тож пристрої не могли надійно перевірити, що досі спілкуються з нами, і залишалися на незашифрованому DNS.
+Кроки з 1 по 3 ми пропонуємо [ще з січня](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Але крок 4 не працював:** у нашому сертифікаті були лише імена на кшталт <span lang="zxx">doh.ffmuc.net</span>, а не наші IP-адреси. Тож пристрої не могли надійно перевірити, що досі спілкуються з нами, і залишалися на незашифрованому DNS.
 
 **Тепер наші IP-адреси теж є в сертифікаті.** Перевірка проходить, і пристрій перемикається. Це можливо лише з 2026 року: відтоді Let's Encrypt видає сертифікати для IP-адрес. Вони дійсні лише кілька днів і оновлюються автоматично.
 
 ![Стовпчикова діаграма: запити DoH безпосередньо на наші IP-адреси за останні 4 години](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*Запити DoH, що надходять безпосередньо на IP-адреси наших резолверів (останні 4 години). Зростання починається після запуску нового сертифіката. Синій: `5.1.66.255`, помаранчевий: `185.150.99.255`, зелений: `2001:678:ed0:f000::`. Діаграма враховує всіх клієнтів, які звертаються до нас за IP-адресою, а не лише пристрої, що перемкнулися автоматично.*
+*Запити DoH, що надходять безпосередньо на IP-адреси наших резолверів (останні 4 години). Зростання починається після запуску нового сертифіката. Синій: 5.1.66.255, помаранчевий: 185.150.99.255, зелений: 2001:678:ed0:f000::. Діаграма враховує всіх клієнтів, які звертаються до нас за IP-адресою, а не лише пристрої, що перемкнулися автоматично.*
 
 У мережі Freifunk усе ще простіше: там мережа одразу під час підключення повідомляє вашому пристрою, що зашифрований DNS доступний (DNR). Пристроям, які це підтримують, навіть не потрібно запитувати.
 
@@ -392,7 +392,7 @@ DDR підтримують, наприклад, актуальні версії 
 ## Що вам потрібно зробити?
 
 - **Нічого.** Просто стає безпечніше.
-- Якщо ви вже використовуєте `doh.ffmuc.net`, `dot.ffmuc.net` або `doq.ffmuc.net`, нічого не змінюється.
+- Якщо ви вже використовуєте <span lang="zxx">doh.ffmuc.net</span>, <span lang="zxx">dot.ffmuc.net</span> або <span lang="zxx">doq.ffmuc.net</span>, нічого не змінюється.
 - Маршрутизатори Freifunk та оновлення прошивки це не зачіпає.
 
 ## Переходьте вже зараз: приватний DNS від Freifunk München
