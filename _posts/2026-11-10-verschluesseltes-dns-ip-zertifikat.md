@@ -47,6 +47,10 @@ Die Schritte 1 bis 3 bieten wir [schon seit Januar](/services/dns/2026/01/09/rfc
 
 **Jetzt stehen auch unsere IP-Adressen im Zertifikat.** Damit klappt die Prüfung, und das Gerät schaltet um. Möglich ist das erst seit 2026: Seitdem stellt Let's Encrypt Zertifikate für IP-Adressen aus. Sie gelten nur wenige Tage und werden automatisch erneuert.
 
+![Balkendiagramm: DoH-Anfragen direkt an unsere IP-Adressen in den letzten 4 Stunden](/assets/posts/2026-11-10-doh-via-ip-requests.png)
+
+*DoH-Anfragen, die direkt an unsere Resolver-IP-Adressen gehen (letzte 4 Stunden). Der Anstieg beginnt, nachdem das neue Zertifikat live gegangen ist. Orange: `5.1.66.255`, grün: `185.150.99.255`, rot: `2001:678:ed0:f000::`, blau: alle übrigen Anfragen. Gezählt werden alle Geräte, die uns über eine IP-Adresse ansprechen, nicht nur Geräte, die automatisch umgeschaltet haben.*
+
 Im Freifunk-Netz geht es übrigens noch direkter: Dort sagt das Netz deinem Gerät schon beim Verbinden, dass verschlüsseltes DNS bereitsteht (DNR). Geräte, die das unterstützen, müssen also gar nicht erst nachfragen.
 
 ## Welche Geräte machen das?
@@ -125,6 +129,10 @@ device ═▶ encrypted DNS from now on
 We have offered steps 1 to 3 [since January](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **But step 4 did not work:** Our certificate only contained names like `doh.ffmuc.net`, not our IP addresses. So devices could not safely check that they were still talking to us, and stayed on unencrypted DNS.
 
 **Now our IP addresses are in the certificate, too.** The check passes, and the device switches over. This is only possible since 2026: since then, Let's Encrypt issues certificates for IP addresses. They are valid for a few days only and renew automatically.
+
+![Bar chart: DoH requests sent directly to our IP addresses in the last 4 hours](/assets/posts/2026-11-10-doh-via-ip-requests.png)
+
+*DoH requests sent directly to our resolver IP addresses (last 4 hours). The rise starts after the new certificate went live. Orange: `5.1.66.255`, green: `185.150.99.255`, red: `2001:678:ed0:f000::`, blue: all other requests. The chart counts every client that uses an IP address, not only devices that switched automatically.*
 
 In the Freifunk network it is even more direct: there, the network tells your device right when it connects that encrypted DNS is available (DNR). Devices that support this do not even need to ask.
 
@@ -205,6 +213,10 @@ Nous proposons les étapes 1 à 3 [depuis janvier](/services/dns/2026/01/09/rfc9
 
 **Désormais, nos adresses IP figurent aussi dans le certificat.** La vérification réussit, et l'appareil bascule. Ce n'est possible que depuis 2026 : depuis, Let's Encrypt délivre des certificats pour des adresses IP. Ils ne sont valables que quelques jours et se renouvellent automatiquement.
 
+![Diagramme à barres : requêtes DoH envoyées directement à nos adresses IP au cours des 4 dernières heures](/assets/posts/2026-11-10-doh-via-ip-requests.png)
+
+*Requêtes DoH envoyées directement aux adresses IP de nos résolveurs (4 dernières heures). La hausse commence après la mise en service du nouveau certificat. Orange : `5.1.66.255`, vert : `185.150.99.255`, rouge : `2001:678:ed0:f000::`, bleu : toutes les autres requêtes. Le graphique compte tous les clients qui utilisent une adresse IP, pas seulement les appareils qui ont basculé automatiquement.*
+
 Dans le réseau Freifunk, c'est même encore plus direct : le réseau indique à votre appareil, dès la connexion, que le DNS chiffré est disponible (DNR). Les appareils compatibles n'ont même pas besoin de demander.
 
 ## Quels appareils le font ?
@@ -284,6 +296,10 @@ Ofrecemos los pasos 1 a 3 [desde enero](/services/dns/2026/01/09/rfc9462-rfc9463
 
 **Ahora nuestras direcciones IP también están en el certificado.** La comprobación funciona y el dispositivo cambia. Esto solo es posible desde 2026: desde entonces, Let's Encrypt emite certificados para direcciones IP. Son válidos solo unos pocos días y se renuevan automáticamente.
 
+![Gráfico de barras: solicitudes DoH enviadas directamente a nuestras direcciones IP en las últimas 4 horas](/assets/posts/2026-11-10-doh-via-ip-requests.png)
+
+*Solicitudes DoH enviadas directamente a las direcciones IP de nuestros resolvers (últimas 4 horas). El aumento empieza después de que el nuevo certificado entrara en servicio. Naranja: `5.1.66.255`, verde: `185.150.99.255`, rojo: `2001:678:ed0:f000::`, azul: el resto de solicitudes. El gráfico cuenta todos los clientes que usan una dirección IP, no solo los dispositivos que cambiaron automáticamente.*
+
 En la red Freifunk es incluso más directo: allí la red le dice a tu dispositivo, nada más conectarse, que hay DNS cifrado disponible (DNR). Los dispositivos compatibles ni siquiera necesitan preguntar.
 
 ## ¿Qué dispositivos lo hacen?
@@ -362,6 +378,10 @@ FFMUC         ─▶ пристрій  «Так: dot.ffmuc.net, також на
 Кроки з 1 по 3 ми пропонуємо [ще з січня](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Але крок 4 не працював:** у нашому сертифікаті були лише імена на кшталт `doh.ffmuc.net`, а не наші IP-адреси. Тож пристрої не могли надійно перевірити, що досі спілкуються з нами, і залишалися на незашифрованому DNS.
 
 **Тепер наші IP-адреси теж є в сертифікаті.** Перевірка проходить, і пристрій перемикається. Це можливо лише з 2026 року: відтоді Let's Encrypt видає сертифікати для IP-адрес. Вони дійсні лише кілька днів і оновлюються автоматично.
+
+![Стовпчикова діаграма: запити DoH безпосередньо на наші IP-адреси за останні 4 години](/assets/posts/2026-11-10-doh-via-ip-requests.png)
+
+*Запити DoH, що надходять безпосередньо на IP-адреси наших резолверів (останні 4 години). Зростання починається після запуску нового сертифіката. Помаранчевий: `5.1.66.255`, зелений: `185.150.99.255`, червоний: `2001:678:ed0:f000::`, синій: усі інші запити. Діаграма враховує всіх клієнтів, які звертаються до нас за IP-адресою, а не лише пристрої, що перемкнулися автоматично.*
 
 У мережі Freifunk усе ще простіше: там мережа одразу під час підключення повідомляє вашому пристрою, що зашифрований DNS доступний (DNR). Пристроям, які це підтримують, навіть не потрібно запитувати.
 
