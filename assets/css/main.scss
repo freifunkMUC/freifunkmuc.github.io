@@ -919,6 +919,16 @@ table {
 
 /* Light mode specific footer */
 @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  /* Theme code blocks use light text for a dark background; our pre background is light. */
+  div.highlighter-rouge,
+  figure.highlight {
+    color: var(--text-color);
+
+    .highlight span {
+      color: inherit;
+    }
+  }
+
   .page__footer {
     color: #333 !important;
     
