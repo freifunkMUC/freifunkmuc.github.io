@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Verschlüsseltes DNS: Unser Zertifikat enthält jetzt auch die IP-Adressen"
-date: 2026-11-10 12:00:00 +0100 # PLACEHOLDER: set publish date here and in the file name
+date: 2026-11-10 08:00:00 +0100
 categories: services dns
 translations: [en, fr, es, ua]
 ---
