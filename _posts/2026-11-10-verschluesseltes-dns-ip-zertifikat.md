@@ -20,20 +20,21 @@ Bevor dein Gerät eine Webseite lädt, fragt es einen DNS-Server nach deren Adre
 
 ## So schaltet dein Gerät automatisch um
 
-Das Verfahren dafür heißt **DDR** („Discovery of Designated Resolvers“). Es läuft in fünf Schritten ab:
+Das Verfahren dafür heißt **DDR** („Discovery of Designated Resolvers“). Am Beispiel unserer Server sieht das so aus:
 
-1. **Adresse bekommen:** Dein Gerät bekommt wie gewohnt die IP-Adresse unseres DNS-Servers, zum Beispiel vom Router.
-2. **Nachfragen:** Es stellt diesem Server eine besondere Frage: „Kannst du auch verschlüsselt?“
-3. **Antwort bekommen:** Unser Server antwortet: „Ja!“ – und nennt seine verschlüsselten Zugänge mit Namen und Adressen.
-4. **Ausweis prüfen:** Das Gerät baut eine verschlüsselte Verbindung auf und prüft das Zertifikat des Servers, also seinen digitalen Ausweis. Darin muss die IP-Adresse stehen, mit der das Gerät angefangen hat. So weiß es sicher: Ich spreche noch mit demselben Server und nicht mit einem Angreifer.
-5. **Umschalten:** Passt alles, nutzt das Gerät ab jetzt automatisch verschlüsseltes DNS.
+1. **Adresse bekommen:** Dein Router sagt deinem Gerät: „Dein DNS-Server ist `5.1.66.255`“ (oder `2001:678:e68:f000::`). Mehr weiß das Gerät noch nicht.
+2. **Nachfragen:** Das Gerät fragt `5.1.66.255`: „Kannst du auch verschlüsselt?“ Technisch ist das eine Anfrage nach `_dns.resolver.arpa`.
+3. **Antwort bekommen:** Wir antworten: „Ja! Über `doq.ffmuc.net`, `dot.ffmuc.net` und `doh.ffmuc.net` – erreichbar unter `5.1.66.255` und `185.150.99.255`.“
+4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu `5.1.66.255` auf, zum Beispiel mit dem Namen `dot.ffmuc.net`. Unser Zertifikat zeigt die **Identität** des Servers: die Namen `doh.ffmuc.net`, `dot.ffmuc.net` und `doq.ffmuc.net` **und die Adresse `5.1.66.255`**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse stimmt überein – also spricht es nicht mit einem Angreifer.
+5. **Umschalten:** Alles passt. Ab jetzt nutzt das Gerät automatisch verschlüsseltes DNS.
 
 ```
-Gerät ── 1. kennt nur die IP ───────────▶ FFMUC-DNS
-Gerät ── 2. „Kannst du verschlüsselt?“ ─▶ FFMUC-DNS
-Gerät ◀─ 3. „Ja: DoQ, DoT, DoH“ ──────── FFMUC-DNS
-Gerät ══ 4. Ausweis mit IP prüfen ══════▶ FFMUC-DNS   (neu!)
-Gerät ══ 5. ab jetzt verschlüsselt ═════▶ FFMUC-DNS
+Router     ─▶ Gerät       „Dein DNS ist 5.1.66.255“
+Gerät      ─▶ 5.1.66.255  „Kannst du verschlüsselt?“
+5.1.66.255 ─▶ Gerät       „Ja: dot.ffmuc.net, auch unter 5.1.66.255“
+Gerät      ═▶ 5.1.66.255  verschlüsselt, Name dot.ffmuc.net
+Identität im Zertifikat:  dot.ffmuc.net ✔  5.1.66.255 ✔  (neu!)
+Gerät      ═▶ ab jetzt verschlüsseltes DNS
 ```
 
 ## Was ist neu?
@@ -94,20 +95,21 @@ Before your device loads a website, it asks a DNS server for the site's address 
 
 ## How your device switches automatically
 
-The method is called **DDR** ("Discovery of Designated Resolvers"). It works in five steps:
+The method is called **DDR** ("Discovery of Designated Resolvers"). With our servers as an example, it works like this:
 
-1. **Get the address:** Your device gets the IP address of our DNS server as usual, for example from the router.
-2. **Ask:** It asks this server a special question: "Can you also talk encrypted?"
-3. **Get the answer:** Our server answers: "Yes!" – and lists its encrypted options with names and addresses.
-4. **Check the ID:** The device opens an encrypted connection and checks the server's certificate, its digital ID card. The ID must contain the IP address the device started with. This way the device knows for sure: I am still talking to the same server, not to an attacker.
-5. **Switch:** If everything matches, the device uses encrypted DNS from now on, automatically.
+1. **Get the address:** Your router tells your device: "Your DNS server is `5.1.66.255`" (or `2001:678:e68:f000::`). The device knows nothing more yet.
+2. **Ask:** The device asks `5.1.66.255`: "Can you also talk encrypted?" Technically, this is a query for `_dns.resolver.arpa`.
+3. **Get the answer:** We answer: "Yes! Use `doq.ffmuc.net`, `dot.ffmuc.net` and `doh.ffmuc.net` – reachable at `5.1.66.255` and `185.150.99.255`."
+4. **Check the identity:** The device opens an encrypted connection to `5.1.66.255`, for example with the name `dot.ffmuc.net`. Our certificate shows the **identity** of the server: the names `doh.ffmuc.net`, `dot.ffmuc.net` and `doq.ffmuc.net` **and the address `5.1.66.255`**. The device compares: is this really the server I asked at the start? The address matches – so it is not talking to an attacker.
+5. **Switch:** Everything matches. From now on, the device uses encrypted DNS automatically.
 
 ```
-Device ── 1. knows only the IP ─────▶ FFMUC DNS
-Device ── 2. "Can you encrypt?" ────▶ FFMUC DNS
-Device ◀─ 3. "Yes: DoQ, DoT, DoH" ── FFMUC DNS
-Device ══ 4. check ID with IP ══════▶ FFMUC DNS   (new!)
-Device ══ 5. encrypted from now on ═▶ FFMUC DNS
+Router     ─▶ device      "Your DNS is 5.1.66.255"
+device     ─▶ 5.1.66.255  "Can you talk encrypted?"
+5.1.66.255 ─▶ device      "Yes: dot.ffmuc.net, also at 5.1.66.255"
+device     ═▶ 5.1.66.255  encrypted, name dot.ffmuc.net
+Identity in certificate:  dot.ffmuc.net ✔  5.1.66.255 ✔  (new!)
+device     ═▶ encrypted DNS from now on
 ```
 
 ## What is new?
@@ -168,20 +170,21 @@ Le **DNS chiffré** protège ces requêtes. Nous le proposons depuis longtemps. 
 
 ## Comment votre appareil bascule automatiquement
 
-La méthode s'appelle **DDR** (« Discovery of Designated Resolvers »). Elle fonctionne en cinq étapes :
+La méthode s'appelle **DDR** (« Discovery of Designated Resolvers »). Avec nos serveurs comme exemple, cela se passe ainsi :
 
-1. **Recevoir l'adresse :** Votre appareil reçoit comme d'habitude l'adresse IP de notre serveur DNS, par exemple du routeur.
-2. **Demander :** Il pose à ce serveur une question spéciale : « Sais-tu aussi parler de façon chiffrée ? »
-3. **Recevoir la réponse :** Notre serveur répond : « Oui ! » – et indique ses accès chiffrés, avec noms et adresses.
-4. **Vérifier la carte d'identité :** L'appareil ouvre une connexion chiffrée et vérifie le certificat du serveur, sa carte d'identité numérique. Celle-ci doit contenir l'adresse IP avec laquelle l'appareil a commencé. Ainsi, il sait avec certitude : je parle toujours au même serveur, et non à un attaquant.
-5. **Basculer :** Si tout correspond, l'appareil utilise désormais automatiquement le DNS chiffré.
+1. **Recevoir l'adresse :** Votre routeur dit à votre appareil : « Ton serveur DNS est `5.1.66.255` » (ou `2001:678:e68:f000::`). L'appareil n'en sait pas plus pour l'instant.
+2. **Demander :** L'appareil demande à `5.1.66.255` : « Sais-tu aussi parler de façon chiffrée ? » Techniquement, c'est une requête pour `_dns.resolver.arpa`.
+3. **Recevoir la réponse :** Nous répondons : « Oui ! Via `doq.ffmuc.net`, `dot.ffmuc.net` et `doh.ffmuc.net` – joignables à `5.1.66.255` et `185.150.99.255`. »
+4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers `5.1.66.255`, par exemple avec le nom `dot.ffmuc.net`. Notre certificat montre l'**identité** du serveur : les noms `doh.ffmuc.net`, `dot.ffmuc.net` et `doq.ffmuc.net` **et l'adresse `5.1.66.255`**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse correspond – il ne parle donc pas à un attaquant.
+5. **Basculer :** Tout correspond. Désormais, l'appareil utilise automatiquement le DNS chiffré.
 
 ```
-Appareil ── 1. connaît seulement l'IP ─▶ DNS FFMUC
-Appareil ── 2. « Chiffré possible ? » ─▶ DNS FFMUC
-Appareil ◀─ 3. « Oui : DoQ, DoT, DoH » ─ DNS FFMUC
-Appareil ══ 4. vérifier l'ID avec l'IP ▶ DNS FFMUC   (nouveau !)
-Appareil ══ 5. désormais chiffré ══════▶ DNS FFMUC
+Routeur    ─▶ appareil    « Ton DNS est 5.1.66.255 »
+appareil   ─▶ 5.1.66.255  « Chiffré possible ? »
+5.1.66.255 ─▶ appareil    « Oui : dot.ffmuc.net, aussi à 5.1.66.255 »
+appareil   ═▶ 5.1.66.255  chiffré, nom dot.ffmuc.net
+Identité du certificat :  dot.ffmuc.net ✔  5.1.66.255 ✔  (nouveau !)
+appareil   ═▶ désormais DNS chiffré
 ```
 
 ## Quoi de neuf ?
@@ -242,20 +245,21 @@ El **DNS cifrado** protege estas consultas. Lo ofrecemos desde hace mucho tiempo
 
 ## Así cambia tu dispositivo automáticamente
 
-El método se llama **DDR** («Discovery of Designated Resolvers»). Funciona en cinco pasos:
+El método se llama **DDR** («Discovery of Designated Resolvers»). Con nuestros servidores como ejemplo, funciona así:
 
-1. **Recibir la dirección:** Tu dispositivo recibe como siempre la dirección IP de nuestro servidor DNS, por ejemplo del router.
-2. **Preguntar:** Le hace a ese servidor una pregunta especial: «¿Puedes hablar también de forma cifrada?»
-3. **Recibir la respuesta:** Nuestro servidor responde: «¡Sí!», y enumera sus accesos cifrados con nombres y direcciones.
-4. **Comprobar el documento de identidad:** El dispositivo abre una conexión cifrada y comprueba el certificado del servidor, su documento de identidad digital. En él debe figurar la dirección IP con la que empezó el dispositivo. Así sabe con seguridad: sigo hablando con el mismo servidor y no con un atacante.
-5. **Cambiar:** Si todo coincide, el dispositivo usa a partir de ahora DNS cifrado, de forma automática.
+1. **Recibir la dirección:** Tu router le dice a tu dispositivo: «Tu servidor DNS es `5.1.66.255`» (o `2001:678:e68:f000::`). El dispositivo todavía no sabe nada más.
+2. **Preguntar:** El dispositivo pregunta a `5.1.66.255`: «¿Puedes hablar también de forma cifrada?» Técnicamente, es una consulta de `_dns.resolver.arpa`.
+3. **Recibir la respuesta:** Respondemos: «¡Sí! A través de `doq.ffmuc.net`, `dot.ffmuc.net` y `doh.ffmuc.net`, accesibles en `5.1.66.255` y `185.150.99.255`.»
+4. **Comprobar la identidad:** El dispositivo abre una conexión cifrada con `5.1.66.255`, por ejemplo con el nombre `dot.ffmuc.net`. Nuestro certificado muestra la **identidad** del servidor: los nombres `doh.ffmuc.net`, `dot.ffmuc.net` y `doq.ffmuc.net` **y la dirección `5.1.66.255`**. El dispositivo compara: ¿es de verdad el servidor al que pregunté al principio? La dirección coincide, así que no está hablando con un atacante.
+5. **Cambiar:** Todo coincide. A partir de ahora, el dispositivo usa DNS cifrado automáticamente.
 
 ```
-Dispositivo ── 1. solo conoce la IP ──▶ DNS FFMUC
-Dispositivo ── 2. «¿Puedes cifrar?» ──▶ DNS FFMUC
-Dispositivo ◀─ 3. «Sí: DoQ, DoT, DoH» ─ DNS FFMUC
-Dispositivo ══ 4. comprobar ID con IP ▶ DNS FFMUC   (¡nuevo!)
-Dispositivo ══ 5. ya siempre cifrado ═▶ DNS FFMUC
+Router      ─▶ dispositivo  «Tu DNS es 5.1.66.255»
+dispositivo ─▶ 5.1.66.255   «¿Puedes cifrar?»
+5.1.66.255  ─▶ dispositivo  «Sí: dot.ffmuc.net, también en 5.1.66.255»
+dispositivo ═▶ 5.1.66.255   cifrado, nombre dot.ffmuc.net
+Identidad del certificado:  dot.ffmuc.net ✔  5.1.66.255 ✔  (¡nuevo!)
+dispositivo ═▶ DNS cifrado a partir de ahora
 ```
 
 ## ¿Qué hay de nuevo?
@@ -316,20 +320,21 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 
 ## Як ваш пристрій перемикається автоматично
 
-Цей метод називається **DDR** («Discovery of Designated Resolvers»). Він працює у п'ять кроків:
+Цей метод називається **DDR** («Discovery of Designated Resolvers»). На прикладі наших серверів це виглядає так:
 
-1. **Отримати адресу:** Ваш пристрій, як завжди, отримує IP-адресу нашого DNS-сервера, наприклад від маршрутизатора.
-2. **Запитати:** Він ставить цьому серверу особливе запитання: «Чи можеш ти спілкуватися зашифровано?»
-3. **Отримати відповідь:** Наш сервер відповідає: «Так!» – і називає свої зашифровані способи підключення з іменами та адресами.
-4. **Перевірити посвідчення:** Пристрій відкриває зашифроване з'єднання і перевіряє сертифікат сервера – його цифрове посвідчення. У ньому має бути IP-адреса, з якої пристрій почав. Так він точно знає: я досі спілкуюся з тим самим сервером, а не з нападником.
-5. **Перемкнутися:** Якщо все збігається, пристрій відтепер автоматично використовує зашифрований DNS.
+1. **Отримати адресу:** Ваш маршрутизатор каже пристрою: «Твій DNS-сервер – `5.1.66.255`» (або `2001:678:e68:f000::`). Більше пристрій поки нічого не знає.
+2. **Запитати:** Пристрій запитує `5.1.66.255`: «Чи можеш ти спілкуватися зашифровано?» Технічно це запит `_dns.resolver.arpa`.
+3. **Отримати відповідь:** Ми відповідаємо: «Так! Через `doq.ffmuc.net`, `dot.ffmuc.net` і `doh.ffmuc.net` – доступні за адресами `5.1.66.255` і `185.150.99.255`.»
+4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з `5.1.66.255`, наприклад з іменем `dot.ffmuc.net`. Наш сертифікат показує **ідентичність** сервера: імена `doh.ffmuc.net`, `dot.ffmuc.net` і `doq.ffmuc.net` **та адресу `5.1.66.255`**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса збігається – отже, він не спілкується з нападником.
+5. **Перемкнутися:** Усе збігається. Відтепер пристрій автоматично використовує зашифрований DNS.
 
 ```
-Пристрій ── 1. знає лише IP ───────────▶ FFMUC DNS
-Пристрій ── 2. «Можеш зашифровано?» ───▶ FFMUC DNS
-Пристрій ◀─ 3. «Так: DoQ, DoT, DoH» ──── FFMUC DNS
-Пристрій ══ 4. перевірка ID з IP ══════▶ FFMUC DNS   (нове!)
-Пристрій ══ 5. відтепер зашифровано ═══▶ FFMUC DNS
+Маршрутизатор ─▶ пристрій    «Твій DNS – 5.1.66.255»
+пристрій      ─▶ 5.1.66.255  «Можеш зашифровано?»
+5.1.66.255    ─▶ пристрій    «Так: dot.ffmuc.net, також на 5.1.66.255»
+пристрій      ═▶ 5.1.66.255  зашифровано, ім'я dot.ffmuc.net
+Ідентичність у сертифікаті:  dot.ffmuc.net ✔  5.1.66.255 ✔  (нове!)
+пристрій      ═▶ відтепер зашифрований DNS
 ```
 
 ## Що нового?
