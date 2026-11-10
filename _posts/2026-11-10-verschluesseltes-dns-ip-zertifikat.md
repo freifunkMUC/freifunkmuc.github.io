@@ -10,6 +10,8 @@ translations: [en, fr, es, ua]
 
 **Kurz gesagt:** Unsere öffentlichen DNS-Server werden noch etwas sicherer. Viele Geräte können jetzt von selbst auf verschlüsseltes DNS umschalten. **Du musst nichts tun.**
 
+> 👉 **Noch nicht dabei?** Unser DNS ist **kostenlos, ohne Anmeldung** und für alle offen. In wenigen Minuten auf Handy, Laptop oder Router eingerichtet: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
+
 ## Was ist DNS?
 
 DNS ist das Telefonbuch des Internets. Wenn du `ffmuc.net` eingibst, fragt dein Gerät einen DNS-Server: „Welche Adresse hat diese Seite?“ Erst dann kann es die Seite laden.
@@ -34,7 +36,17 @@ Davon profitieren Systeme, die DDR unterstützen, zum Beispiel aktuelle Versione
 - Nutzt du schon `doh.ffmuc.net`, `dot.ffmuc.net` oder `doq.ffmuc.net`, bleibt alles wie bisher.
 - Freifunk-Router und Firmware-Updates sind nicht betroffen.
 
-Du willst unser DNS selbst einrichten? Hier gibt es eine Anleitung: [dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)
+## Jetzt umsteigen: privates DNS von Freifunk München
+
+Warum unser DNS?
+
+- **Kostenlos und ohne Anmeldung** – für alle, nicht nur im Freifunk-Netz.
+- **Datenschutzfreundlich:** Wir speichern keine Protokolle darüber, wer welche Seite aufruft, und verkaufen oder teilen keine DNS-Daten.
+- **Keine Zensur:** Wir filtern keine Inhalte.
+- **Verschlüsselt** mit DoH, DoT und DoQ.
+- **Gemeinnützig:** betrieben vom Verein Freie Netze München e.V., gelistet auf [European Alternatives](https://european-alternatives.eu/de/produkt/ffmuc-dns).
+
+**👉 [Jetzt einrichten auf dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – mit einfachen Anleitungen für Windows, macOS, iPhone, Android, Linux, Browser und Router.
 
 ## Für Technik-Interessierte
 
@@ -53,6 +65,8 @@ Du willst unser DNS selbst einrichten? Hier gibt es eine Anleitung: [dns-setup.f
 <section data-lang="en" class="language-content" markdown="1">
 
 **In short:** Our public DNS servers get a bit safer. Many devices can now switch to encrypted DNS by themselves. **You do not have to do anything.**
+
+> 👉 **Not using it yet?** Our DNS is **free, with no sign-up**, and open to everyone. Set it up on your phone, laptop or router in a few minutes: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
 ## What is DNS?
 
@@ -78,7 +92,17 @@ Systems that support DDR benefit from this, for example recent versions of Windo
 - If you already use `doh.ffmuc.net`, `dot.ffmuc.net` or `doq.ffmuc.net`, nothing changes.
 - Freifunk routers and firmware updates are not affected.
 
-Want to set up our DNS yourself? Here is a guide: [dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)
+## Switch now: private DNS from Freifunk München
+
+Why our DNS?
+
+- **Free and no sign-up** – for everyone, not only in the Freifunk network.
+- **Privacy-friendly:** We do not keep logs of who visits which site, and we do not sell or share DNS data.
+- **No censorship:** We do not filter content.
+- **Encrypted** with DoH, DoT and DoQ.
+- **Non-profit:** run by the association Freie Netze München e.V., listed on [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
+
+**👉 [Set it up now at dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – with easy guides for Windows, macOS, iPhone, Android, Linux, browsers and routers.
 
 ## For the technically curious
 
@@ -97,6 +121,8 @@ Want to set up our DNS yourself? Here is a guide: [dns-setup.ffmuc.net](https://
 <section data-lang="fr" class="language-content" markdown="1">
 
 **En bref :** Nos serveurs DNS publics deviennent encore un peu plus sûrs. De nombreux appareils peuvent désormais passer seuls au DNS chiffré. **Vous n'avez rien à faire.**
+
+> 👉 **Pas encore utilisateur ?** Notre DNS est **gratuit, sans inscription** et ouvert à toutes et tous. Configurez-le en quelques minutes sur votre téléphone, ordinateur ou routeur : **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
 ## Qu'est-ce que le DNS ?
 
@@ -122,7 +148,17 @@ Les systèmes compatibles DDR en profitent, par exemple les versions récentes d
 - Si vous utilisez déjà `doh.ffmuc.net`, `dot.ffmuc.net` ou `doq.ffmuc.net`, rien ne change.
 - Les routeurs Freifunk et les mises à jour du firmware ne sont pas concernés.
 
-Vous voulez configurer notre DNS vous-même ? Voici un guide : [dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)
+## Passez-y maintenant : le DNS privé de Freifunk Munich
+
+Pourquoi notre DNS ?
+
+- **Gratuit et sans inscription** – pour tout le monde, pas seulement dans le réseau Freifunk.
+- **Respectueux de la vie privée :** Nous ne gardons pas de journaux indiquant qui visite quel site, et nous ne vendons ni ne partageons de données DNS.
+- **Pas de censure :** Nous ne filtrons aucun contenu.
+- **Chiffré** avec DoH, DoT et DoQ.
+- **À but non lucratif :** exploité par l'association Freie Netze München e.V., listé sur [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
+
+**👉 [Configurez-le maintenant sur dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – avec des guides simples pour Windows, macOS, iPhone, Android, Linux, les navigateurs et les routeurs.
 
 ## Pour les curieux de technique
 
@@ -141,6 +177,8 @@ Vous voulez configurer notre DNS vous-même ? Voici un guide : [dns-setup.ffmuc.
 <section data-lang="es" class="language-content" markdown="1">
 
 **En resumen:** Nuestros servidores DNS públicos son ahora un poco más seguros. Muchos dispositivos pueden cambiar por sí solos a DNS cifrado. **No tienes que hacer nada.**
+
+> 👉 **¿Aún no lo usas?** Nuestro DNS es **gratuito, sin registro** y abierto a todo el mundo. Configúralo en pocos minutos en tu móvil, portátil o router: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
 ## ¿Qué es el DNS?
 
@@ -166,7 +204,17 @@ Se benefician los sistemas que admiten DDR, por ejemplo versiones recientes de W
 - Si ya usas `doh.ffmuc.net`, `dot.ffmuc.net` o `doq.ffmuc.net`, todo sigue igual.
 - Los routers Freifunk y las actualizaciones de firmware no se ven afectados.
 
-¿Quieres configurar nuestro DNS tú mismo? Aquí tienes una guía: [dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)
+## Cámbiate ahora: DNS privado de Freifunk Múnich
+
+¿Por qué nuestro DNS?
+
+- **Gratuito y sin registro** – para todo el mundo, no solo en la red Freifunk.
+- **Respetuoso con la privacidad:** No guardamos registros de quién visita qué sitio, y no vendemos ni compartimos datos DNS.
+- **Sin censura:** No filtramos contenidos.
+- **Cifrado** con DoH, DoT y DoQ.
+- **Sin ánimo de lucro:** gestionado por la asociación Freie Netze München e.V., incluido en [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
+
+**👉 [Configúralo ahora en dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – con guías sencillas para Windows, macOS, iPhone, Android, Linux, navegadores y routers.
 
 ## Para los curiosos de la técnica
 
@@ -185,6 +233,8 @@ Se benefician los sistemas que admiten DDR, por ejemplo versiones recientes de W
 <section data-lang="ua" class="language-content" markdown="1">
 
 **Коротко:** Наші публічні DNS-сервери стають ще трохи безпечнішими. Багато пристроїв тепер можуть самостійно перейти на зашифрований DNS. **Вам нічого не потрібно робити.**
+
+> 👉 **Ще не користуєтеся?** Наш DNS **безкоштовний, без реєстрації** і відкритий для всіх. Налаштуйте його за кілька хвилин на телефоні, ноутбуці чи маршрутизаторі: **[dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**
 
 ## Що таке DNS?
 
@@ -210,7 +260,17 @@ DNS – це телефонна книга інтернету. Коли ви в�
 - Якщо ви вже використовуєте `doh.ffmuc.net`, `dot.ffmuc.net` або `doq.ffmuc.net`, нічого не змінюється.
 - Маршрутизатори Freifunk та оновлення прошивки це не зачіпає.
 
-Хочете самі налаштувати наш DNS? Ось інструкція: [dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)
+## Переходьте вже зараз: приватний DNS від Freifunk München
+
+Чому наш DNS?
+
+- **Безкоштовно і без реєстрації** – для всіх, не лише в мережі Freifunk.
+- **Дбає про приватність:** Ми не зберігаємо журнали про те, хто які сайти відвідує, і не продаємо та не передаємо DNS-дані.
+- **Без цензури:** Ми не фільтруємо вміст.
+- **Зашифровано** за допомогою DoH, DoT і DoQ.
+- **Неприбутково:** працює завдяки об'єднанню Freie Netze München e.V., є в каталозі [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
+
+**👉 [Налаштуйте зараз на dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – з простими інструкціями для Windows, macOS, iPhone, Android, Linux, браузерів і маршрутизаторів.
 
 ## Для тих, хто цікавиться технікою
 
