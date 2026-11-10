@@ -14,9 +14,9 @@ translations: [en, fr, es, ua]
 
 ## Worum geht es?
 
-Bevor dein Gerät eine Webseite lädt, fragt es einen DNS-Server nach deren Adresse – wie ein Blick ins Telefonbuch. Normalerweise passiert das **unverschlüsselt**. Jeder auf dem Weg kann mitlesen, welche Seiten du besuchst, oder die Antwort verfälschen.
+Bevor dein Gerät eine Webseite lädt, fragt es einen DNS-Server nach deren Adresse. Das ist wie ein Blick ins Telefonbuch. Normalerweise passiert das **unverschlüsselt**. Jeder auf dem Weg kann mitlesen, welche Seiten du besuchst, oder die Antwort verfälschen.
 
-**Verschlüsseltes DNS** schützt diese Anfragen. Wir bieten es schon lange an. Bisher musste man es aber meist von Hand einrichten. Viele Geräte kennen nur die IP-Adresse unseres DNS-Servers, zum Beispiel weil der Router sie verteilt – und fragen dann unverschlüsselt.
+**Verschlüsseltes DNS** schützt diese Anfragen. Wir bieten es schon lange an. Bisher musste man es aber meist von Hand einrichten. Viele Geräte kennen nur die IP-Adresse unseres DNS-Servers, zum Beispiel weil der Router sie verteilt. Dann fragen sie unverschlüsselt.
 
 ## So schaltet dein Gerät automatisch um
 
@@ -24,8 +24,8 @@ Das Verfahren dafür heißt **DDR** („Discovery of Designated Resolvers“). A
 
 1. **Adresse bekommen:** Dein Router sagt deinem Gerät: „Dein DNS-Server ist `5.1.66.255`“ (oder `2001:678:e68:f000::`). Mehr weiß das Gerät noch nicht.
 2. **Nachfragen:** Das Gerät fragt `5.1.66.255`: „Kannst du auch verschlüsselt?“ Technisch ist das eine Anfrage nach `_dns.resolver.arpa`.
-3. **Antwort bekommen:** Wir antworten: „Ja! Über `doq.ffmuc.net`, `dot.ffmuc.net` und `doh.ffmuc.net` – erreichbar unter `5.1.66.255` und `185.150.99.255`.“
-4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu `5.1.66.255` auf, zum Beispiel mit dem Namen `dot.ffmuc.net`. Unser Zertifikat zeigt die **Identität** des Servers: die Namen `doh.ffmuc.net`, `dot.ffmuc.net` und `doq.ffmuc.net` **und die Adresse `5.1.66.255`**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse stimmt überein – also spricht es nicht mit einem Angreifer.
+3. **Antwort bekommen:** Wir antworten: „Ja! Über `doq.ffmuc.net`, `dot.ffmuc.net` und `doh.ffmuc.net`, erreichbar unter `5.1.66.255` und `185.150.99.255`.“
+4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu `5.1.66.255` auf, zum Beispiel mit dem Namen `dot.ffmuc.net`. Unser Zertifikat zeigt die **Identität** des Servers: die Namen `doh.ffmuc.net`, `dot.ffmuc.net` und `doq.ffmuc.net` **und die Adresse `5.1.66.255`**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse stimmt überein. Also spricht es nicht mit einem Angreifer.
 5. **Umschalten:** Alles passt. Ab jetzt nutzt das Gerät automatisch verschlüsseltes DNS.
 
 ```
@@ -59,13 +59,13 @@ DDR unterstützen zum Beispiel aktuelle Versionen von Windows 11 und Apple-Gerä
 
 Warum unser DNS?
 
-- **Kostenlos und ohne Anmeldung** – für alle, nicht nur im Freifunk-Netz.
+- **Kostenlos und ohne Anmeldung:** für alle, nicht nur im Freifunk-Netz.
 - **Datenschutzfreundlich:** Wir speichern keine Protokolle darüber, wer welche Seite aufruft, und verkaufen oder teilen keine DNS-Daten.
 - **Keine Zensur:** Wir filtern keine Inhalte.
 - **Verschlüsselt** mit DoH, DoT und DoQ.
 - **Gemeinnützig:** betrieben vom Verein Freie Netze München e.V., gelistet auf [European Alternatives](https://european-alternatives.eu/de/produkt/ffmuc-dns).
 
-**👉 [Jetzt einrichten auf dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – mit einfachen Anleitungen für Windows, macOS, iPhone, Android, Linux, Browser und Router.
+**👉 [Jetzt einrichten auf dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**: mit einfachen Anleitungen für Windows, macOS, iPhone, Android, Linux, Browser und Router.
 
 ## Für Technik-Interessierte
 
@@ -89,9 +89,9 @@ Warum unser DNS?
 
 ## What is this about?
 
-Before your device loads a website, it asks a DNS server for the site's address – like looking it up in a phone book. Usually this happens **unencrypted**. Anyone along the way can see which sites you visit, or change the answer.
+Before your device loads a website, it asks a DNS server for the site's address. This is like looking it up in a phone book. Usually this happens **unencrypted**. Anyone along the way can see which sites you visit, or change the answer.
 
-**Encrypted DNS** protects these requests. We have offered it for a long time. But until now, you usually had to set it up by hand. Many devices only know the IP address of our DNS server, for example because the router hands it out – and then they ask unencrypted.
+**Encrypted DNS** protects these requests. We have offered it for a long time. But until now, you usually had to set it up by hand. Many devices only know the IP address of our DNS server, for example because the router hands it out. Then they ask unencrypted.
 
 ## How your device switches automatically
 
@@ -99,8 +99,8 @@ The method is called **DDR** ("Discovery of Designated Resolvers"). With our ser
 
 1. **Get the address:** Your router tells your device: "Your DNS server is `5.1.66.255`" (or `2001:678:e68:f000::`). The device knows nothing more yet.
 2. **Ask:** The device asks `5.1.66.255`: "Can you also talk encrypted?" Technically, this is a query for `_dns.resolver.arpa`.
-3. **Get the answer:** We answer: "Yes! Use `doq.ffmuc.net`, `dot.ffmuc.net` and `doh.ffmuc.net` – reachable at `5.1.66.255` and `185.150.99.255`."
-4. **Check the identity:** The device opens an encrypted connection to `5.1.66.255`, for example with the name `dot.ffmuc.net`. Our certificate shows the **identity** of the server: the names `doh.ffmuc.net`, `dot.ffmuc.net` and `doq.ffmuc.net` **and the address `5.1.66.255`**. The device compares: is this really the server I asked at the start? The address matches – so it is not talking to an attacker.
+3. **Get the answer:** We answer: "Yes! Use `doq.ffmuc.net`, `dot.ffmuc.net` and `doh.ffmuc.net`, reachable at `5.1.66.255` and `185.150.99.255`."
+4. **Check the identity:** The device opens an encrypted connection to `5.1.66.255`, for example with the name `dot.ffmuc.net`. Our certificate shows the **identity** of the server: the names `doh.ffmuc.net`, `dot.ffmuc.net` and `doq.ffmuc.net` **and the address `5.1.66.255`**. The device compares: is this really the server I asked at the start? The address matches. So it is not talking to an attacker.
 5. **Switch:** Everything matches. From now on, the device uses encrypted DNS automatically.
 
 ```
@@ -134,13 +134,13 @@ DDR is supported, for example, by recent versions of Windows 11 and Apple device
 
 Why our DNS?
 
-- **Free and no sign-up** – for everyone, not only in the Freifunk network.
+- **Free and no sign-up:** for everyone, not only in the Freifunk network.
 - **Privacy-friendly:** We do not keep logs of who visits which site, and we do not sell or share DNS data.
 - **No censorship:** We do not filter content.
 - **Encrypted** with DoH, DoT and DoQ.
 - **Non-profit:** run by the association Freie Netze München e.V., listed on [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
 
-**👉 [Set it up now at dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – with easy guides for Windows, macOS, iPhone, Android, Linux, browsers and routers.
+**👉 [Set it up now at dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**, with easy guides for Windows, macOS, iPhone, Android, Linux, browsers and routers.
 
 ## For the technically curious
 
@@ -164,9 +164,9 @@ Why our DNS?
 
 ## De quoi s'agit-il ?
 
-Avant de charger un site web, votre appareil demande son adresse à un serveur DNS – comme on cherche un numéro dans un annuaire. En général, cela se fait **sans chiffrement**. N'importe qui sur le chemin peut voir quels sites vous visitez, ou modifier la réponse.
+Avant de charger un site web, votre appareil demande son adresse à un serveur DNS, comme on cherche un numéro dans un annuaire. En général, cela se fait **sans chiffrement**. N'importe qui sur le chemin peut voir quels sites vous visitez, ou modifier la réponse.
 
-Le **DNS chiffré** protège ces requêtes. Nous le proposons depuis longtemps. Mais jusqu'ici, il fallait le plus souvent le configurer à la main. Beaucoup d'appareils ne connaissent que l'adresse IP de notre serveur DNS, par exemple parce que le routeur la leur donne – et ils posent alors leurs questions sans chiffrement.
+Le **DNS chiffré** protège ces requêtes. Nous le proposons depuis longtemps. Mais jusqu'ici, il fallait le plus souvent le configurer à la main. Beaucoup d'appareils ne connaissent que l'adresse IP de notre serveur DNS, par exemple parce que le routeur la leur donne. Ils posent alors leurs questions sans chiffrement.
 
 ## Comment votre appareil bascule automatiquement
 
@@ -174,8 +174,8 @@ La méthode s'appelle **DDR** (« Discovery of Designated Resolvers »). Avec no
 
 1. **Recevoir l'adresse :** Votre routeur dit à votre appareil : « Ton serveur DNS est `5.1.66.255` » (ou `2001:678:e68:f000::`). L'appareil n'en sait pas plus pour l'instant.
 2. **Demander :** L'appareil demande à `5.1.66.255` : « Sais-tu aussi parler de façon chiffrée ? » Techniquement, c'est une requête pour `_dns.resolver.arpa`.
-3. **Recevoir la réponse :** Nous répondons : « Oui ! Via `doq.ffmuc.net`, `dot.ffmuc.net` et `doh.ffmuc.net` – joignables à `5.1.66.255` et `185.150.99.255`. »
-4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers `5.1.66.255`, par exemple avec le nom `dot.ffmuc.net`. Notre certificat montre l'**identité** du serveur : les noms `doh.ffmuc.net`, `dot.ffmuc.net` et `doq.ffmuc.net` **et l'adresse `5.1.66.255`**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse correspond – il ne parle donc pas à un attaquant.
+3. **Recevoir la réponse :** Nous répondons : « Oui ! Via `doq.ffmuc.net`, `dot.ffmuc.net` et `doh.ffmuc.net`, joignables à `5.1.66.255` et `185.150.99.255`. »
+4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers `5.1.66.255`, par exemple avec le nom `dot.ffmuc.net`. Notre certificat montre l'**identité** du serveur : les noms `doh.ffmuc.net`, `dot.ffmuc.net` et `doq.ffmuc.net` **et l'adresse `5.1.66.255`**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse correspond : il ne parle donc pas à un attaquant.
 5. **Basculer :** Tout correspond. Désormais, l'appareil utilise automatiquement le DNS chiffré.
 
 ```
@@ -209,13 +209,13 @@ DDR est pris en charge, par exemple, par les versions récentes de Windows 11 et
 
 Pourquoi notre DNS ?
 
-- **Gratuit et sans inscription** – pour tout le monde, pas seulement dans le réseau Freifunk.
+- **Gratuit et sans inscription :** pour tout le monde, pas seulement dans le réseau Freifunk.
 - **Respectueux de la vie privée :** Nous ne gardons pas de journaux indiquant qui visite quel site, et nous ne vendons ni ne partageons de données DNS.
 - **Pas de censure :** Nous ne filtrons aucun contenu.
 - **Chiffré** avec DoH, DoT et DoQ.
 - **À but non lucratif :** exploité par l'association Freie Netze München e.V., listé sur [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
 
-**👉 [Configurez-le maintenant sur dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – avec des guides simples pour Windows, macOS, iPhone, Android, Linux, les navigateurs et les routeurs.
+**👉 [Configurez-le maintenant sur dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**, avec des guides simples pour Windows, macOS, iPhone, Android, Linux, les navigateurs et les routeurs.
 
 ## Pour les curieux de technique
 
@@ -284,13 +284,13 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 
 ¿Por qué nuestro DNS?
 
-- **Gratuito y sin registro** – para todo el mundo, no solo en la red Freifunk.
+- **Gratuito y sin registro:** para todo el mundo, no solo en la red Freifunk.
 - **Respetuoso con la privacidad:** No guardamos registros de quién visita qué sitio, y no vendemos ni compartimos datos DNS.
 - **Sin censura:** No filtramos contenidos.
 - **Cifrado** con DoH, DoT y DoQ.
 - **Sin ánimo de lucro:** gestionado por la asociación Freie Netze München e.V., incluido en [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
 
-**👉 [Configúralo ahora en dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – con guías sencillas para Windows, macOS, iPhone, Android, Linux, navegadores y routers.
+**👉 [Configúralo ahora en dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**, con guías sencillas para Windows, macOS, iPhone, Android, Linux, navegadores y routers.
 
 ## Para los curiosos de la técnica
 
@@ -314,22 +314,22 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 
 ## Про що йдеться?
 
-Перш ніж завантажити вебсторінку, ваш пристрій запитує її адресу в DNS-сервера – наче шукає номер у телефонній книзі. Зазвичай це відбувається **без шифрування**. Будь-хто на шляху може бачити, які сайти ви відвідуєте, або підмінити відповідь.
+Перш ніж завантажити вебсторінку, ваш пристрій запитує її адресу в DNS-сервера, наче шукає номер у телефонній книзі. Зазвичай це відбувається **без шифрування**. Будь-хто на шляху може бачити, які сайти ви відвідуєте, або підмінити відповідь.
 
-**Зашифрований DNS** захищає ці запити. Ми давно його пропонуємо. Але досі його зазвичай доводилося налаштовувати вручну. Багато пристроїв знають лише IP-адресу нашого DNS-сервера, наприклад тому, що її роздає маршрутизатор, – і тоді запитують без шифрування.
+**Зашифрований DNS** захищає ці запити. Ми давно його пропонуємо. Але досі його зазвичай доводилося налаштовувати вручну. Багато пристроїв знають лише IP-адресу нашого DNS-сервера, наприклад тому, що її роздає маршрутизатор. Тоді вони запитують без шифрування.
 
 ## Як ваш пристрій перемикається автоматично
 
 Цей метод називається **DDR** («Discovery of Designated Resolvers»). На прикладі наших серверів це виглядає так:
 
-1. **Отримати адресу:** Ваш маршрутизатор каже пристрою: «Твій DNS-сервер – `5.1.66.255`» (або `2001:678:e68:f000::`). Більше пристрій поки нічого не знає.
+1. **Отримати адресу:** Ваш маршрутизатор каже пристрою: «Твій DNS-сервер: `5.1.66.255`» (або `2001:678:e68:f000::`). Більше пристрій поки нічого не знає.
 2. **Запитати:** Пристрій запитує `5.1.66.255`: «Чи можеш ти спілкуватися зашифровано?» Технічно це запит `_dns.resolver.arpa`.
-3. **Отримати відповідь:** Ми відповідаємо: «Так! Через `doq.ffmuc.net`, `dot.ffmuc.net` і `doh.ffmuc.net` – доступні за адресами `5.1.66.255` і `185.150.99.255`.»
-4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з `5.1.66.255`, наприклад з іменем `dot.ffmuc.net`. Наш сертифікат показує **ідентичність** сервера: імена `doh.ffmuc.net`, `dot.ffmuc.net` і `doq.ffmuc.net` **та адресу `5.1.66.255`**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса збігається – отже, він не спілкується з нападником.
+3. **Отримати відповідь:** Ми відповідаємо: «Так! Через `doq.ffmuc.net`, `dot.ffmuc.net` і `doh.ffmuc.net`, доступні за адресами `5.1.66.255` і `185.150.99.255`.»
+4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з `5.1.66.255`, наприклад з іменем `dot.ffmuc.net`. Наш сертифікат показує **ідентичність** сервера: імена `doh.ffmuc.net`, `dot.ffmuc.net` і `doq.ffmuc.net` **та адресу `5.1.66.255`**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса збігається. Отже, він не спілкується з нападником.
 5. **Перемкнутися:** Усе збігається. Відтепер пристрій автоматично використовує зашифрований DNS.
 
 ```
-Маршрутизатор ─▶ пристрій    «Твій DNS – 5.1.66.255»
+Маршрутизатор ─▶ пристрій    «Твій DNS: 5.1.66.255»
 пристрій      ─▶ 5.1.66.255  «Можеш зашифровано?»
 5.1.66.255    ─▶ пристрій    «Так: dot.ffmuc.net, також на 5.1.66.255»
 пристрій      ═▶ 5.1.66.255  зашифровано, ім'я dot.ffmuc.net
@@ -339,7 +339,7 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 
 ## Що нового?
 
-Кроки 1–3 ми пропонуємо [ще з січня](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Але крок 4 не працював:** у нашому сертифікаті були лише імена на кшталт `doh.ffmuc.net`, а не наші IP-адреси. Тож пристрої не могли надійно перевірити, що досі спілкуються з нами, і залишалися на незашифрованому DNS.
+Кроки з 1 по 3 ми пропонуємо [ще з січня](/services/dns/2026/01/09/rfc9462-rfc9463-support/). **Але крок 4 не працював:** у нашому сертифікаті були лише імена на кшталт `doh.ffmuc.net`, а не наші IP-адреси. Тож пристрої не могли надійно перевірити, що досі спілкуються з нами, і залишалися на незашифрованому DNS.
 
 **Тепер наші IP-адреси теж є в сертифікаті.** Перевірка проходить, і пристрій перемикається. Це можливо лише з 2026 року: відтоді Let's Encrypt видає сертифікати для IP-адрес. Вони дійсні лише кілька днів і оновлюються автоматично.
 
@@ -359,13 +359,13 @@ DDR підтримують, наприклад, актуальні версії 
 
 Чому наш DNS?
 
-- **Безкоштовно і без реєстрації** – для всіх, не лише в мережі Freifunk.
+- **Безкоштовно і без реєстрації:** для всіх, не лише в мережі Freifunk.
 - **Дбає про приватність:** Ми не зберігаємо журнали про те, хто які сайти відвідує, і не продаємо та не передаємо DNS-дані.
 - **Без цензури:** Ми не фільтруємо вміст.
 - **Зашифровано** за допомогою DoH, DoT і DoQ.
 - **Неприбутково:** працює завдяки об'єднанню Freie Netze München e.V., є в каталозі [European Alternatives](https://european-alternatives.eu/product/ffmuc-dns).
 
-**👉 [Налаштуйте зараз на dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)** – з простими інструкціями для Windows, macOS, iPhone, Android, Linux, браузерів і маршрутизаторів.
+**👉 [Налаштуйте зараз на dns-setup.ffmuc.net](https://dns-setup.ffmuc.net)**, з простими інструкціями для Windows, macOS, iPhone, Android, Linux, браузерів і маршрутизаторів.
 
 ## Для тих, хто цікавиться технікою
 
