@@ -23,18 +23,22 @@ Bevor dein Gerät eine Webseite lädt, fragt es einen DNS-Server nach deren Adre
 Das Verfahren dafür heißt **DDR** („Discovery of Designated Resolvers“). Am Beispiel unserer Server sieht das so aus:
 
 1. **Adresse bekommen:** Dein Router sagt deinem Gerät: „Dein DNS-Server ist `5.1.66.255`“ (oder `2001:678:e68:f000::`). Mehr weiß das Gerät noch nicht.
-2. **Nachfragen:** Das Gerät fragt `5.1.66.255`: „Kannst du auch verschlüsselt?“ Technisch ist das eine Anfrage nach `_dns.resolver.arpa`.
-3. **Antwort bekommen:** Wir antworten: „Ja! Über `doq.ffmuc.net`, `dot.ffmuc.net` und `doh.ffmuc.net`, erreichbar unter `5.1.66.255` und `185.150.99.255`.“
-4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu `5.1.66.255` auf, zum Beispiel mit dem Namen `dot.ffmuc.net`. Unser Zertifikat zeigt die **Identität** des Servers: die Namen `doh.ffmuc.net`, `dot.ffmuc.net` und `doq.ffmuc.net` **und die Adresse `5.1.66.255`**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse stimmt überein. Also spricht es nicht mit einem Angreifer.
+2. **Nachfragen:** Das Gerät fragt `5.1.66.255` (oder `2001:678:e68:f000::`): „Kannst du auch verschlüsselt?“ Technisch ist das eine Anfrage nach `_dns.resolver.arpa`.
+3. **Antwort bekommen:** Wir antworten: „Ja! Über `doq.ffmuc.net`, `dot.ffmuc.net` und `doh.ffmuc.net`, erreichbar unter `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` und `2001:678:ed0:f000::`.“
+4. **Identität prüfen:** Das Gerät baut eine verschlüsselte Verbindung zu `5.1.66.255` (oder `2001:678:e68:f000::`) auf, zum Beispiel mit dem Namen `dot.ffmuc.net`. Unser Zertifikat zeigt die **Identität** des Servers: die Namen `doh.ffmuc.net`, `dot.ffmuc.net` und `doq.ffmuc.net` **und alle unsere Adressen: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` und `2001:678:ed0:f000::`**. Das Gerät vergleicht: Ist das wirklich der Server, den ich am Anfang gefragt habe? Die Adresse, mit der das Gerät angefangen hat, steht darin. Also spricht es nicht mit einem Angreifer.
 5. **Umschalten:** Alles passt. Ab jetzt nutzt das Gerät automatisch verschlüsseltes DNS.
 
 ```
-Router     ─▶ Gerät       „Dein DNS ist 5.1.66.255“
-Gerät      ─▶ 5.1.66.255  „Kannst du verschlüsselt?“
-5.1.66.255 ─▶ Gerät       „Ja: dot.ffmuc.net, auch unter 5.1.66.255“
-Gerät      ═▶ 5.1.66.255  verschlüsselt, Name dot.ffmuc.net
-Identität im Zertifikat:  dot.ffmuc.net ✔  5.1.66.255 ✔  (neu!)
-Gerät      ═▶ ab jetzt verschlüsseltes DNS
+Router ─▶ Gerät   „Dein DNS ist 5.1.66.255
+                   oder 2001:678:e68:f000::“
+Gerät  ─▶ FFMUC   „Kannst du verschlüsselt?“
+FFMUC  ─▶ Gerät   „Ja: dot.ffmuc.net, auch unter
+                   5.1.66.255, 185.150.99.255,
+                   2001:678:e68:f000::, 2001:678:ed0:f000::“
+Gerät  ═▶ FFMUC   verschlüsselt, Name dot.ffmuc.net
+Identität im Zertifikat (neu!):
+   dot.ffmuc.net ✔  5.1.66.255 ✔  2001:678:e68:f000:: ✔
+Gerät  ═▶ ab jetzt verschlüsseltes DNS
 ```
 
 ## Was ist neu?
@@ -71,8 +75,8 @@ Warum unser DNS?
 
 - **Anycast-IPs:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
-- **DDR-Antwort** auf `_dns.resolver.arpa` (Typ SVCB): DoQ (Priorität 1), DoT (Priorität 2), DoH (Priorität 3), jeweils mit `ipv4hint` und `ipv6hint`.
-- Das neue Let's-Encrypt-Zertifikat enthält die IPv4- und IPv6-Adressen als IP-SANs, zusätzlich zu `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` und `anycast02.ffmuc.net`. Laufzeit etwa 6 Tage, automatische Erneuerung.
+- **DDR-Antwort** auf `_dns.resolver.arpa` (Typ SVCB): DoQ (Priorität 1), DoT (Priorität 2), DoH (Priorität 3), jeweils mit `ipv4hint` (`5.1.66.255`, `185.150.99.255`) und `ipv6hint` (`2001:678:e68:f000::`, `2001:678:ed0:f000::`).
+- Das neue Let's-Encrypt-Zertifikat enthält alle vier Anycast-Adressen (IPv4 und IPv6) als IP-SANs, zusätzlich zu `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` und `anycast02.ffmuc.net`. Laufzeit etwa 6 Tage, automatische Erneuerung.
 - Die IP-Adressen werden per HTTP-Challenge bestätigt. Da Anycast die Prüfung an jeden unserer Server schicken kann, teilen die Server die Antwort untereinander.
 - Das bestehende `*.ffmuc.net`-Zertifikat bleibt der Standard.
 - [Pull Request #697: Kurzlebiges DDR-Zertifikat mit Anycast-IP-Adressen](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
@@ -98,18 +102,22 @@ Before your device loads a website, it asks a DNS server for the site's address.
 The method is called **DDR** ("Discovery of Designated Resolvers"). With our servers as an example, it works like this:
 
 1. **Get the address:** Your router tells your device: "Your DNS server is `5.1.66.255`" (or `2001:678:e68:f000::`). The device knows nothing more yet.
-2. **Ask:** The device asks `5.1.66.255`: "Can you also talk encrypted?" Technically, this is a query for `_dns.resolver.arpa`.
-3. **Get the answer:** We answer: "Yes! Use `doq.ffmuc.net`, `dot.ffmuc.net` and `doh.ffmuc.net`, reachable at `5.1.66.255` and `185.150.99.255`."
-4. **Check the identity:** The device opens an encrypted connection to `5.1.66.255`, for example with the name `dot.ffmuc.net`. Our certificate shows the **identity** of the server: the names `doh.ffmuc.net`, `dot.ffmuc.net` and `doq.ffmuc.net` **and the address `5.1.66.255`**. The device compares: is this really the server I asked at the start? The address matches. So it is not talking to an attacker.
+2. **Ask:** The device asks `5.1.66.255` (or `2001:678:e68:f000::`): "Can you also talk encrypted?" Technically, this is a query for `_dns.resolver.arpa`.
+3. **Get the answer:** We answer: "Yes! Use `doq.ffmuc.net`, `dot.ffmuc.net` and `doh.ffmuc.net`, reachable at `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` and `2001:678:ed0:f000::`."
+4. **Check the identity:** The device opens an encrypted connection to `5.1.66.255` (or `2001:678:e68:f000::`), for example with the name `dot.ffmuc.net`. Our certificate shows the **identity** of the server: the names `doh.ffmuc.net`, `dot.ffmuc.net` and `doq.ffmuc.net` **and all our addresses: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` and `2001:678:ed0:f000::`**. The device compares: is this really the server I asked at the start? The address the device started with is in it. So it is not talking to an attacker.
 5. **Switch:** Everything matches. From now on, the device uses encrypted DNS automatically.
 
 ```
-Router     ─▶ device      "Your DNS is 5.1.66.255"
-device     ─▶ 5.1.66.255  "Can you talk encrypted?"
-5.1.66.255 ─▶ device      "Yes: dot.ffmuc.net, also at 5.1.66.255"
-device     ═▶ 5.1.66.255  encrypted, name dot.ffmuc.net
-Identity in certificate:  dot.ffmuc.net ✔  5.1.66.255 ✔  (new!)
-device     ═▶ encrypted DNS from now on
+Router ─▶ device  "Your DNS is 5.1.66.255
+                   or 2001:678:e68:f000::"
+device ─▶ FFMUC   "Can you talk encrypted?"
+FFMUC  ─▶ device  "Yes: dot.ffmuc.net, also at
+                   5.1.66.255, 185.150.99.255,
+                   2001:678:e68:f000::, 2001:678:ed0:f000::"
+device ═▶ FFMUC   encrypted, name dot.ffmuc.net
+Identity in certificate (new!):
+   dot.ffmuc.net ✔  5.1.66.255 ✔  2001:678:e68:f000:: ✔
+device ═▶ encrypted DNS from now on
 ```
 
 ## What is new?
@@ -146,8 +154,8 @@ Why our DNS?
 
 - **Anycast IPs:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
-- **DDR answer** for `_dns.resolver.arpa` (type SVCB): DoQ (priority 1), DoT (priority 2), DoH (priority 3), each with `ipv4hint` and `ipv6hint`.
-- The new Let's Encrypt certificate contains the IPv4 and IPv6 addresses as IP SANs, in addition to `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` and `anycast02.ffmuc.net`. Lifetime about 6 days, automatic renewal.
+- **DDR answer** for `_dns.resolver.arpa` (type SVCB): DoQ (priority 1), DoT (priority 2), DoH (priority 3), each with `ipv4hint` (`5.1.66.255`, `185.150.99.255`) and `ipv6hint` (`2001:678:e68:f000::`, `2001:678:ed0:f000::`).
+- The new Let's Encrypt certificate contains all four anycast addresses (IPv4 and IPv6) as IP SANs, in addition to `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` and `anycast02.ffmuc.net`. Lifetime about 6 days, automatic renewal.
 - The IP addresses are validated with an HTTP challenge. Because anycast can send the check to any of our servers, the servers share the answer with each other.
 - The existing `*.ffmuc.net` certificate stays the default.
 - [Pull Request #697: Short-lived DDR certificate with anycast IP addresses](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
@@ -173,18 +181,22 @@ Le **DNS chiffré** protège ces requêtes. Nous le proposons depuis longtemps. 
 La méthode s'appelle **DDR** (« Discovery of Designated Resolvers »). Avec nos serveurs comme exemple, cela se passe ainsi :
 
 1. **Recevoir l'adresse :** Votre routeur dit à votre appareil : « Ton serveur DNS est `5.1.66.255` » (ou `2001:678:e68:f000::`). L'appareil n'en sait pas plus pour l'instant.
-2. **Demander :** L'appareil demande à `5.1.66.255` : « Sais-tu aussi parler de façon chiffrée ? » Techniquement, c'est une requête pour `_dns.resolver.arpa`.
-3. **Recevoir la réponse :** Nous répondons : « Oui ! Via `doq.ffmuc.net`, `dot.ffmuc.net` et `doh.ffmuc.net`, joignables à `5.1.66.255` et `185.150.99.255`. »
-4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers `5.1.66.255`, par exemple avec le nom `dot.ffmuc.net`. Notre certificat montre l'**identité** du serveur : les noms `doh.ffmuc.net`, `dot.ffmuc.net` et `doq.ffmuc.net` **et l'adresse `5.1.66.255`**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse correspond : il ne parle donc pas à un attaquant.
+2. **Demander :** L'appareil demande à `5.1.66.255` (ou `2001:678:e68:f000::`) : « Sais-tu aussi parler de façon chiffrée ? » Techniquement, c'est une requête pour `_dns.resolver.arpa`.
+3. **Recevoir la réponse :** Nous répondons : « Oui ! Via `doq.ffmuc.net`, `dot.ffmuc.net` et `doh.ffmuc.net`, joignables à `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` et `2001:678:ed0:f000::`. »
+4. **Vérifier l'identité :** L'appareil ouvre une connexion chiffrée vers `5.1.66.255` (ou `2001:678:e68:f000::`), par exemple avec le nom `dot.ffmuc.net`. Notre certificat montre l'**identité** du serveur : les noms `doh.ffmuc.net`, `dot.ffmuc.net` et `doq.ffmuc.net` **et toutes nos adresses : `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` et `2001:678:ed0:f000::`**. L'appareil compare : est-ce vraiment le serveur que j'ai interrogé au début ? L'adresse avec laquelle l'appareil a commencé y figure : il ne parle donc pas à un attaquant.
 5. **Basculer :** Tout correspond. Désormais, l'appareil utilise automatiquement le DNS chiffré.
 
 ```
-Routeur    ─▶ appareil    « Ton DNS est 5.1.66.255 »
-appareil   ─▶ 5.1.66.255  « Chiffré possible ? »
-5.1.66.255 ─▶ appareil    « Oui : dot.ffmuc.net, aussi à 5.1.66.255 »
-appareil   ═▶ 5.1.66.255  chiffré, nom dot.ffmuc.net
-Identité du certificat :  dot.ffmuc.net ✔  5.1.66.255 ✔  (nouveau !)
-appareil   ═▶ désormais DNS chiffré
+Routeur  ─▶ appareil  « Ton DNS est 5.1.66.255
+                       ou 2001:678:e68:f000:: »
+appareil ─▶ FFMUC     « Chiffré possible ? »
+FFMUC    ─▶ appareil  « Oui : dot.ffmuc.net, aussi à
+                       5.1.66.255, 185.150.99.255,
+                       2001:678:e68:f000::, 2001:678:ed0:f000:: »
+appareil ═▶ FFMUC     chiffré, nom dot.ffmuc.net
+Identité du certificat (nouveau !) :
+   dot.ffmuc.net ✔  5.1.66.255 ✔  2001:678:e68:f000:: ✔
+appareil ═▶ désormais DNS chiffré
 ```
 
 ## Quoi de neuf ?
@@ -221,8 +233,8 @@ Pourquoi notre DNS ?
 
 - **IP anycast :** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH :** `https://doh.ffmuc.net/dns-query` · **DoT :** `dot.ffmuc.net:853` · **DoQ :** `doq.ffmuc.net:853`
-- **Réponse DDR** pour `_dns.resolver.arpa` (type SVCB) : DoQ (priorité 1), DoT (priorité 2), DoH (priorité 3), chacun avec `ipv4hint` et `ipv6hint`.
-- Le nouveau certificat Let's Encrypt contient les adresses IPv4 et IPv6 comme IP SAN, en plus de `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` et `anycast02.ffmuc.net`. Durée de validité d'environ 6 jours, renouvellement automatique.
+- **Réponse DDR** pour `_dns.resolver.arpa` (type SVCB) : DoQ (priorité 1), DoT (priorité 2), DoH (priorité 3), chacun avec `ipv4hint` (`5.1.66.255`, `185.150.99.255`) et `ipv6hint` (`2001:678:e68:f000::`, `2001:678:ed0:f000::`).
+- Le nouveau certificat Let's Encrypt contient les quatre adresses anycast (IPv4 et IPv6) comme IP SAN, en plus de `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` et `anycast02.ffmuc.net`. Durée de validité d'environ 6 jours, renouvellement automatique.
 - Les adresses IP sont validées par un challenge HTTP. Comme l'anycast peut envoyer la vérification à n'importe lequel de nos serveurs, les serveurs partagent la réponse entre eux.
 - Le certificat existant `*.ffmuc.net` reste le certificat par défaut.
 - [Pull Request #697 : certificat DDR de courte durée avec adresses IP anycast](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
@@ -248,17 +260,21 @@ El **DNS cifrado** protege estas consultas. Lo ofrecemos desde hace mucho tiempo
 El método se llama **DDR** («Discovery of Designated Resolvers»). Con nuestros servidores como ejemplo, funciona así:
 
 1. **Recibir la dirección:** Tu router le dice a tu dispositivo: «Tu servidor DNS es `5.1.66.255`» (o `2001:678:e68:f000::`). El dispositivo todavía no sabe nada más.
-2. **Preguntar:** El dispositivo pregunta a `5.1.66.255`: «¿Puedes hablar también de forma cifrada?» Técnicamente, es una consulta de `_dns.resolver.arpa`.
-3. **Recibir la respuesta:** Respondemos: «¡Sí! A través de `doq.ffmuc.net`, `dot.ffmuc.net` y `doh.ffmuc.net`, accesibles en `5.1.66.255` y `185.150.99.255`.»
-4. **Comprobar la identidad:** El dispositivo abre una conexión cifrada con `5.1.66.255`, por ejemplo con el nombre `dot.ffmuc.net`. Nuestro certificado muestra la **identidad** del servidor: los nombres `doh.ffmuc.net`, `dot.ffmuc.net` y `doq.ffmuc.net` **y la dirección `5.1.66.255`**. El dispositivo compara: ¿es de verdad el servidor al que pregunté al principio? La dirección coincide, así que no está hablando con un atacante.
+2. **Preguntar:** El dispositivo pregunta a `5.1.66.255` (o `2001:678:e68:f000::`): «¿Puedes hablar también de forma cifrada?» Técnicamente, es una consulta de `_dns.resolver.arpa`.
+3. **Recibir la respuesta:** Respondemos: «¡Sí! A través de `doq.ffmuc.net`, `dot.ffmuc.net` y `doh.ffmuc.net`, accesibles en `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` y `2001:678:ed0:f000::`.»
+4. **Comprobar la identidad:** El dispositivo abre una conexión cifrada con `5.1.66.255` (o `2001:678:e68:f000::`), por ejemplo con el nombre `dot.ffmuc.net`. Nuestro certificado muestra la **identidad** del servidor: los nombres `doh.ffmuc.net`, `dot.ffmuc.net` y `doq.ffmuc.net` **y todas nuestras direcciones: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` y `2001:678:ed0:f000::`**. El dispositivo compara: ¿es de verdad el servidor al que pregunté al principio? La dirección con la que empezó el dispositivo está ahí, así que no está hablando con un atacante.
 5. **Cambiar:** Todo coincide. A partir de ahora, el dispositivo usa DNS cifrado automáticamente.
 
 ```
-Router      ─▶ dispositivo  «Tu DNS es 5.1.66.255»
-dispositivo ─▶ 5.1.66.255   «¿Puedes cifrar?»
-5.1.66.255  ─▶ dispositivo  «Sí: dot.ffmuc.net, también en 5.1.66.255»
-dispositivo ═▶ 5.1.66.255   cifrado, nombre dot.ffmuc.net
-Identidad del certificado:  dot.ffmuc.net ✔  5.1.66.255 ✔  (¡nuevo!)
+Router      ─▶ dispositivo  «Tu DNS es 5.1.66.255
+                            o 2001:678:e68:f000::»
+dispositivo ─▶ FFMUC        «¿Puedes cifrar?»
+FFMUC       ─▶ dispositivo  «Sí: dot.ffmuc.net, también en
+                            5.1.66.255, 185.150.99.255,
+                            2001:678:e68:f000::, 2001:678:ed0:f000::»
+dispositivo ═▶ FFMUC        cifrado, nombre dot.ffmuc.net
+Identidad del certificado (¡nuevo!):
+   dot.ffmuc.net ✔  5.1.66.255 ✔  2001:678:e68:f000:: ✔
 dispositivo ═▶ DNS cifrado a partir de ahora
 ```
 
@@ -296,8 +312,8 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 
 - **IP anycast:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
-- **Respuesta DDR** para `_dns.resolver.arpa` (tipo SVCB): DoQ (prioridad 1), DoT (prioridad 2), DoH (prioridad 3), cada uno con `ipv4hint` e `ipv6hint`.
-- El nuevo certificado de Let's Encrypt contiene las direcciones IPv4 e IPv6 como IP SAN, además de `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` y `anycast02.ffmuc.net`. Validez de unos 6 días, renovación automática.
+- **Respuesta DDR** para `_dns.resolver.arpa` (tipo SVCB): DoQ (prioridad 1), DoT (prioridad 2), DoH (prioridad 3), cada uno con `ipv4hint` (`5.1.66.255`, `185.150.99.255`) e `ipv6hint` (`2001:678:e68:f000::`, `2001:678:ed0:f000::`).
+- El nuevo certificado de Let's Encrypt contiene las cuatro direcciones anycast (IPv4 e IPv6) como IP SAN, además de `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` y `anycast02.ffmuc.net`. Validez de unos 6 días, renovación automática.
 - Las direcciones IP se validan con un desafío HTTP. Como anycast puede enviar la comprobación a cualquiera de nuestros servidores, los servidores comparten la respuesta entre sí.
 - El certificado existente `*.ffmuc.net` sigue siendo el predeterminado.
 - [Pull Request #697: certificado DDR de corta duración con direcciones IP anycast](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
@@ -323,17 +339,21 @@ DDR es compatible, por ejemplo, con versiones recientes de Windows 11 y de dispo
 Цей метод називається **DDR** («Discovery of Designated Resolvers»). На прикладі наших серверів це виглядає так:
 
 1. **Отримати адресу:** Ваш маршрутизатор каже пристрою: «Твій DNS-сервер: `5.1.66.255`» (або `2001:678:e68:f000::`). Більше пристрій поки нічого не знає.
-2. **Запитати:** Пристрій запитує `5.1.66.255`: «Чи можеш ти спілкуватися зашифровано?» Технічно це запит `_dns.resolver.arpa`.
-3. **Отримати відповідь:** Ми відповідаємо: «Так! Через `doq.ffmuc.net`, `dot.ffmuc.net` і `doh.ffmuc.net`, доступні за адресами `5.1.66.255` і `185.150.99.255`.»
-4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з `5.1.66.255`, наприклад з іменем `dot.ffmuc.net`. Наш сертифікат показує **ідентичність** сервера: імена `doh.ffmuc.net`, `dot.ffmuc.net` і `doq.ffmuc.net` **та адресу `5.1.66.255`**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса збігається. Отже, він не спілкується з нападником.
+2. **Запитати:** Пристрій запитує `5.1.66.255` (або `2001:678:e68:f000::`): «Чи можеш ти спілкуватися зашифровано?» Технічно це запит `_dns.resolver.arpa`.
+3. **Отримати відповідь:** Ми відповідаємо: «Так! Через `doq.ffmuc.net`, `dot.ffmuc.net` і `doh.ffmuc.net`, доступні за адресами `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` і `2001:678:ed0:f000::`.»
+4. **Перевірити ідентичність:** Пристрій відкриває зашифроване з'єднання з `5.1.66.255` (або `2001:678:e68:f000::`), наприклад з іменем `dot.ffmuc.net`. Наш сертифікат показує **ідентичність** сервера: імена `doh.ffmuc.net`, `dot.ffmuc.net` і `doq.ffmuc.net` **та всі наші адреси: `5.1.66.255`, `185.150.99.255`, `2001:678:e68:f000::` і `2001:678:ed0:f000::`**. Пристрій порівнює: чи це справді той сервер, якого я запитав на початку? Адреса, з якої пристрій почав, там є. Отже, він не спілкується з нападником.
 5. **Перемкнутися:** Усе збігається. Відтепер пристрій автоматично використовує зашифрований DNS.
 
 ```
-Маршрутизатор ─▶ пристрій    «Твій DNS: 5.1.66.255»
-пристрій      ─▶ 5.1.66.255  «Можеш зашифровано?»
-5.1.66.255    ─▶ пристрій    «Так: dot.ffmuc.net, також на 5.1.66.255»
-пристрій      ═▶ 5.1.66.255  зашифровано, ім'я dot.ffmuc.net
-Ідентичність у сертифікаті:  dot.ffmuc.net ✔  5.1.66.255 ✔  (нове!)
+Маршрутизатор ─▶ пристрій  «Твій DNS: 5.1.66.255
+                            або 2001:678:e68:f000::»
+пристрій      ─▶ FFMUC     «Можеш зашифровано?»
+FFMUC         ─▶ пристрій  «Так: dot.ffmuc.net, також на
+                            5.1.66.255, 185.150.99.255,
+                            2001:678:e68:f000::, 2001:678:ed0:f000::»
+пристрій      ═▶ FFMUC     зашифровано, ім'я dot.ffmuc.net
+Ідентичність у сертифікаті (нове!):
+   dot.ffmuc.net ✔  5.1.66.255 ✔  2001:678:e68:f000:: ✔
 пристрій      ═▶ відтепер зашифрований DNS
 ```
 
@@ -371,8 +391,8 @@ DDR підтримують, наприклад, актуальні версії 
 
 - **Anycast IP:** `185.150.99.255`, `5.1.66.255`, `2001:678:e68:f000::`, `2001:678:ed0:f000::`
 - **DoH:** `https://doh.ffmuc.net/dns-query` · **DoT:** `dot.ffmuc.net:853` · **DoQ:** `doq.ffmuc.net:853`
-- **DDR-відповідь** на `_dns.resolver.arpa` (тип SVCB): DoQ (пріоритет 1), DoT (пріоритет 2), DoH (пріоритет 3), кожен з `ipv4hint` та `ipv6hint`.
-- Новий сертифікат Let's Encrypt містить адреси IPv4 та IPv6 як IP SAN, окрім `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` та `anycast02.ffmuc.net`. Термін дії близько 6 днів, автоматичне оновлення.
+- **DDR-відповідь** на `_dns.resolver.arpa` (тип SVCB): DoQ (пріоритет 1), DoT (пріоритет 2), DoH (пріоритет 3), кожен з `ipv4hint` (`5.1.66.255`, `185.150.99.255`) та `ipv6hint` (`2001:678:e68:f000::`, `2001:678:ed0:f000::`).
+- Новий сертифікат Let's Encrypt містить усі чотири anycast-адреси (IPv4 та IPv6) як IP SAN, окрім `doh`, `dns`, `dot`, `doq`, `anycast`, `anycast01` та `anycast02.ffmuc.net`. Термін дії близько 6 днів, автоматичне оновлення.
 - IP-адреси підтверджуються через HTTP-перевірку. Оскільки anycast може надіслати перевірку на будь-який із наших серверів, сервери обмінюються відповіддю між собою.
 - Наявний сертифікат `*.ffmuc.net` залишається стандартним.
 - [Pull Request #697: короткостроковий DDR-сертифікат з anycast IP-адресами](https://github.com/freifunkMUC/ffmuc-salt-public/pull/697)
