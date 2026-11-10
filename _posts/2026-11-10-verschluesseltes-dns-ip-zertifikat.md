@@ -49,7 +49,7 @@ Die Schritte 1 bis 3 bieten wir [schon seit Januar](/services/dns/2026/01/09/rfc
 
 ![Balkendiagramm: DoH-Anfragen direkt an unsere IP-Adressen in den letzten 4 Stunden](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*DoH-Anfragen, die direkt an unsere Resolver-IP-Adressen gehen (letzte 4 Stunden). Der Anstieg beginnt, nachdem das neue Zertifikat live gegangen ist. Orange: `5.1.66.255`, grün: `185.150.99.255`, rot: `2001:678:ed0:f000::`, blau: alle übrigen Anfragen. Gezählt werden alle Geräte, die uns über eine IP-Adresse ansprechen, nicht nur Geräte, die automatisch umgeschaltet haben.*
+*DoH-Anfragen, die direkt an unsere Resolver-IP-Adressen gehen (letzte 4 Stunden). Der Anstieg beginnt, nachdem das neue Zertifikat live gegangen ist. Blau: `5.1.66.255`, orange: `185.150.99.255`, grün: `2001:678:ed0:f000::`. Gezählt werden alle Geräte, die uns über eine IP-Adresse ansprechen, nicht nur Geräte, die automatisch umgeschaltet haben.*
 
 Im Freifunk-Netz geht es übrigens noch direkter: Dort sagt das Netz deinem Gerät schon beim Verbinden, dass verschlüsseltes DNS bereitsteht (DNR). Geräte, die das unterstützen, müssen also gar nicht erst nachfragen.
 
@@ -132,7 +132,7 @@ We have offered steps 1 to 3 [since January](/services/dns/2026/01/09/rfc9462-rf
 
 ![Bar chart: DoH requests sent directly to our IP addresses in the last 4 hours](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*DoH requests sent directly to our resolver IP addresses (last 4 hours). The rise starts after the new certificate went live. Orange: `5.1.66.255`, green: `185.150.99.255`, red: `2001:678:ed0:f000::`, blue: all other requests. The chart counts every client that uses an IP address, not only devices that switched automatically.*
+*DoH requests sent directly to our resolver IP addresses (last 4 hours). The rise starts after the new certificate went live. Blue: `5.1.66.255`, orange: `185.150.99.255`, green: `2001:678:ed0:f000::`. The chart counts every client that uses an IP address, not only devices that switched automatically.*
 
 In the Freifunk network it is even more direct: there, the network tells your device right when it connects that encrypted DNS is available (DNR). Devices that support this do not even need to ask.
 
@@ -215,7 +215,7 @@ Nous proposons les étapes 1 à 3 [depuis janvier](/services/dns/2026/01/09/rfc9
 
 ![Diagramme à barres : requêtes DoH envoyées directement à nos adresses IP au cours des 4 dernières heures](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*Requêtes DoH envoyées directement aux adresses IP de nos résolveurs (4 dernières heures). La hausse commence après la mise en service du nouveau certificat. Orange : `5.1.66.255`, vert : `185.150.99.255`, rouge : `2001:678:ed0:f000::`, bleu : toutes les autres requêtes. Le graphique compte tous les clients qui utilisent une adresse IP, pas seulement les appareils qui ont basculé automatiquement.*
+*Requêtes DoH envoyées directement aux adresses IP de nos résolveurs (4 dernières heures). La hausse commence après la mise en service du nouveau certificat. Bleu : `5.1.66.255`, orange : `185.150.99.255`, vert : `2001:678:ed0:f000::`. Le graphique compte tous les clients qui utilisent une adresse IP, pas seulement les appareils qui ont basculé automatiquement.*
 
 Dans le réseau Freifunk, c'est même encore plus direct : le réseau indique à votre appareil, dès la connexion, que le DNS chiffré est disponible (DNR). Les appareils compatibles n'ont même pas besoin de demander.
 
@@ -298,7 +298,7 @@ Ofrecemos los pasos 1 a 3 [desde enero](/services/dns/2026/01/09/rfc9462-rfc9463
 
 ![Gráfico de barras: solicitudes DoH enviadas directamente a nuestras direcciones IP en las últimas 4 horas](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*Solicitudes DoH enviadas directamente a las direcciones IP de nuestros resolvers (últimas 4 horas). El aumento empieza después de que el nuevo certificado entrara en servicio. Naranja: `5.1.66.255`, verde: `185.150.99.255`, rojo: `2001:678:ed0:f000::`, azul: el resto de solicitudes. El gráfico cuenta todos los clientes que usan una dirección IP, no solo los dispositivos que cambiaron automáticamente.*
+*Solicitudes DoH enviadas directamente a las direcciones IP de nuestros resolvers (últimas 4 horas). El aumento empieza después de que el nuevo certificado entrara en servicio. Azul: `5.1.66.255`, naranja: `185.150.99.255`, verde: `2001:678:ed0:f000::`. El gráfico cuenta todos los clientes que usan una dirección IP, no solo los dispositivos que cambiaron automáticamente.*
 
 En la red Freifunk es incluso más directo: allí la red le dice a tu dispositivo, nada más conectarse, que hay DNS cifrado disponible (DNR). Los dispositivos compatibles ni siquiera necesitan preguntar.
 
@@ -381,7 +381,7 @@ FFMUC         ─▶ пристрій  «Так: dot.ffmuc.net, також на
 
 ![Стовпчикова діаграма: запити DoH безпосередньо на наші IP-адреси за останні 4 години](/assets/posts/2026-11-10-doh-via-ip-requests.png)
 
-*Запити DoH, що надходять безпосередньо на IP-адреси наших резолверів (останні 4 години). Зростання починається після запуску нового сертифіката. Помаранчевий: `5.1.66.255`, зелений: `185.150.99.255`, червоний: `2001:678:ed0:f000::`, синій: усі інші запити. Діаграма враховує всіх клієнтів, які звертаються до нас за IP-адресою, а не лише пристрої, що перемкнулися автоматично.*
+*Запити DoH, що надходять безпосередньо на IP-адреси наших резолверів (останні 4 години). Зростання починається після запуску нового сертифіката. Синій: `5.1.66.255`, помаранчевий: `185.150.99.255`, зелений: `2001:678:ed0:f000::`. Діаграма враховує всіх клієнтів, які звертаються до нас за IP-адресою, а не лише пристрої, що перемкнулися автоматично.*
 
 У мережі Freifunk усе ще простіше: там мережа одразу під час підключення повідомляє вашому пристрою, що зашифрований DNS доступний (DNR). Пристроям, які це підтримують, навіть не потрібно запитувати.
 
