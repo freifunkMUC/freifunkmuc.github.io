@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Freifunk Meet: Reservierte Räume auf der Startseite und bessere Bildschirmfreigabe"
-date: 2026-11-14 12:00:00 +0100
+date: 2026-11-14 08:00:00 +0100
 categories: freifunkmuc meet
 translations: [en, fr, es, ua]
 ---
