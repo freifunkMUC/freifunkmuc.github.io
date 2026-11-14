@@ -16,7 +16,7 @@ deine [reservierten Räume](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/)
 
 Auf der Startseite gibt es einen neuen Kasten **Reservierte Räume**. Er zeigt die Räume, die du auf diesem Gerät gespeichert hast. Zu jedem Raum siehst du:
 
-- den **Namen**. Klicke auf den Namen, um ihn umzubenennen. Der Name gilt nur auf diesem Gerät.
+- die **Bezeichnung**. Das ist ein Name nur für deine Liste, zum Beispiel „Vereinssitzung“. Klicke darauf, um ihn zu ändern.
 - das Datum **Gültig bis**.
 - **Als Moderation beitreten**.
 - **Verwalten**. Endet der Raum in weniger als 3 Tagen, heißt der Knopf **Verlängern** und der Eintrag zeigt „Läuft in N Tagen ab“.
@@ -24,7 +24,7 @@ Auf der Startseite gibt es einen neuen Kasten **Reservierte Räume**. Er zeigt d
 
 ![Startseite mit dem Kasten „Reservierte Räume“ und dem Spenden-Banner (Beispieldaten)](/assets/posts/2026-11-14-meet-start-de.png)
 
-Mit **Link hinzufügen** fügst du einen Raum hinzu, den du schon hast. Füge einen Moderations- oder Verwaltungslink ein und gib optional einen Namen ein. Zuschauer- und Sprecherlinks funktionieren hier nicht.
+Mit **Link hinzufügen** fügst du einen Raum hinzu, den du schon hast. Füge einen Moderations- oder Verwaltungslink ein und gib optional eine Bezeichnung ein. Zuschauer- und Sprecherlinks funktionieren hier nicht.
 
 ![Formular „Link hinzufügen“ (Beispieldaten)](/assets/posts/2026-11-14-meet-addlink-de.png)
 
@@ -32,7 +32,7 @@ Wenn du die Startseite öffnest, prüft Meet deine Räume (höchstens einmal pro
 
 **„Auf diesem Gerät merken“ beim Reservieren**
 
-Auf [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) gibt es das neue Häkchen **Auf diesem Gerät merken**. Es ist standardmäßig aus. Setzt du das Häkchen, kannst du dem Raum einen Namen geben, zum Beispiel „Vereinssitzung“. Der Raum erscheint dann auf der Startseite.
+Auf [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) gibt es das neue Häkchen **Auf diesem Gerät merken**. Es ist standardmäßig aus. Setzt du das Häkchen, kannst du eine Bezeichnung eingeben, zum Beispiel „Vereinssitzung“. Der Raum erscheint dann auf der Startseite.
 
 ![Reservierungsseite mit „Auf diesem Gerät merken“ (Beispieldaten)](/assets/posts/2026-11-14-meet-reserve-de.png)
 
@@ -40,7 +40,7 @@ Auf [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) gibt es das neue H
 
 **Deine Daten bleiben bei dir**
 
-Die Liste liegt nur im Speicher deines Browsers (localStorage) auf diesem Gerät. Wir speichern dafür nichts zusätzlich auf unseren Servern. Dein eigener Name für den Raum geht nie an den Server. Ein anderer Browser oder ein anderes Gerät hat eine eigene Liste.
+Die Liste liegt nur im Speicher deines Browsers (localStorage) auf diesem Gerät. Wir speichern dafür nichts zusätzlich auf unseren Servern. Die Bezeichnung (zum Beispiel „Vereinssitzung“) siehst nur du in deiner Liste. Der echte Raumname und die Links ändern sich nicht. Die Bezeichnung bleibt in deinem Browser und geht nie an unseren Server. Ein anderer Browser oder ein anderes Gerät hat eine eigene Liste.
 
 **Kostenlos, aber nicht umsonst**
 
@@ -85,7 +85,7 @@ You now find your [reserved rooms](/freifunkmuc/meet/2026/10/17/meet-zuschauer-r
 
 The start page has a new **Reserved rooms** box. It shows the rooms that you saved on this device. For each room you see:
 
-- the **name**. Click the name to rename it. The name is only on this device.
+- the **label**. This is a name only for your list, for example "Club meeting". Click it to change it.
 - the **valid until** date.
 - **Join as host**.
 - **Manage**. When the room ends in less than 3 days, the button changes to **Extend** and the entry shows "expires in N days".
@@ -93,7 +93,7 @@ The start page has a new **Reserved rooms** box. It shows the rooms that you sav
 
 ![Start page with the "Reserved rooms" box and the donation banner (example data)](/assets/posts/2026-11-14-meet-start-en.png)
 
-With **Add link** you add a room that you already have. Paste a host link or a manage link and, if you want, a name. Viewer and speaker links do not work here.
+With **Add link** you add a room that you already have. Paste a host link or a manage link and, if you want, a label. Viewer and speaker links do not work here.
 
 ![The "Add link" form (example data)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
@@ -101,7 +101,7 @@ When you open the start page, Meet checks your rooms (at most once per hour). If
 
 **"Remember on this device" when you reserve**
 
-On [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) there is a new checkbox **Remember on this device**. It is off by default. When you tick it, you can give the room a name, for example "Club meeting". The room then shows on the start page.
+On [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) there is a new checkbox **Remember on this device**. It is off by default. When you tick it, you can type a label, for example "Club meeting". The room then shows on the start page.
 
 ![Reserve page with "Remember on this device" (example data)](/assets/posts/2026-11-14-meet-reserve-en.png)
 
@@ -109,7 +109,7 @@ On [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) there is a new chec
 
 **Your data stays with you**
 
-The list is only in your browser's storage (localStorage) on this device. We store nothing extra on our servers for it. Your own name for the room never goes to the server. Another browser or another device has its own list.
+The list is only in your browser's storage (localStorage) on this device. We store nothing extra on our servers for it. Only you see the label (for example "Club meeting") in your list. The real room name and the links do not change. The label stays in your browser and never goes to our server. Another browser or another device has its own list.
 
 **Free, but not without cost**
 
@@ -154,7 +154,7 @@ Vos [salles réservées](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/) so
 
 La page d'accueil a un nouveau bloc **Salles réservées** (affiché en allemand ou en anglais : « Reservierte Räume » / « Reserved rooms »). Il montre les salles que vous avez enregistrées sur cet appareil. Pour chaque salle, vous voyez :
 
-- le **nom**. Cliquez sur le nom pour le modifier. Le nom reste uniquement sur cet appareil.
+- le **libellé**. C'est un nom uniquement pour votre liste, par exemple « Réunion de l'association ». Cliquez dessus pour le modifier.
 - la date **valable jusqu'au**.
 - **Rejoindre en tant qu'hôte** (Join as host).
 - **Gérer** (Manage). Si la salle expire dans moins de 3 jours, le bouton devient **Prolonger** (Extend) et l'entrée indique « expire dans N jours ».
@@ -162,7 +162,7 @@ La page d'accueil a un nouveau bloc **Salles réservées** (affiché en allemand
 
 ![Bloc « Reserved rooms » sur la page d'accueil, avec la bannière de dons, vue anglaise (données d'exemple)](/assets/posts/2026-11-14-meet-start-en.png)
 
-Avec **Ajouter un lien** (Add link), vous ajoutez une salle que vous avez déjà. Collez un lien d'hôte ou de gestion et, si vous voulez, un nom. Les liens de spectateur et d'intervenant ne fonctionnent pas ici.
+Avec **Ajouter un lien** (Add link), vous ajoutez une salle que vous avez déjà. Collez un lien d'hôte ou de gestion et, si vous voulez, un libellé. Les liens de spectateur et d'intervenant ne fonctionnent pas ici.
 
 ![Le formulaire « Add link », vue anglaise (données d'exemple)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
@@ -170,7 +170,7 @@ Quand vous ouvrez la page d'accueil, Meet vérifie vos salles (au maximum une fo
 
 **« Mémoriser sur cet appareil » lors de la réservation**
 
-Sur [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/), il y a une nouvelle case **Mémoriser sur cet appareil**. Elle est désactivée par défaut. Si vous la cochez, vous pouvez donner un nom à la salle, par exemple « Réunion de l'association ». La salle apparaît alors sur la page d'accueil.
+Sur [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/), il y a une nouvelle case **Mémoriser sur cet appareil**. Elle est désactivée par défaut. Si vous la cochez, vous pouvez saisir un libellé, par exemple « Réunion de l'association ». La salle apparaît alors sur la page d'accueil.
 
 ![Page de réservation avec « Mémoriser sur cet appareil » (données d'exemple)](/assets/posts/2026-11-14-meet-reserve-fr.png)
 
@@ -178,7 +178,7 @@ Sur [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/), il y a une nouvel
 
 **Vos données restent chez vous**
 
-La liste est uniquement dans le stockage de votre navigateur (localStorage) sur cet appareil. Nous ne stockons rien de plus sur nos serveurs pour cela. Le nom que vous donnez à la salle n'est jamais envoyé au serveur. Un autre navigateur ou un autre appareil a sa propre liste.
+La liste est uniquement dans le stockage de votre navigateur (localStorage) sur cet appareil. Nous ne stockons rien de plus sur nos serveurs pour cela. Vous seul voyez le libellé (par exemple « Réunion de l'association ») dans votre liste. Le vrai nom de la salle et les liens ne changent pas. Le libellé reste dans votre navigateur et n'est jamais envoyé à notre serveur. Un autre navigateur ou un autre appareil a sa propre liste.
 
 **Gratuit, mais pas sans coût**
 
@@ -223,7 +223,7 @@ Ahora encuentras tus [salas reservadas](/freifunkmuc/meet/2026/10/17/meet-zuscha
 
 La página de inicio tiene un nuevo cuadro **Salas reservadas** (se muestra en alemán o inglés: «Reservierte Räume» / «Reserved rooms»). Muestra las salas que guardaste en este dispositivo. Para cada sala ves:
 
-- el **nombre**. Haz clic en el nombre para cambiarlo. El nombre solo queda en este dispositivo.
+- la **etiqueta**. Es un nombre solo para tu lista, por ejemplo «Reunión de la asociación». Haz clic en ella para cambiarla.
 - la fecha **válida hasta**.
 - **Entrar como anfitrión** (Join as host).
 - **Gestionar** (Manage). Si la sala termina en menos de 3 días, el botón cambia a **Prolongar** (Extend) y la entrada muestra «caduca en N días».
@@ -231,7 +231,7 @@ La página de inicio tiene un nuevo cuadro **Salas reservadas** (se muestra en a
 
 ![Cuadro «Reserved rooms» en la página de inicio, con el banner de donaciones, vista en inglés (datos de ejemplo)](/assets/posts/2026-11-14-meet-start-en.png)
 
-Con **Añadir enlace** (Add link) añades una sala que ya tienes. Pega un enlace de anfitrión o de gestión y, si quieres, un nombre. Los enlaces de espectador y de ponente no funcionan aquí.
+Con **Añadir enlace** (Add link) añades una sala que ya tienes. Pega un enlace de anfitrión o de gestión y, si quieres, una etiqueta. Los enlaces de espectador y de ponente no funcionan aquí.
 
 ![El formulario «Add link», vista en inglés (datos de ejemplo)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
@@ -239,7 +239,7 @@ Cuando abres la página de inicio, Meet comprueba tus salas (como máximo una ve
 
 **«Recordar en este dispositivo» al reservar**
 
-En [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) hay una nueva casilla **Recordar en este dispositivo**. Está desactivada por defecto. Si la marcas, puedes dar un nombre a la sala, por ejemplo «Reunión de la asociación». La sala aparece entonces en la página de inicio.
+En [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) hay una nueva casilla **Recordar en este dispositivo**. Está desactivada por defecto. Si la marcas, puedes escribir una etiqueta, por ejemplo «Reunión de la asociación». La sala aparece entonces en la página de inicio.
 
 ![Página de reserva con «Recordar en este dispositivo» (datos de ejemplo)](/assets/posts/2026-11-14-meet-reserve-es.png)
 
@@ -247,7 +247,7 @@ En [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) hay una nueva casil
 
 **Tus datos se quedan contigo**
 
-La lista solo está en el almacenamiento de tu navegador (localStorage) en este dispositivo. No guardamos nada adicional en nuestros servidores para esto. El nombre que das a la sala nunca se envía al servidor. Otro navegador u otro dispositivo tiene su propia lista.
+La lista solo está en el almacenamiento de tu navegador (localStorage) en este dispositivo. No guardamos nada adicional en nuestros servidores para esto. Solo tú ves la etiqueta (por ejemplo «Reunión de la asociación») en tu lista. El nombre real de la sala y los enlaces no cambian. La etiqueta se queda en tu navegador y nunca se envía a nuestro servidor. Otro navegador u otro dispositivo tiene su propia lista.
 
 **Gratis, pero no sin coste**
 
@@ -292,7 +292,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 На стартовій сторінці є новий блок **Зарезервовані кімнати** (він показується німецькою або англійською: «Reservierte Räume» / «Reserved rooms»). Він показує кімнати, які ви зберегли на цьому пристрої. Для кожної кімнати ви бачите:
 
-- **назву**. Натисніть на назву, щоб змінити її. Назва зберігається лише на цьому пристрої.
+- **підпис**. Це назва лише для вашого списку, наприклад «Збори товариства». Натисніть на нього, щоб змінити.
 - дату **дійсна до**.
 - **Увійти як модератор** (Join as host).
 - **Керувати** (Manage). Якщо кімната закінчується менше ніж за 3 дні, кнопка змінюється на **Продовжити** (Extend), а запис показує «закінчується через N днів».
@@ -300,7 +300,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 ![Блок «Reserved rooms» на стартовій сторінці з банером пожертв, англійська версія (приклад даних)](/assets/posts/2026-11-14-meet-start-en.png)
 
-За допомогою **Додати посилання** (Add link) ви додаєте кімнату, яка у вас уже є. Вставте посилання модератора або посилання для керування і, за бажанням, назву. Посилання для глядачів і доповідачів тут не працюють.
+За допомогою **Додати посилання** (Add link) ви додаєте кімнату, яка у вас уже є. Вставте посилання модератора або посилання для керування і, за бажанням, підпис. Посилання для глядачів і доповідачів тут не працюють.
 
 ![Форма «Add link», англійська версія (приклад даних)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
@@ -308,7 +308,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 **«Запам’ятати на цьому пристрої» під час резервування**
 
-На [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) є новий прапорець **Запам’ятати на цьому пристрої**. За замовчуванням він вимкнений. Якщо ви його ставите, можна дати кімнаті назву, наприклад «Збори товариства». Тоді кімната з’явиться на стартовій сторінці.
+На [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) є новий прапорець **Запам’ятати на цьому пристрої**. За замовчуванням він вимкнений. Якщо ви його ставите, можна ввести підпис, наприклад «Збори товариства». Тоді кімната з’явиться на стартовій сторінці.
 
 ![Сторінка резервування з «Запам’ятати на цьому пристрої» (приклад даних)](/assets/posts/2026-11-14-meet-reserve-ua.png)
 
@@ -316,7 +316,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 **Ваші дані залишаються у вас**
 
-Список зберігається лише у сховищі вашого браузера (localStorage) на цьому пристрої. Ми нічого додатково не зберігаємо для цього на наших серверах. Ваша власна назва кімнати ніколи не надсилається на сервер. Інший браузер або інший пристрій має власний список.
+Список зберігається лише у сховищі вашого браузера (localStorage) на цьому пристрої. Ми нічого додатково не зберігаємо для цього на наших серверах. Підпис (наприклад «Збори товариства») бачите лише ви у своєму списку. Справжня назва кімнати та посилання не змінюються. Підпис залишається у вашому браузері й ніколи не надсилається на наш сервер. Інший браузер або інший пристрій має власний список.
 
 **Безкоштовно, але не без витрат**
 
