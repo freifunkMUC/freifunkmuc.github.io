@@ -28,7 +28,7 @@ Mit **Link hinzufügen** fügst du einen Raum hinzu, den du schon hast. Füge ei
 
 ![Formular „Link hinzufügen“ (Beispieldaten)](/assets/posts/2026-11-14-meet-addlink-de.png)
 
-Der Kasten prüft deine Räume regelmäßig. Ist ein Raum abgelaufen, gelöscht oder hat er neue Links, sagt dir der Kasten das.
+Wenn du die Startseite öffnest, prüft Meet deine Räume (höchstens einmal pro Stunde). Ist ein Raum abgelaufen, gelöscht oder hat er neue Links, zeigt Meet dir einen Hinweis.
 
 **„Auf diesem Gerät merken“ beim Reservieren**
 
@@ -97,7 +97,7 @@ With **Add link** you add a room that you already have. Paste a host link or a m
 
 ![The "Add link" form (example data)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
-The box checks your rooms regularly. If a room expired, was deleted or got new links, the box tells you.
+When you open the start page, Meet checks your rooms (at most once per hour). If a room expired, was deleted or got new links, Meet shows you a note.
 
 **"Remember on this device" when you reserve**
 
@@ -166,7 +166,7 @@ Avec **Ajouter un lien** (Add link), vous ajoutez une salle que vous avez déjà
 
 ![Le formulaire « Add link », vue anglaise (données d'exemple)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
-Le bloc vérifie vos salles régulièrement. Si une salle a expiré, a été supprimée ou a de nouveaux liens, le bloc vous le dit.
+Quand vous ouvrez la page d'accueil, Meet vérifie vos salles (au maximum une fois par heure). Si une salle a expiré, a été supprimée ou a de nouveaux liens, Meet vous affiche un message.
 
 **« Mémoriser sur cet appareil » lors de la réservation**
 
@@ -235,7 +235,7 @@ Con **Añadir enlace** (Add link) añades una sala que ya tienes. Pega un enlace
 
 ![El formulario «Add link», vista en inglés (datos de ejemplo)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
-El cuadro comprueba tus salas regularmente. Si una sala caducó, se eliminó o tiene enlaces nuevos, el cuadro te lo dice.
+Cuando abres la página de inicio, Meet comprueba tus salas (como máximo una vez por hora). Si una sala caducó, se eliminó o tiene enlaces nuevos, Meet te muestra un aviso.
 
 **«Recordar en este dispositivo» al reservar**
 
@@ -304,7 +304,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 ![Форма «Add link», англійська версія (приклад даних)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
-Блок регулярно перевіряє ваші кімнати. Якщо термін кімнати закінчився, її видалено або вона отримала нові посилання, блок про це повідомить.
+Коли ви відкриваєте стартову сторінку, Meet перевіряє ваші кімнати (не частіше ніж раз на годину). Якщо термін кімнати закінчився, її видалено або вона отримала нові посилання, Meet покаже вам повідомлення.
 
 **«Запам’ятати на цьому пристрої» під час резервування**
 
