@@ -22,11 +22,11 @@ Auf der Startseite gibt es einen neuen Kasten **Reservierte Räume**. Er zeigt d
 - **Verwalten**. Endet der Raum in weniger als 3 Tagen, heißt der Knopf **Verlängern** und der Eintrag zeigt „Läuft in N Tagen ab“.
 - **×** (Von diesem Gerät entfernen). Das entfernt den Raum nur aus der Liste. Der Raum selbst bleibt.
 
-![Startseite mit dem Kasten „Reservierte Räume“ und dem Spenden-Banner (Beispieldaten)](/assets/posts/2026-11-14-meet-start-reserved-rooms-de.png)
+![Startseite mit dem Kasten „Reservierte Räume“ und dem Spenden-Banner (Beispieldaten)](/assets/posts/2026-11-14-meet-start-de.png)
 
 Mit **Link hinzufügen** fügst du einen Raum hinzu, den du schon hast. Füge einen Moderations- oder Verwaltungslink ein und gib optional einen Namen ein. Zuschauer- und Sprecherlinks funktionieren hier nicht.
 
-![Formular „Link hinzufügen“ (englische Ansicht, Beispieldaten)](/assets/posts/2026-11-14-meet-add-link-en.png)
+![Formular „Link hinzufügen“ (Beispieldaten)](/assets/posts/2026-11-14-meet-addlink-de.png)
 
 Der Kasten prüft deine Räume regelmäßig. Ist ein Raum abgelaufen, gelöscht oder hat er neue Links, sagt dir der Kasten das.
 
@@ -34,7 +34,7 @@ Der Kasten prüft deine Räume regelmäßig. Ist ein Raum abgelaufen, gelöscht 
 
 Auf [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) gibt es das neue Häkchen **Auf diesem Gerät merken**. Es ist standardmäßig aus. Setzt du das Häkchen, kannst du dem Raum einen Namen geben, zum Beispiel „Vereinssitzung“. Der Raum erscheint dann auf der Startseite.
 
-![Reservierungsseite mit „Auf diesem Gerät merken“ (Beispieldaten)](/assets/posts/2026-11-14-meet-reserve-remember-de.png)
+![Reservierungsseite mit „Auf diesem Gerät merken“ (Beispieldaten)](/assets/posts/2026-11-14-meet-reserve-de.png)
 
 **Wichtig:** Nutze das nicht auf geteilten Computern. Wer dieses Gerät nutzt, kann den Raum moderieren.
 
@@ -91,11 +91,11 @@ The start page has a new **Reserved rooms** box. It shows the rooms that you sav
 - **Manage**. When the room ends in less than 3 days, the button changes to **Extend** and the entry shows "expires in N days".
 - **×** (remove from this device). This removes the room from the list only. The room itself stays.
 
-![Start page with the "Reserved rooms" box and the donation banner, German view (example data)](/assets/posts/2026-11-14-meet-start-reserved-rooms-de.png)
+![Start page with the "Reserved rooms" box and the donation banner (example data)](/assets/posts/2026-11-14-meet-start-en.png)
 
 With **Add link** you add a room that you already have. Paste a host link or a manage link and, if you want, a name. Viewer and speaker links do not work here.
 
-![The "Add link" form (example data)](/assets/posts/2026-11-14-meet-add-link-en.png)
+![The "Add link" form (example data)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
 The box checks your rooms regularly. If a room expired, was deleted or got new links, the box tells you.
 
@@ -103,7 +103,7 @@ The box checks your rooms regularly. If a room expired, was deleted or got new l
 
 On [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) there is a new checkbox **Remember on this device**. It is off by default. When you tick it, you can give the room a name, for example "Club meeting". The room then shows on the start page.
 
-![Reserve page with "Remember on this device", German view (example data)](/assets/posts/2026-11-14-meet-reserve-remember-de.png)
+![Reserve page with "Remember on this device" (example data)](/assets/posts/2026-11-14-meet-reserve-en.png)
 
 **Important:** Do not use this on shared computers. Anyone who uses the device can host the room.
 
@@ -113,7 +113,7 @@ The list is only in your browser's storage (localStorage) on this device. We sto
 
 **Free, but not without cost**
 
-The start page now also has a small note: "Freifunk Meet is free, but not without cost. Volunteers run the servers. With a donation you keep Meet free and ad-free." If Meet helps you, we are happy about a [donation](https://ffmuc.net/spenden/).
+The start page now also has a small note: "Freifunk Meet is free, but it is not free to run. Volunteers operate the servers. A donation keeps Meet free and without ads." If Meet helps you, we are happy about a [donation](https://ffmuc.net/spenden/).
 
 **Other improvements**
 
@@ -160,11 +160,11 @@ La page d'accueil a un nouveau bloc **Salles réservées** (affiché en allemand
 - **Gérer** (Manage). Si la salle expire dans moins de 3 jours, le bouton devient **Prolonger** (Extend) et l'entrée indique « expire dans N jours ».
 - **×** (retirer de cet appareil). La salle est seulement retirée de la liste. La salle elle-même reste.
 
-![Page d'accueil avec le bloc des salles réservées et la bannière de dons, vue allemande (données d'exemple)](/assets/posts/2026-11-14-meet-start-reserved-rooms-de.png)
+![Bloc « Reserved rooms » sur la page d'accueil, avec la bannière de dons, vue anglaise (données d'exemple)](/assets/posts/2026-11-14-meet-start-en.png)
 
 Avec **Ajouter un lien** (Add link), vous ajoutez une salle que vous avez déjà. Collez un lien d'hôte ou de gestion et, si vous voulez, un nom. Les liens de spectateur et d'intervenant ne fonctionnent pas ici.
 
-![Le formulaire « Add link », vue anglaise (données d'exemple)](/assets/posts/2026-11-14-meet-add-link-en.png)
+![Le formulaire « Add link », vue anglaise (données d'exemple)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
 Le bloc vérifie vos salles régulièrement. Si une salle a expiré, a été supprimée ou a de nouveaux liens, le bloc vous le dit.
 
@@ -172,7 +172,7 @@ Le bloc vérifie vos salles régulièrement. Si une salle a expiré, a été sup
 
 Sur [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/), il y a une nouvelle case **Mémoriser sur cet appareil**. Elle est désactivée par défaut. Si vous la cochez, vous pouvez donner un nom à la salle, par exemple « Réunion de l'association ». La salle apparaît alors sur la page d'accueil.
 
-![Page de réservation avec la case à cocher, vue allemande (données d'exemple)](/assets/posts/2026-11-14-meet-reserve-remember-de.png)
+![Page de réservation avec « Mémoriser sur cet appareil » (données d'exemple)](/assets/posts/2026-11-14-meet-reserve-fr.png)
 
 **Important :** n'utilisez pas cette option sur des ordinateurs partagés. Toute personne qui utilise l'appareil peut animer la salle.
 
@@ -229,11 +229,11 @@ La página de inicio tiene un nuevo cuadro **Salas reservadas** (se muestra en a
 - **Gestionar** (Manage). Si la sala termina en menos de 3 días, el botón cambia a **Prolongar** (Extend) y la entrada muestra «caduca en N días».
 - **×** (quitar de este dispositivo). Solo quita la sala de la lista. La sala sigue existiendo.
 
-![Página de inicio con el cuadro de salas reservadas y el banner de donaciones, vista en alemán (datos de ejemplo)](/assets/posts/2026-11-14-meet-start-reserved-rooms-de.png)
+![Cuadro «Reserved rooms» en la página de inicio, con el banner de donaciones, vista en inglés (datos de ejemplo)](/assets/posts/2026-11-14-meet-start-en.png)
 
 Con **Añadir enlace** (Add link) añades una sala que ya tienes. Pega un enlace de anfitrión o de gestión y, si quieres, un nombre. Los enlaces de espectador y de ponente no funcionan aquí.
 
-![El formulario «Add link», vista en inglés (datos de ejemplo)](/assets/posts/2026-11-14-meet-add-link-en.png)
+![El formulario «Add link», vista en inglés (datos de ejemplo)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
 El cuadro comprueba tus salas regularmente. Si una sala caducó, se eliminó o tiene enlaces nuevos, el cuadro te lo dice.
 
@@ -241,7 +241,7 @@ El cuadro comprueba tus salas regularmente. Si una sala caducó, se eliminó o t
 
 En [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) hay una nueva casilla **Recordar en este dispositivo**. Está desactivada por defecto. Si la marcas, puedes dar un nombre a la sala, por ejemplo «Reunión de la asociación». La sala aparece entonces en la página de inicio.
 
-![Página de reserva con la casilla, vista en alemán (datos de ejemplo)](/assets/posts/2026-11-14-meet-reserve-remember-de.png)
+![Página de reserva con «Recordar en este dispositivo» (datos de ejemplo)](/assets/posts/2026-11-14-meet-reserve-es.png)
 
 **Importante:** no lo uses en ordenadores compartidos. Cualquier persona que use el dispositivo puede moderar la sala.
 
@@ -298,11 +298,11 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 - **Керувати** (Manage). Якщо кімната закінчується менше ніж за 3 дні, кнопка змінюється на **Продовжити** (Extend), а запис показує «закінчується через N днів».
 - **×** (прибрати з цього пристрою). Це прибирає кімнату лише зі списку. Сама кімната залишається.
 
-![Стартова сторінка з блоком зарезервованих кімнат і банером пожертв, німецька версія (приклад даних)](/assets/posts/2026-11-14-meet-start-reserved-rooms-de.png)
+![Блок «Reserved rooms» на стартовій сторінці з банером пожертв, англійська версія (приклад даних)](/assets/posts/2026-11-14-meet-start-en.png)
 
 За допомогою **Додати посилання** (Add link) ви додаєте кімнату, яка у вас уже є. Вставте посилання модератора або посилання для керування і, за бажанням, назву. Посилання для глядачів і доповідачів тут не працюють.
 
-![Форма «Add link», англійська версія (приклад даних)](/assets/posts/2026-11-14-meet-add-link-en.png)
+![Форма «Add link», англійська версія (приклад даних)](/assets/posts/2026-11-14-meet-addlink-en.png)
 
 Блок регулярно перевіряє ваші кімнати. Якщо термін кімнати закінчився, її видалено або вона отримала нові посилання, блок про це повідомить.
 
@@ -310,7 +310,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 На [meet.ffmuc.net/reserve](https://meet.ffmuc.net/reserve/) є новий прапорець **Запам’ятати на цьому пристрої**. За замовчуванням він вимкнений. Якщо ви його ставите, можна дати кімнаті назву, наприклад «Збори товариства». Тоді кімната з’явиться на стартовій сторінці.
 
-![Сторінка резервування з прапорцем, німецька версія (приклад даних)](/assets/posts/2026-11-14-meet-reserve-remember-de.png)
+![Сторінка резервування з «Запам’ятати на цьому пристрої» (приклад даних)](/assets/posts/2026-11-14-meet-reserve-ua.png)
 
 **Важливо:** не використовуйте це на спільних комп’ютерах. Будь-хто, хто користується пристроєм, може модерувати кімнату.
 
