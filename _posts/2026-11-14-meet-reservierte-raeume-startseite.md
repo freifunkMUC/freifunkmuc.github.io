@@ -8,7 +8,7 @@ translations: [en, fr, es, ua]
 
 <section data-lang="de" class="language-content active" markdown="1">
 
-**Liebe Freifunkerinnen und Freifunker,**
+**Hallo zusammen,**
 
 deine [reservierten Räume](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/) findest du jetzt direkt auf der Startseite von [meet.ffmuc.net](https://meet.ffmuc.net/). In der [Desktop-App](/freifunkmuc/meet/2026/11/01/meet-desktop-app-v2026-10-100/) gibt es das schon unter **Meine Räume**. Jetzt kann das auch der Browser. Außerdem haben wir in den letzten Tagen die Bildschirmfreigabe und die Verbindung verbessert.
 
@@ -77,7 +77,7 @@ Wir freuen uns über euer Feedback!
 
 <section data-lang="en" class="language-content" markdown="1">
 
-**Dear Freifunk community,**
+**Hello everyone,**
 
 You now find your [reserved rooms](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/) right on the start page of [meet.ffmuc.net](https://meet.ffmuc.net/). The [desktop app](/freifunkmuc/meet/2026/11/01/meet-desktop-app-v2026-10-100/) already has this in **My rooms**. Now the browser can do it too. In the last days we also made screen sharing and the connection better.
 
@@ -146,7 +146,7 @@ We look forward to your feedback!
 
 <section data-lang="fr" class="language-content" markdown="1">
 
-**Chères Freifunkeuses, chers Freifunkeurs,**
+**Bonjour à toutes et à tous !**
 
 Vos [salles réservées](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/) sont maintenant directement sur la page d'accueil de [meet.ffmuc.net](https://meet.ffmuc.net/). L'[application de bureau](/freifunkmuc/meet/2026/11/01/meet-desktop-app-v2026-10-100/) le propose déjà dans **Mes salles**. Maintenant, le navigateur le fait aussi. Ces derniers jours, nous avons aussi amélioré le partage d'écran et la connexion.
 
@@ -215,7 +215,7 @@ Vos retours sont les bienvenus !
 
 <section data-lang="es" class="language-content" markdown="1">
 
-**Queridas y queridos freifunkers:**
+**¡Hola a todos!**
 
 Ahora encuentras tus [salas reservadas](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/) directamente en la página de inicio de [meet.ffmuc.net](https://meet.ffmuc.net/). La [aplicación de escritorio](/freifunkmuc/meet/2026/11/01/meet-desktop-app-v2026-10-100/) ya lo tiene en **Mis salas**. Ahora el navegador también puede hacerlo. Estos días también hemos mejorado la pantalla compartida y la conexión.
 
@@ -284,7 +284,7 @@ Todos los cambios están en [ffmuc-salt-public](https://github.com/freifunkMUC/f
 
 <section data-lang="ua" class="language-content" markdown="1">
 
-**Дорогі фрайфункерки та фрайфункери!**
+**Привіт усім!**
 
 Тепер ваші [зарезервовані кімнати](/freifunkmuc/meet/2026/10/17/meet-zuschauer-raeume/) є прямо на стартовій сторінці [meet.ffmuc.net](https://meet.ffmuc.net/). У [десктопному застосунку](/freifunkmuc/meet/2026/11/01/meet-desktop-app-v2026-10-100/) це вже є в розділі **Мої кімнати**. Тепер це вміє і браузер. За останні дні ми також покращили демонстрацію екрана та з’єднання.
 
