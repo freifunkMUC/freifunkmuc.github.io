@@ -27,9 +27,9 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 
 ## Was ändert sich für dich?
 
-- **Echte öffentliche IPv6-Adressen** für Clients, ohne NAT.
+- **Eigenes IPv6-Präfix für jeden Knoten.** Es gibt kein gemeinsames Layer-2-Netz mehr und keinen Broadcast-Verkehr von anderen Orten.
 - **IPv4 geht weiter**, wird aber unterwegs über IPv6 transportiert (464XLAT).
-- **Zwei Standorte**: München und Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
+- **Der Knoten wählt selbst den Standort**: München oder Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
 - Für Leute, die nur surfen, sieht alles aus wie vorher: gleiche SSID, gleiche Hardware.
 
 ## So testest du
@@ -133,9 +133,9 @@ With Parker, **each node gets its own small room**: its own network with its own
 
 ## What changes for you?
 
-- Clients get **real public IPv6 addresses**, without NAT.
+- **Each node gets its own IPv6 prefix.** There is no shared layer-2 network and no broadcast traffic from other places.
 - **IPv4 continues to work.** It goes through IPv6 on the way (464XLAT).
-- **Two sites**: Munich and Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
+- **The node selects the site itself**: Munich or Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
 - For people who only use the Wi-Fi, nothing changes: same SSID, same hardware.
 
 ## How to test
@@ -239,9 +239,9 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 
 ## Qu'est-ce qui change pour vous ?
 
-- De **vraies adresses IPv6 publiques** pour les clients, sans NAT.
+- **Chaque nœud a son propre préfixe IPv6.** Il n'y a plus de réseau commun de couche 2 ni de trafic broadcast venant d'ailleurs.
 - **L'IPv4 fonctionne toujours**, mais passe par IPv6 en chemin (464XLAT).
-- **Deux sites** : Munich et Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
+- **Le nœud choisit lui-même le site** : Munich ou Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
 - Pour les personnes qui utilisent seulement le Wi-Fi, rien ne change : même SSID, même matériel.
 
 ## Comment tester
@@ -345,9 +345,9 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 
 ## ¿Qué cambia para ti?
 
-- **Direcciones IPv6 públicas reales** para los clientes, sin NAT.
+- **Cada nodo tiene su propio prefijo IPv6.** Ya no hay una red compartida de capa 2 ni tráfico broadcast de otros lugares.
 - **IPv4 sigue funcionando**, pero viaja por IPv6 en el camino (464XLAT).
-- **Dos sitios**: Múnich y Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
+- **El nodo elige el sitio por sí mismo**: Múnich o Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
 - Para quien solo usa el Wi-Fi, nada cambia: mismo SSID, mismo hardware.
 
 ## Cómo probar
@@ -451,9 +451,9 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 ## Що зміниться для вас?
 
-- **Справжні публічні IPv6-адреси** для клієнтів, без NAT.
+- **Кожен вузол має власний IPv6-префікс.** Немає спільної мережі рівня 2 і broadcast-трафіку з інших місць.
 - **IPv4 працює далі**, але по дорозі передається через IPv6 (464XLAT).
-- **Два майданчики**: Мюнхен і Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
+- **Вузол сам обирає майданчик**: Мюнхен або Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
 - Для тих, хто лише користується Wi-Fi, нічого не змінюється: той самий SSID, те саме обладнання.
 
 ## Як тестувати
