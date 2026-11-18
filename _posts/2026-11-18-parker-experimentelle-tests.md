@@ -41,7 +41,12 @@ Darum setzt Parker ganz auf IPv6. Jeder Knoten bekommt eigene IPv6-Adressen. IPv
 ## So testest du
 
 1. **Notiere** Name, Standort und Kontakt deines Knotens.
-2. Lade das passende **Sysupgrade-Image** von [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Prüfe Modell **und Hardware-Revision**.
+2. Hol dir die Firmware im Firmware-Selector auf [firmware.ffmuc.net](https://firmware.ffmuc.net/):
+   - **Schritt 1:** Gib dein Routermodell ein. Prüfe Modell **und Hardware-Revision**.
+   - **Schritt 2:** Wähle **Upgrade** (Sysupgrade-Image).
+   - **Schritt 3:** Klicke auf **Experimentelle Firmware anzeigen**, lies die Warnung und wähle **parker**.
+
+   Alternativ findest du alle Images direkt unter [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/).
 3. Spiele es wie gewohnt ein: im **Konfigurationsmodus** über „Firmware aktualisieren“ oder per SSH mit `sysupgrade`.
 4. Prüfe, ob dein Knoten auf der [Parker-Karte](https://map-parker.ffmuc.net/) erscheint.
 5. Sag uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), was geht und was nicht.
@@ -161,7 +166,12 @@ Thus, Parker uses IPv6 for all traffic. Each node gets its own IPv6 addresses. I
 ## How to test
 
 1. **Write down** the name, the location and the contact of your node.
-2. Download the correct **sysupgrade image** from [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Check the model **and the hardware revision**.
+2. Get the firmware from the firmware selector at [firmware.ffmuc.net](https://firmware.ffmuc.net/). The selector is in German:
+   - **Step 1 ("Wähle Dein Routermodell"):** Type your router model. Check the model **and the hardware revision**.
+   - **Step 2 ("Wähle Deine Installationsart"):** Select **Upgrade** (sysupgrade image).
+   - **Step 3 ("Wähle Deinen Update-Kanal"):** Click **Experimentelle Firmware anzeigen** ("show experimental firmware"). Read the warning. Then select **parker**.
+
+   You can also find all images directly at [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/).
 3. Install it as usual: in **config mode** with "Upgrade firmware", or with `sysupgrade` through SSH.
 4. Make sure that your node shows on the [Parker map](https://map-parker.ffmuc.net/).
 5. Tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) what works and what does not work.
@@ -281,7 +291,12 @@ C'est pourquoi Parker utilise IPv6 pour tout le trafic. Chaque nœud reçoit ses
 ## Comment tester
 
 1. **Notez** le nom, l'emplacement et le contact de votre nœud.
-2. Téléchargez la bonne **image sysupgrade** sur [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Vérifiez le modèle **et la révision matérielle**.
+2. Téléchargez le firmware avec le sélecteur sur [firmware.ffmuc.net](https://firmware.ffmuc.net/) (en allemand) :
+   - **Étape 1 (« Wähle Dein Routermodell ») :** saisissez le modèle de votre routeur. Vérifiez le modèle **et la révision matérielle**.
+   - **Étape 2 (« Wähle Deine Installationsart ») :** choisissez **Upgrade** (image sysupgrade).
+   - **Étape 3 (« Wähle Deinen Update-Kanal ») :** cliquez sur **Experimentelle Firmware anzeigen** (« afficher le firmware expérimental »), lisez l'avertissement, puis choisissez **parker**.
+
+   Vous trouvez aussi toutes les images directement sur [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/).
 3. Installez-la comme d'habitude : en **mode configuration** avec « Mettre à jour le firmware », ou avec `sysupgrade` via SSH.
 4. Vérifiez que votre nœud apparaît sur la [carte Parker](https://map-parker.ffmuc.net/).
 5. Dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) ce qui marche et ce qui ne marche pas.
@@ -401,7 +416,12 @@ Por eso Parker usa IPv6 para todo el tráfico. Cada nodo recibe sus propias dire
 ## Cómo probar
 
 1. **Anota** el nombre, la ubicación y el contacto de tu nodo.
-2. Descarga la **imagen sysupgrade** correcta de [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Comprueba el modelo **y la revisión de hardware**.
+2. Descarga el firmware con el selector en [firmware.ffmuc.net](https://firmware.ffmuc.net/) (en alemán):
+   - **Paso 1 («Wähle Dein Routermodell»):** escribe el modelo de tu router. Comprueba el modelo **y la revisión de hardware**.
+   - **Paso 2 («Wähle Deine Installationsart»):** elige **Upgrade** (imagen sysupgrade).
+   - **Paso 3 («Wähle Deinen Update-Kanal»):** haz clic en **Experimentelle Firmware anzeigen** («mostrar firmware experimental»), lee el aviso y elige **parker**.
+
+   También encuentras todas las imágenes directamente en [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/).
 3. Instálala como siempre: en el **modo de configuración** con «Actualizar firmware», o con `sysupgrade` por SSH.
 4. Comprueba que tu nodo aparece en el [mapa de Parker](https://map-parker.ffmuc.net/).
 5. Cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) qué funciona y qué no.
@@ -521,7 +541,12 @@ IPv6 — це майбутнє інтернету. IPv4 потрібен нам 
 ## Як тестувати
 
 1. **Запишіть** назву, місце та контакт вашого вузла.
-2. Завантажте правильний **sysupgrade-образ** з [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Перевірте модель **і апаратну ревізію**.
+2. Завантажте прошивку через селектор на [firmware.ffmuc.net](https://firmware.ffmuc.net/) (німецькою):
+   - **Крок 1 («Wähle Dein Routermodell»):** введіть модель роутера. Перевірте модель **і апаратну ревізію**.
+   - **Крок 2 («Wähle Deine Installationsart»):** виберіть **Upgrade** (sysupgrade-образ).
+   - **Крок 3 («Wähle Deinen Update-Kanal»):** натисніть **Experimentelle Firmware anzeigen** («показати експериментальну прошивку»), прочитайте попередження й виберіть **parker**.
+
+   Усі образи також є напряму на [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/).
 3. Встановіть його як завжди: у **режимі налаштування** через «Оновити прошивку» або командою `sysupgrade` через SSH.
 4. Перевірте, що ваш вузол з'явився на [карті Parker](https://map-parker.ffmuc.net/).
 5. Розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), що працює, а що ні.
