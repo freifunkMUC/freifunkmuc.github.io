@@ -14,6 +14,7 @@ translations: [en, fr, es, ua]
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (Version `v2026.11.0-parker1`)
 - **Test-Kanal im Chat:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Fehler melden:** als Issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) oder im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Karte der Test-Knoten:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## Was ist Parker?
@@ -122,6 +123,7 @@ Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#1
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
 - **Test channel in our chat:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Report bugs:** as an issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) or in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Map of the test nodes:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## What is Parker?
@@ -230,6 +232,7 @@ The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#1
 
 - **Firmware :** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
 - **Canal de test dans le chat :** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Signaler un bug :** comme issue dans [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) ou dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Carte des nœuds de test :** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## Qu'est-ce que Parker ?
@@ -338,6 +341,7 @@ Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (versión `v2026.11.0-parker1`)
 - **Canal de pruebas en el chat:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Informar de errores:** como issue en [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) o en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Mapa de los nodos de prueba:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## ¿Qué es Parker?
@@ -446,6 +450,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 - **Прошивка:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (версія `v2026.11.0-parker1`)
 - **Тестовий канал у чаті:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Повідомити про помилку:** як issue в [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) або в [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Карта тестових вузлів:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## Що таке Parker?
