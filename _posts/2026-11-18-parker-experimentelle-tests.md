@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Parker: Wir suchen Tester für unser geroutetes Freifunk-Netz"
+title: "Parker ist da (experimentell): Wir suchen Tester für Knoten und Meshes"
 date: 2026-11-18 08:00:00 +0100
 categories: freifunkmuc firmware
 translations: [en, fr, es, ua]
@@ -8,7 +8,7 @@ translations: [en, fr, es, ua]
 
 <section data-lang="de" class="language-content active" markdown="1">
 
-**Kurz gesagt:** Wir testen eine neue Technik für unser Freifunk-Netz: **Parker**. Sie kommt von Freifunk Braunschweig. Die Firmware ist **sehr experimentell**. Wir suchen jetzt **Tester**, die einen Knoten umflashen und uns berichten.
+**Kurz gesagt:** Wir testen eine neue Technik für unser Freifunk-Netz: **Parker**. Sie kommt von Freifunk Braunschweig. Die Firmware ist **sehr experimentell**. Wir suchen jetzt **Tester**: für einzelne Knoten **und für ganze Meshes**. Ein Mesh sind mehrere Knoten, die sich über WLAN oder Kabel verbinden.
 
 > ⚠️ **Sehr experimentell.** Du kannst von der normalen FFMUC-Firmware auf Parker updaten. **Rechne aber damit, dass du zurück auf die normale Firmware musst.** Nimm keinen Knoten, auf den andere Menschen angewiesen sind.
 
@@ -41,6 +41,8 @@ Parker:  Handy ─ Knoten (kleiner Router) ── IPv6-Tunnel ── Gateway ─
 3. Spiele es wie gewohnt ein: im **Konfigurationsmodus** über „Firmware aktualisieren“ oder per SSH mit `sysupgrade`.
 4. Prüfe, ob dein Knoten auf der [Parker-Karte](https://map-parker.ffmuc.net/) erscheint.
 5. Sag uns im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), was geht und was nicht.
+
+**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Schreib uns vorher im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), dann planen wir den Test zusammen.
 
 ## Zurück zur normalen Firmware
 
@@ -112,7 +114,9 @@ Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#1
 
 <section data-lang="en" class="language-content" markdown="1">
 
-**In short:** We test a new technology for our Freifunk network: **Parker**. It comes from Freifunk Braunschweig. The firmware is **very experimental**. We need **testers** now. Flash one node and tell us the results.
+## Parker is here (experimental): we need testers for nodes and meshes
+
+**In short:** We test a new technology for our Freifunk network: **Parker**. It comes from Freifunk Braunschweig. The firmware is **very experimental**. We need **testers** now: for single nodes **and for full meshes**. A mesh is a group of nodes that connect through Wi-Fi or cable.
 
 > ⚠️ **Very experimental.** You can upgrade from the normal FFMUC firmware to Parker. **But be ready to go back to the normal firmware.** Do not use a node that other people depend on.
 
@@ -145,6 +149,8 @@ Parker:  phone ─ node (small router) ── IPv6 tunnel ── gateway ─ Int
 3. Install it as usual: in **config mode** with "Upgrade firmware", or with `sysupgrade` through SSH.
 4. Make sure that your node shows on the [Parker map](https://map-parker.ffmuc.net/).
 5. Tell us in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) what works and what does not work.
+
+**Do you have a mesh?** We also want to test Parker with meshes. Write to us in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) before you start. Then we plan the test together.
 
 ## Go back to the normal firmware
 
@@ -216,7 +222,9 @@ The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#1
 
 <section data-lang="fr" class="language-content" markdown="1">
 
-**En bref :** Nous testons une nouvelle technique pour notre réseau Freifunk : **Parker**. Elle vient de Freifunk Braunschweig. Le firmware est **très expérimental**. Nous cherchons maintenant des **testeurs** qui flashent un nœud et nous font un retour.
+## Parker est là (expérimental) : nous cherchons des testeurs pour nœuds et meshes
+
+**En bref :** Nous testons une nouvelle technique pour notre réseau Freifunk : **Parker**. Elle vient de Freifunk Braunschweig. Le firmware est **très expérimental**. Nous cherchons maintenant des **testeurs** : pour des nœuds seuls **et pour des meshes entiers**. Un mesh, ce sont plusieurs nœuds reliés par Wi-Fi ou par câble.
 
 > ⚠️ **Très expérimental.** Vous pouvez passer du firmware FFMUC normal à Parker. **Mais soyez prêt à revenir au firmware normal.** N'utilisez pas un nœud dont d'autres personnes dépendent.
 
@@ -249,6 +257,8 @@ Parker :      téléphone ─ nœud (petit routeur) ── tunnel IPv6 ── pa
 3. Installez-la comme d'habitude : en **mode configuration** avec « Mettre à jour le firmware », ou avec `sysupgrade` via SSH.
 4. Vérifiez que votre nœud apparaît sur la [carte Parker](https://map-parker.ffmuc.net/).
 5. Dites-nous dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) ce qui marche et ce qui ne marche pas.
+
+**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Écrivez-nous d'abord dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) et nous planifions le test ensemble.
 
 ## Revenir au firmware normal
 
@@ -320,7 +330,9 @@ Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages
 
 <section data-lang="es" class="language-content" markdown="1">
 
-**En resumen:** Probamos una nueva técnica para nuestra red Freifunk: **Parker**. Viene de Freifunk Braunschweig. El firmware es **muy experimental**. Ahora buscamos **testers** que flasheen un nodo y nos cuenten los resultados.
+## Parker ya está aquí (experimental): buscamos testers para nodos y meshes
+
+**En resumen:** Probamos una nueva técnica para nuestra red Freifunk: **Parker**. Viene de Freifunk Braunschweig. El firmware es **muy experimental**. Ahora buscamos **testers**: para nodos sueltos **y para meshes completos**. Un mesh son varios nodos conectados por Wi-Fi o por cable.
 
 > ⚠️ **Muy experimental.** Puedes actualizar del firmware normal de FFMUC a Parker. **Pero prepárate para volver al firmware normal.** No uses un nodo del que dependan otras personas.
 
@@ -353,6 +365,8 @@ Parker:  móvil ─ nodo (pequeño router) ── túnel IPv6 ── gateway ─
 3. Instálala como siempre: en el **modo de configuración** con «Actualizar firmware», o con `sysupgrade` por SSH.
 4. Comprueba que tu nodo aparece en el [mapa de Parker](https://map-parker.ffmuc.net/).
 5. Cuéntanos en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) qué funciona y qué no.
+
+**¿Tienes un mesh?** También queremos probar Parker con meshes. Escríbenos antes en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) y planificamos la prueba juntos.
 
 ## Volver al firmware normal
 
@@ -424,7 +438,9 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 <section data-lang="ua" class="language-content" markdown="1">
 
-**Коротко:** Ми тестуємо нову технологію для нашої мережі Freifunk: **Parker**. Вона походить від Freifunk Braunschweig. Прошивка **дуже експериментальна**. Зараз ми шукаємо **тестувальників**, які перепрошиють один вузол і розкажуть нам про результати.
+## Parker вже тут (експериментально): шукаємо тестувальників для вузлів і mesh-мереж
+
+**Коротко:** Ми тестуємо нову технологію для нашої мережі Freifunk: **Parker**. Вона походить від Freifunk Braunschweig. Прошивка **дуже експериментальна**. Зараз ми шукаємо **тестувальників**: для окремих вузлів **і для цілих mesh-мереж**. Mesh — це кілька вузлів, з'єднаних через Wi-Fi або кабель.
 
 > ⚠️ **Дуже експериментально.** Ви можете оновитися зі звичайної прошивки FFMUC до Parker. **Але будьте готові повернутися до звичайної прошивки.** Не використовуйте вузол, від якого залежать інші люди.
 
@@ -457,6 +473,8 @@ Parker:   телефон ─ вузол (маленький роутер) ──
 3. Встановіть його як завжди: у **режимі налаштування** через «Оновити прошивку» або командою `sysupgrade` через SSH.
 4. Перевірте, що ваш вузол з'явився на [карті Parker](https://map-parker.ffmuc.net/).
 5. Розкажіть нам у [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), що працює, а що ні.
+
+**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Спершу напишіть нам у [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), і ми разом сплануємо тест.
 
 ## Повернення до звичайної прошивки
 
