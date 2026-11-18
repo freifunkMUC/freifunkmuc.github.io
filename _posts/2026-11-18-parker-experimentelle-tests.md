@@ -30,7 +30,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 - **Eigenes IPv6-Präfix für jeden Knoten.** Es gibt kein gemeinsames Layer-2-Netz mehr und keinen Broadcast-Verkehr von anderen Orten.
 - **IPv4 geht weiter**, wird aber unterwegs über IPv6 transportiert (464XLAT).
 - **Der Knoten wählt selbst den Standort**: München oder Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
-- Für Leute, die nur surfen, sieht alles aus wie vorher: gleiche SSID, gleiche Hardware.
+- **Neuer WLAN-Name**: `muenchen.freifunk.net/parker`. Die Hardware bleibt gleich.
 
 ## So testest du
 
@@ -40,7 +40,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 4. Prüfe, ob dein Knoten auf der [Parker-Karte](https://map-parker.ffmuc.net/) erscheint.
 5. Sag uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), was geht und was nicht.
 
-**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Schreib uns vorher im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), dann planen wir den Test zusammen.
+**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Aktualisiere alle Knoten im Mesh auf Parker und erzähl uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), wie es läuft. Parker-Knoten meshen nicht mit normalen Knoten, darum müssen alle Knoten im Mesh Parker haben.
 
 ## Zurück zur normalen Firmware
 
@@ -54,7 +54,7 @@ Hilfe bekommst du jederzeit im Test-Kanal [Projekt Parker - L3-routed APs](https
 
 Im April 2021 haben wir in [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87) die Idee eines gerouteten FFMUC beschrieben: batman-adv nur noch im lokalen Mesh. Kurz danach meldete sich **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) von **Freifunk Braunschweig (FFBS)**: FFBS baut genau so etwas schon, unter dem Namen [Parker](https://freifunk-bs.de/parker.html). Seit Ende 2021 läuft Braunschweig damit. Mehr dazu im FFBS-Blog: [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) und [Project Parker im Beta-Betrieb (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
-Es folgte eine lange und gute Diskussion über Roaming, Datenschutz und feste IPv6-Präfixe, auch mit Leuten aus anderen Communities. Am **19./20. Oktober 2024** haben wir uns mit FFBS persönlich getroffen ([Notizen](https://pad.stratum0.org/p/freifunk_20240717_parker)). Am **14./15. November 2026** gab es ein Folgetreffen in **Aachen** mit Freifunk Aachen. Das Ergebnis: Parker läuft jetzt auch bei uns, mit zwei Standorten und IPv4 über IPv6. Unsere Pakete sind upstream im Review: [community-packages#198 bis #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
+Es folgte eine lange und gute Diskussion über Roaming, Datenschutz und feste IPv6-Präfixe, auch mit Leuten aus anderen Communities. Am **19./20. Oktober 2024** haben wir uns mit FFBS persönlich getroffen ([Notizen](https://pad.stratum0.org/p/freifunk_20240717_parker)). Letztes Wochenende (**14./15. November 2026**) gab es ein Folgetreffen in **Aachen** mit Freifunk Aachen. Das Ergebnis: Parker läuft jetzt auch bei uns, mit zwei Standorten und IPv4 über IPv6. Unsere Pakete sind upstream im Review: [community-packages#198 bis #203](https://github.com/freifunk-gluon/community-packages/pull/198).
 
 ## Danke!
 
@@ -106,7 +106,7 @@ Der Knoten fragt den Konfigurationsdienst (wgkex-Broker, `broker.ffmuc.net`, Any
 
 ### Upstream
 
-Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#198 bis #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203) (Multi-Site, 464XLAT, eBPF-CLAT, respondd, RA-Filter und Migration).
+Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#198 bis #203](https://github.com/freifunk-gluon/community-packages/pull/198) (Multi-Site, 464XLAT, eBPF-CLAT, respondd, RA-Filter und Migration).
 
 </section>
 
@@ -136,7 +136,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 - **Each node gets its own IPv6 prefix.** There is no shared layer-2 network and no broadcast traffic from other places.
 - **IPv4 continues to work.** It goes through IPv6 on the way (464XLAT).
 - **The node selects the site itself**: Munich or Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
-- For people who only use the Wi-Fi, nothing changes: same SSID, same hardware.
+- **New Wi-Fi name**: `muenchen.freifunk.net/parker`. The hardware stays the same.
 
 ## How to test
 
@@ -146,7 +146,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 4. Make sure that your node shows on the [Parker map](https://map-parker.ffmuc.net/).
 5. Tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) what works and what does not work.
 
-**Do you have a mesh?** We also want to test Parker with meshes. Write to us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) before you start. Then we plan the test together.
+**Do you have a mesh?** We also want to test Parker with meshes. Update all nodes in the mesh to Parker and tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) how it works. Parker nodes do not mesh with normal nodes. Thus, all nodes in the mesh must run Parker.
 
 ## Go back to the normal firmware
 
@@ -160,7 +160,7 @@ You can get help at any time in the test channel [Projekt Parker - L3-routed APs
 
 In April 2021, we described the idea of a routed FFMUC in [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv only in the local mesh. Soon after, **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) from **Freifunk Braunschweig (FFBS)** replied: FFBS already built this, with the name [Parker](https://freifunk-bs.de/parker.html). Braunschweig uses it since the end of 2021. Read more in the FFBS blog (German): [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) and [Project Parker in beta (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
-A long and good discussion followed about roaming, privacy and fixed IPv6 prefixes, also with people from other communities. On **19/20 October 2024** we met FFBS in person ([notes](https://pad.stratum0.org/p/freifunk_20240717_parker)). On **14/15 November 2026** we had a second meeting in **Aachen** with Freifunk Aachen. The result: Parker now also runs at FFMUC, with two sites and IPv4 through IPv6. Our packages are in upstream review: [community-packages#198 to #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
+A long and good discussion followed about roaming, privacy and fixed IPv6 prefixes, also with people from other communities. On **19/20 October 2024** we met FFBS in person ([notes](https://pad.stratum0.org/p/freifunk_20240717_parker)). Last weekend (**14/15 November 2026**), we had a second meeting in **Aachen** with Freifunk Aachen. The result: Parker now also runs at FFMUC, with two sites and IPv4 through IPv6. Our packages are in upstream review: [community-packages#198 to #203](https://github.com/freifunk-gluon/community-packages/pull/198).
 
 ## Thank you!
 
@@ -212,7 +212,7 @@ The node asks the config service (wgkex broker, `broker.ffmuc.net`, anycast). It
 
 ### Upstream
 
-The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#198 to #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203) (multi-site, 464XLAT, eBPF CLAT, respondd, RA filter and migration).
+The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#198 to #203](https://github.com/freifunk-gluon/community-packages/pull/198) (multi-site, 464XLAT, eBPF CLAT, respondd, RA filter and migration).
 
 </section>
 
@@ -242,7 +242,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 - **Chaque nœud a son propre préfixe IPv6.** Il n'y a plus de réseau commun de couche 2 ni de trafic broadcast venant d'ailleurs.
 - **L'IPv4 fonctionne toujours**, mais passe par IPv6 en chemin (464XLAT).
 - **Le nœud choisit lui-même le site** : Munich ou Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
-- Pour les personnes qui utilisent seulement le Wi-Fi, rien ne change : même SSID, même matériel.
+- **Nouveau nom Wi-Fi** : `muenchen.freifunk.net/parker`. Le matériel reste le même.
 
 ## Comment tester
 
@@ -252,7 +252,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 4. Vérifiez que votre nœud apparaît sur la [carte Parker](https://map-parker.ffmuc.net/).
 5. Dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) ce qui marche et ce qui ne marche pas.
 
-**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Écrivez-nous d'abord dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) et nous planifions le test ensemble.
+**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Mettez à jour tous les nœuds du mesh vers Parker et dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) comment cela fonctionne. Les nœuds Parker ne forment pas de mesh avec les nœuds normaux : tous les nœuds du mesh doivent donc utiliser Parker.
 
 ## Revenir au firmware normal
 
@@ -266,7 +266,7 @@ Vous trouverez de l'aide à tout moment dans le canal de test [Projekt Parker - 
 
 En avril 2021, nous avons décrit l'idée d'un FFMUC routé dans [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87) : batman-adv seulement dans le mesh local. Peu après, **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) de **Freifunk Braunschweig (FFBS)** a répondu : FFBS construisait déjà exactement cela, sous le nom [Parker](https://freifunk-bs.de/parker.html). Braunschweig l'utilise depuis fin 2021. Pour en savoir plus, voir le blog de FFBS (en allemand) : [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) et [Project Parker en bêta (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
-Une longue et bonne discussion a suivi sur le roaming, la vie privée et les préfixes IPv6 fixes, aussi avec des personnes d'autres communautés. Les **19 et 20 octobre 2024**, nous avons rencontré FFBS en personne ([notes](https://pad.stratum0.org/p/freifunk_20240717_parker)). Les **14 et 15 novembre 2026**, une deuxième rencontre a eu lieu à **Aix-la-Chapelle** avec Freifunk Aachen. Résultat : Parker tourne maintenant aussi chez nous, avec deux sites et l'IPv4 via IPv6. Nos paquets sont en revue upstream : [community-packages#198 à #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
+Une longue et bonne discussion a suivi sur le roaming, la vie privée et les préfixes IPv6 fixes, aussi avec des personnes d'autres communautés. Les **19 et 20 octobre 2024**, nous avons rencontré FFBS en personne ([notes](https://pad.stratum0.org/p/freifunk_20240717_parker)). Le week-end dernier (**14 et 15 novembre 2026**), une deuxième rencontre a eu lieu à **Aix-la-Chapelle** avec Freifunk Aachen. Résultat : Parker tourne maintenant aussi chez nous, avec deux sites et l'IPv4 via IPv6. Nos paquets sont en revue upstream : [community-packages#198 à #203](https://github.com/freifunk-gluon/community-packages/pull/198).
 
 ## Merci !
 
@@ -318,7 +318,7 @@ Le nœud interroge le service de configuration (broker wgkex, `broker.ffmuc.net`
 
 ### Upstream
 
-Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages#198 à #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203) (multi-site, 464XLAT, CLAT eBPF, respondd, filtre RA et migration).
+Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages#198 à #203](https://github.com/freifunk-gluon/community-packages/pull/198) (multi-site, 464XLAT, CLAT eBPF, respondd, filtre RA et migration).
 
 </section>
 
@@ -348,7 +348,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 - **Cada nodo tiene su propio prefijo IPv6.** Ya no hay una red compartida de capa 2 ni tráfico broadcast de otros lugares.
 - **IPv4 sigue funcionando**, pero viaja por IPv6 en el camino (464XLAT).
 - **El nodo elige el sitio por sí mismo**: Múnich o Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
-- Para quien solo usa el Wi-Fi, nada cambia: mismo SSID, mismo hardware.
+- **Nuevo nombre de Wi-Fi**: `muenchen.freifunk.net/parker`. El hardware es el mismo.
 
 ## Cómo probar
 
@@ -358,7 +358,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 4. Comprueba que tu nodo aparece en el [mapa de Parker](https://map-parker.ffmuc.net/).
 5. Cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) qué funciona y qué no.
 
-**¿Tienes un mesh?** También queremos probar Parker con meshes. Escríbenos antes en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) y planificamos la prueba juntos.
+**¿Tienes un mesh?** También queremos probar Parker con meshes. Actualiza todos los nodos del mesh a Parker y cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) cómo funciona. Los nodos Parker no forman mesh con los nodos normales, así que todos los nodos del mesh deben usar Parker.
 
 ## Volver al firmware normal
 
@@ -372,7 +372,7 @@ Puedes pedir ayuda en cualquier momento en el canal de pruebas [Projekt Parker -
 
 En abril de 2021 describimos la idea de un FFMUC enrutado en [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv solo en el mesh local. Poco después respondió **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) de **Freifunk Braunschweig (FFBS)**: FFBS ya estaba construyendo exactamente eso, con el nombre [Parker](https://freifunk-bs.de/parker.html). Braunschweig lo usa desde finales de 2021. Más información en el blog de FFBS (en alemán): [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) y [Project Parker en beta (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
-Siguió una larga y buena discusión sobre roaming, privacidad y prefijos IPv6 fijos, también con personas de otras comunidades. El **19 y 20 de octubre de 2024** nos reunimos en persona con FFBS ([notas](https://pad.stratum0.org/p/freifunk_20240717_parker)). El **14 y 15 de noviembre de 2026** hubo una segunda reunión en **Aquisgrán** con Freifunk Aachen. El resultado: Parker ahora también funciona en FFMUC, con dos sitios e IPv4 a través de IPv6. Nuestros paquetes están en revisión upstream: [community-packages#198 a #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
+Siguió una larga y buena discusión sobre roaming, privacidad y prefijos IPv6 fijos, también con personas de otras comunidades. El **19 y 20 de octubre de 2024** nos reunimos en persona con FFBS ([notas](https://pad.stratum0.org/p/freifunk_20240717_parker)). El fin de semana pasado (**14 y 15 de noviembre de 2026**) hubo una segunda reunión en **Aquisgrán** con Freifunk Aachen. El resultado: Parker ahora también funciona en FFMUC, con dos sitios e IPv4 a través de IPv6. Nuestros paquetes están en revisión upstream: [community-packages#198 a #203](https://github.com/freifunk-gluon/community-packages/pull/198).
 
 ## ¡Gracias!
 
@@ -424,7 +424,7 @@ El nodo consulta el servicio de configuración (broker wgkex, `broker.ffmuc.net`
 
 ### Upstream
 
-Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-packages#198 a #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203) (multi-sitio, 464XLAT, CLAT eBPF, respondd, filtro RA y migración).
+Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-packages#198 a #203](https://github.com/freifunk-gluon/community-packages/pull/198) (multi-sitio, 464XLAT, CLAT eBPF, respondd, filtro RA y migración).
 
 </section>
 
@@ -454,7 +454,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 - **Кожен вузол має власний IPv6-префікс.** Немає спільної мережі рівня 2 і broadcast-трафіку з інших місць.
 - **IPv4 працює далі**, але по дорозі передається через IPv6 (464XLAT).
 - **Вузол сам обирає майданчик**: Мюнхен або Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
-- Для тих, хто лише користується Wi-Fi, нічого не змінюється: той самий SSID, те саме обладнання.
+- **Нова назва Wi-Fi**: `muenchen.freifunk.net/parker`. Обладнання те саме.
 
 ## Як тестувати
 
@@ -464,7 +464,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 4. Перевірте, що ваш вузол з'явився на [карті Parker](https://map-parker.ffmuc.net/).
 5. Розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), що працює, а що ні.
 
-**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Спершу напишіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), і ми разом сплануємо тест.
+**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Оновіть усі вузли mesh-мережі до Parker і розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), як усе працює. Вузли Parker не утворюють mesh зі звичайними вузлами, тому всі вузли в mesh-мережі мають працювати на Parker.
 
 ## Повернення до звичайної прошивки
 
@@ -478,7 +478,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 У квітні 2021 року ми описали ідею маршрутизованої мережі FFMUC у [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv лише в локальному mesh. Невдовзі відповів **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) з **Freifunk Braunschweig (FFBS)**: FFBS вже будував саме це під назвою [Parker](https://freifunk-bs.de/parker.html). Брауншвейг використовує його з кінця 2021 року. Більше в блозі FFBS (німецькою): [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) і [Project Parker у бета-режимі (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
-Далі була довга й корисна дискусія про роумінг, приватність і фіксовані IPv6-префікси, також з людьми з інших спільнот. **19–20 жовтня 2024 року** ми особисто зустрілися з FFBS ([нотатки](https://pad.stratum0.org/p/freifunk_20240717_parker)). **14–15 листопада 2026 року** відбулася друга зустріч в **Ахені** з Freifunk Aachen. Результат: Parker тепер працює і в нас, з двома майданчиками та IPv4 через IPv6. Наші пакети на рев'ю upstream: [community-packages#198–#203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
+Далі була довга й корисна дискусія про роумінг, приватність і фіксовані IPv6-префікси, також з людьми з інших спільнот. **19–20 жовтня 2024 року** ми особисто зустрілися з FFBS ([нотатки](https://pad.stratum0.org/p/freifunk_20240717_parker)). Минулих вихідних (**14–15 листопада 2026 року**) відбулася друга зустріч в **Ахені** з Freifunk Aachen. Результат: Parker тепер працює і в нас, з двома майданчиками та IPv4 через IPv6. Наші пакети на рев'ю upstream: [community-packages#198–#203](https://github.com/freifunk-gluon/community-packages/pull/198).
 
 ## Дякуємо!
 
@@ -530,6 +530,6 @@ Parker — спільна робота багатьох спільнот. **Дя
 
 ### Upstream
 
-Пакети Parker на рев'ю в Gluon: [freifunk-gluon/community-packages#198–#203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203) (мультисайт, 464XLAT, eBPF CLAT, respondd, RA-фільтр і міграція).
+Пакети Parker на рев'ю в Gluon: [freifunk-gluon/community-packages#198–#203](https://github.com/freifunk-gluon/community-packages/pull/198) (мультисайт, 464XLAT, eBPF CLAT, respondd, RA-фільтр і міграція).
 
 </section>
