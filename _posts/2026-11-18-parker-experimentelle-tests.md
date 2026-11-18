@@ -30,7 +30,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 - **Eigenes IPv6-Präfix für jeden Knoten.** Es gibt kein gemeinsames Layer-2-Netz mehr und keinen Broadcast-Verkehr von anderen Orten.
 - **IPv4 geht weiter**, wird aber unterwegs über IPv6 transportiert (464XLAT).
 - **Der Knoten wählt selbst den Standort**: München oder Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
-- **WLAN-Name**: Bleibt `muenchen.freifunk.net`, wie bei der normalen Firmware. Parker braucht keinen eigenen WLAN-Namen. Die Hardware bleibt gleich.
+- **Ein WLAN-Name für alle**: Heute braucht jede Domäne einen eigenen WLAN-Namen (z. B. `muenchen.freifunk.net/augsburg`), damit die großen gemeinsamen Netze getrennt bleiben. Mit Parker ist das nicht mehr nötig: Alle Parker-Knoten senden überall `muenchen.freifunk.net`. Die Hardware bleibt gleich.
 
 ## So testest du
 
@@ -136,7 +136,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 - **Each node gets its own IPv6 prefix.** There is no shared layer-2 network and no broadcast traffic from other places.
 - **IPv4 continues to work.** It goes through IPv6 on the way (464XLAT).
 - **The node selects the site itself**: Munich or Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
-- **Wi-Fi name**: It stays `muenchen.freifunk.net`, the same as the normal firmware. Parker does not need a separate Wi-Fi name. The hardware stays the same.
+- **One Wi-Fi name for all**: Today, each domain needs its own Wi-Fi name (for example `muenchen.freifunk.net/augsburg`) to keep the large shared networks separate. With Parker, this is not necessary. All Parker nodes send `muenchen.freifunk.net` everywhere. The hardware stays the same.
 
 ## How to test
 
@@ -242,7 +242,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 - **Chaque nœud a son propre préfixe IPv6.** Il n'y a plus de réseau commun de couche 2 ni de trafic broadcast venant d'ailleurs.
 - **L'IPv4 fonctionne toujours**, mais passe par IPv6 en chemin (464XLAT).
 - **Le nœud choisit lui-même le site** : Munich ou Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
-- **Nom Wi-Fi** : il reste `muenchen.freifunk.net`, comme avec le firmware normal. Parker n'a pas besoin d'un nom Wi-Fi séparé. Le matériel reste le même.
+- **Un seul nom Wi-Fi pour tous** : aujourd'hui, chaque domaine a besoin de son propre nom Wi-Fi (par ex. `muenchen.freifunk.net/augsburg`) pour garder les grands réseaux communs séparés. Avec Parker, ce n'est plus nécessaire : tous les nœuds Parker diffusent `muenchen.freifunk.net` partout. Le matériel reste le même.
 
 ## Comment tester
 
@@ -348,7 +348,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 - **Cada nodo tiene su propio prefijo IPv6.** Ya no hay una red compartida de capa 2 ni tráfico broadcast de otros lugares.
 - **IPv4 sigue funcionando**, pero viaja por IPv6 en el camino (464XLAT).
 - **El nodo elige el sitio por sí mismo**: Múnich o Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
-- **Nombre de Wi-Fi**: sigue siendo `muenchen.freifunk.net`, igual que con el firmware normal. Parker no necesita un nombre de Wi-Fi propio. El hardware es el mismo.
+- **Un solo nombre de Wi-Fi para todos**: hoy cada dominio necesita su propio nombre de Wi-Fi (p. ej. `muenchen.freifunk.net/augsburg`) para mantener separadas las grandes redes compartidas. Con Parker ya no hace falta: todos los nodos Parker emiten `muenchen.freifunk.net` en todas partes. El hardware es el mismo.
 
 ## Cómo probar
 
@@ -454,7 +454,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 - **Кожен вузол має власний IPv6-префікс.** Немає спільної мережі рівня 2 і broadcast-трафіку з інших місць.
 - **IPv4 працює далі**, але по дорозі передається через IPv6 (464XLAT).
 - **Вузол сам обирає майданчик**: Мюнхен або Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
-- **Назва Wi-Fi**: залишається `muenchen.freifunk.net`, як і у звичайній прошивці. Parker не потребує окремої назви Wi-Fi. Обладнання те саме.
+- **Одна назва Wi-Fi для всіх**: зараз кожен домен потребує власної назви Wi-Fi (наприклад, `muenchen.freifunk.net/augsburg`), щоб великі спільні мережі залишалися окремими. З Parker це більше не потрібно: усі вузли Parker всюди транслюють `muenchen.freifunk.net`. Обладнання те саме.
 
 ## Як тестувати
 
