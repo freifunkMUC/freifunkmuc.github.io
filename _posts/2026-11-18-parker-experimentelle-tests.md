@@ -55,7 +55,7 @@ Hilfe bekommst du jederzeit im [Test-Kanal](https://chat.ffmuc.net/freifunk/chan
 
 ## Wie es dazu kam
 
-Im April 2021 haben wir in [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87) die Idee eines gerouteten FFMUC beschrieben: batman-adv nur noch im lokalen Mesh. Kurz danach meldete sich **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) von **Freifunk Braunschweig (FFBS)**: FFBS baut genau so etwas schon, unter dem Namen [Parker](https://freifunk-bs.de/parker.html). Seit Ende 2021 läuft Braunschweig damit.
+Im April 2021 haben wir in [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87) die Idee eines gerouteten FFMUC beschrieben: batman-adv nur noch im lokalen Mesh. Kurz danach meldete sich **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) von **Freifunk Braunschweig (FFBS)**: FFBS baut genau so etwas schon, unter dem Namen [Parker](https://freifunk-bs.de/parker.html). Seit Ende 2021 läuft Braunschweig damit. Mehr dazu im FFBS-Blog: [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) und [Project Parker im Beta-Betrieb (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
 Es folgte eine lange und gute Diskussion über Roaming, Datenschutz und feste IPv6-Präfixe, auch mit Leuten aus anderen Communities. Am **19./20. Oktober 2024** haben wir uns mit FFBS persönlich getroffen ([Notizen](https://pad.stratum0.org/p/freifunk_20240717_parker)). Am **14./15. November 2026** gab es ein Folgetreffen in **Aachen** mit Freifunk Aachen. Das Ergebnis: Parker läuft jetzt auch bei uns, mit zwei Standorten und IPv4 über IPv6. Unsere Pakete sind upstream im Review: [community-packages#198 bis #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
 
@@ -164,7 +164,7 @@ You can get help at any time in the [test channel](https://chat.ffmuc.net/freifu
 
 ## History
 
-In April 2021, we described the idea of a routed FFMUC in [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv only in the local mesh. Soon after, **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) from **Freifunk Braunschweig (FFBS)** replied: FFBS already built this, with the name [Parker](https://freifunk-bs.de/parker.html). Braunschweig uses it since the end of 2021.
+In April 2021, we described the idea of a routed FFMUC in [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv only in the local mesh. Soon after, **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) from **Freifunk Braunschweig (FFBS)** replied: FFBS already built this, with the name [Parker](https://freifunk-bs.de/parker.html). Braunschweig uses it since the end of 2021. Read more in the FFBS blog (German): [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) and [Project Parker in beta (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
 A long and good discussion followed about roaming, privacy and fixed IPv6 prefixes, also with people from other communities. On **19/20 October 2024** we met FFBS in person ([notes](https://pad.stratum0.org/p/freifunk_20240717_parker)). On **14/15 November 2026** we had a second meeting in **Aachen** with Freifunk Aachen. The result: Parker now also runs at FFMUC, with two sites and IPv4 through IPv6. Our packages are in upstream review: [community-packages#198 to #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
 
@@ -273,7 +273,7 @@ Vous trouverez de l'aide à tout moment dans le [canal de test](https://chat.ffm
 
 ## L'histoire
 
-En avril 2021, nous avons décrit l'idée d'un FFMUC routé dans [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87) : batman-adv seulement dans le mesh local. Peu après, **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) de **Freifunk Braunschweig (FFBS)** a répondu : FFBS construisait déjà exactement cela, sous le nom [Parker](https://freifunk-bs.de/parker.html). Braunschweig l'utilise depuis fin 2021.
+En avril 2021, nous avons décrit l'idée d'un FFMUC routé dans [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87) : batman-adv seulement dans le mesh local. Peu après, **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) de **Freifunk Braunschweig (FFBS)** a répondu : FFBS construisait déjà exactement cela, sous le nom [Parker](https://freifunk-bs.de/parker.html). Braunschweig l'utilise depuis fin 2021. Pour en savoir plus, voir le blog de FFBS (en allemand) : [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) et [Project Parker en bêta (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
 Une longue et bonne discussion a suivi sur le roaming, la vie privée et les préfixes IPv6 fixes, aussi avec des personnes d'autres communautés. Les **19 et 20 octobre 2024**, nous avons rencontré FFBS en personne ([notes](https://pad.stratum0.org/p/freifunk_20240717_parker)). Les **14 et 15 novembre 2026**, une deuxième rencontre a eu lieu à **Aix-la-Chapelle** avec Freifunk Aachen. Résultat : Parker tourne maintenant aussi chez nous, avec deux sites et l'IPv4 via IPv6. Nos paquets sont en revue upstream : [community-packages#198 à #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
 
@@ -382,7 +382,7 @@ Puedes pedir ayuda en cualquier momento en el [canal de pruebas](https://chat.ff
 
 ## La historia
 
-En abril de 2021 describimos la idea de un FFMUC enrutado en [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv solo en el mesh local. Poco después respondió **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) de **Freifunk Braunschweig (FFBS)**: FFBS ya estaba construyendo exactamente eso, con el nombre [Parker](https://freifunk-bs.de/parker.html). Braunschweig lo usa desde finales de 2021.
+En abril de 2021 describimos la idea de un FFMUC enrutado en [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv solo en el mesh local. Poco después respondió **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) de **Freifunk Braunschweig (FFBS)**: FFBS ya estaba construyendo exactamente eso, con el nombre [Parker](https://freifunk-bs.de/parker.html). Braunschweig lo usa desde finales de 2021. Más información en el blog de FFBS (en alemán): [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) y [Project Parker en beta (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
 Siguió una larga y buena discusión sobre roaming, privacidad y prefijos IPv6 fijos, también con personas de otras comunidades. El **19 y 20 de octubre de 2024** nos reunimos en persona con FFBS ([notas](https://pad.stratum0.org/p/freifunk_20240717_parker)). El **14 y 15 de noviembre de 2026** hubo una segunda reunión en **Aquisgrán** con Freifunk Aachen. El resultado: Parker ahora también funciona en FFMUC, con dos sitios e IPv4 a través de IPv6. Nuestros paquetes están en revisión upstream: [community-packages#198 a #203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
 
@@ -491,7 +491,7 @@ Parker:   телефон ─ вузол (маленький роутер) ──
 
 ## Історія
 
-У квітні 2021 року ми описали ідею маршрутизованої мережі FFMUC у [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv лише в локальному mesh. Невдовзі відповів **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) з **Freifunk Braunschweig (FFBS)**: FFBS вже будував саме це під назвою [Parker](https://freifunk-bs.de/parker.html). Брауншвейг використовує його з кінця 2021 року.
+У квітні 2021 року ми описали ідею маршрутизованої мережі FFMUC у [site-ffm#87](https://github.com/freifunkMUC/site-ffm/issues/87): batman-adv лише в локальному mesh. Невдовзі відповів **Chris Fiege** ([@SmithChart](https://github.com/SmithChart)) з **Freifunk Braunschweig (FFBS)**: FFBS вже будував саме це під назвою [Parker](https://freifunk-bs.de/parker.html). Брауншвейг використовує його з кінця 2021 року. Більше в блозі FFBS (німецькою): [Project Parker (2018)](https://stratum0.org/blog/posts/2018/12/22/freifunk-parker/) і [Project Parker у бета-режимі (2020)](https://stratum0.org/blog/posts/2020/01/12/freifunk-parker/).
 
 Далі була довга й корисна дискусія про роумінг, приватність і фіксовані IPv6-префікси, також з людьми з інших спільнот. **19–20 жовтня 2024 року** ми особисто зустрілися з FFBS ([нотатки](https://pad.stratum0.org/p/freifunk_20240717_parker)). **14–15 листопада 2026 року** відбулася друга зустріч в **Ахені** з Freifunk Aachen. Результат: Parker тепер працює і в нас, з двома майданчиками та IPv4 через IPv6. Наші пакети на рев'ю upstream: [community-packages#198–#203](https://github.com/freifunk-gluon/community-packages/pulls?q=is%3Apr+198..203).
 
