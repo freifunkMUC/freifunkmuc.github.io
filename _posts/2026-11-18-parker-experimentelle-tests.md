@@ -12,7 +12,7 @@ translations: [en, fr, es, ua]
 
 > ⚠️ **Sehr experimentell.** Du kannst von der normalen FFMUC-Firmware auf Parker updaten. **Rechne aber damit, dass du zurück auf die normale Firmware musst.** Nimm keinen Knoten, auf den andere Menschen angewiesen sind.
 
-- **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (Version `v2026.11.0-parker1`)
+- **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (Version `v2026.11.0-parker2`)
 - **Test-Kanal im Chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Fehler melden:** als Issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) oder im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Karte der Test-Knoten:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
@@ -30,7 +30,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 - **Eigenes IPv6-Präfix für jeden Knoten.** Es gibt kein gemeinsames Layer-2-Netz mehr und keinen Broadcast-Verkehr von anderen Orten.
 - **IPv4 geht weiter**, wird aber unterwegs über IPv6 transportiert (464XLAT).
 - **Der Knoten wählt selbst den Standort**: München oder Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
-- **WLAN-Name**: Die Test-Firmware sendet zurzeit `muenchen.freifunk.net/parker`. Wahrscheinlich wird das wieder `muenchen.freifunk.net`, weil Parker keinen eigenen WLAN-Namen mehr braucht. Die Hardware bleibt gleich.
+- **WLAN-Name**: Bleibt `muenchen.freifunk.net`, wie bei der normalen Firmware. Parker braucht keinen eigenen WLAN-Namen. Die Hardware bleibt gleich.
 
 ## So testest du
 
@@ -118,7 +118,7 @@ Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#1
 
 > ⚠️ **Very experimental.** You can upgrade from the normal FFMUC firmware to Parker. **But be ready to go back to the normal firmware.** Do not use a node that other people depend on.
 
-- **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
+- **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker2`)
 - **Test channel in our chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Report bugs:** as an issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) or in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Map of the test nodes:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
@@ -136,7 +136,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 - **Each node gets its own IPv6 prefix.** There is no shared layer-2 network and no broadcast traffic from other places.
 - **IPv4 continues to work.** It goes through IPv6 on the way (464XLAT).
 - **The node selects the site itself**: Munich or Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
-- **Wi-Fi name**: The test firmware currently sends `muenchen.freifunk.net/parker`. This will probably change back to `muenchen.freifunk.net`, because Parker does not need a separate Wi-Fi name. The hardware stays the same.
+- **Wi-Fi name**: It stays `muenchen.freifunk.net`, the same as the normal firmware. Parker does not need a separate Wi-Fi name. The hardware stays the same.
 
 ## How to test
 
@@ -224,7 +224,7 @@ The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#1
 
 > ⚠️ **Très expérimental.** Vous pouvez passer du firmware FFMUC normal à Parker. **Mais soyez prêt à revenir au firmware normal.** N'utilisez pas un nœud dont d'autres personnes dépendent.
 
-- **Firmware :** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
+- **Firmware :** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker2`)
 - **Canal de test dans le chat :** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Signaler un bug :** comme issue dans [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) ou dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Carte des nœuds de test :** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
@@ -242,7 +242,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 - **Chaque nœud a son propre préfixe IPv6.** Il n'y a plus de réseau commun de couche 2 ni de trafic broadcast venant d'ailleurs.
 - **L'IPv4 fonctionne toujours**, mais passe par IPv6 en chemin (464XLAT).
 - **Le nœud choisit lui-même le site** : Munich ou Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
-- **Nom Wi-Fi** : le firmware de test diffuse pour l'instant `muenchen.freifunk.net/parker`. Il redeviendra probablement `muenchen.freifunk.net`, car Parker n'a plus besoin d'un nom Wi-Fi séparé. Le matériel reste le même.
+- **Nom Wi-Fi** : il reste `muenchen.freifunk.net`, comme avec le firmware normal. Parker n'a pas besoin d'un nom Wi-Fi séparé. Le matériel reste le même.
 
 ## Comment tester
 
@@ -330,7 +330,7 @@ Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages
 
 > ⚠️ **Muy experimental.** Puedes actualizar del firmware normal de FFMUC a Parker. **Pero prepárate para volver al firmware normal.** No uses un nodo del que dependan otras personas.
 
-- **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (versión `v2026.11.0-parker1`)
+- **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (versión `v2026.11.0-parker2`)
 - **Canal de pruebas en el chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Informar de errores:** como issue en [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) o en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Mapa de los nodos de prueba:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
@@ -348,7 +348,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 - **Cada nodo tiene su propio prefijo IPv6.** Ya no hay una red compartida de capa 2 ni tráfico broadcast de otros lugares.
 - **IPv4 sigue funcionando**, pero viaja por IPv6 en el camino (464XLAT).
 - **El nodo elige el sitio por sí mismo**: Múnich o Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
-- **Nombre de Wi-Fi**: el firmware de prueba emite por ahora `muenchen.freifunk.net/parker`. Probablemente vuelva a ser `muenchen.freifunk.net`, porque Parker ya no necesita un nombre de Wi-Fi propio. El hardware es el mismo.
+- **Nombre de Wi-Fi**: sigue siendo `muenchen.freifunk.net`, igual que con el firmware normal. Parker no necesita un nombre de Wi-Fi propio. El hardware es el mismo.
 
 ## Cómo probar
 
@@ -436,7 +436,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 > ⚠️ **Дуже експериментально.** Ви можете оновитися зі звичайної прошивки FFMUC до Parker. **Але будьте готові повернутися до звичайної прошивки.** Не використовуйте вузол, від якого залежать інші люди.
 
-- **Прошивка:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (версія `v2026.11.0-parker1`)
+- **Прошивка:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (версія `v2026.11.0-parker2`)
 - **Тестовий канал у чаті:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Повідомити про помилку:** як issue в [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) або в тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Карта тестових вузлів:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
@@ -454,7 +454,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 - **Кожен вузол має власний IPv6-префікс.** Немає спільної мережі рівня 2 і broadcast-трафіку з інших місць.
 - **IPv4 працює далі**, але по дорозі передається через IPv6 (464XLAT).
 - **Вузол сам обирає майданчик**: Мюнхен або Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
-- **Назва Wi-Fi**: тестова прошивка зараз транслює `muenchen.freifunk.net/parker`. Імовірно, назва знову стане `muenchen.freifunk.net`, бо Parker більше не потребує окремої назви Wi-Fi. Обладнання те саме.
+- **Назва Wi-Fi**: залишається `muenchen.freifunk.net`, як і у звичайній прошивці. Parker не потребує окремої назви Wi-Fi. Обладнання те саме.
 
 ## Як тестувати
 
