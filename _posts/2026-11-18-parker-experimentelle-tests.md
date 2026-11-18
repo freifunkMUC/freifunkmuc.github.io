@@ -30,7 +30,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 - **Eigenes IPv6-Präfix für jeden Knoten.** Es gibt kein gemeinsames Layer-2-Netz mehr und keinen Broadcast-Verkehr von anderen Orten.
 - **IPv4 geht weiter**, wird aber unterwegs über IPv6 transportiert (464XLAT).
 - **Der Knoten wählt selbst den Standort**: München oder Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
-- **Neuer WLAN-Name**: `muenchen.freifunk.net/parker`. Die Hardware bleibt gleich.
+- **WLAN-Name**: Die Test-Firmware sendet zurzeit `muenchen.freifunk.net/parker`. Wahrscheinlich wird das wieder `muenchen.freifunk.net`, weil Parker keinen eigenen WLAN-Namen mehr braucht. Die Hardware bleibt gleich.
 
 ## So testest du
 
@@ -136,7 +136,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 - **Each node gets its own IPv6 prefix.** There is no shared layer-2 network and no broadcast traffic from other places.
 - **IPv4 continues to work.** It goes through IPv6 on the way (464XLAT).
 - **The node selects the site itself**: Munich or Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
-- **New Wi-Fi name**: `muenchen.freifunk.net/parker`. The hardware stays the same.
+- **Wi-Fi name**: The test firmware currently sends `muenchen.freifunk.net/parker`. This will probably change back to `muenchen.freifunk.net`, because Parker does not need a separate Wi-Fi name. The hardware stays the same.
 
 ## How to test
 
@@ -242,7 +242,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 - **Chaque nœud a son propre préfixe IPv6.** Il n'y a plus de réseau commun de couche 2 ni de trafic broadcast venant d'ailleurs.
 - **L'IPv4 fonctionne toujours**, mais passe par IPv6 en chemin (464XLAT).
 - **Le nœud choisit lui-même le site** : Munich ou Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
-- **Nouveau nom Wi-Fi** : `muenchen.freifunk.net/parker`. Le matériel reste le même.
+- **Nom Wi-Fi** : le firmware de test diffuse pour l'instant `muenchen.freifunk.net/parker`. Il redeviendra probablement `muenchen.freifunk.net`, car Parker n'a plus besoin d'un nom Wi-Fi séparé. Le matériel reste le même.
 
 ## Comment tester
 
@@ -348,7 +348,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 - **Cada nodo tiene su propio prefijo IPv6.** Ya no hay una red compartida de capa 2 ni tráfico broadcast de otros lugares.
 - **IPv4 sigue funcionando**, pero viaja por IPv6 en el camino (464XLAT).
 - **El nodo elige el sitio por sí mismo**: Múnich o Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
-- **Nuevo nombre de Wi-Fi**: `muenchen.freifunk.net/parker`. El hardware es el mismo.
+- **Nombre de Wi-Fi**: el firmware de prueba emite por ahora `muenchen.freifunk.net/parker`. Probablemente vuelva a ser `muenchen.freifunk.net`, porque Parker ya no necesita un nombre de Wi-Fi propio. El hardware es el mismo.
 
 ## Cómo probar
 
@@ -454,7 +454,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 - **Кожен вузол має власний IPv6-префікс.** Немає спільної мережі рівня 2 і broadcast-трафіку з інших місць.
 - **IPv4 працює далі**, але по дорозі передається через IPv6 (464XLAT).
 - **Вузол сам обирає майданчик**: Мюнхен або Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
-- **Нова назва Wi-Fi**: `muenchen.freifunk.net/parker`. Обладнання те саме.
+- **Назва Wi-Fi**: тестова прошивка зараз транслює `muenchen.freifunk.net/parker`. Імовірно, назва знову стане `muenchen.freifunk.net`, бо Parker більше не потребує окремої назви Wi-Fi. Обладнання те саме.
 
 ## Як тестувати
 
