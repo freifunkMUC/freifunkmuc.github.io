@@ -19,14 +19,11 @@ translations: [en, fr, es, ua]
 
 ## Was ist Parker?
 
-Heute hängen alle Knoten in einem großen gemeinsamen Netz („Layer 2“). Jedes Gerät sieht viel Verkehr von anderen Orten. Das kostet Leistung auf kleinen Routern und begrenzt, wie groß das Netz werden kann.
+Heute bilden alle Knoten zusammen **ein großes gemeinsames Netz**. Das ist wie ein riesiger Raum, in dem jedes Gerät das Hintergrundgemurmel aller anderen Geräte hört. Je mehr Knoten dazukommen, desto lauter wird es.
 
-Mit Parker wird **jeder Knoten mit Internet-Anschluss zu einem kleinen Router** für seine eigenen Clients. Das Mesh vor Ort (batman-adv) bleibt, wie es ist. Zu unseren Servern geht nur noch geroutetes IPv6.
+Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Netz mit eigenen IPv6-Adressen. Der Knoten ist ein kleiner Router. Er schickt nur den Verkehr seiner eigenen Clients durch einen verschlüsselten Tunnel zu unseren Servern. Das Gemurmel der anderen hört er nicht mehr.
 
-```
-Heute:   Handy ─ Knoten ═══ ein großes Netz für alle ═══ Gateway ─ Internet
-Parker:  Handy ─ Knoten (kleiner Router) ── IPv6-Tunnel ── Gateway ─ Internet
-```
+**Das bringt dir:** weniger Hintergrundverkehr, ein stabileres Netz, und das Netz kann weiter wachsen. Dein Mesh vor Ort bleibt, wie es ist.
 
 ## Was ändert sich für dich?
 
@@ -128,14 +125,11 @@ Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#1
 
 ## What is Parker?
 
-Today, all nodes are in one large shared network ("layer 2"). Each device sees much traffic from other places. This uses power on small routers and limits the size of the network.
+Today, all nodes make **one large shared network**. This is like one very large room: each device hears the background noise of all other devices. When more nodes join, the noise increases.
 
-With Parker, **each node with an Internet connection is a small router** for its own clients. The local mesh (batman-adv) does not change. Only routed IPv6 goes to our servers.
+With Parker, **each node gets its own small room**: its own network with its own IPv6 addresses. The node is a small router. It sends only the traffic of its own clients through an encrypted tunnel to our servers. It does not hear the noise of the other nodes.
 
-```
-Today:   phone ─ node ═══ one large network for all ═══ gateway ─ Internet
-Parker:  phone ─ node (small router) ── IPv6 tunnel ── gateway ─ Internet
-```
+**What you get:** less background traffic, a more stable network, and the network can become larger. Your local mesh does not change.
 
 ## What changes for you?
 
@@ -237,14 +231,11 @@ The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#1
 
 ## Qu'est-ce que Parker ?
 
-Aujourd'hui, tous les nœuds sont dans un grand réseau commun (« couche 2 »). Chaque appareil voit beaucoup de trafic venant d'ailleurs. Cela coûte de la puissance aux petits routeurs et limite la taille du réseau.
+Aujourd'hui, tous les nœuds forment **un seul grand réseau commun**. C'est comme une immense salle où chaque appareil entend le bruit de fond de tous les autres. Plus il y a de nœuds, plus le bruit augmente.
 
-Avec Parker, **chaque nœud avec un accès Internet devient un petit routeur** pour ses propres clients. Le mesh local (batman-adv) reste inchangé. Seul de l'IPv6 routé va vers nos serveurs.
+Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec ses propres adresses IPv6. Le nœud est un petit routeur. Il envoie seulement le trafic de ses propres clients dans un tunnel chiffré vers nos serveurs. Il n'entend plus le bruit des autres.
 
-```
-Aujourd'hui : téléphone ─ nœud ═══ un grand réseau pour tous ═══ passerelle ─ Internet
-Parker :      téléphone ─ nœud (petit routeur) ── tunnel IPv6 ── passerelle ─ Internet
-```
+**Ce que vous y gagnez :** moins de trafic de fond, un réseau plus stable, et un réseau qui peut grandir. Votre mesh local reste tel quel.
 
 ## Qu'est-ce qui change pour vous ?
 
@@ -346,14 +337,11 @@ Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages
 
 ## ¿Qué es Parker?
 
-Hoy todos los nodos están en una gran red compartida («capa 2»). Cada dispositivo ve mucho tráfico de otros lugares. Eso cuesta rendimiento en routers pequeños y limita el tamaño de la red.
+Hoy todos los nodos forman **una sola red grande y compartida**. Es como una sala enorme donde cada dispositivo oye el murmullo de fondo de todos los demás. Cuantos más nodos hay, más ruido.
 
-Con Parker, **cada nodo con conexión a Internet se convierte en un pequeño router** para sus propios clientes. El mesh local (batman-adv) no cambia. Hacia nuestros servidores solo va IPv6 enrutado.
+Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus propias direcciones IPv6. El nodo es un pequeño router. Envía solo el tráfico de sus propios clientes por un túnel cifrado a nuestros servidores. Ya no oye el murmullo de los demás.
 
-```
-Hoy:     móvil ─ nodo ═══ una gran red para todos ═══ gateway ─ Internet
-Parker:  móvil ─ nodo (pequeño router) ── túnel IPv6 ── gateway ─ Internet
-```
+**Lo que ganas:** menos tráfico de fondo, una red más estable y una red que puede crecer más. Tu mesh local no cambia.
 
 ## ¿Qué cambia para ti?
 
@@ -455,14 +443,11 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 ## Що таке Parker?
 
-Сьогодні всі вузли знаходяться в одній великій спільній мережі («рівень 2»). Кожен пристрій бачить багато трафіку з інших місць. Це навантажує маленькі роутери й обмежує розмір мережі.
+Сьогодні всі вузли разом утворюють **одну велику спільну мережу**. Це як величезна кімната, де кожен пристрій чує фоновий гомін усіх інших. Чим більше вузлів, тим голосніше.
 
-З Parker **кожен вузол із підключенням до Інтернету стає маленьким роутером** для своїх клієнтів. Локальний mesh (batman-adv) не змінюється. До наших серверів іде лише маршрутизований IPv6.
+З Parker **кожен вузол отримує власну маленьку кімнату**: свою мережу з власними IPv6-адресами. Вузол — це маленький роутер. Він надсилає лише трафік своїх клієнтів через зашифрований тунель до наших серверів. Гомону інших він більше не чує.
 
-```
-Сьогодні: телефон ─ вузол ═══ одна велика мережа для всіх ═══ шлюз ─ Інтернет
-Parker:   телефон ─ вузол (маленький роутер) ── тунель IPv6 ── шлюз ─ Інтернет
-```
+**Що це дає вам:** менше фонового трафіку, стабільніша мережа, і мережа може рости далі. Ваш локальний mesh не змінюється.
 
 ## Що зміниться для вас?
 
