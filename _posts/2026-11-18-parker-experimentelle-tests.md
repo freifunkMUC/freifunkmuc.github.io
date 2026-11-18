@@ -14,7 +14,7 @@ translations: [en, fr, es, ua]
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (Version `v2026.11.0-parker1`)
 - **Test-Kanal im Chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
-- **Fehler melden:** als Issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) oder im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Fehler melden:** als Issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) oder im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Karte der Test-Knoten:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## Was ist Parker?
@@ -38,9 +38,9 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 2. Lade das passende **Sysupgrade-Image** von [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Prüfe Modell **und Hardware-Revision**.
 3. Spiele es wie gewohnt ein: im **Konfigurationsmodus** über „Firmware aktualisieren“ oder per SSH mit `sysupgrade`.
 4. Prüfe, ob dein Knoten auf der [Parker-Karte](https://map-parker.ffmuc.net/) erscheint.
-5. Sag uns im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), was geht und was nicht.
+5. Sag uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), was geht und was nicht.
 
-**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Schreib uns vorher im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), dann planen wir den Test zusammen.
+**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Schreib uns vorher im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), dann planen wir den Test zusammen.
 
 ## Zurück zur normalen Firmware
 
@@ -48,7 +48,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 2. Starte den Knoten im **Konfigurationsmodus** (Reset-Taste beim Start gedrückt halten) oder melde dich per SSH an.
 3. Spiele das normale Image ein. Klappt der Start danach nicht sauber: **Einstellungen nicht übernehmen** (`sysupgrade -n`) und den Knoten neu einrichten.
 
-Hilfe bekommst du jederzeit im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
+Hilfe bekommst du jederzeit im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
 
 ## Wie es dazu kam
 
@@ -120,7 +120,7 @@ Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#1
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
 - **Test channel in our chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
-- **Report bugs:** as an issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) or in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Report bugs:** as an issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) or in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Map of the test nodes:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## What is Parker?
@@ -144,9 +144,9 @@ With Parker, **each node gets its own small room**: its own network with its own
 2. Download the correct **sysupgrade image** from [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Check the model **and the hardware revision**.
 3. Install it as usual: in **config mode** with "Upgrade firmware", or with `sysupgrade` through SSH.
 4. Make sure that your node shows on the [Parker map](https://map-parker.ffmuc.net/).
-5. Tell us in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) what works and what does not work.
+5. Tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) what works and what does not work.
 
-**Do you have a mesh?** We also want to test Parker with meshes. Write to us in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) before you start. Then we plan the test together.
+**Do you have a mesh?** We also want to test Parker with meshes. Write to us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) before you start. Then we plan the test together.
 
 ## Go back to the normal firmware
 
@@ -154,7 +154,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 2. Start the node in **config mode** (push and hold the reset button during start), or connect through SSH.
 3. Install the normal image. If the node does not start correctly: **do not keep the settings** (`sysupgrade -n`) and set up the node again.
 
-You can get help at any time in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
+You can get help at any time in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
 
 ## History
 
@@ -226,7 +226,7 @@ The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#1
 
 - **Firmware :** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
 - **Canal de test dans le chat :** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
-- **Signaler un bug :** comme issue dans [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) ou dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Signaler un bug :** comme issue dans [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) ou dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Carte des nœuds de test :** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## Qu'est-ce que Parker ?
@@ -250,9 +250,9 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 2. Téléchargez la bonne **image sysupgrade** sur [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Vérifiez le modèle **et la révision matérielle**.
 3. Installez-la comme d'habitude : en **mode configuration** avec « Mettre à jour le firmware », ou avec `sysupgrade` via SSH.
 4. Vérifiez que votre nœud apparaît sur la [carte Parker](https://map-parker.ffmuc.net/).
-5. Dites-nous dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) ce qui marche et ce qui ne marche pas.
+5. Dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) ce qui marche et ce qui ne marche pas.
 
-**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Écrivez-nous d'abord dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) et nous planifions le test ensemble.
+**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Écrivez-nous d'abord dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) et nous planifions le test ensemble.
 
 ## Revenir au firmware normal
 
@@ -260,7 +260,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 2. Démarrez le nœud en **mode configuration** (maintenez le bouton reset pendant le démarrage) ou connectez-vous via SSH.
 3. Installez l'image normale. Si le nœud ne démarre pas correctement : **ne gardez pas les réglages** (`sysupgrade -n`) et configurez le nœud à nouveau.
 
-Vous trouverez de l'aide à tout moment dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
+Vous trouverez de l'aide à tout moment dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
 
 ## L'histoire
 
@@ -332,7 +332,7 @@ Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (versión `v2026.11.0-parker1`)
 - **Canal de pruebas en el chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
-- **Informar de errores:** como issue en [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) o en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Informar de errores:** como issue en [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) o en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Mapa de los nodos de prueba:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## ¿Qué es Parker?
@@ -356,9 +356,9 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 2. Descarga la **imagen sysupgrade** correcta de [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Comprueba el modelo **y la revisión de hardware**.
 3. Instálala como siempre: en el **modo de configuración** con «Actualizar firmware», o con `sysupgrade` por SSH.
 4. Comprueba que tu nodo aparece en el [mapa de Parker](https://map-parker.ffmuc.net/).
-5. Cuéntanos en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) qué funciona y qué no.
+5. Cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) qué funciona y qué no.
 
-**¿Tienes un mesh?** También queremos probar Parker con meshes. Escríbenos antes en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) y planificamos la prueba juntos.
+**¿Tienes un mesh?** También queremos probar Parker con meshes. Escríbenos antes en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) y planificamos la prueba juntos.
 
 ## Volver al firmware normal
 
@@ -366,7 +366,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 2. Arranca el nodo en **modo de configuración** (mantén pulsado el botón reset al arrancar) o conéctate por SSH.
 3. Instala la imagen normal. Si el nodo no arranca bien: **no conserves los ajustes** (`sysupgrade -n`) y configura el nodo de nuevo.
 
-Puedes pedir ayuda en cualquier momento en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
+Puedes pedir ayuda en cualquier momento en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
 
 ## La historia
 
@@ -438,7 +438,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 
 - **Прошивка:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (версія `v2026.11.0-parker1`)
 - **Тестовий канал у чаті:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
-- **Повідомити про помилку:** як issue в [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) або в [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Повідомити про помилку:** як issue в [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) або в тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Карта тестових вузлів:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
 ## Що таке Parker?
@@ -462,9 +462,9 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 2. Завантажте правильний **sysupgrade-образ** з [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/). Перевірте модель **і апаратну ревізію**.
 3. Встановіть його як завжди: у **режимі налаштування** через «Оновити прошивку» або командою `sysupgrade` через SSH.
 4. Перевірте, що ваш вузол з'явився на [карті Parker](https://map-parker.ffmuc.net/).
-5. Розкажіть нам у [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), що працює, а що ні.
+5. Розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), що працює, а що ні.
 
-**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Спершу напишіть нам у [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), і ми разом сплануємо тест.
+**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Спершу напишіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), і ми разом сплануємо тест.
 
 ## Повернення до звичайної прошивки
 
@@ -472,7 +472,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 2. Запустіть вузол у **режимі налаштування** (утримуйте кнопку reset під час запуску) або підключіться через SSH.
 3. Встановіть звичайний образ. Якщо вузол не запускається правильно: **не зберігайте налаштування** (`sysupgrade -n`) і налаштуйте вузол заново.
 
-Допомогу можна отримати будь-коли в [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
+Допомогу можна отримати будь-коли в тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps).
 
 ## Історія
 
