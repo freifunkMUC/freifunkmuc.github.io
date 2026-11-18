@@ -13,7 +13,7 @@ translations: [en, fr, es, ua]
 > ⚠️ **Sehr experimentell.** Du kannst von der normalen FFMUC-Firmware auf Parker updaten. **Rechne aber damit, dass du zurück auf die normale Firmware musst.** Nimm keinen Knoten, auf den andere Menschen angewiesen sind.
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (Version `v2026.11.0-parker1`)
-- **Test-Kanal im Chat:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Test-Kanal im Chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Fehler melden:** als Issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) oder im [Test-Kanal](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Karte der Test-Knoten:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
@@ -119,7 +119,7 @@ Die Parker-Pakete sind im Review bei Gluon: [freifunk-gluon/community-packages#1
 > ⚠️ **Very experimental.** You can upgrade from the normal FFMUC firmware to Parker. **But be ready to go back to the normal firmware.** Do not use a node that other people depend on.
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
-- **Test channel in our chat:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Test channel in our chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Report bugs:** as an issue in [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) or in the [test channel](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Map of the test nodes:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
@@ -225,7 +225,7 @@ The Parker packages are in review at Gluon: [freifunk-gluon/community-packages#1
 > ⚠️ **Très expérimental.** Vous pouvez passer du firmware FFMUC normal à Parker. **Mais soyez prêt à revenir au firmware normal.** N'utilisez pas un nœud dont d'autres personnes dépendent.
 
 - **Firmware :** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (version `v2026.11.0-parker1`)
-- **Canal de test dans le chat :** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Canal de test dans le chat :** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Signaler un bug :** comme issue dans [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) ou dans le [canal de test](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Carte des nœuds de test :** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
@@ -331,7 +331,7 @@ Les paquets Parker sont en revue chez Gluon : [freifunk-gluon/community-packages
 > ⚠️ **Muy experimental.** Puedes actualizar del firmware normal de FFMUC a Parker. **Pero prepárate para volver al firmware normal.** No uses un nodo del que dependan otras personas.
 
 - **Firmware:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (versión `v2026.11.0-parker1`)
-- **Canal de pruebas en el chat:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Canal de pruebas en el chat:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Informar de errores:** como issue en [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) o en el [canal de pruebas](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Mapa de los nodos de prueba:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
@@ -437,7 +437,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 > ⚠️ **Дуже експериментально.** Ви можете оновитися зі звичайної прошивки FFMUC до Parker. **Але будьте готові повернутися до звичайної прошивки.** Не використовуйте вузол, від якого залежать інші люди.
 
 - **Прошивка:** [firmware.ffmuc.net/parker/](https://firmware.ffmuc.net/parker/) (версія `v2026.11.0-parker1`)
-- **Тестовий канал у чаті:** [Projekt – L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
+- **Тестовий канал у чаті:** [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Повідомити про помилку:** як issue в [freifunkMUC/site-ffm](https://github.com/freifunkMUC/site-ffm/issues) або в [тестовому каналі](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps)
 - **Карта тестових вузлів:** [map-parker.ffmuc.net](https://map-parker.ffmuc.net/)
 
