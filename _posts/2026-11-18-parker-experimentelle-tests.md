@@ -40,7 +40,7 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 4. Prüfe, ob dein Knoten auf der [Parker-Karte](https://map-parker.ffmuc.net/) erscheint.
 5. Sag uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), was geht und was nicht.
 
-**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Aktualisiere alle Knoten im Mesh auf Parker und erzähl uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), wie es läuft. Parker-Knoten meshen nicht mit normalen Knoten, darum müssen alle Knoten im Mesh Parker haben.
+**Du hast ein Mesh?** Wir wollen Parker auch mit Meshes testen. Probier Parker in deinem Mesh aus und erzähl uns im Test-Kanal [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), wie es läuft. Parker-Knoten sind in einer eigenen Domäne. Sie meshen nur mit anderen Parker-Knoten, darum aktualisiere alle Knoten in deinem Mesh.
 
 ## Zurück zur normalen Firmware
 
@@ -146,7 +146,7 @@ With Parker, **each node gets its own small room**: its own network with its own
 4. Make sure that your node shows on the [Parker map](https://map-parker.ffmuc.net/).
 5. Tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) what works and what does not work.
 
-**Do you have a mesh?** We also want to test Parker with meshes. Update all nodes in the mesh to Parker and tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) how it works. Parker nodes do not mesh with normal nodes. Thus, all nodes in the mesh must run Parker.
+**Do you have a mesh?** We also want to test Parker with meshes. Try Parker in your mesh and tell us in the test channel [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) how it works. Parker nodes are in their own domain. They mesh only with other Parker nodes, so update all nodes in your mesh.
 
 ## Go back to the normal firmware
 
@@ -252,7 +252,7 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 4. Vérifiez que votre nœud apparaît sur la [carte Parker](https://map-parker.ffmuc.net/).
 5. Dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) ce qui marche et ce qui ne marche pas.
 
-**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Mettez à jour tous les nœuds du mesh vers Parker et dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) comment cela fonctionne. Les nœuds Parker ne forment pas de mesh avec les nœuds normaux : tous les nœuds du mesh doivent donc utiliser Parker.
+**Vous avez un mesh ?** Nous voulons aussi tester Parker avec des meshes. Essayez Parker dans votre mesh et dites-nous dans le canal de test [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) comment cela fonctionne. Les nœuds Parker sont dans leur propre domaine. Ils ne forment un mesh qu'avec d'autres nœuds Parker : mettez donc à jour tous les nœuds de votre mesh.
 
 ## Revenir au firmware normal
 
@@ -358,7 +358,7 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 4. Comprueba que tu nodo aparece en el [mapa de Parker](https://map-parker.ffmuc.net/).
 5. Cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) qué funciona y qué no.
 
-**¿Tienes un mesh?** También queremos probar Parker con meshes. Actualiza todos los nodos del mesh a Parker y cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) cómo funciona. Los nodos Parker no forman mesh con los nodos normales, así que todos los nodos del mesh deben usar Parker.
+**¿Tienes un mesh?** También queremos probar Parker con meshes. Prueba Parker en tu mesh y cuéntanos en el canal de pruebas [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps) cómo funciona. Los nodos Parker están en su propio dominio. Solo forman mesh con otros nodos Parker, así que actualiza todos los nodos de tu mesh.
 
 ## Volver al firmware normal
 
@@ -464,7 +464,7 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 4. Перевірте, що ваш вузол з'явився на [карті Parker](https://map-parker.ffmuc.net/).
 5. Розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), що працює, а що ні.
 
-**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Оновіть усі вузли mesh-мережі до Parker і розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), як усе працює. Вузли Parker не утворюють mesh зі звичайними вузлами, тому всі вузли в mesh-мережі мають працювати на Parker.
+**У вас є mesh?** Ми також хочемо тестувати Parker з mesh-мережами. Спробуйте Parker у своїй mesh-мережі й розкажіть нам у тестовому каналі [Projekt Parker - L3-routed APs](https://chat.ffmuc.net/freifunk/channels/projekt---l3-routed-aps), як усе працює. Вузли Parker мають власний домен. Вони утворюють mesh лише з іншими вузлами Parker, тому оновіть усі вузли у своїй mesh-мережі.
 
 ## Повернення до звичайної прошивки
 
