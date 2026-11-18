@@ -32,6 +32,12 @@ Mit Parker bekommt **jeder Knoten seinen eigenen kleinen Raum**: ein eigenes Net
 - **Der Knoten wählt selbst den Standort**: München oder Wien. Fällt einer aus, schaltet der Knoten in etwa 3 Sekunden um.
 - **Ein WLAN-Name für alle**: Heute braucht jede Domäne einen eigenen WLAN-Namen (z. B. `muenchen.freifunk.net/augsburg`), damit die großen gemeinsamen Netze getrennt bleiben. Mit Parker ist das nicht mehr nötig: Alle Parker-Knoten senden überall `muenchen.freifunk.net`. Die Hardware bleibt gleich.
 
+## Warum IPv6?
+
+Parker geht nur mit IPv6. Es gibt genug IPv6-Adressen, damit jeder Knoten seinen eigenen Adressbereich bekommt. Öffentliche IPv4-Adressen sind knapp, darum braucht IPv4 sowieso immer Adressumsetzung (NAT).
+
+Moderne Geräte (Handys, Laptops) nutzen bei Parker von selbst nur noch IPv6. Ältere Geräte bekommen weiter IPv4. Alles funktioniert wie gewohnt.
+
 ## So testest du
 
 1. **Notiere** Name, Standort und Kontakt deines Knotens.
@@ -86,9 +92,17 @@ Der Knoten fragt den Konfigurationsdienst (wgkex-Broker, `broker.ffmuc.net`, Any
 
 - **IPv6** geht unverändert durch den Tunnel zum Gateway des Standorts, dem das Quell-Präfix gehört.
 - **IPv4** nutzt **464XLAT**: Eine **eBPF-CLAT** auf dem Knoten übersetzt IPv4 in IPv6. **Jool (NAT64)** auf dem Gateway übersetzt zurück, danach SNAT.
-- Das RA enthält **PREF64 `64:ff9b::/96`**, DHCP sendet **Option 108**. Moderne Clients (Android, iOS, macOS) gehen damit IPv6-only. **DNS64** gibt es pro Standort.
+- **DNS64** gibt es pro Standort.
 
 ![IPv4-Pfad über 464XLAT](/assets/posts/2026-11-18-parker-ipv4-path.png)
+
+### Warum IPv6-mostly?
+
+- **Adressraum:** Jeder Knoten bekommt aus NetBox ein öffentliches **/63 pro Standort**. Routing pro Knoten statt eines großen Layer-2-Netzes geht nur, weil IPv6 genug Adressen hat. IPv4 braucht sowieso NAT.
+- **IPv6-mostly ([RFC 8925](https://www.rfc-editor.org/rfc/rfc8925)):** Der Knoten sendet DHCPv4-**Option 108** und kündigt das NAT64-Präfix `64:ff9b::/96` per **PREF64 ([RFC 8781](https://www.rfc-editor.org/rfc/rfc8781))** im RA an. Moderne Geräte (iOS, macOS, Android, neuere Windows-Versionen) schalten IPv4 dann selbst ab. Die wenigen reinen IPv4-Ziele übersetzt ihr eigenes CLAT auf dem Gerät.
+- **Ältere Geräte** bekommen weiter IPv4 per DHCP. Das CLAT auf dem Knoten übersetzt es.
+- **Ergebnis:** Der meiste Verkehr ist natives IPv6 von Ende zu Ende, ohne NAT und ohne IPv4-Zustand für diese Clients. Wir brauchen weniger knappe IPv4-Adressen. Das Design ist einfacher und zukunftssicher.
+- **Grenze:** Bei einem Standortwechsel starten IPv4-Verbindungen neu, und die öffentliche IPv4-Adresse ändert sich. IPv6 läuft weiter.
 
 ### Zwei Standorte: Active/Standby
 
@@ -137,6 +151,12 @@ With Parker, **each node gets its own small room**: its own network with its own
 - **IPv4 continues to work.** It goes through IPv6 on the way (464XLAT).
 - **The node selects the site itself**: Munich or Vienna. If one site fails, the node changes to the other site in approximately 3 seconds.
 - **One Wi-Fi name for all**: Today, each domain needs its own Wi-Fi name (for example `muenchen.freifunk.net/augsburg`) to keep the large shared networks separate. With Parker, this is not necessary. All Parker nodes send `muenchen.freifunk.net` everywhere. The hardware stays the same.
+
+## Why IPv6?
+
+Parker is possible only because of IPv6. There are sufficient IPv6 addresses to give each node its own address range. Public IPv4 addresses are scarce. Thus, IPv4 always needs address translation (NAT).
+
+With Parker, modern devices (phones, laptops) use only IPv6. They do this automatically. Older devices still get IPv4. Everything continues to work.
 
 ## How to test
 
@@ -192,9 +212,17 @@ The node asks the config service (wgkex broker, `broker.ffmuc.net`, anycast). It
 
 - **IPv6** goes through the tunnel without change. It goes to the gateway of the site that owns the source prefix.
 - **IPv4** uses **464XLAT**: an **eBPF CLAT** on the node translates IPv4 to IPv6. **Jool (NAT64)** on the gateway translates it back. Then SNAT occurs.
-- The RA has **PREF64 `64:ff9b::/96`**. DHCP sends **option 108**. Thus, modern clients (Android, iOS, macOS) use only IPv6. Each site has its own **DNS64**.
+- Each site has its own **DNS64**.
 
 ![IPv4 path through 464XLAT](/assets/posts/2026-11-18-parker-ipv4-path.png)
+
+### Why IPv6-mostly?
+
+- **Address space:** each node gets a public **/63 for each site** from NetBox. Routing for each node, instead of one large layer-2 network, is possible only because IPv6 has sufficient addresses. IPv4 needs NAT in all cases.
+- **IPv6-mostly ([RFC 8925](https://www.rfc-editor.org/rfc/rfc8925)):** the node sends DHCPv4 **option 108**. It announces the NAT64 prefix `64:ff9b::/96` with **PREF64 ([RFC 8781](https://www.rfc-editor.org/rfc/rfc8781))** in the RA. Modern devices (iOS, macOS, Android, newer Windows) then stop IPv4 themselves and use only IPv6. Their own CLAT on the device translates the few IPv4-only destinations.
+- **Older devices** still get IPv4 through DHCP. The CLAT on the node translates it.
+- **Result:** most traffic is native IPv6 from end to end, with no NAT and no IPv4 state for these clients. We need fewer scarce IPv4 addresses. The design is simpler and ready for the future.
+- **Limit:** at a site failover, IPv4 connections start again and the public IPv4 address changes. IPv6 continues.
 
 ### Two sites: active/standby
 
@@ -243,6 +271,12 @@ Avec Parker, **chaque nœud a sa propre petite salle** : son propre réseau avec
 - **L'IPv4 fonctionne toujours**, mais passe par IPv6 en chemin (464XLAT).
 - **Le nœud choisit lui-même le site** : Munich ou Vienne. Si un site tombe, le nœud bascule en 3 secondes environ.
 - **Un seul nom Wi-Fi pour tous** : aujourd'hui, chaque domaine a besoin de son propre nom Wi-Fi (par ex. `muenchen.freifunk.net/augsburg`) pour garder les grands réseaux communs séparés. Avec Parker, ce n'est plus nécessaire : tous les nœuds Parker diffusent `muenchen.freifunk.net` partout. Le matériel reste le même.
+
+## Pourquoi IPv6 ?
+
+Parker n'est possible que grâce à IPv6. Il y a assez d'adresses IPv6 pour donner à chaque nœud sa propre plage d'adresses. Les adresses IPv4 publiques sont rares : IPv4 a donc toujours besoin de traduction d'adresses (NAT).
+
+Avec Parker, les appareils modernes (téléphones, portables) utilisent automatiquement seulement IPv6. Les appareils plus anciens reçoivent toujours IPv4. Tout continue à fonctionner.
 
 ## Comment tester
 
@@ -298,9 +332,17 @@ Le nœud interroge le service de configuration (broker wgkex, `broker.ffmuc.net`
 
 - L'**IPv6** traverse le tunnel sans modification, vers la passerelle du site qui possède le préfixe source.
 - L'**IPv4** utilise **464XLAT** : un **CLAT eBPF** sur le nœud traduit IPv4 en IPv6. **Jool (NAT64)** sur la passerelle retraduit, puis SNAT.
-- Le RA contient **PREF64 `64:ff9b::/96`**, DHCP envoie l'**option 108**. Les clients modernes (Android, iOS, macOS) passent ainsi en IPv6 seul. Chaque site a son propre **DNS64**.
+- Chaque site a son propre **DNS64**.
 
 ![Chemin IPv4 via 464XLAT](/assets/posts/2026-11-18-parker-ipv4-path.png)
+
+### Pourquoi IPv6-mostly ?
+
+- **Espace d'adresses :** chaque nœud reçoit de NetBox un **/63 public par site**. Le routage par nœud, au lieu d'un grand réseau de couche 2, n'est possible que parce qu'IPv6 a assez d'adresses. IPv4 a besoin de NAT dans tous les cas.
+- **IPv6-mostly ([RFC 8925](https://www.rfc-editor.org/rfc/rfc8925)) :** le nœud envoie l'**option 108** DHCPv4 et annonce le préfixe NAT64 `64:ff9b::/96` avec **PREF64 ([RFC 8781](https://www.rfc-editor.org/rfc/rfc8781))** dans le RA. Les appareils modernes (iOS, macOS, Android, Windows récent) désactivent alors IPv4 eux-mêmes. Leur propre CLAT traduit sur l'appareil les rares destinations IPv4 seulement.
+- **Les appareils plus anciens** reçoivent toujours IPv4 par DHCP. Le CLAT du nœud le traduit.
+- **Résultat :** la plupart du trafic est en IPv6 natif de bout en bout, sans NAT et sans état IPv4 pour ces clients. Nous avons besoin de moins d'adresses IPv4 rares. Le design est plus simple et prêt pour l'avenir.
+- **Limite :** lors d'un basculement de site, les connexions IPv4 redémarrent et l'adresse IPv4 publique change. IPv6 continue.
 
 ### Deux sites : actif/veille
 
@@ -349,6 +391,12 @@ Con Parker, **cada nodo tiene su propia sala pequeña**: su propia red con sus p
 - **IPv4 sigue funcionando**, pero viaja por IPv6 en el camino (464XLAT).
 - **El nodo elige el sitio por sí mismo**: Múnich o Viena. Si uno falla, el nodo cambia al otro en unos 3 segundos.
 - **Un solo nombre de Wi-Fi para todos**: hoy cada dominio necesita su propio nombre de Wi-Fi (p. ej. `muenchen.freifunk.net/augsburg`) para mantener separadas las grandes redes compartidas. Con Parker ya no hace falta: todos los nodos Parker emiten `muenchen.freifunk.net` en todas partes. El hardware es el mismo.
+
+## ¿Por qué IPv6?
+
+Parker solo es posible gracias a IPv6. Hay suficientes direcciones IPv6 para dar a cada nodo su propio rango de direcciones. Las direcciones IPv4 públicas son escasas, así que IPv4 siempre necesita traducción de direcciones (NAT).
+
+Con Parker, los dispositivos modernos (móviles, portátiles) usan automáticamente solo IPv6. Los dispositivos más antiguos siguen recibiendo IPv4. Todo sigue funcionando.
 
 ## Cómo probar
 
@@ -404,9 +452,17 @@ El nodo consulta el servicio de configuración (broker wgkex, `broker.ffmuc.net`
 
 - **IPv6** pasa por el túnel sin cambios, hacia el gateway del sitio al que pertenece el prefijo de origen.
 - **IPv4** usa **464XLAT**: un **CLAT eBPF** en el nodo traduce IPv4 a IPv6. **Jool (NAT64)** en el gateway lo traduce de vuelta y después hace SNAT.
-- El RA lleva **PREF64 `64:ff9b::/96`** y DHCP envía la **opción 108**. Así los clientes modernos (Android, iOS, macOS) pasan a solo IPv6. Cada sitio tiene su propio **DNS64**.
+- Cada sitio tiene su propio **DNS64**.
 
 ![Camino IPv4 vía 464XLAT](/assets/posts/2026-11-18-parker-ipv4-path.png)
+
+### ¿Por qué IPv6-mostly?
+
+- **Espacio de direcciones:** cada nodo recibe de NetBox un **/63 público por sitio**. El enrutamiento por nodo, en lugar de una gran red de capa 2, solo es posible porque IPv6 tiene suficientes direcciones. IPv4 necesita NAT en todo caso.
+- **IPv6-mostly ([RFC 8925](https://www.rfc-editor.org/rfc/rfc8925)):** el nodo envía la **opción 108** de DHCPv4 y anuncia el prefijo NAT64 `64:ff9b::/96` con **PREF64 ([RFC 8781](https://www.rfc-editor.org/rfc/rfc8781))** en el RA. Los dispositivos modernos (iOS, macOS, Android, Windows reciente) desactivan IPv4 por sí mismos. Su propio CLAT traduce en el dispositivo los pocos destinos solo IPv4.
+- **Los dispositivos más antiguos** siguen recibiendo IPv4 por DHCP. El CLAT del nodo lo traduce.
+- **Resultado:** la mayor parte del tráfico es IPv6 nativo de extremo a extremo, sin NAT y sin estado IPv4 para estos clientes. Necesitamos menos direcciones IPv4 escasas. El diseño es más simple y está preparado para el futuro.
+- **Límite:** en un cambio de sitio, las conexiones IPv4 se reinician y la dirección IPv4 pública cambia. IPv6 continúa.
 
 ### Dos sitios: activo/reserva
 
@@ -455,6 +511,12 @@ Los paquetes de Parker están en revisión en Gluon: [freifunk-gluon/community-p
 - **IPv4 працює далі**, але по дорозі передається через IPv6 (464XLAT).
 - **Вузол сам обирає майданчик**: Мюнхен або Відень. Якщо один не працює, вузол перемикається приблизно за 3 секунди.
 - **Одна назва Wi-Fi для всіх**: зараз кожен домен потребує власної назви Wi-Fi (наприклад, `muenchen.freifunk.net/augsburg`), щоб великі спільні мережі залишалися окремими. З Parker це більше не потрібно: усі вузли Parker всюди транслюють `muenchen.freifunk.net`. Обладнання те саме.
+
+## Чому IPv6?
+
+Parker можливий лише завдяки IPv6. IPv6-адрес достатньо, щоб кожен вузол отримав власний діапазон адрес. Публічних IPv4-адрес мало, тому IPv4 завжди потребує трансляції адрес (NAT).
+
+З Parker сучасні пристрої (телефони, ноутбуки) автоматично використовують лише IPv6. Старіші пристрої й далі отримують IPv4. Усе працює як і раніше.
 
 ## Як тестувати
 
@@ -510,9 +572,17 @@ Parker — спільна робота багатьох спільнот. **Дя
 
 - **IPv6** проходить через тунель без змін до шлюзу майданчика, якому належить префікс джерела.
 - **IPv4** використовує **464XLAT**: **eBPF CLAT** на вузлі перекладає IPv4 в IPv6. **Jool (NAT64)** на шлюзі перекладає назад, потім SNAT.
-- RA містить **PREF64 `64:ff9b::/96`**, DHCP надсилає **опцію 108**. Тож сучасні клієнти (Android, iOS, macOS) працюють лише з IPv6. Кожен майданчик має свій **DNS64**.
+- Кожен майданчик має свій **DNS64**.
 
 ![Шлях IPv4 через 464XLAT](/assets/posts/2026-11-18-parker-ipv4-path.png)
+
+### Чому IPv6-mostly?
+
+- **Адресний простір:** кожен вузол отримує з NetBox публічний **/63 для кожного майданчика**. Маршрутизація для кожного вузла замість однієї великої мережі рівня 2 можлива лише тому, що IPv6 має достатньо адрес. IPv4 у будь-якому разі потребує NAT.
+- **IPv6-mostly ([RFC 8925](https://www.rfc-editor.org/rfc/rfc8925)):** вузол надсилає DHCPv4 **опцію 108** і оголошує NAT64-префікс `64:ff9b::/96` через **PREF64 ([RFC 8781](https://www.rfc-editor.org/rfc/rfc8781))** в RA. Сучасні пристрої (iOS, macOS, Android, новіші Windows) тоді самі вимикають IPv4. Їхній власний CLAT на пристрої транслює небагато адрес, доступних лише через IPv4.
+- **Старіші пристрої** й далі отримують IPv4 через DHCP. CLAT на вузлі транслює його.
+- **Результат:** більшість трафіку — нативний IPv6 від кінця до кінця, без NAT і без IPv4-стану для цих клієнтів. Потрібно менше дефіцитних IPv4-адрес. Дизайн простіший і готовий до майбутнього.
+- **Обмеження:** під час перемикання майданчика IPv4-з'єднання починаються заново, а публічна IPv4-адреса змінюється. IPv6 працює далі.
 
 ### Два майданчики: активний/резервний
 
