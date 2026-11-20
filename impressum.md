@@ -6,6 +6,8 @@ permalink: /impressum/
 
 # Impressum
 
+Stand: November 2026
+
 Freie Netze München e. V.  
 Parkstraße 28  
 82131 Gauting
