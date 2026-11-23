@@ -24,6 +24,9 @@ Frühere Beiträge: [Parker: experimentelle Tests]({% post_url 2026-11-18-parker
 - **Verschlüsseltes WLAN (OWE), optional:** eine zusätzliche SSID `<ssid>/encrypted` neben der offenen SSID. Du schaltest sie selbst ein.
 - **Bis zu 1024 Clients pro Knoten** als Standard. DHCP-Pool, Verbindungs- und Nachbartabellen sind dafür ausgelegt.
 - **Neuer Event-Modus für große Veranstaltungen.** Du schaltest ihn im Konfigurationsmodus ein. Mit 256 MB RAM schafft ein Knoten bis zu etwa **4000 Clients**. Router mit 128 MB bekommen eine kleinere Erhöhung. Unter 128 MB gibt es keinen Event-Modus. Das Einschalten wirkt sofort, das Ausschalten erst nach einem Neustart.
+
+  ![Event-Modus im Konfigurationsmodus von Parker](/assets/posts/2026-11-23-parker-event-mode-de.png)
+
 - **Robusteres Routing:** Die IPv6-Standardroute zeigt jetzt auf die Link-Local-Adresse des Gateways.
 - **Weniger Gateway-Wechsel:** Der Server hält den Knoten auf seinem Gateway. Der Knoten legt das Gateway nicht mehr selbst fest.
 - **Weniger Last:** Der Knoten lädt seine Konfiguration nicht mehr alle 2 Minuten neu, wenn sich nichts geändert hat.
@@ -85,6 +88,9 @@ Earlier posts: [Parker: experimental tests]({% post_url 2026-11-18-parker-experi
 - **Encrypted Wi-Fi (OWE), optional:** an additional SSID `<ssid>/encrypted` next to the open SSID. You turn it on yourself.
 - **Up to 1024 clients per node** by default. The DHCP pool, connection tables and neighbour tables have the necessary size.
 - **New event mode for large events.** You turn it on in config mode. With 256 MB RAM, a node can serve up to about **4000 clients**. Routers with 128 MB get a smaller increase. Below 128 MB, there is no event mode. Turning it on works immediately. Turning it off takes effect after a reboot.
+
+  ![Event mode in the Parker config mode](/assets/posts/2026-11-23-parker-event-mode-en.png)
+
 - **More robust routing:** The IPv6 default route now points to the link-local address of the gateway.
 - **Fewer gateway changes:** The server keeps the node on its gateway. The node no longer sets the gateway itself.
 - **Less load:** The node no longer reloads its configuration every 2 minutes when nothing changed.
@@ -146,6 +152,9 @@ Articles précédents : [Parker : tests expérimentaux]({% post_url 2026-11-18-p
 - **Wi-Fi chiffré (OWE), en option :** un SSID supplémentaire `<ssid>/encrypted` à côté du SSID ouvert. Vous l'activez vous-même.
 - **Jusqu'à 1024 clients par nœud** par défaut. Le pool DHCP et les tables de connexions et de voisins ont la taille nécessaire.
 - **Nouveau mode événement pour les grands événements.** Vous l'activez en mode configuration. Avec 256 Mo de RAM, un nœud sert jusqu'à environ **4000 clients**. Les routeurs avec 128 Mo reçoivent une hausse plus petite. Sous 128 Mo, il n'y a pas de mode événement. L'activation agit tout de suite. La désactivation agit après un redémarrage.
+
+  ![Mode événement dans le mode configuration de Parker (interface en anglais)](/assets/posts/2026-11-23-parker-event-mode-en.png)
+
 - **Routage plus robuste :** La route IPv6 par défaut pointe maintenant vers l'adresse link-local de la passerelle.
 - **Moins de changements de passerelle :** Le serveur garde le nœud sur sa passerelle. Le nœud ne fixe plus la passerelle lui-même.
 - **Moins de charge :** Le nœud ne recharge plus sa configuration toutes les 2 minutes si rien n'a changé.
@@ -207,6 +216,9 @@ Artículos anteriores: [Parker: pruebas experimentales]({% post_url 2026-11-18-p
 - **Wi-Fi cifrado (OWE), opcional:** un SSID adicional `<ssid>/encrypted` junto al SSID abierto. Lo activas tú.
 - **Hasta 1024 clientes por nodo** por defecto. El pool DHCP y las tablas de conexiones y de vecinos tienen el tamaño necesario.
 - **Nuevo modo evento para eventos grandes.** Lo activas en el modo de configuración. Con 256 MB de RAM, un nodo atiende hasta unos **4000 clientes**. Los routers con 128 MB reciben un aumento menor. Por debajo de 128 MB no hay modo evento. Activarlo funciona al momento. Desactivarlo tiene efecto después de reiniciar.
+
+  ![Modo evento en el modo de configuración de Parker (interfaz en inglés)](/assets/posts/2026-11-23-parker-event-mode-en.png)
+
 - **Enrutamiento más robusto:** La ruta IPv6 por defecto apunta ahora a la dirección link-local del gateway.
 - **Menos cambios de gateway:** El servidor mantiene el nodo en su gateway. El nodo ya no fija el gateway por sí mismo.
 - **Menos carga:** El nodo ya no recarga su configuración cada 2 minutos si nada cambió.
@@ -268,6 +280,9 @@ Tenemos una buena sensación: Parker será pronto el firmware estable. Antes que
 - **Зашифрований Wi-Fi (OWE), за бажанням:** додатковий SSID `<ssid>/encrypted` поруч із відкритим SSID. Ви вмикаєте його самі.
 - **До 1024 клієнтів на вузол** за замовчуванням. Пул DHCP, таблиці з'єднань і сусідів мають потрібний розмір.
 - **Новий режим подій для великих заходів.** Ви вмикаєте його в режимі конфігурації. З 256 МБ RAM вузол обслуговує приблизно до **4000 клієнтів**. Роутери зі 128 МБ отримують менше збільшення. Нижче 128 МБ режиму подій немає. Увімкнення діє одразу. Вимкнення діє після перезавантаження.
+
+  ![Режим подій у режимі конфігурації Parker (інтерфейс англійською)](/assets/posts/2026-11-23-parker-event-mode-en.png)
+
 - **Надійніша маршрутизація:** Маршрут IPv6 за замовчуванням тепер вказує на link-local адресу шлюзу.
 - **Менше змін шлюзу:** Сервер тримає вузол на його шлюзі. Вузол більше не фіксує шлюз сам.
 - **Менше навантаження:** Вузол більше не перезавантажує конфігурацію кожні 2 хвилини, якщо нічого не змінилося.
