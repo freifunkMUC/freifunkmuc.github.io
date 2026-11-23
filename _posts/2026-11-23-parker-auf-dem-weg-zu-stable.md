@@ -22,8 +22,8 @@ Frühere Beiträge: [Parker: experimentelle Tests]({% post_url 2026-11-18-parker
 - **Zwei Standorte: München und Wien.** Fällt ein Standort aus, schaltet der Knoten automatisch auf den anderen um und später wieder zurück.
 - **DNS64 an jedem Standort** und **IPv4 über IPv6** mit einer CLAT auf dem Knoten. Alte Geräte, die nur IPv4 können, funktionieren weiter.
 - **Verschlüsseltes WLAN (OWE):** eine zusätzliche SSID `<ssid>/encrypted` neben der offenen SSID. Sie ist immer an.
-- **Bis zu 1024 Clients pro Knoten** als Standard: 1024 DHCP-Adressen, Nachbartabelle 4096 Einträge, Verbindungstabelle (Conntrack) 16384 Einträge.
-- **Neuer Event-Modus für große Veranstaltungen.** Du schaltest ihn im Konfigurationsmodus ein. Der Client-Bereich wächst von /22 auf /20: **4093 DHCP-Adressen** statt 1024. Die Tabellen hängen vom RAM ab:
+- **Bis zu 1021 Clients pro Knoten** als Standard: 1021 DHCP-Adressen (ein /22 ohne Netz-, Broadcast- und Router-Adresse), Nachbartabelle 4096 Einträge, Verbindungstabelle (Conntrack) 16384 Einträge.
+- **Neuer Event-Modus für große Veranstaltungen.** Du schaltest ihn im Konfigurationsmodus ein. Der Client-Bereich wächst von /22 auf /20: **4093 DHCP-Adressen** statt 1021. Die Tabellen hängen vom RAM ab:
   - **256 MB RAM oder mehr:** Nachbartabelle 16384, Conntrack 65536, DNS-Cache 4096 Einträge.
   - **128 MB RAM:** Nachbartabelle 8192, Conntrack 32768, DNS-Cache 2048 Einträge.
   - **Unter 128 MB RAM:** kein Event-Modus.
@@ -91,8 +91,8 @@ Earlier posts: [Parker: experimental tests]({% post_url 2026-11-18-parker-experi
 - **Two sites: Munich and Vienna.** If one site fails, the node switches to the other site automatically, and later switches back.
 - **DNS64 at each site** and **IPv4 over IPv6** with a CLAT on the node. Old devices that can use only IPv4 continue to work.
 - **Encrypted Wi-Fi (OWE):** an additional SSID `<ssid>/encrypted` next to the open SSID. It is always on.
-- **Up to 1024 clients per node** by default: 1024 DHCP addresses, neighbour table 4096 entries, connection tracking (conntrack) 16384 entries.
-- **New event mode for large events.** You turn it on in config mode. The client network grows from /22 to /20: **4093 DHCP addresses** instead of 1024. The tables depend on the RAM:
+- **Up to 1021 clients per node** by default: 1021 DHCP addresses (a /22 without the network, broadcast and router address), neighbour table 4096 entries, connection tracking (conntrack) 16384 entries.
+- **New event mode for large events.** You turn it on in config mode. The client network grows from /22 to /20: **4093 DHCP addresses** instead of 1021. The tables depend on the RAM:
   - **256 MB RAM or more:** neighbour table 16384, conntrack 65536, DNS cache 4096 entries.
   - **128 MB RAM:** neighbour table 8192, conntrack 32768, DNS cache 2048 entries.
   - **Less than 128 MB RAM:** no event mode.
@@ -160,8 +160,8 @@ Articles précédents : [Parker : tests expérimentaux]({% post_url 2026-11-18-p
 - **Deux sites : Munich et Vienne.** Si un site tombe en panne, le nœud passe automatiquement à l'autre, puis revient plus tard.
 - **DNS64 sur chaque site** et **IPv4 sur IPv6** avec un CLAT sur le nœud. Les anciens appareils qui ne savent utiliser que l'IPv4 continuent de fonctionner.
 - **Wi-Fi chiffré (OWE) :** un SSID supplémentaire `<ssid>/encrypted` à côté du SSID ouvert. Il est toujours actif.
-- **Jusqu'à 1024 clients par nœud** par défaut : 1024 adresses DHCP, table des voisins 4096 entrées, suivi des connexions (conntrack) 16384 entrées.
-- **Nouveau mode événement pour les grands événements.** Vous l'activez en mode configuration. Le réseau des clients passe de /22 à /20 : **4093 adresses DHCP** au lieu de 1024. Les tables dépendent de la RAM :
+- **Jusqu'à 1021 clients par nœud** par défaut : 1021 adresses DHCP (un /22 sans les adresses de réseau, de broadcast et du routeur), table des voisins 4096 entrées, suivi des connexions (conntrack) 16384 entrées.
+- **Nouveau mode événement pour les grands événements.** Vous l'activez en mode configuration. Le réseau des clients passe de /22 à /20 : **4093 adresses DHCP** au lieu de 1021. Les tables dépendent de la RAM :
   - **256 Mo de RAM ou plus :** table des voisins 16384, conntrack 65536, cache DNS 4096 entrées.
   - **128 Mo de RAM :** table des voisins 8192, conntrack 32768, cache DNS 2048 entrées.
   - **Moins de 128 Mo de RAM :** pas de mode événement.
@@ -229,8 +229,8 @@ Artículos anteriores: [Parker: pruebas experimentales]({% post_url 2026-11-18-p
 - **Dos sitios: Múnich y Viena.** Si un sitio falla, el nodo cambia automáticamente al otro y después vuelve.
 - **DNS64 en cada sitio** e **IPv4 sobre IPv6** con un CLAT en el nodo. Los dispositivos antiguos que solo usan IPv4 siguen funcionando.
 - **Wi-Fi cifrado (OWE):** un SSID adicional `<ssid>/encrypted` junto al SSID abierto. Siempre está activo.
-- **Hasta 1024 clientes por nodo** por defecto: 1024 direcciones DHCP, tabla de vecinos 4096 entradas, seguimiento de conexiones (conntrack) 16384 entradas.
-- **Nuevo modo evento para eventos grandes.** Lo activas en el modo de configuración. La red de clientes crece de /22 a /20: **4093 direcciones DHCP** en lugar de 1024. Las tablas dependen de la RAM:
+- **Hasta 1021 clientes por nodo** por defecto: 1021 direcciones DHCP (un /22 sin las direcciones de red, broadcast y router), tabla de vecinos 4096 entradas, seguimiento de conexiones (conntrack) 16384 entradas.
+- **Nuevo modo evento para eventos grandes.** Lo activas en el modo de configuración. La red de clientes crece de /22 a /20: **4093 direcciones DHCP** en lugar de 1021. Las tablas dependen de la RAM:
   - **256 MB de RAM o más:** tabla de vecinos 16384, conntrack 65536, caché DNS 4096 entradas.
   - **128 MB de RAM:** tabla de vecinos 8192, conntrack 32768, caché DNS 2048 entradas.
   - **Menos de 128 MB de RAM:** no hay modo evento.
@@ -298,8 +298,8 @@ Tenemos una buena sensación: Parker será pronto el firmware estable. Antes que
 - **Два майданчики: Мюнхен і Відень.** Якщо один майданчик не працює, вузол автоматично перемикається на інший, а потім повертається назад.
 - **DNS64 на кожному майданчику** і **IPv4 через IPv6** з CLAT на вузлі. Старі пристрої, які знають лише IPv4, працюють далі.
 - **Зашифрований Wi-Fi (OWE):** додатковий SSID `<ssid>/encrypted` поруч із відкритим SSID. Він завжди увімкнений.
-- **До 1024 клієнтів на вузол** за замовчуванням: 1024 адреси DHCP, таблиця сусідів 4096 записів, відстеження з'єднань (conntrack) 16384 записи.
-- **Новий режим подій для великих заходів.** Ви вмикаєте його в режимі конфігурації. Мережа клієнтів зростає з /22 до /20: **4093 адреси DHCP** замість 1024. Таблиці залежать від RAM:
+- **До 1021 клієнта на вузол** за замовчуванням: 1021 адреса DHCP (мережа /22 без адрес мережі, broadcast і роутера), таблиця сусідів 4096 записів, відстеження з'єднань (conntrack) 16384 записи.
+- **Новий режим подій для великих заходів.** Ви вмикаєте його в режимі конфігурації. Мережа клієнтів зростає з /22 до /20: **4093 адреси DHCP** замість 1021. Таблиці залежать від RAM:
   - **256 МБ RAM або більше:** таблиця сусідів 16384, conntrack 65536, кеш DNS 4096 записів.
   - **128 МБ RAM:** таблиця сусідів 8192, conntrack 32768, кеш DNS 2048 записів.
   - **Менше 128 МБ RAM:** режиму подій немає.
