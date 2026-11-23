@@ -22,7 +22,7 @@ subtitle: # site tagline that appears below site title in masthead
 name: "Freie Netze München e.V."
 description: "Offenes WLAN und digitale Dienste für alle. Nichtkommerziell, datensparsam, in Europa gehostet."
 url: "https://ffmuc.net"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "" # set explicitly: with JEKYLL_ENV=production jekyll-github-metadata fills an empty one
 repository: "freifunkMUC/freifunkmuc.github.io"
 
 # Multi-language support
