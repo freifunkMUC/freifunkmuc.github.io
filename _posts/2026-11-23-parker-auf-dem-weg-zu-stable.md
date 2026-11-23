@@ -45,6 +45,8 @@ Wir haben ein gutes Gefühl, dass Parker bald die stabile Firmware wird. Vorher 
 - Knoten mit **LTE- oder Mobilfunk-Uplink**
 - Besitzer von **PowerPC-Routern** (mpc85xx, apm821xx)
 
+**Gut zu wissen:** Bis jetzt wollte kein Tester zurück zur alten Firmware. Probier es aus!
+
 > ⚠️ **Noch keine stabile Firmware.** Parker ist noch im Test. Prüfe vor dem Update **Modell und Hardware-Revision** deines Routers.
 
 ## So testest du Parker
@@ -103,6 +105,8 @@ We have a good feeling that Parker becomes the stable firmware soon. Before that
 - **events**, with event mode if possible
 - nodes with an **LTE or cellular uplink**
 - owners of **PowerPC routers** (mpc85xx, apm821xx)
+
+**Good to know:** Until now, no tester wanted to go back to the old firmware. Try it!
 
 > ⚠️ **Not a stable firmware yet.** Parker is still in test. Before the update, check the **model and hardware revision** of your router.
 
@@ -163,6 +167,8 @@ Nous avons un bon pressentiment : Parker deviendra bientôt le firmware stable. 
 - des nœuds avec une **liaison LTE ou mobile**
 - des propriétaires de **routeurs PowerPC** (mpc85xx, apm821xx)
 
+**Bon à savoir :** Jusqu'à présent, aucun testeur n'a voulu revenir à l'ancien firmware. Essayez !
+
 > ⚠️ **Pas encore un firmware stable.** Parker est encore en test. Avant la mise à jour, vérifiez le **modèle et la révision matérielle** de votre routeur.
 
 ## Comment tester Parker
@@ -222,6 +228,8 @@ Tenemos una buena sensación: Parker será pronto el firmware estable. Antes que
 - nodos con **enlace LTE o móvil**
 - propietarios de **routers PowerPC** (mpc85xx, apm821xx)
 
+**Bueno saberlo:** Hasta ahora, ningún tester ha querido volver al firmware antiguo. ¡Pruébalo!
+
 > ⚠️ **Aún no es un firmware estable.** Parker sigue en pruebas. Antes de actualizar, comprueba el **modelo y la revisión de hardware** de tu router.
 
 ## Cómo probar Parker
@@ -280,6 +288,8 @@ Tenemos una buena sensación: Parker será pronto el firmware estable. Antes que
 - **заходи**, бажано з режимом подій
 - вузли з **LTE або мобільним каналом**
 - власників **роутерів PowerPC** (mpc85xx, apm821xx)
+
+**Варто знати:** Досі жоден тестувальник не захотів повернутися до старої прошивки. Спробуйте!
 
 > ⚠️ **Це ще не стабільна прошивка.** Parker ще в тестуванні. Перед оновленням перевірте **модель і апаратну ревізію** вашого роутера.
 
