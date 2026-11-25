@@ -750,6 +750,13 @@ body::before,
     padding: 2px 6px;
     border-radius: 3px;
   }
+
+  /* Theme sets a light inline code background; keep it dark here. */
+  .page__content :not(pre) > code {
+    background: var(--background-alt);
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+  }
   
   pre {
     background: #1a1a1d;
@@ -912,6 +919,16 @@ table {
 
 /* Light mode specific footer */
 @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  /* Theme code blocks use light text for a dark background; our pre background is light. */
+  div.highlighter-rouge,
+  figure.highlight {
+    color: var(--text-color);
+
+    .highlight span {
+      color: inherit;
+    }
+  }
+
   .page__footer {
     color: #333 !important;
     

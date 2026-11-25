@@ -19,10 +19,10 @@ locale: "de-DE"
 title: "Freifunk München"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Freifunk München"
-description: "Freier Zugang zu Netz und digitalen Diensten ist ein Grundrecht. Freifunk München baut offene Funknetze und betreibt datenschutzfreundliche Infrastruktur: nichtkommerziell und in Europa gehostet."
+name: "Freie Netze München e.V."
+description: "Offenes WLAN und digitale Dienste für alle. Nichtkommerziell, datensparsam, in Europa gehostet."
 url: "https://ffmuc.net"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "" # set explicitly: with JEKYLL_ENV=production jekyll-github-metadata fills an empty one
 repository: "freifunkMUC/freifunkmuc.github.io"
 
 # Multi-language support
@@ -269,10 +269,13 @@ defaults:
     values:
       sitemap: false
 
+analytics:
+  provider: "custom"
+
 # Custom headers
 webrick:
   headers:
-    Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self'  ; connect-src 'self' firmware.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self' https://silo.ffmuc.net;
+    Content-Security-Policy: default-src 'none'; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://matomo.ffmuc.net ; connect-src 'self' firmware.ffmuc.net https://matomo.ffmuc.net; img-src 'self' cdn.rawgit.com raw.githubusercontent.com ; style-src 'self' 'unsafe-inline' 'unsafe-eval' ;    media-src 'self' ; font-src 'self'; frame-src 'self' https://silo.ffmuc.net;
 
 pagination:
   enabled: true
